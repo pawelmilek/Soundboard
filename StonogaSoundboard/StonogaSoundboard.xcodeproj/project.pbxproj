@@ -1,0 +1,1316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21ABD642AE97C4D00F93F01 /* StonogaSoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */; };
+		E21ABD662AE97C4D00F93F01 /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD652AE97C4D00F93F01 /* SoundboardView.swift */; };
+		E21ABD682AE97C4F00F93F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21ABD672AE97C4F00F93F01 /* Assets.xcassets */; };
+		E21ABD6B2AE97C4F00F93F01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21ABD6A2AE97C4F00F93F01 /* Preview Assets.xcassets */; };
+		E21ABD742AE9A87300F93F01 /* SoundboardView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD732AE9A87300F93F01 /* SoundboardView+ViewModel.swift */; };
+		E21ABD792AE9A8CF00F93F01 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD782AE9A8CF00F93F01 /* SoundModel.swift */; };
+		E21ABD7B2AE9A8F500F93F01 /* SoundRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD7A2AE9A8F500F93F01 /* SoundRowView.swift */; };
+		E21ABD7D2AE9A91900F93F01 /* SoundRowView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD7C2AE9A91900F93F01 /* SoundRowView+ViewModel.swift */; };
+		E25D656B2AED25B0000591DF /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D656A2AED25B0000591DF /* RoundCountView.swift */; };
+		E25D656D2AED3603000591DF /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D656C2AED3603000591DF /* PortraitView.swift */; };
+		E25D657E2AED3A44000591DF /* jestescie-tu-nielegalnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D656E2AED3A43000591DF /* jestescie-tu-nielegalnie.m4a */; };
+		E25D657F2AED3A44000591DF /* jak-was-platforma-nie-dymala.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D656F2AED3A44000591DF /* jak-was-platforma-nie-dymala.m4a */; };
+		E25D65802AED3A44000591DF /* j-p-c.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65702AED3A44000591DF /* j-p-c.m4a */; };
+		E25D65812AED3A44000591DF /* j-sie-k-jak-kroliki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65712AED3A44000591DF /* j-sie-k-jak-kroliki.m4a */; };
+		E25D65822AED3A44000591DF /* jec.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65722AED3A44000591DF /* jec.m4a */; };
+		E25D65832AED3A44000591DF /* ktorzy-doprowadzili-do-zniszczenia-mienia-w-tym-domu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65732AED3A44000591DF /* ktorzy-doprowadzili-do-zniszczenia-mienia-w-tym-domu.m4a */; };
+		E25D65842AED3A44000591DF /* juz-bilet-kupiony.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65742AED3A44000591DF /* juz-bilet-kupiony.m4a */; };
+		E25D65852AED3A44000591DF /* ktorzyscie-glosowali-na-mnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65752AED3A44000591DF /* ktorzyscie-glosowali-na-mnie.m4a */; };
+		E25D65862AED3A44000591DF /* jak-tylko-was-moze-jec-ps.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65762AED3A44000591DF /* jak-tylko-was-moze-jec-ps.m4a */; };
+		E25D65872AED3A44000591DF /* jedyne-co-chce-wyjechac-z-tego-polskiego-syfu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65772AED3A44000591DF /* jedyne-co-chce-wyjechac-z-tego-polskiego-syfu.m4a */; };
+		E25D65882AED3A44000591DF /* k-na-takich-jak-ty-to-szcze-cieplym-moczem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65782AED3A44000591DF /* k-na-takich-jak-ty-to-szcze-cieplym-moczem.m4a */; };
+		E25D65892AED3A44000591DF /* jest-prezydentem-tych-p-tam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65792AED3A44000591DF /* jest-prezydentem-tych-p-tam.m4a */; };
+		E25D658A2AED3A44000591DF /* ktorzy-to-kutwo-pe-wybrali.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D657A2AED3A44000591DF /* ktorzy-to-kutwo-pe-wybrali.m4a */; };
+		E25D658B2AED3A44000591DF /* kocham-polske-i-kocham-ludzi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D657B2AED3A44000591DF /* kocham-polske-i-kocham-ludzi.m4a */; };
+		E25D658D2AED3A44000591DF /* jesli-tyle-dla-was-znaczy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D657D2AED3A44000591DF /* jesli-tyle-dla-was-znaczy.m4a */; };
+		E25D65912AEEDD96000591DF /* ktorzyscie-wspomagali-mnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65902AEEDD96000591DF /* ktorzyscie-wspomagali-mnie.m4a */; };
+		E25D66142AEEDEC9000591DF /* tylko.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65922AEEDEC1000591DF /* tylko.m4a */; };
+		E25D66152AEEDEC9000591DF /* to-jest-wasz-majestat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65932AEEDEC1000591DF /* to-jest-wasz-majestat.m4a */; };
+		E25D66162AEEDEC9000591DF /* ty-k.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65942AEEDEC1000591DF /* ty-k.m4a */; };
+		E25D66172AEEDEC9000591DF /* no-i-ja-potwierdzam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65952AEEDEC1000591DF /* no-i-ja-potwierdzam.m4a */; };
+		E25D66182AEEDEC9000591DF /* nie-warto-bylo-zrobic-nic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65962AEEDEC2000591DF /* nie-warto-bylo-zrobic-nic.m4a */; };
+		E25D66192AEEDEC9000591DF /* w-ukryciu-siedze-bo-cos-tam-cos-tam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65972AEEDEC2000591DF /* w-ukryciu-siedze-bo-cos-tam-cos-tam.m4a */; };
+		E25D661A2AEEDEC9000591DF /* tylko-to-sie-w-tej-polsce-nadaje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65982AEEDEC2000591DF /* tylko-to-sie-w-tej-polsce-nadaje.m4a */; };
+		E25D661B2AEEDEC9000591DF /* nieporozumienie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65992AEEDEC2000591DF /* nieporozumienie.m4a */; };
+		E25D661C2AEEDEC9000591DF /* my-was-p.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D659A2AEEDEC2000591DF /* my-was-p.m4a */; };
+		E25D661D2AEEDEC9000591DF /* rozumiecie-to.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D659B2AEEDEC2000591DF /* rozumiecie-to.m4a */; };
+		E25D661E2AEEDEC9000591DF /* wjechal-pan-na-teren-posesji-prywatnej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D659C2AEEDEC2000591DF /* wjechal-pan-na-teren-posesji-prywatnej.m4a */; };
+		E25D661F2AEEDEC9000591DF /* wypiole-jeszcze-dzisiaj.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D659D2AEEDEC2000591DF /* wypiole-jeszcze-dzisiaj.m4a */; };
+		E25D66202AEEDEC9000591DF /* won-wypilac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D659E2AEEDEC2000591DF /* won-wypilac.m4a */; };
+		E25D66212AEEDEC9000591DF /* nie-umiesz-normalnie-rozmawiac-z-obywatelem-to-wypilaj-za-brame.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D659F2AEEDEC2000591DF /* nie-umiesz-normalnie-rozmawiac-z-obywatelem-to-wypilaj-za-brame.m4a */; };
+		E25D66222AEEDEC9000591DF /* nie-warto-bylo-kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A02AEEDEC2000591DF /* nie-warto-bylo-kua.m4a */; };
+		E25D66232AEEDEC9000591DF /* i-trzeba-was-jec-rchac-i-na-was-zarabiac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A12AEEDEC2000591DF /* i-trzeba-was-jec-rchac-i-na-was-zarabiac.m4a */; };
+		E25D66242AEEDEC9000591DF /* wynik-wyborczy-kww-stonogi-to-jest-jakas-porazka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A22AEEDEC2000591DF /* wynik-wyborczy-kww-stonogi-to-jest-jakas-porazka.m4a */; };
+		E25D66252AEEDEC9000591DF /* po-latach-uniewinnialy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A32AEEDEC3000591DF /* po-latach-uniewinnialy.m4a */; };
+		E25D66262AEEDEC9000591DF /* przez-was-kua-chje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A42AEEDEC3000591DF /* przez-was-kua-chje.m4a */; };
+		E25D66272AEEDEC9000591DF /* to-powtorze-jeszcze-raz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A52AEEDEC3000591DF /* to-powtorze-jeszcze-raz.m4a */; };
+		E25D66282AEEDEC9000591DF /* takie-zaangazowanie-spoleczne-jak-moje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A62AEEDEC3000591DF /* takie-zaangazowanie-spoleczne-jak-moje.m4a */; };
+		E25D66292AEEDEC9000591DF /* z-jednej-strony-kocham-polske-kocham-ludzi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A72AEEDEC3000591DF /* z-jednej-strony-kocham-polske-kocham-ludzi.m4a */; };
+		E25D662A2AEEDEC9000591DF /* budze-sie-codziennie-otwieram-oczy-znowu-w-tej-polsce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A82AEEDEC3000591DF /* budze-sie-codziennie-otwieram-oczy-znowu-w-tej-polsce.m4a */; };
+		E25D662B2AEEDEC9000591DF /* przez-taka-polske.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65A92AEEDEC3000591DF /* przez-taka-polske.m4a */; };
+		E25D662C2AEEDEC9000591DF /* tak-ty-jestes-c.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65AA2AEEDEC3000591DF /* tak-ty-jestes-c.m4a */; };
+		E25D662D2AEEDEC9000591DF /* odbieraj-telefon-smieciu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65AB2AEEDEC3000591DF /* odbieraj-telefon-smieciu.m4a */; };
+		E25D662E2AEEDEC9000591DF /* szkoda-bylo-9-spraw-karnych-szkoda-bylo-ujawniac-afery-podsluchowej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65AC2AEEDEC3000591DF /* szkoda-bylo-9-spraw-karnych-szkoda-bylo-ujawniac-afery-podsluchowej.m4a */; };
+		E25D662F2AEEDEC9000591DF /* cos-sie-cos-sie-popsulo-i-nie-bylo-mnie-slychac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65AD2AEEDEC3000591DF /* cos-sie-cos-sie-popsulo-i-nie-bylo-mnie-slychac.m4a */; };
+		E25D66302AEEDEC9000591DF /* moja-rodzine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65AE2AEEDEC3000591DF /* moja-rodzine.m4a */; };
+		E25D66312AEEDEC9000591DF /* ze-w-tym-antyludzkim-panstwie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65AF2AEEDEC3000591DF /* ze-w-tym-antyludzkim-panstwie.m4a */; };
+		E25D66322AEEDEC9000591DF /* spotkamy-sie-w-prokuraturze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B02AEEDEC3000591DF /* spotkamy-sie-w-prokuraturze.m4a */; };
+		E25D66332AEEDEC9000591DF /* k-to-j-pisowskie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B12AEEDEC3000591DF /* k-to-j-pisowskie.m4a */; };
+		E25D66342AEEDEC9000591DF /* kanie-rachonie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B22AEEDEC3000591DF /* kanie-rachonie.m4a */; };
+		E25D66352AEEDEC9000591DF /* ta-banda-imbecyli-co-glosowala-na-tych-karakanow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B32AEEDEC3000591DF /* ta-banda-imbecyli-co-glosowala-na-tych-karakanow.m4a */; };
+		E25D66362AEEDEC9000591DF /* kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B42AEEDEC3000591DF /* kua.m4a */; };
+		E25D66372AEEDEC9000591DF /* wasze-karty-kredytowe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B52AEEDEC4000591DF /* wasze-karty-kredytowe.m4a */; };
+		E25D66382AEEDEC9000591DF /* w-d-sie-r.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B62AEEDEC4000591DF /* w-d-sie-r.m4a */; };
+		E25D66392AEEDEC9000591DF /* zniszczy-was.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B72AEEDEC4000591DF /* zniszczy-was.m4a */; };
+		E25D663A2AEEDEC9000591DF /* na-kukizow-glosowali.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B82AEEDEC4000591DF /* na-kukizow-glosowali.m4a */; };
+		E25D663B2AEEDEC9000591DF /* to-ci-wojsko-wyprowadze-na-ulice.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65B92AEEDEC4000591DF /* to-ci-wojsko-wyprowadze-na-ulice.m4a */; };
+		E25D663C2AEEDEC9000591DF /* robota-w-korporacji-i-karta-z-debetem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65BA2AEEDEC4000591DF /* robota-w-korporacji-i-karta-z-debetem.m4a */; };
+		E25D663D2AEEDEC9000591DF /* nie-na-stonoge.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65BB2AEEDEC4000591DF /* nie-na-stonoge.m4a */; };
+		E25D663E2AEEDEC9000591DF /* to-was-powinno-sie-jec-kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65BC2AEEDEC4000591DF /* to-was-powinno-sie-jec-kua.m4a */; };
+		E25D663F2AEEDEC9000591DF /* prosze-wyjechac-stad-natychmiast.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65BD2AEEDEC4000591DF /* prosze-wyjechac-stad-natychmiast.m4a */; };
+		E25D66402AEEDEC9000591DF /* bo-jak-teraz-policja-przyjedzie-to-bedzie-inaczej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65BE2AEEDEC4000591DF /* bo-jak-teraz-policja-przyjedzie-to-bedzie-inaczej.m4a */; };
+		E25D66412AEEDEC9000591DF /* p-pisowski-k.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65BF2AEEDEC4000591DF /* p-pisowski-k.m4a */; };
+		E25D66422AEEDEC9000591DF /* ze-kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C02AEEDEC4000591DF /* ze-kua.m4a */; };
+		E25D66432AEEDEC9000591DF /* tacy-kua-debile.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C12AEEDEC4000591DF /* tacy-kua-debile.m4a */; };
+		E25D66442AEEDEC9000591DF /* nie-na-korwina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C22AEEDEC4000591DF /* nie-na-korwina.m4a */; };
+		E25D66452AEEDEC9000591DF /* w-tym-panstwie-media-nie-byly-w-stanie-powiedziec-ze-zbigniewa-stonoge.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C32AEEDEC4000591DF /* w-tym-panstwie-media-nie-byly-w-stanie-powiedziec-ze-zbigniewa-stonoge.m4a */; };
+		E25D66462AEEDEC9000591DF /* ziobro-kuo-jea.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C42AEEDEC4000591DF /* ziobro-kuo-jea.m4a */; };
+		E25D66472AEEDEC9000591DF /* odnalazlem-ostatnio-dziesiatki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C52AEEDEC4000591DF /* odnalazlem-ostatnio-dziesiatki.m4a */; };
+		E25D66482AEEDEC9000591DF /* niech-was-szlak-trafi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C62AEEDEC5000591DF /* niech-was-szlak-trafi.m4a */; };
+		E25D66492AEEDEC9000591DF /* moze-osiemdziesiat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C72AEEDEC5000591DF /* moze-osiemdziesiat.m4a */; };
+		E25D664A2AEEDEC9000591DF /* to-jest-dramat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C82AEEDEC5000591DF /* to-jest-dramat.m4a */; };
+		E25D664B2AEEDEC9000591DF /* narodowi-polscy-idioci.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65C92AEEDEC5000591DF /* narodowi-polscy-idioci.m4a */; };
+		E25D664C2AEEDEC9000591DF /* szkoda-kua-gadac-szkoda-strzepic-ryja-naprawde.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65CA2AEEDEC5000591DF /* szkoda-kua-gadac-szkoda-strzepic-ryja-naprawde.m4a */; };
+		E25D664D2AEEDEC9000591DF /* wiele-miesiecy-sie-zastanawialem-jak-to-jest-na-prawde-z-tym-wszystkim-co-ja-robie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65CB2AEEDEC5000591DF /* wiele-miesiecy-sie-zastanawialem-jak-to-jest-na-prawde-z-tym-wszystkim-co-ja-robie.m4a */; };
+		E25D664E2AEEDEC9000591DF /* rchac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65CC2AEEDEC5000591DF /* rchac.m4a */; };
+		E25D664F2AEEDEC9000591DF /* jesli-tyle-dla-was-znaczy-ludzie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65CD2AEEDEC5000591DF /* jesli-tyle-dla-was-znaczy-ludzie.m4a */; };
+		E25D66502AEEDEC9000591DF /* k-dudo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65CE2AEEDEC5000591DF /* k-dudo.m4a */; };
+		E25D66512AEEDEC9000591DF /* platforma-was-tak-nie-wyrchala-jak-wyrcha-was-ps.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65CF2AEEDEC5000591DF /* platforma-was-tak-nie-wyrchala-jak-wyrcha-was-ps.m4a */; };
+		E25D66522AEEDEC9000591DF /* szkoda-dla-was-bylo-cokolwiek-wy-glupie-chje-wy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D02AEEDEC5000591DF /* szkoda-dla-was-bylo-cokolwiek-wy-glupie-chje-wy.m4a */; };
+		E25D66532AEEDEC9000591DF /* przestan-mi-kuo-rodzine-przesladowac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D12AEEDEC5000591DF /* przestan-mi-kuo-rodzine-przesladowac.m4a */; };
+		E25D66542AEEDEC9000591DF /* tak-sie-powinno-was-jec.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D22AEEDEC5000591DF /* tak-sie-powinno-was-jec.m4a */; };
+		E25D66552AEEDEC9000591DF /* kua-chamie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D32AEEDEC5000591DF /* kua-chamie.m4a */; };
+		E25D66562AEEDEC9000591DF /* ja-mysle-ze-to-polskie-kua-glupie-spoleczenstwo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D42AEEDEC5000591DF /* ja-mysle-ze-to-polskie-kua-glupie-spoleczenstwo.m4a */; };
+		E25D66572AEEDEC9000591DF /* wy-kua-idioci.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D52AEEDEC5000591DF /* wy-kua-idioci.m4a */; };
+		E25D66582AEEDEC9000591DF /* wypilajcie-i-nie-dokuczajcie-ludziom-won.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D62AEEDEC5000591DF /* wypilajcie-i-nie-dokuczajcie-ludziom-won.m4a */; };
+		E25D66592AEEDEC9000591DF /* to-jest-dramat-kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D72AEEDEC5000591DF /* to-jest-dramat-kua.m4a */; };
+		E25D665A2AEEDEC9000591DF /* na-was-zarabiac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D82AEEDEC6000591DF /* na-was-zarabiac.m4a */; };
+		E25D665B2AEEDEC9000591DF /* zbeszczeszczono.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65D92AEEDEC6000591DF /* zbeszczeszczono.m4a */; };
+		E25D665C2AEEDEC9000591DF /* nie-rob-se-ze-mna-zdjecia-bo-cie-zjedza-te-k-z-pisu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65DA2AEEDEC6000591DF /* nie-rob-se-ze-mna-zdjecia-bo-cie-zjedza-te-k-z-pisu.m4a */; };
+		E25D665D2AEEDEC9000591DF /* ze-to-sa-k-i-smiecie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65DB2AEEDEC6000591DF /* ze-to-sa-k-i-smiecie.m4a */; };
+		E25D665E2AEEDEC9000591DF /* moje-zycie-prywatne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65DC2AEEDEC6000591DF /* moje-zycie-prywatne.m4a */; };
+		E25D665F2AEEDEC9000591DF /* ty-nieudaczniku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65DD2AEEDEC6000591DF /* ty-nieudaczniku.m4a */; };
+		E25D66602AEEDEC9000591DF /* po-prostu-wypilac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65DE2AEEDEC6000591DF /* po-prostu-wypilac.m4a */; };
+		E25D66612AEEDEC9000591DF /* telewizje-republiki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65DF2AEEDEC6000591DF /* telewizje-republiki.m4a */; };
+		E25D66622AEEDEC9000591DF /* prosze-wyjechac-stad-i-dalej-wykonywac-swoje-obowiazki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E02AEEDEC6000591DF /* prosze-wyjechac-stad-i-dalej-wykonywac-swoje-obowiazki.m4a */; };
+		E25D66632AEEDEC9000591DF /* narazie-wypialam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E12AEEDEC6000591DF /* narazie-wypialam.m4a */; };
+		E25D66642AEEDEC9000591DF /* ten-maly-karakan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E22AEEDEC6000591DF /* ten-maly-karakan.m4a */; };
+		E25D66652AEEDEC9000591DF /* sadowe-kuy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E32AEEDEC6000591DF /* sadowe-kuy.m4a */; };
+		E25D66662AEEDEC9000591DF /* w-milicji-takie-chamy-nie-robily.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E42AEEDEC6000591DF /* w-milicji-takie-chamy-nie-robily.m4a */; };
+		E25D66672AEEDEC9000591DF /* wasza-godnosc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E52AEEDEC6000591DF /* wasza-godnosc.m4a */; };
+		E25D66682AEEDEC9000591DF /* wspominam-taki-czas-kiedy-wydalem-taki-komunikat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E62AEEDEC6000591DF /* wspominam-taki-czas-kiedy-wydalem-taki-komunikat.m4a */; };
+		E25D66692AEEDEC9000591DF /* sluchajcie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E72AEEDEC6000591DF /* sluchajcie.m4a */; };
+		E25D666A2AEEDEC9000591DF /* nie-nie-bylem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E82AEEDEC6000591DF /* nie-nie-bylem.m4a */; };
+		E25D666B2AEEDEC9000591DF /* wy-chcecie-dla-nas-zmieniac-nasze-panstwo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65E92AEEDEC6000591DF /* wy-chcecie-dla-nas-zmieniac-nasze-panstwo.m4a */; };
+		E25D666C2AEEDEC9000591DF /* z-bolu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65EA2AEEDEC7000591DF /* z-bolu.m4a */; };
+		E25D666D2AEEDEC9000591DF /* ze-te-sadowe-kuy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65EB2AEEDEC7000591DF /* ze-te-sadowe-kuy.m4a */; };
+		E25D666E2AEEDEC9000591DF /* wypilac-za-brame-raz-kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65EC2AEEDEC7000591DF /* wypilac-za-brame-raz-kua.m4a */; };
+		E25D666F2AEEDEC9000591DF /* ze-ten-czlowiek-ma-118-wyrokow-uniewinniajacych.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65ED2AEEDEC7000591DF /* ze-ten-czlowiek-ma-118-wyrokow-uniewinniajacych.m4a */; };
+		E25D66702AEEDEC9000591DF /* z-polski.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65EE2AEEDEC7000591DF /* z-polski.m4a */; };
+		E25D66712AEEDEC9000591DF /* wylacz-ten-telefon-bo-ci-go-wylacze-na-amen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65EF2AEEDEC7000591DF /* wylacz-ten-telefon-bo-ci-go-wylacze-na-amen.m4a */; };
+		E25D66722AEEDEC9000591DF /* to-wy-polacy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F02AEEDEC7000591DF /* to-wy-polacy.m4a */; };
+		E25D66732AEEDEC9000591DF /* to-wlasnie-jest-ta-polska.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F12AEEDEC7000591DF /* to-wlasnie-jest-ta-polska.m4a */; };
+		E25D66742AEEDEC9000591DF /* panowie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F22AEEDEC7000591DF /* panowie.m4a */; };
+		E25D66752AEEDEC9000591DF /* sasin-ch-ci-w-ryj.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F32AEEDEC7000591DF /* sasin-ch-ci-w-ryj.m4a */; };
+		E25D66762AEEDEC9000591DF /* wszystko-inne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F42AEEDEC7000591DF /* wszystko-inne.m4a */; };
+		E25D66772AEEDEC9000591DF /* zaraz-bedzie-pan-najbardziej-znanym-policjantem-w-polsce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F52AEEDEC7000591DF /* zaraz-bedzie-pan-najbardziej-znanym-policjantem-w-polsce.m4a */; };
+		E25D66782AEEDEC9000591DF /* nienawidze-tego-panstwa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F62AEEDEC7000591DF /* nienawidze-tego-panstwa.m4a */; };
+		E25D66792AEEDEC9000591DF /* nic-sie-w-tym-kraju-nie-zmieni.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F72AEEDEC7000591DF /* nic-sie-w-tym-kraju-nie-zmieni.m4a */; };
+		E25D667A2AEEDEC9000591DF /* ten-j-p-duda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F82AEEDEC7000591DF /* ten-j-p-duda.m4a */; };
+		E25D667B2AEEDEC9000591DF /* wyjezdzamy-stad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65F92AEEDEC7000591DF /* wyjezdzamy-stad.m4a */; };
+		E25D667C2AEEDEC9000591DF /* to-jest-jakies-kua-nieporozumienie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65FA2AEEDEC7000591DF /* to-jest-jakies-kua-nieporozumienie.m4a */; };
+		E25D667D2AEEDEC9000591DF /* ze-tych-cebulakow-tam-w-de-je-nie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65FB2AEEDEC7000591DF /* ze-tych-cebulakow-tam-w-de-je-nie.m4a */; };
+		E25D667E2AEEDEC9000591DF /* myslisz-ze-co-ja-jestem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65FC2AEEDEC7000591DF /* myslisz-ze-co-ja-jestem.m4a */; };
+		E25D667F2AEEDEC9000591DF /* sadowe-kuy-tego-czlowieka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65FD2AEEDEC7000591DF /* sadowe-kuy-tego-czlowieka.m4a */; };
+		E25D66802AEEDEC9000591DF /* to-jeszcze-porozmawiamy-w-prokuraturze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65FE2AEEDEC8000591DF /* to-jeszcze-porozmawiamy-w-prokuraturze.m4a */; };
+		E25D66812AEEDEC9000591DF /* oskarzaly-bezpodstawnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D65FF2AEEDEC8000591DF /* oskarzaly-bezpodstawnie.m4a */; };
+		E25D66822AEEDEC9000591DF /* ze-jestescie-prymitywami.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66002AEEDEC8000591DF /* ze-jestescie-prymitywami.m4a */; };
+		E25D66832AEEDEC9000591DF /* piekny-kua-jestes-piekny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66012AEEDEC8000591DF /* piekny-kua-jestes-piekny.m4a */; };
+		E25D66842AEEDEC9000591DF /* odbieraj-telefon-frajerze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66022AEEDEC8000591DF /* odbieraj-telefon-frajerze.m4a */; };
+		E25D66852AEEDEC9000591DF /* i-wypilaj-za-brame-raz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66032AEEDEC8000591DF /* i-wypilaj-za-brame-raz.m4a */; };
+		E25D66862AEEDEC9000591DF /* sasin-k-ch-j.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66042AEEDEC8000591DF /* sasin-k-ch-j.m4a */; };
+		E25D66872AEEDEC9000591DF /* moja-zona-zna-cie-od-dziecka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66052AEEDEC8000591DF /* moja-zona-zna-cie-od-dziecka.m4a */; };
+		E25D66882AEEDEC9000591DF /* yhym-yhym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66062AEEDEC8000591DF /* yhym-yhym.m4a */; };
+		E25D66892AEEDEC9000591DF /* zescie-takie-glupie-sa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66072AEEDEC8000591DF /* zescie-takie-glupie-sa.m4a */; };
+		E25D668A2AEEDEC9000591DF /* ma-pan-obowiazek-stanac-tam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66082AEEDEC8000591DF /* ma-pan-obowiazek-stanac-tam.m4a */; };
+		E25D668B2AEEDEC9000591DF /* was-zaprowadzic-i-cos-wlaczyc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66092AEEDEC8000591DF /* was-zaprowadzic-i-cos-wlaczyc.m4a */; };
+		E25D668C2AEEDEC9000591DF /* sumlinskie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D660A2AEEDEC8000591DF /* sumlinskie.m4a */; };
+		E25D668D2AEEDEC9000591DF /* kultury-w-tym-wszystkim.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D660B2AEEDEC8000591DF /* kultury-w-tym-wszystkim.m4a */; };
+		E25D668E2AEEDEC9000591DF /* pisowski-w-due-jey-ty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D660C2AEEDEC8000591DF /* pisowski-w-due-jey-ty.m4a */; };
+		E25D668F2AEEDEC9000591DF /* zaraz-bedzie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D660D2AEEDEC8000591DF /* zaraz-bedzie.m4a */; };
+		E25D66902AEEDEC9000591DF /* ze-to-nie-jest-czyms-wartym-tego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D660E2AEEDEC8000591DF /* ze-to-nie-jest-czyms-wartym-tego.m4a */; };
+		E25D66912AEEDEC9000591DF /* on-bedzie-robil-warszawe-w-takim-czy-innym-wymiarze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D660F2AEEDEC9000591DF /* on-bedzie-robil-warszawe-w-takim-czy-innym-wymiarze.m4a */; };
+		E25D66922AEEDEC9000591DF /* tak-2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66102AEEDEC9000591DF /* tak-2.m4a */; };
+		E25D66932AEEDEC9000591DF /* kaczynski.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66112AEEDEC9000591DF /* kaczynski.m4a */; };
+		E25D66942AEEDEC9000591DF /* na-jakies-petru.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66122AEEDEC9000591DF /* na-jakies-petru.m4a */; };
+		E25D66952AEEDEC9000591DF /* tak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66132AEEDEC9000591DF /* tak.m4a */; };
+		E25D66972AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66962AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */; };
+		E27C0B442AED0C0E00E5C418 /* ShareContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C0B432AED0C0E00E5C418 /* ShareContentModel.swift */; };
+		E27F61942AEC0F52007FF9C9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F61932AEC0F52007FF9C9 /* Repository.swift */; };
+		E2956EB72AEBAB5600B927A2 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EB62AEBAB5600B927A2 /* ShareButton.swift */; };
+		E2956EBB2AEBC2F000B927A2 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */; };
+		E2956EBD2AEBC52C00B927A2 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */; };
+		E2956EC32AEBC85B00B927A2 /* i.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EBE2AEBC85B00B927A2 /* i.m4a */; };
+		E2956EC42AEBC85B00B927A2 /* ja-mam-to-w-pidzie-kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EBF2AEBC85B00B927A2 /* ja-mam-to-w-pidzie-kua.m4a */; };
+		E2956EC52AEBC85B00B927A2 /* jak-ten-twoj-prezydent-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EC02AEBC85B00B927A2 /* jak-ten-twoj-prezydent-jest.m4a */; };
+		E2956EC62AEBC85B00B927A2 /* ich-cale-jestestwo-to-jest-karta-kredytowa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EC12AEBC85B00B927A2 /* ich-cale-jestestwo-to-jest-karta-kredytowa.m4a */; };
+		E2956EC72AEBC85B00B927A2 /* jak-sie-pan-nazywa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EC22AEBC85B00B927A2 /* jak-sie-pan-nazywa.m4a */; };
+		E2956EC92AEBC91700B927A2 /* SoundStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EC82AEBC91700B927A2 /* SoundStorage.swift */; };
+		E2998E7F2AEA7D3700C7FAB2 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2998E7E2AEA7D3700C7FAB2 /* FavoriteButton.swift */; };
+		E2998E812AEA87D800C7FAB2 /* PlayerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2998E802AEA87D800C7FAB2 /* PlayerButton.swift */; };
+		E2998E9F2AEA9D6000C7FAB2 /* co-chciales-powiedziec.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E922AEA9AB600C7FAB2 /* co-chciales-powiedziec.m4a */; };
+		E2998EA02AEA9D6000C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E822AEA9AB600C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a */; };
+		E2998EA12AEA9D6000C7FAB2 /* bedzie-was-ps-rchal-w-dpe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E9C2AEA9AB600C7FAB2 /* bedzie-was-ps-rchal-w-dpe.m4a */; };
+		E2998EA22AEA9D6000C7FAB2 /* bedzie-was-ps-kua-dymal-tak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E992AEA9AB600C7FAB2 /* bedzie-was-ps-kua-dymal-tak.m4a */; };
+		E2998EA32AEA9D6000C7FAB2 /* a-wam-kochani.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E882AEA9AB600C7FAB2 /* a-wam-kochani.m4a */; };
+		E2998EA42AEA9D6000C7FAB2 /* bo-mnie-stac-na-wszystko.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E952AEA9AB600C7FAB2 /* bo-mnie-stac-na-wszystko.m4a */; };
+		E2998EA52AEA9D6000C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E8F2AEA9AB600C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem.m4a */; };
+		E2998EA62AEA9D6000C7FAB2 /* ci-co-zescie-glosowali-na-ps.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E9E2AEA9AB600C7FAB2 /* ci-co-zescie-glosowali-na-ps.m4a */; };
+		E2998EA72AEA9D6000C7FAB2 /* beda-wam-odbieraly-smak-zycia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E8E2AEA9AB600C7FAB2 /* beda-wam-odbieraly-smak-zycia.m4a */; };
+		E2998EA92AEA9D6000C7FAB2 /* bede-zyl-kua-tak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E832AEA9AB600C7FAB2 /* bede-zyl-kua-tak.m4a */; };
+		E2998EAA2AEA9D6000C7FAB2 /* a-z-panami-policjantami.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E932AEA9AB600C7FAB2 /* a-z-panami-policjantami.m4a */; };
+		E2998EAC2AEA9D6000C7FAB2 /* bo-cie-odcholuje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E842AEA9AB600C7FAB2 /* bo-cie-odcholuje.m4a */; };
+		E2998EAD2AEA9D6000C7FAB2 /* chj-warci-jestescie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E872AEA9AB600C7FAB2 /* chj-warci-jestescie.m4a */; };
+		E2998EAE2AEA9D6000C7FAB2 /* chj-z-wami.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E9B2AEA9AB600C7FAB2 /* chj-z-wami.m4a */; };
+		E2998EAF2AEA9D6000C7FAB2 /* bo-jestescie-banda-nieudacznikow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E8B2AEA9AB600C7FAB2 /* bo-jestescie-banda-nieudacznikow.m4a */; };
+		E2998EB02AEA9D6000C7FAB2 /* anty-polakami-jestescie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E972AEA9AB600C7FAB2 /* anty-polakami-jestescie.m4a */; };
+		E2998EB12AEA9D6000C7FAB2 /* bo-to-garstka-polakow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E912AEA9AB600C7FAB2 /* bo-to-garstka-polakow.m4a */; };
+		E2998EB22AEA9D6000C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem-ziobro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E8A2AEA9AB600C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem-ziobro.m4a */; };
+		E2998EB32AEA9D6000C7FAB2 /* chcesz-nam-stratowac-nasze-miasto.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E9A2AEA9AB600C7FAB2 /* chcesz-nam-stratowac-nasze-miasto.m4a */; };
+		E2998EB42AEA9D6000C7FAB2 /* bo-jestescie-chj-warci.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E962AEA9AB600C7FAB2 /* bo-jestescie-chj-warci.m4a */; };
+		E2998EB52AEA9D6000C7FAB2 /* ale-ja-pytam-jak-sie-pan-nazywa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E982AEA9AB600C7FAB2 /* ale-ja-pytam-jak-sie-pan-nazywa.m4a */; };
+		E2998EB62AEA9D6000C7FAB2 /* by-tego-czlowieka-wprowadzic-do-parlamentu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E862AEA9AB600C7FAB2 /* by-tego-czlowieka-wprowadzic-do-parlamentu.m4a */; };
+		E2998EB72AEA9D6000C7FAB2 /* chcesz-pozdrowic-publicznosc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E8C2AEA9AB600C7FAB2 /* chcesz-pozdrowic-publicznosc.m4a */; };
+		E2998EB82AEA9D6000C7FAB2 /* co-by-sie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E902AEA9AB600C7FAB2 /* co-by-sie.m4a */; };
+		E2998EB92AEA9D6000C7FAB2 /* az-was-kukle-kua-beda-swedzialy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E9D2AEA9AB600C7FAB2 /* az-was-kukle-kua-beda-swedzialy.m4a */; };
+		E2998EBA2AEA9D6000C7FAB2 /* ale-jest-pan-chamski.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E852AEA9AB600C7FAB2 /* ale-jest-pan-chamski.m4a */; };
+		E2998EBB2AEA9D6000C7FAB2 /* biznes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E942AEA9AB600C7FAB2 /* biznes.m4a */; };
+		E2998EBD2AEAA7E500C7FAB2 /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2998EBC2AEAA7E500C7FAB2 /* SoundFileManager.swift */; };
+		E2998ED32AEBA5FE00C7FAB2 /* gorzej-kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC72AEBA54400C7FAB2 /* gorzej-kua.m4a */; };
+		E2998ED42AEBA5FE00C7FAB2 /* dudo-patrz-na-mnie-ryju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC62AEBA54400C7FAB2 /* dudo-patrz-na-mnie-ryju.m4a */; };
+		E2998ED52AEBA5FE00C7FAB2 /* i-juz-mi-sie-nie-chce-niczego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC12AEBA54400C7FAB2 /* i-juz-mi-sie-nie-chce-niczego.m4a */; };
+		E2998ED62AEBA5FE00C7FAB2 /* dobranoc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC32AEBA54400C7FAB2 /* dobranoc.m4a */; };
+		E2998ED72AEBA5FE00C7FAB2 /* czesc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC22AEBA54400C7FAB2 /* czesc.m4a */; };
+		E2998ED82AEBA5FE00C7FAB2 /* dziekuje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ECD2AEBA54400C7FAB2 /* dziekuje.m4a */; };
+		E2998ED92AEBA5FE00C7FAB2 /* dobry-wieczor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EBE2AEBA54400C7FAB2 /* dobry-wieczor.m4a */; };
+		E2998EDA2AEBA5FE00C7FAB2 /* co-ty-chamie-mowisz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ECA2AEBA54400C7FAB2 /* co-ty-chamie-mowisz.m4a */; };
+		E2998EDB2AEBA5FE00C7FAB2 /* co-ty-mowisz-chamie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC82AEBA54400C7FAB2 /* co-ty-mowisz-chamie.m4a */; };
+		E2998EDC2AEBA5FE00C7FAB2 /* i-bede-sie-z-was-polskie-frajery-smial.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC02AEBA54400C7FAB2 /* i-bede-sie-z-was-polskie-frajery-smial.m4a */; };
+		E2998EDD2AEBA5FE00C7FAB2 /* gdzie-postawilem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC42AEBA54400C7FAB2 /* gdzie-postawilem.m4a */; };
+		E2998EDE2AEBA5FE00C7FAB2 /* glupia-polska-glupie-polaczki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ECC2AEBA54400C7FAB2 /* glupia-polska-glupie-polaczki.m4a */; };
+		E2998EDF2AEBA5FE00C7FAB2 /* garstka-polakow-dzisiaj-to-jest-70-tys-osob.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ECB2AEBA54400C7FAB2 /* garstka-polakow-dzisiaj-to-jest-70-tys-osob.m4a */; };
+		E2998EE02AEBA5FE00C7FAB2 /* clisko-j.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ED12AEBA54400C7FAB2 /* clisko-j.m4a */; };
+		E2998EE12AEBA5FE00C7FAB2 /* dzwonimy-do-oficera-dyzurnego-kraju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC52AEBA54400C7FAB2 /* dzwonimy-do-oficera-dyzurnego-kraju.m4a */; };
+		E2998EE22AEBA5FE00C7FAB2 /* co-wy-chcecie-byc-dla-nas-autorytetem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EBF2AEBA54400C7FAB2 /* co-wy-chcecie-byc-dla-nas-autorytetem.m4a */; };
+		E2998EE32AEBA5FE00C7FAB2 /* dobra-nie-strasz-bo-sie-zessz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998EC92AEBA54400C7FAB2 /* dobra-nie-strasz-bo-sie-zessz.m4a */; };
+		E2998EE42AEBA5FE00C7FAB2 /* i-nagle-ten-caly-ich-sasin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ED22AEBA54400C7FAB2 /* i-nagle-ten-caly-ich-sasin.m4a */; };
+		E2998EE52AEBA5FE00C7FAB2 /* i-dla-was-znaczylo-tylko-to-70-czy-80-tysiecy-glosow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ED02AEBA54400C7FAB2 /* i-dla-was-znaczylo-tylko-to-70-czy-80-tysiecy-glosow.m4a */; };
+		E2998EE62AEBA5FE00C7FAB2 /* i-ten-k-karakan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ECE2AEBA54400C7FAB2 /* i-ten-k-karakan.m4a */; };
+		E2998EE72AEBA5FE00C7FAB2 /* c-do-szczania.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998ECF2AEBA54400C7FAB2 /* c-do-szczania.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E21ABD602AE97C4D00F93F01 /* StonogaSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StonogaSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonogaSoundboardApp.swift; sourceTree = "<group>"; };
+		E21ABD652AE97C4D00F93F01 /* SoundboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardView.swift; sourceTree = "<group>"; };
+		E21ABD672AE97C4F00F93F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E21ABD6A2AE97C4F00F93F01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E21ABD732AE9A87300F93F01 /* SoundboardView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundboardView+ViewModel.swift"; sourceTree = "<group>"; };
+		E21ABD782AE9A8CF00F93F01 /* SoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
+		E21ABD7A2AE9A8F500F93F01 /* SoundRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRowView.swift; sourceTree = "<group>"; };
+		E21ABD7C2AE9A91900F93F01 /* SoundRowView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundRowView+ViewModel.swift"; sourceTree = "<group>"; };
+		E25D656A2AED25B0000591DF /* RoundCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCountView.swift; sourceTree = "<group>"; };
+		E25D656C2AED3603000591DF /* PortraitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitView.swift; sourceTree = "<group>"; };
+		E25D656E2AED3A43000591DF /* jestescie-tu-nielegalnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jestescie-tu-nielegalnie.m4a"; sourceTree = "<group>"; };
+		E25D656F2AED3A44000591DF /* jak-was-platforma-nie-dymala.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-was-platforma-nie-dymala.m4a"; sourceTree = "<group>"; };
+		E25D65702AED3A44000591DF /* j-p-c.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "j-p-c.m4a"; sourceTree = "<group>"; };
+		E25D65712AED3A44000591DF /* j-sie-k-jak-kroliki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "j-sie-k-jak-kroliki.m4a"; sourceTree = "<group>"; };
+		E25D65722AED3A44000591DF /* jec.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jec.m4a; sourceTree = "<group>"; };
+		E25D65732AED3A44000591DF /* ktorzy-doprowadzili-do-zniszczenia-mienia-w-tym-domu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ktorzy-doprowadzili-do-zniszczenia-mienia-w-tym-domu.m4a"; sourceTree = "<group>"; };
+		E25D65742AED3A44000591DF /* juz-bilet-kupiony.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "juz-bilet-kupiony.m4a"; sourceTree = "<group>"; };
+		E25D65752AED3A44000591DF /* ktorzyscie-glosowali-na-mnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ktorzyscie-glosowali-na-mnie.m4a"; sourceTree = "<group>"; };
+		E25D65762AED3A44000591DF /* jak-tylko-was-moze-jec-ps.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-tylko-was-moze-jec-ps.m4a"; sourceTree = "<group>"; };
+		E25D65772AED3A44000591DF /* jedyne-co-chce-wyjechac-z-tego-polskiego-syfu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jedyne-co-chce-wyjechac-z-tego-polskiego-syfu.m4a"; sourceTree = "<group>"; };
+		E25D65782AED3A44000591DF /* k-na-takich-jak-ty-to-szcze-cieplym-moczem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "k-na-takich-jak-ty-to-szcze-cieplym-moczem.m4a"; sourceTree = "<group>"; };
+		E25D65792AED3A44000591DF /* jest-prezydentem-tych-p-tam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jest-prezydentem-tych-p-tam.m4a"; sourceTree = "<group>"; };
+		E25D657A2AED3A44000591DF /* ktorzy-to-kutwo-pe-wybrali.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ktorzy-to-kutwo-pe-wybrali.m4a"; sourceTree = "<group>"; };
+		E25D657B2AED3A44000591DF /* kocham-polske-i-kocham-ludzi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kocham-polske-i-kocham-ludzi.m4a"; sourceTree = "<group>"; };
+		E25D657D2AED3A44000591DF /* jesli-tyle-dla-was-znaczy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jesli-tyle-dla-was-znaczy.m4a"; sourceTree = "<group>"; };
+		E25D65902AEEDD96000591DF /* ktorzyscie-wspomagali-mnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ktorzyscie-wspomagali-mnie.m4a"; sourceTree = "<group>"; };
+		E25D65922AEEDEC1000591DF /* tylko.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tylko.m4a; sourceTree = "<group>"; };
+		E25D65932AEEDEC1000591DF /* to-jest-wasz-majestat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-wasz-majestat.m4a"; sourceTree = "<group>"; };
+		E25D65942AEEDEC1000591DF /* ty-k.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-k.m4a"; sourceTree = "<group>"; };
+		E25D65952AEEDEC1000591DF /* no-i-ja-potwierdzam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-i-ja-potwierdzam.m4a"; sourceTree = "<group>"; };
+		E25D65962AEEDEC2000591DF /* nie-warto-bylo-zrobic-nic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-warto-bylo-zrobic-nic.m4a"; sourceTree = "<group>"; };
+		E25D65972AEEDEC2000591DF /* w-ukryciu-siedze-bo-cos-tam-cos-tam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "w-ukryciu-siedze-bo-cos-tam-cos-tam.m4a"; sourceTree = "<group>"; };
+		E25D65982AEEDEC2000591DF /* tylko-to-sie-w-tej-polsce-nadaje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tylko-to-sie-w-tej-polsce-nadaje.m4a"; sourceTree = "<group>"; };
+		E25D65992AEEDEC2000591DF /* nieporozumienie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nieporozumienie.m4a; sourceTree = "<group>"; };
+		E25D659A2AEEDEC2000591DF /* my-was-p.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "my-was-p.m4a"; sourceTree = "<group>"; };
+		E25D659B2AEEDEC2000591DF /* rozumiecie-to.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "rozumiecie-to.m4a"; sourceTree = "<group>"; };
+		E25D659C2AEEDEC2000591DF /* wjechal-pan-na-teren-posesji-prywatnej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wjechal-pan-na-teren-posesji-prywatnej.m4a"; sourceTree = "<group>"; };
+		E25D659D2AEEDEC2000591DF /* wypiole-jeszcze-dzisiaj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wypiole-jeszcze-dzisiaj.m4a"; sourceTree = "<group>"; };
+		E25D659E2AEEDEC2000591DF /* won-wypilac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "won-wypilac.m4a"; sourceTree = "<group>"; };
+		E25D659F2AEEDEC2000591DF /* nie-umiesz-normalnie-rozmawiac-z-obywatelem-to-wypilaj-za-brame.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-umiesz-normalnie-rozmawiac-z-obywatelem-to-wypilaj-za-brame.m4a"; sourceTree = "<group>"; };
+		E25D65A02AEEDEC2000591DF /* nie-warto-bylo-kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-warto-bylo-kua.m4a"; sourceTree = "<group>"; };
+		E25D65A12AEEDEC2000591DF /* i-trzeba-was-jec-rchac-i-na-was-zarabiac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-trzeba-was-jec-rchac-i-na-was-zarabiac.m4a"; sourceTree = "<group>"; };
+		E25D65A22AEEDEC2000591DF /* wynik-wyborczy-kww-stonogi-to-jest-jakas-porazka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wynik-wyborczy-kww-stonogi-to-jest-jakas-porazka.m4a"; sourceTree = "<group>"; };
+		E25D65A32AEEDEC3000591DF /* po-latach-uniewinnialy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "po-latach-uniewinnialy.m4a"; sourceTree = "<group>"; };
+		E25D65A42AEEDEC3000591DF /* przez-was-kua-chje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przez-was-kua-chje.m4a"; sourceTree = "<group>"; };
+		E25D65A52AEEDEC3000591DF /* to-powtorze-jeszcze-raz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-powtorze-jeszcze-raz.m4a"; sourceTree = "<group>"; };
+		E25D65A62AEEDEC3000591DF /* takie-zaangazowanie-spoleczne-jak-moje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "takie-zaangazowanie-spoleczne-jak-moje.m4a"; sourceTree = "<group>"; };
+		E25D65A72AEEDEC3000591DF /* z-jednej-strony-kocham-polske-kocham-ludzi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "z-jednej-strony-kocham-polske-kocham-ludzi.m4a"; sourceTree = "<group>"; };
+		E25D65A82AEEDEC3000591DF /* budze-sie-codziennie-otwieram-oczy-znowu-w-tej-polsce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "budze-sie-codziennie-otwieram-oczy-znowu-w-tej-polsce.m4a"; sourceTree = "<group>"; };
+		E25D65A92AEEDEC3000591DF /* przez-taka-polske.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przez-taka-polske.m4a"; sourceTree = "<group>"; };
+		E25D65AA2AEEDEC3000591DF /* tak-ty-jestes-c.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tak-ty-jestes-c.m4a"; sourceTree = "<group>"; };
+		E25D65AB2AEEDEC3000591DF /* odbieraj-telefon-smieciu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "odbieraj-telefon-smieciu.m4a"; sourceTree = "<group>"; };
+		E25D65AC2AEEDEC3000591DF /* szkoda-bylo-9-spraw-karnych-szkoda-bylo-ujawniac-afery-podsluchowej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "szkoda-bylo-9-spraw-karnych-szkoda-bylo-ujawniac-afery-podsluchowej.m4a"; sourceTree = "<group>"; };
+		E25D65AD2AEEDEC3000591DF /* cos-sie-cos-sie-popsulo-i-nie-bylo-mnie-slychac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cos-sie-cos-sie-popsulo-i-nie-bylo-mnie-slychac.m4a"; sourceTree = "<group>"; };
+		E25D65AE2AEEDEC3000591DF /* moja-rodzine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moja-rodzine.m4a"; sourceTree = "<group>"; };
+		E25D65AF2AEEDEC3000591DF /* ze-w-tym-antyludzkim-panstwie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-w-tym-antyludzkim-panstwie.m4a"; sourceTree = "<group>"; };
+		E25D65B02AEEDEC3000591DF /* spotkamy-sie-w-prokuraturze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "spotkamy-sie-w-prokuraturze.m4a"; sourceTree = "<group>"; };
+		E25D65B12AEEDEC3000591DF /* k-to-j-pisowskie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "k-to-j-pisowskie.m4a"; sourceTree = "<group>"; };
+		E25D65B22AEEDEC3000591DF /* kanie-rachonie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kanie-rachonie.m4a"; sourceTree = "<group>"; };
+		E25D65B32AEEDEC3000591DF /* ta-banda-imbecyli-co-glosowala-na-tych-karakanow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ta-banda-imbecyli-co-glosowala-na-tych-karakanow.m4a"; sourceTree = "<group>"; };
+		E25D65B42AEEDEC3000591DF /* kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kua.m4a; sourceTree = "<group>"; };
+		E25D65B52AEEDEC4000591DF /* wasze-karty-kredytowe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wasze-karty-kredytowe.m4a"; sourceTree = "<group>"; };
+		E25D65B62AEEDEC4000591DF /* w-d-sie-r.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "w-d-sie-r.m4a"; sourceTree = "<group>"; };
+		E25D65B72AEEDEC4000591DF /* zniszczy-was.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zniszczy-was.m4a"; sourceTree = "<group>"; };
+		E25D65B82AEEDEC4000591DF /* na-kukizow-glosowali.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-kukizow-glosowali.m4a"; sourceTree = "<group>"; };
+		E25D65B92AEEDEC4000591DF /* to-ci-wojsko-wyprowadze-na-ulice.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-ci-wojsko-wyprowadze-na-ulice.m4a"; sourceTree = "<group>"; };
+		E25D65BA2AEEDEC4000591DF /* robota-w-korporacji-i-karta-z-debetem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "robota-w-korporacji-i-karta-z-debetem.m4a"; sourceTree = "<group>"; };
+		E25D65BB2AEEDEC4000591DF /* nie-na-stonoge.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-na-stonoge.m4a"; sourceTree = "<group>"; };
+		E25D65BC2AEEDEC4000591DF /* to-was-powinno-sie-jec-kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-was-powinno-sie-jec-kua.m4a"; sourceTree = "<group>"; };
+		E25D65BD2AEEDEC4000591DF /* prosze-wyjechac-stad-natychmiast.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "prosze-wyjechac-stad-natychmiast.m4a"; sourceTree = "<group>"; };
+		E25D65BE2AEEDEC4000591DF /* bo-jak-teraz-policja-przyjedzie-to-bedzie-inaczej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-jak-teraz-policja-przyjedzie-to-bedzie-inaczej.m4a"; sourceTree = "<group>"; };
+		E25D65BF2AEEDEC4000591DF /* p-pisowski-k.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "p-pisowski-k.m4a"; sourceTree = "<group>"; };
+		E25D65C02AEEDEC4000591DF /* ze-kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-kua.m4a"; sourceTree = "<group>"; };
+		E25D65C12AEEDEC4000591DF /* tacy-kua-debile.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tacy-kua-debile.m4a"; sourceTree = "<group>"; };
+		E25D65C22AEEDEC4000591DF /* nie-na-korwina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-na-korwina.m4a"; sourceTree = "<group>"; };
+		E25D65C32AEEDEC4000591DF /* w-tym-panstwie-media-nie-byly-w-stanie-powiedziec-ze-zbigniewa-stonoge.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "w-tym-panstwie-media-nie-byly-w-stanie-powiedziec-ze-zbigniewa-stonoge.m4a"; sourceTree = "<group>"; };
+		E25D65C42AEEDEC4000591DF /* ziobro-kuo-jea.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ziobro-kuo-jea.m4a"; sourceTree = "<group>"; };
+		E25D65C52AEEDEC4000591DF /* odnalazlem-ostatnio-dziesiatki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "odnalazlem-ostatnio-dziesiatki.m4a"; sourceTree = "<group>"; };
+		E25D65C62AEEDEC5000591DF /* niech-was-szlak-trafi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "niech-was-szlak-trafi.m4a"; sourceTree = "<group>"; };
+		E25D65C72AEEDEC5000591DF /* moze-osiemdziesiat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moze-osiemdziesiat.m4a"; sourceTree = "<group>"; };
+		E25D65C82AEEDEC5000591DF /* to-jest-dramat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-dramat.m4a"; sourceTree = "<group>"; };
+		E25D65C92AEEDEC5000591DF /* narodowi-polscy-idioci.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "narodowi-polscy-idioci.m4a"; sourceTree = "<group>"; };
+		E25D65CA2AEEDEC5000591DF /* szkoda-kua-gadac-szkoda-strzepic-ryja-naprawde.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "szkoda-kua-gadac-szkoda-strzepic-ryja-naprawde.m4a"; sourceTree = "<group>"; };
+		E25D65CB2AEEDEC5000591DF /* wiele-miesiecy-sie-zastanawialem-jak-to-jest-na-prawde-z-tym-wszystkim-co-ja-robie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wiele-miesiecy-sie-zastanawialem-jak-to-jest-na-prawde-z-tym-wszystkim-co-ja-robie.m4a"; sourceTree = "<group>"; };
+		E25D65CC2AEEDEC5000591DF /* rchac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = rchac.m4a; sourceTree = "<group>"; };
+		E25D65CD2AEEDEC5000591DF /* jesli-tyle-dla-was-znaczy-ludzie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jesli-tyle-dla-was-znaczy-ludzie.m4a"; sourceTree = "<group>"; };
+		E25D65CE2AEEDEC5000591DF /* k-dudo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "k-dudo.m4a"; sourceTree = "<group>"; };
+		E25D65CF2AEEDEC5000591DF /* platforma-was-tak-nie-wyrchala-jak-wyrcha-was-ps.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "platforma-was-tak-nie-wyrchala-jak-wyrcha-was-ps.m4a"; sourceTree = "<group>"; };
+		E25D65D02AEEDEC5000591DF /* szkoda-dla-was-bylo-cokolwiek-wy-glupie-chje-wy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "szkoda-dla-was-bylo-cokolwiek-wy-glupie-chje-wy.m4a"; sourceTree = "<group>"; };
+		E25D65D12AEEDEC5000591DF /* przestan-mi-kuo-rodzine-przesladowac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przestan-mi-kuo-rodzine-przesladowac.m4a"; sourceTree = "<group>"; };
+		E25D65D22AEEDEC5000591DF /* tak-sie-powinno-was-jec.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tak-sie-powinno-was-jec.m4a"; sourceTree = "<group>"; };
+		E25D65D32AEEDEC5000591DF /* kua-chamie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kua-chamie.m4a"; sourceTree = "<group>"; };
+		E25D65D42AEEDEC5000591DF /* ja-mysle-ze-to-polskie-kua-glupie-spoleczenstwo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-mysle-ze-to-polskie-kua-glupie-spoleczenstwo.m4a"; sourceTree = "<group>"; };
+		E25D65D52AEEDEC5000591DF /* wy-kua-idioci.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wy-kua-idioci.m4a"; sourceTree = "<group>"; };
+		E25D65D62AEEDEC5000591DF /* wypilajcie-i-nie-dokuczajcie-ludziom-won.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wypilajcie-i-nie-dokuczajcie-ludziom-won.m4a"; sourceTree = "<group>"; };
+		E25D65D72AEEDEC5000591DF /* to-jest-dramat-kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-dramat-kua.m4a"; sourceTree = "<group>"; };
+		E25D65D82AEEDEC6000591DF /* na-was-zarabiac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-was-zarabiac.m4a"; sourceTree = "<group>"; };
+		E25D65D92AEEDEC6000591DF /* zbeszczeszczono.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = zbeszczeszczono.m4a; sourceTree = "<group>"; };
+		E25D65DA2AEEDEC6000591DF /* nie-rob-se-ze-mna-zdjecia-bo-cie-zjedza-te-k-z-pisu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-rob-se-ze-mna-zdjecia-bo-cie-zjedza-te-k-z-pisu.m4a"; sourceTree = "<group>"; };
+		E25D65DB2AEEDEC6000591DF /* ze-to-sa-k-i-smiecie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-to-sa-k-i-smiecie.m4a"; sourceTree = "<group>"; };
+		E25D65DC2AEEDEC6000591DF /* moje-zycie-prywatne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moje-zycie-prywatne.m4a"; sourceTree = "<group>"; };
+		E25D65DD2AEEDEC6000591DF /* ty-nieudaczniku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-nieudaczniku.m4a"; sourceTree = "<group>"; };
+		E25D65DE2AEEDEC6000591DF /* po-prostu-wypilac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "po-prostu-wypilac.m4a"; sourceTree = "<group>"; };
+		E25D65DF2AEEDEC6000591DF /* telewizje-republiki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "telewizje-republiki.m4a"; sourceTree = "<group>"; };
+		E25D65E02AEEDEC6000591DF /* prosze-wyjechac-stad-i-dalej-wykonywac-swoje-obowiazki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "prosze-wyjechac-stad-i-dalej-wykonywac-swoje-obowiazki.m4a"; sourceTree = "<group>"; };
+		E25D65E12AEEDEC6000591DF /* narazie-wypialam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "narazie-wypialam.m4a"; sourceTree = "<group>"; };
+		E25D65E22AEEDEC6000591DF /* ten-maly-karakan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ten-maly-karakan.m4a"; sourceTree = "<group>"; };
+		E25D65E32AEEDEC6000591DF /* sadowe-kuy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sadowe-kuy.m4a"; sourceTree = "<group>"; };
+		E25D65E42AEEDEC6000591DF /* w-milicji-takie-chamy-nie-robily.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "w-milicji-takie-chamy-nie-robily.m4a"; sourceTree = "<group>"; };
+		E25D65E52AEEDEC6000591DF /* wasza-godnosc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wasza-godnosc.m4a"; sourceTree = "<group>"; };
+		E25D65E62AEEDEC6000591DF /* wspominam-taki-czas-kiedy-wydalem-taki-komunikat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wspominam-taki-czas-kiedy-wydalem-taki-komunikat.m4a"; sourceTree = "<group>"; };
+		E25D65E72AEEDEC6000591DF /* sluchajcie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sluchajcie.m4a; sourceTree = "<group>"; };
+		E25D65E82AEEDEC6000591DF /* nie-nie-bylem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-nie-bylem.m4a"; sourceTree = "<group>"; };
+		E25D65E92AEEDEC6000591DF /* wy-chcecie-dla-nas-zmieniac-nasze-panstwo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wy-chcecie-dla-nas-zmieniac-nasze-panstwo.m4a"; sourceTree = "<group>"; };
+		E25D65EA2AEEDEC7000591DF /* z-bolu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "z-bolu.m4a"; sourceTree = "<group>"; };
+		E25D65EB2AEEDEC7000591DF /* ze-te-sadowe-kuy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-te-sadowe-kuy.m4a"; sourceTree = "<group>"; };
+		E25D65EC2AEEDEC7000591DF /* wypilac-za-brame-raz-kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wypilac-za-brame-raz-kua.m4a"; sourceTree = "<group>"; };
+		E25D65ED2AEEDEC7000591DF /* ze-ten-czlowiek-ma-118-wyrokow-uniewinniajacych.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-ten-czlowiek-ma-118-wyrokow-uniewinniajacych.m4a"; sourceTree = "<group>"; };
+		E25D65EE2AEEDEC7000591DF /* z-polski.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "z-polski.m4a"; sourceTree = "<group>"; };
+		E25D65EF2AEEDEC7000591DF /* wylacz-ten-telefon-bo-ci-go-wylacze-na-amen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wylacz-ten-telefon-bo-ci-go-wylacze-na-amen.m4a"; sourceTree = "<group>"; };
+		E25D65F02AEEDEC7000591DF /* to-wy-polacy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-wy-polacy.m4a"; sourceTree = "<group>"; };
+		E25D65F12AEEDEC7000591DF /* to-wlasnie-jest-ta-polska.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-wlasnie-jest-ta-polska.m4a"; sourceTree = "<group>"; };
+		E25D65F22AEEDEC7000591DF /* panowie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = panowie.m4a; sourceTree = "<group>"; };
+		E25D65F32AEEDEC7000591DF /* sasin-ch-ci-w-ryj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sasin-ch-ci-w-ryj.m4a"; sourceTree = "<group>"; };
+		E25D65F42AEEDEC7000591DF /* wszystko-inne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wszystko-inne.m4a"; sourceTree = "<group>"; };
+		E25D65F52AEEDEC7000591DF /* zaraz-bedzie-pan-najbardziej-znanym-policjantem-w-polsce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zaraz-bedzie-pan-najbardziej-znanym-policjantem-w-polsce.m4a"; sourceTree = "<group>"; };
+		E25D65F62AEEDEC7000591DF /* nienawidze-tego-panstwa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nienawidze-tego-panstwa.m4a"; sourceTree = "<group>"; };
+		E25D65F72AEEDEC7000591DF /* nic-sie-w-tym-kraju-nie-zmieni.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nic-sie-w-tym-kraju-nie-zmieni.m4a"; sourceTree = "<group>"; };
+		E25D65F82AEEDEC7000591DF /* ten-j-p-duda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ten-j-p-duda.m4a"; sourceTree = "<group>"; };
+		E25D65F92AEEDEC7000591DF /* wyjezdzamy-stad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wyjezdzamy-stad.m4a"; sourceTree = "<group>"; };
+		E25D65FA2AEEDEC7000591DF /* to-jest-jakies-kua-nieporozumienie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-jakies-kua-nieporozumienie.m4a"; sourceTree = "<group>"; };
+		E25D65FB2AEEDEC7000591DF /* ze-tych-cebulakow-tam-w-de-je-nie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-tych-cebulakow-tam-w-de-je-nie.m4a"; sourceTree = "<group>"; };
+		E25D65FC2AEEDEC7000591DF /* myslisz-ze-co-ja-jestem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myslisz-ze-co-ja-jestem.m4a"; sourceTree = "<group>"; };
+		E25D65FD2AEEDEC7000591DF /* sadowe-kuy-tego-czlowieka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sadowe-kuy-tego-czlowieka.m4a"; sourceTree = "<group>"; };
+		E25D65FE2AEEDEC8000591DF /* to-jeszcze-porozmawiamy-w-prokuraturze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jeszcze-porozmawiamy-w-prokuraturze.m4a"; sourceTree = "<group>"; };
+		E25D65FF2AEEDEC8000591DF /* oskarzaly-bezpodstawnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "oskarzaly-bezpodstawnie.m4a"; sourceTree = "<group>"; };
+		E25D66002AEEDEC8000591DF /* ze-jestescie-prymitywami.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-jestescie-prymitywami.m4a"; sourceTree = "<group>"; };
+		E25D66012AEEDEC8000591DF /* piekny-kua-jestes-piekny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "piekny-kua-jestes-piekny.m4a"; sourceTree = "<group>"; };
+		E25D66022AEEDEC8000591DF /* odbieraj-telefon-frajerze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "odbieraj-telefon-frajerze.m4a"; sourceTree = "<group>"; };
+		E25D66032AEEDEC8000591DF /* i-wypilaj-za-brame-raz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-wypilaj-za-brame-raz.m4a"; sourceTree = "<group>"; };
+		E25D66042AEEDEC8000591DF /* sasin-k-ch-j.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sasin-k-ch-j.m4a"; sourceTree = "<group>"; };
+		E25D66052AEEDEC8000591DF /* moja-zona-zna-cie-od-dziecka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moja-zona-zna-cie-od-dziecka.m4a"; sourceTree = "<group>"; };
+		E25D66062AEEDEC8000591DF /* yhym-yhym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yhym-yhym.m4a"; sourceTree = "<group>"; };
+		E25D66072AEEDEC8000591DF /* zescie-takie-glupie-sa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zescie-takie-glupie-sa.m4a"; sourceTree = "<group>"; };
+		E25D66082AEEDEC8000591DF /* ma-pan-obowiazek-stanac-tam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ma-pan-obowiazek-stanac-tam.m4a"; sourceTree = "<group>"; };
+		E25D66092AEEDEC8000591DF /* was-zaprowadzic-i-cos-wlaczyc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "was-zaprowadzic-i-cos-wlaczyc.m4a"; sourceTree = "<group>"; };
+		E25D660A2AEEDEC8000591DF /* sumlinskie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sumlinskie.m4a; sourceTree = "<group>"; };
+		E25D660B2AEEDEC8000591DF /* kultury-w-tym-wszystkim.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kultury-w-tym-wszystkim.m4a"; sourceTree = "<group>"; };
+		E25D660C2AEEDEC8000591DF /* pisowski-w-due-jey-ty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pisowski-w-due-jey-ty.m4a"; sourceTree = "<group>"; };
+		E25D660D2AEEDEC8000591DF /* zaraz-bedzie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zaraz-bedzie.m4a"; sourceTree = "<group>"; };
+		E25D660E2AEEDEC8000591DF /* ze-to-nie-jest-czyms-wartym-tego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-to-nie-jest-czyms-wartym-tego.m4a"; sourceTree = "<group>"; };
+		E25D660F2AEEDEC9000591DF /* on-bedzie-robil-warszawe-w-takim-czy-innym-wymiarze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "on-bedzie-robil-warszawe-w-takim-czy-innym-wymiarze.m4a"; sourceTree = "<group>"; };
+		E25D66102AEEDEC9000591DF /* tak-2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tak-2.m4a"; sourceTree = "<group>"; };
+		E25D66112AEEDEC9000591DF /* kaczynski.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaczynski.m4a; sourceTree = "<group>"; };
+		E25D66122AEEDEC9000591DF /* na-jakies-petru.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-jakies-petru.m4a"; sourceTree = "<group>"; };
+		E25D66132AEEDEC9000591DF /* tak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tak.m4a; sourceTree = "<group>"; };
+		E25D66962AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a"; sourceTree = "<group>"; };
+		E27C0B432AED0C0E00E5C418 /* ShareContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentModel.swift; sourceTree = "<group>"; };
+		E27F61932AEC0F52007FF9C9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		E2956EB62AEBAB5600B927A2 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		E2956EBE2AEBC85B00B927A2 /* i.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = i.m4a; sourceTree = "<group>"; };
+		E2956EBF2AEBC85B00B927A2 /* ja-mam-to-w-pidzie-kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-mam-to-w-pidzie-kua.m4a"; sourceTree = "<group>"; };
+		E2956EC02AEBC85B00B927A2 /* jak-ten-twoj-prezydent-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-ten-twoj-prezydent-jest.m4a"; sourceTree = "<group>"; };
+		E2956EC12AEBC85B00B927A2 /* ich-cale-jestestwo-to-jest-karta-kredytowa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ich-cale-jestestwo-to-jest-karta-kredytowa.m4a"; sourceTree = "<group>"; };
+		E2956EC22AEBC85B00B927A2 /* jak-sie-pan-nazywa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-sie-pan-nazywa.m4a"; sourceTree = "<group>"; };
+		E2956EC82AEBC91700B927A2 /* SoundStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundStorage.swift; sourceTree = "<group>"; };
+		E2998E7E2AEA7D3700C7FAB2 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		E2998E802AEA87D800C7FAB2 /* PlayerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButton.swift; sourceTree = "<group>"; };
+		E2998E822AEA9AB600C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-ty-dzisiaj-ch-j-pisowski.m4a"; sourceTree = "<group>"; };
+		E2998E832AEA9AB600C7FAB2 /* bede-zyl-kua-tak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bede-zyl-kua-tak.m4a"; sourceTree = "<group>"; };
+		E2998E842AEA9AB600C7FAB2 /* bo-cie-odcholuje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-cie-odcholuje.m4a"; sourceTree = "<group>"; };
+		E2998E852AEA9AB600C7FAB2 /* ale-jest-pan-chamski.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-jest-pan-chamski.m4a"; sourceTree = "<group>"; };
+		E2998E862AEA9AB600C7FAB2 /* by-tego-czlowieka-wprowadzic-do-parlamentu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "by-tego-czlowieka-wprowadzic-do-parlamentu.m4a"; sourceTree = "<group>"; };
+		E2998E872AEA9AB600C7FAB2 /* chj-warci-jestescie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chj-warci-jestescie.m4a"; sourceTree = "<group>"; };
+		E2998E882AEA9AB600C7FAB2 /* a-wam-kochani.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-wam-kochani.m4a"; sourceTree = "<group>"; };
+		E2998E8A2AEA9AB600C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem-ziobro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chcialem-sie-widziec-z-tym-skuynem-ziobro.m4a"; sourceTree = "<group>"; };
+		E2998E8B2AEA9AB600C7FAB2 /* bo-jestescie-banda-nieudacznikow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-jestescie-banda-nieudacznikow.m4a"; sourceTree = "<group>"; };
+		E2998E8C2AEA9AB600C7FAB2 /* chcesz-pozdrowic-publicznosc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chcesz-pozdrowic-publicznosc.m4a"; sourceTree = "<group>"; };
+		E2998E8E2AEA9AB600C7FAB2 /* beda-wam-odbieraly-smak-zycia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beda-wam-odbieraly-smak-zycia.m4a"; sourceTree = "<group>"; };
+		E2998E8F2AEA9AB600C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chcialem-sie-widziec-z-tym-skuynem.m4a"; sourceTree = "<group>"; };
+		E2998E902AEA9AB600C7FAB2 /* co-by-sie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "co-by-sie.m4a"; sourceTree = "<group>"; };
+		E2998E912AEA9AB600C7FAB2 /* bo-to-garstka-polakow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-to-garstka-polakow.m4a"; sourceTree = "<group>"; };
+		E2998E922AEA9AB600C7FAB2 /* co-chciales-powiedziec.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "co-chciales-powiedziec.m4a"; sourceTree = "<group>"; };
+		E2998E932AEA9AB600C7FAB2 /* a-z-panami-policjantami.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-z-panami-policjantami.m4a"; sourceTree = "<group>"; };
+		E2998E942AEA9AB600C7FAB2 /* biznes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = biznes.m4a; sourceTree = "<group>"; };
+		E2998E952AEA9AB600C7FAB2 /* bo-mnie-stac-na-wszystko.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-mnie-stac-na-wszystko.m4a"; sourceTree = "<group>"; };
+		E2998E962AEA9AB600C7FAB2 /* bo-jestescie-chj-warci.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-jestescie-chj-warci.m4a"; sourceTree = "<group>"; };
+		E2998E972AEA9AB600C7FAB2 /* anty-polakami-jestescie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "anty-polakami-jestescie.m4a"; sourceTree = "<group>"; };
+		E2998E982AEA9AB600C7FAB2 /* ale-ja-pytam-jak-sie-pan-nazywa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-ja-pytam-jak-sie-pan-nazywa.m4a"; sourceTree = "<group>"; };
+		E2998E992AEA9AB600C7FAB2 /* bedzie-was-ps-kua-dymal-tak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bedzie-was-ps-kua-dymal-tak.m4a"; sourceTree = "<group>"; };
+		E2998E9A2AEA9AB600C7FAB2 /* chcesz-nam-stratowac-nasze-miasto.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chcesz-nam-stratowac-nasze-miasto.m4a"; sourceTree = "<group>"; };
+		E2998E9B2AEA9AB600C7FAB2 /* chj-z-wami.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chj-z-wami.m4a"; sourceTree = "<group>"; };
+		E2998E9C2AEA9AB600C7FAB2 /* bedzie-was-ps-rchal-w-dpe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bedzie-was-ps-rchal-w-dpe.m4a"; sourceTree = "<group>"; };
+		E2998E9D2AEA9AB600C7FAB2 /* az-was-kukle-kua-beda-swedzialy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "az-was-kukle-kua-beda-swedzialy.m4a"; sourceTree = "<group>"; };
+		E2998E9E2AEA9AB600C7FAB2 /* ci-co-zescie-glosowali-na-ps.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ci-co-zescie-glosowali-na-ps.m4a"; sourceTree = "<group>"; };
+		E2998EBC2AEAA7E500C7FAB2 /* SoundFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFileManager.swift; sourceTree = "<group>"; };
+		E2998EBE2AEBA54400C7FAB2 /* dobry-wieczor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dobry-wieczor.m4a"; sourceTree = "<group>"; };
+		E2998EBF2AEBA54400C7FAB2 /* co-wy-chcecie-byc-dla-nas-autorytetem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "co-wy-chcecie-byc-dla-nas-autorytetem.m4a"; sourceTree = "<group>"; };
+		E2998EC02AEBA54400C7FAB2 /* i-bede-sie-z-was-polskie-frajery-smial.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-bede-sie-z-was-polskie-frajery-smial.m4a"; sourceTree = "<group>"; };
+		E2998EC12AEBA54400C7FAB2 /* i-juz-mi-sie-nie-chce-niczego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-juz-mi-sie-nie-chce-niczego.m4a"; sourceTree = "<group>"; };
+		E2998EC22AEBA54400C7FAB2 /* czesc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = czesc.m4a; sourceTree = "<group>"; };
+		E2998EC32AEBA54400C7FAB2 /* dobranoc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dobranoc.m4a; sourceTree = "<group>"; };
+		E2998EC42AEBA54400C7FAB2 /* gdzie-postawilem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gdzie-postawilem.m4a"; sourceTree = "<group>"; };
+		E2998EC52AEBA54400C7FAB2 /* dzwonimy-do-oficera-dyzurnego-kraju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzwonimy-do-oficera-dyzurnego-kraju.m4a"; sourceTree = "<group>"; };
+		E2998EC62AEBA54400C7FAB2 /* dudo-patrz-na-mnie-ryju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dudo-patrz-na-mnie-ryju.m4a"; sourceTree = "<group>"; };
+		E2998EC72AEBA54400C7FAB2 /* gorzej-kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gorzej-kua.m4a"; sourceTree = "<group>"; };
+		E2998EC82AEBA54400C7FAB2 /* co-ty-mowisz-chamie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "co-ty-mowisz-chamie.m4a"; sourceTree = "<group>"; };
+		E2998EC92AEBA54400C7FAB2 /* dobra-nie-strasz-bo-sie-zessz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dobra-nie-strasz-bo-sie-zessz.m4a"; sourceTree = "<group>"; };
+		E2998ECA2AEBA54400C7FAB2 /* co-ty-chamie-mowisz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "co-ty-chamie-mowisz.m4a"; sourceTree = "<group>"; };
+		E2998ECB2AEBA54400C7FAB2 /* garstka-polakow-dzisiaj-to-jest-70-tys-osob.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "garstka-polakow-dzisiaj-to-jest-70-tys-osob.m4a"; sourceTree = "<group>"; };
+		E2998ECC2AEBA54400C7FAB2 /* glupia-polska-glupie-polaczki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glupia-polska-glupie-polaczki.m4a"; sourceTree = "<group>"; };
+		E2998ECD2AEBA54400C7FAB2 /* dziekuje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dziekuje.m4a; sourceTree = "<group>"; };
+		E2998ECE2AEBA54400C7FAB2 /* i-ten-k-karakan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-ten-k-karakan.m4a"; sourceTree = "<group>"; };
+		E2998ECF2AEBA54400C7FAB2 /* c-do-szczania.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "c-do-szczania.m4a"; sourceTree = "<group>"; };
+		E2998ED02AEBA54400C7FAB2 /* i-dla-was-znaczylo-tylko-to-70-czy-80-tysiecy-glosow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-dla-was-znaczylo-tylko-to-70-czy-80-tysiecy-glosow.m4a"; sourceTree = "<group>"; };
+		E2998ED12AEBA54400C7FAB2 /* clisko-j.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "clisko-j.m4a"; sourceTree = "<group>"; };
+		E2998ED22AEBA54400C7FAB2 /* i-nagle-ten-caly-ich-sasin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-nagle-ten-caly-ich-sasin.m4a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E21ABD5D2AE97C4D00F93F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E21ABD572AE97C4D00F93F01 = {
+			isa = PBXGroup;
+			children = (
+				E21ABD622AE97C4D00F93F01 /* StonogaSoundboard */,
+				E21ABD612AE97C4D00F93F01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E21ABD612AE97C4D00F93F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E21ABD602AE97C4D00F93F01 /* StonogaSoundboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21ABD622AE97C4D00F93F01 /* StonogaSoundboard */ = {
+			isa = PBXGroup;
+			children = (
+				E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */,
+				E2956EC82AEBC91700B927A2 /* SoundStorage.swift */,
+				E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */,
+				E2998EBC2AEAA7E500C7FAB2 /* SoundFileManager.swift */,
+				E27F61932AEC0F52007FF9C9 /* Repository.swift */,
+				E21ABD772AE9A8C600F93F01 /* Models */,
+				E21ABD762AE9A8B900F93F01 /* Soundboard */,
+				E2956ECA2AEBC92E00B927A2 /* Views */,
+				E21ABD712AE97D5A00F93F01 /* Resources */,
+				E21ABD672AE97C4F00F93F01 /* Assets.xcassets */,
+				E21ABD692AE97C4F00F93F01 /* Preview Content */,
+			);
+			path = StonogaSoundboard;
+			sourceTree = "<group>";
+		};
+		E21ABD692AE97C4F00F93F01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E21ABD6A2AE97C4F00F93F01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E21ABD712AE97D5A00F93F01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E21ABD722AE97D6300F93F01 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E21ABD722AE97D6300F93F01 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E25D66962AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */,
+				E2998E822AEA9AB600C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a */,
+				E2998E882AEA9AB600C7FAB2 /* a-wam-kochani.m4a */,
+				E2998E932AEA9AB600C7FAB2 /* a-z-panami-policjantami.m4a */,
+				E2998E982AEA9AB600C7FAB2 /* ale-ja-pytam-jak-sie-pan-nazywa.m4a */,
+				E2998E852AEA9AB600C7FAB2 /* ale-jest-pan-chamski.m4a */,
+				E2998E972AEA9AB600C7FAB2 /* anty-polakami-jestescie.m4a */,
+				E2998E9D2AEA9AB600C7FAB2 /* az-was-kukle-kua-beda-swedzialy.m4a */,
+				E2998E8E2AEA9AB600C7FAB2 /* beda-wam-odbieraly-smak-zycia.m4a */,
+				E2998E832AEA9AB600C7FAB2 /* bede-zyl-kua-tak.m4a */,
+				E2998E992AEA9AB600C7FAB2 /* bedzie-was-ps-kua-dymal-tak.m4a */,
+				E2998E9C2AEA9AB600C7FAB2 /* bedzie-was-ps-rchal-w-dpe.m4a */,
+				E2998E942AEA9AB600C7FAB2 /* biznes.m4a */,
+				E2998E842AEA9AB600C7FAB2 /* bo-cie-odcholuje.m4a */,
+				E25D65BE2AEEDEC4000591DF /* bo-jak-teraz-policja-przyjedzie-to-bedzie-inaczej.m4a */,
+				E2998E8B2AEA9AB600C7FAB2 /* bo-jestescie-banda-nieudacznikow.m4a */,
+				E2998E962AEA9AB600C7FAB2 /* bo-jestescie-chj-warci.m4a */,
+				E2998E952AEA9AB600C7FAB2 /* bo-mnie-stac-na-wszystko.m4a */,
+				E2998E912AEA9AB600C7FAB2 /* bo-to-garstka-polakow.m4a */,
+				E25D65A82AEEDEC3000591DF /* budze-sie-codziennie-otwieram-oczy-znowu-w-tej-polsce.m4a */,
+				E2998E862AEA9AB600C7FAB2 /* by-tego-czlowieka-wprowadzic-do-parlamentu.m4a */,
+				E2998ECF2AEBA54400C7FAB2 /* c-do-szczania.m4a */,
+				E2998E9A2AEA9AB600C7FAB2 /* chcesz-nam-stratowac-nasze-miasto.m4a */,
+				E2998E8C2AEA9AB600C7FAB2 /* chcesz-pozdrowic-publicznosc.m4a */,
+				E2998E8A2AEA9AB600C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem-ziobro.m4a */,
+				E2998E8F2AEA9AB600C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem.m4a */,
+				E2998E872AEA9AB600C7FAB2 /* chj-warci-jestescie.m4a */,
+				E2998E9B2AEA9AB600C7FAB2 /* chj-z-wami.m4a */,
+				E2998E9E2AEA9AB600C7FAB2 /* ci-co-zescie-glosowali-na-ps.m4a */,
+				E2998ED12AEBA54400C7FAB2 /* clisko-j.m4a */,
+				E2998E902AEA9AB600C7FAB2 /* co-by-sie.m4a */,
+				E2998E922AEA9AB600C7FAB2 /* co-chciales-powiedziec.m4a */,
+				E2998ECA2AEBA54400C7FAB2 /* co-ty-chamie-mowisz.m4a */,
+				E2998EC82AEBA54400C7FAB2 /* co-ty-mowisz-chamie.m4a */,
+				E2998EBF2AEBA54400C7FAB2 /* co-wy-chcecie-byc-dla-nas-autorytetem.m4a */,
+				E25D65AD2AEEDEC3000591DF /* cos-sie-cos-sie-popsulo-i-nie-bylo-mnie-slychac.m4a */,
+				E2998EC22AEBA54400C7FAB2 /* czesc.m4a */,
+				E2998EC92AEBA54400C7FAB2 /* dobra-nie-strasz-bo-sie-zessz.m4a */,
+				E2998EC32AEBA54400C7FAB2 /* dobranoc.m4a */,
+				E2998EBE2AEBA54400C7FAB2 /* dobry-wieczor.m4a */,
+				E2998EC62AEBA54400C7FAB2 /* dudo-patrz-na-mnie-ryju.m4a */,
+				E2998ECD2AEBA54400C7FAB2 /* dziekuje.m4a */,
+				E2998EC52AEBA54400C7FAB2 /* dzwonimy-do-oficera-dyzurnego-kraju.m4a */,
+				E2998ECB2AEBA54400C7FAB2 /* garstka-polakow-dzisiaj-to-jest-70-tys-osob.m4a */,
+				E2998EC42AEBA54400C7FAB2 /* gdzie-postawilem.m4a */,
+				E2998ECC2AEBA54400C7FAB2 /* glupia-polska-glupie-polaczki.m4a */,
+				E2998EC72AEBA54400C7FAB2 /* gorzej-kua.m4a */,
+				E2998EC02AEBA54400C7FAB2 /* i-bede-sie-z-was-polskie-frajery-smial.m4a */,
+				E2998ED02AEBA54400C7FAB2 /* i-dla-was-znaczylo-tylko-to-70-czy-80-tysiecy-glosow.m4a */,
+				E2998EC12AEBA54400C7FAB2 /* i-juz-mi-sie-nie-chce-niczego.m4a */,
+				E2998ED22AEBA54400C7FAB2 /* i-nagle-ten-caly-ich-sasin.m4a */,
+				E2998ECE2AEBA54400C7FAB2 /* i-ten-k-karakan.m4a */,
+				E25D65A12AEEDEC2000591DF /* i-trzeba-was-jec-rchac-i-na-was-zarabiac.m4a */,
+				E25D66032AEEDEC8000591DF /* i-wypilaj-za-brame-raz.m4a */,
+				E2956EBE2AEBC85B00B927A2 /* i.m4a */,
+				E2956EC12AEBC85B00B927A2 /* ich-cale-jestestwo-to-jest-karta-kredytowa.m4a */,
+				E25D65702AED3A44000591DF /* j-p-c.m4a */,
+				E25D65712AED3A44000591DF /* j-sie-k-jak-kroliki.m4a */,
+				E2956EBF2AEBC85B00B927A2 /* ja-mam-to-w-pidzie-kua.m4a */,
+				E25D65D42AEEDEC5000591DF /* ja-mysle-ze-to-polskie-kua-glupie-spoleczenstwo.m4a */,
+				E2956EC22AEBC85B00B927A2 /* jak-sie-pan-nazywa.m4a */,
+				E2956EC02AEBC85B00B927A2 /* jak-ten-twoj-prezydent-jest.m4a */,
+				E25D65762AED3A44000591DF /* jak-tylko-was-moze-jec-ps.m4a */,
+				E25D656F2AED3A44000591DF /* jak-was-platforma-nie-dymala.m4a */,
+				E25D65722AED3A44000591DF /* jec.m4a */,
+				E25D65772AED3A44000591DF /* jedyne-co-chce-wyjechac-z-tego-polskiego-syfu.m4a */,
+				E25D65CD2AEEDEC5000591DF /* jesli-tyle-dla-was-znaczy-ludzie.m4a */,
+				E25D657D2AED3A44000591DF /* jesli-tyle-dla-was-znaczy.m4a */,
+				E25D65792AED3A44000591DF /* jest-prezydentem-tych-p-tam.m4a */,
+				E25D656E2AED3A43000591DF /* jestescie-tu-nielegalnie.m4a */,
+				E25D65742AED3A44000591DF /* juz-bilet-kupiony.m4a */,
+				E25D65CE2AEEDEC5000591DF /* k-dudo.m4a */,
+				E25D65782AED3A44000591DF /* k-na-takich-jak-ty-to-szcze-cieplym-moczem.m4a */,
+				E25D65B12AEEDEC3000591DF /* k-to-j-pisowskie.m4a */,
+				E25D66112AEEDEC9000591DF /* kaczynski.m4a */,
+				E25D65B22AEEDEC3000591DF /* kanie-rachonie.m4a */,
+				E25D657B2AED3A44000591DF /* kocham-polske-i-kocham-ludzi.m4a */,
+				E25D65732AED3A44000591DF /* ktorzy-doprowadzili-do-zniszczenia-mienia-w-tym-domu.m4a */,
+				E25D657A2AED3A44000591DF /* ktorzy-to-kutwo-pe-wybrali.m4a */,
+				E25D65752AED3A44000591DF /* ktorzyscie-glosowali-na-mnie.m4a */,
+				E25D65902AEEDD96000591DF /* ktorzyscie-wspomagali-mnie.m4a */,
+				E25D65D32AEEDEC5000591DF /* kua-chamie.m4a */,
+				E25D65B42AEEDEC3000591DF /* kua.m4a */,
+				E25D660B2AEEDEC8000591DF /* kultury-w-tym-wszystkim.m4a */,
+				E25D66082AEEDEC8000591DF /* ma-pan-obowiazek-stanac-tam.m4a */,
+				E25D65AE2AEEDEC3000591DF /* moja-rodzine.m4a */,
+				E25D66052AEEDEC8000591DF /* moja-zona-zna-cie-od-dziecka.m4a */,
+				E25D65DC2AEEDEC6000591DF /* moje-zycie-prywatne.m4a */,
+				E25D65C72AEEDEC5000591DF /* moze-osiemdziesiat.m4a */,
+				E25D659A2AEEDEC2000591DF /* my-was-p.m4a */,
+				E25D65FC2AEEDEC7000591DF /* myslisz-ze-co-ja-jestem.m4a */,
+				E25D66122AEEDEC9000591DF /* na-jakies-petru.m4a */,
+				E25D65B82AEEDEC4000591DF /* na-kukizow-glosowali.m4a */,
+				E25D65D82AEEDEC6000591DF /* na-was-zarabiac.m4a */,
+				E25D65E12AEEDEC6000591DF /* narazie-wypialam.m4a */,
+				E25D65C92AEEDEC5000591DF /* narodowi-polscy-idioci.m4a */,
+				E25D65F72AEEDEC7000591DF /* nic-sie-w-tym-kraju-nie-zmieni.m4a */,
+				E25D65C22AEEDEC4000591DF /* nie-na-korwina.m4a */,
+				E25D65BB2AEEDEC4000591DF /* nie-na-stonoge.m4a */,
+				E25D65E82AEEDEC6000591DF /* nie-nie-bylem.m4a */,
+				E25D65DA2AEEDEC6000591DF /* nie-rob-se-ze-mna-zdjecia-bo-cie-zjedza-te-k-z-pisu.m4a */,
+				E25D659F2AEEDEC2000591DF /* nie-umiesz-normalnie-rozmawiac-z-obywatelem-to-wypilaj-za-brame.m4a */,
+				E25D65A02AEEDEC2000591DF /* nie-warto-bylo-kua.m4a */,
+				E25D65962AEEDEC2000591DF /* nie-warto-bylo-zrobic-nic.m4a */,
+				E25D65C62AEEDEC5000591DF /* niech-was-szlak-trafi.m4a */,
+				E25D65F62AEEDEC7000591DF /* nienawidze-tego-panstwa.m4a */,
+				E25D65992AEEDEC2000591DF /* nieporozumienie.m4a */,
+				E25D65952AEEDEC1000591DF /* no-i-ja-potwierdzam.m4a */,
+				E25D66022AEEDEC8000591DF /* odbieraj-telefon-frajerze.m4a */,
+				E25D65AB2AEEDEC3000591DF /* odbieraj-telefon-smieciu.m4a */,
+				E25D65C52AEEDEC4000591DF /* odnalazlem-ostatnio-dziesiatki.m4a */,
+				E25D660F2AEEDEC9000591DF /* on-bedzie-robil-warszawe-w-takim-czy-innym-wymiarze.m4a */,
+				E25D65FF2AEEDEC8000591DF /* oskarzaly-bezpodstawnie.m4a */,
+				E25D65BF2AEEDEC4000591DF /* p-pisowski-k.m4a */,
+				E25D65F22AEEDEC7000591DF /* panowie.m4a */,
+				E25D66012AEEDEC8000591DF /* piekny-kua-jestes-piekny.m4a */,
+				E25D660C2AEEDEC8000591DF /* pisowski-w-due-jey-ty.m4a */,
+				E25D65CF2AEEDEC5000591DF /* platforma-was-tak-nie-wyrchala-jak-wyrcha-was-ps.m4a */,
+				E25D65A32AEEDEC3000591DF /* po-latach-uniewinnialy.m4a */,
+				E25D65DE2AEEDEC6000591DF /* po-prostu-wypilac.m4a */,
+				E25D65E02AEEDEC6000591DF /* prosze-wyjechac-stad-i-dalej-wykonywac-swoje-obowiazki.m4a */,
+				E25D65BD2AEEDEC4000591DF /* prosze-wyjechac-stad-natychmiast.m4a */,
+				E25D65D12AEEDEC5000591DF /* przestan-mi-kuo-rodzine-przesladowac.m4a */,
+				E25D65A92AEEDEC3000591DF /* przez-taka-polske.m4a */,
+				E25D65A42AEEDEC3000591DF /* przez-was-kua-chje.m4a */,
+				E25D65CC2AEEDEC5000591DF /* rchac.m4a */,
+				E25D65BA2AEEDEC4000591DF /* robota-w-korporacji-i-karta-z-debetem.m4a */,
+				E25D659B2AEEDEC2000591DF /* rozumiecie-to.m4a */,
+				E25D65FD2AEEDEC7000591DF /* sadowe-kuy-tego-czlowieka.m4a */,
+				E25D65E32AEEDEC6000591DF /* sadowe-kuy.m4a */,
+				E25D65F32AEEDEC7000591DF /* sasin-ch-ci-w-ryj.m4a */,
+				E25D66042AEEDEC8000591DF /* sasin-k-ch-j.m4a */,
+				E25D65E72AEEDEC6000591DF /* sluchajcie.m4a */,
+				E25D65B02AEEDEC3000591DF /* spotkamy-sie-w-prokuraturze.m4a */,
+				E25D660A2AEEDEC8000591DF /* sumlinskie.m4a */,
+				E25D65AC2AEEDEC3000591DF /* szkoda-bylo-9-spraw-karnych-szkoda-bylo-ujawniac-afery-podsluchowej.m4a */,
+				E25D65D02AEEDEC5000591DF /* szkoda-dla-was-bylo-cokolwiek-wy-glupie-chje-wy.m4a */,
+				E25D65CA2AEEDEC5000591DF /* szkoda-kua-gadac-szkoda-strzepic-ryja-naprawde.m4a */,
+				E25D65B32AEEDEC3000591DF /* ta-banda-imbecyli-co-glosowala-na-tych-karakanow.m4a */,
+				E25D65C12AEEDEC4000591DF /* tacy-kua-debile.m4a */,
+				E25D66102AEEDEC9000591DF /* tak-2.m4a */,
+				E25D65D22AEEDEC5000591DF /* tak-sie-powinno-was-jec.m4a */,
+				E25D65AA2AEEDEC3000591DF /* tak-ty-jestes-c.m4a */,
+				E25D66132AEEDEC9000591DF /* tak.m4a */,
+				E25D65A62AEEDEC3000591DF /* takie-zaangazowanie-spoleczne-jak-moje.m4a */,
+				E25D65DF2AEEDEC6000591DF /* telewizje-republiki.m4a */,
+				E25D65F82AEEDEC7000591DF /* ten-j-p-duda.m4a */,
+				E25D65E22AEEDEC6000591DF /* ten-maly-karakan.m4a */,
+				E25D65B92AEEDEC4000591DF /* to-ci-wojsko-wyprowadze-na-ulice.m4a */,
+				E25D65D72AEEDEC5000591DF /* to-jest-dramat-kua.m4a */,
+				E25D65C82AEEDEC5000591DF /* to-jest-dramat.m4a */,
+				E25D65FA2AEEDEC7000591DF /* to-jest-jakies-kua-nieporozumienie.m4a */,
+				E25D65932AEEDEC1000591DF /* to-jest-wasz-majestat.m4a */,
+				E25D65FE2AEEDEC8000591DF /* to-jeszcze-porozmawiamy-w-prokuraturze.m4a */,
+				E25D65A52AEEDEC3000591DF /* to-powtorze-jeszcze-raz.m4a */,
+				E25D65BC2AEEDEC4000591DF /* to-was-powinno-sie-jec-kua.m4a */,
+				E25D65F12AEEDEC7000591DF /* to-wlasnie-jest-ta-polska.m4a */,
+				E25D65F02AEEDEC7000591DF /* to-wy-polacy.m4a */,
+				E25D65942AEEDEC1000591DF /* ty-k.m4a */,
+				E25D65DD2AEEDEC6000591DF /* ty-nieudaczniku.m4a */,
+				E25D65982AEEDEC2000591DF /* tylko-to-sie-w-tej-polsce-nadaje.m4a */,
+				E25D65922AEEDEC1000591DF /* tylko.m4a */,
+				E25D65B62AEEDEC4000591DF /* w-d-sie-r.m4a */,
+				E25D65E42AEEDEC6000591DF /* w-milicji-takie-chamy-nie-robily.m4a */,
+				E25D65C32AEEDEC4000591DF /* w-tym-panstwie-media-nie-byly-w-stanie-powiedziec-ze-zbigniewa-stonoge.m4a */,
+				E25D65972AEEDEC2000591DF /* w-ukryciu-siedze-bo-cos-tam-cos-tam.m4a */,
+				E25D66092AEEDEC8000591DF /* was-zaprowadzic-i-cos-wlaczyc.m4a */,
+				E25D65E52AEEDEC6000591DF /* wasza-godnosc.m4a */,
+				E25D65B52AEEDEC4000591DF /* wasze-karty-kredytowe.m4a */,
+				E25D65CB2AEEDEC5000591DF /* wiele-miesiecy-sie-zastanawialem-jak-to-jest-na-prawde-z-tym-wszystkim-co-ja-robie.m4a */,
+				E25D659C2AEEDEC2000591DF /* wjechal-pan-na-teren-posesji-prywatnej.m4a */,
+				E25D659E2AEEDEC2000591DF /* won-wypilac.m4a */,
+				E25D65E62AEEDEC6000591DF /* wspominam-taki-czas-kiedy-wydalem-taki-komunikat.m4a */,
+				E25D65F42AEEDEC7000591DF /* wszystko-inne.m4a */,
+				E25D65E92AEEDEC6000591DF /* wy-chcecie-dla-nas-zmieniac-nasze-panstwo.m4a */,
+				E25D65D52AEEDEC5000591DF /* wy-kua-idioci.m4a */,
+				E25D65F92AEEDEC7000591DF /* wyjezdzamy-stad.m4a */,
+				E25D65EF2AEEDEC7000591DF /* wylacz-ten-telefon-bo-ci-go-wylacze-na-amen.m4a */,
+				E25D65A22AEEDEC2000591DF /* wynik-wyborczy-kww-stonogi-to-jest-jakas-porazka.m4a */,
+				E25D65EC2AEEDEC7000591DF /* wypilac-za-brame-raz-kua.m4a */,
+				E25D65D62AEEDEC5000591DF /* wypilajcie-i-nie-dokuczajcie-ludziom-won.m4a */,
+				E25D659D2AEEDEC2000591DF /* wypiole-jeszcze-dzisiaj.m4a */,
+				E25D66062AEEDEC8000591DF /* yhym-yhym.m4a */,
+				E25D65EA2AEEDEC7000591DF /* z-bolu.m4a */,
+				E25D65A72AEEDEC3000591DF /* z-jednej-strony-kocham-polske-kocham-ludzi.m4a */,
+				E25D65EE2AEEDEC7000591DF /* z-polski.m4a */,
+				E25D65F52AEEDEC7000591DF /* zaraz-bedzie-pan-najbardziej-znanym-policjantem-w-polsce.m4a */,
+				E25D660D2AEEDEC8000591DF /* zaraz-bedzie.m4a */,
+				E25D65D92AEEDEC6000591DF /* zbeszczeszczono.m4a */,
+				E25D66002AEEDEC8000591DF /* ze-jestescie-prymitywami.m4a */,
+				E25D65C02AEEDEC4000591DF /* ze-kua.m4a */,
+				E25D65EB2AEEDEC7000591DF /* ze-te-sadowe-kuy.m4a */,
+				E25D65ED2AEEDEC7000591DF /* ze-ten-czlowiek-ma-118-wyrokow-uniewinniajacych.m4a */,
+				E25D660E2AEEDEC8000591DF /* ze-to-nie-jest-czyms-wartym-tego.m4a */,
+				E25D65DB2AEEDEC6000591DF /* ze-to-sa-k-i-smiecie.m4a */,
+				E25D65FB2AEEDEC7000591DF /* ze-tych-cebulakow-tam-w-de-je-nie.m4a */,
+				E25D65AF2AEEDEC3000591DF /* ze-w-tym-antyludzkim-panstwie.m4a */,
+				E25D66072AEEDEC8000591DF /* zescie-takie-glupie-sa.m4a */,
+				E25D65C42AEEDEC4000591DF /* ziobro-kuo-jea.m4a */,
+				E25D65B72AEEDEC4000591DF /* zniszczy-was.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E21ABD762AE9A8B900F93F01 /* Soundboard */ = {
+			isa = PBXGroup;
+			children = (
+				E21ABD652AE97C4D00F93F01 /* SoundboardView.swift */,
+				E21ABD732AE9A87300F93F01 /* SoundboardView+ViewModel.swift */,
+				E21ABD7E2AE9A9E200F93F01 /* SoundRow */,
+			);
+			path = Soundboard;
+			sourceTree = "<group>";
+		};
+		E21ABD772AE9A8C600F93F01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E21ABD782AE9A8CF00F93F01 /* SoundModel.swift */,
+				E27C0B432AED0C0E00E5C418 /* ShareContentModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E21ABD7E2AE9A9E200F93F01 /* SoundRow */ = {
+			isa = PBXGroup;
+			children = (
+				E21ABD7A2AE9A8F500F93F01 /* SoundRowView.swift */,
+				E21ABD7C2AE9A91900F93F01 /* SoundRowView+ViewModel.swift */,
+			);
+			path = SoundRow;
+			sourceTree = "<group>";
+		};
+		E2956ECA2AEBC92E00B927A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E25D656A2AED25B0000591DF /* RoundCountView.swift */,
+				E2998E7E2AEA7D3700C7FAB2 /* FavoriteButton.swift */,
+				E2956EB62AEBAB5600B927A2 /* ShareButton.swift */,
+				E2998E802AEA87D800C7FAB2 /* PlayerButton.swift */,
+				E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */,
+				E25D656C2AED3603000591DF /* PortraitView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E21ABD5F2AE97C4D00F93F01 /* StonogaSoundboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21ABD6E2AE97C4F00F93F01 /* Build configuration list for PBXNativeTarget "StonogaSoundboard" */;
+			buildPhases = (
+				E21ABD5C2AE97C4D00F93F01 /* Sources */,
+				E21ABD5D2AE97C4D00F93F01 /* Frameworks */,
+				E21ABD5E2AE97C4D00F93F01 /* Resources */,
+				E27F61B42AEC25E0007FF9C9 /* Run SwiftLint Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StonogaSoundboard;
+			packageProductDependencies = (
+			);
+			productName = StonogaSoundboard;
+			productReference = E21ABD602AE97C4D00F93F01 /* StonogaSoundboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E21ABD582AE97C4D00F93F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E21ABD5F2AE97C4D00F93F01 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E21ABD5B2AE97C4D00F93F01 /* Build configuration list for PBXProject "StonogaSoundboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E21ABD572AE97C4D00F93F01;
+			packageReferences = (
+				E28FF4FA2AEC29D30016CD78 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
+			productRefGroup = E21ABD612AE97C4D00F93F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E21ABD5F2AE97C4D00F93F01 /* StonogaSoundboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E21ABD5E2AE97C4D00F93F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21ABD6B2AE97C4F00F93F01 /* Preview Assets.xcassets in Resources */,
+				E25D658D2AED3A44000591DF /* jesli-tyle-dla-was-znaczy.m4a in Resources */,
+				E25D661E2AEEDEC9000591DF /* wjechal-pan-na-teren-posesji-prywatnej.m4a in Resources */,
+				E25D66662AEEDEC9000591DF /* w-milicji-takie-chamy-nie-robily.m4a in Resources */,
+				E25D66682AEEDEC9000591DF /* wspominam-taki-czas-kiedy-wydalem-taki-komunikat.m4a in Resources */,
+				E2998EA32AEA9D6000C7FAB2 /* a-wam-kochani.m4a in Resources */,
+				E2998EB22AEA9D6000C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem-ziobro.m4a in Resources */,
+				E25D66912AEEDEC9000591DF /* on-bedzie-robil-warszawe-w-takim-czy-innym-wymiarze.m4a in Resources */,
+				E25D66842AEEDEC9000591DF /* odbieraj-telefon-frajerze.m4a in Resources */,
+				E2998EDE2AEBA5FE00C7FAB2 /* glupia-polska-glupie-polaczki.m4a in Resources */,
+				E25D66172AEEDEC9000591DF /* no-i-ja-potwierdzam.m4a in Resources */,
+				E25D666D2AEEDEC9000591DF /* ze-te-sadowe-kuy.m4a in Resources */,
+				E25D66562AEEDEC9000591DF /* ja-mysle-ze-to-polskie-kua-glupie-spoleczenstwo.m4a in Resources */,
+				E25D65832AED3A44000591DF /* ktorzy-doprowadzili-do-zniszczenia-mienia-w-tym-domu.m4a in Resources */,
+				E25D66722AEEDEC9000591DF /* to-wy-polacy.m4a in Resources */,
+				E2998ED32AEBA5FE00C7FAB2 /* gorzej-kua.m4a in Resources */,
+				E25D65892AED3A44000591DF /* jest-prezydentem-tych-p-tam.m4a in Resources */,
+				E2998EDC2AEBA5FE00C7FAB2 /* i-bede-sie-z-was-polskie-frajery-smial.m4a in Resources */,
+				E25D663A2AEEDEC9000591DF /* na-kukizow-glosowali.m4a in Resources */,
+				E25D666B2AEEDEC9000591DF /* wy-chcecie-dla-nas-zmieniac-nasze-panstwo.m4a in Resources */,
+				E25D66432AEEDEC9000591DF /* tacy-kua-debile.m4a in Resources */,
+				E25D66402AEEDEC9000591DF /* bo-jak-teraz-policja-przyjedzie-to-bedzie-inaczej.m4a in Resources */,
+				E25D66632AEEDEC9000591DF /* narazie-wypialam.m4a in Resources */,
+				E25D66852AEEDEC9000591DF /* i-wypilaj-za-brame-raz.m4a in Resources */,
+				E2998EA42AEA9D6000C7FAB2 /* bo-mnie-stac-na-wszystko.m4a in Resources */,
+				E25D65822AED3A44000591DF /* jec.m4a in Resources */,
+				E25D66862AEEDEC9000591DF /* sasin-k-ch-j.m4a in Resources */,
+				E25D66892AEEDEC9000591DF /* zescie-takie-glupie-sa.m4a in Resources */,
+				E25D662C2AEEDEC9000591DF /* tak-ty-jestes-c.m4a in Resources */,
+				E2998EB82AEA9D6000C7FAB2 /* co-by-sie.m4a in Resources */,
+				E25D664B2AEEDEC9000591DF /* narodowi-polscy-idioci.m4a in Resources */,
+				E25D666C2AEEDEC9000591DF /* z-bolu.m4a in Resources */,
+				E25D66222AEEDEC9000591DF /* nie-warto-bylo-kua.m4a in Resources */,
+				E25D66522AEEDEC9000591DF /* szkoda-dla-was-bylo-cokolwiek-wy-glupie-chje-wy.m4a in Resources */,
+				E2998EE02AEBA5FE00C7FAB2 /* clisko-j.m4a in Resources */,
+				E2998EA72AEA9D6000C7FAB2 /* beda-wam-odbieraly-smak-zycia.m4a in Resources */,
+				E25D66442AEEDEC9000591DF /* nie-na-korwina.m4a in Resources */,
+				E25D65842AED3A44000591DF /* juz-bilet-kupiony.m4a in Resources */,
+				E2956EC32AEBC85B00B927A2 /* i.m4a in Resources */,
+				E2998EAA2AEA9D6000C7FAB2 /* a-z-panami-policjantami.m4a in Resources */,
+				E25D66152AEEDEC9000591DF /* to-jest-wasz-majestat.m4a in Resources */,
+				E2998EA02AEA9D6000C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a in Resources */,
+				E25D65862AED3A44000591DF /* jak-tylko-was-moze-jec-ps.m4a in Resources */,
+				E2998EE72AEBA5FE00C7FAB2 /* c-do-szczania.m4a in Resources */,
+				E25D65802AED3A44000591DF /* j-p-c.m4a in Resources */,
+				E25D663E2AEEDEC9000591DF /* to-was-powinno-sie-jec-kua.m4a in Resources */,
+				E25D658B2AED3A44000591DF /* kocham-polske-i-kocham-ludzi.m4a in Resources */,
+				E25D66412AEEDEC9000591DF /* p-pisowski-k.m4a in Resources */,
+				E2998EA62AEA9D6000C7FAB2 /* ci-co-zescie-glosowali-na-ps.m4a in Resources */,
+				E2998EDF2AEBA5FE00C7FAB2 /* garstka-polakow-dzisiaj-to-jest-70-tys-osob.m4a in Resources */,
+				E25D66612AEEDEC9000591DF /* telewizje-republiki.m4a in Resources */,
+				E2998EA92AEA9D6000C7FAB2 /* bede-zyl-kua-tak.m4a in Resources */,
+				E25D66822AEEDEC9000591DF /* ze-jestescie-prymitywami.m4a in Resources */,
+				E25D66502AEEDEC9000591DF /* k-dudo.m4a in Resources */,
+				E25D66542AEEDEC9000591DF /* tak-sie-powinno-was-jec.m4a in Resources */,
+				E25D66692AEEDEC9000591DF /* sluchajcie.m4a in Resources */,
+				E2998EAE2AEA9D6000C7FAB2 /* chj-z-wami.m4a in Resources */,
+				E2998E9F2AEA9D6000C7FAB2 /* co-chciales-powiedziec.m4a in Resources */,
+				E25D667E2AEEDEC9000591DF /* myslisz-ze-co-ja-jestem.m4a in Resources */,
+				E2998EBB2AEA9D6000C7FAB2 /* biznes.m4a in Resources */,
+				E25D668B2AEEDEC9000591DF /* was-zaprowadzic-i-cos-wlaczyc.m4a in Resources */,
+				E2998EB52AEA9D6000C7FAB2 /* ale-ja-pytam-jak-sie-pan-nazywa.m4a in Resources */,
+				E25D66652AEEDEC9000591DF /* sadowe-kuy.m4a in Resources */,
+				E25D66392AEEDEC9000591DF /* zniszczy-was.m4a in Resources */,
+				E25D668E2AEEDEC9000591DF /* pisowski-w-due-jey-ty.m4a in Resources */,
+				E25D668F2AEEDEC9000591DF /* zaraz-bedzie.m4a in Resources */,
+				E25D66242AEEDEC9000591DF /* wynik-wyborczy-kww-stonogi-to-jest-jakas-porazka.m4a in Resources */,
+				E25D66352AEEDEC9000591DF /* ta-banda-imbecyli-co-glosowala-na-tych-karakanow.m4a in Resources */,
+				E25D666E2AEEDEC9000591DF /* wypilac-za-brame-raz-kua.m4a in Resources */,
+				E2998EB92AEA9D6000C7FAB2 /* az-was-kukle-kua-beda-swedzialy.m4a in Resources */,
+				E25D66732AEEDEC9000591DF /* to-wlasnie-jest-ta-polska.m4a in Resources */,
+				E25D66462AEEDEC9000591DF /* ziobro-kuo-jea.m4a in Resources */,
+				E25D664F2AEEDEC9000591DF /* jesli-tyle-dla-was-znaczy-ludzie.m4a in Resources */,
+				E25D665C2AEEDEC9000591DF /* nie-rob-se-ze-mna-zdjecia-bo-cie-zjedza-te-k-z-pisu.m4a in Resources */,
+				E25D663C2AEEDEC9000591DF /* robota-w-korporacji-i-karta-z-debetem.m4a in Resources */,
+				E25D66492AEEDEC9000591DF /* moze-osiemdziesiat.m4a in Resources */,
+				E25D66762AEEDEC9000591DF /* wszystko-inne.m4a in Resources */,
+				E25D664E2AEEDEC9000591DF /* rchac.m4a in Resources */,
+				E25D668C2AEEDEC9000591DF /* sumlinskie.m4a in Resources */,
+				E25D66902AEEDEC9000591DF /* ze-to-nie-jest-czyms-wartym-tego.m4a in Resources */,
+				E25D66382AEEDEC9000591DF /* w-d-sie-r.m4a in Resources */,
+				E2998EB12AEA9D6000C7FAB2 /* bo-to-garstka-polakow.m4a in Resources */,
+				E25D664A2AEEDEC9000591DF /* to-jest-dramat.m4a in Resources */,
+				E2998EA22AEA9D6000C7FAB2 /* bedzie-was-ps-kua-dymal-tak.m4a in Resources */,
+				E25D663D2AEEDEC9000591DF /* nie-na-stonoge.m4a in Resources */,
+				E2998EE32AEBA5FE00C7FAB2 /* dobra-nie-strasz-bo-sie-zessz.m4a in Resources */,
+				E25D66792AEEDEC9000591DF /* nic-sie-w-tym-kraju-nie-zmieni.m4a in Resources */,
+				E2998EA12AEA9D6000C7FAB2 /* bedzie-was-ps-rchal-w-dpe.m4a in Resources */,
+				E25D66742AEEDEC9000591DF /* panowie.m4a in Resources */,
+				E25D661B2AEEDEC9000591DF /* nieporozumienie.m4a in Resources */,
+				E25D662B2AEEDEC9000591DF /* przez-taka-polske.m4a in Resources */,
+				E2956EC52AEBC85B00B927A2 /* jak-ten-twoj-prezydent-jest.m4a in Resources */,
+				E2998EB02AEA9D6000C7FAB2 /* anty-polakami-jestescie.m4a in Resources */,
+				E2998EB32AEA9D6000C7FAB2 /* chcesz-nam-stratowac-nasze-miasto.m4a in Resources */,
+				E25D66202AEEDEC9000591DF /* won-wypilac.m4a in Resources */,
+				E2998EAC2AEA9D6000C7FAB2 /* bo-cie-odcholuje.m4a in Resources */,
+				E25D66582AEEDEC9000591DF /* wypilajcie-i-nie-dokuczajcie-ludziom-won.m4a in Resources */,
+				E25D66752AEEDEC9000591DF /* sasin-ch-ci-w-ryj.m4a in Resources */,
+				E2998ED82AEBA5FE00C7FAB2 /* dziekuje.m4a in Resources */,
+				E25D661D2AEEDEC9000591DF /* rozumiecie-to.m4a in Resources */,
+				E2998ED92AEBA5FE00C7FAB2 /* dobry-wieczor.m4a in Resources */,
+				E25D667B2AEEDEC9000591DF /* wyjezdzamy-stad.m4a in Resources */,
+				E21ABD682AE97C4F00F93F01 /* Assets.xcassets in Resources */,
+				E25D66162AEEDEC9000591DF /* ty-k.m4a in Resources */,
+				E2956EC42AEBC85B00B927A2 /* ja-mam-to-w-pidzie-kua.m4a in Resources */,
+				E25D657E2AED3A44000591DF /* jestescie-tu-nielegalnie.m4a in Resources */,
+				E25D667D2AEEDEC9000591DF /* ze-tych-cebulakow-tam-w-de-je-nie.m4a in Resources */,
+				E25D66262AEEDEC9000591DF /* przez-was-kua-chje.m4a in Resources */,
+				E25D66942AEEDEC9000591DF /* na-jakies-petru.m4a in Resources */,
+				E2998EB42AEA9D6000C7FAB2 /* bo-jestescie-chj-warci.m4a in Resources */,
+				E25D66552AEEDEC9000591DF /* kua-chamie.m4a in Resources */,
+				E25D66702AEEDEC9000591DF /* z-polski.m4a in Resources */,
+				E25D66482AEEDEC9000591DF /* niech-was-szlak-trafi.m4a in Resources */,
+				E25D661A2AEEDEC9000591DF /* tylko-to-sie-w-tej-polsce-nadaje.m4a in Resources */,
+				E25D662D2AEEDEC9000591DF /* odbieraj-telefon-smieciu.m4a in Resources */,
+				E25D66712AEEDEC9000591DF /* wylacz-ten-telefon-bo-ci-go-wylacze-na-amen.m4a in Resources */,
+				E25D66622AEEDEC9000591DF /* prosze-wyjechac-stad-i-dalej-wykonywac-swoje-obowiazki.m4a in Resources */,
+				E25D66512AEEDEC9000591DF /* platforma-was-tak-nie-wyrchala-jak-wyrcha-was-ps.m4a in Resources */,
+				E25D66802AEEDEC9000591DF /* to-jeszcze-porozmawiamy-w-prokuraturze.m4a in Resources */,
+				E25D66192AEEDEC9000591DF /* w-ukryciu-siedze-bo-cos-tam-cos-tam.m4a in Resources */,
+				E2998EE62AEBA5FE00C7FAB2 /* i-ten-k-karakan.m4a in Resources */,
+				E2956EC62AEBC85B00B927A2 /* ich-cale-jestestwo-to-jest-karta-kredytowa.m4a in Resources */,
+				E25D66312AEEDEC9000591DF /* ze-w-tym-antyludzkim-panstwie.m4a in Resources */,
+				E25D66422AEEDEC9000591DF /* ze-kua.m4a in Resources */,
+				E25D665D2AEEDEC9000591DF /* ze-to-sa-k-i-smiecie.m4a in Resources */,
+				E25D658A2AED3A44000591DF /* ktorzy-to-kutwo-pe-wybrali.m4a in Resources */,
+				E25D668D2AEEDEC9000591DF /* kultury-w-tym-wszystkim.m4a in Resources */,
+				E2998EB72AEA9D6000C7FAB2 /* chcesz-pozdrowic-publicznosc.m4a in Resources */,
+				E25D664D2AEEDEC9000591DF /* wiele-miesiecy-sie-zastanawialem-jak-to-jest-na-prawde-z-tym-wszystkim-co-ja-robie.m4a in Resources */,
+				E25D664C2AEEDEC9000591DF /* szkoda-kua-gadac-szkoda-strzepic-ryja-naprawde.m4a in Resources */,
+				E25D66952AEEDEC9000591DF /* tak.m4a in Resources */,
+				E25D66232AEEDEC9000591DF /* i-trzeba-was-jec-rchac-i-na-was-zarabiac.m4a in Resources */,
+				E25D66532AEEDEC9000591DF /* przestan-mi-kuo-rodzine-przesladowac.m4a in Resources */,
+				E25D65872AED3A44000591DF /* jedyne-co-chce-wyjechac-z-tego-polskiego-syfu.m4a in Resources */,
+				E25D667F2AEEDEC9000591DF /* sadowe-kuy-tego-czlowieka.m4a in Resources */,
+				E2998EE42AEBA5FE00C7FAB2 /* i-nagle-ten-caly-ich-sasin.m4a in Resources */,
+				E2998EE12AEBA5FE00C7FAB2 /* dzwonimy-do-oficera-dyzurnego-kraju.m4a in Resources */,
+				E25D66602AEEDEC9000591DF /* po-prostu-wypilac.m4a in Resources */,
+				E25D66812AEEDEC9000591DF /* oskarzaly-bezpodstawnie.m4a in Resources */,
+				E25D66972AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a in Resources */,
+				E25D65852AED3A44000591DF /* ktorzyscie-glosowali-na-mnie.m4a in Resources */,
+				E2998EE52AEBA5FE00C7FAB2 /* i-dla-was-znaczylo-tylko-to-70-czy-80-tysiecy-glosow.m4a in Resources */,
+				E2998EDD2AEBA5FE00C7FAB2 /* gdzie-postawilem.m4a in Resources */,
+				E2998EB62AEA9D6000C7FAB2 /* by-tego-czlowieka-wprowadzic-do-parlamentu.m4a in Resources */,
+				E25D66452AEEDEC9000591DF /* w-tym-panstwie-media-nie-byly-w-stanie-powiedziec-ze-zbigniewa-stonoge.m4a in Resources */,
+				E2998EE22AEBA5FE00C7FAB2 /* co-wy-chcecie-byc-dla-nas-autorytetem.m4a in Resources */,
+				E25D663B2AEEDEC9000591DF /* to-ci-wojsko-wyprowadze-na-ulice.m4a in Resources */,
+				E25D665B2AEEDEC9000591DF /* zbeszczeszczono.m4a in Resources */,
+				E25D65882AED3A44000591DF /* k-na-takich-jak-ty-to-szcze-cieplym-moczem.m4a in Resources */,
+				E2998EDA2AEBA5FE00C7FAB2 /* co-ty-chamie-mowisz.m4a in Resources */,
+				E25D66872AEEDEC9000591DF /* moja-zona-zna-cie-od-dziecka.m4a in Resources */,
+				E25D66142AEEDEC9000591DF /* tylko.m4a in Resources */,
+				E25D66672AEEDEC9000591DF /* wasza-godnosc.m4a in Resources */,
+				E25D66372AEEDEC9000591DF /* wasze-karty-kredytowe.m4a in Resources */,
+				E25D66322AEEDEC9000591DF /* spotkamy-sie-w-prokuraturze.m4a in Resources */,
+				E25D65812AED3A44000591DF /* j-sie-k-jak-kroliki.m4a in Resources */,
+				E2998EBA2AEA9D6000C7FAB2 /* ale-jest-pan-chamski.m4a in Resources */,
+				E25D665A2AEEDEC9000591DF /* na-was-zarabiac.m4a in Resources */,
+				E25D663F2AEEDEC9000591DF /* prosze-wyjechac-stad-natychmiast.m4a in Resources */,
+				E25D66472AEEDEC9000591DF /* odnalazlem-ostatnio-dziesiatki.m4a in Resources */,
+				E25D66832AEEDEC9000591DF /* piekny-kua-jestes-piekny.m4a in Resources */,
+				E25D66292AEEDEC9000591DF /* z-jednej-strony-kocham-polske-kocham-ludzi.m4a in Resources */,
+				E25D66282AEEDEC9000591DF /* takie-zaangazowanie-spoleczne-jak-moje.m4a in Resources */,
+				E25D66342AEEDEC9000591DF /* kanie-rachonie.m4a in Resources */,
+				E25D66302AEEDEC9000591DF /* moja-rodzine.m4a in Resources */,
+				E25D668A2AEEDEC9000591DF /* ma-pan-obowiazek-stanac-tam.m4a in Resources */,
+				E25D66212AEEDEC9000591DF /* nie-umiesz-normalnie-rozmawiac-z-obywatelem-to-wypilaj-za-brame.m4a in Resources */,
+				E25D66882AEEDEC9000591DF /* yhym-yhym.m4a in Resources */,
+				E25D665F2AEEDEC9000591DF /* ty-nieudaczniku.m4a in Resources */,
+				E25D662E2AEEDEC9000591DF /* szkoda-bylo-9-spraw-karnych-szkoda-bylo-ujawniac-afery-podsluchowej.m4a in Resources */,
+				E2998EAF2AEA9D6000C7FAB2 /* bo-jestescie-banda-nieudacznikow.m4a in Resources */,
+				E25D66182AEEDEC9000591DF /* nie-warto-bylo-zrobic-nic.m4a in Resources */,
+				E25D66272AEEDEC9000591DF /* to-powtorze-jeszcze-raz.m4a in Resources */,
+				E25D66642AEEDEC9000591DF /* ten-maly-karakan.m4a in Resources */,
+				E25D666A2AEEDEC9000591DF /* nie-nie-bylem.m4a in Resources */,
+				E25D661C2AEEDEC9000591DF /* my-was-p.m4a in Resources */,
+				E25D66332AEEDEC9000591DF /* k-to-j-pisowskie.m4a in Resources */,
+				E2998EDB2AEBA5FE00C7FAB2 /* co-ty-mowisz-chamie.m4a in Resources */,
+				E25D667A2AEEDEC9000591DF /* ten-j-p-duda.m4a in Resources */,
+				E25D66572AEEDEC9000591DF /* wy-kua-idioci.m4a in Resources */,
+				E2998EAD2AEA9D6000C7FAB2 /* chj-warci-jestescie.m4a in Resources */,
+				E2998ED72AEBA5FE00C7FAB2 /* czesc.m4a in Resources */,
+				E25D66932AEEDEC9000591DF /* kaczynski.m4a in Resources */,
+				E2998ED62AEBA5FE00C7FAB2 /* dobranoc.m4a in Resources */,
+				E25D66592AEEDEC9000591DF /* to-jest-dramat-kua.m4a in Resources */,
+				E2998ED42AEBA5FE00C7FAB2 /* dudo-patrz-na-mnie-ryju.m4a in Resources */,
+				E25D662A2AEEDEC9000591DF /* budze-sie-codziennie-otwieram-oczy-znowu-w-tej-polsce.m4a in Resources */,
+				E25D661F2AEEDEC9000591DF /* wypiole-jeszcze-dzisiaj.m4a in Resources */,
+				E25D66772AEEDEC9000591DF /* zaraz-bedzie-pan-najbardziej-znanym-policjantem-w-polsce.m4a in Resources */,
+				E25D66362AEEDEC9000591DF /* kua.m4a in Resources */,
+				E25D662F2AEEDEC9000591DF /* cos-sie-cos-sie-popsulo-i-nie-bylo-mnie-slychac.m4a in Resources */,
+				E25D66782AEEDEC9000591DF /* nienawidze-tego-panstwa.m4a in Resources */,
+				E25D667C2AEEDEC9000591DF /* to-jest-jakies-kua-nieporozumienie.m4a in Resources */,
+				E25D657F2AED3A44000591DF /* jak-was-platforma-nie-dymala.m4a in Resources */,
+				E25D65912AEEDD96000591DF /* ktorzyscie-wspomagali-mnie.m4a in Resources */,
+				E25D666F2AEEDEC9000591DF /* ze-ten-czlowiek-ma-118-wyrokow-uniewinniajacych.m4a in Resources */,
+				E25D66922AEEDEC9000591DF /* tak-2.m4a in Resources */,
+				E2956EC72AEBC85B00B927A2 /* jak-sie-pan-nazywa.m4a in Resources */,
+				E2998EA52AEA9D6000C7FAB2 /* chcialem-sie-widziec-z-tym-skuynem.m4a in Resources */,
+				E25D66252AEEDEC9000591DF /* po-latach-uniewinnialy.m4a in Resources */,
+				E2998ED52AEBA5FE00C7FAB2 /* i-juz-mi-sie-nie-chce-niczego.m4a in Resources */,
+				E25D665E2AEEDEC9000591DF /* moje-zycie-prywatne.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E27F61B42AEC25E0007FF9C9 /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E21ABD5C2AE97C4D00F93F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21ABD662AE97C4D00F93F01 /* SoundboardView.swift in Sources */,
+				E21ABD792AE9A8CF00F93F01 /* SoundModel.swift in Sources */,
+				E2956EBB2AEBC2F000B927A2 /* SpacerView.swift in Sources */,
+				E21ABD7D2AE9A91900F93F01 /* SoundRowView+ViewModel.swift in Sources */,
+				E27C0B442AED0C0E00E5C418 /* ShareContentModel.swift in Sources */,
+				E21ABD742AE9A87300F93F01 /* SoundboardView+ViewModel.swift in Sources */,
+				E2998EBD2AEAA7E500C7FAB2 /* SoundFileManager.swift in Sources */,
+				E2998E7F2AEA7D3700C7FAB2 /* FavoriteButton.swift in Sources */,
+				E27F61942AEC0F52007FF9C9 /* Repository.swift in Sources */,
+				E21ABD7B2AE9A8F500F93F01 /* SoundRowView.swift in Sources */,
+				E21ABD642AE97C4D00F93F01 /* StonogaSoundboardApp.swift in Sources */,
+				E25D656B2AED25B0000591DF /* RoundCountView.swift in Sources */,
+				E2998E812AEA87D800C7FAB2 /* PlayerButton.swift in Sources */,
+				E2956EBD2AEBC52C00B927A2 /* SoundPlayer.swift in Sources */,
+				E25D656D2AED3603000591DF /* PortraitView.swift in Sources */,
+				E2956EB72AEBAB5600B927A2 /* ShareButton.swift in Sources */,
+				E2956EC92AEBC91700B927A2 /* SoundStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E21ABD6C2AE97C4F00F93F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E21ABD6D2AE97C4F00F93F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E21ABD6F2AE97C4F00F93F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StonogaSoundboard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stonoga Board";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.stonoga.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Stonoga Soundboard Development";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E21ABD702AE97C4F00F93F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StonogaSoundboard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stonoga Board";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.stonoga.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Stonoga Soundboard App Store";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E21ABD5B2AE97C4D00F93F01 /* Build configuration list for PBXProject "StonogaSoundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21ABD6C2AE97C4F00F93F01 /* Debug */,
+				E21ABD6D2AE97C4F00F93F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21ABD6E2AE97C4F00F93F01 /* Build configuration list for PBXNativeTarget "StonogaSoundboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21ABD6F2AE97C4F00F93F01 /* Debug */,
+				E21ABD702AE97C4F00F93F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E28FF4FA2AEC29D30016CD78 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.53.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = E21ABD582AE97C4D00F93F01 /* Project object */;
+}
