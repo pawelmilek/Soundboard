@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E209793A2AF02E4400F92A4E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E20979392AF02E4400F92A4E /* Realm */; };
+		E209793C2AF02E4400F92A4E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E209793B2AF02E4400F92A4E /* RealmSwift */; };
+		E209793E2AF02E5100F92A4E /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209793D2AF02E5100F92A4E /* RealmProvider.swift */; };
+		E20979402AF02E7100F92A4E /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209793F2AF02E7100F92A4E /* PathFinder.swift */; };
+		E20979422AF02EA000F92A4E /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20979412AF02EA000F92A4E /* PathError.swift */; };
+		E20979452AF1056E00F92A4E /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20979442AF1056E00F92A4E /* Title.swift */; };
+		E217E2972AF2B2EC00C1C77C /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2962AF2B2EC00C1C77C /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */; };
 		E21ABD642AE97C4D00F93F01 /* StonogaSoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */; };
-		E21ABD662AE97C4D00F93F01 /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD652AE97C4D00F93F01 /* SoundboardView.swift */; };
+		E21ABD662AE97C4D00F93F01 /* SoundboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD652AE97C4D00F93F01 /* SoundboardListView.swift */; };
 		E21ABD682AE97C4F00F93F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21ABD672AE97C4F00F93F01 /* Assets.xcassets */; };
 		E21ABD6B2AE97C4F00F93F01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21ABD6A2AE97C4F00F93F01 /* Preview Assets.xcassets */; };
-		E21ABD742AE9A87300F93F01 /* SoundboardView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD732AE9A87300F93F01 /* SoundboardView+ViewModel.swift */; };
+		E21ABD742AE9A87300F93F01 /* SoundboardListView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD732AE9A87300F93F01 /* SoundboardListView+ViewModel.swift */; };
 		E21ABD792AE9A8CF00F93F01 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD782AE9A8CF00F93F01 /* SoundModel.swift */; };
 		E21ABD7B2AE9A8F500F93F01 /* SoundRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD7A2AE9A8F500F93F01 /* SoundRowView.swift */; };
 		E21ABD7D2AE9A91900F93F01 /* SoundRowView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD7C2AE9A91900F93F01 /* SoundRowView+ViewModel.swift */; };
@@ -163,9 +170,8 @@
 		E25D66932AEEDEC9000591DF /* kaczynski.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66112AEEDEC9000591DF /* kaczynski.m4a */; };
 		E25D66942AEEDEC9000591DF /* na-jakies-petru.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66122AEEDEC9000591DF /* na-jakies-petru.m4a */; };
 		E25D66952AEEDEC9000591DF /* tak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66132AEEDEC9000591DF /* tak.m4a */; };
-		E25D66972AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E25D66962AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */; };
 		E27C0B442AED0C0E00E5C418 /* ShareContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C0B432AED0C0E00E5C418 /* ShareContentModel.swift */; };
-		E27F61942AEC0F52007FF9C9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F61932AEC0F52007FF9C9 /* Repository.swift */; };
+		E27F61942AEC0F52007FF9C9 /* SoundRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F61932AEC0F52007FF9C9 /* SoundRepository.swift */; };
 		E2956EB72AEBAB5600B927A2 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EB62AEBAB5600B927A2 /* ShareButton.swift */; };
 		E2956EBB2AEBC2F000B927A2 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */; };
 		E2956EBD2AEBC52C00B927A2 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */; };
@@ -174,9 +180,8 @@
 		E2956EC52AEBC85B00B927A2 /* jak-ten-twoj-prezydent-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EC02AEBC85B00B927A2 /* jak-ten-twoj-prezydent-jest.m4a */; };
 		E2956EC62AEBC85B00B927A2 /* ich-cale-jestestwo-to-jest-karta-kredytowa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EC12AEBC85B00B927A2 /* ich-cale-jestestwo-to-jest-karta-kredytowa.m4a */; };
 		E2956EC72AEBC85B00B927A2 /* jak-sie-pan-nazywa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EC22AEBC85B00B927A2 /* jak-sie-pan-nazywa.m4a */; };
-		E2956EC92AEBC91700B927A2 /* SoundStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EC82AEBC91700B927A2 /* SoundStorage.swift */; };
 		E2998E7F2AEA7D3700C7FAB2 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2998E7E2AEA7D3700C7FAB2 /* FavoriteButton.swift */; };
-		E2998E812AEA87D800C7FAB2 /* PlayerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2998E802AEA87D800C7FAB2 /* PlayerButton.swift */; };
+		E2998E812AEA87D800C7FAB2 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2998E802AEA87D800C7FAB2 /* PlayButton.swift */; };
 		E2998E9F2AEA9D6000C7FAB2 /* co-chciales-powiedziec.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E922AEA9AB600C7FAB2 /* co-chciales-powiedziec.m4a */; };
 		E2998EA02AEA9D6000C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E822AEA9AB600C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a */; };
 		E2998EA12AEA9D6000C7FAB2 /* bedzie-was-ps-rchal-w-dpe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2998E9C2AEA9AB600C7FAB2 /* bedzie-was-ps-rchal-w-dpe.m4a */; };
@@ -229,12 +234,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E209793D2AF02E5100F92A4E /* RealmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
+		E209793F2AF02E7100F92A4E /* PathFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
+		E20979412AF02EA000F92A4E /* PathError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathError.swift; sourceTree = "<group>"; };
+		E20979442AF1056E00F92A4E /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		E217E2962AF2B2EC00C1C77C /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a"; sourceTree = "<group>"; };
 		E21ABD602AE97C4D00F93F01 /* StonogaSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StonogaSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonogaSoundboardApp.swift; sourceTree = "<group>"; };
-		E21ABD652AE97C4D00F93F01 /* SoundboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardView.swift; sourceTree = "<group>"; };
+		E21ABD652AE97C4D00F93F01 /* SoundboardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardListView.swift; sourceTree = "<group>"; };
 		E21ABD672AE97C4F00F93F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21ABD6A2AE97C4F00F93F01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E21ABD732AE9A87300F93F01 /* SoundboardView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundboardView+ViewModel.swift"; sourceTree = "<group>"; };
+		E21ABD732AE9A87300F93F01 /* SoundboardListView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundboardListView+ViewModel.swift"; sourceTree = "<group>"; };
 		E21ABD782AE9A8CF00F93F01 /* SoundModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
 		E21ABD7A2AE9A8F500F93F01 /* SoundRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRowView.swift; sourceTree = "<group>"; };
 		E21ABD7C2AE9A91900F93F01 /* SoundRowView+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundRowView+ViewModel.swift"; sourceTree = "<group>"; };
@@ -386,9 +396,8 @@
 		E25D66112AEEDEC9000591DF /* kaczynski.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaczynski.m4a; sourceTree = "<group>"; };
 		E25D66122AEEDEC9000591DF /* na-jakies-petru.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-jakies-petru.m4a"; sourceTree = "<group>"; };
 		E25D66132AEEDEC9000591DF /* tak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tak.m4a; sourceTree = "<group>"; };
-		E25D66962AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a"; sourceTree = "<group>"; };
 		E27C0B432AED0C0E00E5C418 /* ShareContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentModel.swift; sourceTree = "<group>"; };
-		E27F61932AEC0F52007FF9C9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		E27F61932AEC0F52007FF9C9 /* SoundRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRepository.swift; sourceTree = "<group>"; };
 		E2956EB62AEBAB5600B927A2 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
 		E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
@@ -397,9 +406,8 @@
 		E2956EC02AEBC85B00B927A2 /* jak-ten-twoj-prezydent-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-ten-twoj-prezydent-jest.m4a"; sourceTree = "<group>"; };
 		E2956EC12AEBC85B00B927A2 /* ich-cale-jestestwo-to-jest-karta-kredytowa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ich-cale-jestestwo-to-jest-karta-kredytowa.m4a"; sourceTree = "<group>"; };
 		E2956EC22AEBC85B00B927A2 /* jak-sie-pan-nazywa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-sie-pan-nazywa.m4a"; sourceTree = "<group>"; };
-		E2956EC82AEBC91700B927A2 /* SoundStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundStorage.swift; sourceTree = "<group>"; };
 		E2998E7E2AEA7D3700C7FAB2 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		E2998E802AEA87D800C7FAB2 /* PlayerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButton.swift; sourceTree = "<group>"; };
+		E2998E802AEA87D800C7FAB2 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		E2998E822AEA9AB600C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-ty-dzisiaj-ch-j-pisowski.m4a"; sourceTree = "<group>"; };
 		E2998E832AEA9AB600C7FAB2 /* bede-zyl-kua-tak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bede-zyl-kua-tak.m4a"; sourceTree = "<group>"; };
 		E2998E842AEA9AB600C7FAB2 /* bo-cie-odcholuje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-cie-odcholuje.m4a"; sourceTree = "<group>"; };
@@ -456,12 +464,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E209793C2AF02E4400F92A4E /* RealmSwift in Frameworks */,
+				E209793A2AF02E4400F92A4E /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E20979432AF1056200F92A4E /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E20979442AF1056E00F92A4E /* Title.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		E217E2952AF28D9700C1C77C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E20979412AF02EA000F92A4E /* PathError.swift */,
+				E209793F2AF02E7100F92A4E /* PathFinder.swift */,
+				E209793D2AF02E5100F92A4E /* RealmProvider.swift */,
+				E2998EBC2AEAA7E500C7FAB2 /* SoundFileManager.swift */,
+				E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */,
+				E27F61932AEC0F52007FF9C9 /* SoundRepository.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		E21ABD572AE97C4D00F93F01 = {
 			isa = PBXGroup;
 			children = (
@@ -482,15 +513,12 @@
 			isa = PBXGroup;
 			children = (
 				E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */,
-				E2956EC82AEBC91700B927A2 /* SoundStorage.swift */,
-				E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */,
-				E2998EBC2AEAA7E500C7FAB2 /* SoundFileManager.swift */,
-				E27F61932AEC0F52007FF9C9 /* Repository.swift */,
+				E21ABD762AE9A8B900F93F01 /* SoundboardListView */,
 				E21ABD772AE9A8C600F93F01 /* Models */,
-				E21ABD762AE9A8B900F93F01 /* Soundboard */,
 				E2956ECA2AEBC92E00B927A2 /* Views */,
+				E20979432AF1056200F92A4E /* ViewModifiers */,
+				E217E2952AF28D9700C1C77C /* Utilities */,
 				E21ABD712AE97D5A00F93F01 /* Resources */,
-				E21ABD672AE97C4F00F93F01 /* Assets.xcassets */,
 				E21ABD692AE97C4F00F93F01 /* Preview Content */,
 			);
 			path = StonogaSoundboard;
@@ -507,6 +535,7 @@
 		E21ABD712AE97D5A00F93F01 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E21ABD672AE97C4F00F93F01 /* Assets.xcassets */,
 				E21ABD722AE97D6300F93F01 /* Sounds */,
 			);
 			path = Resources;
@@ -515,7 +544,7 @@
 		E21ABD722AE97D6300F93F01 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				E25D66962AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */,
+				E217E2962AF2B2EC00C1C77C /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */,
 				E2998E822AEA9AB600C7FAB2 /* a-ty-dzisiaj-ch-j-pisowski.m4a */,
 				E2998E882AEA9AB600C7FAB2 /* a-wam-kochani.m4a */,
 				E2998E932AEA9AB600C7FAB2 /* a-z-panami-policjantami.m4a */,
@@ -719,14 +748,13 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
-		E21ABD762AE9A8B900F93F01 /* Soundboard */ = {
+		E21ABD762AE9A8B900F93F01 /* SoundboardListView */ = {
 			isa = PBXGroup;
 			children = (
-				E21ABD652AE97C4D00F93F01 /* SoundboardView.swift */,
-				E21ABD732AE9A87300F93F01 /* SoundboardView+ViewModel.swift */,
-				E21ABD7E2AE9A9E200F93F01 /* SoundRow */,
+				E21ABD652AE97C4D00F93F01 /* SoundboardListView.swift */,
+				E21ABD732AE9A87300F93F01 /* SoundboardListView+ViewModel.swift */,
 			);
-			path = Soundboard;
+			path = SoundboardListView;
 			sourceTree = "<group>";
 		};
 		E21ABD772AE9A8C600F93F01 /* Models */ = {
@@ -750,10 +778,11 @@
 		E2956ECA2AEBC92E00B927A2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E21ABD7E2AE9A9E200F93F01 /* SoundRow */,
 				E25D656A2AED25B0000591DF /* RoundCountView.swift */,
 				E2998E7E2AEA7D3700C7FAB2 /* FavoriteButton.swift */,
 				E2956EB62AEBAB5600B927A2 /* ShareButton.swift */,
-				E2998E802AEA87D800C7FAB2 /* PlayerButton.swift */,
+				E2998E802AEA87D800C7FAB2 /* PlayButton.swift */,
 				E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */,
 				E25D656C2AED3603000591DF /* PortraitView.swift */,
 			);
@@ -778,6 +807,8 @@
 			);
 			name = StonogaSoundboard;
 			packageProductDependencies = (
+				E20979392AF02E4400F92A4E /* Realm */,
+				E209793B2AF02E4400F92A4E /* RealmSwift */,
 			);
 			productName = StonogaSoundboard;
 			productReference = E21ABD602AE97C4D00F93F01 /* StonogaSoundboard.app */;
@@ -809,6 +840,7 @@
 			mainGroup = E21ABD572AE97C4D00F93F01;
 			packageReferences = (
 				E28FF4FA2AEC29D30016CD78 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				E20979382AF02E4400F92A4E /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = E21ABD612AE97C4D00F93F01 /* Products */;
 			projectDirPath = "";
@@ -963,7 +995,7 @@
 				E2998EE12AEBA5FE00C7FAB2 /* dzwonimy-do-oficera-dyzurnego-kraju.m4a in Resources */,
 				E25D66602AEEDEC9000591DF /* po-prostu-wypilac.m4a in Resources */,
 				E25D66812AEEDEC9000591DF /* oskarzaly-bezpodstawnie.m4a in Resources */,
-				E25D66972AEEDF7A000591DF /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a in Resources */,
+				E217E2972AF2B2EC00C1C77C /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a in Resources */,
 				E25D65852AED3A44000591DF /* ktorzyscie-glosowali-na-mnie.m4a in Resources */,
 				E2998EE52AEBA5FE00C7FAB2 /* i-dla-was-znaczylo-tylko-to-70-czy-80-tysiecy-glosow.m4a in Resources */,
 				E2998EDD2AEBA5FE00C7FAB2 /* gdzie-postawilem.m4a in Resources */,
@@ -1058,23 +1090,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21ABD662AE97C4D00F93F01 /* SoundboardView.swift in Sources */,
+				E20979452AF1056E00F92A4E /* Title.swift in Sources */,
+				E21ABD662AE97C4D00F93F01 /* SoundboardListView.swift in Sources */,
 				E21ABD792AE9A8CF00F93F01 /* SoundModel.swift in Sources */,
 				E2956EBB2AEBC2F000B927A2 /* SpacerView.swift in Sources */,
 				E21ABD7D2AE9A91900F93F01 /* SoundRowView+ViewModel.swift in Sources */,
 				E27C0B442AED0C0E00E5C418 /* ShareContentModel.swift in Sources */,
-				E21ABD742AE9A87300F93F01 /* SoundboardView+ViewModel.swift in Sources */,
+				E21ABD742AE9A87300F93F01 /* SoundboardListView+ViewModel.swift in Sources */,
 				E2998EBD2AEAA7E500C7FAB2 /* SoundFileManager.swift in Sources */,
 				E2998E7F2AEA7D3700C7FAB2 /* FavoriteButton.swift in Sources */,
-				E27F61942AEC0F52007FF9C9 /* Repository.swift in Sources */,
+				E209793E2AF02E5100F92A4E /* RealmProvider.swift in Sources */,
+				E27F61942AEC0F52007FF9C9 /* SoundRepository.swift in Sources */,
 				E21ABD7B2AE9A8F500F93F01 /* SoundRowView.swift in Sources */,
 				E21ABD642AE97C4D00F93F01 /* StonogaSoundboardApp.swift in Sources */,
 				E25D656B2AED25B0000591DF /* RoundCountView.swift in Sources */,
-				E2998E812AEA87D800C7FAB2 /* PlayerButton.swift in Sources */,
+				E2998E812AEA87D800C7FAB2 /* PlayButton.swift in Sources */,
 				E2956EBD2AEBC52C00B927A2 /* SoundPlayer.swift in Sources */,
 				E25D656D2AED3603000591DF /* PortraitView.swift in Sources */,
+				E20979402AF02E7100F92A4E /* PathFinder.swift in Sources */,
+				E20979422AF02EA000F92A4E /* PathError.swift in Sources */,
 				E2956EB72AEBAB5600B927A2 /* ShareButton.swift in Sources */,
-				E2956EC92AEBC91700B927A2 /* SoundStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1220,7 +1255,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1259,7 +1293,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1302,6 +1335,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E20979382AF02E4400F92A4E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.44.0;
+			};
+		};
 		E28FF4FA2AEC29D30016CD78 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/SwiftLint.git";
@@ -1311,6 +1352,19 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E20979392AF02E4400F92A4E /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E20979382AF02E4400F92A4E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E209793B2AF02E4400F92A4E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E20979382AF02E4400F92A4E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E21ABD582AE97C4D00F93F01 /* Project object */;
 }

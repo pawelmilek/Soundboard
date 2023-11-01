@@ -9,15 +9,21 @@ import SwiftUI
 
 @main
 struct StonogaSoundboardApp: App {
-    @StateObject private var viewModel = SoundboardView.ViewModel()
-
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                SoundboardView()
+                SoundboardListView()
                     .navigationTitle("Soundboard")
+                    .environment(\.realmConfiguration, RealmProvider.shared.realm.configuration)
+            }
+            .onAppear {
+                debugPrintRealmFileURL()
             }
         }
-        .environmentObject(viewModel)
+    }
+
+    private func debugPrintRealmFileURL() {
+        let realmURLAbsoluteString = RealmProvider.shared.fileURL?.absoluteString ?? "Invalid Reference"
+        debugPrint("Realm file URL: \(realmURLAbsoluteString)")
     }
 }

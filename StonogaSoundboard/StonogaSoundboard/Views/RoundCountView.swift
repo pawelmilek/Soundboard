@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct RoundCountView: View {
-    let count: Int
-    @State private var animateCount = 0
+    let value: Int
+    @State private var animateValue = 0
 
     var body: some View {
         VStack {
-            Text("\(animateCount)")
-                .contentTransition(.numericText(value: Double(animateCount)))
+            Text("\(animateValue)")
+                .contentTransition(.numericText(value: Double(animateValue)))
                 .font(.caption2)
                 .fontWeight(.heavy)
                 .fontDesign(.rounded)
@@ -29,15 +29,15 @@ struct RoundCountView: View {
                 .clipShape(Circle())
                 .onAppear {
                     withAnimation {
-                        animateCount = count
+                        animateValue = value
                     }
                 }
         }
-        .id("contentTransitionId \(count)")
+        .id("contentTransitionId \(value)")
     }
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    RoundCountView(count: 13)
+    RoundCountView(value: 13)
         .padding()
 }

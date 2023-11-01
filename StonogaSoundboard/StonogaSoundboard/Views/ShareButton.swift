@@ -18,12 +18,18 @@ struct ShareButton: View {
                     image: Image(content.preview.image)
                   ),
                   label: {
-            Image(systemName: symbol)
-                .resizable()
-                .scaledToFit()
-                .foregroundColor(.gray)
+            HStack(alignment: .firstTextBaseline, spacing: 5) {
+                Image(systemName: symbol)
+                Text("Share")
+            }
+            .font(.caption2)
+            .fontWeight(.regular)
+            .padding(.horizontal, 5)
+            .padding(.trailing, 5)
         })
-        .buttonStyle(.borderless)
+        .buttonStyle(.borderedProminent)
+        .buttonBorderShape(.capsule)
+        .controlSize(.small)
     }
 }
 
@@ -32,5 +38,5 @@ struct ShareButton: View {
         url: URL(string: "www.apple.com")!,
         preview: (SoundModel.example.first!.fileName, "stonoga"))
     )
-    .frame(maxWidth: 44)
+    .padding()
 }

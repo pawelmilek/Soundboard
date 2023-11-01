@@ -19,22 +19,29 @@ struct FavoriteButton: View {
     }
 
     var body: some View {
-        Image(systemName: symbol)
-            .resizable()
-            .scaledToFit()
-            .foregroundColor(isOn ? .accentColor : .gray)
-            .symbolEffect(symbolEffect, value: isOn)
-            .onTapGesture {
-                isOn.toggle()
+        Button {
+            isOn.toggle()
+        } label: {
+            HStack(alignment: .firstTextBaseline, spacing: 5) {
+                Image(systemName: symbol)
+                    .symbolEffect(symbolEffect, value: isOn)
+                Text("Like")
             }
+            .font(.caption2)
+            .fontWeight(.regular)
+            .padding(.horizontal, 5)
+            .padding(.trailing, 5)
+        }
+        .buttonStyle(.borderedProminent)
+        .buttonBorderShape(.capsule)
+        .controlSize(.small)
     }
 }
 
-#Preview {
-    HStack(spacing: 15) {
+#Preview(traits: .sizeThatFitsLayout) {
+    VStack(spacing: 10) {
         FavoriteButton(isOn: .constant(true))
-            .frame(maxWidth: 44)
         FavoriteButton(isOn: .constant(false))
-            .frame(maxWidth: 44)
     }
+    .padding()
 }
