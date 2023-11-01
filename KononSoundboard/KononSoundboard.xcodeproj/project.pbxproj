@@ -7,6 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E217E2AE2AF2B53B00C1C77C /* na-prawde-ten-czlowiek-jest-niebezpieczny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2982AF2B53A00C1C77C /* na-prawde-ten-czlowiek-jest-niebezpieczny.m4a */; };
+		E217E2AF2AF2B53B00C1C77C /* juz-niedlugo-jemu-leb-zleci.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2992AF2B53A00C1C77C /* juz-niedlugo-jemu-leb-zleci.m4a */; };
+		E217E2B02AF2B53B00C1C77C /* majorze-dlaczego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E29A2AF2B53A00C1C77C /* majorze-dlaczego.m4a */; };
+		E217E2B12AF2B53B00C1C77C /* jak-najpredzej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E29B2AF2B53A00C1C77C /* jak-najpredzej.m4a */; };
+		E217E2B22AF2B53B00C1C77C /* jedna-sprawe-chcialem-pokazac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E29C2AF2B53A00C1C77C /* jedna-sprawe-chcialem-pokazac.m4a */; };
+		E217E2B32AF2B53B00C1C77C /* jak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E29D2AF2B53A00C1C77C /* jak.m4a */; };
+		E217E2B42AF2B53B00C1C77C /* meksykanie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E29E2AF2B53A00C1C77C /* meksykanie.m4a */; };
+		E217E2B52AF2B53B00C1C77C /* ile-lapowek-wziales.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E29F2AF2B53A00C1C77C /* ile-lapowek-wziales.m4a */; };
+		E217E2B62AF2B53B00C1C77C /* kto-prezesem-jest-mecenasow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A02AF2B53A00C1C77C /* kto-prezesem-jest-mecenasow.m4a */; };
+		E217E2B72AF2B53B00C1C77C /* nie-bedzie-lac-po-twarzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A12AF2B53A00C1C77C /* nie-bedzie-lac-po-twarzy.m4a */; };
+		E217E2B82AF2B53B00C1C77C /* nie-wiem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A22AF2B53A00C1C77C /* nie-wiem.m4a */; };
+		E217E2B92AF2B53B00C1C77C /* ja-nie-daruje-za-to-tobie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A32AF2B53A00C1C77C /* ja-nie-daruje-za-to-tobie.m4a */; };
+		E217E2BA2AF2B53B00C1C77C /* ostrzegam-was-wszystkich-przed-wojciechem-s.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A42AF2B53A00C1C77C /* ostrzegam-was-wszystkich-przed-wojciechem-s.m4a */; };
+		E217E2BB2AF2B53B00C1C77C /* policja-byla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A52AF2B53A00C1C77C /* policja-byla.m4a */; };
+		E217E2BC2AF2B53B00C1C77C /* nie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A62AF2B53A00C1C77C /* nie.m4a */; };
+		E217E2BD2AF2B53B00C1C77C /* ja-wszystkim-kobietom-i-dziewczynom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A72AF2B53A00C1C77C /* ja-wszystkim-kobietom-i-dziewczynom.m4a */; };
+		E217E2BE2AF2B53B00C1C77C /* moje-i-jego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A82AF2B53A00C1C77C /* moje-i-jego.m4a */; };
+		E217E2BF2AF2B53B00C1C77C /* patrz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2A92AF2B53A00C1C77C /* patrz.m4a */; };
+		E217E2C02AF2B53B00C1C77C /* poczytasz-sobie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2AA2AF2B53A00C1C77C /* poczytasz-sobie.m4a */; };
+		E217E2C12AF2B53B00C1C77C /* kiedy-ty-powiesz-prawde-meksykano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2AB2AF2B53A00C1C77C /* kiedy-ty-powiesz-prawde-meksykano.m4a */; };
+		E217E2C22AF2B53B00C1C77C /* niech-was-blogoslawi-bog-wszechmogacy-ojciec-i-syn-i-duch-swiety-amen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2AC2AF2B53B00C1C77C /* niech-was-blogoslawi-bog-wszechmogacy-ojciec-i-syn-i-duch-swiety-amen.m4a */; };
+		E217E2C32AF2B53B00C1C77C /* powinno-sie-uruchomic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2AD2AF2B53B00C1C77C /* powinno-sie-uruchomic.m4a */; };
+		E217E2EF2AF2B83800C1C77C /* a-wtedy-niech-mnie-zabieraja-na-wieki-wiekow-amen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2C42AF2B83600C1C77C /* a-wtedy-niech-mnie-zabieraja-na-wieki-wiekow-amen.m4a */; };
+		E217E2F02AF2B83800C1C77C /* bo-ludzie-beda-widziec-ze-mnie-zagrodziles-swiat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2C52AF2B83600C1C77C /* bo-ludzie-beda-widziec-ze-mnie-zagrodziles-swiat.m4a */; };
+		E217E2F12AF2B83800C1C77C /* wroc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2C62AF2B83600C1C77C /* wroc.m4a */; };
+		E217E2F22AF2B83800C1C77C /* myslalem-czlowieku-ze-jestes-czlowiekiem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2C72AF2B83600C1C77C /* myslalem-czlowieku-ze-jestes-czlowiekiem.m4a */; };
+		E217E2F32AF2B83800C1C77C /* z-piaseczna.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2C82AF2B83600C1C77C /* z-piaseczna.m4a */; };
+		E217E2F42AF2B83800C1C77C /* durnego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2C92AF2B83600C1C77C /* durnego.m4a */; };
+		E217E2F52AF2B83800C1C77C /* taaak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2CA2AF2B83600C1C77C /* taaak.m4a */; };
+		E217E2F62AF2B83800C1C77C /* to-czekaja-na-ciebie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2CB2AF2B83600C1C77C /* to-czekaja-na-ciebie.m4a */; };
+		E217E2F72AF2B83800C1C77C /* wariata.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2CC2AF2B83600C1C77C /* wariata.m4a */; };
+		E217E2F82AF2B83800C1C77C /* dzien-dobry-panstwu-czesc-trzecia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2CD2AF2B83700C1C77C /* dzien-dobry-panstwu-czesc-trzecia.m4a */; };
+		E217E2F92AF2B83800C1C77C /* bekon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2CE2AF2B83700C1C77C /* bekon.m4a */; };
+		E217E2FA2AF2B83800C1C77C /* ale-zobaczcie-lozko-majora-puste.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2CF2AF2B83700C1C77C /* ale-zobaczcie-lozko-majora-puste.m4a */; };
+		E217E2FB2AF2B83800C1C77C /* a-ja-wezme-z-podlasia-ludzi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D02AF2B83700C1C77C /* a-ja-wezme-z-podlasia-ludzi.m4a */; };
+		E217E2FC2AF2B83800C1C77C /* i-uwazajcie-kobietki-ostrzegam-was.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D12AF2B83700C1C77C /* i-uwazajcie-kobietki-ostrzegam-was.m4a */; };
+		E217E2FD2AF2B83800C1C77C /* cos-chcialem-pokazac-tobie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D22AF2B83700C1C77C /* cos-chcialem-pokazac-tobie.m4a */; };
+		E217E2FE2AF2B83800C1C77C /* staje-z-toba-do-walki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D32AF2B83700C1C77C /* staje-z-toba-do-walki.m4a */; };
+		E217E2FF2AF2B83800C1C77C /* chcialem-dolaczyc-taki-liscik.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D42AF2B83700C1C77C /* chcialem-dolaczyc-taki-liscik.m4a */; };
+		E217E3002AF2B83800C1C77C /* zrobie-ksero.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D52AF2B83700C1C77C /* zrobie-ksero.m4a */; };
+		E217E3012AF2B83800C1C77C /* tu-siedzi-twoj-czlowiek.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D62AF2B83700C1C77C /* tu-siedzi-twoj-czlowiek.m4a */; };
+		E217E3022AF2B83800C1C77C /* czy-ty-katolik-czy-chm-jestes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D72AF2B83700C1C77C /* czy-ty-katolik-czy-chm-jestes.m4a */; };
+		E217E3032AF2B83800C1C77C /* dzwigac-ten-krzyz-wasz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D82AF2B83700C1C77C /* dzwigac-ten-krzyz-wasz.m4a */; };
+		E217E3042AF2B83800C1C77C /* i-bedzie-po-tobie-mecenasku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2D92AF2B83700C1C77C /* i-bedzie-po-tobie-mecenasku.m4a */; };
+		E217E3052AF2B83800C1C77C /* do-majora.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2DA2AF2B83700C1C77C /* do-majora.m4a */; };
+		E217E3062AF2B83800C1C77C /* to-nie-jest-zarty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2DB2AF2B83700C1C77C /* to-nie-jest-zarty.m4a */; };
+		E217E3072AF2B83800C1C77C /* ty-myslisz-ze-ja-slaby.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2DC2AF2B83700C1C77C /* ty-myslisz-ze-ja-slaby.m4a */; };
+		E217E3082AF2B83800C1C77C /* zeby-mial-szystko.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2DD2AF2B83700C1C77C /* zeby-mial-szystko.m4a */; };
+		E217E3092AF2B83800C1C77C /* taki-departament-x3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2DE2AF2B83700C1C77C /* taki-departament-x3.m4a */; };
+		E217E30A2AF2B83800C1C77C /* szanowni-panstwo-kochani-moi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2DF2AF2B83700C1C77C /* szanowni-panstwo-kochani-moi.m4a */; };
+		E217E30B2AF2B83800C1C77C /* dlaczego-taki-jestes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E02AF2B83700C1C77C /* dlaczego-taki-jestes.m4a */; };
+		E217E30C2AF2B83800C1C77C /* ze-on-n-at-rk0tyki-wacha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E12AF2B83700C1C77C /* ze-on-n-at-rk0tyki-wacha.m4a */; };
+		E217E30D2AF2B83800C1C77C /* bo-tu-jego-miejsce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E22AF2B83700C1C77C /* bo-tu-jego-miejsce.m4a */; };
+		E217E30E2AF2B83800C1C77C /* i-przysiegam-bogu-wszechmogacemu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E32AF2B83700C1C77C /* i-przysiegam-bogu-wszechmogacemu.m4a */; };
+		E217E30F2AF2B83800C1C77C /* przepraszam-bardzo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E42AF2B83700C1C77C /* przepraszam-bardzo.m4a */; };
+		E217E3102AF2B83800C1C77C /* glod-bedzie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E52AF2B83700C1C77C /* glod-bedzie.m4a */; };
+		E217E3112AF2B83800C1C77C /* obszczany-obesrany-w-gacie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E62AF2B83700C1C77C /* obszczany-obesrany-w-gacie.m4a */; };
+		E217E3122AF2B83800C1C77C /* a-teraz-powiedziales-ze-ja-loda-twojego-bede-lizac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E72AF2B83700C1C77C /* a-teraz-powiedziales-ze-ja-loda-twojego-bede-lizac.m4a */; };
+		E217E3132AF2B83800C1C77C /* ale-ciebie-ka-nie-bedzie-na-tym-swiecie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E82AF2B83800C1C77C /* ale-ciebie-ka-nie-bedzie-na-tym-swiecie.m4a */; };
+		E217E3142AF2B83800C1C77C /* powiedzialem-tobie-dlaczego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2E92AF2B83800C1C77C /* powiedzialem-tobie-dlaczego.m4a */; };
+		E217E3152AF2B83800C1C77C /* sam-moj-redaktor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2EA2AF2B83800C1C77C /* sam-moj-redaktor.m4a */; };
+		E217E3162AF2B83800C1C77C /* z-tego-powodu-ze-on-jest-len-smierdzacy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2EB2AF2B83800C1C77C /* z-tego-powodu-ze-on-jest-len-smierdzacy.m4a */; };
+		E217E3172AF2B83800C1C77C /* zeby-tak-jak-matka-boska-ma-korone-z-orzelkiem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2EC2AF2B83800C1C77C /* zeby-tak-jak-matka-boska-ma-korone-z-orzelkiem.m4a */; };
+		E217E3182AF2B83800C1C77C /* zapraszam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2ED2AF2B83800C1C77C /* zapraszam.m4a */; };
+		E217E3192AF2B83800C1C77C /* tylko-musze-znalezc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2EE2AF2B83800C1C77C /* tylko-musze-znalezc.m4a */; };
 		E222422E2AF17C5500F8EE66 /* ale-nie-ma-co-ludzi-sie-prosic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E222415B2AF17C4A00F8EE66 /* ale-nie-ma-co-ludzi-sie-prosic.m4a */; };
 		E222422F2AF17C5500F8EE66 /* niezarlaku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E222415C2AF17C4A00F8EE66 /* niezarlaku.m4a */; };
 		E22242302AF17C5500F8EE66 /* ja-we-wtorek-jade.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E222415D2AF17C4A00F8EE66 /* ja-we-wtorek-jade.m4a */; };
@@ -225,6 +290,71 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E217E2982AF2B53A00C1C77C /* na-prawde-ten-czlowiek-jest-niebezpieczny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-prawde-ten-czlowiek-jest-niebezpieczny.m4a"; sourceTree = "<group>"; };
+		E217E2992AF2B53A00C1C77C /* juz-niedlugo-jemu-leb-zleci.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "juz-niedlugo-jemu-leb-zleci.m4a"; sourceTree = "<group>"; };
+		E217E29A2AF2B53A00C1C77C /* majorze-dlaczego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "majorze-dlaczego.m4a"; sourceTree = "<group>"; };
+		E217E29B2AF2B53A00C1C77C /* jak-najpredzej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-najpredzej.m4a"; sourceTree = "<group>"; };
+		E217E29C2AF2B53A00C1C77C /* jedna-sprawe-chcialem-pokazac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jedna-sprawe-chcialem-pokazac.m4a"; sourceTree = "<group>"; };
+		E217E29D2AF2B53A00C1C77C /* jak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jak.m4a; sourceTree = "<group>"; };
+		E217E29E2AF2B53A00C1C77C /* meksykanie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = meksykanie.m4a; sourceTree = "<group>"; };
+		E217E29F2AF2B53A00C1C77C /* ile-lapowek-wziales.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ile-lapowek-wziales.m4a"; sourceTree = "<group>"; };
+		E217E2A02AF2B53A00C1C77C /* kto-prezesem-jest-mecenasow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kto-prezesem-jest-mecenasow.m4a"; sourceTree = "<group>"; };
+		E217E2A12AF2B53A00C1C77C /* nie-bedzie-lac-po-twarzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-bedzie-lac-po-twarzy.m4a"; sourceTree = "<group>"; };
+		E217E2A22AF2B53A00C1C77C /* nie-wiem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-wiem.m4a"; sourceTree = "<group>"; };
+		E217E2A32AF2B53A00C1C77C /* ja-nie-daruje-za-to-tobie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-nie-daruje-za-to-tobie.m4a"; sourceTree = "<group>"; };
+		E217E2A42AF2B53A00C1C77C /* ostrzegam-was-wszystkich-przed-wojciechem-s.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ostrzegam-was-wszystkich-przed-wojciechem-s.m4a"; sourceTree = "<group>"; };
+		E217E2A52AF2B53A00C1C77C /* policja-byla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "policja-byla.m4a"; sourceTree = "<group>"; };
+		E217E2A62AF2B53A00C1C77C /* nie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nie.m4a; sourceTree = "<group>"; };
+		E217E2A72AF2B53A00C1C77C /* ja-wszystkim-kobietom-i-dziewczynom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-wszystkim-kobietom-i-dziewczynom.m4a"; sourceTree = "<group>"; };
+		E217E2A82AF2B53A00C1C77C /* moje-i-jego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moje-i-jego.m4a"; sourceTree = "<group>"; };
+		E217E2A92AF2B53A00C1C77C /* patrz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = patrz.m4a; sourceTree = "<group>"; };
+		E217E2AA2AF2B53A00C1C77C /* poczytasz-sobie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poczytasz-sobie.m4a"; sourceTree = "<group>"; };
+		E217E2AB2AF2B53A00C1C77C /* kiedy-ty-powiesz-prawde-meksykano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kiedy-ty-powiesz-prawde-meksykano.m4a"; sourceTree = "<group>"; };
+		E217E2AC2AF2B53B00C1C77C /* niech-was-blogoslawi-bog-wszechmogacy-ojciec-i-syn-i-duch-swiety-amen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "niech-was-blogoslawi-bog-wszechmogacy-ojciec-i-syn-i-duch-swiety-amen.m4a"; sourceTree = "<group>"; };
+		E217E2AD2AF2B53B00C1C77C /* powinno-sie-uruchomic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "powinno-sie-uruchomic.m4a"; sourceTree = "<group>"; };
+		E217E2C42AF2B83600C1C77C /* a-wtedy-niech-mnie-zabieraja-na-wieki-wiekow-amen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-wtedy-niech-mnie-zabieraja-na-wieki-wiekow-amen.m4a"; sourceTree = "<group>"; };
+		E217E2C52AF2B83600C1C77C /* bo-ludzie-beda-widziec-ze-mnie-zagrodziles-swiat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-ludzie-beda-widziec-ze-mnie-zagrodziles-swiat.m4a"; sourceTree = "<group>"; };
+		E217E2C62AF2B83600C1C77C /* wroc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wroc.m4a; sourceTree = "<group>"; };
+		E217E2C72AF2B83600C1C77C /* myslalem-czlowieku-ze-jestes-czlowiekiem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "myslalem-czlowieku-ze-jestes-czlowiekiem.m4a"; sourceTree = "<group>"; };
+		E217E2C82AF2B83600C1C77C /* z-piaseczna.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "z-piaseczna.m4a"; sourceTree = "<group>"; };
+		E217E2C92AF2B83600C1C77C /* durnego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = durnego.m4a; sourceTree = "<group>"; };
+		E217E2CA2AF2B83600C1C77C /* taaak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = taaak.m4a; sourceTree = "<group>"; };
+		E217E2CB2AF2B83600C1C77C /* to-czekaja-na-ciebie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-czekaja-na-ciebie.m4a"; sourceTree = "<group>"; };
+		E217E2CC2AF2B83600C1C77C /* wariata.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wariata.m4a; sourceTree = "<group>"; };
+		E217E2CD2AF2B83700C1C77C /* dzien-dobry-panstwu-czesc-trzecia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzien-dobry-panstwu-czesc-trzecia.m4a"; sourceTree = "<group>"; };
+		E217E2CE2AF2B83700C1C77C /* bekon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bekon.m4a; sourceTree = "<group>"; };
+		E217E2CF2AF2B83700C1C77C /* ale-zobaczcie-lozko-majora-puste.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-zobaczcie-lozko-majora-puste.m4a"; sourceTree = "<group>"; };
+		E217E2D02AF2B83700C1C77C /* a-ja-wezme-z-podlasia-ludzi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-ja-wezme-z-podlasia-ludzi.m4a"; sourceTree = "<group>"; };
+		E217E2D12AF2B83700C1C77C /* i-uwazajcie-kobietki-ostrzegam-was.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-uwazajcie-kobietki-ostrzegam-was.m4a"; sourceTree = "<group>"; };
+		E217E2D22AF2B83700C1C77C /* cos-chcialem-pokazac-tobie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cos-chcialem-pokazac-tobie.m4a"; sourceTree = "<group>"; };
+		E217E2D32AF2B83700C1C77C /* staje-z-toba-do-walki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "staje-z-toba-do-walki.m4a"; sourceTree = "<group>"; };
+		E217E2D42AF2B83700C1C77C /* chcialem-dolaczyc-taki-liscik.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chcialem-dolaczyc-taki-liscik.m4a"; sourceTree = "<group>"; };
+		E217E2D52AF2B83700C1C77C /* zrobie-ksero.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zrobie-ksero.m4a"; sourceTree = "<group>"; };
+		E217E2D62AF2B83700C1C77C /* tu-siedzi-twoj-czlowiek.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tu-siedzi-twoj-czlowiek.m4a"; sourceTree = "<group>"; };
+		E217E2D72AF2B83700C1C77C /* czy-ty-katolik-czy-chm-jestes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "czy-ty-katolik-czy-chm-jestes.m4a"; sourceTree = "<group>"; };
+		E217E2D82AF2B83700C1C77C /* dzwigac-ten-krzyz-wasz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzwigac-ten-krzyz-wasz.m4a"; sourceTree = "<group>"; };
+		E217E2D92AF2B83700C1C77C /* i-bedzie-po-tobie-mecenasku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-bedzie-po-tobie-mecenasku.m4a"; sourceTree = "<group>"; };
+		E217E2DA2AF2B83700C1C77C /* do-majora.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "do-majora.m4a"; sourceTree = "<group>"; };
+		E217E2DB2AF2B83700C1C77C /* to-nie-jest-zarty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-nie-jest-zarty.m4a"; sourceTree = "<group>"; };
+		E217E2DC2AF2B83700C1C77C /* ty-myslisz-ze-ja-slaby.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-myslisz-ze-ja-slaby.m4a"; sourceTree = "<group>"; };
+		E217E2DD2AF2B83700C1C77C /* zeby-mial-szystko.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zeby-mial-szystko.m4a"; sourceTree = "<group>"; };
+		E217E2DE2AF2B83700C1C77C /* taki-departament-x3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "taki-departament-x3.m4a"; sourceTree = "<group>"; };
+		E217E2DF2AF2B83700C1C77C /* szanowni-panstwo-kochani-moi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "szanowni-panstwo-kochani-moi.m4a"; sourceTree = "<group>"; };
+		E217E2E02AF2B83700C1C77C /* dlaczego-taki-jestes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dlaczego-taki-jestes.m4a"; sourceTree = "<group>"; };
+		E217E2E12AF2B83700C1C77C /* ze-on-n-at-rk0tyki-wacha.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-on-n-at-rk0tyki-wacha.m4a"; sourceTree = "<group>"; };
+		E217E2E22AF2B83700C1C77C /* bo-tu-jego-miejsce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-tu-jego-miejsce.m4a"; sourceTree = "<group>"; };
+		E217E2E32AF2B83700C1C77C /* i-przysiegam-bogu-wszechmogacemu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-przysiegam-bogu-wszechmogacemu.m4a"; sourceTree = "<group>"; };
+		E217E2E42AF2B83700C1C77C /* przepraszam-bardzo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przepraszam-bardzo.m4a"; sourceTree = "<group>"; };
+		E217E2E52AF2B83700C1C77C /* glod-bedzie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glod-bedzie.m4a"; sourceTree = "<group>"; };
+		E217E2E62AF2B83700C1C77C /* obszczany-obesrany-w-gacie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "obszczany-obesrany-w-gacie.m4a"; sourceTree = "<group>"; };
+		E217E2E72AF2B83700C1C77C /* a-teraz-powiedziales-ze-ja-loda-twojego-bede-lizac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-teraz-powiedziales-ze-ja-loda-twojego-bede-lizac.m4a"; sourceTree = "<group>"; };
+		E217E2E82AF2B83800C1C77C /* ale-ciebie-ka-nie-bedzie-na-tym-swiecie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-ciebie-ka-nie-bedzie-na-tym-swiecie.m4a"; sourceTree = "<group>"; };
+		E217E2E92AF2B83800C1C77C /* powiedzialem-tobie-dlaczego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "powiedzialem-tobie-dlaczego.m4a"; sourceTree = "<group>"; };
+		E217E2EA2AF2B83800C1C77C /* sam-moj-redaktor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sam-moj-redaktor.m4a"; sourceTree = "<group>"; };
+		E217E2EB2AF2B83800C1C77C /* z-tego-powodu-ze-on-jest-len-smierdzacy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "z-tego-powodu-ze-on-jest-len-smierdzacy.m4a"; sourceTree = "<group>"; };
+		E217E2EC2AF2B83800C1C77C /* zeby-tak-jak-matka-boska-ma-korone-z-orzelkiem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zeby-tak-jak-matka-boska-ma-korone-z-orzelkiem.m4a"; sourceTree = "<group>"; };
+		E217E2ED2AF2B83800C1C77C /* zapraszam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = zapraszam.m4a; sourceTree = "<group>"; };
+		E217E2EE2AF2B83800C1C77C /* tylko-musze-znalezc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tylko-musze-znalezc.m4a"; sourceTree = "<group>"; };
 		E222415B2AF17C4A00F8EE66 /* ale-nie-ma-co-ludzi-sie-prosic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-nie-ma-co-ludzi-sie-prosic.m4a"; sourceTree = "<group>"; };
 		E222415C2AF17C4A00F8EE66 /* niezarlaku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = niezarlaku.m4a; sourceTree = "<group>"; };
 		E222415D2AF17C4A00F8EE66 /* ja-we-wtorek-jade.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-we-wtorek-jade.m4a"; sourceTree = "<group>"; };
@@ -470,19 +600,24 @@
 				E22241632AF17C4A00F8EE66 /* a-chw-to-trzeba-ze-swiata-sprzatac.m4a */,
 				E22241A42AF17C4E00F8EE66 /* a-czy-ty-sie-wezmiesz.m4a */,
 				E22241FD2AF17C5200F8EE66 /* a-dalej-pisze.m4a */,
+				E217E2D02AF2B83700C1C77C /* a-ja-wezme-z-podlasia-ludzi.m4a */,
 				E22241F72AF17C5200F8EE66 /* a-moja-noga-bedzie-stala-na-gebie-twojej.m4a */,
 				E22241FE2AF17C5200F8EE66 /* a-musze-znalezc-jego.m4a */,
 				E222420D2AF17C5300F8EE66 /* a-spotkamy-sie-na-twoim-adresie.m4a */,
 				E22241C12AF17C4F00F8EE66 /* a-stopa-7-mil-bardzo-duzo-kilometrow-to-jest.m4a */,
+				E217E2E72AF2B83700C1C77C /* a-teraz-powiedziales-ze-ja-loda-twojego-bede-lizac.m4a */,
 				E22241F52AF17C5200F8EE66 /* a-to-bedzie-wyostrzone-jak-brzytew.m4a */,
+				E217E2C42AF2B83600C1C77C /* a-wtedy-niech-mnie-zabieraja-na-wieki-wiekow-amen.m4a */,
 				E22241722AF17C4B00F8EE66 /* a-za-kopyta-powiesze-w-lesie.m4a */,
 				E22241DD2AF17C5100F8EE66 /* a-zwalales-na-mnie.m4a */,
 				E22242112AF17C5300F8EE66 /* ahhh.m4a */,
 				E22241D02AF17C5000F8EE66 /* albo-ubekiem-jestes-sam-moze.m4a */,
+				E217E2E82AF2B83800C1C77C /* ale-ciebie-ka-nie-bedzie-na-tym-swiecie.m4a */,
 				E22241962AF17C4D00F8EE66 /* ale-ja-szukam-na-prawde-kobiety.m4a */,
 				E222415B2AF17C4A00F8EE66 /* ale-nie-ma-co-ludzi-sie-prosic.m4a */,
 				E22241B72AF17C4F00F8EE66 /* ale-przyjdzie-i-na-was-kara-boza.m4a */,
 				E22241922AF17C4D00F8EE66 /* ale-zmartwychwstal.m4a */,
+				E217E2CF2AF2B83700C1C77C /* ale-zobaczcie-lozko-majora-puste.m4a */,
 				E22241852AF17C4C00F8EE66 /* ani-nic-ani-policja.m4a */,
 				E22242032AF17C5300F8EE66 /* bardzo-dobre-smaczne.m4a */,
 				E22242152AF17C5400F8EE66 /* bardzo-lokal-dobry.m4a */,
@@ -490,192 +625,252 @@
 				E22241F62AF17C5200F8EE66 /* bedzie-najazd-na-chatke.m4a */,
 				E22241E92AF17C5100F8EE66 /* bedziecie-bez-ziarna-bez-zboza.m4a */,
 				E222418C2AF17C4C00F8EE66 /* bedziesz-lezec-u-mnie.m4a */,
+				E217E2CE2AF2B83700C1C77C /* bekon.m4a */,
 				E22241FB2AF17C5200F8EE66 /* bo-ja-siedzialem-za-solidarnosc.m4a */,
 				E222420C2AF17C5300F8EE66 /* bo-juz-mie-slow-brak.m4a */,
+				E217E2C52AF2B83600C1C77C /* bo-ludzie-beda-widziec-ze-mnie-zagrodziles-swiat.m4a */,
 				E22241C72AF17C4F00F8EE66 /* bo-mnie-dosc-takiego-obrazania-mnie.m4a */,
 				E222417B2AF17C4B00F8EE66 /* bo-troszku-mnie-zegareczek-sie-spieszy-sie.m4a */,
+				E217E2E22AF2B83700C1C77C /* bo-tu-jego-miejsce.m4a */,
 				E22241B12AF17C4E00F8EE66 /* bo-ty-nie-widzisz.m4a */,
 				E22241792AF17C4B00F8EE66 /* cala-rodzinke-wytepie-was.m4a */,
 				E22241DB2AF17C5000F8EE66 /* cebulka.m4a */,
 				E22242262AF17C5400F8EE66 /* chce-objac-wszystkich-polakow.m4a */,
+				E217E2D42AF2B83700C1C77C /* chcialem-dolaczyc-taki-liscik.m4a */,
 				E22242242AF17C5400F8EE66 /* chodzi-codziennie-po-piwko.m4a */,
 				E222418A2AF17C4C00F8EE66 /* chyba-nie-jest-zimno-w-domu-pale-przynosze-rabie.m4a */,
 				E22241AA2AF17C4E00F8EE66 /* ciezko-mowic.m4a */,
 				E22241782AF17C4B00F8EE66 /* co-7-mil-ludzka-stopa-bedzie.m4a */,
 				E22242002AF17C5200F8EE66 /* co-ja-mam-robic-pytam.m4a */,
+				E217E2D22AF2B83700C1C77C /* cos-chcialem-pokazac-tobie.m4a */,
 				E22241772AF17C4B00F8EE66 /* czemu-on-tu-nie-przychodzi.m4a */,
 				E22242282AF17C5500F8EE66 /* czemu-tu-nie-przychodzi.m4a */,
 				E222420F2AF17C5300F8EE66 /* czlowiek-czlowieka-bedzie-szanowac-dbac-kochac.m4a */,
 				E22241B62AF17C4E00F8EE66 /* czlowieku-zastanow-sie.m4a */,
 				E22242012AF17C5300F8EE66 /* czy-ja-prawde-robie.m4a */,
+				E217E2D72AF2B83700C1C77C /* czy-ty-katolik-czy-chm-jestes.m4a */,
 				E22241832AF17C4C00F8EE66 /* daj-mi-odpowiedziec.m4a */,
 				E222419D2AF17C4D00F8EE66 /* dalej.m4a */,
 				E222416A2AF17C4A00F8EE66 /* diabel-takimi-widlami.m4a */,
 				E22241E52AF17C5100F8EE66 /* dla-ciebie-pawelku.m4a */,
+				E217E2E02AF2B83700C1C77C /* dlaczego-taki-jestes.m4a */,
 				E22242192AF17C5400F8EE66 /* dlaczego-ty-w-zgodzie-nie-zyjesz-ze-mna-dlaczego.m4a */,
 				E22242072AF17C5300F8EE66 /* dlaczego-wy-tak-wyrabiacie.m4a */,
 				E222419C2AF17C4D00F8EE66 /* dlaczego-wy-to-robicie.m4a */,
 				E22241D22AF17C5000F8EE66 /* dlaczego.m4a */,
 				E22241C32AF17C4F00F8EE66 /* do-jazdy.m4a */,
+				E217E2DA2AF2B83700C1C77C /* do-majora.m4a */,
 				E22241932AF17C4D00F8EE66 /* do-mnie-mowili.m4a */,
 				E22241A72AF17C4E00F8EE66 /* dosc-nie-mowienia-prawdy.m4a */,
 				E22242052AF17C5300F8EE66 /* dostalem-kubkiem-prosto-w-glowe.m4a */,
 				E222422A2AF17C5500F8EE66 /* drugi.m4a */,
+				E217E2C92AF2B83600C1C77C /* durnego.m4a */,
 				E22242042AF17C5300F8EE66 /* dziadek-moj-nie-znal-ciebie.m4a */,
 				E22241822AF17C4C00F8EE66 /* dziekuje-bardzo.m4a */,
+				E217E2CD2AF2B83700C1C77C /* dzien-dobry-panstwu-czesc-trzecia.m4a */,
 				E22241A32AF17C4D00F8EE66 /* dzien-dobry-panstwu.m4a */,
 				E22242092AF17C5300F8EE66 /* dziewczyny-nie-sa-matka-boska.m4a */,
+				E217E2D82AF2B83700C1C77C /* dzwigac-ten-krzyz-wasz.m4a */,
 				E22241EB2AF17C5100F8EE66 /* gdzie-ja-mam-chodzic-i-szukac-po-takim-sniegu.m4a */,
 				E22241732AF17C4B00F8EE66 /* gdzie-on-jest-gdzie-on-jest.m4a */,
 				E22241AD2AF17C4E00F8EE66 /* gdzie-on-jest.m4a */,
 				E22241E02AF17C5100F8EE66 /* gdzie-ty-sie-zalatwiasz.m4a */,
+				E217E2E52AF2B83700C1C77C /* glod-bedzie.m4a */,
 				E22241642AF17C4A00F8EE66 /* gnojku-smierdzacy.m4a */,
 				E22242022AF17C5300F8EE66 /* gowno.m4a */,
 				E22242102AF17C5300F8EE66 /* i-az-lzy-kreca-sie.m4a */,
 				E22241CD2AF17C5000F8EE66 /* i-bedzie-ka-nacieranie-na-twoj-dom.m4a */,
+				E217E2D92AF2B83700C1C77C /* i-bedzie-po-tobie-mecenasku.m4a */,
 				E22241CC2AF17C5000F8EE66 /* i-czlowiek-czlowieka-bedzie-szanowac-wtedy.m4a */,
 				E222417C2AF17C4B00F8EE66 /* i-ludzie-beda-jechac-po-tobie-jak-po-szmacie.m4a */,
 				E22241842AF17C4C00F8EE66 /* i-poszedl-na-gore-kalwarie.m4a */,
 				E222419F2AF17C4D00F8EE66 /* i-powiem-tobie-tak.m4a */,
+				E217E2E32AF2B83700C1C77C /* i-przysiegam-bogu-wszechmogacemu.m4a */,
 				E222421C2AF17C5400F8EE66 /* i-tak-dalej.m4a */,
 				E22241B02AF17C4E00F8EE66 /* i-tej-sily-nie-pokonasz.m4a */,
 				E22241EE2AF17C5100F8EE66 /* i-to-predko.m4a */,
 				E22241D92AF17C5000F8EE66 /* i-trzecia-polowka.m4a */,
+				E217E2D12AF2B83700C1C77C /* i-uwazajcie-kobietki-ostrzegam-was.m4a */,
 				E22242292AF17C5500F8EE66 /* i-zabiore-sie-i-pojade-w-swiat.m4a */,
 				E222418E2AF17C4C00F8EE66 /* ich-nie-postawisz-do-kata.m4a */,
 				E22241B22AF17C4E00F8EE66 /* ide-kupic-sobie-mcdonalda.m4a */,
+				E217E29F2AF2B53A00C1C77C /* ile-lapowek-wziales.m4a */,
 				E22242142AF17C5400F8EE66 /* ile-sil-jeszcze-bede-mial-bede-nosic-bede-rabac.m4a */,
 				E22241BD2AF17C4F00F8EE66 /* ja-ciebie-w-jednym-ruchu-rozwale.m4a */,
 				E22242132AF17C5300F8EE66 /* ja-jestem-czlowiekiem-innym.m4a */,
 				E222422C2AF17C5500F8EE66 /* ja-nie-boje-sie-tego.m4a */,
+				E217E2A32AF2B53A00C1C77C /* ja-nie-daruje-za-to-tobie.m4a */,
 				E222418B2AF17C4C00F8EE66 /* ja-nie-klamie-ja-mowie-prawde.m4a */,
 				E222415D2AF17C4A00F8EE66 /* ja-we-wtorek-jade.m4a */,
 				E222416B2AF17C4B00F8EE66 /* ja-widzialem-gdzie-ty-sie-zalatwiasz.m4a */,
 				E22241B52AF17C4E00F8EE66 /* ja-wiem-kto-prezesem-jest.m4a */,
+				E217E2A72AF2B53A00C1C77C /* ja-wszystkim-kobietom-i-dziewczynom.m4a */,
 				E222420E2AF17C5300F8EE66 /* jak-chm-jestes-to-i-chm-zdechniesz.m4a */,
 				E22242082AF17C5300F8EE66 /* jak-chrystus-krol-zbawiciel-powiedzial.m4a */,
 				E22241762AF17C4B00F8EE66 /* jak-ja-was-umilowalem.m4a */,
+				E217E29B2AF2B53A00C1C77C /* jak-najpredzej.m4a */,
 				E22241B32AF17C4E00F8EE66 /* jak-oszukal-mnie.m4a */,
 				E22241802AF17C4C00F8EE66 /* jak-przez-mur-bedziesz-widziec.m4a */,
 				E22241AB2AF17C4E00F8EE66 /* jak-ten-chrystus-krol-zbawiciel-meczennik-z-meczennikow.m4a */,
+				E217E29D2AF2B53A00C1C77C /* jak.m4a */,
 				E22241D12AF17C5000F8EE66 /* jarku-meksykanie.m4a */,
 				E22241662AF17C4A00F8EE66 /* jaroslaw-meksyko-meksykano-andrzeki.m4a */,
 				E22241D32AF17C5000F8EE66 /* jeden.m4a */,
+				E217E29C2AF2B53A00C1C77C /* jedna-sprawe-chcialem-pokazac.m4a */,
 				E22241982AF17C4D00F8EE66 /* jedyne-mam-pytanie.m4a */,
 				E22242222AF17C5400F8EE66 /* jest-boczek-w-ustach.m4a */,
 				E22241C82AF17C4F00F8EE66 /* juz-jest-ten-czlowiek-prawie-namierzony.m4a */,
+				E217E2992AF2B53A00C1C77C /* juz-niedlugo-jemu-leb-zleci.m4a */,
 				E22241AC2AF17C4E00F8EE66 /* kaszel-bozy-1.m4a */,
 				E22241EC2AF17C5100F8EE66 /* kaszel-bozy.m4a */,
 				E22241A22AF17C4D00F8EE66 /* kategorycznie-o-rozebranie-tego-plotu.m4a */,
+				E217E2AB2AF2B53A00C1C77C /* kiedy-ty-powiesz-prawde-meksykano.m4a */,
 				E22241A62AF17C4E00F8EE66 /* kielbaske-napoje.m4a */,
 				E22241A02AF17C4D00F8EE66 /* kochany-jaroslawie.m4a */,
 				E22242272AF17C5400F8EE66 /* konserwy.m4a */,
 				E22241652AF17C4A00F8EE66 /* krzysztofie-jak-jada-po-tobie.m4a */,
+				E217E2A02AF2B53A00C1C77C /* kto-prezesem-jest-mecenasow.m4a */,
 				E22241EA2AF17C5100F8EE66 /* lapowki-bierzesz.m4a */,
 				E22241E32AF17C5100F8EE66 /* listem-poleconym.m4a */,
 				E22241602AF17C4A00F8EE66 /* loda-tobie-nie-lizalem-i-lizac-nie-bede.m4a */,
 				E22241ED2AF17C5100F8EE66 /* ludzie-nie-beda-sie-dotykac.m4a */,
 				E22241DA2AF17C5000F8EE66 /* lzy-sie-leja.m4a */,
 				E22241CA2AF17C5000F8EE66 /* ma.m4a */,
+				E217E29A2AF2B53A00C1C77C /* majorze-dlaczego.m4a */,
 				E22241E42AF17C5100F8EE66 /* mam-apel-do-mlodziezy.m4a */,
 				E22241872AF17C4C00F8EE66 /* mecenasie-niebebenie.m4a */,
+				E217E29E2AF2B53A00C1C77C /* meksykanie.m4a */,
 				E22241B82AF17C4F00F8EE66 /* milujmy-sie-bracie-pan-jezus-powiedzial.m4a */,
 				E22241E62AF17C5100F8EE66 /* moge-przeczytac.m4a */,
 				E22241E22AF17C5100F8EE66 /* moj-jestes-bo-podpisales-krwia-dla-mnie.m4a */,
+				E217E2A82AF2B53A00C1C77C /* moje-i-jego.m4a */,
 				E222418D2AF17C4C00F8EE66 /* musze-konczyc-pismo-pisac.m4a */,
 				E22241862AF17C4C00F8EE66 /* musze-znalezc-bo-on-musi-wrocic-tu.m4a */,
 				E222421A2AF17C5400F8EE66 /* musze-znalezc.m4a */,
+				E217E2C72AF2B83600C1C77C /* myslalem-czlowieku-ze-jestes-czlowiekiem.m4a */,
+				E217E2982AF2B53A00C1C77C /* na-prawde-ten-czlowiek-jest-niebezpieczny.m4a */,
 				E22241E12AF17C5100F8EE66 /* naprawde.m4a */,
 				E222421D2AF17C5400F8EE66 /* nastepnego-dnia-lozko-puste.m4a */,
 				E22241952AF17C4D00F8EE66 /* nie-beda-sie-spodziewac-nawet.m4a */,
+				E217E2A12AF2B53A00C1C77C /* nie-bedzie-lac-po-twarzy.m4a */,
 				E22241972AF17C4D00F8EE66 /* nie-bedzie-znecac-sie-nie-bedzie-wyzywac.m4a */,
 				E22241D52AF17C5000F8EE66 /* nie-mozna-stawiac-wyzszego-plotu.m4a */,
 				E222416C2AF17C4B00F8EE66 /* nie-nie-nie-ja-jemu-nie-podaruje.m4a */,
 				E222416F2AF17C4B00F8EE66 /* nie-pomoga-metaldrzwi-ani-pancerne-okna.m4a */,
 				E22242212AF17C5400F8EE66 /* nie-pomoze-wojsko-ani-policja-ani-nikt.m4a */,
 				E22242202AF17C5400F8EE66 /* nie-robcie-tego-bo-to-nie-jest-zarty.m4a */,
+				E217E2A22AF2B53A00C1C77C /* nie-wiem.m4a */,
+				E217E2A62AF2B53A00C1C77C /* nie.m4a */,
 				E22241AF2AF17C4E00F8EE66 /* niebebenie.m4a */,
 				E22241CE2AF17C5000F8EE66 /* niech-jemu-peknie-morda.m4a */,
 				E22242182AF17C5400F8EE66 /* niech-potwierdzi.m4a */,
+				E217E2AC2AF2B53B00C1C77C /* niech-was-blogoslawi-bog-wszechmogacy-ojciec-i-syn-i-duch-swiety-amen.m4a */,
 				E22241992AF17C4D00F8EE66 /* niewiadomo-skad.m4a */,
 				E222415F2AF17C4A00F8EE66 /* niewiem.m4a */,
 				E222415C2AF17C4A00F8EE66 /* niezarlaku.m4a */,
+				E217E2E62AF2B83700C1C77C /* obszczany-obesrany-w-gacie.m4a */,
 				E22241FC2AF17C5200F8EE66 /* od-razu-odpala.m4a */,
 				E22241CB2AF17C5000F8EE66 /* od-szpitala-psychiatrycznego.m4a */,
 				E22241742AF17C4B00F8EE66 /* on-nie-umie-zrobic-nawet-bigosu.m4a */,
+				E217E2A42AF2B53A00C1C77C /* ostrzegam-was-wszystkich-przed-wojciechem-s.m4a */,
 				E22241C52AF17C4F00F8EE66 /* owieczki-krowki-kroliczki.m4a */,
 				E22241882AF17C4C00F8EE66 /* pamietaj.m4a */,
 				E22241A12AF17C4D00F8EE66 /* pan-bog-powiedzial-zyjmy-w-milosci-w-zgodzie-razem.m4a */,
 				E22241752AF17C4B00F8EE66 /* pan-kononowicz-krzysztof.m4a */,
 				E22241FA2AF17C5200F8EE66 /* patron-pdofilow.m4a */,
+				E217E2A92AF2B53A00C1C77C /* patrz.m4a */,
 				E22241C02AF17C4F00F8EE66 /* po-co-ty-znecasz-sie-nade-mna-co-ja-tobie-zrobilem.m4a */,
 				E22241942AF17C4D00F8EE66 /* po-kawalkach-cie-beda-skladac.m4a */,
 				E22241F32AF17C5200F8EE66 /* pobiera-gaz.m4a */,
+				E217E2AA2AF2B53A00C1C77C /* poczytasz-sobie.m4a */,
 				E22241F92AF17C5200F8EE66 /* podejmiesz-ta-rekawiczke.m4a */,
 				E22241A52AF17C4E00F8EE66 /* podejmij-ta-rekawiczke.m4a */,
 				E22241AE2AF17C4E00F8EE66 /* pojdzie-sprawa-do-sadu.m4a */,
+				E217E2A52AF2B53A00C1C77C /* policja-byla.m4a */,
 				E22242122AF17C5300F8EE66 /* pomidorki.m4a */,
 				E22241C22AF17C4F00F8EE66 /* porabane-bedziesz.m4a */,
 				E222416D2AF17C4B00F8EE66 /* powiedzial-ze-ja-mowie-ludziom-ze-jestem-meczennik.m4a */,
+				E217E2E92AF2B83800C1C77C /* powiedzialem-tobie-dlaczego.m4a */,
 				E222420A2AF17C5300F8EE66 /* powiem-tak.m4a */,
+				E217E2AD2AF2B53B00C1C77C /* powinno-sie-uruchomic.m4a */,
 				E22241EF2AF17C5200F8EE66 /* prostutki-niech-pekna-jemu.m4a */,
 				E22241902AF17C4C00F8EE66 /* przepraszales-mnie.m4a */,
 				E22241BE2AF17C4F00F8EE66 /* przepraszam-bardzo-znajde-poznij.m4a */,
+				E217E2E42AF2B83700C1C77C /* przepraszam-bardzo.m4a */,
 				E222421B2AF17C5400F8EE66 /* przychodziles-ukleknales-w-kuchni.m4a */,
 				E22241FF2AF17C5200F8EE66 /* rozpuszczalniki.m4a */,
 				E22241BF2AF17C4F00F8EE66 /* rozwal-mur-to-bedziesz-widziec-jak-on-mnie-nadala.m4a */,
 				E22241702AF17C4B00F8EE66 /* rozwal-mur.m4a */,
+				E217E2EA2AF2B83800C1C77C /* sam-moj-redaktor.m4a */,
 				E22241C62AF17C4F00F8EE66 /* silniczek-ladny-piekny.m4a */,
 				E22242172AF17C5400F8EE66 /* silnik-prosze-bardzo.m4a */,
 				E22241622AF17C4A00F8EE66 /* sksynie.m4a */,
 				E22241DC2AF17C5100F8EE66 /* sobie-do-sklepu.m4a */,
 				E22241C42AF17C4F00F8EE66 /* spojrz-teraz.m4a */,
+				E217E2D32AF2B83700C1C77C /* staje-z-toba-do-walki.m4a */,
+				E217E2DF2AF2B83700C1C77C /* szanowni-panstwo-kochani-moi.m4a */,
 				E22241892AF17C4C00F8EE66 /* szanowni-panstwo-to-tyle-i-trzymajcie-sie.m4a */,
 				E22242062AF17C5300F8EE66 /* szanowny.m4a */,
 				E22241D82AF17C5000F8EE66 /* szarpnales-mnie-ojca.m4a */,
+				E217E2CA2AF2B83600C1C77C /* taaak.m4a */,
 				E222418F2AF17C4C00F8EE66 /* tak-jak-powiedzialem.m4a */,
 				E22241682AF17C4A00F8EE66 /* tak-jak-ty.m4a */,
 				E222417D2AF17C4B00F8EE66 /* tak-samo-pracuje-na-gazie.m4a */,
+				E217E2DE2AF2B83700C1C77C /* taki-departament-x3.m4a */,
 				E22241712AF17C4B00F8EE66 /* tam-dalej-jest-jeszcze-inna-sprawa.m4a */,
 				E22241DE2AF17C5100F8EE66 /* tam-wykarmia-nas.m4a */,
 				E22241812AF17C4C00F8EE66 /* te-narzedzia-beda-wpolone-na-glupi-twoj-leb.m4a */,
+				E217E2CB2AF2B83600C1C77C /* to-czekaja-na-ciebie.m4a */,
 				E222415E2AF17C4A00F8EE66 /* to-jest-tylko-moja-sprawa.m4a */,
 				E22241B92AF17C4F00F8EE66 /* to-na-lajcie-jest-nagrane.m4a */,
+				E217E2DB2AF2B83700C1C77C /* to-nie-jest-zarty.m4a */,
 				E22241E72AF17C5100F8EE66 /* to-nie-moje-slowa-to-boga-slowa-matki-przenajswietszej.m4a */,
 				E222417E2AF17C4B00F8EE66 /* to-slowa-nie-moje-to-slowa-wyzszego-sedziego.m4a */,
 				E22241D72AF17C5000F8EE66 /* tomaszku.m4a */,
 				E22241F12AF17C5200F8EE66 /* tomaszu-ty-zaebany.m4a */,
 				E222421F2AF17C5400F8EE66 /* trawke.m4a */,
 				E222422B2AF17C5500F8EE66 /* tu-jego-dom-tak-jak-moj-tak-i-jego.m4a */,
+				E217E2D62AF2B83700C1C77C /* tu-siedzi-twoj-czlowiek.m4a */,
+				E217E2DC2AF2B83700C1C77C /* ty-myslisz-ze-ja-slaby.m4a */,
 				E22241A82AF17C4E00F8EE66 /* ty-to-wszystko-robiles.m4a */,
 				E22241BA2AF17C4F00F8EE66 /* tylko-chce-odniesc-sie.m4a */,
 				E22241D42AF17C5000F8EE66 /* tylko-meksykano-powiedzial-jeszcze.m4a */,
+				E217E2EE2AF2B83800C1C77C /* tylko-musze-znalezc.m4a */,
 				E22241B42AF17C4E00F8EE66 /* ukleknie-na-ziemie-i-bedzie-calowac.m4a */,
 				E22241F82AF17C5200F8EE66 /* w-bialymstoku-mieszka.m4a */,
 				E22241A92AF17C4E00F8EE66 /* w-imie-ojca-i-syna-i-ducha-swietego-amen.m4a */,
+				E217E2CC2AF2B83600C1C77C /* wariata.m4a */,
 				E222420B2AF17C5300F8EE66 /* wojny-beda.m4a */,
 				E222419B2AF17C4D00F8EE66 /* wojtek.m4a */,
 				E22241DF2AF17C5100F8EE66 /* wracam-do-domu-wzialem-noz.m4a */,
 				E222421E2AF17C5400F8EE66 /* wroc-prosze-ciebie.m4a */,
+				E217E2C62AF2B83600C1C77C /* wroc.m4a */,
 				E22242252AF17C5400F8EE66 /* wszystkie-poszukam-od-a-do-z.m4a */,
 				E22241672AF17C4A00F8EE66 /* yyyy.m4a */,
 				E22241E82AF17C5100F8EE66 /* yyyyy.m4a */,
 				E22241F42AF17C5200F8EE66 /* z-blokada-kierownicy-jest.m4a */,
 				E22241612AF17C4A00F8EE66 /* z-calego-serca-z-calej-duszy-prosze-ciebie.m4a */,
+				E217E2C82AF2B83600C1C77C /* z-piaseczna.m4a */,
+				E217E2EB2AF2B83800C1C77C /* z-tego-powodu-ze-on-jest-len-smierdzacy.m4a */,
 				E22241BB2AF17C4F00F8EE66 /* zaczne-szukac-od-choroszczy.m4a */,
 				E222419E2AF17C4D00F8EE66 /* zajmij-sie-mecenasku-tym.m4a */,
 				E222417F2AF17C4C00F8EE66 /* zapalniku.m4a */,
+				E217E2ED2AF2B83800C1C77C /* zapraszam.m4a */,
 				E22241D62AF17C5000F8EE66 /* zdrowia-szczescia-wszystkiego-najlepszego.m4a */,
 				E222422D2AF17C5500F8EE66 /* ze-mna-do-walki.m4a */,
 				E222417A2AF17C4B00F8EE66 /* ze-mnie-tak-neka.m4a */,
+				E217E2E12AF2B83700C1C77C /* ze-on-n-at-rk0tyki-wacha.m4a */,
 				E222419A2AF17C4D00F8EE66 /* zeby-czlowieka-akuratnego-tak-jak-mie.m4a */,
 				E22241C92AF17C5000F8EE66 /* zeby-ka-skonczyc-z-tym.m4a */,
 				E22241BC2AF17C4F00F8EE66 /* zeby-mial-prace.m4a */,
+				E217E2DD2AF2B83700C1C77C /* zeby-mial-szystko.m4a */,
 				E22241912AF17C4D00F8EE66 /* zeby-mial-zone-dzieci.m4a */,
 				E22241692AF17C4A00F8EE66 /* zeby-nie-bylo-trelka.m4a */,
 				E222416E2AF17C4B00F8EE66 /* zeby-polska-byla-polska.m4a */,
+				E217E2EC2AF2B83800C1C77C /* zeby-tak-jak-matka-boska-ma-korone-z-orzelkiem.m4a */,
 				E22242162AF17C5400F8EE66 /* zginiesz-marnie.m4a */,
 				E22241F02AF17C5200F8EE66 /* zrobic.m4a */,
+				E217E2D52AF2B83700C1C77C /* zrobie-ksero.m4a */,
 				E22242232AF17C5400F8EE66 /* zyczenia-na-swieta.m4a */,
 			);
 			path = Sounds;
@@ -775,11 +970,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22242B62AF17C5500F8EE66 /* listem-poleconym.m4a in Resources */,
+				E217E2F12AF2B83800C1C77C /* wroc.m4a in Resources */,
 				E22242FB2AF17C5500F8EE66 /* czemu-tu-nie-przychodzi.m4a in Resources */,
 				E22242B82AF17C5500F8EE66 /* dla-ciebie-pawelku.m4a in Resources */,
 				E22242CB2AF17C5500F8EE66 /* w-bialymstoku-mieszka.m4a in Resources */,
 				E22242572AF17C5500F8EE66 /* i-poszedl-na-gore-kalwarie.m4a in Resources */,
 				E22242A02AF17C5500F8EE66 /* i-bedzie-ka-nacieranie-na-twoj-dom.m4a in Resources */,
+				E217E2F52AF2B83800C1C77C /* taaak.m4a in Resources */,
 				E22242B22AF17C5500F8EE66 /* wracam-do-domu-wzialem-noz.m4a in Resources */,
 				E222426D2AF17C5500F8EE66 /* zeby-czlowieka-akuratnego-tak-jak-mie.m4a in Resources */,
 				E22242412AF17C5500F8EE66 /* zeby-polska-byla-polska.m4a in Resources */,
@@ -788,6 +985,7 @@
 				E22242FE2AF17C5500F8EE66 /* tu-jego-dom-tak-jak-moj-tak-i-jego.m4a in Resources */,
 				E22243002AF17C5500F8EE66 /* ze-mna-do-walki.m4a in Resources */,
 				E22242EB2AF17C5500F8EE66 /* niech-potwierdzi.m4a in Resources */,
+				E217E3032AF2B83800C1C77C /* dzwigac-ten-krzyz-wasz.m4a in Resources */,
 				E22242F62AF17C5500F8EE66 /* zyczenia-na-swieta.m4a in Resources */,
 				E22242F32AF17C5500F8EE66 /* nie-robcie-tego-bo-to-nie-jest-zarty.m4a in Resources */,
 				E222426A2AF17C5500F8EE66 /* nie-bedzie-znecac-sie-nie-bedzie-wyzywac.m4a in Resources */,
@@ -801,18 +999,24 @@
 				E222424B2AF17C5500F8EE66 /* co-7-mil-ludzka-stopa-bedzie.m4a in Resources */,
 				E22242952AF17C5500F8EE66 /* porabane-bedziesz.m4a in Resources */,
 				E22242DD2AF17C5500F8EE66 /* powiem-tak.m4a in Resources */,
+				E217E2FA2AF2B83800C1C77C /* ale-zobaczcie-lozko-majora-puste.m4a in Resources */,
 				E222422F2AF17C5500F8EE66 /* niezarlaku.m4a in Resources */,
 				E222425F2AF17C5500F8EE66 /* bedziesz-lezec-u-mnie.m4a in Resources */,
 				E22242732AF17C5500F8EE66 /* kochany-jaroslawie.m4a in Resources */,
+				E217E2AE2AF2B53B00C1C77C /* na-prawde-ten-czlowiek-jest-niebezpieczny.m4a in Resources */,
 				E222426E2AF17C5500F8EE66 /* wojtek.m4a in Resources */,
 				E222428E2AF17C5500F8EE66 /* zaczne-szukac-od-choroszczy.m4a in Resources */,
 				E22242342AF17C5500F8EE66 /* z-calego-serca-z-calej-duszy-prosze-ciebie.m4a in Resources */,
 				E222429C2AF17C5500F8EE66 /* zeby-ka-skonczyc-z-tym.m4a in Resources */,
+				E217E2F32AF2B83800C1C77C /* z-piaseczna.m4a in Resources */,
 				E22242B32AF17C5500F8EE66 /* gdzie-ty-sie-zalatwiasz.m4a in Resources */,
 				E22242D62AF17C5500F8EE66 /* bardzo-dobre-smaczne.m4a in Resources */,
+				E217E2F72AF2B83800C1C77C /* wariata.m4a in Resources */,
+				E217E3072AF2B83800C1C77C /* ty-myslisz-ze-ja-slaby.m4a in Resources */,
 				E22242E42AF17C5500F8EE66 /* ahhh.m4a in Resources */,
 				E22242A72AF17C5500F8EE66 /* tylko-meksykano-powiedzial-jeszcze.m4a in Resources */,
 				E22242E12AF17C5500F8EE66 /* jak-chm-jestes-to-i-chm-zdechniesz.m4a in Resources */,
+				E217E2B92AF2B53B00C1C77C /* ja-nie-daruje-za-to-tobie.m4a in Resources */,
 				E22242892AF17C5500F8EE66 /* czlowieku-zastanow-sie.m4a in Resources */,
 				E22242A62AF17C5500F8EE66 /* jeden.m4a in Resources */,
 				E22242402AF17C5500F8EE66 /* powiedzial-ze-ja-mowie-ludziom-ze-jestem-meczennik.m4a in Resources */,
@@ -835,9 +1039,11 @@
 				E22242592AF17C5500F8EE66 /* musze-znalezc-bo-on-musi-wrocic-tu.m4a in Resources */,
 				E22242C72AF17C5500F8EE66 /* z-blokada-kierownicy-jest.m4a in Resources */,
 				E22242E72AF17C5500F8EE66 /* ile-sil-jeszcze-bede-mial-bede-nosic-bede-rabac.m4a in Resources */,
+				E217E3052AF2B83800C1C77C /* do-majora.m4a in Resources */,
 				E22242AA2AF17C5500F8EE66 /* tomaszku.m4a in Resources */,
 				E22242A42AF17C5500F8EE66 /* jarku-meksykanie.m4a in Resources */,
 				E222429B2AF17C5500F8EE66 /* juz-jest-ten-czlowiek-prawie-namierzony.m4a in Resources */,
+				E217E2B62AF2B53B00C1C77C /* kto-prezesem-jest-mecenasow.m4a in Resources */,
 				E22242542AF17C5500F8EE66 /* te-narzedzia-beda-wpolone-na-glupi-twoj-leb.m4a in Resources */,
 				E22242322AF17C5500F8EE66 /* niewiem.m4a in Resources */,
 				E22242612AF17C5500F8EE66 /* ich-nie-postawisz-do-kata.m4a in Resources */,
@@ -851,6 +1057,7 @@
 				E222426B2AF17C5500F8EE66 /* jedyne-mam-pytanie.m4a in Resources */,
 				E222428D2AF17C5500F8EE66 /* tylko-chce-odniesc-sie.m4a in Resources */,
 				E22242BB2AF17C5500F8EE66 /* yyyyy.m4a in Resources */,
+				E217E2AF2AF2B53B00C1C77C /* juz-niedlugo-jemu-leb-zleci.m4a in Resources */,
 				E22242902AF17C5500F8EE66 /* ja-ciebie-w-jednym-ruchu-rozwale.m4a in Resources */,
 				E22242BE2AF17C5500F8EE66 /* gdzie-ja-mam-chodzic-i-szukac-po-takim-sniegu.m4a in Resources */,
 				E22242D52AF17C5500F8EE66 /* gowno.m4a in Resources */,
@@ -858,21 +1065,29 @@
 				E22242722AF17C5500F8EE66 /* i-powiem-tobie-tak.m4a in Resources */,
 				E222428A2AF17C5500F8EE66 /* ale-przyjdzie-i-na-was-kara-boza.m4a in Resources */,
 				E222427A2AF17C5500F8EE66 /* dosc-nie-mowienia-prawdy.m4a in Resources */,
+				E217E2B82AF2B53B00C1C77C /* nie-wiem.m4a in Resources */,
 				E22242602AF17C5500F8EE66 /* musze-konczyc-pismo-pisac.m4a in Resources */,
 				E22242532AF17C5500F8EE66 /* jak-przez-mur-bedziesz-widziec.m4a in Resources */,
 				E22242B72AF17C5500F8EE66 /* mam-apel-do-mlodziezy.m4a in Resources */,
 				E22242CE2AF17C5500F8EE66 /* bo-ja-siedzialem-za-solidarnosc.m4a in Resources */,
+				E217E2B02AF2B53B00C1C77C /* majorze-dlaczego.m4a in Resources */,
+				E217E2B12AF2B53B00C1C77C /* jak-najpredzej.m4a in Resources */,
 				E22242E82AF17C5500F8EE66 /* bardzo-lokal-dobry.m4a in Resources */,
 				E22242B52AF17C5500F8EE66 /* moj-jestes-bo-podpisales-krwia-dla-mnie.m4a in Resources */,
 				E22242382AF17C5500F8EE66 /* krzysztofie-jak-jada-po-tobie.m4a in Resources */,
+				E217E2C32AF2B53B00C1C77C /* powinno-sie-uruchomic.m4a in Resources */,
+				E217E2F62AF2B83800C1C77C /* to-czekaja-na-ciebie.m4a in Resources */,
 				E22242FC2AF17C5500F8EE66 /* i-zabiore-sie-i-pojade-w-swiat.m4a in Resources */,
 				E22242A22AF17C5500F8EE66 /* bardzo-smaczne.m4a in Resources */,
 				E22242C42AF17C5500F8EE66 /* tomaszu-ty-zaebany.m4a in Resources */,
 				E22242E02AF17C5500F8EE66 /* a-spotkamy-sie-na-twoim-adresie.m4a in Resources */,
 				E22242AE2AF17C5500F8EE66 /* cebulka.m4a in Resources */,
 				E22242E62AF17C5500F8EE66 /* ja-jestem-czlowiekiem-innym.m4a in Resources */,
+				E217E3012AF2B83800C1C77C /* tu-siedzi-twoj-czlowiek.m4a in Resources */,
 				E22242312AF17C5500F8EE66 /* to-jest-tylko-moja-sprawa.m4a in Resources */,
+				E217E2C12AF2B53B00C1C77C /* kiedy-ty-powiesz-prawde-meksykano.m4a in Resources */,
 				E22242F02AF17C5500F8EE66 /* nastepnego-dnia-lozko-puste.m4a in Resources */,
+				E217E2F22AF2B83800C1C77C /* myslalem-czlowieku-ze-jestes-czlowiekiem.m4a in Resources */,
 				E22242EE2AF17C5500F8EE66 /* przychodziles-ukleknales-w-kuchni.m4a in Resources */,
 				E22242F12AF17C5500F8EE66 /* wroc-prosze-ciebie.m4a in Resources */,
 				E22242562AF17C5500F8EE66 /* daj-mi-odpowiedziec.m4a in Resources */,
@@ -880,35 +1095,58 @@
 				E22242462AF17C5500F8EE66 /* gdzie-on-jest-gdzie-on-jest.m4a in Resources */,
 				E22242DB2AF17C5500F8EE66 /* jak-chrystus-krol-zbawiciel-powiedzial.m4a in Resources */,
 				E22242482AF17C5500F8EE66 /* pan-kononowicz-krzysztof.m4a in Resources */,
+				E217E2F42AF2B83800C1C77C /* durnego.m4a in Resources */,
+				E217E3142AF2B83800C1C77C /* powiedzialem-tobie-dlaczego.m4a in Resources */,
+				E217E3102AF2B83800C1C77C /* glod-bedzie.m4a in Resources */,
 				E22242452AF17C5500F8EE66 /* a-za-kopyta-powiesze-w-lesie.m4a in Resources */,
 				E22242622AF17C5500F8EE66 /* tak-jak-powiedzialem.m4a in Resources */,
 				E22242ED2AF17C5500F8EE66 /* musze-znalezc.m4a in Resources */,
 				E22242502AF17C5500F8EE66 /* tak-samo-pracuje-na-gazie.m4a in Resources */,
 				E222425E2AF17C5500F8EE66 /* ja-nie-klamie-ja-mowie-prawde.m4a in Resources */,
 				E22242972AF17C5500F8EE66 /* spojrz-teraz.m4a in Resources */,
+				E217E3152AF2B83800C1C77C /* sam-moj-redaktor.m4a in Resources */,
 				E22242912AF17C5500F8EE66 /* przepraszam-bardzo-znajde-poznij.m4a in Resources */,
 				E22242A82AF17C5500F8EE66 /* nie-mozna-stawiac-wyzszego-plotu.m4a in Resources */,
+				E217E2FE2AF2B83800C1C77C /* staje-z-toba-do-walki.m4a in Resources */,
 				E22242A52AF17C5500F8EE66 /* dlaczego.m4a in Resources */,
+				E217E3002AF2B83800C1C77C /* zrobie-ksero.m4a in Resources */,
 				E222423D2AF17C5500F8EE66 /* diabel-takimi-widlami.m4a in Resources */,
+				E217E2BB2AF2B53B00C1C77C /* policja-byla.m4a in Resources */,
+				E217E30E2AF2B83800C1C77C /* i-przysiegam-bogu-wszechmogacemu.m4a in Resources */,
 				E22242D22AF17C5500F8EE66 /* rozpuszczalniki.m4a in Resources */,
 				E22242642AF17C5500F8EE66 /* zeby-mial-zone-dzieci.m4a in Resources */,
 				E22242D12AF17C5500F8EE66 /* a-musze-znalezc-jego.m4a in Resources */,
+				E217E30F2AF2B83800C1C77C /* przepraszam-bardzo.m4a in Resources */,
 				E22242BF2AF17C5500F8EE66 /* kaszel-bozy.m4a in Resources */,
+				E217E3082AF2B83800C1C77C /* zeby-mial-szystko.m4a in Resources */,
 				E22242962AF17C5500F8EE66 /* do-jazdy.m4a in Resources */,
+				E217E2FB2AF2B83800C1C77C /* a-ja-wezme-z-podlasia-ludzi.m4a in Resources */,
+				E217E2C02AF2B53B00C1C77C /* poczytasz-sobie.m4a in Resources */,
 				E22242662AF17C5500F8EE66 /* do-mnie-mowili.m4a in Resources */,
+				E217E3022AF2B83800C1C77C /* czy-ty-katolik-czy-chm-jestes.m4a in Resources */,
 				E22242EF2AF17C5500F8EE66 /* i-tak-dalej.m4a in Resources */,
 				E222425B2AF17C5500F8EE66 /* pamietaj.m4a in Resources */,
 				E28882492AEEEB6D00291168 /* Preview Assets.xcassets in Resources */,
 				E22242CC2AF17C5500F8EE66 /* podejmiesz-ta-rekawiczke.m4a in Resources */,
+				E217E2F92AF2B83800C1C77C /* bekon.m4a in Resources */,
+				E217E2FC2AF2B83800C1C77C /* i-uwazajcie-kobietki-ostrzegam-was.m4a in Resources */,
 				E222428B2AF17C5500F8EE66 /* milujmy-sie-bracie-pan-jezus-powiedzial.m4a in Resources */,
+				E217E2B42AF2B53B00C1C77C /* meksykanie.m4a in Resources */,
 				E22242DE2AF17C5500F8EE66 /* wojny-beda.m4a in Resources */,
 				E22242802AF17C5500F8EE66 /* gdzie-on-jest.m4a in Resources */,
+				E217E2FD2AF2B83800C1C77C /* cos-chcialem-pokazac-tobie.m4a in Resources */,
 				E22242352AF17C5500F8EE66 /* sksynie.m4a in Resources */,
 				E22242E52AF17C5500F8EE66 /* pomidorki.m4a in Resources */,
 				E22242C32AF17C5500F8EE66 /* zrobic.m4a in Resources */,
+				E217E30A2AF2B83800C1C77C /* szanowni-panstwo-kochani-moi.m4a in Resources */,
+				E217E30C2AF2B83800C1C77C /* ze-on-n-at-rk0tyki-wacha.m4a in Resources */,
 				E22242392AF17C5500F8EE66 /* jaroslaw-meksyko-meksykano-andrzeki.m4a in Resources */,
+				E217E2F82AF2B83800C1C77C /* dzien-dobry-panstwu-czesc-trzecia.m4a in Resources */,
 				E22242C22AF17C5500F8EE66 /* prostutki-niech-pekna-jemu.m4a in Resources */,
 				E22242B12AF17C5500F8EE66 /* tam-wykarmia-nas.m4a in Resources */,
+				E217E2F02AF2B83800C1C77C /* bo-ludzie-beda-widziec-ze-mnie-zagrodziles-swiat.m4a in Resources */,
+				E217E3172AF2B83800C1C77C /* zeby-tak-jak-matka-boska-ma-korone-z-orzelkiem.m4a in Resources */,
+				E217E2EF2AF2B83800C1C77C /* a-wtedy-niech-mnie-zabieraja-na-wieki-wiekow-amen.m4a in Resources */,
 				E22242752AF17C5500F8EE66 /* kategorycznie-o-rozebranie-tego-plotu.m4a in Resources */,
 				E22242522AF17C5500F8EE66 /* zapalniku.m4a in Resources */,
 				E222426F2AF17C5500F8EE66 /* dlaczego-wy-to-robicie.m4a in Resources */,
@@ -916,8 +1154,10 @@
 				E22242F82AF17C5500F8EE66 /* wszystkie-poszukam-od-a-do-z.m4a in Resources */,
 				E22242832AF17C5500F8EE66 /* i-tej-sily-nie-pokonasz.m4a in Resources */,
 				E22242442AF17C5500F8EE66 /* tam-dalej-jest-jeszcze-inna-sprawa.m4a in Resources */,
+				E217E3132AF2B83800C1C77C /* ale-ciebie-ka-nie-bedzie-na-tym-swiecie.m4a in Resources */,
 				E222427E2AF17C5500F8EE66 /* jak-ten-chrystus-krol-zbawiciel-meczennik-z-meczennikow.m4a in Resources */,
 				E22242432AF17C5500F8EE66 /* rozwal-mur.m4a in Resources */,
+				E217E2BD2AF2B53B00C1C77C /* ja-wszystkim-kobietom-i-dziewczynom.m4a in Resources */,
 				E22242FA2AF17C5500F8EE66 /* konserwy.m4a in Resources */,
 				E222425C2AF17C5500F8EE66 /* szanowni-panstwo-to-tyle-i-trzymajcie-sie.m4a in Resources */,
 				E22242A12AF17C5500F8EE66 /* niech-jemu-peknie-morda.m4a in Resources */,
@@ -927,10 +1167,14 @@
 				E22242CD2AF17C5500F8EE66 /* patron-pdofilow.m4a in Resources */,
 				E222424C2AF17C5500F8EE66 /* cala-rodzinke-wytepie-was.m4a in Resources */,
 				E222426C2AF17C5500F8EE66 /* niewiadomo-skad.m4a in Resources */,
+				E217E2B72AF2B53B00C1C77C /* nie-bedzie-lac-po-twarzy.m4a in Resources */,
 				E22242B92AF17C5500F8EE66 /* moge-przeczytac.m4a in Resources */,
+				E217E3122AF2B83800C1C77C /* a-teraz-powiedziales-ze-ja-loda-twojego-bede-lizac.m4a in Resources */,
 				E222423B2AF17C5500F8EE66 /* tak-jak-ty.m4a in Resources */,
+				E217E3042AF2B83800C1C77C /* i-bedzie-po-tobie-mecenasku.m4a in Resources */,
 				E22242E32AF17C5500F8EE66 /* i-az-lzy-kreca-sie.m4a in Resources */,
 				E28882462AEEEB6D00291168 /* Assets.xcassets in Resources */,
+				E217E2B22AF2B53B00C1C77C /* jedna-sprawe-chcialem-pokazac.m4a in Resources */,
 				E22242682AF17C5500F8EE66 /* nie-beda-sie-spodziewac-nawet.m4a in Resources */,
 				E22242942AF17C5500F8EE66 /* a-stopa-7-mil-bardzo-duzo-kilometrow-to-jest.m4a in Resources */,
 				E22242792AF17C5500F8EE66 /* kielbaske-napoje.m4a in Resources */,
@@ -939,30 +1183,42 @@
 				E22242CA2AF17C5500F8EE66 /* a-moja-noga-bedzie-stala-na-gebie-twojej.m4a in Resources */,
 				E22242C92AF17C5500F8EE66 /* bedzie-najazd-na-chatke.m4a in Resources */,
 				E222423C2AF17C5500F8EE66 /* zeby-nie-bylo-trelka.m4a in Resources */,
+				E217E3182AF2B83800C1C77C /* zapraszam.m4a in Resources */,
 				E222423E2AF17C5500F8EE66 /* ja-widzialem-gdzie-ty-sie-zalatwiasz.m4a in Resources */,
+				E217E2FF2AF2B83800C1C77C /* chcialem-dolaczyc-taki-liscik.m4a in Resources */,
 				E22242B42AF17C5500F8EE66 /* naprawde.m4a in Resources */,
 				E22242C52AF17C5500F8EE66 /* a-armia-krajowa-nikogo-nie-sprzedawala.m4a in Resources */,
+				E217E3192AF2B83800C1C77C /* tylko-musze-znalezc.m4a in Resources */,
 				E22242872AF17C5500F8EE66 /* ukleknie-na-ziemie-i-bedzie-calowac.m4a in Resources */,
 				E22242582AF17C5500F8EE66 /* ani-nic-ani-policja.m4a in Resources */,
+				E217E3062AF2B83800C1C77C /* to-nie-jest-zarty.m4a in Resources */,
 				E22242DA2AF17C5500F8EE66 /* dlaczego-wy-tak-wyrabiacie.m4a in Resources */,
 				E22242762AF17C5500F8EE66 /* dzien-dobry-panstwu.m4a in Resources */,
+				E217E2B32AF2B53B00C1C77C /* jak.m4a in Resources */,
 				E222427C2AF17C5500F8EE66 /* w-imie-ojca-i-syna-i-ducha-swietego-amen.m4a in Resources */,
 				E22242AC2AF17C5500F8EE66 /* i-trzecia-polowka.m4a in Resources */,
 				E22242EC2AF17C5500F8EE66 /* dlaczego-ty-w-zgodzie-nie-zyjesz-ze-mna-dlaczego.m4a in Resources */,
 				E222427B2AF17C5500F8EE66 /* ty-to-wszystko-robiles.m4a in Resources */,
 				E22242772AF17C5500F8EE66 /* a-czy-ty-sie-wezmiesz.m4a in Resources */,
+				E217E3162AF2B83800C1C77C /* z-tego-powodu-ze-on-jest-len-smierdzacy.m4a in Resources */,
 				E222428C2AF17C5500F8EE66 /* to-na-lajcie-jest-nagrane.m4a in Resources */,
 				E22242472AF17C5500F8EE66 /* on-nie-umie-zrobic-nawet-bigosu.m4a in Resources */,
+				E217E2BA2AF2B53B00C1C77C /* ostrzegam-was-wszystkich-przed-wojciechem-s.m4a in Resources */,
 				E22242AF2AF17C5500F8EE66 /* sobie-do-sklepu.m4a in Resources */,
 				E222425D2AF17C5500F8EE66 /* chyba-nie-jest-zimno-w-domu-pale-przynosze-rabie.m4a in Resources */,
 				E22242992AF17C5500F8EE66 /* silniczek-ladny-piekny.m4a in Resources */,
+				E217E2B52AF2B53B00C1C77C /* ile-lapowek-wziales.m4a in Resources */,
 				E22242CF2AF17C5500F8EE66 /* od-razu-odpala.m4a in Resources */,
 				E22242742AF17C5500F8EE66 /* pan-bog-powiedzial-zyjmy-w-milosci-w-zgodzie-razem.m4a in Resources */,
 				E22242492AF17C5500F8EE66 /* jak-ja-was-umilowalem.m4a in Resources */,
+				E217E2BF2AF2B53B00C1C77C /* patrz.m4a in Resources */,
+				E217E3092AF2B83800C1C77C /* taki-departament-x3.m4a in Resources */,
 				E22242F52AF17C5500F8EE66 /* jest-boczek-w-ustach.m4a in Resources */,
 				E22242822AF17C5500F8EE66 /* niebebenie.m4a in Resources */,
+				E217E30B2AF2B83800C1C77C /* dlaczego-taki-jestes.m4a in Resources */,
 				E222423F2AF17C5500F8EE66 /* nie-nie-nie-ja-jemu-nie-podaruje.m4a in Resources */,
 				E22242302AF17C5500F8EE66 /* ja-we-wtorek-jade.m4a in Resources */,
+				E217E30D2AF2B83800C1C77C /* bo-tu-jego-miejsce.m4a in Resources */,
 				E22242E22AF17C5500F8EE66 /* czlowiek-czlowieka-bedzie-szanowac-dbac-kochac.m4a in Resources */,
 				E22242422AF17C5500F8EE66 /* nie-pomoga-metaldrzwi-ani-pancerne-okna.m4a in Resources */,
 				E22242DC2AF17C5500F8EE66 /* dziewczyny-nie-sa-matka-boska.m4a in Resources */,
@@ -970,6 +1226,7 @@
 				E222424D2AF17C5500F8EE66 /* ze-mnie-tak-neka.m4a in Resources */,
 				E22242862AF17C5500F8EE66 /* jak-oszukal-mnie.m4a in Resources */,
 				E22242F92AF17C5500F8EE66 /* chce-objac-wszystkich-polakow.m4a in Resources */,
+				E217E3112AF2B83800C1C77C /* obszczany-obesrany-w-gacie.m4a in Resources */,
 				E22242EA2AF17C5500F8EE66 /* silnik-prosze-bardzo.m4a in Resources */,
 				E22242E92AF17C5500F8EE66 /* zginiesz-marnie.m4a in Resources */,
 				E22242512AF17C5500F8EE66 /* to-slowa-nie-moje-to-slowa-wyzszego-sedziego.m4a in Resources */,
@@ -977,9 +1234,12 @@
 				E22242842AF17C5500F8EE66 /* bo-ty-nie-widzisz.m4a in Resources */,
 				E22242552AF17C5500F8EE66 /* dziekuje-bardzo.m4a in Resources */,
 				E222429E2AF17C5500F8EE66 /* od-szpitala-psychiatrycznego.m4a in Resources */,
+				E217E2BE2AF2B53B00C1C77C /* moje-i-jego.m4a in Resources */,
 				E22242D72AF17C5500F8EE66 /* dziadek-moj-nie-znal-ciebie.m4a in Resources */,
 				E22242372AF17C5500F8EE66 /* gnojku-smierdzacy.m4a in Resources */,
+				E217E2BC2AF2B53B00C1C77C /* nie.m4a in Resources */,
 				E22242712AF17C5500F8EE66 /* zajmij-sie-mecenasku-tym.m4a in Resources */,
+				E217E2C22AF2B53B00C1C77C /* niech-was-blogoslawi-bog-wszechmogacy-ojciec-i-syn-i-duch-swiety-amen.m4a in Resources */,
 				E22242D02AF17C5500F8EE66 /* a-dalej-pisze.m4a in Resources */,
 				E222428F2AF17C5500F8EE66 /* zeby-mial-prace.m4a in Resources */,
 				E22242F72AF17C5500F8EE66 /* chodzi-codziennie-po-piwko.m4a in Resources */,
