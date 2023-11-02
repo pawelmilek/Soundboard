@@ -8,10 +8,15 @@
 import Foundation
 
 final class PathFinder {
-    static func inLibrary(_ name: String) throws -> URL {
-        return try FileManager.default
-            .url(for: .libraryDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
-            .appendingPathComponent(name)
+
+    static func documentDirectory() throws -> URL {
+        guard let directory = FileManager.default.urls(
+            for: .documentDirectory,
+            in: .userDomainMask
+        ).first else {
+            throw CocoaError.error(.fileReadUnsupportedScheme)
+        }
+        return directory
     }
 
 }

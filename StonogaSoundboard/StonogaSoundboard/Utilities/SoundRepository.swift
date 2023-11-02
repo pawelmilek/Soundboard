@@ -20,7 +20,7 @@ struct SoundRepository: Repository {
     private let soundFileManager: FileManagerProtocol
 
     init(
-        realm: Realm = RealmProvider.shared.realm,
+        realm: Realm = RealmManager.shared.realm,
         soundFileManager: FileManagerProtocol = SoundFileManager()
     ) {
         self.realm = realm
@@ -44,7 +44,7 @@ struct SoundRepository: Repository {
     }
 
     private func loadSoundModelsFromStorage() -> Results<SoundModel> {
-        let realm = RealmProvider.shared.realm
+        let realm = RealmManager.shared.realm
         let storedSoundModels = realm.objects(SoundModel.self)
         return storedSoundModels
     }
@@ -81,7 +81,7 @@ struct SoundRepository: Repository {
     }
 
     private func addingSoundModels() -> Results<SoundModel> {
-        let realm = RealmProvider.shared.realm
+        let realm = RealmManager.shared.realm
 
         do {
             try realm.write {
@@ -112,7 +112,7 @@ struct SoundRepository: Repository {
     }
 
     private func insert(_ files: Set<String>) {
-        let realm = RealmProvider.shared.realm
+        let realm = RealmManager.shared.realm
 
         do {
             try realm.write {
@@ -125,7 +125,7 @@ struct SoundRepository: Repository {
     }
 
     private func delete(_ files: Set<String>) {
-        let realm = RealmProvider.shared.realm
+        let realm = RealmManager.shared.realm
         let toDelete = files.compactMap { get(by: $0) }
 
         do {
@@ -160,7 +160,7 @@ struct SoundRepository: Repository {
     }
 
     func update(_ model: SoundModel) {
-        let realm = RealmProvider.shared.realm
+        let realm = RealmManager.shared.realm
         do {
             try realm.write {
                 realm.add(model, update: .modified)
@@ -171,7 +171,7 @@ struct SoundRepository: Repository {
     }
 
     func get(by fileName: String) -> SoundModel? {
-        let realm = RealmProvider.shared.realm
+        let realm = RealmManager.shared.realm
         return realm.objects(SoundModel.self).first(where: { $0.fileName == fileName })
     }
 }

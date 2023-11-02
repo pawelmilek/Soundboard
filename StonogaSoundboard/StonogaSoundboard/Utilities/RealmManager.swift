@@ -1,5 +1,5 @@
 //
-//  RealmProvider.swift
+//  RealmManager.swift
 //  StonogaSoundboard
 //
 //  Created by Pawel Milek on 10/30/23.
@@ -8,19 +8,19 @@
 import Foundation
 import RealmSwift
 
-struct RealmProvider {
+struct RealmManager {
     private static let realmName = "soundboard.realm"
 
-    static var shared: RealmProvider = {
+    static var shared: RealmManager = {
         do {
-            let fileURL = try PathFinder.inLibrary(realmName)
+            let fileURL = try PathFinder.documentDirectory().appendingPathComponent(realmName)
             let config = Realm.Configuration(
                 fileURL: fileURL,
                 schemaVersion: 1,
-                deleteRealmIfMigrationNeeded: true
+                deleteRealmIfMigrationNeeded: false
             )
+            return RealmManager(config: config)
 
-            return RealmProvider(config: config)
         } catch {
             fatalError("Error: \(Self.realmName) not load")
         }

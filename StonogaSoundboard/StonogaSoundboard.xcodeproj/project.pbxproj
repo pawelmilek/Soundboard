@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E209793A2AF02E4400F92A4E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E20979392AF02E4400F92A4E /* Realm */; };
 		E209793C2AF02E4400F92A4E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E209793B2AF02E4400F92A4E /* RealmSwift */; };
-		E209793E2AF02E5100F92A4E /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209793D2AF02E5100F92A4E /* RealmProvider.swift */; };
+		E209793E2AF02E5100F92A4E /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209793D2AF02E5100F92A4E /* RealmManager.swift */; };
 		E20979402AF02E7100F92A4E /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E209793F2AF02E7100F92A4E /* PathFinder.swift */; };
 		E20979422AF02EA000F92A4E /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20979412AF02EA000F92A4E /* PathError.swift */; };
 		E20979452AF1056E00F92A4E /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20979442AF1056E00F92A4E /* Title.swift */; };
@@ -234,7 +234,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E209793D2AF02E5100F92A4E /* RealmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
+		E209793D2AF02E5100F92A4E /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		E209793F2AF02E7100F92A4E /* PathFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
 		E20979412AF02EA000F92A4E /* PathError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathError.swift; sourceTree = "<group>"; };
 		E20979442AF1056E00F92A4E /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
@@ -485,7 +485,7 @@
 			children = (
 				E20979412AF02EA000F92A4E /* PathError.swift */,
 				E209793F2AF02E7100F92A4E /* PathFinder.swift */,
-				E209793D2AF02E5100F92A4E /* RealmProvider.swift */,
+				E209793D2AF02E5100F92A4E /* RealmManager.swift */,
 				E2998EBC2AEAA7E500C7FAB2 /* SoundFileManager.swift */,
 				E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */,
 				E27F61932AEC0F52007FF9C9 /* SoundRepository.swift */,
@@ -1099,7 +1099,7 @@
 				E21ABD742AE9A87300F93F01 /* SoundboardListView+ViewModel.swift in Sources */,
 				E2998EBD2AEAA7E500C7FAB2 /* SoundFileManager.swift in Sources */,
 				E2998E7F2AEA7D3700C7FAB2 /* FavoriteButton.swift in Sources */,
-				E209793E2AF02E5100F92A4E /* RealmProvider.swift in Sources */,
+				E209793E2AF02E5100F92A4E /* RealmManager.swift in Sources */,
 				E27F61942AEC0F52007FF9C9 /* SoundRepository.swift in Sources */,
 				E21ABD7B2AE9A8F500F93F01 /* SoundRowView.swift in Sources */,
 				E21ABD642AE97C4D00F93F01 /* StonogaSoundboardApp.swift in Sources */,

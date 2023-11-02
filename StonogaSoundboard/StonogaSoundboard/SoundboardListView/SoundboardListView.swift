@@ -10,59 +10,48 @@ import Combine
 import RealmSwift
 
 struct SoundboardListView: View {
-    @StateObject private var viewModel = SoundboardListView.ViewModel()
-    @ObservedResults(SoundModel.self) private var items
+    @EnvironmentObject var viewModel: SoundboardListView.ViewModel
 
     var body: some View {
         Group {
-            if items.isEmpty {
+            if viewModel.searchResult.isEmpty {
                 ContentUnavailableView(
                     viewModel.contentUnavailableTitle,
                     systemImage: viewModel.contentUnavailableSymbol,
                     description: Text(viewModel.contentUnavailableDescription)
                 )
             } else {
-                List(items.sorted(byKeyPath: "title")) { sound in
+                List(viewModel.searchResult.sorted { $0.title < $1.title }) { sound in
                     SoundRowView(item: sound)
                         .listRowSeparator(.hidden)
                         .environmentObject(viewModel)
                 }
-                .animation(.default, value: items)
+                .animation(.default, value: viewModel.searchResult)
                 .listStyle(.plain)
             }
+
         }
         .searchable(
             text: $viewModel.searchText,
-            collection: $items,
-            keyPath: \.title,
             placement: .navigationBarDrawer(displayMode: .always)
         ) {
-                ForEach(items) { item in
-                    Text(item.title)
-                        .searchResultStyle()
-                        .searchCompletion(item.title)
+            ForEach(viewModel.searchResult) { item in
+                Text(item.title)
+                    .searchResultStyle()
+                    .searchCompletion(item.title)
+            }
+        }
+        .textInputAutocapitalization(.never)
+        .toolbar {
+            ToolbarItem {
+                Button {
+                    viewModel.toggleFavorites()
+                } label: {
+                    Image(systemName: viewModel.favoriteToolbarSymbol)
+                        .foregroundColor(viewModel.toolbarItemFavoritesColor)
                 }
             }
-            .textInputAutocapitalization(.never)
-            .toolbar {
-                ToolbarItem {
-                    Button {
-                        viewModel.toggleFavorites()
-                    } label: {
-                        Image(systemName: viewModel.favoriteToolbarSymbol)
-                            .foregroundColor(viewModel.toolbarItemFavoritesColor)
-                    }
-                }
-            }
-            .onChange(of: viewModel.showFavoritesOnly) {
-                $items.filter = viewModel.showFavoritesOnly ? NSPredicate(
-                    format: "isFavorite == %@",
-                    NSNumber(value: viewModel.showFavoritesOnly)
-                ) : nil
-            }
-            .onAppear {
-                viewModel.load()
-            }
+        }
     }
 }
 
@@ -70,5 +59,6 @@ struct SoundboardListView: View {
     NavigationStack {
         SoundboardListView()
             .navigationTitle("Soundboard")
+            .environmentObject(SoundboardListView.ViewModel())
     }
 }
