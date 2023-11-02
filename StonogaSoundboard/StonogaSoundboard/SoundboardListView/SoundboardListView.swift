@@ -14,12 +14,8 @@ struct SoundboardListView: View {
 
     var body: some View {
         Group {
-            if viewModel.searchResult.isEmpty {
-                ContentUnavailableView(
-                    viewModel.contentUnavailableTitle,
-                    systemImage: viewModel.contentUnavailableSymbol,
-                    description: Text(viewModel.contentUnavailableDescription)
-                )
+            if viewModel.showContentUnavailableView {
+                contentUnavailableView
             } else {
                 List(viewModel.searchResult.sorted { $0.title < $1.title }) { sound in
                     SoundRowView(item: sound)
@@ -29,8 +25,9 @@ struct SoundboardListView: View {
                 .animation(.default, value: viewModel.searchResult)
                 .listStyle(.plain)
             }
-
         }
+        .animation(.default, value: viewModel.searchResult)
+        .listStyle(.plain)
         .searchable(
             text: $viewModel.searchText,
             placement: .navigationBarDrawer(displayMode: .always)
@@ -50,15 +47,35 @@ struct SoundboardListView: View {
                     Image(systemName: viewModel.favoriteToolbarSymbol)
                         .foregroundColor(viewModel.toolbarItemFavoritesColor)
                 }
+                .popoverTip(viewModel.favoritesTip, arrowEdge: .top)
             }
         }
+        .task(priority: .userInitiated) {
+            viewModel.load()
+        }
     }
+}
+
+private extension SoundboardListView {
+
+    var contentUnavailableView: some View {
+        ContentUnavailableView(
+            viewModel.contentUnavailableTitle,
+            systemImage: viewModel.contentUnavailableSymbol,
+            description: Text(viewModel.contentUnavailableDescription)
+        )
+    }
+
 }
 
 #Preview {
     NavigationStack {
         SoundboardListView()
             .navigationTitle("Soundboard")
-            .environmentObject(SoundboardListView.ViewModel())
+            .environmentObject(
+                SoundboardListView.ViewModel(
+                    repository: SoundRepository(realm: RealmManager.shared.previewRealm)
+                )
+            )
     }
 }

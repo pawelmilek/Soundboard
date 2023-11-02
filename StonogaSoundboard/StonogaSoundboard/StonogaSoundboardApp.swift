@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TipKit
 
 @main
 struct StonogaSoundboardApp: App {
@@ -19,15 +20,21 @@ struct StonogaSoundboardApp: App {
                     .environmentObject(viewModel)
                     .environment(\.realmConfiguration, RealmManager.shared.realm.configuration)
             }
-            .onAppear {
-                viewModel.load()
+            .task {
+                configureTip()
                 debugPrintRealmFileURL()
             }
         }
     }
 
+    private func configureTip() {
+        try? Tips.configure([
+            .datastoreLocation(.applicationDefault),
+            .displayFrequency(.immediate)
+        ])
+    }
+
     private func debugPrintRealmFileURL() {
-        let realmURLAbsoluteString = RealmManager.shared.fileURL?.absoluteString ?? "Invalid Reference"
-        debugPrint("Realm file URL: \(realmURLAbsoluteString)")
+        RealmManager.shared.debugPrintRealmFileURL()
     }
 }

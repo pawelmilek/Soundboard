@@ -14,6 +14,7 @@
 		E20979422AF02EA000F92A4E /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20979412AF02EA000F92A4E /* PathError.swift */; };
 		E20979452AF1056E00F92A4E /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20979442AF1056E00F92A4E /* Title.swift */; };
 		E217E2972AF2B2EC00C1C77C /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E217E2962AF2B2EC00C1C77C /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */; };
+		E218445C2AF3EE0100F414FB /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E218445B2AF3EE0100F414FB /* FavoritesSoundTip.swift */; };
 		E21ABD642AE97C4D00F93F01 /* StonogaSoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */; };
 		E21ABD662AE97C4D00F93F01 /* SoundboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ABD652AE97C4D00F93F01 /* SoundboardListView.swift */; };
 		E21ABD682AE97C4F00F93F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21ABD672AE97C4F00F93F01 /* Assets.xcassets */; };
@@ -173,7 +174,6 @@
 		E27C0B442AED0C0E00E5C418 /* ShareContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C0B432AED0C0E00E5C418 /* ShareContentModel.swift */; };
 		E27F61942AEC0F52007FF9C9 /* SoundRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F61932AEC0F52007FF9C9 /* SoundRepository.swift */; };
 		E2956EB72AEBAB5600B927A2 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EB62AEBAB5600B927A2 /* ShareButton.swift */; };
-		E2956EBB2AEBC2F000B927A2 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */; };
 		E2956EBD2AEBC52C00B927A2 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */; };
 		E2956EC32AEBC85B00B927A2 /* i.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EBE2AEBC85B00B927A2 /* i.m4a */; };
 		E2956EC42AEBC85B00B927A2 /* ja-mam-to-w-pidzie-kua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2956EBF2AEBC85B00B927A2 /* ja-mam-to-w-pidzie-kua.m4a */; };
@@ -239,6 +239,7 @@
 		E20979412AF02EA000F92A4E /* PathError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathError.swift; sourceTree = "<group>"; };
 		E20979442AF1056E00F92A4E /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		E217E2962AF2B2EC00C1C77C /* a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-teraz-dzwonie-do-oficera-dyzurnego-kraju.m4a"; sourceTree = "<group>"; };
+		E218445B2AF3EE0100F414FB /* FavoritesSoundTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSoundTip.swift; sourceTree = "<group>"; };
 		E21ABD602AE97C4D00F93F01 /* StonogaSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StonogaSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StonogaSoundboardApp.swift; sourceTree = "<group>"; };
 		E21ABD652AE97C4D00F93F01 /* SoundboardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardListView.swift; sourceTree = "<group>"; };
@@ -399,7 +400,6 @@
 		E27C0B432AED0C0E00E5C418 /* ShareContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentModel.swift; sourceTree = "<group>"; };
 		E27F61932AEC0F52007FF9C9 /* SoundRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRepository.swift; sourceTree = "<group>"; };
 		E2956EB62AEBAB5600B927A2 /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
-		E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		E2956EBC2AEBC52C00B927A2 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		E2956EBE2AEBC85B00B927A2 /* i.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = i.m4a; sourceTree = "<group>"; };
 		E2956EBF2AEBC85B00B927A2 /* ja-mam-to-w-pidzie-kua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-mam-to-w-pidzie-kua.m4a"; sourceTree = "<group>"; };
@@ -493,6 +493,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		E21844582AF3ECD900F414FB /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				E218445B2AF3EE0100F414FB /* FavoritesSoundTip.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
 		E21ABD572AE97C4D00F93F01 = {
 			isa = PBXGroup;
 			children = (
@@ -513,11 +521,12 @@
 			isa = PBXGroup;
 			children = (
 				E21ABD632AE97C4D00F93F01 /* StonogaSoundboardApp.swift */,
-				E21ABD762AE9A8B900F93F01 /* SoundboardListView */,
 				E21ABD772AE9A8C600F93F01 /* Models */,
+				E21ABD762AE9A8B900F93F01 /* SoundboardListView */,
 				E2956ECA2AEBC92E00B927A2 /* Views */,
 				E20979432AF1056200F92A4E /* ViewModifiers */,
 				E217E2952AF28D9700C1C77C /* Utilities */,
+				E21844582AF3ECD900F414FB /* Tips */,
 				E21ABD712AE97D5A00F93F01 /* Resources */,
 				E21ABD692AE97C4F00F93F01 /* Preview Content */,
 			);
@@ -783,7 +792,6 @@
 				E2998E7E2AEA7D3700C7FAB2 /* FavoriteButton.swift */,
 				E2956EB62AEBAB5600B927A2 /* ShareButton.swift */,
 				E2998E802AEA87D800C7FAB2 /* PlayButton.swift */,
-				E2956EBA2AEBC2F000B927A2 /* SpacerView.swift */,
 				E25D656C2AED3603000591DF /* PortraitView.swift */,
 			);
 			path = Views;
@@ -836,6 +844,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = E21ABD572AE97C4D00F93F01;
 			packageReferences = (
@@ -1093,7 +1102,6 @@
 				E20979452AF1056E00F92A4E /* Title.swift in Sources */,
 				E21ABD662AE97C4D00F93F01 /* SoundboardListView.swift in Sources */,
 				E21ABD792AE9A8CF00F93F01 /* SoundModel.swift in Sources */,
-				E2956EBB2AEBC2F000B927A2 /* SpacerView.swift in Sources */,
 				E21ABD7D2AE9A91900F93F01 /* SoundRowView+ViewModel.swift in Sources */,
 				E27C0B442AED0C0E00E5C418 /* ShareContentModel.swift in Sources */,
 				E21ABD742AE9A87300F93F01 /* SoundboardListView+ViewModel.swift in Sources */,
@@ -1110,6 +1118,7 @@
 				E20979402AF02E7100F92A4E /* PathFinder.swift in Sources */,
 				E20979422AF02EA000F92A4E /* PathError.swift in Sources */,
 				E2956EB72AEBAB5600B927A2 /* ShareButton.swift in Sources */,
+				E218445C2AF3EE0100F414FB /* FavoritesSoundTip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,6 +21,7 @@ struct FavoriteButton: View {
     var body: some View {
         Button {
             isOn.toggle()
+            donateEventTipWhenIsOn()
         } label: {
             HStack(alignment: .firstTextBaseline, spacing: 5) {
                 Image(systemName: symbol)
@@ -36,12 +37,23 @@ struct FavoriteButton: View {
         .buttonBorderShape(.capsule)
         .controlSize(.small)
     }
+
+    private func donateEventTipWhenIsOn() {
+        guard isOn else { return }
+        Task {
+            await FavoritesSoundTip.favoritesSoundEvent.donate()
+        }
+    }
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
     VStack(spacing: 10) {
-        FavoriteButton(isOn: .constant(true))
-        FavoriteButton(isOn: .constant(false))
+        FavoriteButton(
+            isOn: .constant(true)
+        )
+        FavoriteButton(
+            isOn: .constant(false)
+        )
     }
     .padding()
 }

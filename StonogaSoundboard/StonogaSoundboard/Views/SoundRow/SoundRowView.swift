@@ -50,13 +50,17 @@ struct SoundRowView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    SoundRowView(item: RealmManager.shared.previewRealm.objects(SoundModel.self)[3])
-        .padding()
-        .environmentObject(SoundboardListView.ViewModel())
+    SoundRowView(
+        item: RealmManager.shared.previewRealm.objects(SoundModel.self)[3]
+    )
+    .padding()
+    .environmentObject(SoundboardListView.ViewModel())
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    SoundRowView(item: RealmManager.shared.previewRealm.objects(SoundModel.self).last!)
-        .padding()
-        .environmentObject(SoundboardListView.ViewModel())
+    SoundRowView(
+        item: RealmManager.shared.previewRealm.objects(SoundModel.self).last!
+    )
+    .padding()
+    .environmentObject(SoundboardListView.ViewModel())
 }

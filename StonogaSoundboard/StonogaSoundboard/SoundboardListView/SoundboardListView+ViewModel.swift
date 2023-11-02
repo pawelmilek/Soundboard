@@ -16,6 +16,10 @@ extension SoundboardListView {
         @Published var showFavoritesOnly = false
         @Published var searchText = ""
 
+        var showContentUnavailableView: Bool {
+            searchResult.isEmpty
+        }
+
         var searchResult: [SoundModel] {
             return if searchText.isEmpty {
                 itemsArray
@@ -53,13 +57,14 @@ extension SoundboardListView {
         }
 
         var favoriteToolbarSymbol: String {
-            showFavoritesOnly ? "heart.fill" : "heart"
+            showFavoritesOnly ? "heart.fill" : "heart" 
         }
 
         var toolbarItemFavoritesColor: Color {
             showFavoritesOnly ? .accentColor : .gray
         }
 
+        let favoritesTip = FavoritesSoundTip()
         private var itemsToken: NotificationToken?
         private let repository: Repository
         private var player: PlayerProtocol

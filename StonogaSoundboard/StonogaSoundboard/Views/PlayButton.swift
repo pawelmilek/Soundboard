@@ -28,6 +28,7 @@ struct PlayButton: View {
                 isOn.toggle()
                 count += 1
             }
+//            .popoverTip(playSoundTip, arrowEdge: .top)
             .padding(.trailing, 5)
     }
 }

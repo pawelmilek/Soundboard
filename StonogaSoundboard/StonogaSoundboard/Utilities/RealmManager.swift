@@ -63,4 +63,9 @@ struct RealmManager {
     private init(config: Realm.Configuration) {
         configuration = config
     }
+
+    func debugPrintRealmFileURL() {
+        let realmURLAbsoluteString = fileURL?.absoluteString ?? "Invalid URL"
+        debugPrint("Realm file URL: \(realmURLAbsoluteString)")
+    }
 }

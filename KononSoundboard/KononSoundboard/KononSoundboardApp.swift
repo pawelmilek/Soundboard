@@ -9,9 +9,24 @@ import SwiftUI
 
 @main
 struct KononSoundboardApp: App {
+//    @StateObject private var viewModel = SoundboardListView.ViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+                    .navigationTitle("Soundboard")
+//                    .environmentObject(viewModel)
+//                    .environment(\.realmConfiguration, RealmManager.shared.realm.configuration)
+            }
+            .onAppear {
+    //            viewModel.load()
+    //            debugPrintRealmFileURL()
+            }
         }
+    }
+
+    private func debugPrintRealmFileURL() {
+//        RealmManager.shared.debugPrintRealmFileURL()
     }
 }
