@@ -1,17 +1,22 @@
 //
 //  PortraitView.swift
-//  StonogaSoundboard
+//  SoundboardKit
 //
 //  Created by Pawel Milek on 10/28/23.
 //
 
 import SwiftUI
 
-struct PortraitView: View {
+public struct PortraitView: View {
     let image: String
     let count: Int
 
-    var body: some View {
+    public init(image: String, count: Int) {
+        self.image = image
+        self.count = count
+    }
+
+    public var body: some View {
         Image(image)
             .resizable()
             .scaledToFit()

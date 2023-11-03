@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct FavoriteButton: View {
-    @Binding var isOn: Bool
+public struct FavoriteButton: View {
+    @Binding public var isOn: Bool
 
     private var symbol: String {
         isOn ? "heart.fill" : "heart"
@@ -18,7 +18,11 @@ struct FavoriteButton: View {
         isOn ? .bounce.up.byLayer : .bounce.down.byLayer
     }
 
-    var body: some View {
+    public init(isOn: Binding<Bool>) {
+        self._isOn = isOn
+    }
+
+    public var body: some View {
         Button {
             isOn.toggle()
             donateEventTipWhenIsOn()

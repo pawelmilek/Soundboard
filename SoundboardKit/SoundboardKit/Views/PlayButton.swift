@@ -1,20 +1,25 @@
 //
 //  PlayButton.swift
-//  StonogaSoundboard
+//  SoundboardKit
 //
 //  Created by Pawel Milek on 10/26/23.
 //
 
 import SwiftUI
 
-struct PlayButton: View {
+public struct PlayButton: View {
     @Binding var count: Int
     @State private var isOn = false
 
     var onAction: @MainActor () -> Void
     private let symbol = "play.circle.fill"
 
-    var body: some View {
+    public init(count: Binding<Int>, onAction: @escaping () -> Void) {
+        self._count = count
+        self.onAction = onAction
+    }
+
+    public var body: some View {
         Image(systemName: symbol)
             .symbolEffect(
                 .bounce.down.byLayer,
@@ -28,7 +33,6 @@ struct PlayButton: View {
                 isOn.toggle()
                 count += 1
             }
-//            .popoverTip(playSoundTip, arrowEdge: .top)
             .padding(.trailing, 5)
     }
 }

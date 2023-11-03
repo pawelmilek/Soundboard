@@ -9,7 +9,7 @@ import Foundation
 import RealmSwift
 
 public struct RealmManager {
-    private static let realmName = "soundboard.realm"
+    private static let realmName = "konon.soundboard.realm"
 
     static var shared: RealmManager = {
         do {

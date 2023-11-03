@@ -6,27 +6,35 @@
 //
 
 import SwiftUI
+import TipKit
 
 @main
 struct KononSoundboardApp: App {
-//    @StateObject private var viewModel = SoundboardListView.ViewModel()
+    @StateObject private var viewModel = SoundboardListView.ViewModel()
 
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                ContentView()
+                SoundboardListView()
                     .navigationTitle("Soundboard")
-//                    .environmentObject(viewModel)
-//                    .environment(\.realmConfiguration, RealmManager.shared.realm.configuration)
+                    .environmentObject(viewModel)
+                    .environment(\.realmConfiguration, RealmManager.shared.realm.configuration)
             }
-            .onAppear {
-    //            viewModel.load()
-    //            debugPrintRealmFileURL()
+            .task {
+                configureTip()
+                debugPrintRealmFileURL()
             }
         }
     }
 
+    private func configureTip() {
+        try? Tips.configure([
+            .datastoreLocation(.applicationDefault),
+            .displayFrequency(.immediate)
+        ])
+    }
+
     private func debugPrintRealmFileURL() {
-//        RealmManager.shared.debugPrintRealmFileURL()
+        RealmManager.shared.debugPrintRealmFileURL()
     }
 }

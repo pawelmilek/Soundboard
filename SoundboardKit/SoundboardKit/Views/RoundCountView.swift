@@ -1,17 +1,17 @@
 //
 //  RoundCountView.swift
-//  StonogaSoundboard
+//  SoundboardKit
 //
 //  Created by Pawel Milek on 10/28/23.
 //
 
 import SwiftUI
 
-struct RoundCountView: View {
+public struct RoundCountView: View {
     let value: Int
     @State private var animateValue = 0
 
-    var body: some View {
+    public var body: some View {
         VStack {
             Text("\(animateValue)")
                 .contentTransition(.numericText(value: Double(animateValue)))

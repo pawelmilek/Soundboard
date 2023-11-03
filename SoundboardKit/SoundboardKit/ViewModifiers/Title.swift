@@ -27,7 +27,7 @@ struct SearchResult: ViewModifier {
     }
 }
 
-extension View {
+public extension View {
     func titleStyle() -> some View {
         modifier(Title())
     }

@@ -284,10 +284,38 @@
 		E22242FF2AF17C5500F8EE66 /* ja-nie-boje-sie-tego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E222422C2AF17C5500F8EE66 /* ja-nie-boje-sie-tego.m4a */; };
 		E22243002AF17C5500F8EE66 /* ze-mna-do-walki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E222422D2AF17C5500F8EE66 /* ze-mna-do-walki.m4a */; };
 		E28882422AEEEB6C00291168 /* KononSoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28882412AEEEB6C00291168 /* KononSoundboardApp.swift */; };
-		E28882442AEEEB6C00291168 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28882432AEEEB6C00291168 /* ContentView.swift */; };
 		E28882462AEEEB6D00291168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28882452AEEEB6D00291168 /* Assets.xcassets */; };
 		E28882492AEEEB6D00291168 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28882482AEEEB6D00291168 /* Preview Assets.xcassets */; };
+		E2BDF4452AF548A900D136C9 /* SoundboardListView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4432AF548A900D136C9 /* SoundboardListView+ViewModel.swift */; };
+		E2BDF4462AF548A900D136C9 /* SoundboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4442AF548A900D136C9 /* SoundboardListView.swift */; };
+		E2BDF44A2AF548FD00D136C9 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4482AF548FD00D136C9 /* SoundModel.swift */; };
+		E2BDF44F2AF5492500D136C9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2BDF44E2AF5492500D136C9 /* Realm */; };
+		E2BDF4512AF5492500D136C9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2BDF4502AF5492500D136C9 /* RealmSwift */; };
+		E2BDF45C2AF5497700D136C9 /* SoundRowView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4542AF5497700D136C9 /* SoundRowView+ViewModel.swift */; };
+		E2BDF45D2AF5497700D136C9 /* SoundRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4552AF5497700D136C9 /* SoundRowView.swift */; };
+		E2BDF45E2AF5497700D136C9 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4572AF5497700D136C9 /* SoundPlayer.swift */; };
+		E2BDF45F2AF5497700D136C9 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4582AF5497700D136C9 /* RealmManager.swift */; };
+		E2BDF4602AF5497700D136C9 /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4592AF5497700D136C9 /* PathError.swift */; };
+		E2BDF4612AF5497700D136C9 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF45A2AF5497700D136C9 /* PathFinder.swift */; };
+		E2BDF4622AF5497700D136C9 /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF45B2AF5497700D136C9 /* SoundFileManager.swift */; };
+		E2BDF4642AF549B300D136C9 /* SoundRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF4632AF549B300D136C9 /* SoundRepository.swift */; };
+		E2BDF4672AF54B0A00D136C9 /* SoundboardKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BDF4662AF54B0A00D136C9 /* SoundboardKit.framework */; };
+		E2BDF4682AF54B0A00D136C9 /* SoundboardKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2BDF4662AF54B0A00D136C9 /* SoundboardKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2BDF4692AF54B0A00D136C9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E2BDF4682AF54B0A00D136C9 /* SoundboardKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E217E2982AF2B53A00C1C77C /* na-prawde-ten-czlowiek-jest-niebezpieczny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-prawde-ten-czlowiek-jest-niebezpieczny.m4a"; sourceTree = "<group>"; };
@@ -568,9 +596,20 @@
 		E222422D2AF17C5500F8EE66 /* ze-mna-do-walki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-mna-do-walki.m4a"; sourceTree = "<group>"; };
 		E288823E2AEEEB6C00291168 /* KononSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KononSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28882412AEEEB6C00291168 /* KononSoundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KononSoundboardApp.swift; sourceTree = "<group>"; };
-		E28882432AEEEB6C00291168 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E28882452AEEEB6D00291168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28882482AEEEB6D00291168 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2BDF4432AF548A900D136C9 /* SoundboardListView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundboardListView+ViewModel.swift"; sourceTree = "<group>"; };
+		E2BDF4442AF548A900D136C9 /* SoundboardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardListView.swift; sourceTree = "<group>"; };
+		E2BDF4482AF548FD00D136C9 /* SoundModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
+		E2BDF4542AF5497700D136C9 /* SoundRowView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundRowView+ViewModel.swift"; sourceTree = "<group>"; };
+		E2BDF4552AF5497700D136C9 /* SoundRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRowView.swift; sourceTree = "<group>"; };
+		E2BDF4572AF5497700D136C9 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		E2BDF4582AF5497700D136C9 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		E2BDF4592AF5497700D136C9 /* PathError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathError.swift; sourceTree = "<group>"; };
+		E2BDF45A2AF5497700D136C9 /* PathFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
+		E2BDF45B2AF5497700D136C9 /* SoundFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundFileManager.swift; sourceTree = "<group>"; };
+		E2BDF4632AF549B300D136C9 /* SoundRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRepository.swift; sourceTree = "<group>"; };
+		E2BDF4662AF54B0A00D136C9 /* SoundboardKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SoundboardKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -578,6 +617,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BDF4512AF5492500D136C9 /* RealmSwift in Frameworks */,
+				E2BDF4672AF54B0A00D136C9 /* SoundboardKit.framework in Frameworks */,
+				E2BDF44F2AF5492500D136C9 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,6 +923,7 @@
 			children = (
 				E28882402AEEEB6C00291168 /* KononSoundboard */,
 				E288823F2AEEEB6C00291168 /* Products */,
+				E2BDF4652AF54B0A00D136C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -895,8 +938,8 @@
 		E28882402AEEEB6C00291168 /* KononSoundboard */ = {
 			isa = PBXGroup;
 			children = (
+				E2BDF4522AF5493C00D136C9 /* Duplicates */,
 				E28882412AEEEB6C00291168 /* KononSoundboardApp.swift */,
-				E28882432AEEEB6C00291168 /* ContentView.swift */,
 				E22241592AF17C0400F8EE66 /* Resources */,
 				E28882472AEEEB6D00291168 /* Preview Content */,
 			);
@@ -911,6 +954,64 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E2BDF4422AF5488B00D136C9 /* SoundboardListView */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDF4442AF548A900D136C9 /* SoundboardListView.swift */,
+				E2BDF4432AF548A900D136C9 /* SoundboardListView+ViewModel.swift */,
+			);
+			path = SoundboardListView;
+			sourceTree = "<group>";
+		};
+		E2BDF4472AF548FD00D136C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDF4482AF548FD00D136C9 /* SoundModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2BDF4522AF5493C00D136C9 /* Duplicates */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDF4632AF549B300D136C9 /* SoundRepository.swift */,
+				E2BDF4472AF548FD00D136C9 /* Models */,
+				E2BDF4422AF5488B00D136C9 /* SoundboardListView */,
+				E2BDF4532AF5497700D136C9 /* SoundRow */,
+				E2BDF4562AF5497700D136C9 /* Utilities */,
+			);
+			path = Duplicates;
+			sourceTree = "<group>";
+		};
+		E2BDF4532AF5497700D136C9 /* SoundRow */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDF4542AF5497700D136C9 /* SoundRowView+ViewModel.swift */,
+				E2BDF4552AF5497700D136C9 /* SoundRowView.swift */,
+			);
+			path = SoundRow;
+			sourceTree = "<group>";
+		};
+		E2BDF4562AF5497700D136C9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDF4572AF5497700D136C9 /* SoundPlayer.swift */,
+				E2BDF4582AF5497700D136C9 /* RealmManager.swift */,
+				E2BDF4592AF5497700D136C9 /* PathError.swift */,
+				E2BDF45A2AF5497700D136C9 /* PathFinder.swift */,
+				E2BDF45B2AF5497700D136C9 /* SoundFileManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E2BDF4652AF54B0A00D136C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDF4662AF54B0A00D136C9 /* SoundboardKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -921,12 +1022,18 @@
 				E288823A2AEEEB6C00291168 /* Sources */,
 				E288823B2AEEEB6C00291168 /* Frameworks */,
 				E288823C2AEEEB6C00291168 /* Resources */,
+				E2BDF46C2AF5503D00D136C9 /* Run SwiftLint Script */,
+				E2BDF4692AF54B0A00D136C9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = KononSoundboard;
+			packageProductDependencies = (
+				E2BDF44E2AF5492500D136C9 /* Realm */,
+				E2BDF4502AF5492500D136C9 /* RealmSwift */,
+			);
 			productName = KononSoundboard;
 			productReference = E288823E2AEEEB6C00291168 /* KononSoundboard.app */;
 			productType = "com.apple.product-type.application";
@@ -956,6 +1063,10 @@
 				pl,
 			);
 			mainGroup = E28882352AEEEB6C00291168;
+			packageReferences = (
+				E2BDF44C2AF5491B00D136C9 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				E2BDF44D2AF5492500D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = E288823F2AEEEB6C00291168 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1253,13 +1364,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E2BDF46C2AF5503D00D136C9 /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E288823A2AEEEB6C00291168 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E28882442AEEEB6C00291168 /* ContentView.swift in Sources */,
 				E28882422AEEEB6C00291168 /* KononSoundboardApp.swift in Sources */,
+				E2BDF4622AF5497700D136C9 /* SoundFileManager.swift in Sources */,
+				E2BDF44A2AF548FD00D136C9 /* SoundModel.swift in Sources */,
+				E2BDF45E2AF5497700D136C9 /* SoundPlayer.swift in Sources */,
+				E2BDF45C2AF5497700D136C9 /* SoundRowView+ViewModel.swift in Sources */,
+				E2BDF4452AF548A900D136C9 /* SoundboardListView+ViewModel.swift in Sources */,
+				E2BDF45F2AF5497700D136C9 /* RealmManager.swift in Sources */,
+				E2BDF4612AF5497700D136C9 /* PathFinder.swift in Sources */,
+				E2BDF4642AF549B300D136C9 /* SoundRepository.swift in Sources */,
+				E2BDF4462AF548A900D136C9 /* SoundboardListView.swift in Sources */,
+				E2BDF4602AF5497700D136C9 /* PathError.swift in Sources */,
+				E2BDF45D2AF5497700D136C9 /* SoundRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1469,6 +1612,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E2BDF44C2AF5491B00D136C9 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.53.0;
+			};
+		};
+		E2BDF44D2AF5492500D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.44.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E2BDF44E2AF5492500D136C9 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2BDF44D2AF5492500D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E2BDF4502AF5492500D136C9 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2BDF44D2AF5492500D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E28882362AEEEB6C00291168 /* Project object */;
 }

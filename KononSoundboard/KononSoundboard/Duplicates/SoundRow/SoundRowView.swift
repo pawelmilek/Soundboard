@@ -26,11 +26,7 @@ struct SoundRowView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                 HStack(spacing: 5) {
                     FavoriteButton(isOn: $item.isFavorite)
-                    ShareButton(
-                        contentURL: viewModel.shareSound.url,
-                        previewName: viewModel.shareSound.preview.name,
-                        previewImage: viewModel.shareSound.preview.image
-                    )
+                    ShareButton(content: viewModel.shareSound)
                 }
             }
             .fixedSize(horizontal: false, vertical: true)

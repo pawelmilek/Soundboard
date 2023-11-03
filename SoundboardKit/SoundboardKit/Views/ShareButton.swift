@@ -1,17 +1,21 @@
 //
 //  ShareButton.swift
-//  StonogaSoundboard
+//  SoundboardKit
 //
 //  Created by Pawel Milek on 10/27/23.
 //
 
 import SwiftUI
 
-struct ShareButton: View {
+public struct ShareButton: View {
     private let symbol = "square.and.arrow.up"
-    var content: ShareContentModel
+    let content: ShareContent
 
-    var body: some View {
+    public init(content: ShareContent) {
+        self.content = content
+    }
+
+    public var body: some View {
         ShareLink(item: content,
                   preview: SharePreview(
                     content.preview.name,
@@ -34,9 +38,11 @@ struct ShareButton: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    ShareButton(content: ShareContentModel(
-        url: URL(string: "www.apple.com")!,
-        preview: (SoundModel.example.first!.fileName, "stonoga"))
+    ShareButton(content: ShareContent(
+        url: URL(
+            string: "www.apple.com"
+        )!,
+        preview: ("chj warci jestescie", "imageName"))
     )
     .padding()
 }
