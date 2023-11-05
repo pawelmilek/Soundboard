@@ -9,9 +9,8 @@ import Foundation
 import RealmSwift
 
 public final class SoundModel: Object, ObjectKeyIdentifiable {
-    @Persisted(primaryKey: true) public var id: ObjectId
+    @Persisted(primaryKey: true) var fileName = ""
     @Persisted var title = ""
-    @Persisted var fileName = ""
     @Persisted var playbackCount = 0
     @Persisted var isFavorite = false
 }

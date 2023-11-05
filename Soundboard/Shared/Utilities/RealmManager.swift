@@ -59,7 +59,6 @@ public final class RealmManager: ObservableObject {
         debugPrint("Realm file URL: \(realmURLAbsoluteString)")
     }
 
-
     private func populateRealm() {
         let storedSounds = loadSoundsFromStorage()
         let hasStoredModels = !storedSounds.isEmpty
