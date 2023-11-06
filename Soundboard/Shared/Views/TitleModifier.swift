@@ -1,6 +1,6 @@
 //
-//  Title.swift
-//  StonogaSoundboard
+//  TitleModifier.swift
+//  Soundboard
 //
 //  Created by Pawel Milek on 10/31/23.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Title: ViewModifier {
+struct TitleModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.subheadline)
@@ -29,7 +29,7 @@ struct SearchResult: ViewModifier {
 
 public extension View {
     func titleStyle() -> some View {
-        modifier(Title())
+        modifier(TitleModifier())
     }
 
     func searchResultStyle() -> some View {

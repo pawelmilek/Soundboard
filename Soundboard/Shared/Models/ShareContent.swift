@@ -9,6 +9,11 @@ import Foundation
 import CoreTransferable
 
 public struct ShareContent {
+    static let `default` = ShareContent(
+        url: URL(fileURLWithPath: ""),
+        preview: ("Content unavailable", "unavailable")
+    )
+
     let url: URL
     let preview: (name: String, image: String)
 

@@ -1,6 +1,6 @@
 //
 //  SoundboardListView.swift
-//  StonogaSoundboard
+//  Soundboard
 //
 //  Created by Pawel Milek on 10/25/23.
 //
@@ -11,17 +11,25 @@ import RealmSwift
 
 struct SoundboardListView: View {
     @EnvironmentObject var realmManager: RealmManager
-    @EnvironmentObject var viewModel: SoundboardListView.ViewModel
+    @ObservedObject var viewModel: SoundboardListView.ViewModel
 
     var body: some View {
         Group {
             if viewModel.showContentUnavailableView {
-                contentUnavailableView
+                ContentUnavailableView(
+                    viewModel.contentUnavailableTitle,
+                    systemImage: viewModel.contentUnavailableSymbol,
+                    description: Text(viewModel.contentUnavailableDescription)
+                )
             } else {
-                List(viewModel.searchResult.sorted { $0.title < $1.title }) { sound in
-                    SoundRowView(item: sound)
-                        .listRowSeparator(.hidden)
-                        .environmentObject(viewModel)
+                List(viewModel.searchResult) { sound in
+                    SoundRowView(
+                        item: sound,
+                        shareContent: viewModel.shareSound(sound.fileName),
+                        onPlayButton: {
+                            viewModel.play(sound.fileName)
+                        }
+                    )
                 }
                 .animation(.default, value: viewModel.searchResult)
                 .listStyle(.plain)
@@ -41,15 +49,7 @@ struct SoundboardListView: View {
         }
         .textInputAutocapitalization(.never)
         .toolbar {
-            ToolbarItem {
-                Button {
-                    viewModel.toggleFavorites()
-                } label: {
-                    Image(systemName: viewModel.favoriteToolbarSymbol)
-                        .foregroundColor(viewModel.toolbarItemFavoritesColor)
-                }
-                .popoverTip(viewModel.favoritesTip, arrowEdge: .top)
-            }
+            favoritesToolbarButton
         }
         .onAppear {
             viewModel.setupObserver(realmManager.realm)
@@ -59,21 +59,22 @@ struct SoundboardListView: View {
 
 private extension SoundboardListView {
 
-    var contentUnavailableView: some View {
-        ContentUnavailableView(
-            viewModel.contentUnavailableTitle,
-            systemImage: viewModel.contentUnavailableSymbol,
-            description: Text(viewModel.contentUnavailableDescription)
-        )
+    var favoritesToolbarButton: some View {
+        Button {
+            viewModel.toggleFavorites()
+        } label: {
+            Image(systemName: viewModel.favoriteToolbarSymbol)
+                .foregroundColor(viewModel.toolbarItemFavoritesColor)
+        }
+        .popoverTip(viewModel.favoritesTip, arrowEdge: .top)
     }
 
 }
 
 #Preview {
     NavigationStack {
-        SoundboardListView()
+        SoundboardListView(viewModel: SoundboardListView.ViewModel())
             .navigationTitle("Soundboard")
-            .environmentObject(SoundboardListView.ViewModel())
             .environmentObject(RealmManager(name: "stonoga.soundboard"))
     }
 }

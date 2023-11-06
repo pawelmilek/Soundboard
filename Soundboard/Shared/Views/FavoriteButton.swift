@@ -1,6 +1,6 @@
 //
 //  FavoriteButton.swift
-//  StonogaSoundboard
+//  Soundboard
 //
 //  Created by Pawel Milek on 10/26/23.
 //

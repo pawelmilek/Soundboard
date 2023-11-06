@@ -1,6 +1,6 @@
 //
 //  SoundPlayer.swift
-//  StonogaSoundboard
+//  Soundboard
 //
 //  Created by Pawel Milek on 10/27/23.
 //

@@ -399,7 +399,7 @@
 		E2319FEC2AF7A7FD004D54ED /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
 		E2319FED2AF7A7FD004D54ED /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
 		E2319FEE2AF7A7FD004D54ED /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
-		E2319FEF2AF7A800004D54ED /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* Title.swift */; };
+		E2319FEF2AF7A800004D54ED /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
 		E2319FF02AF7A804004D54ED /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
 		E2319FF12AF7A804004D54ED /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
 		E2319FF22AF7A804004D54ED /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13F2AF6DD2400C8B73B /* PathError.swift */; };
@@ -411,7 +411,8 @@
 		E2319FFA2AF7A88A004D54ED /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2319FF92AF7A88A004D54ED /* Realm */; };
 		E2319FFC2AF7A88A004D54ED /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2319FFB2AF7A88A004D54ED /* RealmSwift */; };
 		E2319FFD2AF7A8C8004D54ED /* SoundRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */; };
-		E2319FFE2AF7A8DA004D54ED /* SoundRowView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13B2AF6DD2400C8B73B /* SoundRowView+ViewModel.swift */; };
+		E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
+		E2B85DCC2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
 		E2BDF4052AF5423800D136C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BDF4042AF5423800D136C9 /* Preview Assets.xcassets */; };
 		E2BDF41E2AF5429000D136C9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2BDF41D2AF5429000D136C9 /* Realm */; };
@@ -421,13 +422,12 @@
 		E2C6F20F2AF6DD2400C8B73B /* SoundboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardListView.swift */; };
 		E2C6F2102AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift */; };
 		E2C6F2112AF6DD2400C8B73B /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
-		E2C6F2122AF6DD2400C8B73B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* Title.swift */; };
+		E2C6F2122AF6DD2400C8B73B /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
 		E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
 		E2C6F2142AF6DD2400C8B73B /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
 		E2C6F2152AF6DD2400C8B73B /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
 		E2C6F2162AF6DD2400C8B73B /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
 		E2C6F2172AF6DD2400C8B73B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
-		E2C6F2182AF6DD2400C8B73B /* SoundRowView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13B2AF6DD2400C8B73B /* SoundRowView+ViewModel.swift */; };
 		E2C6F2192AF6DD2400C8B73B /* SoundRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */; };
 		E2C6F21A2AF6DD2400C8B73B /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
 		E2C6F21B2AF6DD2400C8B73B /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13F2AF6DD2400C8B73B /* PathError.swift */; };
@@ -1024,6 +1024,7 @@
 		E2319E602AF7A6A2004D54ED /* zeby-mie-beben-pekl.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zeby-mie-beben-pekl.m4a"; sourceTree = "<group>"; };
 		E2319E612AF7A6A2004D54ED /* i-zabiore-sie-i-pojade-w-swiat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-zabiore-sie-i-pojade-w-swiat.m4a"; sourceTree = "<group>"; };
 		E2319E622AF7A6A2004D54ED /* porabane-bedziesz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "porabane-bedziesz.m4a"; sourceTree = "<group>"; };
+		E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentProvider.swift; sourceTree = "<group>"; };
 		E2BDF3FA2AF5423700D136C9 /* Stonoga Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stonoga Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardApp.swift; sourceTree = "<group>"; };
 		E2BDF4042AF5423800D136C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -1032,13 +1033,12 @@
 		E2C6F12E2AF6DD2400C8B73B /* SoundboardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardListView.swift; sourceTree = "<group>"; };
 		E2C6F12F2AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundboardListView+ViewModel.swift"; sourceTree = "<group>"; };
 		E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesSoundTip.swift; sourceTree = "<group>"; };
-		E2C6F1332AF6DD2400C8B73B /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitView.swift; sourceTree = "<group>"; };
 		E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
 		E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCountView.swift; sourceTree = "<group>"; };
 		E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		E2C6F13B2AF6DD2400C8B73B /* SoundRowView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundRowView+ViewModel.swift"; sourceTree = "<group>"; };
 		E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRowView.swift; sourceTree = "<group>"; };
 		E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		E2C6F13F2AF6DD2400C8B73B /* PathError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathError.swift; sourceTree = "<group>"; };
@@ -1746,36 +1746,19 @@
 			path = Tips;
 			sourceTree = "<group>";
 		};
-		E2C6F1322AF6DD2400C8B73B /* ViewModifiers */ = {
-			isa = PBXGroup;
-			children = (
-				E2C6F1332AF6DD2400C8B73B /* Title.swift */,
-			);
-			path = ViewModifiers;
-			sourceTree = "<group>";
-		};
 		E2C6F1342AF6DD2400C8B73B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E2C6F12D2AF6DD2400C8B73B /* SoundboardListView */,
-				E2C6F13A2AF6DD2400C8B73B /* SoundRow */,
-				E2C6F1322AF6DD2400C8B73B /* ViewModifiers */,
-				E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */,
-				E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */,
-				E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */,
-				E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */,
 				E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */,
+				E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */,
+				E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */,
+				E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */,
+				E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */,
+				E2C6F12D2AF6DD2400C8B73B /* SoundboardListView */,
+				E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */,
+				E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		E2C6F13A2AF6DD2400C8B73B /* SoundRow */ = {
-			isa = PBXGroup;
-			children = (
-				E2C6F13B2AF6DD2400C8B73B /* SoundRowView+ViewModel.swift */,
-				E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */,
-			);
-			path = SoundRow;
 			sourceTree = "<group>";
 		};
 		E2C6F13D2AF6DD2400C8B73B /* Utilities */ = {
@@ -1786,6 +1769,7 @@
 				E2C6F13F2AF6DD2400C8B73B /* PathError.swift */,
 				E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */,
 				E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */,
+				E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -2773,12 +2757,12 @@
 			files = (
 				E2C6F2162AF6DD2400C8B73B /* RoundCountView.swift in Sources */,
 				E2C6F21B2AF6DD2400C8B73B /* PathError.swift in Sources */,
-				E2C6F2182AF6DD2400C8B73B /* SoundRowView+ViewModel.swift in Sources */,
 				E2C6F2102AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift in Sources */,
 				E2C6F20E2AF6DD2400C8B73B /* SoundModel.swift in Sources */,
+				E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */,
 				E2C6F2172AF6DD2400C8B73B /* FavoriteButton.swift in Sources */,
 				E2C6F2142AF6DD2400C8B73B /* PlayButton.swift in Sources */,
-				E2C6F2122AF6DD2400C8B73B /* Title.swift in Sources */,
+				E2C6F2122AF6DD2400C8B73B /* TitleModifier.swift in Sources */,
 				E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */,
 				E2C6F2112AF6DD2400C8B73B /* FavoritesSoundTip.swift in Sources */,
 				E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */,
@@ -2800,10 +2784,10 @@
 				E2319FF52AF7A806004D54ED /* FavoritesSoundTip.swift in Sources */,
 				E2319FF42AF7A804004D54ED /* PathFinder.swift in Sources */,
 				E2319FF02AF7A804004D54ED /* SoundPlayer.swift in Sources */,
-				E2319FFE2AF7A8DA004D54ED /* SoundRowView+ViewModel.swift in Sources */,
 				E2319FE52AF7A772004D54ED /* SoundboardApp.swift in Sources */,
+				E2B85DCC2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */,
 				E2319FF12AF7A804004D54ED /* RealmManager.swift in Sources */,
-				E2319FEF2AF7A800004D54ED /* Title.swift in Sources */,
+				E2319FEF2AF7A800004D54ED /* TitleModifier.swift in Sources */,
 				E2319FE92AF7A7D5004D54ED /* ShareContent.swift in Sources */,
 				E2319FF32AF7A804004D54ED /* SoundFileManager.swift in Sources */,
 				E2319FF22AF7A804004D54ED /* PathError.swift in Sources */,

@@ -16,7 +16,7 @@ struct SoundboardApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                SoundboardListView()
+                SoundboardListView(viewModel: viewModel)
                     .navigationTitle("Soundboard")
                     .environmentObject(viewModel)
                     .environmentObject(realmManager)

@@ -1,6 +1,6 @@
 //
 //  RealmManager.swift
-//  StonogaSoundboard
+//  Soundboard
 //
 //  Created by Pawel Milek on 10/30/23.
 //

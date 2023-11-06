@@ -1,6 +1,6 @@
 //
 //  SoundboardListView+ViewModel.swift
-//  StonogaSoundboard
+//  Soundboard
 //
 //  Created by Pawel Milek on 10/25/23.
 //
@@ -23,8 +23,11 @@ extension SoundboardListView {
         var searchResult: [SoundModel] {
             return if searchText.isEmpty {
                 itemsArray
+                    .sorted { $0.title < $1.title }
             } else {
-                itemsArray.filter { $0.title.lowercased().contains(searchText.lowercased()) }
+                itemsArray
+                    .filter { $0.title.lowercased().contains(searchText.lowercased()) }
+                    .sorted { $0.title < $1.title }
             }
         }
 
@@ -66,10 +69,13 @@ extension SoundboardListView {
 
         let favoritesTip = FavoritesSoundTip()
         private var itemsToken: NotificationToken?
-        private var player: PlayerProtocol
+        private let player: PlayerProtocol
+        private let shareContentProvider: ShareContentProvider
 
-        init(player: PlayerProtocol = SoundPlayer()) {
+        init(player: PlayerProtocol = SoundPlayer(),
+             shareContentProvider: ShareContentProvider = ShareContentProvider()) {
             self.player = player
+            self.shareContentProvider = shareContentProvider
         }
 
         func setupObserver(_ realm: Realm?) {
@@ -85,6 +91,19 @@ extension SoundboardListView {
 
         func play(_ fileName: String) {
             player.playSound(fileName)
+        }
+
+        func shareSound(_ fileName: String) -> ShareContent {
+            guard let itemToShare = items?.first(where: { $0.fileName == fileName }) else {
+                return ShareContent.default
+            }
+
+            let content = shareContentProvider.content(
+                with: itemToShare.title,
+                image: "portrait",
+                fileName
+            )
+            return content
         }
     }
 }
