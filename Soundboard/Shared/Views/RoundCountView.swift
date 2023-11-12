@@ -20,11 +20,11 @@ public struct RoundCountView: View {
                 .fontDesign(.rounded)
                 .lineLimit(1)
                 .minimumScaleFactor(0.5)
-                .frame(maxWidth: 11, maxHeight: 11)
+                .frame(maxWidth: 13, maxHeight: 13)
                 .padding(3)
                 .background(.background)
                 .clipShape(Circle())
-                .padding(2)
+                .padding(2.5)
                 .background(Color(UIColor.systemGray6))
                 .clipShape(Circle())
                 .onAppear {
@@ -38,6 +38,6 @@ public struct RoundCountView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    RoundCountView(value: 13)
+    RoundCountView(value: 733)
         .padding()
 }
