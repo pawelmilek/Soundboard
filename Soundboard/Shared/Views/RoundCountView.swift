@@ -16,13 +16,14 @@ public struct RoundCountView: View {
             Text("\(animateValue)")
                 .contentTransition(.numericText(value: Double(animateValue)))
                 .font(.caption2)
-                .fontWeight(.heavy)
+                .fontWeight(.semibold)
                 .fontDesign(.rounded)
                 .lineLimit(1)
                 .minimumScaleFactor(0.5)
                 .frame(maxWidth: 13, maxHeight: 13)
                 .padding(3)
-                .background(.background)
+                .background(.accent)
+                .foregroundStyle(.white)
                 .clipShape(Circle())
                 .padding(2.5)
                 .background(Color(UIColor.systemGray6))
@@ -38,6 +39,6 @@ public struct RoundCountView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    RoundCountView(value: 733)
+    RoundCountView(value: 59)
         .padding()
 }
