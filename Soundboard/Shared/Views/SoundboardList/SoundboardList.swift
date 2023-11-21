@@ -1,5 +1,5 @@
 //
-//  SoundboardListView.swift
+//  SoundboardList.swift
 //  Soundboard
 //
 //  Created by Pawel Milek on 10/25/23.
@@ -9,9 +9,9 @@ import SwiftUI
 import Combine
 import RealmSwift
 
-struct SoundboardListView: View {
+struct SoundboardList: View {
     @EnvironmentObject var realmManager: RealmManager
-    @ObservedObject var viewModel: SoundboardListView.ViewModel
+    @ObservedObject var viewModel: SoundboardList.ViewModel
 
     var body: some View {
         Group {
@@ -23,7 +23,7 @@ struct SoundboardListView: View {
                 )
             } else {
                 List(viewModel.searchResult) { sound in
-                    SoundRowView(
+                    SoundRow(
                         item: sound,
                         shareContent: viewModel.shareSound(sound.fileName),
                         onPlayButton: {
@@ -57,7 +57,7 @@ struct SoundboardListView: View {
     }
 }
 
-private extension SoundboardListView {
+private extension SoundboardList {
 
     var favoritesToolbarButton: some View {
         Button {
@@ -73,7 +73,7 @@ private extension SoundboardListView {
 
 #Preview {
     NavigationStack {
-        SoundboardListView(viewModel: SoundboardListView.ViewModel())
+        SoundboardList(viewModel: SoundboardList.ViewModel())
             .navigationTitle("Soundboard")
             .environmentObject(RealmManager(name: "stonoga.soundboard"))
     }

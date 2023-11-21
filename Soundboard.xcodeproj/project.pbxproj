@@ -406,21 +406,17 @@
 		E2319FF32AF7A804004D54ED /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */; };
 		E2319FF42AF7A804004D54ED /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */; };
 		E2319FF52AF7A806004D54ED /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
-		E2319FF62AF7A80A004D54ED /* SoundboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardListView.swift */; };
-		E2319FF72AF7A80A004D54ED /* SoundboardListView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift */; };
-		E2319FFA2AF7A88A004D54ED /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2319FF92AF7A88A004D54ED /* Realm */; };
-		E2319FFC2AF7A88A004D54ED /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2319FFB2AF7A88A004D54ED /* RealmSwift */; };
-		E2319FFD2AF7A8C8004D54ED /* SoundRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */; };
+		E2319FF62AF7A80A004D54ED /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */; };
+		E2319FF72AF7A80A004D54ED /* SoundboardList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */; };
+		E2319FFD2AF7A8C8004D54ED /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */; };
 		E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2B85DCC2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
 		E2BDF4052AF5423800D136C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BDF4042AF5423800D136C9 /* Preview Assets.xcassets */; };
-		E2BDF41E2AF5429000D136C9 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2BDF41D2AF5429000D136C9 /* Realm */; };
-		E2BDF4202AF5429000D136C9 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2BDF41F2AF5429000D136C9 /* RealmSwift */; };
 		E2C6F20D2AF6DD2400C8B73B /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
 		E2C6F20E2AF6DD2400C8B73B /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
-		E2C6F20F2AF6DD2400C8B73B /* SoundboardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardListView.swift */; };
-		E2C6F2102AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift */; };
+		E2C6F20F2AF6DD2400C8B73B /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */; };
+		E2C6F2102AF6DD2400C8B73B /* SoundboardList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */; };
 		E2C6F2112AF6DD2400C8B73B /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
 		E2C6F2122AF6DD2400C8B73B /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
 		E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
@@ -428,7 +424,7 @@
 		E2C6F2152AF6DD2400C8B73B /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
 		E2C6F2162AF6DD2400C8B73B /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
 		E2C6F2172AF6DD2400C8B73B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
-		E2C6F2192AF6DD2400C8B73B /* SoundRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */; };
+		E2C6F2192AF6DD2400C8B73B /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */; };
 		E2C6F21A2AF6DD2400C8B73B /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
 		E2C6F21B2AF6DD2400C8B73B /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13F2AF6DD2400C8B73B /* PathError.swift */; };
 		E2C6F21C2AF6DD2400C8B73B /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */; };
@@ -637,6 +633,246 @@
 		E2C6F2E82AF6DDB600C8B73B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
 		E2C6F2F62AF6DF0F00C8B73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2F52AF6DF0F00C8B73B /* Assets.xcassets */; };
 		E2C6F2F92AF6DF0F00C8B73B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */; };
+		E2FAA7E92B0CC20600C7E393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */; };
+		E2FAA7EC2B0CC20600C7E393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */; };
+		E2FAA7F22B0CC84500C7E393 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
+		E2FAA7F32B0CC85A00C7E393 /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
+		E2FAA7F42B0CC85A00C7E393 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
+		E2FAA7F52B0CC85A00C7E393 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
+		E2FAA7F62B0CC85A00C7E393 /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */; };
+		E2FAA7F72B0CC85A00C7E393 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
+		E2FAA7F82B0CC85A00C7E393 /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
+		E2FAA7F92B0CC85A00C7E393 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
+		E2FAA7FA2B0CC85E00C7E393 /* SoundboardList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */; };
+		E2FAA7FB2B0CC85E00C7E393 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */; };
+		E2FAA7FC2B0CC86200C7E393 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
+		E2FAA7FD2B0CC86200C7E393 /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
+		E2FAA7FE2B0CC86700C7E393 /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
+		E2FAA7FF2B0CC86C00C7E393 /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */; };
+		E2FAA8002B0CC86C00C7E393 /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13F2AF6DD2400C8B73B /* PathError.swift */; };
+		E2FAA8012B0CC86C00C7E393 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */; };
+		E2FAA8022B0CC86C00C7E393 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
+		E2FAA8032B0CC86C00C7E393 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
+		E2FAA8042B0CC86C00C7E393 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
+		E2FAA8062B0CC8B000C7E393 /* ah-dzien-dobry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8052B0CC8AF00C7E393 /* ah-dzien-dobry.m4a */; };
+		E2FAA8092B0CC92B00C7E393 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2FAA8082B0CC92B00C7E393 /* Realm */; };
+		E2FAA80B2B0CC92B00C7E393 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2FAA80A2B0CC92B00C7E393 /* RealmSwift */; };
+		E2FAA80D2B0CC94000C7E393 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2FAA80C2B0CC94000C7E393 /* Realm */; };
+		E2FAA80F2B0CC94000C7E393 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2FAA80E2B0CC94000C7E393 /* RealmSwift */; };
+		E2FAA8112B0CC94C00C7E393 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2FAA8102B0CC94C00C7E393 /* Realm */; };
+		E2FAA8132B0CC94C00C7E393 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2FAA8122B0CC94C00C7E393 /* RealmSwift */; };
+		E2FAA81D2B0CCC4900C7E393 /* o-salatka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8142B0CCC4800C7E393 /* o-salatka.m4a */; };
+		E2FAA81E2B0CCC4900C7E393 /* przyprawy-od-pizzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8152B0CCC4800C7E393 /* przyprawy-od-pizzy.m4a */; };
+		E2FAA81F2B0CCC4900C7E393 /* cieplo-zeby-zjesc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8162B0CCC4800C7E393 /* cieplo-zeby-zjesc.m4a */; };
+		E2FAA8202B0CCC4900C7E393 /* i-cebulka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8172B0CCC4800C7E393 /* i-cebulka.m4a */; };
+		E2FAA8212B0CCC4900C7E393 /* i-ogorek.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8182B0CCC4800C7E393 /* i-ogorek.m4a */; };
+		E2FAA8222B0CCC4900C7E393 /* i-dziekujemy-za-ta-osobe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8192B0CCC4900C7E393 /* i-dziekujemy-za-ta-osobe.m4a */; };
+		E2FAA8232B0CCC4900C7E393 /* keczup-ten-dalem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA81A2B0CCC4900C7E393 /* keczup-ten-dalem.m4a */; };
+		E2FAA8242B0CCC4900C7E393 /* no-wlasnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA81B2B0CCC4900C7E393 /* no-wlasnie.m4a */; };
+		E2FAA8252B0CCC4900C7E393 /* kababa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA81C2B0CCC4900C7E393 /* kababa.m4a */; };
+		E2FAA82A2B0CCC8A00C7E393 /* to-wlasnie-wczorajszy-kabab.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8262B0CCC8A00C7E393 /* to-wlasnie-wczorajszy-kabab.m4a */; };
+		E2FAA82B2B0CCC8A00C7E393 /* to-pomidorek.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8272B0CCC8A00C7E393 /* to-pomidorek.m4a */; };
+		E2FAA82C2B0CCC8A00C7E393 /* takie-chrupiace-sie-zrobilo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8282B0CCC8A00C7E393 /* takie-chrupiace-sie-zrobilo.m4a */; };
+		E2FAA82D2B0CCC8A00C7E393 /* zeby-lepszy-byl.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8292B0CCC8A00C7E393 /* zeby-lepszy-byl.m4a */; };
+		E2FAA8382B0CCECA00C7E393 /* ogolem-jak-to-sie-mowi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA82E2B0CCEC900C7E393 /* ogolem-jak-to-sie-mowi.m4a */; };
+		E2FAA8392B0CCECA00C7E393 /* pozdrawiam-z-jednostki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA82F2B0CCEC900C7E393 /* pozdrawiam-z-jednostki.m4a */; };
+		E2FAA83A2B0CCECA00C7E393 /* kapitanow-nie-kapitanow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8302B0CCECA00C7E393 /* kapitanow-nie-kapitanow.m4a */; };
+		E2FAA83B2B0CCECA00C7E393 /* kaprala.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8312B0CCECA00C7E393 /* kaprala.m4a */; };
+		E2FAA83C2B0CCECA00C7E393 /* ktora-wysylala-kababy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8322B0CCECA00C7E393 /* ktora-wysylala-kababy.m4a */; };
+		E2FAA83D2B0CCECA00C7E393 /* o-ta-godzina-to-obiad-druga-bedzie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8332B0CCECA00C7E393 /* o-ta-godzina-to-obiad-druga-bedzie.m4a */; };
+		E2FAA83E2B0CCECA00C7E393 /* wszystkich-zolnierzy-pozdrawiam-tam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8342B0CCECA00C7E393 /* wszystkich-zolnierzy-pozdrawiam-tam.m4a */; };
+		E2FAA83F2B0CCECA00C7E393 /* i-zycze-im.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8352B0CCECA00C7E393 /* i-zycze-im.m4a */; };
+		E2FAA8402B0CCECA00C7E393 /* zeby-lepsze-bylo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8362B0CCECA00C7E393 /* zeby-lepsze-bylo.m4a */; };
+		E2FAA8412B0CCECA00C7E393 /* dzisiaj-dzien-wiosny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8372B0CCECA00C7E393 /* dzisiaj-dzien-wiosny.m4a */; };
+		E2FAA84C2B0CCF8D00C7E393 /* to-w-jednostce-powinni-byc-kababy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8422B0CCF8D00C7E393 /* to-w-jednostce-powinni-byc-kababy.m4a */; };
+		E2FAA84D2B0CCF8D00C7E393 /* zjesc-kababa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8432B0CCF8D00C7E393 /* zjesc-kababa.m4a */; };
+		E2FAA84E2B0CCF8D00C7E393 /* wszystkich-zolnierzy-pozdrawiam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8442B0CCF8D00C7E393 /* wszystkich-zolnierzy-pozdrawiam.m4a */; };
+		E2FAA84F2B0CCF8D00C7E393 /* na-stolowce-powinni-wszyscy-zolnierze-jesc-kababy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8452B0CCF8D00C7E393 /* na-stolowce-powinni-wszyscy-zolnierze-jesc-kababy.m4a */; };
+		E2FAA8502B0CCF8D00C7E393 /* i-wszyscy-beda-kababy-jesc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8462B0CCF8D00C7E393 /* i-wszyscy-beda-kababy-jesc.m4a */; };
+		E2FAA8512B0CCF8D00C7E393 /* dobry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8472B0CCF8D00C7E393 /* dobry.m4a */; };
+		E2FAA8522B0CCF8D00C7E393 /* radosna.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8482B0CCF8D00C7E393 /* radosna.m4a */; };
+		E2FAA8532B0CCF8D00C7E393 /* na-wiosne-trzeba-jesc-kababa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8492B0CCF8D00C7E393 /* na-wiosne-trzeba-jesc-kababa.m4a */; };
+		E2FAA8542B0CCF8D00C7E393 /* zeby-byla-lepsza-wiosna.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA84A2B0CCF8D00C7E393 /* zeby-byla-lepsza-wiosna.m4a */; };
+		E2FAA8552B0CCF8D00C7E393 /* i-chorazy-tez-zdazy-zjesc-kababa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA84B2B0CCF8D00C7E393 /* i-chorazy-tez-zdazy-zjesc-kababa.m4a */; };
+		E2FAA86A2B0CD11900C7E393 /* sraka-ty-nie-wiesz-i-pier-glupoty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8562B0CD11400C7E393 /* sraka-ty-nie-wiesz-i-pier-glupoty.m4a */; };
+		E2FAA86B2B0CD11900C7E393 /* to-takie-ludzie-to-sa-dla-lmnie-ludzie-psy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8572B0CD11500C7E393 /* to-takie-ludzie-to-sa-dla-lmnie-ludzie-psy.m4a */; };
+		E2FAA86C2B0CD11900C7E393 /* i-szczury.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8582B0CD11500C7E393 /* i-szczury.m4a */; };
+		E2FAA86D2B0CD11900C7E393 /* bylem-w-mundurze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8592B0CD11500C7E393 /* bylem-w-mundurze.m4a */; };
+		E2FAA86E2B0CD11900C7E393 /* ty-nasrane-masz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA85A2B0CD11500C7E393 /* ty-nasrane-masz.m4a */; };
+		E2FAA86F2B0CD11900C7E393 /* no-prosze-zadzwonic-na-policje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA85B2B0CD11500C7E393 /* no-prosze-zadzwonic-na-policje.m4a */; };
+		E2FAA8702B0CD11900C7E393 /* non-stop-smierdzi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA85C2B0CD11600C7E393 /* non-stop-smierdzi.m4a */; };
+		E2FAA8712B0CD11900C7E393 /* i-kotleta-mielonego-z-tym-z-ziemniakami.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA85D2B0CD11600C7E393 /* i-kotleta-mielonego-z-tym-z-ziemniakami.m4a */; };
+		E2FAA8722B0CD11900C7E393 /* i-wlasnie-teraz-jest-dowod.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA85E2B0CD11600C7E393 /* i-wlasnie-teraz-jest-dowod.m4a */; };
+		E2FAA8732B0CD11900C7E393 /* na-krzywy-ryj.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA85F2B0CD11600C7E393 /* na-krzywy-ryj.m4a */; };
+		E2FAA8742B0CD11900C7E393 /* tak-halo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8602B0CD11700C7E393 /* tak-halo.m4a */; };
+		E2FAA8752B0CD11900C7E393 /* bo-komputer-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8612B0CD11700C7E393 /* bo-komputer-jest.m4a */; };
+		E2FAA8762B0CD11900C7E393 /* jak-to-jest-moj-kura-wczorajszy-obiad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8622B0CD11700C7E393 /* jak-to-jest-moj-kura-wczorajszy-obiad.m4a */; };
+		E2FAA8772B0CD11900C7E393 /* zamknij-ta-dupe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8632B0CD11700C7E393 /* zamknij-ta-dupe.m4a */; };
+		E2FAA8782B0CD11900C7E393 /* ile-razy-sie-zesrales.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8642B0CD11700C7E393 /* ile-razy-sie-zesrales.m4a */; };
+		E2FAA8792B0CD11900C7E393 /* wez-zamknij-ta-pisde-swoja.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8652B0CD11700C7E393 /* wez-zamknij-ta-pisde-swoja.m4a */; };
+		E2FAA87A2B0CD11900C7E393 /* srac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8662B0CD11800C7E393 /* srac.m4a */; };
+		E2FAA87B2B0CD11900C7E393 /* o-i-to-nagrywam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8672B0CD11800C7E393 /* o-i-to-nagrywam.m4a */; };
+		E2FAA87C2B0CD11900C7E393 /* ja-tylko-raz-w-zyciu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8682B0CD11900C7E393 /* ja-tylko-raz-w-zyciu.m4a */; };
+		E2FAA87D2B0CD11900C7E393 /* oni-nie-nadaja-sie-do-zycia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8692B0CD11900C7E393 /* oni-nie-nadaja-sie-do-zycia.m4a */; };
+		E2FAA8882B0CD1FE00C7E393 /* do-pieca-moze-wjedz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA87E2B0CD1FE00C7E393 /* do-pieca-moze-wjedz.m4a */; };
+		E2FAA8892B0CD1FE00C7E393 /* juz-chciales-wymeldowac-mnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA87F2B0CD1FE00C7E393 /* juz-chciales-wymeldowac-mnie.m4a */; };
+		E2FAA88A2B0CD1FE00C7E393 /* 800zl-zaplacilem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8802B0CD1FE00C7E393 /* 800zl-zaplacilem.m4a */; };
+		E2FAA88B2B0CD1FE00C7E393 /* i-moja-kamera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8812B0CD1FE00C7E393 /* i-moja-kamera.m4a */; };
+		E2FAA88C2B0CD1FE00C7E393 /* no-baw-sie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8822B0CD1FE00C7E393 /* no-baw-sie.m4a */; };
+		E2FAA88D2B0CD1FE00C7E393 /* no-kogo-zawolasz-kogos?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8832B0CD1FE00C7E393 /* no-kogo-zawolasz-kogos?.m4a */; };
+		E2FAA88E2B0CD1FE00C7E393 /* piwo-kupil-kur.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8842B0CD1FE00C7E393 /* piwo-kupil-kur.m4a */; };
+		E2FAA88F2B0CD1FE00C7E393 /* tak-jak-swoimi-jajkami-sie-bawisz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8852B0CD1FE00C7E393 /* tak-jak-swoimi-jajkami-sie-bawisz.m4a */; };
+		E2FAA8902B0CD1FE00C7E393 /* ja-kupilem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8862B0CD1FE00C7E393 /* ja-kupilem.m4a */; };
+		E2FAA8912B0CD1FE00C7E393 /* no-kto-ma.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8872B0CD1FE00C7E393 /* no-kto-ma.m4a */; };
+		E2FAA89C2B0CD2D700C7E393 /* kurde-idz-sobie-do-swojego-opla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8922B0CD2D600C7E393 /* kurde-idz-sobie-do-swojego-opla.m4a */; };
+		E2FAA89D2B0CD2D700C7E393 /* to-uciekaj-do-moskwy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8932B0CD2D700C7E393 /* to-uciekaj-do-moskwy.m4a */; };
+		E2FAA89E2B0CD2D700C7E393 /* kurda-sie-nadajesz-do-ubicia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8942B0CD2D700C7E393 /* kurda-sie-nadajesz-do-ubicia.m4a */; };
+		E2FAA89F2B0CD2D700C7E393 /* prosze-nie-przeszkadzac-w-mojej-rozmowie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8952B0CD2D700C7E393 /* prosze-nie-przeszkadzac-w-mojej-rozmowie.m4a */; };
+		E2FAA8A02B0CD2D700C7E393 /* a-ty-jestes-prawdziwy-wiesniak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8962B0CD2D700C7E393 /* a-ty-jestes-prawdziwy-wiesniak.m4a */; };
+		E2FAA8A12B0CD2D700C7E393 /* nagrywa-sie-mnie-co-ja-robie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8972B0CD2D700C7E393 /* nagrywa-sie-mnie-co-ja-robie.m4a */; };
+		E2FAA8A22B0CD2D700C7E393 /* tam-do-swojej-rodziny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8982B0CD2D700C7E393 /* tam-do-swojej-rodziny.m4a */; };
+		E2FAA8A32B0CD2D700C7E393 /* to-sie-nagrywa?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8992B0CD2D700C7E393 /* to-sie-nagrywa?.m4a */; };
+		E2FAA8A42B0CD2D700C7E393 /* ty-nie-jestes-z-bialegostoku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA89A2B0CD2D700C7E393 /* ty-nie-jestes-z-bialegostoku.m4a */; };
+		E2FAA8A52B0CD2D700C7E393 /* bo-ja-mowie-prawde-jak-jest-ogolem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA89B2B0CD2D700C7E393 /* bo-ja-mowie-prawde-jak-jest-ogolem.m4a */; };
+		E2FAA8B02B0CD3CA00C7E393 /* przepraszam-ze-tak-powiedzialem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8A62B0CD3C900C7E393 /* przepraszam-ze-tak-powiedzialem.m4a */; };
+		E2FAA8B12B0CD3CA00C7E393 /* jak-w-taki-sposob-mnie-traktujesz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8A72B0CD3C900C7E393 /* jak-w-taki-sposob-mnie-traktujesz.m4a */; };
+		E2FAA8B22B0CD3CA00C7E393 /* powiedzialem-tobie-ze-ja-nic-nie-bede-kupywal.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8A82B0CD3C900C7E393 /* powiedzialem-tobie-ze-ja-nic-nie-bede-kupywal.m4a */; };
+		E2FAA8B32B0CD3CA00C7E393 /* jaki-to-prezydent.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8A92B0CD3C900C7E393 /* jaki-to-prezydent.m4a */; };
+		E2FAA8B42B0CD3CA00C7E393 /* tak-traktujesz-ludzi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8AA2B0CD3C900C7E393 /* tak-traktujesz-ludzi.m4a */; };
+		E2FAA8B52B0CD3CA00C7E393 /* masz-sobie-wyrzuc-to.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8AB2B0CD3C900C7E393 /* masz-sobie-wyrzuc-to.m4a */; };
+		E2FAA8B62B0CD3CA00C7E393 /* wyrzuc-to-do-smietnika.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8AC2B0CD3CA00C7E393 /* wyrzuc-to-do-smietnika.m4a */; };
+		E2FAA8B72B0CD3CA00C7E393 /* sobie-babe-wynajmij.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8AD2B0CD3CA00C7E393 /* sobie-babe-wynajmij.m4a */; };
+		E2FAA8B82B0CD3CA00C7E393 /* to-ja-bede-obiad-tobie-robil?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8AE2B0CD3CA00C7E393 /* to-ja-bede-obiad-tobie-robil?.m4a */; };
+		E2FAA8B92B0CD3CA00C7E393 /* powiedzialem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8AF2B0CD3CA00C7E393 /* powiedzialem.m4a */; };
+		E2FAA8EE2B0CDBB900C7E393 /* ze-swoimi-jak-to-sie-mowi-laskami.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8BA2B0CDBB600C7E393 /* ze-swoimi-jak-to-sie-mowi-laskami.m4a */; };
+		E2FAA8EF2B0CDBB900C7E393 /* z-laskami-uciekaja.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8BB2B0CDBB600C7E393 /* z-laskami-uciekaja.m4a */; };
+		E2FAA8F02B0CDBB900C7E393 /* i-ogolem-chcialem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8BC2B0CDBB600C7E393 /* i-ogolem-chcialem.m4a */; };
+		E2FAA8F12B0CDBB900C7E393 /* zeby-sie-umawiali.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8BD2B0CDBB600C7E393 /* zeby-sie-umawiali.m4a */; };
+		E2FAA8F22B0CDBB900C7E393 /* moje-zadlo-chyba-czeka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8BE2B0CDBB600C7E393 /* moje-zadlo-chyba-czeka.m4a */; };
+		E2FAA8F32B0CDBB900C7E393 /* samotne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8BF2B0CDBB600C7E393 /* samotne.m4a */; };
+		E2FAA8F42B0CDBB900C7E393 /* zolnierki-z-bombasu-mi-sie-snia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C02B0CDBB600C7E393 /* zolnierki-z-bombasu-mi-sie-snia.m4a */; };
+		E2FAA8F52B0CDBB900C7E393 /* ale-tera-bedzie-lepiej-juz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C12B0CDBB600C7E393 /* ale-tera-bedzie-lepiej-juz.m4a */; };
+		E2FAA8F62B0CDBB900C7E393 /* my-kiedys-uciekalismy-do-kina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C22B0CDBB600C7E393 /* my-kiedys-uciekalismy-do-kina.m4a */; };
+		E2FAA8F72B0CDBB900C7E393 /* moze-ktoras-bedzie-chciala-sie-zapoznac-blizej-ze-mna.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C32B0CDBB700C7E393 /* moze-ktoras-bedzie-chciala-sie-zapoznac-blizej-ze-mna.m4a */; };
+		E2FAA8F82B0CDBB900C7E393 /* to-zolnierki-to-sa-takie-grabne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C42B0CDBB700C7E393 /* to-zolnierki-to-sa-takie-grabne.m4a */; };
+		E2FAA8F92B0CDBB900C7E393 /* piwko-to-jest-jak-rosol.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C52B0CDBB700C7E393 /* piwko-to-jest-jak-rosol.m4a */; };
+		E2FAA8FA2B0CDBB900C7E393 /* ktore-mozna-na-siurka-wlozyc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C62B0CDBB700C7E393 /* ktore-mozna-na-siurka-wlozyc.m4a */; };
+		E2FAA8FB2B0CDBB900C7E393 /* ja-ogolem-chcialbym-jeszcze-wypic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C72B0CDBB700C7E393 /* ja-ogolem-chcialbym-jeszcze-wypic.m4a */; };
+		E2FAA8FC2B0CDBB900C7E393 /* na-kogiel-mogiel.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C82B0CDBB700C7E393 /* na-kogiel-mogiel.m4a */; };
+		E2FAA8FD2B0CDBB900C7E393 /* tam-gdzie-trzeba.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8C92B0CDBB700C7E393 /* tam-gdzie-trzeba.m4a */; };
+		E2FAA8FE2B0CDBB900C7E393 /* taka-super-by-bylo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8CA2B0CDBB700C7E393 /* taka-super-by-bylo.m4a */; };
+		E2FAA8FF2B0CDBB900C7E393 /* karolinko.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8CB2B0CDBB700C7E393 /* karolinko.m4a */; };
+		E2FAA9002B0CDBB900C7E393 /* i-ogolem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8CC2B0CDBB700C7E393 /* i-ogolem.m4a */; };
+		E2FAA9012B0CDBB900C7E393 /* ogolem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8CD2B0CDBB700C7E393 /* ogolem.m4a */; };
+		E2FAA9022B0CDBB900C7E393 /* wszystkich-ludzi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8CE2B0CDBB700C7E393 /* wszystkich-ludzi.m4a */; };
+		E2FAA9032B0CDBB900C7E393 /* do-kina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8CF2B0CDBB700C7E393 /* do-kina.m4a */; };
+		E2FAA9042B0CDBB900C7E393 /* bedzie-cieplej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D02B0CDBB700C7E393 /* bedzie-cieplej.m4a */; };
+		E2FAA9052B0CDBB900C7E393 /* i-moze-sie-umowimy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D12B0CDBB800C7E393 /* i-moze-sie-umowimy.m4a */; };
+		E2FAA9062B0CDBB900C7E393 /* bialostockie-piwo-to-jest-najlepsze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D22B0CDBB800C7E393 /* bialostockie-piwo-to-jest-najlepsze.m4a */; };
+		E2FAA9072B0CDBB900C7E393 /* na-beda-jesc-kababy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D32B0CDBB800C7E393 /* na-beda-jesc-kababy.m4a */; };
+		E2FAA9082B0CDBB900C7E393 /* ci-co-lubia-pic-piweczko.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D42B0CDBB800C7E393 /* ci-co-lubia-pic-piweczko.m4a */; };
+		E2FAA9092B0CDBB900C7E393 /* ja-jak-osa-bym-uzadlil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D52B0CDBB800C7E393 /* ja-jak-osa-bym-uzadlil.m4a */; };
+		E2FAA90A2B0CDBB900C7E393 /* ruszac-skora.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D62B0CDBB800C7E393 /* ruszac-skora.m4a */; };
+		E2FAA90B2B0CDBB900C7E393 /* ale-juz-pol-zjadlem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D72B0CDBB800C7E393 /* ale-juz-pol-zjadlem.m4a */; };
+		E2FAA90C2B0CDBB900C7E393 /* good.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D82B0CDBB800C7E393 /* good.m4a */; };
+		E2FAA90D2B0CDBB900C7E393 /* no-sloneczko-rozpgadza-sie-troszeczke.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8D92B0CDBB800C7E393 /* no-sloneczko-rozpgadza-sie-troszeczke.m4a */; };
+		E2FAA90E2B0CDBB900C7E393 /* no-wszystkiego-dobrego-wszystkim.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8DA2B0CDBB800C7E393 /* no-wszystkiego-dobrego-wszystkim.m4a */; };
+		E2FAA90F2B0CDBB900C7E393 /* sam-patelnie-bym-wiadomo-co-zrobil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8DB2B0CDBB800C7E393 /* sam-patelnie-bym-wiadomo-co-zrobil.m4a */; };
+		E2FAA9102B0CDBB900C7E393 /* az-jak-mi-sie-snilo-to-siurek-sie-podnosil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8DC2B0CDBB800C7E393 /* az-jak-mi-sie-snilo-to-siurek-sie-podnosil.m4a */; };
+		E2FAA9112B0CDBB900C7E393 /* i-szaleje-moje-serce-jak-ja-widze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8DD2B0CDBB800C7E393 /* i-szaleje-moje-serce-jak-ja-widze.m4a */; };
+		E2FAA9122B0CDBB900C7E393 /* ty-jestes-cudowna-kobieta.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8DE2B0CDBB800C7E393 /* ty-jestes-cudowna-kobieta.m4a */; };
+		E2FAA9132B0CDBB900C7E393 /* moge-sobie-wypic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8DF2B0CDBB800C7E393 /* moge-sobie-wypic.m4a */; };
+		E2FAA9142B0CDBB900C7E393 /* ja-chcialbym-powiedziec.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E02B0CDBB800C7E393 /* ja-chcialbym-powiedziec.m4a */; };
+		E2FAA9152B0CDBB900C7E393 /* musze-pania-chyba-stestowac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E12B0CDBB900C7E393 /* musze-pania-chyba-stestowac.m4a */; };
+		E2FAA9162B0CDBB900C7E393 /* niech-te-samoloty-jego-nie-startuja-na-baltyk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E22B0CDBB900C7E393 /* niech-te-samoloty-jego-nie-startuja-na-baltyk.m4a */; };
+		E2FAA9172B0CDBB900C7E393 /* wjade-w-niego-i-bomba.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E32B0CDBB900C7E393 /* wjade-w-niego-i-bomba.m4a */; };
+		E2FAA9182B0CDBB900C7E393 /* ale-mi-sie-chce-ja-poznac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E42B0CDBB900C7E393 /* ale-mi-sie-chce-ja-poznac.m4a */; };
+		E2FAA9192B0CDBB900C7E393 /* na-lizanie-nie-wiadomo-czego-jeszcze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E52B0CDBB900C7E393 /* na-lizanie-nie-wiadomo-czego-jeszcze.m4a */; };
+		E2FAA91A2B0CDBB900C7E393 /* prosze-napsac-swoj-number-ja-zadzwonie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E62B0CDBB900C7E393 /* prosze-napsac-swoj-number-ja-zadzwonie.m4a */; };
+		E2FAA91B2B0CDBB900C7E393 /* to-nie-wstyd-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E72B0CDBB900C7E393 /* to-nie-wstyd-jest.m4a */; };
+		E2FAA91C2B0CDBB900C7E393 /* na-niespodzianke.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E82B0CDBB900C7E393 /* na-niespodzianke.m4a */; };
+		E2FAA91D2B0CDBB900C7E393 /* chcialbym-ich-wszystkich-bardzo-serdecznie-pozdrowic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8E92B0CDBB900C7E393 /* chcialbym-ich-wszystkich-bardzo-serdecznie-pozdrowic.m4a */; };
+		E2FAA91E2B0CDBB900C7E393 /* a-ja-pije-nieraz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8EA2B0CDBB900C7E393 /* a-ja-pije-nieraz.m4a */; };
+		E2FAA91F2B0CDBB900C7E393 /* wisniowke-jakas-taka-dobra-mocniejsza.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8EB2B0CDBB900C7E393 /* wisniowke-jakas-taka-dobra-mocniejsza.m4a */; };
+		E2FAA9202B0CDBB900C7E393 /* eleganckie-ze-guma-mala.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8EC2B0CDBB900C7E393 /* eleganckie-ze-guma-mala.m4a */; };
+		E2FAA9212B0CDBB900C7E393 /* ja-uwielbiam-wszystkie-wspanialem-kochajace-kobiety.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA8ED2B0CDBB900C7E393 /* ja-uwielbiam-wszystkie-wspanialem-kochajace-kobiety.m4a */; };
+		E2FAA9702B0CE16E00C7E393 /* co-ty-myslisz-nigdy-nie-jezdzilem-samochodem?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9222B0CE16800C7E393 /* co-ty-myslisz-nigdy-nie-jezdzilem-samochodem?.m4a */; };
+		E2FAA9712B0CE16E00C7E393 /* czy-to-fajnie-bylo-by-tak-przyjemnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9232B0CE16800C7E393 /* czy-to-fajnie-bylo-by-tak-przyjemnie.m4a */; };
+		E2FAA9722B0CE16E00C7E393 /* ona-bardzo-piekna-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9242B0CE16800C7E393 /* ona-bardzo-piekna-jest.m4a */; };
+		E2FAA9732B0CE16E00C7E393 /* przyleciala-z-bombusu-bombaska.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9252B0CE16800C7E393 /* przyleciala-z-bombusu-bombaska.m4a */; };
+		E2FAA9742B0CE16E00C7E393 /* moglo-by-te-zadlo-polykac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9262B0CE16800C7E393 /* moglo-by-te-zadlo-polykac.m4a */; };
+		E2FAA9752B0CE16E00C7E393 /* ja-nie-bede-ja-jeszcze-kul.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9272B0CE16900C7E393 /* ja-nie-bede-ja-jeszcze-kul.m4a */; };
+		E2FAA9762B0CE16E00C7E393 /* sobie-ten-robisz-dorze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9282B0CE16900C7E393 /* sobie-ten-robisz-dorze.m4a */; };
+		E2FAA9772B0CE16E00C7E393 /* prostytutki-musza-byc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9292B0CE16900C7E393 /* prostytutki-musza-byc.m4a */; };
+		E2FAA9782B0CE16E00C7E393 /* ktore-sa-chetne-do-uzywania.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA92A2B0CE16900C7E393 /* ktore-sa-chetne-do-uzywania.m4a */; };
+		E2FAA9792B0CE16E00C7E393 /* ladne-te-ma-mozna-pobawic-sie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA92B2B0CE16900C7E393 /* ladne-te-ma-mozna-pobawic-sie.m4a */; };
+		E2FAA97A2B0CE16E00C7E393 /* ooo-cnote-stracila.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA92C2B0CE16900C7E393 /* ooo-cnote-stracila.m4a */; };
+		E2FAA97B2B0CE16E00C7E393 /* po-prostu-takie-prawo-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA92D2B0CE16900C7E393 /* po-prostu-takie-prawo-jest.m4a */; };
+		E2FAA97C2B0CE16E00C7E393 /* czepa-ci-spadla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA92E2B0CE16900C7E393 /* czepa-ci-spadla.m4a */; };
+		E2FAA97D2B0CE16E00C7E393 /* nudze-sie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA92F2B0CE16900C7E393 /* nudze-sie.m4a */; };
+		E2FAA97E2B0CE16E00C7E393 /* klocka-puscil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9302B0CE16900C7E393 /* klocka-puscil.m4a */; };
+		E2FAA97F2B0CE16E00C7E393 /* soltysowi-ze-wsi-troscinka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9312B0CE16900C7E393 /* soltysowi-ze-wsi-troscinka.m4a */; };
+		E2FAA9802B0CE16E00C7E393 /* o-a-jaki-ma-ladny-ten-ladny-ladny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9322B0CE16A00C7E393 /* o-a-jaki-ma-ladny-ten-ladny-ladny.m4a */; };
+		E2FAA9812B0CE16E00C7E393 /* to-wyglada-jak-u-kobiety-krocze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9332B0CE16A00C7E393 /* to-wyglada-jak-u-kobiety-krocze.m4a */; };
+		E2FAA9822B0CE16E00C7E393 /* ogolem-z-bombasu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9342B0CE16A00C7E393 /* ogolem-z-bombasu.m4a */; };
+		E2FAA9832B0CE16E00C7E393 /* idziemy?-na-bzzz-bzz-bzz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9352B0CE16A00C7E393 /* idziemy?-na-bzzz-bzz-bzz.m4a */; };
+		E2FAA9842B0CE16E00C7E393 /* pracujcie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9362B0CE16A00C7E393 /* pracujcie.m4a */; };
+		E2FAA9852B0CE16E00C7E393 /* dziurke-ma.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9372B0CE16A00C7E393 /* dziurke-ma.m4a */; };
+		E2FAA9862B0CE16E00C7E393 /* oni-zarabiaja-na-chleb-bozy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9382B0CE16A00C7E393 /* oni-zarabiaja-na-chleb-bozy.m4a */; };
+		E2FAA9872B0CE16E00C7E393 /* taka-golaska-bedzie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9392B0CE16A00C7E393 /* taka-golaska-bedzie.m4a */; };
+		E2FAA9882B0CE16E00C7E393 /* to-jest-ogolem-ciezka-praca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA93A2B0CE16A00C7E393 /* to-jest-ogolem-ciezka-praca.m4a */; };
+		E2FAA9892B0CE16E00C7E393 /* to-ja-mam-dwie-lewe-rece.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA93B2B0CE16A00C7E393 /* to-ja-mam-dwie-lewe-rece.m4a */; };
+		E2FAA98A2B0CE16E00C7E393 /* dzien-dobry-chcialem-wlasnie-powiedziec-dostalem-zolnierke.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA93C2B0CE16A00C7E393 /* dzien-dobry-chcialem-wlasnie-powiedziec-dostalem-zolnierke.m4a */; };
+		E2FAA98B2B0CE16E00C7E393 /* o-tak-powinno-byc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA93D2B0CE16A00C7E393 /* o-tak-powinno-byc.m4a */; };
+		E2FAA98C2B0CE16E00C7E393 /* bombaska-golaska.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA93E2B0CE16A00C7E393 /* bombaska-golaska.m4a */; };
+		E2FAA98D2B0CE16E00C7E393 /* bo-jestescie-kochane-kobiety.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA93F2B0CE16A00C7E393 /* bo-jestescie-kochane-kobiety.m4a */; };
+		E2FAA98E2B0CE16E00C7E393 /* az-do-konca-swoich-dni.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9402B0CE16A00C7E393 /* az-do-konca-swoich-dni.m4a */; };
+		E2FAA98F2B0CE16E00C7E393 /* do-kibla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9412B0CE16B00C7E393 /* do-kibla.m4a */; };
+		E2FAA9902B0CE16E00C7E393 /* najdrozsza-zolnierka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9422B0CE16B00C7E393 /* najdrozsza-zolnierka.m4a */; };
+		E2FAA9912B0CE16E00C7E393 /* moja-kochana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9432B0CE16B00C7E393 /* moja-kochana.m4a */; };
+		E2FAA9932B0CE16E00C7E393 /* ciezko-pracujecie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9452B0CE16B00C7E393 /* ciezko-pracujecie.m4a */; };
+		E2FAA9942B0CE16E00C7E393 /* o-dzien-dobry-wlasnie-dzisiaj-niedziela.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9462B0CE16B00C7E393 /* o-dzien-dobry-wlasnie-dzisiaj-niedziela.m4a */; };
+		E2FAA9952B0CE16E00C7E393 /* pokiwaj-glowa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9472B0CE16B00C7E393 /* pokiwaj-glowa.m4a */; };
+		E2FAA9962B0CE16E00C7E393 /* to-dobrze-to-dobrze-bedzie-zadowolona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9482B0CE16B00C7E393 /* to-dobrze-to-dobrze-bedzie-zadowolona.m4a */; };
+		E2FAA9972B0CE16E00C7E393 /* jestes-zadowolona?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9492B0CE16B00C7E393 /* jestes-zadowolona?.m4a */; };
+		E2FAA9982B0CE16E00C7E393 /* ona-jest-jeszcze-cnotliwa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA94A2B0CE16B00C7E393 /* ona-jest-jeszcze-cnotliwa.m4a */; };
+		E2FAA9992B0CE16E00C7E393 /* ah-cholera-ale.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA94B2B0CE16B00C7E393 /* ah-cholera-ale.m4a */; };
+		E2FAA99A2B0CE16E00C7E393 /* i-po-prostu-kupuja-sobie-takie-fajne-kobiety.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA94C2B0CE16B00C7E393 /* i-po-prostu-kupuja-sobie-takie-fajne-kobiety.m4a */; };
+		E2FAA99B2B0CE16E00C7E393 /* no-na-luzie-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA94D2B0CE16B00C7E393 /* no-na-luzie-jest.m4a */; };
+		E2FAA99C2B0CE16E00C7E393 /* i-kobiety-z-poznania.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA94E2B0CE16B00C7E393 /* i-kobiety-z-poznania.m4a */; };
+		E2FAA99D2B0CE16E00C7E393 /* takiego-duzego-bym-przytrzymal-dwa-trzy-dni.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA94F2B0CE16C00C7E393 /* takiego-duzego-bym-przytrzymal-dwa-trzy-dni.m4a */; };
+		E2FAA99E2B0CE16E00C7E393 /* w-polsce-nie-ma-pracy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9502B0CE16C00C7E393 /* w-polsce-nie-ma-pracy.m4a */; };
+		E2FAA99F2B0CE16E00C7E393 /* o-cholera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9512B0CE16C00C7E393 /* o-cholera.m4a */; };
+		E2FAA9A02B0CE16E00C7E393 /* ja-ja-naucze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9522B0CE16C00C7E393 /* ja-ja-naucze.m4a */; };
+		E2FAA9A12B0CE16E00C7E393 /* i-prosze-do-mnie-pisac-bede-sie-na-ten-teamt-wypowiadal.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9532B0CE16C00C7E393 /* i-prosze-do-mnie-pisac-bede-sie-na-ten-teamt-wypowiadal.m4a */; };
+		E2FAA9A22B0CE16E00C7E393 /* dobrze?-wygodnie-ci?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9542B0CE16C00C7E393 /* dobrze?-wygodnie-ci?.m4a */; };
+		E2FAA9A32B0CE16E00C7E393 /* dzien-dobry-y-chcialem-powiedziec-y.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9552B0CE16C00C7E393 /* dzien-dobry-y-chcialem-powiedziec-y.m4a */; };
+		E2FAA9A42B0CE16E00C7E393 /* i-bronic-ogolem-go-go.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9562B0CE16C00C7E393 /* i-bronic-ogolem-go-go.m4a */; };
+		E2FAA9A52B0CE16E00C7E393 /* i-co-nie-potrafie?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9572B0CE16C00C7E393 /* i-co-nie-potrafie?.m4a */; };
+		E2FAA9A62B0CE16E00C7E393 /* na-bzykanie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9582B0CE16C00C7E393 /* na-bzykanie.m4a */; };
+		E2FAA9A72B0CE16E00C7E393 /* chca-od-nich-zeby-milion-zlotych-miesiecznie-placili.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9592B0CE16C00C7E393 /* chca-od-nich-zeby-milion-zlotych-miesiecznie-placili.m4a */; };
+		E2FAA9A82B0CE16E00C7E393 /* od-razu-baby-bedziesz-czyscil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA95A2B0CE16C00C7E393 /* od-razu-baby-bedziesz-czyscil.m4a */; };
+		E2FAA9A92B0CE16E00C7E393 /* to-szynka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA95B2B0CE16C00C7E393 /* to-szynka.m4a */; };
+		E2FAA9AA2B0CE16E00C7E393 /* dwie-lewe-rece-mam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA95C2B0CE16C00C7E393 /* dwie-lewe-rece-mam.m4a */; };
+		E2FAA9AB2B0CE16E00C7E393 /* po-prostu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA95D2B0CE16C00C7E393 /* po-prostu.m4a */; };
+		E2FAA9AC2B0CE16E00C7E393 /* i-po-prostu-dziekuje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA95E2B0CE16D00C7E393 /* i-po-prostu-dziekuje.m4a */; };
+		E2FAA9AD2B0CE16E00C7E393 /* i-po-prostu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA95F2B0CE16D00C7E393 /* i-po-prostu.m4a */; };
+		E2FAA9AE2B0CE16E00C7E393 /* zobaczcie-ona-ma-dziurke.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9602B0CE16D00C7E393 /* zobaczcie-ona-ma-dziurke.m4a */; };
+		E2FAA9AF2B0CE16E00C7E393 /* na-luzie-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9612B0CE16D00C7E393 /* na-luzie-jest.m4a */; };
+		E2FAA9B02B0CE16E00C7E393 /* i-wiadomo-czego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9622B0CE16D00C7E393 /* i-wiadomo-czego.m4a */; };
+		E2FAA9B12B0CE16E00C7E393 /* nie-stekaj-tylko-tak-glosno.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9632B0CE16D00C7E393 /* nie-stekaj-tylko-tak-glosno.m4a */; };
+		E2FAA9B22B0CE16E00C7E393 /* i-kobieta-by-zrozumiala-od-razu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9642B0CE16D00C7E393 /* i-kobieta-by-zrozumiala-od-razu.m4a */; };
+		E2FAA9B32B0CE16E00C7E393 /* to-jest-zawod-najdluzszy-zawod-na-swiecie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9652B0CE16D00C7E393 /* to-jest-zawod-najdluzszy-zawod-na-swiecie.m4a */; };
+		E2FAA9B42B0CE16E00C7E393 /* bedzie-golaska-cholera-bedzie-golaska.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9662B0CE16D00C7E393 /* bedzie-golaska-cholera-bedzie-golaska.m4a */; };
+		E2FAA9B52B0CE16E00C7E393 /* jak-to-moga-zrobic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9672B0CE16D00C7E393 /* jak-to-moga-zrobic.m4a */; };
+		E2FAA9B62B0CE16E00C7E393 /* nie-przeszkadzaj-ja-ci-przeszkadzam?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9682B0CE16D00C7E393 /* nie-przeszkadzaj-ja-ci-przeszkadzam?.m4a */; };
+		E2FAA9B72B0CE16E00C7E393 /* kiwa-glowa-ze-zadowolona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9692B0CE16D00C7E393 /* kiwa-glowa-ze-zadowolona.m4a */; };
+		E2FAA9B82B0CE16E00C7E393 /* prosze-sie-nie-odzywac-ja-ci-nie-przeszkadzam-jak-cos-robisz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96A2B0CE16D00C7E393 /* prosze-sie-nie-odzywac-ja-ci-nie-przeszkadzam-jak-cos-robisz.m4a */; };
+		E2FAA9B92B0CE16E00C7E393 /* na-prawde-ona-ma-dziurke.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96B2B0CE16D00C7E393 /* na-prawde-ona-ma-dziurke.m4a */; };
+		E2FAA9BA2B0CE16E00C7E393 /* i-ogolem-bede-was-bronil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96C2B0CE16D00C7E393 /* i-ogolem-bede-was-bronil.m4a */; };
+		E2FAA9BB2B0CE16E00C7E393 /* to-zaraz-ja-to-wyrzuce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96D2B0CE16D00C7E393 /* to-zaraz-ja-to-wyrzuce.m4a */; };
+		E2FAA9BC2B0CE16E00C7E393 /* i-taki-wielki-by-wylazl.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96E2B0CE16E00C7E393 /* i-taki-wielki-by-wylazl.m4a */; };
+		E2FAA9BD2B0CE16E00C7E393 /* leci-to.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96F2B0CE16E00C7E393 /* leci-to.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1030,8 +1266,8 @@
 		E2BDF4042AF5423800D136C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareContent.swift; sourceTree = "<group>"; };
 		E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
-		E2C6F12E2AF6DD2400C8B73B /* SoundboardListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardListView.swift; sourceTree = "<group>"; };
-		E2C6F12F2AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundboardListView+ViewModel.swift"; sourceTree = "<group>"; };
+		E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardList.swift; sourceTree = "<group>"; };
+		E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundboardList+ViewModel.swift"; sourceTree = "<group>"; };
 		E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesSoundTip.swift; sourceTree = "<group>"; };
 		E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitView.swift; sourceTree = "<group>"; };
@@ -1039,7 +1275,7 @@
 		E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
 		E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCountView.swift; sourceTree = "<group>"; };
 		E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRowView.swift; sourceTree = "<group>"; };
+		E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRow.swift; sourceTree = "<group>"; };
 		E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		E2C6F13F2AF6DD2400C8B73B /* PathError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathError.swift; sourceTree = "<group>"; };
 		E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
@@ -1249,6 +1485,222 @@
 		E2C6F2EF2AF6DF0E00C8B73B /* Konon Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konon Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C6F2F52AF6DF0F00C8B73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2FAA7E22B0CC20500C7E393 /* Major Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Major Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2FAA8052B0CC8AF00C7E393 /* ah-dzien-dobry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ah-dzien-dobry.m4a"; sourceTree = "<group>"; };
+		E2FAA8142B0CCC4800C7E393 /* o-salatka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-salatka.m4a"; sourceTree = "<group>"; };
+		E2FAA8152B0CCC4800C7E393 /* przyprawy-od-pizzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przyprawy-od-pizzy.m4a"; sourceTree = "<group>"; };
+		E2FAA8162B0CCC4800C7E393 /* cieplo-zeby-zjesc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cieplo-zeby-zjesc.m4a"; sourceTree = "<group>"; };
+		E2FAA8172B0CCC4800C7E393 /* i-cebulka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-cebulka.m4a"; sourceTree = "<group>"; };
+		E2FAA8182B0CCC4800C7E393 /* i-ogorek.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-ogorek.m4a"; sourceTree = "<group>"; };
+		E2FAA8192B0CCC4900C7E393 /* i-dziekujemy-za-ta-osobe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-dziekujemy-za-ta-osobe.m4a"; sourceTree = "<group>"; };
+		E2FAA81A2B0CCC4900C7E393 /* keczup-ten-dalem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "keczup-ten-dalem.m4a"; sourceTree = "<group>"; };
+		E2FAA81B2B0CCC4900C7E393 /* no-wlasnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-wlasnie.m4a"; sourceTree = "<group>"; };
+		E2FAA81C2B0CCC4900C7E393 /* kababa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kababa.m4a; sourceTree = "<group>"; };
+		E2FAA8262B0CCC8A00C7E393 /* to-wlasnie-wczorajszy-kabab.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-wlasnie-wczorajszy-kabab.m4a"; sourceTree = "<group>"; };
+		E2FAA8272B0CCC8A00C7E393 /* to-pomidorek.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-pomidorek.m4a"; sourceTree = "<group>"; };
+		E2FAA8282B0CCC8A00C7E393 /* takie-chrupiace-sie-zrobilo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "takie-chrupiace-sie-zrobilo.m4a"; sourceTree = "<group>"; };
+		E2FAA8292B0CCC8A00C7E393 /* zeby-lepszy-byl.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zeby-lepszy-byl.m4a"; sourceTree = "<group>"; };
+		E2FAA82E2B0CCEC900C7E393 /* ogolem-jak-to-sie-mowi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ogolem-jak-to-sie-mowi.m4a"; sourceTree = "<group>"; };
+		E2FAA82F2B0CCEC900C7E393 /* pozdrawiam-z-jednostki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pozdrawiam-z-jednostki.m4a"; sourceTree = "<group>"; };
+		E2FAA8302B0CCECA00C7E393 /* kapitanow-nie-kapitanow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kapitanow-nie-kapitanow.m4a"; sourceTree = "<group>"; };
+		E2FAA8312B0CCECA00C7E393 /* kaprala.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaprala.m4a; sourceTree = "<group>"; };
+		E2FAA8322B0CCECA00C7E393 /* ktora-wysylala-kababy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ktora-wysylala-kababy.m4a"; sourceTree = "<group>"; };
+		E2FAA8332B0CCECA00C7E393 /* o-ta-godzina-to-obiad-druga-bedzie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-ta-godzina-to-obiad-druga-bedzie.m4a"; sourceTree = "<group>"; };
+		E2FAA8342B0CCECA00C7E393 /* wszystkich-zolnierzy-pozdrawiam-tam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wszystkich-zolnierzy-pozdrawiam-tam.m4a"; sourceTree = "<group>"; };
+		E2FAA8352B0CCECA00C7E393 /* i-zycze-im.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-zycze-im.m4a"; sourceTree = "<group>"; };
+		E2FAA8362B0CCECA00C7E393 /* zeby-lepsze-bylo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zeby-lepsze-bylo.m4a"; sourceTree = "<group>"; };
+		E2FAA8372B0CCECA00C7E393 /* dzisiaj-dzien-wiosny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzisiaj-dzien-wiosny.m4a"; sourceTree = "<group>"; };
+		E2FAA8422B0CCF8D00C7E393 /* to-w-jednostce-powinni-byc-kababy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-w-jednostce-powinni-byc-kababy.m4a"; sourceTree = "<group>"; };
+		E2FAA8432B0CCF8D00C7E393 /* zjesc-kababa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zjesc-kababa.m4a"; sourceTree = "<group>"; };
+		E2FAA8442B0CCF8D00C7E393 /* wszystkich-zolnierzy-pozdrawiam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wszystkich-zolnierzy-pozdrawiam.m4a"; sourceTree = "<group>"; };
+		E2FAA8452B0CCF8D00C7E393 /* na-stolowce-powinni-wszyscy-zolnierze-jesc-kababy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-stolowce-powinni-wszyscy-zolnierze-jesc-kababy.m4a"; sourceTree = "<group>"; };
+		E2FAA8462B0CCF8D00C7E393 /* i-wszyscy-beda-kababy-jesc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-wszyscy-beda-kababy-jesc.m4a"; sourceTree = "<group>"; };
+		E2FAA8472B0CCF8D00C7E393 /* dobry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dobry.m4a; sourceTree = "<group>"; };
+		E2FAA8482B0CCF8D00C7E393 /* radosna.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = radosna.m4a; sourceTree = "<group>"; };
+		E2FAA8492B0CCF8D00C7E393 /* na-wiosne-trzeba-jesc-kababa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-wiosne-trzeba-jesc-kababa.m4a"; sourceTree = "<group>"; };
+		E2FAA84A2B0CCF8D00C7E393 /* zeby-byla-lepsza-wiosna.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zeby-byla-lepsza-wiosna.m4a"; sourceTree = "<group>"; };
+		E2FAA84B2B0CCF8D00C7E393 /* i-chorazy-tez-zdazy-zjesc-kababa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-chorazy-tez-zdazy-zjesc-kababa.m4a"; sourceTree = "<group>"; };
+		E2FAA8562B0CD11400C7E393 /* sraka-ty-nie-wiesz-i-pier-glupoty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sraka-ty-nie-wiesz-i-pier-glupoty.m4a"; sourceTree = "<group>"; };
+		E2FAA8572B0CD11500C7E393 /* to-takie-ludzie-to-sa-dla-lmnie-ludzie-psy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-takie-ludzie-to-sa-dla-lmnie-ludzie-psy.m4a"; sourceTree = "<group>"; };
+		E2FAA8582B0CD11500C7E393 /* i-szczury.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-szczury.m4a"; sourceTree = "<group>"; };
+		E2FAA8592B0CD11500C7E393 /* bylem-w-mundurze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bylem-w-mundurze.m4a"; sourceTree = "<group>"; };
+		E2FAA85A2B0CD11500C7E393 /* ty-nasrane-masz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-nasrane-masz.m4a"; sourceTree = "<group>"; };
+		E2FAA85B2B0CD11500C7E393 /* no-prosze-zadzwonic-na-policje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-prosze-zadzwonic-na-policje.m4a"; sourceTree = "<group>"; };
+		E2FAA85C2B0CD11600C7E393 /* non-stop-smierdzi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "non-stop-smierdzi.m4a"; sourceTree = "<group>"; };
+		E2FAA85D2B0CD11600C7E393 /* i-kotleta-mielonego-z-tym-z-ziemniakami.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-kotleta-mielonego-z-tym-z-ziemniakami.m4a"; sourceTree = "<group>"; };
+		E2FAA85E2B0CD11600C7E393 /* i-wlasnie-teraz-jest-dowod.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-wlasnie-teraz-jest-dowod.m4a"; sourceTree = "<group>"; };
+		E2FAA85F2B0CD11600C7E393 /* na-krzywy-ryj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-krzywy-ryj.m4a"; sourceTree = "<group>"; };
+		E2FAA8602B0CD11700C7E393 /* tak-halo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tak-halo.m4a"; sourceTree = "<group>"; };
+		E2FAA8612B0CD11700C7E393 /* bo-komputer-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-komputer-jest.m4a"; sourceTree = "<group>"; };
+		E2FAA8622B0CD11700C7E393 /* jak-to-jest-moj-kura-wczorajszy-obiad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-to-jest-moj-kura-wczorajszy-obiad.m4a"; sourceTree = "<group>"; };
+		E2FAA8632B0CD11700C7E393 /* zamknij-ta-dupe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zamknij-ta-dupe.m4a"; sourceTree = "<group>"; };
+		E2FAA8642B0CD11700C7E393 /* ile-razy-sie-zesrales.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ile-razy-sie-zesrales.m4a"; sourceTree = "<group>"; };
+		E2FAA8652B0CD11700C7E393 /* wez-zamknij-ta-pisde-swoja.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wez-zamknij-ta-pisde-swoja.m4a"; sourceTree = "<group>"; };
+		E2FAA8662B0CD11800C7E393 /* srac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = srac.m4a; sourceTree = "<group>"; };
+		E2FAA8672B0CD11800C7E393 /* o-i-to-nagrywam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-i-to-nagrywam.m4a"; sourceTree = "<group>"; };
+		E2FAA8682B0CD11900C7E393 /* ja-tylko-raz-w-zyciu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-tylko-raz-w-zyciu.m4a"; sourceTree = "<group>"; };
+		E2FAA8692B0CD11900C7E393 /* oni-nie-nadaja-sie-do-zycia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "oni-nie-nadaja-sie-do-zycia.m4a"; sourceTree = "<group>"; };
+		E2FAA87E2B0CD1FE00C7E393 /* do-pieca-moze-wjedz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "do-pieca-moze-wjedz.m4a"; sourceTree = "<group>"; };
+		E2FAA87F2B0CD1FE00C7E393 /* juz-chciales-wymeldowac-mnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "juz-chciales-wymeldowac-mnie.m4a"; sourceTree = "<group>"; };
+		E2FAA8802B0CD1FE00C7E393 /* 800zl-zaplacilem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "800zl-zaplacilem.m4a"; sourceTree = "<group>"; };
+		E2FAA8812B0CD1FE00C7E393 /* i-moja-kamera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-moja-kamera.m4a"; sourceTree = "<group>"; };
+		E2FAA8822B0CD1FE00C7E393 /* no-baw-sie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-baw-sie.m4a"; sourceTree = "<group>"; };
+		E2FAA8832B0CD1FE00C7E393 /* no-kogo-zawolasz-kogos?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-kogo-zawolasz-kogos?.m4a"; sourceTree = "<group>"; };
+		E2FAA8842B0CD1FE00C7E393 /* piwo-kupil-kur.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "piwo-kupil-kur.m4a"; sourceTree = "<group>"; };
+		E2FAA8852B0CD1FE00C7E393 /* tak-jak-swoimi-jajkami-sie-bawisz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tak-jak-swoimi-jajkami-sie-bawisz.m4a"; sourceTree = "<group>"; };
+		E2FAA8862B0CD1FE00C7E393 /* ja-kupilem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-kupilem.m4a"; sourceTree = "<group>"; };
+		E2FAA8872B0CD1FE00C7E393 /* no-kto-ma.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-kto-ma.m4a"; sourceTree = "<group>"; };
+		E2FAA8922B0CD2D600C7E393 /* kurde-idz-sobie-do-swojego-opla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kurde-idz-sobie-do-swojego-opla.m4a"; sourceTree = "<group>"; };
+		E2FAA8932B0CD2D700C7E393 /* to-uciekaj-do-moskwy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-uciekaj-do-moskwy.m4a"; sourceTree = "<group>"; };
+		E2FAA8942B0CD2D700C7E393 /* kurda-sie-nadajesz-do-ubicia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kurda-sie-nadajesz-do-ubicia.m4a"; sourceTree = "<group>"; };
+		E2FAA8952B0CD2D700C7E393 /* prosze-nie-przeszkadzac-w-mojej-rozmowie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "prosze-nie-przeszkadzac-w-mojej-rozmowie.m4a"; sourceTree = "<group>"; };
+		E2FAA8962B0CD2D700C7E393 /* a-ty-jestes-prawdziwy-wiesniak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-ty-jestes-prawdziwy-wiesniak.m4a"; sourceTree = "<group>"; };
+		E2FAA8972B0CD2D700C7E393 /* nagrywa-sie-mnie-co-ja-robie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nagrywa-sie-mnie-co-ja-robie.m4a"; sourceTree = "<group>"; };
+		E2FAA8982B0CD2D700C7E393 /* tam-do-swojej-rodziny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tam-do-swojej-rodziny.m4a"; sourceTree = "<group>"; };
+		E2FAA8992B0CD2D700C7E393 /* to-sie-nagrywa?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-sie-nagrywa?.m4a"; sourceTree = "<group>"; };
+		E2FAA89A2B0CD2D700C7E393 /* ty-nie-jestes-z-bialegostoku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-nie-jestes-z-bialegostoku.m4a"; sourceTree = "<group>"; };
+		E2FAA89B2B0CD2D700C7E393 /* bo-ja-mowie-prawde-jak-jest-ogolem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-ja-mowie-prawde-jak-jest-ogolem.m4a"; sourceTree = "<group>"; };
+		E2FAA8A62B0CD3C900C7E393 /* przepraszam-ze-tak-powiedzialem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przepraszam-ze-tak-powiedzialem.m4a"; sourceTree = "<group>"; };
+		E2FAA8A72B0CD3C900C7E393 /* jak-w-taki-sposob-mnie-traktujesz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-w-taki-sposob-mnie-traktujesz.m4a"; sourceTree = "<group>"; };
+		E2FAA8A82B0CD3C900C7E393 /* powiedzialem-tobie-ze-ja-nic-nie-bede-kupywal.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "powiedzialem-tobie-ze-ja-nic-nie-bede-kupywal.m4a"; sourceTree = "<group>"; };
+		E2FAA8A92B0CD3C900C7E393 /* jaki-to-prezydent.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jaki-to-prezydent.m4a"; sourceTree = "<group>"; };
+		E2FAA8AA2B0CD3C900C7E393 /* tak-traktujesz-ludzi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tak-traktujesz-ludzi.m4a"; sourceTree = "<group>"; };
+		E2FAA8AB2B0CD3C900C7E393 /* masz-sobie-wyrzuc-to.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "masz-sobie-wyrzuc-to.m4a"; sourceTree = "<group>"; };
+		E2FAA8AC2B0CD3CA00C7E393 /* wyrzuc-to-do-smietnika.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wyrzuc-to-do-smietnika.m4a"; sourceTree = "<group>"; };
+		E2FAA8AD2B0CD3CA00C7E393 /* sobie-babe-wynajmij.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sobie-babe-wynajmij.m4a"; sourceTree = "<group>"; };
+		E2FAA8AE2B0CD3CA00C7E393 /* to-ja-bede-obiad-tobie-robil?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-ja-bede-obiad-tobie-robil?.m4a"; sourceTree = "<group>"; };
+		E2FAA8AF2B0CD3CA00C7E393 /* powiedzialem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = powiedzialem.m4a; sourceTree = "<group>"; };
+		E2FAA8BA2B0CDBB600C7E393 /* ze-swoimi-jak-to-sie-mowi-laskami.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-swoimi-jak-to-sie-mowi-laskami.m4a"; sourceTree = "<group>"; };
+		E2FAA8BB2B0CDBB600C7E393 /* z-laskami-uciekaja.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "z-laskami-uciekaja.m4a"; sourceTree = "<group>"; };
+		E2FAA8BC2B0CDBB600C7E393 /* i-ogolem-chcialem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-ogolem-chcialem.m4a"; sourceTree = "<group>"; };
+		E2FAA8BD2B0CDBB600C7E393 /* zeby-sie-umawiali.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zeby-sie-umawiali.m4a"; sourceTree = "<group>"; };
+		E2FAA8BE2B0CDBB600C7E393 /* moje-zadlo-chyba-czeka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moje-zadlo-chyba-czeka.m4a"; sourceTree = "<group>"; };
+		E2FAA8BF2B0CDBB600C7E393 /* samotne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = samotne.m4a; sourceTree = "<group>"; };
+		E2FAA8C02B0CDBB600C7E393 /* zolnierki-z-bombasu-mi-sie-snia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zolnierki-z-bombasu-mi-sie-snia.m4a"; sourceTree = "<group>"; };
+		E2FAA8C12B0CDBB600C7E393 /* ale-tera-bedzie-lepiej-juz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-tera-bedzie-lepiej-juz.m4a"; sourceTree = "<group>"; };
+		E2FAA8C22B0CDBB600C7E393 /* my-kiedys-uciekalismy-do-kina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "my-kiedys-uciekalismy-do-kina.m4a"; sourceTree = "<group>"; };
+		E2FAA8C32B0CDBB700C7E393 /* moze-ktoras-bedzie-chciala-sie-zapoznac-blizej-ze-mna.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moze-ktoras-bedzie-chciala-sie-zapoznac-blizej-ze-mna.m4a"; sourceTree = "<group>"; };
+		E2FAA8C42B0CDBB700C7E393 /* to-zolnierki-to-sa-takie-grabne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-zolnierki-to-sa-takie-grabne.m4a"; sourceTree = "<group>"; };
+		E2FAA8C52B0CDBB700C7E393 /* piwko-to-jest-jak-rosol.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "piwko-to-jest-jak-rosol.m4a"; sourceTree = "<group>"; };
+		E2FAA8C62B0CDBB700C7E393 /* ktore-mozna-na-siurka-wlozyc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ktore-mozna-na-siurka-wlozyc.m4a"; sourceTree = "<group>"; };
+		E2FAA8C72B0CDBB700C7E393 /* ja-ogolem-chcialbym-jeszcze-wypic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-ogolem-chcialbym-jeszcze-wypic.m4a"; sourceTree = "<group>"; };
+		E2FAA8C82B0CDBB700C7E393 /* na-kogiel-mogiel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-kogiel-mogiel.m4a"; sourceTree = "<group>"; };
+		E2FAA8C92B0CDBB700C7E393 /* tam-gdzie-trzeba.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tam-gdzie-trzeba.m4a"; sourceTree = "<group>"; };
+		E2FAA8CA2B0CDBB700C7E393 /* taka-super-by-bylo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "taka-super-by-bylo.m4a"; sourceTree = "<group>"; };
+		E2FAA8CB2B0CDBB700C7E393 /* karolinko.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = karolinko.m4a; sourceTree = "<group>"; };
+		E2FAA8CC2B0CDBB700C7E393 /* i-ogolem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-ogolem.m4a"; sourceTree = "<group>"; };
+		E2FAA8CD2B0CDBB700C7E393 /* ogolem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ogolem.m4a; sourceTree = "<group>"; };
+		E2FAA8CE2B0CDBB700C7E393 /* wszystkich-ludzi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wszystkich-ludzi.m4a"; sourceTree = "<group>"; };
+		E2FAA8CF2B0CDBB700C7E393 /* do-kina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "do-kina.m4a"; sourceTree = "<group>"; };
+		E2FAA8D02B0CDBB700C7E393 /* bedzie-cieplej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bedzie-cieplej.m4a"; sourceTree = "<group>"; };
+		E2FAA8D12B0CDBB800C7E393 /* i-moze-sie-umowimy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-moze-sie-umowimy.m4a"; sourceTree = "<group>"; };
+		E2FAA8D22B0CDBB800C7E393 /* bialostockie-piwo-to-jest-najlepsze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bialostockie-piwo-to-jest-najlepsze.m4a"; sourceTree = "<group>"; };
+		E2FAA8D32B0CDBB800C7E393 /* na-beda-jesc-kababy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-beda-jesc-kababy.m4a"; sourceTree = "<group>"; };
+		E2FAA8D42B0CDBB800C7E393 /* ci-co-lubia-pic-piweczko.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ci-co-lubia-pic-piweczko.m4a"; sourceTree = "<group>"; };
+		E2FAA8D52B0CDBB800C7E393 /* ja-jak-osa-bym-uzadlil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-jak-osa-bym-uzadlil.m4a"; sourceTree = "<group>"; };
+		E2FAA8D62B0CDBB800C7E393 /* ruszac-skora.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ruszac-skora.m4a"; sourceTree = "<group>"; };
+		E2FAA8D72B0CDBB800C7E393 /* ale-juz-pol-zjadlem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-juz-pol-zjadlem.m4a"; sourceTree = "<group>"; };
+		E2FAA8D82B0CDBB800C7E393 /* good.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = good.m4a; sourceTree = "<group>"; };
+		E2FAA8D92B0CDBB800C7E393 /* no-sloneczko-rozpgadza-sie-troszeczke.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-sloneczko-rozpgadza-sie-troszeczke.m4a"; sourceTree = "<group>"; };
+		E2FAA8DA2B0CDBB800C7E393 /* no-wszystkiego-dobrego-wszystkim.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-wszystkiego-dobrego-wszystkim.m4a"; sourceTree = "<group>"; };
+		E2FAA8DB2B0CDBB800C7E393 /* sam-patelnie-bym-wiadomo-co-zrobil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sam-patelnie-bym-wiadomo-co-zrobil.m4a"; sourceTree = "<group>"; };
+		E2FAA8DC2B0CDBB800C7E393 /* az-jak-mi-sie-snilo-to-siurek-sie-podnosil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "az-jak-mi-sie-snilo-to-siurek-sie-podnosil.m4a"; sourceTree = "<group>"; };
+		E2FAA8DD2B0CDBB800C7E393 /* i-szaleje-moje-serce-jak-ja-widze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-szaleje-moje-serce-jak-ja-widze.m4a"; sourceTree = "<group>"; };
+		E2FAA8DE2B0CDBB800C7E393 /* ty-jestes-cudowna-kobieta.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-jestes-cudowna-kobieta.m4a"; sourceTree = "<group>"; };
+		E2FAA8DF2B0CDBB800C7E393 /* moge-sobie-wypic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moge-sobie-wypic.m4a"; sourceTree = "<group>"; };
+		E2FAA8E02B0CDBB800C7E393 /* ja-chcialbym-powiedziec.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-chcialbym-powiedziec.m4a"; sourceTree = "<group>"; };
+		E2FAA8E12B0CDBB900C7E393 /* musze-pania-chyba-stestowac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "musze-pania-chyba-stestowac.m4a"; sourceTree = "<group>"; };
+		E2FAA8E22B0CDBB900C7E393 /* niech-te-samoloty-jego-nie-startuja-na-baltyk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "niech-te-samoloty-jego-nie-startuja-na-baltyk.m4a"; sourceTree = "<group>"; };
+		E2FAA8E32B0CDBB900C7E393 /* wjade-w-niego-i-bomba.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wjade-w-niego-i-bomba.m4a"; sourceTree = "<group>"; };
+		E2FAA8E42B0CDBB900C7E393 /* ale-mi-sie-chce-ja-poznac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-mi-sie-chce-ja-poznac.m4a"; sourceTree = "<group>"; };
+		E2FAA8E52B0CDBB900C7E393 /* na-lizanie-nie-wiadomo-czego-jeszcze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-lizanie-nie-wiadomo-czego-jeszcze.m4a"; sourceTree = "<group>"; };
+		E2FAA8E62B0CDBB900C7E393 /* prosze-napsac-swoj-number-ja-zadzwonie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "prosze-napsac-swoj-number-ja-zadzwonie.m4a"; sourceTree = "<group>"; };
+		E2FAA8E72B0CDBB900C7E393 /* to-nie-wstyd-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-nie-wstyd-jest.m4a"; sourceTree = "<group>"; };
+		E2FAA8E82B0CDBB900C7E393 /* na-niespodzianke.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-niespodzianke.m4a"; sourceTree = "<group>"; };
+		E2FAA8E92B0CDBB900C7E393 /* chcialbym-ich-wszystkich-bardzo-serdecznie-pozdrowic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chcialbym-ich-wszystkich-bardzo-serdecznie-pozdrowic.m4a"; sourceTree = "<group>"; };
+		E2FAA8EA2B0CDBB900C7E393 /* a-ja-pije-nieraz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-ja-pije-nieraz.m4a"; sourceTree = "<group>"; };
+		E2FAA8EB2B0CDBB900C7E393 /* wisniowke-jakas-taka-dobra-mocniejsza.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wisniowke-jakas-taka-dobra-mocniejsza.m4a"; sourceTree = "<group>"; };
+		E2FAA8EC2B0CDBB900C7E393 /* eleganckie-ze-guma-mala.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "eleganckie-ze-guma-mala.m4a"; sourceTree = "<group>"; };
+		E2FAA8ED2B0CDBB900C7E393 /* ja-uwielbiam-wszystkie-wspanialem-kochajace-kobiety.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-uwielbiam-wszystkie-wspanialem-kochajace-kobiety.m4a"; sourceTree = "<group>"; };
+		E2FAA9222B0CE16800C7E393 /* co-ty-myslisz-nigdy-nie-jezdzilem-samochodem?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "co-ty-myslisz-nigdy-nie-jezdzilem-samochodem?.m4a"; sourceTree = "<group>"; };
+		E2FAA9232B0CE16800C7E393 /* czy-to-fajnie-bylo-by-tak-przyjemnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "czy-to-fajnie-bylo-by-tak-przyjemnie.m4a"; sourceTree = "<group>"; };
+		E2FAA9242B0CE16800C7E393 /* ona-bardzo-piekna-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ona-bardzo-piekna-jest.m4a"; sourceTree = "<group>"; };
+		E2FAA9252B0CE16800C7E393 /* przyleciala-z-bombusu-bombaska.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przyleciala-z-bombusu-bombaska.m4a"; sourceTree = "<group>"; };
+		E2FAA9262B0CE16800C7E393 /* moglo-by-te-zadlo-polykac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moglo-by-te-zadlo-polykac.m4a"; sourceTree = "<group>"; };
+		E2FAA9272B0CE16900C7E393 /* ja-nie-bede-ja-jeszcze-kul.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-nie-bede-ja-jeszcze-kul.m4a"; sourceTree = "<group>"; };
+		E2FAA9282B0CE16900C7E393 /* sobie-ten-robisz-dorze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sobie-ten-robisz-dorze.m4a"; sourceTree = "<group>"; };
+		E2FAA9292B0CE16900C7E393 /* prostytutki-musza-byc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "prostytutki-musza-byc.m4a"; sourceTree = "<group>"; };
+		E2FAA92A2B0CE16900C7E393 /* ktore-sa-chetne-do-uzywania.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ktore-sa-chetne-do-uzywania.m4a"; sourceTree = "<group>"; };
+		E2FAA92B2B0CE16900C7E393 /* ladne-te-ma-mozna-pobawic-sie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ladne-te-ma-mozna-pobawic-sie.m4a"; sourceTree = "<group>"; };
+		E2FAA92C2B0CE16900C7E393 /* ooo-cnote-stracila.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ooo-cnote-stracila.m4a"; sourceTree = "<group>"; };
+		E2FAA92D2B0CE16900C7E393 /* po-prostu-takie-prawo-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "po-prostu-takie-prawo-jest.m4a"; sourceTree = "<group>"; };
+		E2FAA92E2B0CE16900C7E393 /* czepa-ci-spadla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "czepa-ci-spadla.m4a"; sourceTree = "<group>"; };
+		E2FAA92F2B0CE16900C7E393 /* nudze-sie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nudze-sie.m4a"; sourceTree = "<group>"; };
+		E2FAA9302B0CE16900C7E393 /* klocka-puscil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "klocka-puscil.m4a"; sourceTree = "<group>"; };
+		E2FAA9312B0CE16900C7E393 /* soltysowi-ze-wsi-troscinka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "soltysowi-ze-wsi-troscinka.m4a"; sourceTree = "<group>"; };
+		E2FAA9322B0CE16A00C7E393 /* o-a-jaki-ma-ladny-ten-ladny-ladny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-a-jaki-ma-ladny-ten-ladny-ladny.m4a"; sourceTree = "<group>"; };
+		E2FAA9332B0CE16A00C7E393 /* to-wyglada-jak-u-kobiety-krocze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-wyglada-jak-u-kobiety-krocze.m4a"; sourceTree = "<group>"; };
+		E2FAA9342B0CE16A00C7E393 /* ogolem-z-bombasu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ogolem-z-bombasu.m4a"; sourceTree = "<group>"; };
+		E2FAA9352B0CE16A00C7E393 /* idziemy?-na-bzzz-bzz-bzz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "idziemy?-na-bzzz-bzz-bzz.m4a"; sourceTree = "<group>"; };
+		E2FAA9362B0CE16A00C7E393 /* pracujcie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pracujcie.m4a; sourceTree = "<group>"; };
+		E2FAA9372B0CE16A00C7E393 /* dziurke-ma.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dziurke-ma.m4a"; sourceTree = "<group>"; };
+		E2FAA9382B0CE16A00C7E393 /* oni-zarabiaja-na-chleb-bozy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "oni-zarabiaja-na-chleb-bozy.m4a"; sourceTree = "<group>"; };
+		E2FAA9392B0CE16A00C7E393 /* taka-golaska-bedzie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "taka-golaska-bedzie.m4a"; sourceTree = "<group>"; };
+		E2FAA93A2B0CE16A00C7E393 /* to-jest-ogolem-ciezka-praca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-ogolem-ciezka-praca.m4a"; sourceTree = "<group>"; };
+		E2FAA93B2B0CE16A00C7E393 /* to-ja-mam-dwie-lewe-rece.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-ja-mam-dwie-lewe-rece.m4a"; sourceTree = "<group>"; };
+		E2FAA93C2B0CE16A00C7E393 /* dzien-dobry-chcialem-wlasnie-powiedziec-dostalem-zolnierke.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzien-dobry-chcialem-wlasnie-powiedziec-dostalem-zolnierke.m4a"; sourceTree = "<group>"; };
+		E2FAA93D2B0CE16A00C7E393 /* o-tak-powinno-byc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-tak-powinno-byc.m4a"; sourceTree = "<group>"; };
+		E2FAA93E2B0CE16A00C7E393 /* bombaska-golaska.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bombaska-golaska.m4a"; sourceTree = "<group>"; };
+		E2FAA93F2B0CE16A00C7E393 /* bo-jestescie-kochane-kobiety.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-jestescie-kochane-kobiety.m4a"; sourceTree = "<group>"; };
+		E2FAA9402B0CE16A00C7E393 /* az-do-konca-swoich-dni.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "az-do-konca-swoich-dni.m4a"; sourceTree = "<group>"; };
+		E2FAA9412B0CE16B00C7E393 /* do-kibla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "do-kibla.m4a"; sourceTree = "<group>"; };
+		E2FAA9422B0CE16B00C7E393 /* najdrozsza-zolnierka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "najdrozsza-zolnierka.m4a"; sourceTree = "<group>"; };
+		E2FAA9432B0CE16B00C7E393 /* moja-kochana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moja-kochana.m4a"; sourceTree = "<group>"; };
+		E2FAA9452B0CE16B00C7E393 /* ciezko-pracujecie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ciezko-pracujecie.m4a"; sourceTree = "<group>"; };
+		E2FAA9462B0CE16B00C7E393 /* o-dzien-dobry-wlasnie-dzisiaj-niedziela.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-dzien-dobry-wlasnie-dzisiaj-niedziela.m4a"; sourceTree = "<group>"; };
+		E2FAA9472B0CE16B00C7E393 /* pokiwaj-glowa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pokiwaj-glowa.m4a"; sourceTree = "<group>"; };
+		E2FAA9482B0CE16B00C7E393 /* to-dobrze-to-dobrze-bedzie-zadowolona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-dobrze-to-dobrze-bedzie-zadowolona.m4a"; sourceTree = "<group>"; };
+		E2FAA9492B0CE16B00C7E393 /* jestes-zadowolona?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jestes-zadowolona?.m4a"; sourceTree = "<group>"; };
+		E2FAA94A2B0CE16B00C7E393 /* ona-jest-jeszcze-cnotliwa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ona-jest-jeszcze-cnotliwa.m4a"; sourceTree = "<group>"; };
+		E2FAA94B2B0CE16B00C7E393 /* ah-cholera-ale.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ah-cholera-ale.m4a"; sourceTree = "<group>"; };
+		E2FAA94C2B0CE16B00C7E393 /* i-po-prostu-kupuja-sobie-takie-fajne-kobiety.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-po-prostu-kupuja-sobie-takie-fajne-kobiety.m4a"; sourceTree = "<group>"; };
+		E2FAA94D2B0CE16B00C7E393 /* no-na-luzie-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-na-luzie-jest.m4a"; sourceTree = "<group>"; };
+		E2FAA94E2B0CE16B00C7E393 /* i-kobiety-z-poznania.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-kobiety-z-poznania.m4a"; sourceTree = "<group>"; };
+		E2FAA94F2B0CE16C00C7E393 /* takiego-duzego-bym-przytrzymal-dwa-trzy-dni.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "takiego-duzego-bym-przytrzymal-dwa-trzy-dni.m4a"; sourceTree = "<group>"; };
+		E2FAA9502B0CE16C00C7E393 /* w-polsce-nie-ma-pracy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "w-polsce-nie-ma-pracy.m4a"; sourceTree = "<group>"; };
+		E2FAA9512B0CE16C00C7E393 /* o-cholera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-cholera.m4a"; sourceTree = "<group>"; };
+		E2FAA9522B0CE16C00C7E393 /* ja-ja-naucze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-ja-naucze.m4a"; sourceTree = "<group>"; };
+		E2FAA9532B0CE16C00C7E393 /* i-prosze-do-mnie-pisac-bede-sie-na-ten-teamt-wypowiadal.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-prosze-do-mnie-pisac-bede-sie-na-ten-teamt-wypowiadal.m4a"; sourceTree = "<group>"; };
+		E2FAA9542B0CE16C00C7E393 /* dobrze?-wygodnie-ci?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dobrze?-wygodnie-ci?.m4a"; sourceTree = "<group>"; };
+		E2FAA9552B0CE16C00C7E393 /* dzien-dobry-y-chcialem-powiedziec-y.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzien-dobry-y-chcialem-powiedziec-y.m4a"; sourceTree = "<group>"; };
+		E2FAA9562B0CE16C00C7E393 /* i-bronic-ogolem-go-go.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-bronic-ogolem-go-go.m4a"; sourceTree = "<group>"; };
+		E2FAA9572B0CE16C00C7E393 /* i-co-nie-potrafie?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-co-nie-potrafie?.m4a"; sourceTree = "<group>"; };
+		E2FAA9582B0CE16C00C7E393 /* na-bzykanie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-bzykanie.m4a"; sourceTree = "<group>"; };
+		E2FAA9592B0CE16C00C7E393 /* chca-od-nich-zeby-milion-zlotych-miesiecznie-placili.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chca-od-nich-zeby-milion-zlotych-miesiecznie-placili.m4a"; sourceTree = "<group>"; };
+		E2FAA95A2B0CE16C00C7E393 /* od-razu-baby-bedziesz-czyscil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "od-razu-baby-bedziesz-czyscil.m4a"; sourceTree = "<group>"; };
+		E2FAA95B2B0CE16C00C7E393 /* to-szynka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-szynka.m4a"; sourceTree = "<group>"; };
+		E2FAA95C2B0CE16C00C7E393 /* dwie-lewe-rece-mam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dwie-lewe-rece-mam.m4a"; sourceTree = "<group>"; };
+		E2FAA95D2B0CE16C00C7E393 /* po-prostu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "po-prostu.m4a"; sourceTree = "<group>"; };
+		E2FAA95E2B0CE16D00C7E393 /* i-po-prostu-dziekuje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-po-prostu-dziekuje.m4a"; sourceTree = "<group>"; };
+		E2FAA95F2B0CE16D00C7E393 /* i-po-prostu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-po-prostu.m4a"; sourceTree = "<group>"; };
+		E2FAA9602B0CE16D00C7E393 /* zobaczcie-ona-ma-dziurke.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zobaczcie-ona-ma-dziurke.m4a"; sourceTree = "<group>"; };
+		E2FAA9612B0CE16D00C7E393 /* na-luzie-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-luzie-jest.m4a"; sourceTree = "<group>"; };
+		E2FAA9622B0CE16D00C7E393 /* i-wiadomo-czego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-wiadomo-czego.m4a"; sourceTree = "<group>"; };
+		E2FAA9632B0CE16D00C7E393 /* nie-stekaj-tylko-tak-glosno.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-stekaj-tylko-tak-glosno.m4a"; sourceTree = "<group>"; };
+		E2FAA9642B0CE16D00C7E393 /* i-kobieta-by-zrozumiala-od-razu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-kobieta-by-zrozumiala-od-razu.m4a"; sourceTree = "<group>"; };
+		E2FAA9652B0CE16D00C7E393 /* to-jest-zawod-najdluzszy-zawod-na-swiecie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-zawod-najdluzszy-zawod-na-swiecie.m4a"; sourceTree = "<group>"; };
+		E2FAA9662B0CE16D00C7E393 /* bedzie-golaska-cholera-bedzie-golaska.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bedzie-golaska-cholera-bedzie-golaska.m4a"; sourceTree = "<group>"; };
+		E2FAA9672B0CE16D00C7E393 /* jak-to-moga-zrobic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-to-moga-zrobic.m4a"; sourceTree = "<group>"; };
+		E2FAA9682B0CE16D00C7E393 /* nie-przeszkadzaj-ja-ci-przeszkadzam?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-przeszkadzaj-ja-ci-przeszkadzam?.m4a"; sourceTree = "<group>"; };
+		E2FAA9692B0CE16D00C7E393 /* kiwa-glowa-ze-zadowolona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kiwa-glowa-ze-zadowolona.m4a"; sourceTree = "<group>"; };
+		E2FAA96A2B0CE16D00C7E393 /* prosze-sie-nie-odzywac-ja-ci-nie-przeszkadzam-jak-cos-robisz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "prosze-sie-nie-odzywac-ja-ci-nie-przeszkadzam-jak-cos-robisz.m4a"; sourceTree = "<group>"; };
+		E2FAA96B2B0CE16D00C7E393 /* na-prawde-ona-ma-dziurke.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-prawde-ona-ma-dziurke.m4a"; sourceTree = "<group>"; };
+		E2FAA96C2B0CE16D00C7E393 /* i-ogolem-bede-was-bronil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-ogolem-bede-was-bronil.m4a"; sourceTree = "<group>"; };
+		E2FAA96D2B0CE16D00C7E393 /* to-zaraz-ja-to-wyrzuce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-zaraz-ja-to-wyrzuce.m4a"; sourceTree = "<group>"; };
+		E2FAA96E2B0CE16E00C7E393 /* i-taki-wielki-by-wylazl.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-taki-wielki-by-wylazl.m4a"; sourceTree = "<group>"; };
+		E2FAA96F2B0CE16E00C7E393 /* leci-to.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "leci-to.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1256,8 +1708,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2BDF4202AF5429000D136C9 /* RealmSwift in Frameworks */,
-				E2BDF41E2AF5429000D136C9 /* Realm in Frameworks */,
+				E2FAA80B2B0CC92B00C7E393 /* RealmSwift in Frameworks */,
+				E2FAA8092B0CC92B00C7E393 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1265,8 +1717,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2319FFC2AF7A88A004D54ED /* RealmSwift in Frameworks */,
-				E2319FFA2AF7A88A004D54ED /* Realm in Frameworks */,
+				E2FAA80F2B0CC94000C7E393 /* RealmSwift in Frameworks */,
+				E2FAA80D2B0CC94000C7E393 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FAA7DF2B0CC20500C7E393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FAA8132B0CC94C00C7E393 /* RealmSwift in Frameworks */,
+				E2FAA8112B0CC94C00C7E393 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1697,6 +2158,7 @@
 			children = (
 				E2BDF3FA2AF5423700D136C9 /* Stonoga Board.app */,
 				E2C6F2EF2AF6DF0E00C8B73B /* Konon Board.app */,
+				E2FAA7E22B0CC20500C7E393 /* Major Board.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1707,6 +2169,7 @@
 				E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */,
 				E2C6F2F02AF6DF0E00C8B73B /* KononBoard */,
 				E2C6F2E92AF6DE5000C8B73B /* StonogaBoard */,
+				E2FAA7E32B0CC20500C7E393 /* MajorBoard */,
 				E2319CE02AF7A61B004D54ED /* Shared */,
 			);
 			path = Soundboard;
@@ -1729,13 +2192,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E2C6F12D2AF6DD2400C8B73B /* SoundboardListView */ = {
+		E2C6F12D2AF6DD2400C8B73B /* SoundboardList */ = {
 			isa = PBXGroup;
 			children = (
-				E2C6F12E2AF6DD2400C8B73B /* SoundboardListView.swift */,
-				E2C6F12F2AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift */,
+				E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */,
+				E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */,
 			);
-			path = SoundboardListView;
+			path = SoundboardList;
 			sourceTree = "<group>";
 		};
 		E2C6F1302AF6DD2400C8B73B /* Tips */ = {
@@ -1749,13 +2212,13 @@
 		E2C6F1342AF6DD2400C8B73B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E2C6F12D2AF6DD2400C8B73B /* SoundboardList */,
 				E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */,
 				E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */,
 				E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */,
 				E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */,
 				E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */,
-				E2C6F12D2AF6DD2400C8B73B /* SoundboardListView */,
-				E2C6F13C2AF6DD2400C8B73B /* SoundRowView.swift */,
+				E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */,
 				E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */,
 			);
 			path = Views;
@@ -2016,6 +2479,252 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E2FAA7E32B0CC20500C7E393 /* MajorBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAA7F02B0CC22100C7E393 /* Resources */,
+				E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */,
+				E2FAA7EA2B0CC20600C7E393 /* Preview Content */,
+			);
+			path = MajorBoard;
+			sourceTree = "<group>";
+		};
+		E2FAA7EA2B0CC20600C7E393 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2FAA7F02B0CC22100C7E393 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAA7F12B0CC22C00C7E393 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2FAA7F12B0CC22C00C7E393 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAA8802B0CD1FE00C7E393 /* 800zl-zaplacilem.m4a */,
+				E2FAA8EA2B0CDBB900C7E393 /* a-ja-pije-nieraz.m4a */,
+				E2FAA8962B0CD2D700C7E393 /* a-ty-jestes-prawdziwy-wiesniak.m4a */,
+				E2FAA94B2B0CE16B00C7E393 /* ah-cholera-ale.m4a */,
+				E2FAA8052B0CC8AF00C7E393 /* ah-dzien-dobry.m4a */,
+				E2FAA8D72B0CDBB800C7E393 /* ale-juz-pol-zjadlem.m4a */,
+				E2FAA8E42B0CDBB900C7E393 /* ale-mi-sie-chce-ja-poznac.m4a */,
+				E2FAA8C12B0CDBB600C7E393 /* ale-tera-bedzie-lepiej-juz.m4a */,
+				E2FAA9402B0CE16A00C7E393 /* az-do-konca-swoich-dni.m4a */,
+				E2FAA8DC2B0CDBB800C7E393 /* az-jak-mi-sie-snilo-to-siurek-sie-podnosil.m4a */,
+				E2FAA8D02B0CDBB700C7E393 /* bedzie-cieplej.m4a */,
+				E2FAA9662B0CE16D00C7E393 /* bedzie-golaska-cholera-bedzie-golaska.m4a */,
+				E2FAA8D22B0CDBB800C7E393 /* bialostockie-piwo-to-jest-najlepsze.m4a */,
+				E2FAA89B2B0CD2D700C7E393 /* bo-ja-mowie-prawde-jak-jest-ogolem.m4a */,
+				E2FAA93F2B0CE16A00C7E393 /* bo-jestescie-kochane-kobiety.m4a */,
+				E2FAA8612B0CD11700C7E393 /* bo-komputer-jest.m4a */,
+				E2FAA93E2B0CE16A00C7E393 /* bombaska-golaska.m4a */,
+				E2FAA8592B0CD11500C7E393 /* bylem-w-mundurze.m4a */,
+				E2FAA9592B0CE16C00C7E393 /* chca-od-nich-zeby-milion-zlotych-miesiecznie-placili.m4a */,
+				E2FAA8E92B0CDBB900C7E393 /* chcialbym-ich-wszystkich-bardzo-serdecznie-pozdrowic.m4a */,
+				E2FAA8D42B0CDBB800C7E393 /* ci-co-lubia-pic-piweczko.m4a */,
+				E2FAA8162B0CCC4800C7E393 /* cieplo-zeby-zjesc.m4a */,
+				E2FAA9452B0CE16B00C7E393 /* ciezko-pracujecie.m4a */,
+				E2FAA9222B0CE16800C7E393 /* co-ty-myslisz-nigdy-nie-jezdzilem-samochodem?.m4a */,
+				E2FAA92E2B0CE16900C7E393 /* czepa-ci-spadla.m4a */,
+				E2FAA9232B0CE16800C7E393 /* czy-to-fajnie-bylo-by-tak-przyjemnie.m4a */,
+				E2FAA9412B0CE16B00C7E393 /* do-kibla.m4a */,
+				E2FAA8CF2B0CDBB700C7E393 /* do-kina.m4a */,
+				E2FAA87E2B0CD1FE00C7E393 /* do-pieca-moze-wjedz.m4a */,
+				E2FAA8472B0CCF8D00C7E393 /* dobry.m4a */,
+				E2FAA9542B0CE16C00C7E393 /* dobrze?-wygodnie-ci?.m4a */,
+				E2FAA95C2B0CE16C00C7E393 /* dwie-lewe-rece-mam.m4a */,
+				E2FAA93C2B0CE16A00C7E393 /* dzien-dobry-chcialem-wlasnie-powiedziec-dostalem-zolnierke.m4a */,
+				E2FAA9552B0CE16C00C7E393 /* dzien-dobry-y-chcialem-powiedziec-y.m4a */,
+				E2FAA8372B0CCECA00C7E393 /* dzisiaj-dzien-wiosny.m4a */,
+				E2FAA9372B0CE16A00C7E393 /* dziurke-ma.m4a */,
+				E2FAA8EC2B0CDBB900C7E393 /* eleganckie-ze-guma-mala.m4a */,
+				E2FAA8D82B0CDBB800C7E393 /* good.m4a */,
+				E2FAA9562B0CE16C00C7E393 /* i-bronic-ogolem-go-go.m4a */,
+				E2FAA8172B0CCC4800C7E393 /* i-cebulka.m4a */,
+				E2FAA84B2B0CCF8D00C7E393 /* i-chorazy-tez-zdazy-zjesc-kababa.m4a */,
+				E2FAA9572B0CE16C00C7E393 /* i-co-nie-potrafie?.m4a */,
+				E2FAA8192B0CCC4900C7E393 /* i-dziekujemy-za-ta-osobe.m4a */,
+				E2FAA9642B0CE16D00C7E393 /* i-kobieta-by-zrozumiala-od-razu.m4a */,
+				E2FAA94E2B0CE16B00C7E393 /* i-kobiety-z-poznania.m4a */,
+				E2FAA85D2B0CD11600C7E393 /* i-kotleta-mielonego-z-tym-z-ziemniakami.m4a */,
+				E2FAA8812B0CD1FE00C7E393 /* i-moja-kamera.m4a */,
+				E2FAA8D12B0CDBB800C7E393 /* i-moze-sie-umowimy.m4a */,
+				E2FAA96C2B0CE16D00C7E393 /* i-ogolem-bede-was-bronil.m4a */,
+				E2FAA8BC2B0CDBB600C7E393 /* i-ogolem-chcialem.m4a */,
+				E2FAA8CC2B0CDBB700C7E393 /* i-ogolem.m4a */,
+				E2FAA8182B0CCC4800C7E393 /* i-ogorek.m4a */,
+				E2FAA95E2B0CE16D00C7E393 /* i-po-prostu-dziekuje.m4a */,
+				E2FAA94C2B0CE16B00C7E393 /* i-po-prostu-kupuja-sobie-takie-fajne-kobiety.m4a */,
+				E2FAA95F2B0CE16D00C7E393 /* i-po-prostu.m4a */,
+				E2FAA9532B0CE16C00C7E393 /* i-prosze-do-mnie-pisac-bede-sie-na-ten-teamt-wypowiadal.m4a */,
+				E2FAA8DD2B0CDBB800C7E393 /* i-szaleje-moje-serce-jak-ja-widze.m4a */,
+				E2FAA8582B0CD11500C7E393 /* i-szczury.m4a */,
+				E2FAA96E2B0CE16E00C7E393 /* i-taki-wielki-by-wylazl.m4a */,
+				E2FAA9622B0CE16D00C7E393 /* i-wiadomo-czego.m4a */,
+				E2FAA85E2B0CD11600C7E393 /* i-wlasnie-teraz-jest-dowod.m4a */,
+				E2FAA8462B0CCF8D00C7E393 /* i-wszyscy-beda-kababy-jesc.m4a */,
+				E2FAA8352B0CCECA00C7E393 /* i-zycze-im.m4a */,
+				E2FAA9352B0CE16A00C7E393 /* idziemy?-na-bzzz-bzz-bzz.m4a */,
+				E2FAA8642B0CD11700C7E393 /* ile-razy-sie-zesrales.m4a */,
+				E2FAA8E02B0CDBB800C7E393 /* ja-chcialbym-powiedziec.m4a */,
+				E2FAA9522B0CE16C00C7E393 /* ja-ja-naucze.m4a */,
+				E2FAA8D52B0CDBB800C7E393 /* ja-jak-osa-bym-uzadlil.m4a */,
+				E2FAA8862B0CD1FE00C7E393 /* ja-kupilem.m4a */,
+				E2FAA9272B0CE16900C7E393 /* ja-nie-bede-ja-jeszcze-kul.m4a */,
+				E2FAA8C72B0CDBB700C7E393 /* ja-ogolem-chcialbym-jeszcze-wypic.m4a */,
+				E2FAA8682B0CD11900C7E393 /* ja-tylko-raz-w-zyciu.m4a */,
+				E2FAA8ED2B0CDBB900C7E393 /* ja-uwielbiam-wszystkie-wspanialem-kochajace-kobiety.m4a */,
+				E2FAA8622B0CD11700C7E393 /* jak-to-jest-moj-kura-wczorajszy-obiad.m4a */,
+				E2FAA9672B0CE16D00C7E393 /* jak-to-moga-zrobic.m4a */,
+				E2FAA8A72B0CD3C900C7E393 /* jak-w-taki-sposob-mnie-traktujesz.m4a */,
+				E2FAA8A92B0CD3C900C7E393 /* jaki-to-prezydent.m4a */,
+				E2FAA9492B0CE16B00C7E393 /* jestes-zadowolona?.m4a */,
+				E2FAA87F2B0CD1FE00C7E393 /* juz-chciales-wymeldowac-mnie.m4a */,
+				E2FAA81C2B0CCC4900C7E393 /* kababa.m4a */,
+				E2FAA8302B0CCECA00C7E393 /* kapitanow-nie-kapitanow.m4a */,
+				E2FAA8312B0CCECA00C7E393 /* kaprala.m4a */,
+				E2FAA8CB2B0CDBB700C7E393 /* karolinko.m4a */,
+				E2FAA81A2B0CCC4900C7E393 /* keczup-ten-dalem.m4a */,
+				E2FAA9692B0CE16D00C7E393 /* kiwa-glowa-ze-zadowolona.m4a */,
+				E2FAA9302B0CE16900C7E393 /* klocka-puscil.m4a */,
+				E2FAA8322B0CCECA00C7E393 /* ktora-wysylala-kababy.m4a */,
+				E2FAA8C62B0CDBB700C7E393 /* ktore-mozna-na-siurka-wlozyc.m4a */,
+				E2FAA92A2B0CE16900C7E393 /* ktore-sa-chetne-do-uzywania.m4a */,
+				E2FAA8942B0CD2D700C7E393 /* kurda-sie-nadajesz-do-ubicia.m4a */,
+				E2FAA8922B0CD2D600C7E393 /* kurde-idz-sobie-do-swojego-opla.m4a */,
+				E2FAA92B2B0CE16900C7E393 /* ladne-te-ma-mozna-pobawic-sie.m4a */,
+				E2FAA96F2B0CE16E00C7E393 /* leci-to.m4a */,
+				E2FAA8AB2B0CD3C900C7E393 /* masz-sobie-wyrzuc-to.m4a */,
+				E2FAA8DF2B0CDBB800C7E393 /* moge-sobie-wypic.m4a */,
+				E2FAA9262B0CE16800C7E393 /* moglo-by-te-zadlo-polykac.m4a */,
+				E2FAA9432B0CE16B00C7E393 /* moja-kochana.m4a */,
+				E2FAA8BE2B0CDBB600C7E393 /* moje-zadlo-chyba-czeka.m4a */,
+				E2FAA8C32B0CDBB700C7E393 /* moze-ktoras-bedzie-chciala-sie-zapoznac-blizej-ze-mna.m4a */,
+				E2FAA8E12B0CDBB900C7E393 /* musze-pania-chyba-stestowac.m4a */,
+				E2FAA8C22B0CDBB600C7E393 /* my-kiedys-uciekalismy-do-kina.m4a */,
+				E2FAA8D32B0CDBB800C7E393 /* na-beda-jesc-kababy.m4a */,
+				E2FAA9582B0CE16C00C7E393 /* na-bzykanie.m4a */,
+				E2FAA8C82B0CDBB700C7E393 /* na-kogiel-mogiel.m4a */,
+				E2FAA85F2B0CD11600C7E393 /* na-krzywy-ryj.m4a */,
+				E2FAA8E52B0CDBB900C7E393 /* na-lizanie-nie-wiadomo-czego-jeszcze.m4a */,
+				E2FAA9612B0CE16D00C7E393 /* na-luzie-jest.m4a */,
+				E2FAA8E82B0CDBB900C7E393 /* na-niespodzianke.m4a */,
+				E2FAA96B2B0CE16D00C7E393 /* na-prawde-ona-ma-dziurke.m4a */,
+				E2FAA8452B0CCF8D00C7E393 /* na-stolowce-powinni-wszyscy-zolnierze-jesc-kababy.m4a */,
+				E2FAA8492B0CCF8D00C7E393 /* na-wiosne-trzeba-jesc-kababa.m4a */,
+				E2FAA8972B0CD2D700C7E393 /* nagrywa-sie-mnie-co-ja-robie.m4a */,
+				E2FAA9422B0CE16B00C7E393 /* najdrozsza-zolnierka.m4a */,
+				E2FAA9682B0CE16D00C7E393 /* nie-przeszkadzaj-ja-ci-przeszkadzam?.m4a */,
+				E2FAA9632B0CE16D00C7E393 /* nie-stekaj-tylko-tak-glosno.m4a */,
+				E2FAA8E22B0CDBB900C7E393 /* niech-te-samoloty-jego-nie-startuja-na-baltyk.m4a */,
+				E2FAA8822B0CD1FE00C7E393 /* no-baw-sie.m4a */,
+				E2FAA8832B0CD1FE00C7E393 /* no-kogo-zawolasz-kogos?.m4a */,
+				E2FAA8872B0CD1FE00C7E393 /* no-kto-ma.m4a */,
+				E2FAA94D2B0CE16B00C7E393 /* no-na-luzie-jest.m4a */,
+				E2FAA85B2B0CD11500C7E393 /* no-prosze-zadzwonic-na-policje.m4a */,
+				E2FAA8D92B0CDBB800C7E393 /* no-sloneczko-rozpgadza-sie-troszeczke.m4a */,
+				E2FAA81B2B0CCC4900C7E393 /* no-wlasnie.m4a */,
+				E2FAA8DA2B0CDBB800C7E393 /* no-wszystkiego-dobrego-wszystkim.m4a */,
+				E2FAA85C2B0CD11600C7E393 /* non-stop-smierdzi.m4a */,
+				E2FAA92F2B0CE16900C7E393 /* nudze-sie.m4a */,
+				E2FAA9322B0CE16A00C7E393 /* o-a-jaki-ma-ladny-ten-ladny-ladny.m4a */,
+				E2FAA9512B0CE16C00C7E393 /* o-cholera.m4a */,
+				E2FAA9462B0CE16B00C7E393 /* o-dzien-dobry-wlasnie-dzisiaj-niedziela.m4a */,
+				E2FAA8672B0CD11800C7E393 /* o-i-to-nagrywam.m4a */,
+				E2FAA8142B0CCC4800C7E393 /* o-salatka.m4a */,
+				E2FAA8332B0CCECA00C7E393 /* o-ta-godzina-to-obiad-druga-bedzie.m4a */,
+				E2FAA93D2B0CE16A00C7E393 /* o-tak-powinno-byc.m4a */,
+				E2FAA95A2B0CE16C00C7E393 /* od-razu-baby-bedziesz-czyscil.m4a */,
+				E2FAA82E2B0CCEC900C7E393 /* ogolem-jak-to-sie-mowi.m4a */,
+				E2FAA9342B0CE16A00C7E393 /* ogolem-z-bombasu.m4a */,
+				E2FAA8CD2B0CDBB700C7E393 /* ogolem.m4a */,
+				E2FAA9242B0CE16800C7E393 /* ona-bardzo-piekna-jest.m4a */,
+				E2FAA94A2B0CE16B00C7E393 /* ona-jest-jeszcze-cnotliwa.m4a */,
+				E2FAA8692B0CD11900C7E393 /* oni-nie-nadaja-sie-do-zycia.m4a */,
+				E2FAA9382B0CE16A00C7E393 /* oni-zarabiaja-na-chleb-bozy.m4a */,
+				E2FAA92C2B0CE16900C7E393 /* ooo-cnote-stracila.m4a */,
+				E2FAA8C52B0CDBB700C7E393 /* piwko-to-jest-jak-rosol.m4a */,
+				E2FAA8842B0CD1FE00C7E393 /* piwo-kupil-kur.m4a */,
+				E2FAA92D2B0CE16900C7E393 /* po-prostu-takie-prawo-jest.m4a */,
+				E2FAA95D2B0CE16C00C7E393 /* po-prostu.m4a */,
+				E2FAA9472B0CE16B00C7E393 /* pokiwaj-glowa.m4a */,
+				E2FAA8A82B0CD3C900C7E393 /* powiedzialem-tobie-ze-ja-nic-nie-bede-kupywal.m4a */,
+				E2FAA8AF2B0CD3CA00C7E393 /* powiedzialem.m4a */,
+				E2FAA82F2B0CCEC900C7E393 /* pozdrawiam-z-jednostki.m4a */,
+				E2FAA9362B0CE16A00C7E393 /* pracujcie.m4a */,
+				E2FAA9292B0CE16900C7E393 /* prostytutki-musza-byc.m4a */,
+				E2FAA8E62B0CDBB900C7E393 /* prosze-napsac-swoj-number-ja-zadzwonie.m4a */,
+				E2FAA8952B0CD2D700C7E393 /* prosze-nie-przeszkadzac-w-mojej-rozmowie.m4a */,
+				E2FAA96A2B0CE16D00C7E393 /* prosze-sie-nie-odzywac-ja-ci-nie-przeszkadzam-jak-cos-robisz.m4a */,
+				E2FAA8A62B0CD3C900C7E393 /* przepraszam-ze-tak-powiedzialem.m4a */,
+				E2FAA9252B0CE16800C7E393 /* przyleciala-z-bombusu-bombaska.m4a */,
+				E2FAA8152B0CCC4800C7E393 /* przyprawy-od-pizzy.m4a */,
+				E2FAA8482B0CCF8D00C7E393 /* radosna.m4a */,
+				E2FAA8D62B0CDBB800C7E393 /* ruszac-skora.m4a */,
+				E2FAA8DB2B0CDBB800C7E393 /* sam-patelnie-bym-wiadomo-co-zrobil.m4a */,
+				E2FAA8BF2B0CDBB600C7E393 /* samotne.m4a */,
+				E2FAA8AD2B0CD3CA00C7E393 /* sobie-babe-wynajmij.m4a */,
+				E2FAA9282B0CE16900C7E393 /* sobie-ten-robisz-dorze.m4a */,
+				E2FAA9312B0CE16900C7E393 /* soltysowi-ze-wsi-troscinka.m4a */,
+				E2FAA8662B0CD11800C7E393 /* srac.m4a */,
+				E2FAA8562B0CD11400C7E393 /* sraka-ty-nie-wiesz-i-pier-glupoty.m4a */,
+				E2FAA8602B0CD11700C7E393 /* tak-halo.m4a */,
+				E2FAA8852B0CD1FE00C7E393 /* tak-jak-swoimi-jajkami-sie-bawisz.m4a */,
+				E2FAA8AA2B0CD3C900C7E393 /* tak-traktujesz-ludzi.m4a */,
+				E2FAA9392B0CE16A00C7E393 /* taka-golaska-bedzie.m4a */,
+				E2FAA8CA2B0CDBB700C7E393 /* taka-super-by-bylo.m4a */,
+				E2FAA8282B0CCC8A00C7E393 /* takie-chrupiace-sie-zrobilo.m4a */,
+				E2FAA94F2B0CE16C00C7E393 /* takiego-duzego-bym-przytrzymal-dwa-trzy-dni.m4a */,
+				E2FAA8982B0CD2D700C7E393 /* tam-do-swojej-rodziny.m4a */,
+				E2FAA8C92B0CDBB700C7E393 /* tam-gdzie-trzeba.m4a */,
+				E2FAA9482B0CE16B00C7E393 /* to-dobrze-to-dobrze-bedzie-zadowolona.m4a */,
+				E2FAA8AE2B0CD3CA00C7E393 /* to-ja-bede-obiad-tobie-robil?.m4a */,
+				E2FAA93B2B0CE16A00C7E393 /* to-ja-mam-dwie-lewe-rece.m4a */,
+				E2FAA93A2B0CE16A00C7E393 /* to-jest-ogolem-ciezka-praca.m4a */,
+				E2FAA9652B0CE16D00C7E393 /* to-jest-zawod-najdluzszy-zawod-na-swiecie.m4a */,
+				E2FAA8E72B0CDBB900C7E393 /* to-nie-wstyd-jest.m4a */,
+				E2FAA8272B0CCC8A00C7E393 /* to-pomidorek.m4a */,
+				E2FAA8992B0CD2D700C7E393 /* to-sie-nagrywa?.m4a */,
+				E2FAA95B2B0CE16C00C7E393 /* to-szynka.m4a */,
+				E2FAA8572B0CD11500C7E393 /* to-takie-ludzie-to-sa-dla-lmnie-ludzie-psy.m4a */,
+				E2FAA8932B0CD2D700C7E393 /* to-uciekaj-do-moskwy.m4a */,
+				E2FAA8422B0CCF8D00C7E393 /* to-w-jednostce-powinni-byc-kababy.m4a */,
+				E2FAA8262B0CCC8A00C7E393 /* to-wlasnie-wczorajszy-kabab.m4a */,
+				E2FAA9332B0CE16A00C7E393 /* to-wyglada-jak-u-kobiety-krocze.m4a */,
+				E2FAA96D2B0CE16D00C7E393 /* to-zaraz-ja-to-wyrzuce.m4a */,
+				E2FAA8C42B0CDBB700C7E393 /* to-zolnierki-to-sa-takie-grabne.m4a */,
+				E2FAA8DE2B0CDBB800C7E393 /* ty-jestes-cudowna-kobieta.m4a */,
+				E2FAA85A2B0CD11500C7E393 /* ty-nasrane-masz.m4a */,
+				E2FAA89A2B0CD2D700C7E393 /* ty-nie-jestes-z-bialegostoku.m4a */,
+				E2FAA9502B0CE16C00C7E393 /* w-polsce-nie-ma-pracy.m4a */,
+				E2FAA8652B0CD11700C7E393 /* wez-zamknij-ta-pisde-swoja.m4a */,
+				E2FAA8EB2B0CDBB900C7E393 /* wisniowke-jakas-taka-dobra-mocniejsza.m4a */,
+				E2FAA8E32B0CDBB900C7E393 /* wjade-w-niego-i-bomba.m4a */,
+				E2FAA8CE2B0CDBB700C7E393 /* wszystkich-ludzi.m4a */,
+				E2FAA8342B0CCECA00C7E393 /* wszystkich-zolnierzy-pozdrawiam-tam.m4a */,
+				E2FAA8442B0CCF8D00C7E393 /* wszystkich-zolnierzy-pozdrawiam.m4a */,
+				E2FAA8AC2B0CD3CA00C7E393 /* wyrzuc-to-do-smietnika.m4a */,
+				E2FAA8BB2B0CDBB600C7E393 /* z-laskami-uciekaja.m4a */,
+				E2FAA8632B0CD11700C7E393 /* zamknij-ta-dupe.m4a */,
+				E2FAA8BA2B0CDBB600C7E393 /* ze-swoimi-jak-to-sie-mowi-laskami.m4a */,
+				E2FAA84A2B0CCF8D00C7E393 /* zeby-byla-lepsza-wiosna.m4a */,
+				E2FAA8362B0CCECA00C7E393 /* zeby-lepsze-bylo.m4a */,
+				E2FAA8292B0CCC8A00C7E393 /* zeby-lepszy-byl.m4a */,
+				E2FAA8BD2B0CDBB600C7E393 /* zeby-sie-umawiali.m4a */,
+				E2FAA8432B0CCF8D00C7E393 /* zjesc-kababa.m4a */,
+				E2FAA9602B0CE16D00C7E393 /* zobaczcie-ona-ma-dziurke.m4a */,
+				E2FAA8C02B0CDBB600C7E393 /* zolnierki-z-bombasu-mi-sie-snia.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2034,8 +2743,8 @@
 			);
 			name = "Stonoga Board";
 			packageProductDependencies = (
-				E2BDF41D2AF5429000D136C9 /* Realm */,
-				E2BDF41F2AF5429000D136C9 /* RealmSwift */,
+				E2FAA8082B0CC92B00C7E393 /* Realm */,
+				E2FAA80A2B0CC92B00C7E393 /* RealmSwift */,
 			);
 			productName = Soundboard;
 			productReference = E2BDF3FA2AF5423700D136C9 /* Stonoga Board.app */;
@@ -2056,11 +2765,32 @@
 			);
 			name = "Konon Board";
 			packageProductDependencies = (
-				E2319FF92AF7A88A004D54ED /* Realm */,
-				E2319FFB2AF7A88A004D54ED /* RealmSwift */,
+				E2FAA80C2B0CC94000C7E393 /* Realm */,
+				E2FAA80E2B0CC94000C7E393 /* RealmSwift */,
 			);
 			productName = "Konon Board";
 			productReference = E2C6F2EF2AF6DF0E00C8B73B /* Konon Board.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2FAA7E12B0CC20500C7E393 /* Major Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FAA7ED2B0CC20600C7E393 /* Build configuration list for PBXNativeTarget "Major Board" */;
+			buildPhases = (
+				E2FAA7DE2B0CC20500C7E393 /* Sources */,
+				E2FAA7DF2B0CC20500C7E393 /* Frameworks */,
+				E2FAA7E02B0CC20500C7E393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Major Board";
+			packageProductDependencies = (
+				E2FAA8102B0CC94C00C7E393 /* Realm */,
+				E2FAA8122B0CC94C00C7E393 /* RealmSwift */,
+			);
+			productName = "Major Board";
+			productReference = E2FAA7E22B0CC20500C7E393 /* Major Board.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2079,6 +2809,9 @@
 					E2C6F2EE2AF6DF0E00C8B73B = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					E2FAA7E12B0CC20500C7E393 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 				};
 			};
 			buildConfigurationList = E2BDF3F52AF5423700D136C9 /* Build configuration list for PBXProject "Soundboard" */;
@@ -2091,8 +2824,8 @@
 			);
 			mainGroup = E2BDF3F12AF5423700D136C9;
 			packageReferences = (
-				E2BDF41C2AF5429000D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				E2BDF4212AF542E800D136C9 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = E2BDF3FB2AF5423700D136C9 /* Products */;
 			projectDirPath = "";
@@ -2100,6 +2833,7 @@
 			targets = (
 				E2BDF3F92AF5423700D136C9 /* Stonoga Board */,
 				E2C6F2EE2AF6DF0E00C8B73B /* Konon Board */,
+				E2FAA7E12B0CC20500C7E393 /* Major Board */,
 			);
 		};
 /* End PBXProject section */
@@ -2707,6 +3441,228 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2FAA7E02B0CC20500C7E393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FAA9B92B0CE16E00C7E393 /* na-prawde-ona-ma-dziurke.m4a in Resources */,
+				E2FAA9A62B0CE16E00C7E393 /* na-bzykanie.m4a in Resources */,
+				E2FAA86B2B0CD11900C7E393 /* to-takie-ludzie-to-sa-dla-lmnie-ludzie-psy.m4a in Resources */,
+				E2FAA8B02B0CD3CA00C7E393 /* przepraszam-ze-tak-powiedzialem.m4a in Resources */,
+				E2FAA8532B0CCF8D00C7E393 /* na-wiosne-trzeba-jesc-kababa.m4a in Resources */,
+				E2FAA82C2B0CCC8A00C7E393 /* takie-chrupiace-sie-zrobilo.m4a in Resources */,
+				E2FAA9862B0CE16E00C7E393 /* oni-zarabiaja-na-chleb-bozy.m4a in Resources */,
+				E2FAA8A02B0CD2D700C7E393 /* a-ty-jestes-prawdziwy-wiesniak.m4a in Resources */,
+				E2FAA91A2B0CDBB900C7E393 /* prosze-napsac-swoj-number-ja-zadzwonie.m4a in Resources */,
+				E2FAA8FB2B0CDBB900C7E393 /* ja-ogolem-chcialbym-jeszcze-wypic.m4a in Resources */,
+				E2FAA8732B0CD11900C7E393 /* na-krzywy-ryj.m4a in Resources */,
+				E2FAA8B32B0CD3CA00C7E393 /* jaki-to-prezydent.m4a in Resources */,
+				E2FAA9102B0CDBB900C7E393 /* az-jak-mi-sie-snilo-to-siurek-sie-podnosil.m4a in Resources */,
+				E2FAA9B62B0CE16E00C7E393 /* nie-przeszkadzaj-ja-ci-przeszkadzam?.m4a in Resources */,
+				E2FAA9AE2B0CE16E00C7E393 /* zobaczcie-ona-ma-dziurke.m4a in Resources */,
+				E2FAA8392B0CCECA00C7E393 /* pozdrawiam-z-jednostki.m4a in Resources */,
+				E2FAA87B2B0CD11900C7E393 /* o-i-to-nagrywam.m4a in Resources */,
+				E2FAA9842B0CE16E00C7E393 /* pracujcie.m4a in Resources */,
+				E2FAA87A2B0CD11900C7E393 /* srac.m4a in Resources */,
+				E2FAA86C2B0CD11900C7E393 /* i-szczury.m4a in Resources */,
+				E2FAA84D2B0CCF8D00C7E393 /* zjesc-kababa.m4a in Resources */,
+				E2FAA9082B0CDBB900C7E393 /* ci-co-lubia-pic-piweczko.m4a in Resources */,
+				E2FAA8062B0CC8B000C7E393 /* ah-dzien-dobry.m4a in Resources */,
+				E2FAA82A2B0CCC8A00C7E393 /* to-wlasnie-wczorajszy-kabab.m4a in Resources */,
+				E2FAA9062B0CDBB900C7E393 /* bialostockie-piwo-to-jest-najlepsze.m4a in Resources */,
+				E2FAA9882B0CE16E00C7E393 /* to-jest-ogolem-ciezka-praca.m4a in Resources */,
+				E2FAA99A2B0CE16E00C7E393 /* i-po-prostu-kupuja-sobie-takie-fajne-kobiety.m4a in Resources */,
+				E2FAA83E2B0CCECA00C7E393 /* wszystkich-zolnierzy-pozdrawiam-tam.m4a in Resources */,
+				E2FAA8B62B0CD3CA00C7E393 /* wyrzuc-to-do-smietnika.m4a in Resources */,
+				E2FAA8B92B0CD3CA00C7E393 /* powiedzialem.m4a in Resources */,
+				E2FAA8412B0CCECA00C7E393 /* dzisiaj-dzien-wiosny.m4a in Resources */,
+				E2FAA8F62B0CDBB900C7E393 /* my-kiedys-uciekalismy-do-kina.m4a in Resources */,
+				E2FAA9732B0CE16E00C7E393 /* przyleciala-z-bombusu-bombaska.m4a in Resources */,
+				E2FAA9A52B0CE16E00C7E393 /* i-co-nie-potrafie?.m4a in Resources */,
+				E2FAA8EE2B0CDBB900C7E393 /* ze-swoimi-jak-to-sie-mowi-laskami.m4a in Resources */,
+				E2FAA9142B0CDBB900C7E393 /* ja-chcialbym-powiedziec.m4a in Resources */,
+				E2FAA9132B0CDBB900C7E393 /* moge-sobie-wypic.m4a in Resources */,
+				E2FAA9B52B0CE16E00C7E393 /* jak-to-moga-zrobic.m4a in Resources */,
+				E2FAA88A2B0CD1FE00C7E393 /* 800zl-zaplacilem.m4a in Resources */,
+				E2FAA8F22B0CDBB900C7E393 /* moje-zadlo-chyba-czeka.m4a in Resources */,
+				E2FAA99E2B0CE16E00C7E393 /* w-polsce-nie-ma-pracy.m4a in Resources */,
+				E2FAA98F2B0CE16E00C7E393 /* do-kibla.m4a in Resources */,
+				E2FAA9BC2B0CE16E00C7E393 /* i-taki-wielki-by-wylazl.m4a in Resources */,
+				E2FAA88D2B0CD1FE00C7E393 /* no-kogo-zawolasz-kogos?.m4a in Resources */,
+				E2FAA91E2B0CDBB900C7E393 /* a-ja-pije-nieraz.m4a in Resources */,
+				E2FAA8502B0CCF8D00C7E393 /* i-wszyscy-beda-kababy-jesc.m4a in Resources */,
+				E2FAA8892B0CD1FE00C7E393 /* juz-chciales-wymeldowac-mnie.m4a in Resources */,
+				E2FAA8402B0CCECA00C7E393 /* zeby-lepsze-bylo.m4a in Resources */,
+				E2FAA8222B0CCC4900C7E393 /* i-dziekujemy-za-ta-osobe.m4a in Resources */,
+				E2FAA9792B0CE16E00C7E393 /* ladne-te-ma-mozna-pobawic-sie.m4a in Resources */,
+				E2FAA9A32B0CE16E00C7E393 /* dzien-dobry-y-chcialem-powiedziec-y.m4a in Resources */,
+				E2FAA9AD2B0CE16E00C7E393 /* i-po-prostu.m4a in Resources */,
+				E2FAA8792B0CD11900C7E393 /* wez-zamknij-ta-pisde-swoja.m4a in Resources */,
+				E2FAA90B2B0CDBB900C7E393 /* ale-juz-pol-zjadlem.m4a in Resources */,
+				E2FAA87C2B0CD11900C7E393 /* ja-tylko-raz-w-zyciu.m4a in Resources */,
+				E2FAA9722B0CE16E00C7E393 /* ona-bardzo-piekna-jest.m4a in Resources */,
+				E2FAA9B32B0CE16E00C7E393 /* to-jest-zawod-najdluzszy-zawod-na-swiecie.m4a in Resources */,
+				E2FAA88B2B0CD1FE00C7E393 /* i-moja-kamera.m4a in Resources */,
+				E2FAA9AF2B0CE16E00C7E393 /* na-luzie-jest.m4a in Resources */,
+				E2FAA9162B0CDBB900C7E393 /* niech-te-samoloty-jego-nie-startuja-na-baltyk.m4a in Resources */,
+				E2FAA8912B0CD1FE00C7E393 /* no-kto-ma.m4a in Resources */,
+				E2FAA9742B0CE16E00C7E393 /* moglo-by-te-zadlo-polykac.m4a in Resources */,
+				E2FAA84F2B0CCF8D00C7E393 /* na-stolowce-powinni-wszyscy-zolnierze-jesc-kababy.m4a in Resources */,
+				E2FAA9942B0CE16E00C7E393 /* o-dzien-dobry-wlasnie-dzisiaj-niedziela.m4a in Resources */,
+				E2FAA9012B0CDBB900C7E393 /* ogolem.m4a in Resources */,
+				E2FAA97B2B0CE16E00C7E393 /* po-prostu-takie-prawo-jest.m4a in Resources */,
+				E2FAA90E2B0CDBB900C7E393 /* no-wszystkiego-dobrego-wszystkim.m4a in Resources */,
+				E2FAA8212B0CCC4900C7E393 /* i-ogorek.m4a in Resources */,
+				E2FAA99F2B0CE16E00C7E393 /* o-cholera.m4a in Resources */,
+				E2FAA8FC2B0CDBB900C7E393 /* na-kogiel-mogiel.m4a in Resources */,
+				E2FAA9B72B0CE16E00C7E393 /* kiwa-glowa-ze-zadowolona.m4a in Resources */,
+				E2FAA9AB2B0CE16E00C7E393 /* po-prostu.m4a in Resources */,
+				E2FAA8762B0CD11900C7E393 /* jak-to-jest-moj-kura-wczorajszy-obiad.m4a in Resources */,
+				E2FAA82D2B0CCC8A00C7E393 /* zeby-lepszy-byl.m4a in Resources */,
+				E2FAA8702B0CD11900C7E393 /* non-stop-smierdzi.m4a in Resources */,
+				E2FAA8242B0CCC4900C7E393 /* no-wlasnie.m4a in Resources */,
+				E2FAA83A2B0CCECA00C7E393 /* kapitanow-nie-kapitanow.m4a in Resources */,
+				E2FAA8B52B0CD3CA00C7E393 /* masz-sobie-wyrzuc-to.m4a in Resources */,
+				E2FAA8A32B0CD2D700C7E393 /* to-sie-nagrywa?.m4a in Resources */,
+				E2FAA9A72B0CE16E00C7E393 /* chca-od-nich-zeby-milion-zlotych-miesiecznie-placili.m4a in Resources */,
+				E2FAA8902B0CD1FE00C7E393 /* ja-kupilem.m4a in Resources */,
+				E2FAA8542B0CCF8D00C7E393 /* zeby-byla-lepsza-wiosna.m4a in Resources */,
+				E2FAA9A22B0CE16E00C7E393 /* dobrze?-wygodnie-ci?.m4a in Resources */,
+				E2FAA99B2B0CE16E00C7E393 /* no-na-luzie-jest.m4a in Resources */,
+				E2FAA84E2B0CCF8D00C7E393 /* wszystkich-zolnierzy-pozdrawiam.m4a in Resources */,
+				E2FAA9212B0CDBB900C7E393 /* ja-uwielbiam-wszystkie-wspanialem-kochajace-kobiety.m4a in Resources */,
+				E2FAA8F92B0CDBB900C7E393 /* piwko-to-jest-jak-rosol.m4a in Resources */,
+				E2FAA9A12B0CE16E00C7E393 /* i-prosze-do-mnie-pisac-bede-sie-na-ten-teamt-wypowiadal.m4a in Resources */,
+				E2FAA8202B0CCC4900C7E393 /* i-cebulka.m4a in Resources */,
+				E2FAA9992B0CE16E00C7E393 /* ah-cholera-ale.m4a in Resources */,
+				E2FAA8232B0CCC4900C7E393 /* keczup-ten-dalem.m4a in Resources */,
+				E2FAA9092B0CDBB900C7E393 /* ja-jak-osa-bym-uzadlil.m4a in Resources */,
+				E2FAA90D2B0CDBB900C7E393 /* no-sloneczko-rozpgadza-sie-troszeczke.m4a in Resources */,
+				E2FAA98A2B0CE16E00C7E393 /* dzien-dobry-chcialem-wlasnie-powiedziec-dostalem-zolnierke.m4a in Resources */,
+				E2FAA83F2B0CCECA00C7E393 /* i-zycze-im.m4a in Resources */,
+				E2FAA9912B0CE16E00C7E393 /* moja-kochana.m4a in Resources */,
+				E2FAA9A82B0CE16E00C7E393 /* od-razu-baby-bedziesz-czyscil.m4a in Resources */,
+				E2FAA88C2B0CD1FE00C7E393 /* no-baw-sie.m4a in Resources */,
+				E2FAA9B02B0CE16E00C7E393 /* i-wiadomo-czego.m4a in Resources */,
+				E2FAA89D2B0CD2D700C7E393 /* to-uciekaj-do-moskwy.m4a in Resources */,
+				E2FAA97F2B0CE16E00C7E393 /* soltysowi-ze-wsi-troscinka.m4a in Resources */,
+				E2FAA8FE2B0CDBB900C7E393 /* taka-super-by-bylo.m4a in Resources */,
+				E2FAA9002B0CDBB900C7E393 /* i-ogolem.m4a in Resources */,
+				E2FAA9832B0CE16E00C7E393 /* idziemy?-na-bzzz-bzz-bzz.m4a in Resources */,
+				E2FAA9932B0CE16E00C7E393 /* ciezko-pracujecie.m4a in Resources */,
+				E2FAA83B2B0CCECA00C7E393 /* kaprala.m4a in Resources */,
+				E2FAA9AA2B0CE16E00C7E393 /* dwie-lewe-rece-mam.m4a in Resources */,
+				E2FAA98E2B0CE16E00C7E393 /* az-do-konca-swoich-dni.m4a in Resources */,
+				E2FAA97D2B0CE16E00C7E393 /* nudze-sie.m4a in Resources */,
+				E2FAA9702B0CE16E00C7E393 /* co-ty-myslisz-nigdy-nie-jezdzilem-samochodem?.m4a in Resources */,
+				E2FAA86D2B0CD11900C7E393 /* bylem-w-mundurze.m4a in Resources */,
+				E2FAA86E2B0CD11900C7E393 /* ty-nasrane-masz.m4a in Resources */,
+				E2FAA9BA2B0CE16E00C7E393 /* i-ogolem-bede-was-bronil.m4a in Resources */,
+				E2FAA8F42B0CDBB900C7E393 /* zolnierki-z-bombasu-mi-sie-snia.m4a in Resources */,
+				E2FAA8752B0CD11900C7E393 /* bo-komputer-jest.m4a in Resources */,
+				E2FAA9BB2B0CE16E00C7E393 /* to-zaraz-ja-to-wyrzuce.m4a in Resources */,
+				E2FAA97E2B0CE16E00C7E393 /* klocka-puscil.m4a in Resources */,
+				E2FAA99C2B0CE16E00C7E393 /* i-kobiety-z-poznania.m4a in Resources */,
+				E2FAA99D2B0CE16E00C7E393 /* takiego-duzego-bym-przytrzymal-dwa-trzy-dni.m4a in Resources */,
+				E2FAA89E2B0CD2D700C7E393 /* kurda-sie-nadajesz-do-ubicia.m4a in Resources */,
+				E2FAA9BD2B0CE16E00C7E393 /* leci-to.m4a in Resources */,
+				E2FAA90C2B0CDBB900C7E393 /* good.m4a in Resources */,
+				E2FAA8A12B0CD2D700C7E393 /* nagrywa-sie-mnie-co-ja-robie.m4a in Resources */,
+				E2FAA83C2B0CCECA00C7E393 /* ktora-wysylala-kababy.m4a in Resources */,
+				E2FAA9852B0CE16E00C7E393 /* dziurke-ma.m4a in Resources */,
+				E2FAA8F32B0CDBB900C7E393 /* samotne.m4a in Resources */,
+				E2FAA8B22B0CD3CA00C7E393 /* powiedzialem-tobie-ze-ja-nic-nie-bede-kupywal.m4a in Resources */,
+				E2FAA9022B0CDBB900C7E393 /* wszystkich-ludzi.m4a in Resources */,
+				E2FAA7EC2B0CC20600C7E393 /* Preview Assets.xcassets in Resources */,
+				E2FAA83D2B0CCECA00C7E393 /* o-ta-godzina-to-obiad-druga-bedzie.m4a in Resources */,
+				E2FAA88E2B0CD1FE00C7E393 /* piwo-kupil-kur.m4a in Resources */,
+				E2FAA8712B0CD11900C7E393 /* i-kotleta-mielonego-z-tym-z-ziemniakami.m4a in Resources */,
+				E2FAA88F2B0CD1FE00C7E393 /* tak-jak-swoimi-jajkami-sie-bawisz.m4a in Resources */,
+				E2FAA81E2B0CCC4900C7E393 /* przyprawy-od-pizzy.m4a in Resources */,
+				E2FAA9072B0CDBB900C7E393 /* na-beda-jesc-kababy.m4a in Resources */,
+				E2FAA9B82B0CE16E00C7E393 /* prosze-sie-nie-odzywac-ja-ci-nie-przeszkadzam-jak-cos-robisz.m4a in Resources */,
+				E2FAA91B2B0CDBB900C7E393 /* to-nie-wstyd-jest.m4a in Resources */,
+				E2FAA98C2B0CE16E00C7E393 /* bombaska-golaska.m4a in Resources */,
+				E2FAA97C2B0CE16E00C7E393 /* czepa-ci-spadla.m4a in Resources */,
+				E2FAA9952B0CE16E00C7E393 /* pokiwaj-glowa.m4a in Resources */,
+				E2FAA8252B0CCC4900C7E393 /* kababa.m4a in Resources */,
+				E2FAA8512B0CCF8D00C7E393 /* dobry.m4a in Resources */,
+				E2FAA8A52B0CD2D700C7E393 /* bo-ja-mowie-prawde-jak-jest-ogolem.m4a in Resources */,
+				E2FAA8A42B0CD2D700C7E393 /* ty-nie-jestes-z-bialegostoku.m4a in Resources */,
+				E2FAA9B12B0CE16E00C7E393 /* nie-stekaj-tylko-tak-glosno.m4a in Resources */,
+				E2FAA8552B0CCF8D00C7E393 /* i-chorazy-tez-zdazy-zjesc-kababa.m4a in Resources */,
+				E2FAA8EF2B0CDBB900C7E393 /* z-laskami-uciekaja.m4a in Resources */,
+				E2FAA8782B0CD11900C7E393 /* ile-razy-sie-zesrales.m4a in Resources */,
+				E2FAA8522B0CCF8D00C7E393 /* radosna.m4a in Resources */,
+				E2FAA9A42B0CE16E00C7E393 /* i-bronic-ogolem-go-go.m4a in Resources */,
+				E2FAA8742B0CD11900C7E393 /* tak-halo.m4a in Resources */,
+				E2FAA8A22B0CD2D700C7E393 /* tam-do-swojej-rodziny.m4a in Resources */,
+				E2FAA8FD2B0CDBB900C7E393 /* tam-gdzie-trzeba.m4a in Resources */,
+				E2FAA9122B0CDBB900C7E393 /* ty-jestes-cudowna-kobieta.m4a in Resources */,
+				E2FAA8FF2B0CDBB900C7E393 /* karolinko.m4a in Resources */,
+				E2FAA9192B0CDBB900C7E393 /* na-lizanie-nie-wiadomo-czego-jeszcze.m4a in Resources */,
+				E2FAA9762B0CE16E00C7E393 /* sobie-ten-robisz-dorze.m4a in Resources */,
+				E2FAA9712B0CE16E00C7E393 /* czy-to-fajnie-bylo-by-tak-przyjemnie.m4a in Resources */,
+				E2FAA9872B0CE16E00C7E393 /* taka-golaska-bedzie.m4a in Resources */,
+				E2FAA89C2B0CD2D700C7E393 /* kurde-idz-sobie-do-swojego-opla.m4a in Resources */,
+				E2FAA8F12B0CDBB900C7E393 /* zeby-sie-umawiali.m4a in Resources */,
+				E2FAA87D2B0CD11900C7E393 /* oni-nie-nadaja-sie-do-zycia.m4a in Resources */,
+				E2FAA98B2B0CE16E00C7E393 /* o-tak-powinno-byc.m4a in Resources */,
+				E2FAA9802B0CE16E00C7E393 /* o-a-jaki-ma-ladny-ten-ladny-ladny.m4a in Resources */,
+				E2FAA9972B0CE16E00C7E393 /* jestes-zadowolona?.m4a in Resources */,
+				E2FAA82B2B0CCC8A00C7E393 /* to-pomidorek.m4a in Resources */,
+				E2FAA8722B0CD11900C7E393 /* i-wlasnie-teraz-jest-dowod.m4a in Resources */,
+				E2FAA8F82B0CDBB900C7E393 /* to-zolnierki-to-sa-takie-grabne.m4a in Resources */,
+				E2FAA86A2B0CD11900C7E393 /* sraka-ty-nie-wiesz-i-pier-glupoty.m4a in Resources */,
+				E2FAA9202B0CDBB900C7E393 /* eleganckie-ze-guma-mala.m4a in Resources */,
+				E2FAA8F52B0CDBB900C7E393 /* ale-tera-bedzie-lepiej-juz.m4a in Resources */,
+				E2FAA91D2B0CDBB900C7E393 /* chcialbym-ich-wszystkich-bardzo-serdecznie-pozdrowic.m4a in Resources */,
+				E2FAA9982B0CE16E00C7E393 /* ona-jest-jeszcze-cnotliwa.m4a in Resources */,
+				E2FAA9772B0CE16E00C7E393 /* prostytutki-musza-byc.m4a in Resources */,
+				E2FAA8B82B0CD3CA00C7E393 /* to-ja-bede-obiad-tobie-robil?.m4a in Resources */,
+				E2FAA8B12B0CD3CA00C7E393 /* jak-w-taki-sposob-mnie-traktujesz.m4a in Resources */,
+				E2FAA9152B0CDBB900C7E393 /* musze-pania-chyba-stestowac.m4a in Resources */,
+				E2FAA86F2B0CD11900C7E393 /* no-prosze-zadzwonic-na-policje.m4a in Resources */,
+				E2FAA90F2B0CDBB900C7E393 /* sam-patelnie-bym-wiadomo-co-zrobil.m4a in Resources */,
+				E2FAA9032B0CDBB900C7E393 /* do-kina.m4a in Resources */,
+				E2FAA91F2B0CDBB900C7E393 /* wisniowke-jakas-taka-dobra-mocniejsza.m4a in Resources */,
+				E2FAA9B22B0CE16E00C7E393 /* i-kobieta-by-zrozumiala-od-razu.m4a in Resources */,
+				E2FAA9902B0CE16E00C7E393 /* najdrozsza-zolnierka.m4a in Resources */,
+				E2FAA9B42B0CE16E00C7E393 /* bedzie-golaska-cholera-bedzie-golaska.m4a in Resources */,
+				E2FAA8B72B0CD3CA00C7E393 /* sobie-babe-wynajmij.m4a in Resources */,
+				E2FAA9892B0CE16E00C7E393 /* to-ja-mam-dwie-lewe-rece.m4a in Resources */,
+				E2FAA91C2B0CDBB900C7E393 /* na-niespodzianke.m4a in Resources */,
+				E2FAA81D2B0CCC4900C7E393 /* o-salatka.m4a in Resources */,
+				E2FAA9A02B0CE16E00C7E393 /* ja-ja-naucze.m4a in Resources */,
+				E2FAA9962B0CE16E00C7E393 /* to-dobrze-to-dobrze-bedzie-zadowolona.m4a in Resources */,
+				E2FAA84C2B0CCF8D00C7E393 /* to-w-jednostce-powinni-byc-kababy.m4a in Resources */,
+				E2FAA9042B0CDBB900C7E393 /* bedzie-cieplej.m4a in Resources */,
+				E2FAA9182B0CDBB900C7E393 /* ale-mi-sie-chce-ja-poznac.m4a in Resources */,
+				E2FAA8382B0CCECA00C7E393 /* ogolem-jak-to-sie-mowi.m4a in Resources */,
+				E2FAA97A2B0CE16E00C7E393 /* ooo-cnote-stracila.m4a in Resources */,
+				E2FAA98D2B0CE16E00C7E393 /* bo-jestescie-kochane-kobiety.m4a in Resources */,
+				E2FAA8882B0CD1FE00C7E393 /* do-pieca-moze-wjedz.m4a in Resources */,
+				E2FAA9112B0CDBB900C7E393 /* i-szaleje-moje-serce-jak-ja-widze.m4a in Resources */,
+				E2FAA9782B0CE16E00C7E393 /* ktore-sa-chetne-do-uzywania.m4a in Resources */,
+				E2FAA9A92B0CE16E00C7E393 /* to-szynka.m4a in Resources */,
+				E2FAA9AC2B0CE16E00C7E393 /* i-po-prostu-dziekuje.m4a in Resources */,
+				E2FAA9052B0CDBB900C7E393 /* i-moze-sie-umowimy.m4a in Resources */,
+				E2FAA9822B0CE16E00C7E393 /* ogolem-z-bombasu.m4a in Resources */,
+				E2FAA89F2B0CD2D700C7E393 /* prosze-nie-przeszkadzac-w-mojej-rozmowie.m4a in Resources */,
+				E2FAA8F72B0CDBB900C7E393 /* moze-ktoras-bedzie-chciala-sie-zapoznac-blizej-ze-mna.m4a in Resources */,
+				E2FAA81F2B0CCC4900C7E393 /* cieplo-zeby-zjesc.m4a in Resources */,
+				E2FAA8FA2B0CDBB900C7E393 /* ktore-mozna-na-siurka-wlozyc.m4a in Resources */,
+				E2FAA9812B0CE16E00C7E393 /* to-wyglada-jak-u-kobiety-krocze.m4a in Resources */,
+				E2FAA90A2B0CDBB900C7E393 /* ruszac-skora.m4a in Resources */,
+				E2FAA9172B0CDBB900C7E393 /* wjade-w-niego-i-bomba.m4a in Resources */,
+				E2FAA9752B0CE16E00C7E393 /* ja-nie-bede-ja-jeszcze-kul.m4a in Resources */,
+				E2FAA8772B0CD11900C7E393 /* zamknij-ta-dupe.m4a in Resources */,
+				E2FAA8B42B0CD3CA00C7E393 /* tak-traktujesz-ludzi.m4a in Resources */,
+				E2FAA7E92B0CC20600C7E393 /* Assets.xcassets in Resources */,
+				E2FAA8F02B0CDBB900C7E393 /* i-ogolem-chcialem.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -2757,7 +3713,7 @@
 			files = (
 				E2C6F2162AF6DD2400C8B73B /* RoundCountView.swift in Sources */,
 				E2C6F21B2AF6DD2400C8B73B /* PathError.swift in Sources */,
-				E2C6F2102AF6DD2400C8B73B /* SoundboardListView+ViewModel.swift in Sources */,
+				E2C6F2102AF6DD2400C8B73B /* SoundboardList+ViewModel.swift in Sources */,
 				E2C6F20E2AF6DD2400C8B73B /* SoundModel.swift in Sources */,
 				E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */,
 				E2C6F2172AF6DD2400C8B73B /* FavoriteButton.swift in Sources */,
@@ -2771,9 +3727,9 @@
 				E2C6F20D2AF6DD2400C8B73B /* ShareContent.swift in Sources */,
 				E2C6F21D2AF6DD2400C8B73B /* SoundFileManager.swift in Sources */,
 				E2C6F21C2AF6DD2400C8B73B /* PathFinder.swift in Sources */,
-				E2C6F20F2AF6DD2400C8B73B /* SoundboardListView.swift in Sources */,
+				E2C6F20F2AF6DD2400C8B73B /* SoundboardList.swift in Sources */,
 				E2C6F2152AF6DD2400C8B73B /* ShareButton.swift in Sources */,
-				E2C6F2192AF6DD2400C8B73B /* SoundRowView.swift in Sources */,
+				E2C6F2192AF6DD2400C8B73B /* SoundRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2793,13 +3749,39 @@
 				E2319FF22AF7A804004D54ED /* PathError.swift in Sources */,
 				E2319FE82AF7A7D5004D54ED /* SoundModel.swift in Sources */,
 				E2319FEA2AF7A7FD004D54ED /* ShareButton.swift in Sources */,
-				E2319FFD2AF7A8C8004D54ED /* SoundRowView.swift in Sources */,
-				E2319FF62AF7A80A004D54ED /* SoundboardListView.swift in Sources */,
+				E2319FFD2AF7A8C8004D54ED /* SoundRow.swift in Sources */,
+				E2319FF62AF7A80A004D54ED /* SoundboardList.swift in Sources */,
 				E2319FED2AF7A7FD004D54ED /* FavoriteButton.swift in Sources */,
 				E2319FEE2AF7A7FD004D54ED /* PortraitView.swift in Sources */,
 				E2319FEB2AF7A7FD004D54ED /* RoundCountView.swift in Sources */,
 				E2319FEC2AF7A7FD004D54ED /* PlayButton.swift in Sources */,
-				E2319FF72AF7A80A004D54ED /* SoundboardListView+ViewModel.swift in Sources */,
+				E2319FF72AF7A80A004D54ED /* SoundboardList+ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FAA7DE2B0CC20500C7E393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FAA8012B0CC86C00C7E393 /* PathFinder.swift in Sources */,
+				E2FAA7F22B0CC84500C7E393 /* SoundboardApp.swift in Sources */,
+				E2FAA7F82B0CC85A00C7E393 /* RoundCountView.swift in Sources */,
+				E2FAA8002B0CC86C00C7E393 /* PathError.swift in Sources */,
+				E2FAA8032B0CC86C00C7E393 /* ShareContentProvider.swift in Sources */,
+				E2FAA7FE2B0CC86700C7E393 /* FavoritesSoundTip.swift in Sources */,
+				E2FAA7FA2B0CC85E00C7E393 /* SoundboardList+ViewModel.swift in Sources */,
+				E2FAA7F62B0CC85A00C7E393 /* SoundRow.swift in Sources */,
+				E2FAA7F32B0CC85A00C7E393 /* PortraitView.swift in Sources */,
+				E2FAA7F72B0CC85A00C7E393 /* ShareButton.swift in Sources */,
+				E2FAA7FF2B0CC86C00C7E393 /* SoundFileManager.swift in Sources */,
+				E2FAA8042B0CC86C00C7E393 /* RealmManager.swift in Sources */,
+				E2FAA7F42B0CC85A00C7E393 /* PlayButton.swift in Sources */,
+				E2FAA7FD2B0CC86200C7E393 /* ShareContent.swift in Sources */,
+				E2FAA7FC2B0CC86200C7E393 /* SoundModel.swift in Sources */,
+				E2FAA7F52B0CC85A00C7E393 /* FavoriteButton.swift in Sources */,
+				E2FAA7FB2B0CC85E00C7E393 /* SoundboardList.swift in Sources */,
+				E2FAA8022B0CC86C00C7E393 /* SoundPlayer.swift in Sources */,
+				E2FAA7F92B0CC85A00C7E393 /* TitleModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3069,6 +4051,76 @@
 			};
 			name = Release;
 		};
+		E2FAA7EE2B0CC20600C7E393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/MajorBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Major Board";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.major.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Major Soundboard Development";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2FAA7EF2B0CC20600C7E393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/MajorBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Major Board";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.major.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Major Soundboard App Store";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3099,17 +4151,18 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		E2FAA7ED2B0CC20600C7E393 /* Build configuration list for PBXNativeTarget "Major Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FAA7EE2B0CC20600C7E393 /* Debug */,
+				E2FAA7EF2B0CC20600C7E393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E2BDF41C2AF5429000D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.44.0;
-			};
-		};
 		E2BDF4212AF542E800D136C9 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/SwiftLint.git";
@@ -3118,27 +4171,45 @@
 				minimumVersion = 0.53.0;
 			};
 		};
+		E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.44.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E2319FF92AF7A88A004D54ED /* Realm */ = {
+		E2FAA8082B0CC92B00C7E393 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E2BDF41C2AF5429000D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = Realm;
 		};
-		E2319FFB2AF7A88A004D54ED /* RealmSwift */ = {
+		E2FAA80A2B0CC92B00C7E393 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E2BDF41C2AF5429000D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
-		E2BDF41D2AF5429000D136C9 /* Realm */ = {
+		E2FAA80C2B0CC94000C7E393 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E2BDF41C2AF5429000D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = Realm;
 		};
-		E2BDF41F2AF5429000D136C9 /* RealmSwift */ = {
+		E2FAA80E2B0CC94000C7E393 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E2BDF41C2AF5429000D136C9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		E2FAA8102B0CC94C00C7E393 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E2FAA8122B0CC94C00C7E393 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

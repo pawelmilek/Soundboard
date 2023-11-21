@@ -11,12 +11,12 @@ import TipKit
 @main
 struct SoundboardApp: App {
     @StateObject private var realmManager = RealmManager(name: "soundboard")
-    @StateObject private var viewModel = SoundboardListView.ViewModel()
+    @StateObject private var viewModel = SoundboardList.ViewModel()
 
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                SoundboardListView(viewModel: viewModel)
+                SoundboardList(viewModel: viewModel)
                     .navigationTitle("Soundboard")
                     .environmentObject(viewModel)
                     .environmentObject(realmManager)

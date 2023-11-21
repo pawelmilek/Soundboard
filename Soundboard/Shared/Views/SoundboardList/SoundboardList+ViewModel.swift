@@ -1,5 +1,5 @@
 //
-//  SoundboardListView+ViewModel.swift
+//  SoundboardList+ViewModel.swift
 //  Soundboard
 //
 //  Created by Pawel Milek on 10/25/23.
@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import RealmSwift
 
-extension SoundboardListView {
+extension SoundboardList {
     @MainActor
     final class ViewModel: NSObject, ObservableObject {
         @Published var items: Results<SoundModel>?

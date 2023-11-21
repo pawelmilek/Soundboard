@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-struct SoundRowView: View {
+struct SoundRow: View {
     @ObservedRealmObject var item: SoundModel
     let shareContent: ShareContent
     var onPlayButton: () -> Void
@@ -43,21 +43,21 @@ struct SoundRowView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    SoundRowView(
+    SoundRow(
         item: RealmManager(name: "stonoga.soundboard").realm!.objects(SoundModel.self)[3],
         shareContent: ShareContent.default,
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardListView.ViewModel())
+    .environmentObject(SoundboardList.ViewModel())
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    SoundRowView(
+    SoundRow(
         item: RealmManager(name: "stonoga.soundboard").realm!.objects(SoundModel.self).last!,
         shareContent: ShareContent.default,
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardListView.ViewModel())
+    .environmentObject(SoundboardList.ViewModel())
 }
