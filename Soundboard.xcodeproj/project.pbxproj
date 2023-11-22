@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20575132B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
+		E20575142B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
+		E20575152B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
+		E20575162B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
 		E2319E632AF7A6A3004D54ED /* dlaczego-wy-tak-wyrabiacie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2319CE32AF7A6A2004D54ED /* dlaczego-wy-tak-wyrabiacie.m4a */; };
 		E2319E642AF7A6A3004D54ED /* to-nie-ma-roznicy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2319CE42AF7A6A2004D54ED /* to-nie-ma-roznicy.m4a */; };
 		E2319E652AF7A6A3004D54ED /* tylko-chce-odniesc-sie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2319CE52AF7A6A2004D54ED /* tylko-chce-odniesc-sie.m4a */; };
@@ -406,17 +410,17 @@
 		E2319FF32AF7A804004D54ED /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */; };
 		E2319FF42AF7A804004D54ED /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */; };
 		E2319FF52AF7A806004D54ED /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
-		E2319FF62AF7A80A004D54ED /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */; };
-		E2319FF72AF7A80A004D54ED /* SoundboardList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */; };
-		E2319FFD2AF7A8C8004D54ED /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */; };
+		E2319FF62AF7A80A004D54ED /* SoundboardSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */; };
+		E2319FF72AF7A80A004D54ED /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2319FFD2AF7A8C8004D54ED /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
 		E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2B85DCC2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
 		E2BDF4052AF5423800D136C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BDF4042AF5423800D136C9 /* Preview Assets.xcassets */; };
 		E2C6F20D2AF6DD2400C8B73B /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
 		E2C6F20E2AF6DD2400C8B73B /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
-		E2C6F20F2AF6DD2400C8B73B /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */; };
-		E2C6F2102AF6DD2400C8B73B /* SoundboardList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */; };
+		E2C6F20F2AF6DD2400C8B73B /* SoundboardSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */; };
+		E2C6F2102AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
 		E2C6F2112AF6DD2400C8B73B /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
 		E2C6F2122AF6DD2400C8B73B /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
 		E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
@@ -424,7 +428,7 @@
 		E2C6F2152AF6DD2400C8B73B /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
 		E2C6F2162AF6DD2400C8B73B /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
 		E2C6F2172AF6DD2400C8B73B /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
-		E2C6F2192AF6DD2400C8B73B /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */; };
+		E2C6F2192AF6DD2400C8B73B /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
 		E2C6F21A2AF6DD2400C8B73B /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
 		E2C6F21B2AF6DD2400C8B73B /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13F2AF6DD2400C8B73B /* PathError.swift */; };
 		E2C6F21C2AF6DD2400C8B73B /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */; };
@@ -639,12 +643,12 @@
 		E2FAA7F32B0CC85A00C7E393 /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
 		E2FAA7F42B0CC85A00C7E393 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
 		E2FAA7F52B0CC85A00C7E393 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
-		E2FAA7F62B0CC85A00C7E393 /* SoundRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */; };
+		E2FAA7F62B0CC85A00C7E393 /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
 		E2FAA7F72B0CC85A00C7E393 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
 		E2FAA7F82B0CC85A00C7E393 /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
 		E2FAA7F92B0CC85A00C7E393 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
-		E2FAA7FA2B0CC85E00C7E393 /* SoundboardList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */; };
-		E2FAA7FB2B0CC85E00C7E393 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */; };
+		E2FAA7FA2B0CC85E00C7E393 /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2FAA7FB2B0CC85E00C7E393 /* SoundboardSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */; };
 		E2FAA7FC2B0CC86200C7E393 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
 		E2FAA7FD2B0CC86200C7E393 /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
 		E2FAA7FE2B0CC86700C7E393 /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
@@ -873,9 +877,116 @@
 		E2FAA9BB2B0CE16E00C7E393 /* to-zaraz-ja-to-wyrzuce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96D2B0CE16D00C7E393 /* to-zaraz-ja-to-wyrzuce.m4a */; };
 		E2FAA9BC2B0CE16E00C7E393 /* i-taki-wielki-by-wylazl.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96E2B0CE16E00C7E393 /* i-taki-wielki-by-wylazl.m4a */; };
 		E2FAA9BD2B0CE16E00C7E393 /* leci-to.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA96F2B0CE16E00C7E393 /* leci-to.m4a */; };
+		E2FAA9C92B0CE3AE00C7E393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9C82B0CE3AE00C7E393 /* Assets.xcassets */; };
+		E2FAA9CC2B0CE3AE00C7E393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9CB2B0CE3AE00C7E393 /* Preview Assets.xcassets */; };
+		E2FAA9D72B0CE41900C7E393 /* ja-nie-jestem-demokrata.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9D22B0CE41900C7E393 /* ja-nie-jestem-demokrata.m4a */; };
+		E2FAA9D82B0CE41900C7E393 /* demokracja-pogardzam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9D32B0CE41900C7E393 /* demokracja-pogardzam.m4a */; };
+		E2FAA9D92B0CE41900C7E393 /* demokracji-nienawidze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9D42B0CE41900C7E393 /* demokracji-nienawidze.m4a */; };
+		E2FAA9DA2B0CE41900C7E393 /* demokracja-to-tyrania-wiekszosci.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9D52B0CE41900C7E393 /* demokracja-to-tyrania-wiekszosci.m4a */; };
+		E2FAA9DB2B0CE41900C7E393 /* ja-sie-z-tym-zgadzam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9D62B0CE41900C7E393 /* ja-sie-z-tym-zgadzam.m4a */; };
+		E2FAA9DC2B0CE42400C7E393 /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
+		E2FAA9DD2B0CE42400C7E393 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
+		E2FAA9DE2B0CE42400C7E393 /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
+		E2FAA9DF2B0CE42400C7E393 /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2FAA9E02B0CE42400C7E393 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
+		E2FAA9E12B0CE42400C7E393 /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
+		E2FAA9E22B0CE42400C7E393 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
+		E2FAA9E32B0CE42400C7E393 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
+		E2FAA9E42B0CE42400C7E393 /* SoundboardSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */; };
+		E2FAA9E52B0CE42A00C7E393 /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
+		E2FAA9E62B0CE42F00C7E393 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
+		E2FAA9E72B0CE42F00C7E393 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */; };
+		E2FAA9E82B0CE42F00C7E393 /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13F2AF6DD2400C8B73B /* PathError.swift */; };
+		E2FAA9E92B0CE42F00C7E393 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
+		E2FAA9EA2B0CE42F00C7E393 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
+		E2FAA9EB2B0CE42F00C7E393 /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */; };
+		E2FAA9EC2B0CE43300C7E393 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
+		E2FAA9ED2B0CE43300C7E393 /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
+		E2FAA9EF2B0CE44300C7E393 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2FAA9EE2B0CE44300C7E393 /* Realm */; };
+		E2FAA9F12B0CE44300C7E393 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2FAA9F02B0CE44300C7E393 /* RealmSwift */; };
+		E2FAA9F22B0CE45800C7E393 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
+		E2FAA9F92B0D140200C7E393 /* ja-moge-powiedziec-co-by-sie-dzialo-gdyby-polska-byla-krajem-kapitalistycznym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9F32B0D140200C7E393 /* ja-moge-powiedziec-co-by-sie-dzialo-gdyby-polska-byla-krajem-kapitalistycznym.m4a */; };
+		E2FAA9FA2B0D140200C7E393 /* korupcja-zlodziejstwo-pogarda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9F42B0D140200C7E393 /* korupcja-zlodziejstwo-pogarda.m4a */; };
+		E2FAA9FB2B0D140200C7E393 /* ekh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9F52B0D140200C7E393 /* ekh.m4a */; };
+		E2FAA9FC2B0D140200C7E393 /* ciocia-robila-paroweczki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9F62B0D140200C7E393 /* ciocia-robila-paroweczki.m4a */; };
+		E2FAA9FD2B0D140200C7E393 /* a-poza-tym-sadze-ze-unia-europejska-musi-byc-zniszczona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9F72B0D140200C7E393 /* a-poza-tym-sadze-ze-unia-europejska-musi-byc-zniszczona.m4a */; };
+		E2FAA9FE2B0D140200C7E393 /* i-za-miesiac-mial-juz-firme-ktora-sprzedawala-paroweczki-na-ulicy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9F82B0D140200C7E393 /* i-za-miesiac-mial-juz-firme-ktora-sprzedawala-paroweczki-na-ulicy.m4a */; };
+		E2FAAA022B0D152D00C7E393 /* dzisiaj-to-jest-niemozliwe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA9FF2B0D152C00C7E393 /* dzisiaj-to-jest-niemozliwe.m4a */; };
+		E2FAAA032B0D152D00C7E393 /* otoz-ymmm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA002B0D152D00C7E393 /* otoz-ymmm.m4a */; };
+		E2FAAA042B0D152D00C7E393 /* przepraszam-bardzo-dosc-tego!.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA012B0D152D00C7E393 /* przepraszam-bardzo-dosc-tego!.m4a */; };
+		E2FAAA062B0E0FE800C7E393 /* tlumienie-wolnosci-slowa-czego-osobiscie-doswiadczam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA052B0E0FE800C7E393 /* tlumienie-wolnosci-slowa-czego-osobiscie-doswiadczam.m4a */; };
+		E2FAAA252B0E131600C7E393 /* afrykanskie-szambo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA072B0E131400C7E393 /* afrykanskie-szambo.m4a */; };
+		E2FAAA262B0E131600C7E393 /* bo-widzi-pan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA082B0E131400C7E393 /* bo-widzi-pan.m4a */; };
+		E2FAAA272B0E131600C7E393 /* najlepszym-nauczycielem-jest-przyklad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA092B0E131400C7E393 /* najlepszym-nauczycielem-jest-przyklad.m4a */; };
+		E2FAAA282B0E131600C7E393 /* ja-podam-przyklad-drastyczny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA0A2B0E131400C7E393 /* ja-podam-przyklad-drastyczny.m4a */; };
+		E2FAAA292B0E131600C7E393 /* powiedziec-ze-sie-odda-rodzinie-za-te-25tys.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA0B2B0E131400C7E393 /* powiedziec-ze-sie-odda-rodzinie-za-te-25tys.m4a */; };
+		E2FAAA2A2B0E131600C7E393 /* nie-no-bo-co-to-dziecko-jest-winne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA0C2B0E131400C7E393 /* nie-no-bo-co-to-dziecko-jest-winne.m4a */; };
+		E2FAAA2B2B0E131600C7E393 /* podatek-dochodowy-nalezy-zlikwidowac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA0D2B0E131400C7E393 /* podatek-dochodowy-nalezy-zlikwidowac.m4a */; };
+		E2FAAA2C2B0E131600C7E393 /* ludzie-maja-swoje-cele-swoje-ambicje-maja-swoje-idealy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA0E2B0E131400C7E393 /* ludzie-maja-swoje-cele-swoje-ambicje-maja-swoje-idealy.m4a */; };
+		E2FAAA2D2B0E131600C7E393 /* nic-nie-uczy-tak-rozumu-jak-glod.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA0F2B0E131500C7E393 /* nic-nie-uczy-tak-rozumu-jak-glod.m4a */; };
+		E2FAAA2E2B0E131600C7E393 /* dwie-tony-zlota-w-piwnicy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA102B0E131500C7E393 /* dwie-tony-zlota-w-piwnicy.m4a */; };
+		E2FAAA2F2B0E131600C7E393 /* dzisiaj-to-jest-niemozliwe-nie-z-powodu-zadnej-korporacji.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA112B0E131500C7E393 /* dzisiaj-to-jest-niemozliwe-nie-z-powodu-zadnej-korporacji.m4a */; };
+		E2FAAA302B0E131600C7E393 /* dzisiejszy-ustroj-uniemozliwia-ludzion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA122B0E131500C7E393 /* dzisiejszy-ustroj-uniemozliwia-ludzion.m4a */; };
+		E2FAAA312B0E131600C7E393 /* dlaczego?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA132B0E131500C7E393 /* dlaczego?.m4a */; };
+		E2FAAA322B0E131600C7E393 /* dziekuje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA142B0E131500C7E393 /* dziekuje.m4a */; };
+		E2FAAA332B0E131600C7E393 /* hy-hy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA152B0E131500C7E393 /* hy-hy.m4a */; };
+		E2FAAA342B0E131600C7E393 /* prosze-pana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA162B0E131500C7E393 /* prosze-pana.m4a */; };
+		E2FAAA352B0E131600C7E393 /* a-poza-tym-sadze-ze-unia-europejska-powinna-byc-zniszczona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA172B0E131500C7E393 /* a-poza-tym-sadze-ze-unia-europejska-powinna-byc-zniszczona.m4a */; };
+		E2FAAA362B0E131600C7E393 /* dziekuje-za-uwage.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA182B0E131500C7E393 /* dziekuje-za-uwage.m4a */; };
+		E2FAAA372B0E131600C7E393 /* ale-to-jest-nie-do-przyjecia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA192B0E131500C7E393 /* ale-to-jest-nie-do-przyjecia.m4a */; };
+		E2FAAA382B0E131600C7E393 /* i-zmusic-ich-po-prostu-do-pracy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA1A2B0E131500C7E393 /* i-zmusic-ich-po-prostu-do-pracy.m4a */; };
+		E2FAAA392B0E131600C7E393 /* celem-zycia-nie-jest-przezycie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA1B2B0E131500C7E393 /* celem-zycia-nie-jest-przezycie.m4a */; };
+		E2FAAA3A2B0E131600C7E393 /* jest-to-absurdalna-polityka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA1C2B0E131500C7E393 /* jest-to-absurdalna-polityka.m4a */; };
+		E2FAAA3B2B0E131600C7E393 /* istnieje-urzad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA1D2B0E131500C7E393 /* istnieje-urzad.m4a */; };
+		E2FAAA3C2B0E131600C7E393 /* alez-jest-to-nieprawda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA1E2B0E131500C7E393 /* alez-jest-to-nieprawda.m4a */; };
+		E2FAAA3D2B0E131600C7E393 /* ale-nie-wiecej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA1F2B0E131600C7E393 /* ale-nie-wiecej.m4a */; };
+		E2FAAA3E2B0E131600C7E393 /* dziecko-kosztuje-okolo-25tys-dolarow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA202B0E131600C7E393 /* dziecko-kosztuje-okolo-25tys-dolarow.m4a */; };
+		E2FAAA3F2B0E131600C7E393 /* nie-bylo-islandii-popatrz-pan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA212B0E131600C7E393 /* nie-bylo-islandii-popatrz-pan.m4a */; };
+		E2FAAA402B0E131600C7E393 /* ja-obrazam-ludzi-starszych?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA222B0E131600C7E393 /* ja-obrazam-ludzi-starszych?.m4a */; };
+		E2FAAA412B0E131600C7E393 /* czy-mozna?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA232B0E131600C7E393 /* czy-mozna?.m4a */; };
+		E2FAAA422B0E131600C7E393 /* a-nie-bylo-islandii-przypadkiem?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA242B0E131600C7E393 /* a-nie-bylo-islandii-przypadkiem?.m4a */; };
+		E2FAAA522B0E132C00C7E393 /* z-ktorych-jedna-wygrywa-wojne-a-druga-siedzi-w-pieleszach.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA432B0E132B00C7E393 /* z-ktorych-jedna-wygrywa-wojne-a-druga-siedzi-w-pieleszach.m4a */; };
+		E2FAAA532B0E132C00C7E393 /* to-jest-oczywiste.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA442B0E132B00C7E393 /* to-jest-oczywiste.m4a */; };
+		E2FAAA542B0E132C00C7E393 /* zabrano-tym-ludziom-okradziono-z-ich-pieniedzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA452B0E132B00C7E393 /* zabrano-tym-ludziom-okradziono-z-ich-pieniedzy.m4a */; };
+		E2FAAA552B0E132C00C7E393 /* starszych?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA462B0E132B00C7E393 /* starszych?.m4a */; };
+		E2FAAA562B0E132C00C7E393 /* z-posrod-dwoch-armii.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA472B0E132B00C7E393 /* z-posrod-dwoch-armii.m4a */; };
+		E2FAAA572B0E132C00C7E393 /* w-tej-pierwszej-sie-bardziej-boja-o-swoje-zycie-ale-oni-zwyciezaja.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA482B0E132B00C7E393 /* w-tej-pierwszej-sie-bardziej-boja-o-swoje-zycie-ale-oni-zwyciezaja.m4a */; };
+		E2FAAA582B0E132C00C7E393 /* to-jest-nie-bede-zastepowac-panskich-nauczycieli.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA492B0E132B00C7E393 /* to-jest-nie-bede-zastepowac-panskich-nauczycieli.m4a */; };
+		E2FAAA592B0E132C00C7E393 /* trzeba-dzecko-sprzedac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA4A2B0E132B00C7E393 /* trzeba-dzecko-sprzedac.m4a */; };
+		E2FAAA5A2B0E132C00C7E393 /* zabrane-przez-was-emerytury.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA4B2B0E132B00C7E393 /* zabrane-przez-was-emerytury.m4a */; };
+		E2FAAA5B2B0E132C00C7E393 /* to-my-powinnismy-uczyc-sie-od-chin-a-nie-chinczycy-od-nas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA4C2B0E132B00C7E393 /* to-my-powinnismy-uczyc-sie-od-chin-a-nie-chinczycy-od-nas.m4a */; };
+		E2FAAA5C2B0E132C00C7E393 /* w-tej-chwili.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA4D2B0E132C00C7E393 /* w-tej-chwili.m4a */; };
+		E2FAAA5D2B0E132C00C7E393 /* wolny-rynek-jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA4E2B0E132C00C7E393 /* wolny-rynek-jest.m4a */; };
+		E2FAAA5E2B0E132C00C7E393 /* trza-dziecko-urodzic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA4F2B0E132C00C7E393 /* trza-dziecko-urodzic.m4a */; };
+		E2FAAA5F2B0E132C00C7E393 /* to-jest-niedopuszczalne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA502B0E132C00C7E393 /* to-jest-niedopuszczalne.m4a */; };
+		E2FAAA602B0E132C00C7E393 /* tylko-dlatego-ze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA512B0E132C00C7E393 /* tylko-dlatego-ze.m4a */; };
+		E2FAAA782B0E14FE00C7E393 /* to-jest-takie-pieszczotliwe-okreslenie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA612B0E14FC00C7E393 /* to-jest-takie-pieszczotliwe-okreslenie.m4a */; };
+		E2FAAA792B0E14FE00C7E393 /* celem-zycia-nie-jest-dobrze-sie-nazrec-celem-zycia-nie-jest-bezpieczenstwo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA622B0E14FD00C7E393 /* celem-zycia-nie-jest-dobrze-sie-nazrec-celem-zycia-nie-jest-bezpieczenstwo.m4a */; };
+		E2FAAA7A2B0E14FE00C7E393 /* i-pan-sobie-zre-i-zyje-dalej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA632B0E14FD00C7E393 /* i-pan-sobie-zre-i-zyje-dalej.m4a */; };
+		E2FAAA7B2B0E14FE00C7E393 /* usilowalem-podkreslic-dobitnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA642B0E14FD00C7E393 /* usilowalem-podkreslic-dobitnie.m4a */; };
+		E2FAAA7C2B0E14FE00C7E393 /* na-dnie-oceanu-w-rowie-marianskim-sa-rurkowce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA652B0E14FD00C7E393 /* na-dnie-oceanu-w-rowie-marianskim-sa-rurkowce.m4a */; };
+		E2FAAA7D2B0E14FE00C7E393 /* jak-powiedzial-wybitny-krakowianin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA662B0E14FD00C7E393 /* jak-powiedzial-wybitny-krakowianin.m4a */; };
+		E2FAAA7E2B0E14FE00C7E393 /* mnie-uczono.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA672B0E14FD00C7E393 /* mnie-uczono.m4a */; };
+		E2FAAA7F2B0E14FE00C7E393 /* a-pan-chce-tylko-zyc.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA682B0E14FD00C7E393 /* a-pan-chce-tylko-zyc.m4a */; };
+		E2FAAA802B0E14FE00C7E393 /* po-polsku-mowie-a-nie-po-angielsku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA692B0E14FD00C7E393 /* po-polsku-mowie-a-nie-po-angielsku.m4a */; };
+		E2FAAA812B0E14FE00C7E393 /* za-komuny-to-bylo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA6A2B0E14FD00C7E393 /* za-komuny-to-bylo.m4a */; };
+		E2FAAA822B0E14FE00C7E393 /* dobrze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA6B2B0E14FD00C7E393 /* dobrze.m4a */; };
+		E2FAAA832B0E14FE00C7E393 /* nie-mowmy-o-tym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA6C2B0E14FD00C7E393 /* nie-mowmy-o-tym.m4a */; };
+		E2FAAA842B0E14FE00C7E393 /* ja-nie-jestem-wyprowadzony-z-rownowagi-prosze-pana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA6D2B0E14FD00C7E393 /* ja-nie-jestem-wyprowadzony-z-rownowagi-prosze-pana.m4a */; };
+		E2FAAA852B0E14FE00C7E393 /* one-zyja-sobie-calkowicie-bezpiecznie-od-milionow-lat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA6E2B0E14FD00C7E393 /* one-zyja-sobie-calkowicie-bezpiecznie-od-milionow-lat.m4a */; };
+		E2FAAA862B0E14FE00C7E393 /* ja-nie-uzywam-slowa-na-g-bo-mi-sie-z-gowem-kojarzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA6F2B0E14FE00C7E393 /* ja-nie-uzywam-slowa-na-g-bo-mi-sie-z-gowem-kojarzy.m4a */; };
+		E2FAAA872B0E14FE00C7E393 /* tfu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA702B0E14FE00C7E393 /* tfu.m4a */; };
+		E2FAAA882B0E14FE00C7E393 /* nie-to-jest-tak-smieszne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA712B0E14FE00C7E393 /* nie-to-jest-tak-smieszne.m4a */; };
+		E2FAAA892B0E14FE00C7E393 /* nie-no-zarty-smieszne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA722B0E14FE00C7E393 /* nie-no-zarty-smieszne.m4a */; };
+		E2FAAA8A2B0E14FE00C7E393 /* a-was-sie-uczy-przezorny-zawsze-ubezpieczony.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA732B0E14FE00C7E393 /* a-was-sie-uczy-przezorny-zawsze-ubezpieczony.m4a */; };
+		E2FAAA8B2B0E14FE00C7E393 /* ale-mnie-uczono-kto-nie-ryzykuje-ten-nie-je.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA742B0E14FE00C7E393 /* ale-mnie-uczono-kto-nie-ryzykuje-ten-nie-je.m4a */; };
+		E2FAAA8C2B0E14FE00C7E393 /* ze-najwazniejsze-jest-sie-dobrze-nazrec.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA752B0E14FE00C7E393 /* ze-najwazniejsze-jest-sie-dobrze-nazrec.m4a */; };
+		E2FAAA8D2B0E14FE00C7E393 /* i-za-to-walcza-i-umieraja.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA762B0E14FE00C7E393 /* i-za-to-walcza-i-umieraja.m4a */; };
+		E2FAAA8E2B0E14FE00C7E393 /* ze-mnie-brzydza-tego-typu-poglady.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2FAAA772B0E14FE00C7E393 /* ze-mnie-brzydza-tego-typu-poglady.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardList.swift; sourceTree = "<group>"; };
 		E2319CE32AF7A6A2004D54ED /* dlaczego-wy-tak-wyrabiacie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dlaczego-wy-tak-wyrabiacie.m4a"; sourceTree = "<group>"; };
 		E2319CE42AF7A6A2004D54ED /* to-nie-ma-roznicy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-nie-ma-roznicy.m4a"; sourceTree = "<group>"; };
 		E2319CE52AF7A6A2004D54ED /* tylko-chce-odniesc-sie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tylko-chce-odniesc-sie.m4a"; sourceTree = "<group>"; };
@@ -1266,8 +1377,8 @@
 		E2BDF4042AF5423800D136C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareContent.swift; sourceTree = "<group>"; };
 		E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
-		E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardList.swift; sourceTree = "<group>"; };
-		E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundboardList+ViewModel.swift"; sourceTree = "<group>"; };
+		E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardSearchView.swift; sourceTree = "<group>"; };
+		E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundboardSearchView+ViewModel.swift"; sourceTree = "<group>"; };
 		E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesSoundTip.swift; sourceTree = "<group>"; };
 		E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitView.swift; sourceTree = "<group>"; };
@@ -1275,7 +1386,7 @@
 		E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
 		E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCountView.swift; sourceTree = "<group>"; };
 		E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundRow.swift; sourceTree = "<group>"; };
+		E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardRow.swift; sourceTree = "<group>"; };
 		E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		E2C6F13F2AF6DD2400C8B73B /* PathError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathError.swift; sourceTree = "<group>"; };
 		E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathFinder.swift; sourceTree = "<group>"; };
@@ -1701,6 +1812,92 @@
 		E2FAA96D2B0CE16D00C7E393 /* to-zaraz-ja-to-wyrzuce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-zaraz-ja-to-wyrzuce.m4a"; sourceTree = "<group>"; };
 		E2FAA96E2B0CE16E00C7E393 /* i-taki-wielki-by-wylazl.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-taki-wielki-by-wylazl.m4a"; sourceTree = "<group>"; };
 		E2FAA96F2B0CE16E00C7E393 /* leci-to.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "leci-to.m4a"; sourceTree = "<group>"; };
+		E2FAA9C22B0CE3AD00C7E393 /* Korwin Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Korwin Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FAA9C82B0CE3AE00C7E393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2FAA9CB2B0CE3AE00C7E393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2FAA9D22B0CE41900C7E393 /* ja-nie-jestem-demokrata.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-nie-jestem-demokrata.m4a"; sourceTree = "<group>"; };
+		E2FAA9D32B0CE41900C7E393 /* demokracja-pogardzam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "demokracja-pogardzam.m4a"; sourceTree = "<group>"; };
+		E2FAA9D42B0CE41900C7E393 /* demokracji-nienawidze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "demokracji-nienawidze.m4a"; sourceTree = "<group>"; };
+		E2FAA9D52B0CE41900C7E393 /* demokracja-to-tyrania-wiekszosci.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "demokracja-to-tyrania-wiekszosci.m4a"; sourceTree = "<group>"; };
+		E2FAA9D62B0CE41900C7E393 /* ja-sie-z-tym-zgadzam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-sie-z-tym-zgadzam.m4a"; sourceTree = "<group>"; };
+		E2FAA9F32B0D140200C7E393 /* ja-moge-powiedziec-co-by-sie-dzialo-gdyby-polska-byla-krajem-kapitalistycznym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-moge-powiedziec-co-by-sie-dzialo-gdyby-polska-byla-krajem-kapitalistycznym.m4a"; sourceTree = "<group>"; };
+		E2FAA9F42B0D140200C7E393 /* korupcja-zlodziejstwo-pogarda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "korupcja-zlodziejstwo-pogarda.m4a"; sourceTree = "<group>"; };
+		E2FAA9F52B0D140200C7E393 /* ekh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ekh.m4a; sourceTree = "<group>"; };
+		E2FAA9F62B0D140200C7E393 /* ciocia-robila-paroweczki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ciocia-robila-paroweczki.m4a"; sourceTree = "<group>"; };
+		E2FAA9F72B0D140200C7E393 /* a-poza-tym-sadze-ze-unia-europejska-musi-byc-zniszczona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-poza-tym-sadze-ze-unia-europejska-musi-byc-zniszczona.m4a"; sourceTree = "<group>"; };
+		E2FAA9F82B0D140200C7E393 /* i-za-miesiac-mial-juz-firme-ktora-sprzedawala-paroweczki-na-ulicy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-za-miesiac-mial-juz-firme-ktora-sprzedawala-paroweczki-na-ulicy.m4a"; sourceTree = "<group>"; };
+		E2FAA9FF2B0D152C00C7E393 /* dzisiaj-to-jest-niemozliwe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzisiaj-to-jest-niemozliwe.m4a"; sourceTree = "<group>"; };
+		E2FAAA002B0D152D00C7E393 /* otoz-ymmm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "otoz-ymmm.m4a"; sourceTree = "<group>"; };
+		E2FAAA012B0D152D00C7E393 /* przepraszam-bardzo-dosc-tego!.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przepraszam-bardzo-dosc-tego!.m4a"; sourceTree = "<group>"; };
+		E2FAAA052B0E0FE800C7E393 /* tlumienie-wolnosci-slowa-czego-osobiscie-doswiadczam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tlumienie-wolnosci-slowa-czego-osobiscie-doswiadczam.m4a"; sourceTree = "<group>"; };
+		E2FAAA072B0E131400C7E393 /* afrykanskie-szambo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "afrykanskie-szambo.m4a"; sourceTree = "<group>"; };
+		E2FAAA082B0E131400C7E393 /* bo-widzi-pan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-widzi-pan.m4a"; sourceTree = "<group>"; };
+		E2FAAA092B0E131400C7E393 /* najlepszym-nauczycielem-jest-przyklad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "najlepszym-nauczycielem-jest-przyklad.m4a"; sourceTree = "<group>"; };
+		E2FAAA0A2B0E131400C7E393 /* ja-podam-przyklad-drastyczny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-podam-przyklad-drastyczny.m4a"; sourceTree = "<group>"; };
+		E2FAAA0B2B0E131400C7E393 /* powiedziec-ze-sie-odda-rodzinie-za-te-25tys.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "powiedziec-ze-sie-odda-rodzinie-za-te-25tys.m4a"; sourceTree = "<group>"; };
+		E2FAAA0C2B0E131400C7E393 /* nie-no-bo-co-to-dziecko-jest-winne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-no-bo-co-to-dziecko-jest-winne.m4a"; sourceTree = "<group>"; };
+		E2FAAA0D2B0E131400C7E393 /* podatek-dochodowy-nalezy-zlikwidowac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "podatek-dochodowy-nalezy-zlikwidowac.m4a"; sourceTree = "<group>"; };
+		E2FAAA0E2B0E131400C7E393 /* ludzie-maja-swoje-cele-swoje-ambicje-maja-swoje-idealy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ludzie-maja-swoje-cele-swoje-ambicje-maja-swoje-idealy.m4a"; sourceTree = "<group>"; };
+		E2FAAA0F2B0E131500C7E393 /* nic-nie-uczy-tak-rozumu-jak-glod.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nic-nie-uczy-tak-rozumu-jak-glod.m4a"; sourceTree = "<group>"; };
+		E2FAAA102B0E131500C7E393 /* dwie-tony-zlota-w-piwnicy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dwie-tony-zlota-w-piwnicy.m4a"; sourceTree = "<group>"; };
+		E2FAAA112B0E131500C7E393 /* dzisiaj-to-jest-niemozliwe-nie-z-powodu-zadnej-korporacji.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzisiaj-to-jest-niemozliwe-nie-z-powodu-zadnej-korporacji.m4a"; sourceTree = "<group>"; };
+		E2FAAA122B0E131500C7E393 /* dzisiejszy-ustroj-uniemozliwia-ludzion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dzisiejszy-ustroj-uniemozliwia-ludzion.m4a"; sourceTree = "<group>"; };
+		E2FAAA132B0E131500C7E393 /* dlaczego?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dlaczego?.m4a"; sourceTree = "<group>"; };
+		E2FAAA142B0E131500C7E393 /* dziekuje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dziekuje.m4a; sourceTree = "<group>"; };
+		E2FAAA152B0E131500C7E393 /* hy-hy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hy-hy.m4a"; sourceTree = "<group>"; };
+		E2FAAA162B0E131500C7E393 /* prosze-pana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "prosze-pana.m4a"; sourceTree = "<group>"; };
+		E2FAAA172B0E131500C7E393 /* a-poza-tym-sadze-ze-unia-europejska-powinna-byc-zniszczona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-poza-tym-sadze-ze-unia-europejska-powinna-byc-zniszczona.m4a"; sourceTree = "<group>"; };
+		E2FAAA182B0E131500C7E393 /* dziekuje-za-uwage.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dziekuje-za-uwage.m4a"; sourceTree = "<group>"; };
+		E2FAAA192B0E131500C7E393 /* ale-to-jest-nie-do-przyjecia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-to-jest-nie-do-przyjecia.m4a"; sourceTree = "<group>"; };
+		E2FAAA1A2B0E131500C7E393 /* i-zmusic-ich-po-prostu-do-pracy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-zmusic-ich-po-prostu-do-pracy.m4a"; sourceTree = "<group>"; };
+		E2FAAA1B2B0E131500C7E393 /* celem-zycia-nie-jest-przezycie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "celem-zycia-nie-jest-przezycie.m4a"; sourceTree = "<group>"; };
+		E2FAAA1C2B0E131500C7E393 /* jest-to-absurdalna-polityka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jest-to-absurdalna-polityka.m4a"; sourceTree = "<group>"; };
+		E2FAAA1D2B0E131500C7E393 /* istnieje-urzad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "istnieje-urzad.m4a"; sourceTree = "<group>"; };
+		E2FAAA1E2B0E131500C7E393 /* alez-jest-to-nieprawda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alez-jest-to-nieprawda.m4a"; sourceTree = "<group>"; };
+		E2FAAA1F2B0E131600C7E393 /* ale-nie-wiecej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-nie-wiecej.m4a"; sourceTree = "<group>"; };
+		E2FAAA202B0E131600C7E393 /* dziecko-kosztuje-okolo-25tys-dolarow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dziecko-kosztuje-okolo-25tys-dolarow.m4a"; sourceTree = "<group>"; };
+		E2FAAA212B0E131600C7E393 /* nie-bylo-islandii-popatrz-pan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-bylo-islandii-popatrz-pan.m4a"; sourceTree = "<group>"; };
+		E2FAAA222B0E131600C7E393 /* ja-obrazam-ludzi-starszych?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-obrazam-ludzi-starszych?.m4a"; sourceTree = "<group>"; };
+		E2FAAA232B0E131600C7E393 /* czy-mozna?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "czy-mozna?.m4a"; sourceTree = "<group>"; };
+		E2FAAA242B0E131600C7E393 /* a-nie-bylo-islandii-przypadkiem?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-nie-bylo-islandii-przypadkiem?.m4a"; sourceTree = "<group>"; };
+		E2FAAA432B0E132B00C7E393 /* z-ktorych-jedna-wygrywa-wojne-a-druga-siedzi-w-pieleszach.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "z-ktorych-jedna-wygrywa-wojne-a-druga-siedzi-w-pieleszach.m4a"; sourceTree = "<group>"; };
+		E2FAAA442B0E132B00C7E393 /* to-jest-oczywiste.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-oczywiste.m4a"; sourceTree = "<group>"; };
+		E2FAAA452B0E132B00C7E393 /* zabrano-tym-ludziom-okradziono-z-ich-pieniedzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zabrano-tym-ludziom-okradziono-z-ich-pieniedzy.m4a"; sourceTree = "<group>"; };
+		E2FAAA462B0E132B00C7E393 /* starszych?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "starszych?.m4a"; sourceTree = "<group>"; };
+		E2FAAA472B0E132B00C7E393 /* z-posrod-dwoch-armii.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "z-posrod-dwoch-armii.m4a"; sourceTree = "<group>"; };
+		E2FAAA482B0E132B00C7E393 /* w-tej-pierwszej-sie-bardziej-boja-o-swoje-zycie-ale-oni-zwyciezaja.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "w-tej-pierwszej-sie-bardziej-boja-o-swoje-zycie-ale-oni-zwyciezaja.m4a"; sourceTree = "<group>"; };
+		E2FAAA492B0E132B00C7E393 /* to-jest-nie-bede-zastepowac-panskich-nauczycieli.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-nie-bede-zastepowac-panskich-nauczycieli.m4a"; sourceTree = "<group>"; };
+		E2FAAA4A2B0E132B00C7E393 /* trzeba-dzecko-sprzedac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trzeba-dzecko-sprzedac.m4a"; sourceTree = "<group>"; };
+		E2FAAA4B2B0E132B00C7E393 /* zabrane-przez-was-emerytury.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zabrane-przez-was-emerytury.m4a"; sourceTree = "<group>"; };
+		E2FAAA4C2B0E132B00C7E393 /* to-my-powinnismy-uczyc-sie-od-chin-a-nie-chinczycy-od-nas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-my-powinnismy-uczyc-sie-od-chin-a-nie-chinczycy-od-nas.m4a"; sourceTree = "<group>"; };
+		E2FAAA4D2B0E132C00C7E393 /* w-tej-chwili.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "w-tej-chwili.m4a"; sourceTree = "<group>"; };
+		E2FAAA4E2B0E132C00C7E393 /* wolny-rynek-jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wolny-rynek-jest.m4a"; sourceTree = "<group>"; };
+		E2FAAA4F2B0E132C00C7E393 /* trza-dziecko-urodzic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "trza-dziecko-urodzic.m4a"; sourceTree = "<group>"; };
+		E2FAAA502B0E132C00C7E393 /* to-jest-niedopuszczalne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-niedopuszczalne.m4a"; sourceTree = "<group>"; };
+		E2FAAA512B0E132C00C7E393 /* tylko-dlatego-ze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tylko-dlatego-ze.m4a"; sourceTree = "<group>"; };
+		E2FAAA612B0E14FC00C7E393 /* to-jest-takie-pieszczotliwe-okreslenie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-jest-takie-pieszczotliwe-okreslenie.m4a"; sourceTree = "<group>"; };
+		E2FAAA622B0E14FD00C7E393 /* celem-zycia-nie-jest-dobrze-sie-nazrec-celem-zycia-nie-jest-bezpieczenstwo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "celem-zycia-nie-jest-dobrze-sie-nazrec-celem-zycia-nie-jest-bezpieczenstwo.m4a"; sourceTree = "<group>"; };
+		E2FAAA632B0E14FD00C7E393 /* i-pan-sobie-zre-i-zyje-dalej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-pan-sobie-zre-i-zyje-dalej.m4a"; sourceTree = "<group>"; };
+		E2FAAA642B0E14FD00C7E393 /* usilowalem-podkreslic-dobitnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "usilowalem-podkreslic-dobitnie.m4a"; sourceTree = "<group>"; };
+		E2FAAA652B0E14FD00C7E393 /* na-dnie-oceanu-w-rowie-marianskim-sa-rurkowce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-dnie-oceanu-w-rowie-marianskim-sa-rurkowce.m4a"; sourceTree = "<group>"; };
+		E2FAAA662B0E14FD00C7E393 /* jak-powiedzial-wybitny-krakowianin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-powiedzial-wybitny-krakowianin.m4a"; sourceTree = "<group>"; };
+		E2FAAA672B0E14FD00C7E393 /* mnie-uczono.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mnie-uczono.m4a"; sourceTree = "<group>"; };
+		E2FAAA682B0E14FD00C7E393 /* a-pan-chce-tylko-zyc.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-pan-chce-tylko-zyc.m4a"; sourceTree = "<group>"; };
+		E2FAAA692B0E14FD00C7E393 /* po-polsku-mowie-a-nie-po-angielsku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "po-polsku-mowie-a-nie-po-angielsku.m4a"; sourceTree = "<group>"; };
+		E2FAAA6A2B0E14FD00C7E393 /* za-komuny-to-bylo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "za-komuny-to-bylo.m4a"; sourceTree = "<group>"; };
+		E2FAAA6B2B0E14FD00C7E393 /* dobrze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dobrze.m4a; sourceTree = "<group>"; };
+		E2FAAA6C2B0E14FD00C7E393 /* nie-mowmy-o-tym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-mowmy-o-tym.m4a"; sourceTree = "<group>"; };
+		E2FAAA6D2B0E14FD00C7E393 /* ja-nie-jestem-wyprowadzony-z-rownowagi-prosze-pana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-nie-jestem-wyprowadzony-z-rownowagi-prosze-pana.m4a"; sourceTree = "<group>"; };
+		E2FAAA6E2B0E14FD00C7E393 /* one-zyja-sobie-calkowicie-bezpiecznie-od-milionow-lat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "one-zyja-sobie-calkowicie-bezpiecznie-od-milionow-lat.m4a"; sourceTree = "<group>"; };
+		E2FAAA6F2B0E14FE00C7E393 /* ja-nie-uzywam-slowa-na-g-bo-mi-sie-z-gowem-kojarzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-nie-uzywam-slowa-na-g-bo-mi-sie-z-gowem-kojarzy.m4a"; sourceTree = "<group>"; };
+		E2FAAA702B0E14FE00C7E393 /* tfu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tfu.m4a; sourceTree = "<group>"; };
+		E2FAAA712B0E14FE00C7E393 /* nie-to-jest-tak-smieszne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-to-jest-tak-smieszne.m4a"; sourceTree = "<group>"; };
+		E2FAAA722B0E14FE00C7E393 /* nie-no-zarty-smieszne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nie-no-zarty-smieszne.m4a"; sourceTree = "<group>"; };
+		E2FAAA732B0E14FE00C7E393 /* a-was-sie-uczy-przezorny-zawsze-ubezpieczony.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-was-sie-uczy-przezorny-zawsze-ubezpieczony.m4a"; sourceTree = "<group>"; };
+		E2FAAA742B0E14FE00C7E393 /* ale-mnie-uczono-kto-nie-ryzykuje-ten-nie-je.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-mnie-uczono-kto-nie-ryzykuje-ten-nie-je.m4a"; sourceTree = "<group>"; };
+		E2FAAA752B0E14FE00C7E393 /* ze-najwazniejsze-jest-sie-dobrze-nazrec.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-najwazniejsze-jest-sie-dobrze-nazrec.m4a"; sourceTree = "<group>"; };
+		E2FAAA762B0E14FE00C7E393 /* i-za-to-walcza-i-umieraja.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-za-to-walcza-i-umieraja.m4a"; sourceTree = "<group>"; };
+		E2FAAA772B0E14FE00C7E393 /* ze-mnie-brzydza-tego-typu-poglady.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ze-mnie-brzydza-tego-typu-poglady.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1728,6 +1925,15 @@
 			files = (
 				E2FAA8132B0CC94C00C7E393 /* RealmSwift in Frameworks */,
 				E2FAA8112B0CC94C00C7E393 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FAA9BF2B0CE3AD00C7E393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FAA9F12B0CE44300C7E393 /* RealmSwift in Frameworks */,
+				E2FAA9EF2B0CE44300C7E393 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2159,6 +2365,7 @@
 				E2BDF3FA2AF5423700D136C9 /* Stonoga Board.app */,
 				E2C6F2EF2AF6DF0E00C8B73B /* Konon Board.app */,
 				E2FAA7E22B0CC20500C7E393 /* Major Board.app */,
+				E2FAA9C22B0CE3AD00C7E393 /* Korwin Board.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2170,6 +2377,7 @@
 				E2C6F2F02AF6DF0E00C8B73B /* KononBoard */,
 				E2C6F2E92AF6DE5000C8B73B /* StonogaBoard */,
 				E2FAA7E32B0CC20500C7E393 /* MajorBoard */,
+				E2FAA9C32B0CE3AD00C7E393 /* KorwinBoard */,
 				E2319CE02AF7A61B004D54ED /* Shared */,
 			);
 			path = Soundboard;
@@ -2192,13 +2400,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E2C6F12D2AF6DD2400C8B73B /* SoundboardList */ = {
+		E2C6F12D2AF6DD2400C8B73B /* SoundboardSearch */ = {
 			isa = PBXGroup;
 			children = (
-				E2C6F12E2AF6DD2400C8B73B /* SoundboardList.swift */,
-				E2C6F12F2AF6DD2400C8B73B /* SoundboardList+ViewModel.swift */,
+				E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */,
+				E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */,
 			);
-			path = SoundboardList;
+			path = SoundboardSearch;
 			sourceTree = "<group>";
 		};
 		E2C6F1302AF6DD2400C8B73B /* Tips */ = {
@@ -2212,13 +2420,14 @@
 		E2C6F1342AF6DD2400C8B73B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E2C6F12D2AF6DD2400C8B73B /* SoundboardList */,
+				E2C6F12D2AF6DD2400C8B73B /* SoundboardSearch */,
+				E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */,
+				E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */,
 				E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */,
 				E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */,
 				E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */,
 				E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */,
 				E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */,
-				E2C6F13C2AF6DD2400C8B73B /* SoundRow.swift */,
 				E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */,
 			);
 			path = Views;
@@ -2725,6 +2934,122 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		E2FAA9C32B0CE3AD00C7E393 /* KorwinBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAA9D02B0CE40000C7E393 /* Resources */,
+				E2FAA9CA2B0CE3AE00C7E393 /* Preview Content */,
+			);
+			path = KorwinBoard;
+			sourceTree = "<group>";
+		};
+		E2FAA9CA2B0CE3AE00C7E393 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAA9CB2B0CE3AE00C7E393 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2FAA9D02B0CE40000C7E393 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAA9D12B0CE40D00C7E393 /* Sounds */,
+				E2FAA9C82B0CE3AE00C7E393 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2FAA9D12B0CE40D00C7E393 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E2FAAA242B0E131600C7E393 /* a-nie-bylo-islandii-przypadkiem?.m4a */,
+				E2FAAA682B0E14FD00C7E393 /* a-pan-chce-tylko-zyc.m4a */,
+				E2FAA9F72B0D140200C7E393 /* a-poza-tym-sadze-ze-unia-europejska-musi-byc-zniszczona.m4a */,
+				E2FAAA172B0E131500C7E393 /* a-poza-tym-sadze-ze-unia-europejska-powinna-byc-zniszczona.m4a */,
+				E2FAAA732B0E14FE00C7E393 /* a-was-sie-uczy-przezorny-zawsze-ubezpieczony.m4a */,
+				E2FAAA072B0E131400C7E393 /* afrykanskie-szambo.m4a */,
+				E2FAAA742B0E14FE00C7E393 /* ale-mnie-uczono-kto-nie-ryzykuje-ten-nie-je.m4a */,
+				E2FAAA1F2B0E131600C7E393 /* ale-nie-wiecej.m4a */,
+				E2FAAA192B0E131500C7E393 /* ale-to-jest-nie-do-przyjecia.m4a */,
+				E2FAAA1E2B0E131500C7E393 /* alez-jest-to-nieprawda.m4a */,
+				E2FAAA082B0E131400C7E393 /* bo-widzi-pan.m4a */,
+				E2FAAA622B0E14FD00C7E393 /* celem-zycia-nie-jest-dobrze-sie-nazrec-celem-zycia-nie-jest-bezpieczenstwo.m4a */,
+				E2FAAA1B2B0E131500C7E393 /* celem-zycia-nie-jest-przezycie.m4a */,
+				E2FAA9F62B0D140200C7E393 /* ciocia-robila-paroweczki.m4a */,
+				E2FAAA232B0E131600C7E393 /* czy-mozna?.m4a */,
+				E2FAA9D32B0CE41900C7E393 /* demokracja-pogardzam.m4a */,
+				E2FAA9D52B0CE41900C7E393 /* demokracja-to-tyrania-wiekszosci.m4a */,
+				E2FAA9D42B0CE41900C7E393 /* demokracji-nienawidze.m4a */,
+				E2FAAA132B0E131500C7E393 /* dlaczego?.m4a */,
+				E2FAAA6B2B0E14FD00C7E393 /* dobrze.m4a */,
+				E2FAAA102B0E131500C7E393 /* dwie-tony-zlota-w-piwnicy.m4a */,
+				E2FAAA202B0E131600C7E393 /* dziecko-kosztuje-okolo-25tys-dolarow.m4a */,
+				E2FAAA182B0E131500C7E393 /* dziekuje-za-uwage.m4a */,
+				E2FAAA142B0E131500C7E393 /* dziekuje.m4a */,
+				E2FAAA112B0E131500C7E393 /* dzisiaj-to-jest-niemozliwe-nie-z-powodu-zadnej-korporacji.m4a */,
+				E2FAA9FF2B0D152C00C7E393 /* dzisiaj-to-jest-niemozliwe.m4a */,
+				E2FAAA122B0E131500C7E393 /* dzisiejszy-ustroj-uniemozliwia-ludzion.m4a */,
+				E2FAA9F52B0D140200C7E393 /* ekh.m4a */,
+				E2FAAA152B0E131500C7E393 /* hy-hy.m4a */,
+				E2FAAA632B0E14FD00C7E393 /* i-pan-sobie-zre-i-zyje-dalej.m4a */,
+				E2FAA9F82B0D140200C7E393 /* i-za-miesiac-mial-juz-firme-ktora-sprzedawala-paroweczki-na-ulicy.m4a */,
+				E2FAAA762B0E14FE00C7E393 /* i-za-to-walcza-i-umieraja.m4a */,
+				E2FAAA1A2B0E131500C7E393 /* i-zmusic-ich-po-prostu-do-pracy.m4a */,
+				E2FAAA1D2B0E131500C7E393 /* istnieje-urzad.m4a */,
+				E2FAA9F32B0D140200C7E393 /* ja-moge-powiedziec-co-by-sie-dzialo-gdyby-polska-byla-krajem-kapitalistycznym.m4a */,
+				E2FAA9D22B0CE41900C7E393 /* ja-nie-jestem-demokrata.m4a */,
+				E2FAAA6D2B0E14FD00C7E393 /* ja-nie-jestem-wyprowadzony-z-rownowagi-prosze-pana.m4a */,
+				E2FAAA6F2B0E14FE00C7E393 /* ja-nie-uzywam-slowa-na-g-bo-mi-sie-z-gowem-kojarzy.m4a */,
+				E2FAAA222B0E131600C7E393 /* ja-obrazam-ludzi-starszych?.m4a */,
+				E2FAAA0A2B0E131400C7E393 /* ja-podam-przyklad-drastyczny.m4a */,
+				E2FAA9D62B0CE41900C7E393 /* ja-sie-z-tym-zgadzam.m4a */,
+				E2FAAA662B0E14FD00C7E393 /* jak-powiedzial-wybitny-krakowianin.m4a */,
+				E2FAAA1C2B0E131500C7E393 /* jest-to-absurdalna-polityka.m4a */,
+				E2FAA9F42B0D140200C7E393 /* korupcja-zlodziejstwo-pogarda.m4a */,
+				E2FAAA0E2B0E131400C7E393 /* ludzie-maja-swoje-cele-swoje-ambicje-maja-swoje-idealy.m4a */,
+				E2FAAA672B0E14FD00C7E393 /* mnie-uczono.m4a */,
+				E2FAAA652B0E14FD00C7E393 /* na-dnie-oceanu-w-rowie-marianskim-sa-rurkowce.m4a */,
+				E2FAAA092B0E131400C7E393 /* najlepszym-nauczycielem-jest-przyklad.m4a */,
+				E2FAAA0F2B0E131500C7E393 /* nic-nie-uczy-tak-rozumu-jak-glod.m4a */,
+				E2FAAA212B0E131600C7E393 /* nie-bylo-islandii-popatrz-pan.m4a */,
+				E2FAAA6C2B0E14FD00C7E393 /* nie-mowmy-o-tym.m4a */,
+				E2FAAA0C2B0E131400C7E393 /* nie-no-bo-co-to-dziecko-jest-winne.m4a */,
+				E2FAAA722B0E14FE00C7E393 /* nie-no-zarty-smieszne.m4a */,
+				E2FAAA712B0E14FE00C7E393 /* nie-to-jest-tak-smieszne.m4a */,
+				E2FAAA6E2B0E14FD00C7E393 /* one-zyja-sobie-calkowicie-bezpiecznie-od-milionow-lat.m4a */,
+				E2FAAA002B0D152D00C7E393 /* otoz-ymmm.m4a */,
+				E2FAAA692B0E14FD00C7E393 /* po-polsku-mowie-a-nie-po-angielsku.m4a */,
+				E2FAAA0D2B0E131400C7E393 /* podatek-dochodowy-nalezy-zlikwidowac.m4a */,
+				E2FAAA0B2B0E131400C7E393 /* powiedziec-ze-sie-odda-rodzinie-za-te-25tys.m4a */,
+				E2FAAA162B0E131500C7E393 /* prosze-pana.m4a */,
+				E2FAAA012B0D152D00C7E393 /* przepraszam-bardzo-dosc-tego!.m4a */,
+				E2FAAA462B0E132B00C7E393 /* starszych?.m4a */,
+				E2FAAA702B0E14FE00C7E393 /* tfu.m4a */,
+				E2FAAA052B0E0FE800C7E393 /* tlumienie-wolnosci-slowa-czego-osobiscie-doswiadczam.m4a */,
+				E2FAAA492B0E132B00C7E393 /* to-jest-nie-bede-zastepowac-panskich-nauczycieli.m4a */,
+				E2FAAA502B0E132C00C7E393 /* to-jest-niedopuszczalne.m4a */,
+				E2FAAA442B0E132B00C7E393 /* to-jest-oczywiste.m4a */,
+				E2FAAA612B0E14FC00C7E393 /* to-jest-takie-pieszczotliwe-okreslenie.m4a */,
+				E2FAAA4C2B0E132B00C7E393 /* to-my-powinnismy-uczyc-sie-od-chin-a-nie-chinczycy-od-nas.m4a */,
+				E2FAAA4F2B0E132C00C7E393 /* trza-dziecko-urodzic.m4a */,
+				E2FAAA4A2B0E132B00C7E393 /* trzeba-dzecko-sprzedac.m4a */,
+				E2FAAA512B0E132C00C7E393 /* tylko-dlatego-ze.m4a */,
+				E2FAAA642B0E14FD00C7E393 /* usilowalem-podkreslic-dobitnie.m4a */,
+				E2FAAA4D2B0E132C00C7E393 /* w-tej-chwili.m4a */,
+				E2FAAA482B0E132B00C7E393 /* w-tej-pierwszej-sie-bardziej-boja-o-swoje-zycie-ale-oni-zwyciezaja.m4a */,
+				E2FAAA4E2B0E132C00C7E393 /* wolny-rynek-jest.m4a */,
+				E2FAAA432B0E132B00C7E393 /* z-ktorych-jedna-wygrywa-wojne-a-druga-siedzi-w-pieleszach.m4a */,
+				E2FAAA472B0E132B00C7E393 /* z-posrod-dwoch-armii.m4a */,
+				E2FAAA6A2B0E14FD00C7E393 /* za-komuny-to-bylo.m4a */,
+				E2FAAA4B2B0E132B00C7E393 /* zabrane-przez-was-emerytury.m4a */,
+				E2FAAA452B0E132B00C7E393 /* zabrano-tym-ludziom-okradziono-z-ich-pieniedzy.m4a */,
+				E2FAAA772B0E14FE00C7E393 /* ze-mnie-brzydza-tego-typu-poglady.m4a */,
+				E2FAAA752B0E14FE00C7E393 /* ze-najwazniejsze-jest-sie-dobrze-nazrec.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2793,6 +3118,27 @@
 			productReference = E2FAA7E22B0CC20500C7E393 /* Major Board.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E2FAA9C12B0CE3AD00C7E393 /* Korwin Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FAA9CD2B0CE3AE00C7E393 /* Build configuration list for PBXNativeTarget "Korwin Board" */;
+			buildPhases = (
+				E2FAA9BE2B0CE3AD00C7E393 /* Sources */,
+				E2FAA9BF2B0CE3AD00C7E393 /* Frameworks */,
+				E2FAA9C02B0CE3AD00C7E393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Korwin Board";
+			packageProductDependencies = (
+				E2FAA9EE2B0CE44300C7E393 /* Realm */,
+				E2FAA9F02B0CE44300C7E393 /* RealmSwift */,
+			);
+			productName = "Korwin Board";
+			productReference = E2FAA9C22B0CE3AD00C7E393 /* Korwin Board.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2810,6 +3156,9 @@
 						CreatedOnToolsVersion = 15.0;
 					};
 					E2FAA7E12B0CC20500C7E393 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E2FAA9C12B0CE3AD00C7E393 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
@@ -2834,6 +3183,7 @@
 				E2BDF3F92AF5423700D136C9 /* Stonoga Board */,
 				E2C6F2EE2AF6DF0E00C8B73B /* Konon Board */,
 				E2FAA7E12B0CC20500C7E393 /* Major Board */,
+				E2FAA9C12B0CE3AD00C7E393 /* Korwin Board */,
 			);
 		};
 /* End PBXProject section */
@@ -3663,6 +4013,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2FAA9C02B0CE3AD00C7E393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FAA9D92B0CE41900C7E393 /* demokracji-nienawidze.m4a in Resources */,
+				E2FAA9D72B0CE41900C7E393 /* ja-nie-jestem-demokrata.m4a in Resources */,
+				E2FAAA542B0E132C00C7E393 /* zabrano-tym-ludziom-okradziono-z-ich-pieniedzy.m4a in Resources */,
+				E2FAA9F92B0D140200C7E393 /* ja-moge-powiedziec-co-by-sie-dzialo-gdyby-polska-byla-krajem-kapitalistycznym.m4a in Resources */,
+				E2FAAA7F2B0E14FE00C7E393 /* a-pan-chce-tylko-zyc.m4a in Resources */,
+				E2FAAA022B0D152D00C7E393 /* dzisiaj-to-jest-niemozliwe.m4a in Resources */,
+				E2FAAA8D2B0E14FE00C7E393 /* i-za-to-walcza-i-umieraja.m4a in Resources */,
+				E2FAAA572B0E132C00C7E393 /* w-tej-pierwszej-sie-bardziej-boja-o-swoje-zycie-ale-oni-zwyciezaja.m4a in Resources */,
+				E2FAAA372B0E131600C7E393 /* ale-to-jest-nie-do-przyjecia.m4a in Resources */,
+				E2FAA9FB2B0D140200C7E393 /* ekh.m4a in Resources */,
+				E2FAAA7B2B0E14FE00C7E393 /* usilowalem-podkreslic-dobitnie.m4a in Resources */,
+				E2FAA9FA2B0D140200C7E393 /* korupcja-zlodziejstwo-pogarda.m4a in Resources */,
+				E2FAAA802B0E14FE00C7E393 /* po-polsku-mowie-a-nie-po-angielsku.m4a in Resources */,
+				E2FAAA532B0E132C00C7E393 /* to-jest-oczywiste.m4a in Resources */,
+				E2FAAA602B0E132C00C7E393 /* tylko-dlatego-ze.m4a in Resources */,
+				E2FAAA3A2B0E131600C7E393 /* jest-to-absurdalna-polityka.m4a in Resources */,
+				E2FAAA5F2B0E132C00C7E393 /* to-jest-niedopuszczalne.m4a in Resources */,
+				E2FAAA3B2B0E131600C7E393 /* istnieje-urzad.m4a in Resources */,
+				E2FAAA392B0E131600C7E393 /* celem-zycia-nie-jest-przezycie.m4a in Resources */,
+				E2FAAA042B0D152D00C7E393 /* przepraszam-bardzo-dosc-tego!.m4a in Resources */,
+				E2FAAA2D2B0E131600C7E393 /* nic-nie-uczy-tak-rozumu-jak-glod.m4a in Resources */,
+				E2FAAA7E2B0E14FE00C7E393 /* mnie-uczono.m4a in Resources */,
+				E2FAAA882B0E14FE00C7E393 /* nie-to-jest-tak-smieszne.m4a in Resources */,
+				E2FAAA592B0E132C00C7E393 /* trzeba-dzecko-sprzedac.m4a in Resources */,
+				E2FAAA332B0E131600C7E393 /* hy-hy.m4a in Resources */,
+				E2FAAA8E2B0E14FE00C7E393 /* ze-mnie-brzydza-tego-typu-poglady.m4a in Resources */,
+				E2FAAA852B0E14FE00C7E393 /* one-zyja-sobie-calkowicie-bezpiecznie-od-milionow-lat.m4a in Resources */,
+				E2FAAA7A2B0E14FE00C7E393 /* i-pan-sobie-zre-i-zyje-dalej.m4a in Resources */,
+				E2FAAA832B0E14FE00C7E393 /* nie-mowmy-o-tym.m4a in Resources */,
+				E2FAAA3D2B0E131600C7E393 /* ale-nie-wiecej.m4a in Resources */,
+				E2FAAA252B0E131600C7E393 /* afrykanskie-szambo.m4a in Resources */,
+				E2FAAA342B0E131600C7E393 /* prosze-pana.m4a in Resources */,
+				E2FAAA812B0E14FE00C7E393 /* za-komuny-to-bylo.m4a in Resources */,
+				E2FAAA3E2B0E131600C7E393 /* dziecko-kosztuje-okolo-25tys-dolarow.m4a in Resources */,
+				E2FAAA352B0E131600C7E393 /* a-poza-tym-sadze-ze-unia-europejska-powinna-byc-zniszczona.m4a in Resources */,
+				E2FAAA582B0E132C00C7E393 /* to-jest-nie-bede-zastepowac-panskich-nauczycieli.m4a in Resources */,
+				E2FAAA552B0E132C00C7E393 /* starszych?.m4a in Resources */,
+				E2FAAA8B2B0E14FE00C7E393 /* ale-mnie-uczono-kto-nie-ryzykuje-ten-nie-je.m4a in Resources */,
+				E2FAAA032B0D152D00C7E393 /* otoz-ymmm.m4a in Resources */,
+				E2FAA9FC2B0D140200C7E393 /* ciocia-robila-paroweczki.m4a in Resources */,
+				E2FAAA5C2B0E132C00C7E393 /* w-tej-chwili.m4a in Resources */,
+				E2FAAA8A2B0E14FE00C7E393 /* a-was-sie-uczy-przezorny-zawsze-ubezpieczony.m4a in Resources */,
+				E2FAAA422B0E131600C7E393 /* a-nie-bylo-islandii-przypadkiem?.m4a in Resources */,
+				E2FAAA2B2B0E131600C7E393 /* podatek-dochodowy-nalezy-zlikwidowac.m4a in Resources */,
+				E2FAA9FD2B0D140200C7E393 /* a-poza-tym-sadze-ze-unia-europejska-musi-byc-zniszczona.m4a in Resources */,
+				E2FAA9DA2B0CE41900C7E393 /* demokracja-to-tyrania-wiekszosci.m4a in Resources */,
+				E2FAAA382B0E131600C7E393 /* i-zmusic-ich-po-prostu-do-pracy.m4a in Resources */,
+				E2FAAA2A2B0E131600C7E393 /* nie-no-bo-co-to-dziecko-jest-winne.m4a in Resources */,
+				E2FAAA792B0E14FE00C7E393 /* celem-zycia-nie-jest-dobrze-sie-nazrec-celem-zycia-nie-jest-bezpieczenstwo.m4a in Resources */,
+				E2FAAA522B0E132C00C7E393 /* z-ktorych-jedna-wygrywa-wojne-a-druga-siedzi-w-pieleszach.m4a in Resources */,
+				E2FAAA362B0E131600C7E393 /* dziekuje-za-uwage.m4a in Resources */,
+				E2FAAA2F2B0E131600C7E393 /* dzisiaj-to-jest-niemozliwe-nie-z-powodu-zadnej-korporacji.m4a in Resources */,
+				E2FAAA5E2B0E132C00C7E393 /* trza-dziecko-urodzic.m4a in Resources */,
+				E2FAAA842B0E14FE00C7E393 /* ja-nie-jestem-wyprowadzony-z-rownowagi-prosze-pana.m4a in Resources */,
+				E2FAAA402B0E131600C7E393 /* ja-obrazam-ludzi-starszych?.m4a in Resources */,
+				E2FAAA782B0E14FE00C7E393 /* to-jest-takie-pieszczotliwe-okreslenie.m4a in Resources */,
+				E2FAAA2C2B0E131600C7E393 /* ludzie-maja-swoje-cele-swoje-ambicje-maja-swoje-idealy.m4a in Resources */,
+				E2FAAA5A2B0E132C00C7E393 /* zabrane-przez-was-emerytury.m4a in Resources */,
+				E2FAA9FE2B0D140200C7E393 /* i-za-miesiac-mial-juz-firme-ktora-sprzedawala-paroweczki-na-ulicy.m4a in Resources */,
+				E2FAAA862B0E14FE00C7E393 /* ja-nie-uzywam-slowa-na-g-bo-mi-sie-z-gowem-kojarzy.m4a in Resources */,
+				E2FAAA322B0E131600C7E393 /* dziekuje.m4a in Resources */,
+				E2FAAA2E2B0E131600C7E393 /* dwie-tony-zlota-w-piwnicy.m4a in Resources */,
+				E2FAAA302B0E131600C7E393 /* dzisiejszy-ustroj-uniemozliwia-ludzion.m4a in Resources */,
+				E2FAA9CC2B0CE3AE00C7E393 /* Preview Assets.xcassets in Resources */,
+				E2FAAA8C2B0E14FE00C7E393 /* ze-najwazniejsze-jest-sie-dobrze-nazrec.m4a in Resources */,
+				E2FAAA5B2B0E132C00C7E393 /* to-my-powinnismy-uczyc-sie-od-chin-a-nie-chinczycy-od-nas.m4a in Resources */,
+				E2FAAA3F2B0E131600C7E393 /* nie-bylo-islandii-popatrz-pan.m4a in Resources */,
+				E2FAAA262B0E131600C7E393 /* bo-widzi-pan.m4a in Resources */,
+				E2FAA9C92B0CE3AE00C7E393 /* Assets.xcassets in Resources */,
+				E2FAAA292B0E131600C7E393 /* powiedziec-ze-sie-odda-rodzinie-za-te-25tys.m4a in Resources */,
+				E2FAAA892B0E14FE00C7E393 /* nie-no-zarty-smieszne.m4a in Resources */,
+				E2FAA9DB2B0CE41900C7E393 /* ja-sie-z-tym-zgadzam.m4a in Resources */,
+				E2FAAA312B0E131600C7E393 /* dlaczego?.m4a in Resources */,
+				E2FAAA872B0E14FE00C7E393 /* tfu.m4a in Resources */,
+				E2FAAA272B0E131600C7E393 /* najlepszym-nauczycielem-jest-przyklad.m4a in Resources */,
+				E2FAAA7C2B0E14FE00C7E393 /* na-dnie-oceanu-w-rowie-marianskim-sa-rurkowce.m4a in Resources */,
+				E2FAAA3C2B0E131600C7E393 /* alez-jest-to-nieprawda.m4a in Resources */,
+				E2FAAA562B0E132C00C7E393 /* z-posrod-dwoch-armii.m4a in Resources */,
+				E2FAAA282B0E131600C7E393 /* ja-podam-przyklad-drastyczny.m4a in Resources */,
+				E2FAAA5D2B0E132C00C7E393 /* wolny-rynek-jest.m4a in Resources */,
+				E2FAAA412B0E131600C7E393 /* czy-mozna?.m4a in Resources */,
+				E2FAAA062B0E0FE800C7E393 /* tlumienie-wolnosci-slowa-czego-osobiscie-doswiadczam.m4a in Resources */,
+				E2FAAA822B0E14FE00C7E393 /* dobrze.m4a in Resources */,
+				E2FAA9D82B0CE41900C7E393 /* demokracja-pogardzam.m4a in Resources */,
+				E2FAAA7D2B0E14FE00C7E393 /* jak-powiedzial-wybitny-krakowianin.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -3713,12 +4155,13 @@
 			files = (
 				E2C6F2162AF6DD2400C8B73B /* RoundCountView.swift in Sources */,
 				E2C6F21B2AF6DD2400C8B73B /* PathError.swift in Sources */,
-				E2C6F2102AF6DD2400C8B73B /* SoundboardList+ViewModel.swift in Sources */,
+				E2C6F2102AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift in Sources */,
 				E2C6F20E2AF6DD2400C8B73B /* SoundModel.swift in Sources */,
 				E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */,
 				E2C6F2172AF6DD2400C8B73B /* FavoriteButton.swift in Sources */,
 				E2C6F2142AF6DD2400C8B73B /* PlayButton.swift in Sources */,
 				E2C6F2122AF6DD2400C8B73B /* TitleModifier.swift in Sources */,
+				E20575132B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */,
 				E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */,
 				E2C6F2112AF6DD2400C8B73B /* FavoritesSoundTip.swift in Sources */,
 				E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */,
@@ -3727,9 +4170,9 @@
 				E2C6F20D2AF6DD2400C8B73B /* ShareContent.swift in Sources */,
 				E2C6F21D2AF6DD2400C8B73B /* SoundFileManager.swift in Sources */,
 				E2C6F21C2AF6DD2400C8B73B /* PathFinder.swift in Sources */,
-				E2C6F20F2AF6DD2400C8B73B /* SoundboardList.swift in Sources */,
+				E2C6F20F2AF6DD2400C8B73B /* SoundboardSearchView.swift in Sources */,
 				E2C6F2152AF6DD2400C8B73B /* ShareButton.swift in Sources */,
-				E2C6F2192AF6DD2400C8B73B /* SoundRow.swift in Sources */,
+				E2C6F2192AF6DD2400C8B73B /* SoundboardRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3745,17 +4188,18 @@
 				E2319FF12AF7A804004D54ED /* RealmManager.swift in Sources */,
 				E2319FEF2AF7A800004D54ED /* TitleModifier.swift in Sources */,
 				E2319FE92AF7A7D5004D54ED /* ShareContent.swift in Sources */,
+				E20575142B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */,
 				E2319FF32AF7A804004D54ED /* SoundFileManager.swift in Sources */,
 				E2319FF22AF7A804004D54ED /* PathError.swift in Sources */,
 				E2319FE82AF7A7D5004D54ED /* SoundModel.swift in Sources */,
 				E2319FEA2AF7A7FD004D54ED /* ShareButton.swift in Sources */,
-				E2319FFD2AF7A8C8004D54ED /* SoundRow.swift in Sources */,
-				E2319FF62AF7A80A004D54ED /* SoundboardList.swift in Sources */,
+				E2319FFD2AF7A8C8004D54ED /* SoundboardRow.swift in Sources */,
+				E2319FF62AF7A80A004D54ED /* SoundboardSearchView.swift in Sources */,
 				E2319FED2AF7A7FD004D54ED /* FavoriteButton.swift in Sources */,
 				E2319FEE2AF7A7FD004D54ED /* PortraitView.swift in Sources */,
 				E2319FEB2AF7A7FD004D54ED /* RoundCountView.swift in Sources */,
 				E2319FEC2AF7A7FD004D54ED /* PlayButton.swift in Sources */,
-				E2319FF72AF7A80A004D54ED /* SoundboardList+ViewModel.swift in Sources */,
+				E2319FF72AF7A80A004D54ED /* SoundboardSearchView+ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3769,8 +4213,9 @@
 				E2FAA8002B0CC86C00C7E393 /* PathError.swift in Sources */,
 				E2FAA8032B0CC86C00C7E393 /* ShareContentProvider.swift in Sources */,
 				E2FAA7FE2B0CC86700C7E393 /* FavoritesSoundTip.swift in Sources */,
-				E2FAA7FA2B0CC85E00C7E393 /* SoundboardList+ViewModel.swift in Sources */,
-				E2FAA7F62B0CC85A00C7E393 /* SoundRow.swift in Sources */,
+				E2FAA7FA2B0CC85E00C7E393 /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E2FAA7F62B0CC85A00C7E393 /* SoundboardRow.swift in Sources */,
+				E20575152B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */,
 				E2FAA7F32B0CC85A00C7E393 /* PortraitView.swift in Sources */,
 				E2FAA7F72B0CC85A00C7E393 /* ShareButton.swift in Sources */,
 				E2FAA7FF2B0CC86C00C7E393 /* SoundFileManager.swift in Sources */,
@@ -3779,9 +4224,36 @@
 				E2FAA7FD2B0CC86200C7E393 /* ShareContent.swift in Sources */,
 				E2FAA7FC2B0CC86200C7E393 /* SoundModel.swift in Sources */,
 				E2FAA7F52B0CC85A00C7E393 /* FavoriteButton.swift in Sources */,
-				E2FAA7FB2B0CC85E00C7E393 /* SoundboardList.swift in Sources */,
+				E2FAA7FB2B0CC85E00C7E393 /* SoundboardSearchView.swift in Sources */,
 				E2FAA8022B0CC86C00C7E393 /* SoundPlayer.swift in Sources */,
 				E2FAA7F92B0CC85A00C7E393 /* TitleModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FAA9BE2B0CE3AD00C7E393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FAA9E72B0CE42F00C7E393 /* PathFinder.swift in Sources */,
+				E2FAA9E62B0CE42F00C7E393 /* RealmManager.swift in Sources */,
+				E2FAA9E82B0CE42F00C7E393 /* PathError.swift in Sources */,
+				E2FAA9E02B0CE42400C7E393 /* ShareButton.swift in Sources */,
+				E2FAA9DC2B0CE42400C7E393 /* PortraitView.swift in Sources */,
+				E2FAA9E22B0CE42400C7E393 /* PlayButton.swift in Sources */,
+				E2FAA9E52B0CE42A00C7E393 /* FavoritesSoundTip.swift in Sources */,
+				E2FAA9E32B0CE42400C7E393 /* TitleModifier.swift in Sources */,
+				E20575162B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */,
+				E2FAA9DE2B0CE42400C7E393 /* SoundboardRow.swift in Sources */,
+				E2FAA9E12B0CE42400C7E393 /* RoundCountView.swift in Sources */,
+				E2FAA9EC2B0CE43300C7E393 /* SoundModel.swift in Sources */,
+				E2FAA9DD2B0CE42400C7E393 /* FavoriteButton.swift in Sources */,
+				E2FAA9EB2B0CE42F00C7E393 /* SoundFileManager.swift in Sources */,
+				E2FAA9ED2B0CE43300C7E393 /* ShareContent.swift in Sources */,
+				E2FAA9DF2B0CE42400C7E393 /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E2FAA9F22B0CE45800C7E393 /* SoundboardApp.swift in Sources */,
+				E2FAA9E92B0CE42F00C7E393 /* ShareContentProvider.swift in Sources */,
+				E2FAA9EA2B0CE42F00C7E393 /* SoundPlayer.swift in Sources */,
+				E2FAA9E42B0CE42400C7E393 /* SoundboardSearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4121,6 +4593,72 @@
 			};
 			name = Release;
 		};
+		E2FAA9CE2B0CE3AE00C7E393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KorwinBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.korwin.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Korwin Soundboard Development";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2FAA9CF2B0CE3AE00C7E393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KorwinBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.korwin.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Korwin Soundboard App Store";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4156,6 +4694,15 @@
 			buildConfigurations = (
 				E2FAA7EE2B0CC20600C7E393 /* Debug */,
 				E2FAA7EF2B0CC20600C7E393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FAA9CD2B0CE3AE00C7E393 /* Build configuration list for PBXNativeTarget "Korwin Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FAA9CE2B0CE3AE00C7E393 /* Debug */,
+				E2FAA9CF2B0CE3AE00C7E393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4208,6 +4755,16 @@
 			productName = Realm;
 		};
 		E2FAA8122B0CC94C00C7E393 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		E2FAA9EE2B0CE44300C7E393 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E2FAA9F02B0CE44300C7E393 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;

@@ -1,5 +1,5 @@
 //
-//  SoundRowView.swift
+//  SoundboardRow.swift
 //  Soundboard
 //
 //  Created by Pawel Milek on 10/25/23.
@@ -8,7 +8,7 @@
 import SwiftUI
 import RealmSwift
 
-struct SoundRow: View {
+struct SoundboardRow: View {
     @ObservedRealmObject var item: SoundModel
     let shareContent: ShareContent
     var onPlayButton: () -> Void
@@ -43,21 +43,21 @@ struct SoundRow: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    SoundRow(
+    SoundboardRow(
         item: RealmManager(name: "stonoga.soundboard").realm!.objects(SoundModel.self)[3],
         shareContent: ShareContent.default,
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardList.ViewModel())
+    .environmentObject(SoundboardSearchView.ViewModel())
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    SoundRow(
+    SoundboardRow(
         item: RealmManager(name: "stonoga.soundboard").realm!.objects(SoundModel.self).last!,
         shareContent: ShareContent.default,
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardList.ViewModel())
+    .environmentObject(SoundboardSearchView.ViewModel())
 }

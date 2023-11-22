@@ -11,21 +11,18 @@ import TipKit
 @main
 struct SoundboardApp: App {
     @StateObject private var realmManager = RealmManager(name: "soundboard")
-    @StateObject private var viewModel = SoundboardList.ViewModel()
+    @StateObject private var viewModel = SoundboardSearchView.ViewModel()
 
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-                SoundboardList(viewModel: viewModel)
-                    .navigationTitle("Soundboard")
-                    .environmentObject(viewModel)
-                    .environmentObject(realmManager)
-                    .environment(\.realmConfiguration, realmManager.realm!.configuration)
-            }
-            .task {
-                configureTip()
-                debugPrintRealmFileURL()
-            }
+            SoundboardSearchView(viewModel: viewModel)
+                .environmentObject(viewModel)
+                .environmentObject(realmManager)
+                .environment(\.realmConfiguration, realmManager.realm!.configuration)
+                .task {
+                    configureTip()
+                    debugPrintRealmFileURL()
+                }
         }
     }
 

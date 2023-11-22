@@ -1,5 +1,5 @@
 //
-//  SoundboardList+ViewModel.swift
+//  SoundboardSearchView+ViewModel.swift
 //  Soundboard
 //
 //  Created by Pawel Milek on 10/25/23.
@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import RealmSwift
 
-extension SoundboardList {
+extension SoundboardSearchView {
     @MainActor
     final class ViewModel: NSObject, ObservableObject {
         @Published var items: Results<SoundModel>?
@@ -43,7 +43,7 @@ extension SoundboardList {
             return if searchText.isEmpty {
                 "No Favorites available"
             } else {
-                "No sound bites found for \(searchText)"
+                "No sounds found for \(searchText)"
             }
         }
 
@@ -53,7 +53,7 @@ extension SoundboardList {
 
         var contentUnavailableDescription: String {
             return if searchText.isEmpty {
-                "Add sound bits to favorit"
+                "Add sounds to favorite"
             } else {
                 "Try to search for a different phrase"
             }
