@@ -413,6 +413,8 @@
 		E2319FF62AF7A80A004D54ED /* SoundboardSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */; };
 		E2319FF72AF7A80A004D54ED /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
 		E2319FFD2AF7A8C8004D54ED /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
+		E29319C82B189E4400D3C461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29319C72B189E4400D3C461 /* Assets.xcassets */; };
+		E29319CB2B189E4400D3C461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29319CA2B189E4400D3C461 /* Preview Assets.xcassets */; };
 		E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2B85DCC2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
@@ -637,6 +639,39 @@
 		E2C6F2E82AF6DDB600C8B73B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
 		E2C6F2F62AF6DF0F00C8B73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2F52AF6DF0F00C8B73B /* Assets.xcassets */; };
 		E2C6F2F92AF6DF0F00C8B73B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */; };
+		E2E8BE442B189ECE00C37F6A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2E8BE432B189ECE00C37F6A /* Realm */; };
+		E2E8BE462B189ECE00C37F6A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2E8BE452B189ECE00C37F6A /* RealmSwift */; };
+		E2E8BE492B18A15F00C37F6A /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
+		E2E8BE4A2B18A15F00C37F6A /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
+		E2E8BE4B2B18A16600C37F6A /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
+		E2E8BE4C2B18A16600C37F6A /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2E8BE4D2B18A16600C37F6A /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
+		E2E8BE4E2B18A16600C37F6A /* SoundboardSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */; };
+		E2E8BE4F2B18A16600C37F6A /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
+		E2E8BE502B18A16600C37F6A /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
+		E2E8BE512B18A16600C37F6A /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
+		E2E8BE522B18A16600C37F6A /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
+		E2E8BE532B18A16600C37F6A /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
+		E2E8BE542B18A16600C37F6A /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
+		E2E8BE552B18A16A00C37F6A /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
+		E2E8BE562B18A16F00C37F6A /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
+		E2E8BE572B18A16F00C37F6A /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
+		E2E8BE582B18A16F00C37F6A /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */; };
+		E2E8BE592B18A16F00C37F6A /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
+		E2E8BE5A2B18A16F00C37F6A /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13F2AF6DD2400C8B73B /* PathError.swift */; };
+		E2E8BE5B2B18A16F00C37F6A /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */; };
+		E2E8BE5C2B18A17700C37F6A /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
+		E2E8BE622B18A2FF00C37F6A /* ty-skur-pierd.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE602B18A2FF00C37F6A /* ty-skur-pierd.m4a */; };
+		E2E8BE632B18A2FF00C37F6A /* sluchaj-ch-na-rope.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE612B18A2FF00C37F6A /* sluchaj-ch-na-rope.m4a */; };
+		E2E8BE6D2B18A41400C37F6A /* tylko-musisz-do-mnie-przyjechac-zameldowac-sie-ze-jestes-pol-ch-z-zamoscia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE642B18A41300C37F6A /* tylko-musisz-do-mnie-przyjechac-zameldowac-sie-ze-jestes-pol-ch-z-zamoscia.m4a */; };
+		E2E8BE6E2B18A41400C37F6A /* na-corce-kurw.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE652B18A41300C37F6A /* na-corce-kurw.m4a */; };
+		E2E8BE6F2B18A41400C37F6A /* o-to-ci-chodzilo?-to-masz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE662B18A41400C37F6A /* o-to-ci-chodzilo?-to-masz.m4a */; };
+		E2E8BE702B18A41400C37F6A /* ty-skur-robiony-przez-skur-syna.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE672B18A41400C37F6A /* ty-skur-robiony-przez-skur-syna.m4a */; };
+		E2E8BE712B18A41400C37F6A /* ty-pierd-ku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE682B18A41400C37F6A /* ty-pierd-ku.m4a */; };
+		E2E8BE722B18A41400C37F6A /* masz-co-chciales.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE692B18A41400C37F6A /* masz-co-chciales.m4a */; };
+		E2E8BE732B18A41400C37F6A /* chamie-pierd.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE6A2B18A41400C37F6A /* chamie-pierd.m4a */; };
+		E2E8BE742B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE6B2B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a */; };
+		E2E8BE752B18A41400C37F6A /* jestes-kurw-pmiotem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE6C2B18A41400C37F6A /* jestes-kurw-pmiotem.m4a */; };
 		E2FAA7E92B0CC20600C7E393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */; };
 		E2FAA7EC2B0CC20600C7E393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */; };
 		E2FAA7F22B0CC84500C7E393 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
@@ -1371,6 +1406,9 @@
 		E2319E602AF7A6A2004D54ED /* zeby-mie-beben-pekl.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zeby-mie-beben-pekl.m4a"; sourceTree = "<group>"; };
 		E2319E612AF7A6A2004D54ED /* i-zabiore-sie-i-pojade-w-swiat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-zabiore-sie-i-pojade-w-swiat.m4a"; sourceTree = "<group>"; };
 		E2319E622AF7A6A2004D54ED /* porabane-bedziesz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "porabane-bedziesz.m4a"; sourceTree = "<group>"; };
+		E29319C12B189E4200D3C461 /* Kamraci Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kamraci Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29319C72B189E4400D3C461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E29319CA2B189E4400D3C461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentProvider.swift; sourceTree = "<group>"; };
 		E2BDF3FA2AF5423700D136C9 /* Stonoga Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stonoga Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardApp.swift; sourceTree = "<group>"; };
@@ -1596,6 +1634,17 @@
 		E2C6F2EF2AF6DF0E00C8B73B /* Konon Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konon Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C6F2F52AF6DF0F00C8B73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2E8BE602B18A2FF00C37F6A /* ty-skur-pierd.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-skur-pierd.m4a"; sourceTree = "<group>"; };
+		E2E8BE612B18A2FF00C37F6A /* sluchaj-ch-na-rope.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sluchaj-ch-na-rope.m4a"; sourceTree = "<group>"; };
+		E2E8BE642B18A41300C37F6A /* tylko-musisz-do-mnie-przyjechac-zameldowac-sie-ze-jestes-pol-ch-z-zamoscia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tylko-musisz-do-mnie-przyjechac-zameldowac-sie-ze-jestes-pol-ch-z-zamoscia.m4a"; sourceTree = "<group>"; };
+		E2E8BE652B18A41300C37F6A /* na-corce-kurw.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "na-corce-kurw.m4a"; sourceTree = "<group>"; };
+		E2E8BE662B18A41400C37F6A /* o-to-ci-chodzilo?-to-masz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-to-ci-chodzilo?-to-masz.m4a"; sourceTree = "<group>"; };
+		E2E8BE672B18A41400C37F6A /* ty-skur-robiony-przez-skur-syna.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-skur-robiony-przez-skur-syna.m4a"; sourceTree = "<group>"; };
+		E2E8BE682B18A41400C37F6A /* ty-pierd-ku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-pierd-ku.m4a"; sourceTree = "<group>"; };
+		E2E8BE692B18A41400C37F6A /* masz-co-chciales.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "masz-co-chciales.m4a"; sourceTree = "<group>"; };
+		E2E8BE6A2B18A41400C37F6A /* chamie-pierd.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chamie-pierd.m4a"; sourceTree = "<group>"; };
+		E2E8BE6B2B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-zaj-ci-kur-z-baniaka.m4a"; sourceTree = "<group>"; };
+		E2E8BE6C2B18A41400C37F6A /* jestes-kurw-pmiotem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jestes-kurw-pmiotem.m4a"; sourceTree = "<group>"; };
 		E2FAA7E22B0CC20500C7E393 /* Major Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Major Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -1901,6 +1950,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E29319BE2B189E4200D3C461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E8BE462B189ECE00C37F6A /* RealmSwift in Frameworks */,
+				E2E8BE442B189ECE00C37F6A /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2BDF3F72AF5423700D136C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2351,6 +2409,23 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		E29319C22B189E4200D3C461 /* KamraciBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8BE472B189F7B00C37F6A /* Resources */,
+				E29319C92B189E4400D3C461 /* Preview Content */,
+			);
+			path = KamraciBoard;
+			sourceTree = "<group>";
+		};
+		E29319C92B189E4400D3C461 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E29319CA2B189E4400D3C461 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		E2BDF3F12AF5423700D136C9 = {
 			isa = PBXGroup;
 			children = (
@@ -2366,6 +2441,7 @@
 				E2C6F2EF2AF6DF0E00C8B73B /* Konon Board.app */,
 				E2FAA7E22B0CC20500C7E393 /* Major Board.app */,
 				E2FAA9C22B0CE3AD00C7E393 /* Korwin Board.app */,
+				E29319C12B189E4200D3C461 /* Kamraci Board.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2378,6 +2454,7 @@
 				E2C6F2E92AF6DE5000C8B73B /* StonogaBoard */,
 				E2FAA7E32B0CC20500C7E393 /* MajorBoard */,
 				E2FAA9C32B0CE3AD00C7E393 /* KorwinBoard */,
+				E29319C22B189E4200D3C461 /* KamraciBoard */,
 				E2319CE02AF7A61B004D54ED /* Shared */,
 			);
 			path = Soundboard;
@@ -2686,6 +2763,33 @@
 				E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2E8BE472B189F7B00C37F6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8BE482B189F8100C37F6A /* Sounds */,
+				E29319C72B189E4400D3C461 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2E8BE482B189F8100C37F6A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8BE6A2B18A41400C37F6A /* chamie-pierd.m4a */,
+				E2E8BE6B2B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a */,
+				E2E8BE6C2B18A41400C37F6A /* jestes-kurw-pmiotem.m4a */,
+				E2E8BE692B18A41400C37F6A /* masz-co-chciales.m4a */,
+				E2E8BE652B18A41300C37F6A /* na-corce-kurw.m4a */,
+				E2E8BE662B18A41400C37F6A /* o-to-ci-chodzilo?-to-masz.m4a */,
+				E2E8BE612B18A2FF00C37F6A /* sluchaj-ch-na-rope.m4a */,
+				E2E8BE682B18A41400C37F6A /* ty-pierd-ku.m4a */,
+				E2E8BE602B18A2FF00C37F6A /* ty-skur-pierd.m4a */,
+				E2E8BE672B18A41400C37F6A /* ty-skur-robiony-przez-skur-syna.m4a */,
+				E2E8BE642B18A41300C37F6A /* tylko-musisz-do-mnie-przyjechac-zameldowac-sie-ze-jestes-pol-ch-z-zamoscia.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		E2FAA7E32B0CC20500C7E393 /* MajorBoard */ = {
@@ -3053,6 +3157,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E29319C02B189E4200D3C461 /* Kamraci Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29319CC2B189E4400D3C461 /* Build configuration list for PBXNativeTarget "Kamraci Board" */;
+			buildPhases = (
+				E29319BD2B189E4200D3C461 /* Sources */,
+				E29319BE2B189E4200D3C461 /* Frameworks */,
+				E29319BF2B189E4200D3C461 /* Resources */,
+				E2E8BE5F2B18A1E600C37F6A /* Run SwiftLint Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kamraci Board";
+			packageProductDependencies = (
+				E2E8BE432B189ECE00C37F6A /* Realm */,
+				E2E8BE452B189ECE00C37F6A /* RealmSwift */,
+			);
+			productName = "Kamraci Board";
+			productReference = E29319C12B189E4200D3C461 /* Kamraci Board.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E2BDF3F92AF5423700D136C9 /* Stonoga Board */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2BDF4082AF5423800D136C9 /* Build configuration list for PBXNativeTarget "Stonoga Board" */;
@@ -3104,6 +3230,7 @@
 				E2FAA7DE2B0CC20500C7E393 /* Sources */,
 				E2FAA7DF2B0CC20500C7E393 /* Frameworks */,
 				E2FAA7E02B0CC20500C7E393 /* Resources */,
+				E2E8BE5D2B18A1C200C37F6A /* Run SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -3125,6 +3252,7 @@
 				E2FAA9BE2B0CE3AD00C7E393 /* Sources */,
 				E2FAA9BF2B0CE3AD00C7E393 /* Frameworks */,
 				E2FAA9C02B0CE3AD00C7E393 /* Resources */,
+				E2E8BE5E2B18A1D500C37F6A /* Run SwiftLint Script */,
 			);
 			buildRules = (
 			);
@@ -3149,6 +3277,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					E29319C02B189E4200D3C461 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					E2BDF3F92AF5423700D136C9 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -3184,11 +3315,32 @@
 				E2C6F2EE2AF6DF0E00C8B73B /* Konon Board */,
 				E2FAA7E12B0CC20500C7E393 /* Major Board */,
 				E2FAA9C12B0CE3AD00C7E393 /* Korwin Board */,
+				E29319C02B189E4200D3C461 /* Kamraci Board */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E29319BF2B189E4200D3C461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29319CB2B189E4400D3C461 /* Preview Assets.xcassets in Resources */,
+				E2E8BE6F2B18A41400C37F6A /* o-to-ci-chodzilo?-to-masz.m4a in Resources */,
+				E2E8BE6E2B18A41400C37F6A /* na-corce-kurw.m4a in Resources */,
+				E2E8BE702B18A41400C37F6A /* ty-skur-robiony-przez-skur-syna.m4a in Resources */,
+				E2E8BE622B18A2FF00C37F6A /* ty-skur-pierd.m4a in Resources */,
+				E2E8BE712B18A41400C37F6A /* ty-pierd-ku.m4a in Resources */,
+				E2E8BE6D2B18A41400C37F6A /* tylko-musisz-do-mnie-przyjechac-zameldowac-sie-ze-jestes-pol-ch-z-zamoscia.m4a in Resources */,
+				E2E8BE722B18A41400C37F6A /* masz-co-chciales.m4a in Resources */,
+				E2E8BE742B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a in Resources */,
+				E2E8BE732B18A41400C37F6A /* chamie-pierd.m4a in Resources */,
+				E29319C82B189E4400D3C461 /* Assets.xcassets in Resources */,
+				E2E8BE632B18A2FF00C37F6A /* sluchaj-ch-na-rope.m4a in Resources */,
+				E2E8BE752B18A41400C37F6A /* jestes-kurw-pmiotem.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2BDF3F82AF5423700D136C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4146,9 +4298,93 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		E2E8BE5D2B18A1C200C37F6A /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		E2E8BE5E2B18A1D500C37F6A /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		E2E8BE5F2B18A1E600C37F6A /* Run SwiftLint Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E29319BD2B189E4200D3C461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E8BE552B18A16A00C37F6A /* FavoritesSoundTip.swift in Sources */,
+				E2E8BE492B18A15F00C37F6A /* SoundModel.swift in Sources */,
+				E2E8BE4F2B18A16600C37F6A /* SoundboardList.swift in Sources */,
+				E2E8BE4D2B18A16600C37F6A /* PlayButton.swift in Sources */,
+				E2E8BE5C2B18A17700C37F6A /* SoundboardApp.swift in Sources */,
+				E2E8BE592B18A16F00C37F6A /* ShareContentProvider.swift in Sources */,
+				E2E8BE522B18A16600C37F6A /* RoundCountView.swift in Sources */,
+				E2E8BE532B18A16600C37F6A /* TitleModifier.swift in Sources */,
+				E2E8BE4C2B18A16600C37F6A /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E2E8BE562B18A16F00C37F6A /* RealmManager.swift in Sources */,
+				E2E8BE4A2B18A15F00C37F6A /* ShareContent.swift in Sources */,
+				E2E8BE4B2B18A16600C37F6A /* ShareButton.swift in Sources */,
+				E2E8BE4E2B18A16600C37F6A /* SoundboardSearchView.swift in Sources */,
+				E2E8BE5B2B18A16F00C37F6A /* PathFinder.swift in Sources */,
+				E2E8BE582B18A16F00C37F6A /* SoundFileManager.swift in Sources */,
+				E2E8BE542B18A16600C37F6A /* FavoriteButton.swift in Sources */,
+				E2E8BE512B18A16600C37F6A /* PortraitView.swift in Sources */,
+				E2E8BE5A2B18A16F00C37F6A /* PathError.swift in Sources */,
+				E2E8BE572B18A16F00C37F6A /* SoundPlayer.swift in Sources */,
+				E2E8BE502B18A16600C37F6A /* SoundboardRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2BDF3F62AF5423700D136C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4260,6 +4496,70 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E29319CD2B189E4400D3C461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kamraci Board";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.kamraci.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E29319CE2B189E4400D3C461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kamraci Board";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.kamraci.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		E2BDF4062AF5423800D136C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4535,6 +4835,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Major Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
@@ -4570,6 +4871,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Major Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
@@ -4605,6 +4907,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Korwin Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
@@ -4640,6 +4943,7 @@
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Korwin Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
@@ -4666,6 +4970,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E29319CC2B189E4400D3C461 /* Build configuration list for PBXNativeTarget "Kamraci Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29319CD2B189E4400D3C461 /* Debug */,
+				E29319CE2B189E4400D3C461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E2BDF3F52AF5423700D136C9 /* Build configuration list for PBXProject "Soundboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4733,6 +5046,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E2E8BE432B189ECE00C37F6A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E2E8BE452B189ECE00C37F6A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
 		E2FAA8082B0CC92B00C7E393 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
