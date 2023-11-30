@@ -672,6 +672,67 @@
 		E2E8BE732B18A41400C37F6A /* chamie-pierd.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE6A2B18A41400C37F6A /* chamie-pierd.m4a */; };
 		E2E8BE742B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE6B2B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a */; };
 		E2E8BE752B18A41400C37F6A /* jestes-kurw-pmiotem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE6C2B18A41400C37F6A /* jestes-kurw-pmiotem.m4a */; };
+		E2E8BE7D2B18E96400C37F6A /* ty-szabes-goju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE762B18E96400C37F6A /* ty-szabes-goju.m4a */; };
+		E2E8BE7E2B18E96400C37F6A /* ty-zydowski-polprodukcie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE772B18E96400C37F6A /* ty-zydowski-polprodukcie.m4a */; };
+		E2E8BE7F2B18E96400C37F6A /* ty-wyskrobancu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE782B18E96400C37F6A /* ty-wyskrobancu.m4a */; };
+		E2E8BE802B18E96400C37F6A /* dodzwoniles-sie-do-nacjonalistycznego-bydla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE792B18E96400C37F6A /* dodzwoniles-sie-do-nacjonalistycznego-bydla.m4a */; };
+		E2E8BE812B18E96400C37F6A /* o-to-ci-chodzilo?-masz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE7A2B18E96400C37F6A /* o-to-ci-chodzilo?-masz.m4a */; };
+		E2E8BE822B18E96400C37F6A /* wiesz-gdzie-sie-dodzwoniles?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE7B2B18E96400C37F6A /* wiesz-gdzie-sie-dodzwoniles?.m4a */; };
+		E2E8BE832B18E96400C37F6A /* gratuluje-ci.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE7C2B18E96400C37F6A /* gratuluje-ci.m4a */; };
+		E2E8BE952B18EADB00C37F6A /* odwagi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE842B18EADA00C37F6A /* odwagi.m4a */; };
+		E2E8BE962B18EADB00C37F6A /* osiagnales-co-chciales-i-wiesz-co-ci-powiem-romek?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE852B18EADA00C37F6A /* osiagnales-co-chciales-i-wiesz-co-ci-powiem-romek?.m4a */; };
+		E2E8BE972B18EADB00C37F6A /* to-sa-ludzie-w-moim-wieku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE862B18EADA00C37F6A /* to-sa-ludzie-w-moim-wieku.m4a */; };
+		E2E8BE982B18EADB00C37F6A /* czekalem-na-twoj-telefon-hahaha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE872B18EADA00C37F6A /* czekalem-na-twoj-telefon-hahaha.m4a */; };
+		E2E8BE992B18EADB00C37F6A /* uwazaj.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE882B18EADB00C37F6A /* uwazaj.m4a */; };
+		E2E8BE9A2B18EADB00C37F6A /* i-powiem-im-zeby-sprobowali-cie-odnalezc-i-serdecznie-ci-pogratulowac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE892B18EADB00C37F6A /* i-powiem-im-zeby-sprobowali-cie-odnalezc-i-serdecznie-ci-pogratulowac.m4a */; };
+		E2E8BE9B2B18EADB00C37F6A /* jaszczurczy-smiech.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE8A2B18EADB00C37F6A /* jaszczurczy-smiech.m4a */; };
+		E2E8BE9C2B18EADB00C37F6A /* i-jeszcze-jedno-szabes-goju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE8B2B18EADB00C37F6A /* i-jeszcze-jedno-szabes-goju.m4a */; };
+		E2E8BE9D2B18EADB00C37F6A /* ja-sobie-znajde-kontakt-z-kamratami.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE8C2B18EADB00C37F6A /* ja-sobie-znajde-kontakt-z-kamratami.m4a */; };
+		E2E8BE9E2B18EADB00C37F6A /* ale-wiem-ze-jest-taka-komorka-zamosc-chrubieszow-zawiazana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE8D2B18EADB00C37F6A /* ale-wiem-ze-jest-taka-komorka-zamosc-chrubieszow-zawiazana.m4a */; };
+		E2E8BE9F2B18EADB00C37F6A /* musisz-sie-kur-zgodzic-z-tym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE8E2B18EADB00C37F6A /* musisz-sie-kur-zgodzic-z-tym.m4a */; };
+		E2E8BEA02B18EADB00C37F6A /* teraz-widze-jak-ci-psoka-z-dup-leci-do-samej-ziemi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE8F2B18EADB00C37F6A /* teraz-widze-jak-ci-psoka-z-dup-leci-do-samej-ziemi.m4a */; };
+		E2E8BEA12B18EADB00C37F6A /* uwazaj-zebys-sie-nie-utopil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE902B18EADB00C37F6A /* uwazaj-zebys-sie-nie-utopil.m4a */; };
+		E2E8BEA22B18EADB00C37F6A /* jestem-na-politycznej-sluzbie-zeby-takich-jak-ty-wylawiac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE912B18EADB00C37F6A /* jestem-na-politycznej-sluzbie-zeby-takich-jak-ty-wylawiac.m4a */; };
+		E2E8BEA32B18EADB00C37F6A /* w-zamosciu-sa-ludzie-ze-zwiazku-jaszczurczego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE922B18EADB00C37F6A /* w-zamosciu-sa-ludzie-ze-zwiazku-jaszczurczego.m4a */; };
+		E2E8BEA42B18EADB00C37F6A /* wkur.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE932B18EADB00C37F6A /* wkur.m4a */; };
+		E2E8BEA52B18EADB00C37F6A /* heuheu-dziekuje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BE942B18EADB00C37F6A /* heuheu-dziekuje.m4a */; };
+		E2E8BEAF2B18EBE500C37F6A /* klamiesz-michal-klamiesz-klamiesz-klamiesz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEA62B18EBE500C37F6A /* klamiesz-michal-klamiesz-klamiesz-klamiesz.m4a */; };
+		E2E8BEB02B18EBE500C37F6A /* ja-go-powolalem-do-zycia-wiec-ja-mam-prawo-go-wyeliminowac.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEA72B18EBE500C37F6A /* ja-go-powolalem-do-zycia-wiec-ja-mam-prawo-go-wyeliminowac.m4a */; };
+		E2E8BEB12B18EBE500C37F6A /* odpi-sie-od-PRLu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEA82B18EBE500C37F6A /* odpi-sie-od-PRLu.m4a */; };
+		E2E8BEB22B18EBE500C37F6A /* zebys-z-rozpaczy-popelnil-samwo-ze-dla-mnie-juz-nie-ma-ratunku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEA92B18EBE500C37F6A /* zebys-z-rozpaczy-popelnil-samwo-ze-dla-mnie-juz-nie-ma-ratunku.m4a */; };
+		E2E8BEB32B18EBE500C37F6A /* i-to-panstwo-nazywala-sie-polska-rzeczpospolita-ludowa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEAA2B18EBE500C37F6A /* i-to-panstwo-nazywala-sie-polska-rzeczpospolita-ludowa.m4a */; };
+		E2E8BEB42B18EBE500C37F6A /* klamies.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEAB2B18EBE500C37F6A /* klamies.m4a */; };
+		E2E8BEB52B18EBE500C37F6A /* doprowadzac-do-rozdraznienia-umyslowego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEAC2B18EBE500C37F6A /* doprowadzac-do-rozdraznienia-umyslowego.m4a */; };
+		E2E8BEB62B18EBE500C37F6A /* od-56-do-89-polak-w-polsce-byl-gospodarzem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEAD2B18EBE500C37F6A /* od-56-do-89-polak-w-polsce-byl-gospodarzem.m4a */; };
+		E2E8BEB72B18EBE500C37F6A /* szabas-goju.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEAE2B18EBE500C37F6A /* szabas-goju.m4a */; };
+		E2E8BED42B19000000C37F6A /* poczekaj-to-jest-tylko-kwestia-czasu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEB82B18FFFF00C37F6A /* poczekaj-to-jest-tylko-kwestia-czasu.m4a */; };
+		E2E8BED52B19000000C37F6A /* dobry-polak-to-polegly-polak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEB92B18FFFF00C37F6A /* dobry-polak-to-polegly-polak.m4a */; };
+		E2E8BED62B19000000C37F6A /* czym-tam-mialem-pod-reka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEBA2B18FFFF00C37F6A /* czym-tam-mialem-pod-reka.m4a */; };
+		E2E8BED72B19000000C37F6A /* ja-sie-pedalow-nie-boje-ja-sie-ich-kur-brzydze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEBB2B18FFFF00C37F6A /* ja-sie-pedalow-nie-boje-ja-sie-ich-kur-brzydze.m4a */; };
+		E2E8BED82B19000000C37F6A /* bo-obudzila-sie-wszystkie-demony-ktorymi-bylem-od-dziecinstwa-karmiony.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEBC2B18FFFF00C37F6A /* bo-obudzila-sie-wszystkie-demony-ktorymi-bylem-od-dziecinstwa-karmiony.m4a */; };
+		E2E8BED92B19000000C37F6A /* zdycha-i-tak-byc-powinno.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEBD2B18FFFF00C37F6A /* zdycha-i-tak-byc-powinno.m4a */; };
+		E2E8BEDA2B19000000C37F6A /* krew-mnie-zalewa-ze-nikt-nie-reaguje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEBE2B18FFFF00C37F6A /* krew-mnie-zalewa-ze-nikt-nie-reaguje.m4a */; };
+		E2E8BEDB2B19000000C37F6A /* obudzta-sie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEBF2B18FFFF00C37F6A /* obudzta-sie.m4a */; };
+		E2E8BEDC2B19000000C37F6A /* ja-chce-zeby-zdechl-bo-do-tego-sie-tylko-nadaje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC02B18FFFF00C37F6A /* ja-chce-zeby-zdechl-bo-do-tego-sie-tylko-nadaje.m4a */; };
+		E2E8BEDD2B19000000C37F6A /* jak-to-slysze-to-mi-sie-rzygac-che.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC12B18FFFF00C37F6A /* jak-to-slysze-to-mi-sie-rzygac-che.m4a */; };
+		E2E8BEDE2B19000000C37F6A /* jaka-homofobia?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC22B19000000C37F6A /* jaka-homofobia?.m4a */; };
+		E2E8BEDF2B19000000C37F6A /* my-zomowcy-nosilismy-takie-buty-napier-was-jak-trzeba.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC32B19000000C37F6A /* my-zomowcy-nosilismy-takie-buty-napier-was-jak-trzeba.m4a */; };
+		E2E8BEE02B19000000C37F6A /* przeciez-ja-to-widze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC42B19000000C37F6A /* przeciez-ja-to-widze.m4a */; };
+		E2E8BEE12B19000000C37F6A /* lalem-go-w-morde.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC52B19000000C37F6A /* lalem-go-w-morde.m4a */; };
+		E2E8BEE22B19000100C37F6A /* bydlakow-i-durniow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC62B19000000C37F6A /* bydlakow-i-durniow.m4a */; };
+		E2E8BEE32B19000100C37F6A /* otoz-szanowni-koledzy-i-kolezanki-nie-stule-tego-pyska.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC72B19000000C37F6A /* otoz-szanowni-koledzy-i-kolezanki-nie-stule-tego-pyska.m4a */; };
+		E2E8BEE42B19000100C37F6A /* to-przede-wszystkim-byl-ukrainiec.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC82B19000000C37F6A /* to-przede-wszystkim-byl-ukrainiec.m4a */; };
+		E2E8BEE52B19000100C37F6A /* mam-miec-zamkniety-ryj-mam-stulic-pysk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BEC92B19000000C37F6A /* mam-miec-zamkniety-ryj-mam-stulic-pysk.m4a */; };
+		E2E8BEE62B19000100C37F6A /* oburzony-ze-ja-polak-na-polskiej-ziemi-smiem-mowic-prawde.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BECA2B19000000C37F6A /* oburzony-ze-ja-polak-na-polskiej-ziemi-smiem-mowic-prawde.m4a */; };
+		E2E8BEE72B19000100C37F6A /* polacy-uhyhyhyhy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BECB2B19000000C37F6A /* polacy-uhyhyhyhy.m4a */; };
+		E2E8BEE82B19000100C37F6A /* a-ja-bym-chetnie-sie-z-kim-ponapi-bo-sie-nakrecilem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BECC2B19000000C37F6A /* a-ja-bym-chetnie-sie-z-kim-ponapi-bo-sie-nakrecilem.m4a */; };
+		E2E8BEE92B19000100C37F6A /* przypominam-stara-zeschnieta-kupe-krowia-na-pastwisku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BECD2B19000000C37F6A /* przypominam-stara-zeschnieta-kupe-krowia-na-pastwisku.m4a */; };
+		E2E8BEEA2B19000100C37F6A /* no-wiec-szanowni-panstwo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BECE2B19000000C37F6A /* no-wiec-szanowni-panstwo.m4a */; };
+		E2E8BEEB2B19000100C37F6A /* obudzta-sie-polacy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BECF2B19000000C37F6A /* obudzta-sie-polacy.m4a */; };
+		E2E8BEEC2B19000100C37F6A /* juhuuu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BED02B19000000C37F6A /* juhuuu.m4a */; };
+		E2E8BEED2B19000100C37F6A /* wymordowali-wszystkich-polakow.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BED12B19000000C37F6A /* wymordowali-wszystkich-polakow.m4a */; };
+		E2E8BEEE2B19000100C37F6A /* to-bym-go-osobiscie-zastrzelil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BED22B19000000C37F6A /* to-bym-go-osobiscie-zastrzelil.m4a */; };
+		E2E8BEEF2B19000100C37F6A /* kur-wypie-z-polski.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BED32B19000000C37F6A /* kur-wypie-z-polski.m4a */; };
 		E2FAA7E92B0CC20600C7E393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */; };
 		E2FAA7EC2B0CC20600C7E393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */; };
 		E2FAA7F22B0CC84500C7E393 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
@@ -1645,6 +1706,67 @@
 		E2E8BE6A2B18A41400C37F6A /* chamie-pierd.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chamie-pierd.m4a"; sourceTree = "<group>"; };
 		E2E8BE6B2B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-zaj-ci-kur-z-baniaka.m4a"; sourceTree = "<group>"; };
 		E2E8BE6C2B18A41400C37F6A /* jestes-kurw-pmiotem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jestes-kurw-pmiotem.m4a"; sourceTree = "<group>"; };
+		E2E8BE762B18E96400C37F6A /* ty-szabes-goju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-szabes-goju.m4a"; sourceTree = "<group>"; };
+		E2E8BE772B18E96400C37F6A /* ty-zydowski-polprodukcie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-zydowski-polprodukcie.m4a"; sourceTree = "<group>"; };
+		E2E8BE782B18E96400C37F6A /* ty-wyskrobancu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ty-wyskrobancu.m4a"; sourceTree = "<group>"; };
+		E2E8BE792B18E96400C37F6A /* dodzwoniles-sie-do-nacjonalistycznego-bydla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dodzwoniles-sie-do-nacjonalistycznego-bydla.m4a"; sourceTree = "<group>"; };
+		E2E8BE7A2B18E96400C37F6A /* o-to-ci-chodzilo?-masz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "o-to-ci-chodzilo?-masz.m4a"; sourceTree = "<group>"; };
+		E2E8BE7B2B18E96400C37F6A /* wiesz-gdzie-sie-dodzwoniles?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wiesz-gdzie-sie-dodzwoniles?.m4a"; sourceTree = "<group>"; };
+		E2E8BE7C2B18E96400C37F6A /* gratuluje-ci.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gratuluje-ci.m4a"; sourceTree = "<group>"; };
+		E2E8BE842B18EADA00C37F6A /* odwagi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = odwagi.m4a; sourceTree = "<group>"; };
+		E2E8BE852B18EADA00C37F6A /* osiagnales-co-chciales-i-wiesz-co-ci-powiem-romek?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "osiagnales-co-chciales-i-wiesz-co-ci-powiem-romek?.m4a"; sourceTree = "<group>"; };
+		E2E8BE862B18EADA00C37F6A /* to-sa-ludzie-w-moim-wieku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-sa-ludzie-w-moim-wieku.m4a"; sourceTree = "<group>"; };
+		E2E8BE872B18EADA00C37F6A /* czekalem-na-twoj-telefon-hahaha.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "czekalem-na-twoj-telefon-hahaha.m4a"; sourceTree = "<group>"; };
+		E2E8BE882B18EADB00C37F6A /* uwazaj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = uwazaj.m4a; sourceTree = "<group>"; };
+		E2E8BE892B18EADB00C37F6A /* i-powiem-im-zeby-sprobowali-cie-odnalezc-i-serdecznie-ci-pogratulowac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-powiem-im-zeby-sprobowali-cie-odnalezc-i-serdecznie-ci-pogratulowac.m4a"; sourceTree = "<group>"; };
+		E2E8BE8A2B18EADB00C37F6A /* jaszczurczy-smiech.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jaszczurczy-smiech.m4a"; sourceTree = "<group>"; };
+		E2E8BE8B2B18EADB00C37F6A /* i-jeszcze-jedno-szabes-goju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-jeszcze-jedno-szabes-goju.m4a"; sourceTree = "<group>"; };
+		E2E8BE8C2B18EADB00C37F6A /* ja-sobie-znajde-kontakt-z-kamratami.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-sobie-znajde-kontakt-z-kamratami.m4a"; sourceTree = "<group>"; };
+		E2E8BE8D2B18EADB00C37F6A /* ale-wiem-ze-jest-taka-komorka-zamosc-chrubieszow-zawiazana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ale-wiem-ze-jest-taka-komorka-zamosc-chrubieszow-zawiazana.m4a"; sourceTree = "<group>"; };
+		E2E8BE8E2B18EADB00C37F6A /* musisz-sie-kur-zgodzic-z-tym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "musisz-sie-kur-zgodzic-z-tym.m4a"; sourceTree = "<group>"; };
+		E2E8BE8F2B18EADB00C37F6A /* teraz-widze-jak-ci-psoka-z-dup-leci-do-samej-ziemi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "teraz-widze-jak-ci-psoka-z-dup-leci-do-samej-ziemi.m4a"; sourceTree = "<group>"; };
+		E2E8BE902B18EADB00C37F6A /* uwazaj-zebys-sie-nie-utopil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "uwazaj-zebys-sie-nie-utopil.m4a"; sourceTree = "<group>"; };
+		E2E8BE912B18EADB00C37F6A /* jestem-na-politycznej-sluzbie-zeby-takich-jak-ty-wylawiac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jestem-na-politycznej-sluzbie-zeby-takich-jak-ty-wylawiac.m4a"; sourceTree = "<group>"; };
+		E2E8BE922B18EADB00C37F6A /* w-zamosciu-sa-ludzie-ze-zwiazku-jaszczurczego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "w-zamosciu-sa-ludzie-ze-zwiazku-jaszczurczego.m4a"; sourceTree = "<group>"; };
+		E2E8BE932B18EADB00C37F6A /* wkur.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wkur.m4a; sourceTree = "<group>"; };
+		E2E8BE942B18EADB00C37F6A /* heuheu-dziekuje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "heuheu-dziekuje.m4a"; sourceTree = "<group>"; };
+		E2E8BEA62B18EBE500C37F6A /* klamiesz-michal-klamiesz-klamiesz-klamiesz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "klamiesz-michal-klamiesz-klamiesz-klamiesz.m4a"; sourceTree = "<group>"; };
+		E2E8BEA72B18EBE500C37F6A /* ja-go-powolalem-do-zycia-wiec-ja-mam-prawo-go-wyeliminowac.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-go-powolalem-do-zycia-wiec-ja-mam-prawo-go-wyeliminowac.m4a"; sourceTree = "<group>"; };
+		E2E8BEA82B18EBE500C37F6A /* odpi-sie-od-PRLu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "odpi-sie-od-PRLu.m4a"; sourceTree = "<group>"; };
+		E2E8BEA92B18EBE500C37F6A /* zebys-z-rozpaczy-popelnil-samwo-ze-dla-mnie-juz-nie-ma-ratunku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zebys-z-rozpaczy-popelnil-samwo-ze-dla-mnie-juz-nie-ma-ratunku.m4a"; sourceTree = "<group>"; };
+		E2E8BEAA2B18EBE500C37F6A /* i-to-panstwo-nazywala-sie-polska-rzeczpospolita-ludowa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "i-to-panstwo-nazywala-sie-polska-rzeczpospolita-ludowa.m4a"; sourceTree = "<group>"; };
+		E2E8BEAB2B18EBE500C37F6A /* klamies.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = klamies.m4a; sourceTree = "<group>"; };
+		E2E8BEAC2B18EBE500C37F6A /* doprowadzac-do-rozdraznienia-umyslowego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "doprowadzac-do-rozdraznienia-umyslowego.m4a"; sourceTree = "<group>"; };
+		E2E8BEAD2B18EBE500C37F6A /* od-56-do-89-polak-w-polsce-byl-gospodarzem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "od-56-do-89-polak-w-polsce-byl-gospodarzem.m4a"; sourceTree = "<group>"; };
+		E2E8BEAE2B18EBE500C37F6A /* szabas-goju.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "szabas-goju.m4a"; sourceTree = "<group>"; };
+		E2E8BEB82B18FFFF00C37F6A /* poczekaj-to-jest-tylko-kwestia-czasu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "poczekaj-to-jest-tylko-kwestia-czasu.m4a"; sourceTree = "<group>"; };
+		E2E8BEB92B18FFFF00C37F6A /* dobry-polak-to-polegly-polak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dobry-polak-to-polegly-polak.m4a"; sourceTree = "<group>"; };
+		E2E8BEBA2B18FFFF00C37F6A /* czym-tam-mialem-pod-reka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "czym-tam-mialem-pod-reka.m4a"; sourceTree = "<group>"; };
+		E2E8BEBB2B18FFFF00C37F6A /* ja-sie-pedalow-nie-boje-ja-sie-ich-kur-brzydze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-sie-pedalow-nie-boje-ja-sie-ich-kur-brzydze.m4a"; sourceTree = "<group>"; };
+		E2E8BEBC2B18FFFF00C37F6A /* bo-obudzila-sie-wszystkie-demony-ktorymi-bylem-od-dziecinstwa-karmiony.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bo-obudzila-sie-wszystkie-demony-ktorymi-bylem-od-dziecinstwa-karmiony.m4a"; sourceTree = "<group>"; };
+		E2E8BEBD2B18FFFF00C37F6A /* zdycha-i-tak-byc-powinno.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "zdycha-i-tak-byc-powinno.m4a"; sourceTree = "<group>"; };
+		E2E8BEBE2B18FFFF00C37F6A /* krew-mnie-zalewa-ze-nikt-nie-reaguje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "krew-mnie-zalewa-ze-nikt-nie-reaguje.m4a"; sourceTree = "<group>"; };
+		E2E8BEBF2B18FFFF00C37F6A /* obudzta-sie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "obudzta-sie.m4a"; sourceTree = "<group>"; };
+		E2E8BEC02B18FFFF00C37F6A /* ja-chce-zeby-zdechl-bo-do-tego-sie-tylko-nadaje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ja-chce-zeby-zdechl-bo-do-tego-sie-tylko-nadaje.m4a"; sourceTree = "<group>"; };
+		E2E8BEC12B18FFFF00C37F6A /* jak-to-slysze-to-mi-sie-rzygac-che.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jak-to-slysze-to-mi-sie-rzygac-che.m4a"; sourceTree = "<group>"; };
+		E2E8BEC22B19000000C37F6A /* jaka-homofobia?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jaka-homofobia?.m4a"; sourceTree = "<group>"; };
+		E2E8BEC32B19000000C37F6A /* my-zomowcy-nosilismy-takie-buty-napier-was-jak-trzeba.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "my-zomowcy-nosilismy-takie-buty-napier-was-jak-trzeba.m4a"; sourceTree = "<group>"; };
+		E2E8BEC42B19000000C37F6A /* przeciez-ja-to-widze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przeciez-ja-to-widze.m4a"; sourceTree = "<group>"; };
+		E2E8BEC52B19000000C37F6A /* lalem-go-w-morde.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lalem-go-w-morde.m4a"; sourceTree = "<group>"; };
+		E2E8BEC62B19000000C37F6A /* bydlakow-i-durniow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bydlakow-i-durniow.m4a"; sourceTree = "<group>"; };
+		E2E8BEC72B19000000C37F6A /* otoz-szanowni-koledzy-i-kolezanki-nie-stule-tego-pyska.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "otoz-szanowni-koledzy-i-kolezanki-nie-stule-tego-pyska.m4a"; sourceTree = "<group>"; };
+		E2E8BEC82B19000000C37F6A /* to-przede-wszystkim-byl-ukrainiec.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-przede-wszystkim-byl-ukrainiec.m4a"; sourceTree = "<group>"; };
+		E2E8BEC92B19000000C37F6A /* mam-miec-zamkniety-ryj-mam-stulic-pysk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mam-miec-zamkniety-ryj-mam-stulic-pysk.m4a"; sourceTree = "<group>"; };
+		E2E8BECA2B19000000C37F6A /* oburzony-ze-ja-polak-na-polskiej-ziemi-smiem-mowic-prawde.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "oburzony-ze-ja-polak-na-polskiej-ziemi-smiem-mowic-prawde.m4a"; sourceTree = "<group>"; };
+		E2E8BECB2B19000000C37F6A /* polacy-uhyhyhyhy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "polacy-uhyhyhyhy.m4a"; sourceTree = "<group>"; };
+		E2E8BECC2B19000000C37F6A /* a-ja-bym-chetnie-sie-z-kim-ponapi-bo-sie-nakrecilem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "a-ja-bym-chetnie-sie-z-kim-ponapi-bo-sie-nakrecilem.m4a"; sourceTree = "<group>"; };
+		E2E8BECD2B19000000C37F6A /* przypominam-stara-zeschnieta-kupe-krowia-na-pastwisku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "przypominam-stara-zeschnieta-kupe-krowia-na-pastwisku.m4a"; sourceTree = "<group>"; };
+		E2E8BECE2B19000000C37F6A /* no-wiec-szanowni-panstwo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-wiec-szanowni-panstwo.m4a"; sourceTree = "<group>"; };
+		E2E8BECF2B19000000C37F6A /* obudzta-sie-polacy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "obudzta-sie-polacy.m4a"; sourceTree = "<group>"; };
+		E2E8BED02B19000000C37F6A /* juhuuu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = juhuuu.m4a; sourceTree = "<group>"; };
+		E2E8BED12B19000000C37F6A /* wymordowali-wszystkich-polakow.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "wymordowali-wszystkich-polakow.m4a"; sourceTree = "<group>"; };
+		E2E8BED22B19000000C37F6A /* to-bym-go-osobiscie-zastrzelil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "to-bym-go-osobiscie-zastrzelil.m4a"; sourceTree = "<group>"; };
+		E2E8BED32B19000000C37F6A /* kur-wypie-z-polski.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kur-wypie-z-polski.m4a"; sourceTree = "<group>"; };
 		E2FAA7E22B0CC20500C7E393 /* Major Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Major Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -2777,17 +2899,78 @@
 		E2E8BE482B189F8100C37F6A /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				E2E8BECC2B19000000C37F6A /* a-ja-bym-chetnie-sie-z-kim-ponapi-bo-sie-nakrecilem.m4a */,
+				E2E8BE8D2B18EADB00C37F6A /* ale-wiem-ze-jest-taka-komorka-zamosc-chrubieszow-zawiazana.m4a */,
+				E2E8BEBC2B18FFFF00C37F6A /* bo-obudzila-sie-wszystkie-demony-ktorymi-bylem-od-dziecinstwa-karmiony.m4a */,
+				E2E8BEC62B19000000C37F6A /* bydlakow-i-durniow.m4a */,
 				E2E8BE6A2B18A41400C37F6A /* chamie-pierd.m4a */,
+				E2E8BE872B18EADA00C37F6A /* czekalem-na-twoj-telefon-hahaha.m4a */,
+				E2E8BEBA2B18FFFF00C37F6A /* czym-tam-mialem-pod-reka.m4a */,
+				E2E8BEB92B18FFFF00C37F6A /* dobry-polak-to-polegly-polak.m4a */,
+				E2E8BE792B18E96400C37F6A /* dodzwoniles-sie-do-nacjonalistycznego-bydla.m4a */,
+				E2E8BEAC2B18EBE500C37F6A /* doprowadzac-do-rozdraznienia-umyslowego.m4a */,
+				E2E8BE7C2B18E96400C37F6A /* gratuluje-ci.m4a */,
+				E2E8BE942B18EADB00C37F6A /* heuheu-dziekuje.m4a */,
+				E2E8BE8B2B18EADB00C37F6A /* i-jeszcze-jedno-szabes-goju.m4a */,
+				E2E8BE892B18EADB00C37F6A /* i-powiem-im-zeby-sprobowali-cie-odnalezc-i-serdecznie-ci-pogratulowac.m4a */,
+				E2E8BEAA2B18EBE500C37F6A /* i-to-panstwo-nazywala-sie-polska-rzeczpospolita-ludowa.m4a */,
 				E2E8BE6B2B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a */,
+				E2E8BEC02B18FFFF00C37F6A /* ja-chce-zeby-zdechl-bo-do-tego-sie-tylko-nadaje.m4a */,
+				E2E8BEA72B18EBE500C37F6A /* ja-go-powolalem-do-zycia-wiec-ja-mam-prawo-go-wyeliminowac.m4a */,
+				E2E8BEBB2B18FFFF00C37F6A /* ja-sie-pedalow-nie-boje-ja-sie-ich-kur-brzydze.m4a */,
+				E2E8BE8C2B18EADB00C37F6A /* ja-sobie-znajde-kontakt-z-kamratami.m4a */,
+				E2E8BEC12B18FFFF00C37F6A /* jak-to-slysze-to-mi-sie-rzygac-che.m4a */,
+				E2E8BEC22B19000000C37F6A /* jaka-homofobia?.m4a */,
+				E2E8BE8A2B18EADB00C37F6A /* jaszczurczy-smiech.m4a */,
+				E2E8BE912B18EADB00C37F6A /* jestem-na-politycznej-sluzbie-zeby-takich-jak-ty-wylawiac.m4a */,
 				E2E8BE6C2B18A41400C37F6A /* jestes-kurw-pmiotem.m4a */,
+				E2E8BED02B19000000C37F6A /* juhuuu.m4a */,
+				E2E8BEAB2B18EBE500C37F6A /* klamies.m4a */,
+				E2E8BEA62B18EBE500C37F6A /* klamiesz-michal-klamiesz-klamiesz-klamiesz.m4a */,
+				E2E8BEBE2B18FFFF00C37F6A /* krew-mnie-zalewa-ze-nikt-nie-reaguje.m4a */,
+				E2E8BED32B19000000C37F6A /* kur-wypie-z-polski.m4a */,
+				E2E8BEC52B19000000C37F6A /* lalem-go-w-morde.m4a */,
+				E2E8BEC92B19000000C37F6A /* mam-miec-zamkniety-ryj-mam-stulic-pysk.m4a */,
 				E2E8BE692B18A41400C37F6A /* masz-co-chciales.m4a */,
+				E2E8BE8E2B18EADB00C37F6A /* musisz-sie-kur-zgodzic-z-tym.m4a */,
+				E2E8BEC32B19000000C37F6A /* my-zomowcy-nosilismy-takie-buty-napier-was-jak-trzeba.m4a */,
 				E2E8BE652B18A41300C37F6A /* na-corce-kurw.m4a */,
+				E2E8BECE2B19000000C37F6A /* no-wiec-szanowni-panstwo.m4a */,
+				E2E8BE7A2B18E96400C37F6A /* o-to-ci-chodzilo?-masz.m4a */,
 				E2E8BE662B18A41400C37F6A /* o-to-ci-chodzilo?-to-masz.m4a */,
+				E2E8BECF2B19000000C37F6A /* obudzta-sie-polacy.m4a */,
+				E2E8BEBF2B18FFFF00C37F6A /* obudzta-sie.m4a */,
+				E2E8BECA2B19000000C37F6A /* oburzony-ze-ja-polak-na-polskiej-ziemi-smiem-mowic-prawde.m4a */,
+				E2E8BEAD2B18EBE500C37F6A /* od-56-do-89-polak-w-polsce-byl-gospodarzem.m4a */,
+				E2E8BEA82B18EBE500C37F6A /* odpi-sie-od-PRLu.m4a */,
+				E2E8BE842B18EADA00C37F6A /* odwagi.m4a */,
+				E2E8BE852B18EADA00C37F6A /* osiagnales-co-chciales-i-wiesz-co-ci-powiem-romek?.m4a */,
+				E2E8BEC72B19000000C37F6A /* otoz-szanowni-koledzy-i-kolezanki-nie-stule-tego-pyska.m4a */,
+				E2E8BEB82B18FFFF00C37F6A /* poczekaj-to-jest-tylko-kwestia-czasu.m4a */,
+				E2E8BECB2B19000000C37F6A /* polacy-uhyhyhyhy.m4a */,
+				E2E8BEC42B19000000C37F6A /* przeciez-ja-to-widze.m4a */,
+				E2E8BECD2B19000000C37F6A /* przypominam-stara-zeschnieta-kupe-krowia-na-pastwisku.m4a */,
 				E2E8BE612B18A2FF00C37F6A /* sluchaj-ch-na-rope.m4a */,
+				E2E8BEAE2B18EBE500C37F6A /* szabas-goju.m4a */,
+				E2E8BE8F2B18EADB00C37F6A /* teraz-widze-jak-ci-psoka-z-dup-leci-do-samej-ziemi.m4a */,
+				E2E8BED22B19000000C37F6A /* to-bym-go-osobiscie-zastrzelil.m4a */,
+				E2E8BEC82B19000000C37F6A /* to-przede-wszystkim-byl-ukrainiec.m4a */,
+				E2E8BE862B18EADA00C37F6A /* to-sa-ludzie-w-moim-wieku.m4a */,
 				E2E8BE682B18A41400C37F6A /* ty-pierd-ku.m4a */,
 				E2E8BE602B18A2FF00C37F6A /* ty-skur-pierd.m4a */,
 				E2E8BE672B18A41400C37F6A /* ty-skur-robiony-przez-skur-syna.m4a */,
+				E2E8BE762B18E96400C37F6A /* ty-szabes-goju.m4a */,
+				E2E8BE782B18E96400C37F6A /* ty-wyskrobancu.m4a */,
+				E2E8BE772B18E96400C37F6A /* ty-zydowski-polprodukcie.m4a */,
 				E2E8BE642B18A41300C37F6A /* tylko-musisz-do-mnie-przyjechac-zameldowac-sie-ze-jestes-pol-ch-z-zamoscia.m4a */,
+				E2E8BE902B18EADB00C37F6A /* uwazaj-zebys-sie-nie-utopil.m4a */,
+				E2E8BE882B18EADB00C37F6A /* uwazaj.m4a */,
+				E2E8BE922B18EADB00C37F6A /* w-zamosciu-sa-ludzie-ze-zwiazku-jaszczurczego.m4a */,
+				E2E8BE7B2B18E96400C37F6A /* wiesz-gdzie-sie-dodzwoniles?.m4a */,
+				E2E8BE932B18EADB00C37F6A /* wkur.m4a */,
+				E2E8BED12B19000000C37F6A /* wymordowali-wszystkich-polakow.m4a */,
+				E2E8BEBD2B18FFFF00C37F6A /* zdycha-i-tak-byc-powinno.m4a */,
+				E2E8BEA92B18EBE500C37F6A /* zebys-z-rozpaczy-popelnil-samwo-ze-dla-mnie-juz-nie-ma-ratunku.m4a */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -3325,19 +3508,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E8BE992B18EADB00C37F6A /* uwazaj.m4a in Resources */,
+				E2E8BEA42B18EADB00C37F6A /* wkur.m4a in Resources */,
 				E29319CB2B189E4400D3C461 /* Preview Assets.xcassets in Resources */,
+				E2E8BE9F2B18EADB00C37F6A /* musisz-sie-kur-zgodzic-z-tym.m4a in Resources */,
 				E2E8BE6F2B18A41400C37F6A /* o-to-ci-chodzilo?-to-masz.m4a in Resources */,
+				E2E8BE9D2B18EADB00C37F6A /* ja-sobie-znajde-kontakt-z-kamratami.m4a in Resources */,
+				E2E8BEE12B19000000C37F6A /* lalem-go-w-morde.m4a in Resources */,
+				E2E8BEB62B18EBE500C37F6A /* od-56-do-89-polak-w-polsce-byl-gospodarzem.m4a in Resources */,
+				E2E8BEE52B19000100C37F6A /* mam-miec-zamkniety-ryj-mam-stulic-pysk.m4a in Resources */,
+				E2E8BEAF2B18EBE500C37F6A /* klamiesz-michal-klamiesz-klamiesz-klamiesz.m4a in Resources */,
+				E2E8BEED2B19000100C37F6A /* wymordowali-wszystkich-polakow.m4a in Resources */,
+				E2E8BEEF2B19000100C37F6A /* kur-wypie-z-polski.m4a in Resources */,
+				E2E8BE9C2B18EADB00C37F6A /* i-jeszcze-jedno-szabes-goju.m4a in Resources */,
 				E2E8BE6E2B18A41400C37F6A /* na-corce-kurw.m4a in Resources */,
 				E2E8BE702B18A41400C37F6A /* ty-skur-robiony-przez-skur-syna.m4a in Resources */,
+				E2E8BE812B18E96400C37F6A /* o-to-ci-chodzilo?-masz.m4a in Resources */,
+				E2E8BEDA2B19000000C37F6A /* krew-mnie-zalewa-ze-nikt-nie-reaguje.m4a in Resources */,
+				E2E8BE7F2B18E96400C37F6A /* ty-wyskrobancu.m4a in Resources */,
+				E2E8BEB72B18EBE500C37F6A /* szabas-goju.m4a in Resources */,
+				E2E8BE952B18EADB00C37F6A /* odwagi.m4a in Resources */,
+				E2E8BE822B18E96400C37F6A /* wiesz-gdzie-sie-dodzwoniles?.m4a in Resources */,
+				E2E8BE9B2B18EADB00C37F6A /* jaszczurczy-smiech.m4a in Resources */,
+				E2E8BEE72B19000100C37F6A /* polacy-uhyhyhyhy.m4a in Resources */,
+				E2E8BE7D2B18E96400C37F6A /* ty-szabes-goju.m4a in Resources */,
+				E2E8BE832B18E96400C37F6A /* gratuluje-ci.m4a in Resources */,
+				E2E8BE9A2B18EADB00C37F6A /* i-powiem-im-zeby-sprobowali-cie-odnalezc-i-serdecznie-ci-pogratulowac.m4a in Resources */,
+				E2E8BEE82B19000100C37F6A /* a-ja-bym-chetnie-sie-z-kim-ponapi-bo-sie-nakrecilem.m4a in Resources */,
+				E2E8BEB02B18EBE500C37F6A /* ja-go-powolalem-do-zycia-wiec-ja-mam-prawo-go-wyeliminowac.m4a in Resources */,
 				E2E8BE622B18A2FF00C37F6A /* ty-skur-pierd.m4a in Resources */,
 				E2E8BE712B18A41400C37F6A /* ty-pierd-ku.m4a in Resources */,
+				E2E8BEA02B18EADB00C37F6A /* teraz-widze-jak-ci-psoka-z-dup-leci-do-samej-ziemi.m4a in Resources */,
+				E2E8BEB12B18EBE500C37F6A /* odpi-sie-od-PRLu.m4a in Resources */,
 				E2E8BE6D2B18A41400C37F6A /* tylko-musisz-do-mnie-przyjechac-zameldowac-sie-ze-jestes-pol-ch-z-zamoscia.m4a in Resources */,
+				E2E8BE962B18EADB00C37F6A /* osiagnales-co-chciales-i-wiesz-co-ci-powiem-romek?.m4a in Resources */,
+				E2E8BED72B19000000C37F6A /* ja-sie-pedalow-nie-boje-ja-sie-ich-kur-brzydze.m4a in Resources */,
+				E2E8BEA12B18EADB00C37F6A /* uwazaj-zebys-sie-nie-utopil.m4a in Resources */,
+				E2E8BEDD2B19000000C37F6A /* jak-to-slysze-to-mi-sie-rzygac-che.m4a in Resources */,
+				E2E8BEB32B18EBE500C37F6A /* i-to-panstwo-nazywala-sie-polska-rzeczpospolita-ludowa.m4a in Resources */,
 				E2E8BE722B18A41400C37F6A /* masz-co-chciales.m4a in Resources */,
 				E2E8BE742B18A41400C37F6A /* i-zaj-ci-kur-z-baniaka.m4a in Resources */,
+				E2E8BEEA2B19000100C37F6A /* no-wiec-szanowni-panstwo.m4a in Resources */,
+				E2E8BEDC2B19000000C37F6A /* ja-chce-zeby-zdechl-bo-do-tego-sie-tylko-nadaje.m4a in Resources */,
 				E2E8BE732B18A41400C37F6A /* chamie-pierd.m4a in Resources */,
+				E2E8BEB52B18EBE500C37F6A /* doprowadzac-do-rozdraznienia-umyslowego.m4a in Resources */,
 				E29319C82B189E4400D3C461 /* Assets.xcassets in Resources */,
+				E2E8BED52B19000000C37F6A /* dobry-polak-to-polegly-polak.m4a in Resources */,
+				E2E8BEEB2B19000100C37F6A /* obudzta-sie-polacy.m4a in Resources */,
 				E2E8BE632B18A2FF00C37F6A /* sluchaj-ch-na-rope.m4a in Resources */,
+				E2E8BE7E2B18E96400C37F6A /* ty-zydowski-polprodukcie.m4a in Resources */,
+				E2E8BEE22B19000100C37F6A /* bydlakow-i-durniow.m4a in Resources */,
+				E2E8BEE42B19000100C37F6A /* to-przede-wszystkim-byl-ukrainiec.m4a in Resources */,
 				E2E8BE752B18A41400C37F6A /* jestes-kurw-pmiotem.m4a in Resources */,
+				E2E8BEDE2B19000000C37F6A /* jaka-homofobia?.m4a in Resources */,
+				E2E8BEB22B18EBE500C37F6A /* zebys-z-rozpaczy-popelnil-samwo-ze-dla-mnie-juz-nie-ma-ratunku.m4a in Resources */,
+				E2E8BEE62B19000100C37F6A /* oburzony-ze-ja-polak-na-polskiej-ziemi-smiem-mowic-prawde.m4a in Resources */,
+				E2E8BEE32B19000100C37F6A /* otoz-szanowni-koledzy-i-kolezanki-nie-stule-tego-pyska.m4a in Resources */,
+				E2E8BEA22B18EADB00C37F6A /* jestem-na-politycznej-sluzbie-zeby-takich-jak-ty-wylawiac.m4a in Resources */,
+				E2E8BED82B19000000C37F6A /* bo-obudzila-sie-wszystkie-demony-ktorymi-bylem-od-dziecinstwa-karmiony.m4a in Resources */,
+				E2E8BEEC2B19000100C37F6A /* juhuuu.m4a in Resources */,
+				E2E8BED62B19000000C37F6A /* czym-tam-mialem-pod-reka.m4a in Resources */,
+				E2E8BE9E2B18EADB00C37F6A /* ale-wiem-ze-jest-taka-komorka-zamosc-chrubieszow-zawiazana.m4a in Resources */,
+				E2E8BED92B19000000C37F6A /* zdycha-i-tak-byc-powinno.m4a in Resources */,
+				E2E8BE802B18E96400C37F6A /* dodzwoniles-sie-do-nacjonalistycznego-bydla.m4a in Resources */,
+				E2E8BEE92B19000100C37F6A /* przypominam-stara-zeschnieta-kupe-krowia-na-pastwisku.m4a in Resources */,
+				E2E8BED42B19000000C37F6A /* poczekaj-to-jest-tylko-kwestia-czasu.m4a in Resources */,
+				E2E8BEA52B18EADB00C37F6A /* heuheu-dziekuje.m4a in Resources */,
+				E2E8BEA32B18EADB00C37F6A /* w-zamosciu-sa-ludzie-ze-zwiazku-jaszczurczego.m4a in Resources */,
+				E2E8BE982B18EADB00C37F6A /* czekalem-na-twoj-telefon-hahaha.m4a in Resources */,
+				E2E8BE972B18EADB00C37F6A /* to-sa-ludzie-w-moim-wieku.m4a in Resources */,
+				E2E8BEEE2B19000100C37F6A /* to-bym-go-osobiscie-zastrzelil.m4a in Resources */,
+				E2E8BEE02B19000000C37F6A /* przeciez-ja-to-widze.m4a in Resources */,
+				E2E8BEDB2B19000000C37F6A /* obudzta-sie.m4a in Resources */,
+				E2E8BEDF2B19000000C37F6A /* my-zomowcy-nosilismy-takie-buty-napier-was-jak-trzeba.m4a in Resources */,
+				E2E8BEB42B18EBE500C37F6A /* klamies.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
