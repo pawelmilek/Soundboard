@@ -166,10 +166,11 @@ public final class RealmManager: ObservableObject {
 
     private func createSoundModels(from fileNames: Set<String>) -> Set<SoundModel> {
         let models = fileNames.compactMap { fileName in
-            SoundModel(
+            let title = fileName.components(separatedBy: ".").first!.trimmingCharacters(in: .whitespacesAndNewlines)
+            return SoundModel(
                 value: [
                     "fileName": fileName,
-                    "title": fileName.replacingOccurrences(of: "-", with: " "),
+                    "title": title,
                     "playbackCount": 0,
                     "isFavorite": false
                 ]

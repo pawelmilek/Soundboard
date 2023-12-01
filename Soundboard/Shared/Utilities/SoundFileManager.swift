@@ -28,13 +28,12 @@ public struct SoundFileManager: FileManagerProtocol {
         let allFiles = try fileManager.contentsOfDirectory(atPath: path)
         let result = allFiles
             .filter { $0.hasSuffix(".\(Self.fileExtension)") }
-            .compactMap { $0.components(separatedBy: ".").first! }
         return result
     }
 
     public func audioURL(for name: String) throws -> URL {
         guard let path = bundle.path(
-            forResource: name,
+            forResource: name.components(separatedBy: ".").first!,
             ofType: Self.fileExtension
         ) else {
             throw CocoaError(.fileNoSuchFile)
