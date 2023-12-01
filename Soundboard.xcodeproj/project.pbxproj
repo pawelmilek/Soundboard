@@ -55,6 +55,92 @@
 		E2C6F2E82AF6DDB600C8B73B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
 		E2C6F2F62AF6DF0F00C8B73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2F52AF6DF0F00C8B73B /* Assets.xcassets */; };
 		E2C6F2F92AF6DF0F00C8B73B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */; };
+		E2D922782B1A1CD100A9CCBB /* Nie mówmy o tym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922222B1A1CCC00A9CCBB /* Nie mówmy o tym.m4a */; };
+		E2D922792B1A1CD100A9CCBB /* Otoż ymmm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922232B1A1CCC00A9CCBB /* Otoż ymmm.m4a */; };
+		E2D9227A2B1A1CD100A9CCBB /* Z pośród dwóch armi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922242B1A1CCC00A9CCBB /* Z pośród dwóch armi.m4a */; };
+		E2D9227B2B1A1CD100A9CCBB /* Że najważniejsze jest się dobrze nażreć.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922252B1A1CCC00A9CCBB /* Że najważniejsze jest się dobrze nażreć.m4a */; };
+		E2D9227C2B1A1CD100A9CCBB /* Ja podam przykład drastyczny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922262B1A1CCC00A9CCBB /* Ja podam przykład drastyczny.m4a */; };
+		E2D9227D2B1A1CD100A9CCBB /* To ja nie będę zastępować pańskich nauczycieli.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922272B1A1CCC00A9CCBB /* To ja nie będę zastępować pańskich nauczycieli.m4a */; };
+		E2D9227E2B1A1CD100A9CCBB /* Jest to absurdalna polityka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922282B1A1CCC00A9CCBB /* Jest to absurdalna polityka.m4a */; };
+		E2D9227F2B1A1CD100A9CCBB /* I za miesiąc miał już firme, która sprzedawała paróweczki na ulicy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922292B1A1CCC00A9CCBB /* I za miesiąc miał już firme, która sprzedawała paróweczki na ulicy.m4a */; };
+		E2D922802B1A1CD100A9CCBB /* Po polsku mówie a nie po angielsku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9222A2B1A1CCC00A9CCBB /* Po polsku mówie a nie po angielsku.m4a */; };
+		E2D922812B1A1CD100A9CCBB /* Wolny rynek jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9222B2B1A1CCC00A9CCBB /* Wolny rynek jest.m4a */; };
+		E2D922822B1A1CD100A9CCBB /* Ja się z tym zgadzam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9222C2B1A1CCC00A9CCBB /* Ja się z tym zgadzam.m4a */; };
+		E2D922832B1A1CD100A9CCBB /* Ja nie jestem demokratą.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9222D2B1A1CCC00A9CCBB /* Ja nie jestem demokratą.m4a */; };
+		E2D922842B1A1CD100A9CCBB /* Bo widzi pan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9222E2B1A1CCC00A9CCBB /* Bo widzi pan.m4a */; };
+		E2D922852B1A1CD100A9CCBB /* Usiłowałem podkreślić dobitnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9222F2B1A1CCD00A9CCBB /* Usiłowałem podkreślić dobitnie.m4a */; };
+		E2D922862B1A1CD100A9CCBB /* Dziecko kosztuje okolo 25 tys dolarów.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922302B1A1CCD00A9CCBB /* Dziecko kosztuje okolo 25 tys dolarów.m4a */; };
+		E2D922872B1A1CD100A9CCBB /* Istnieje urząd.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922312B1A1CCD00A9CCBB /* Istnieje urząd.m4a */; };
+		E2D922882B1A1CD100A9CCBB /* Tfu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922322B1A1CCD00A9CCBB /* Tfu.m4a */; };
+		E2D922892B1A1CD100A9CCBB /* Na dnie oceanu w rowie mariańskim są rurkowce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922332B1A1CCD00A9CCBB /* Na dnie oceanu w rowie mariańskim są rurkowce.m4a */; };
+		E2D9228A2B1A1CD100A9CCBB /* Ja mogę powiedzieć co by się działo gdyby polska była kraje kapitalistycznym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922342B1A1CCD00A9CCBB /* Ja mogę powiedzieć co by się działo gdyby polska była kraje kapitalistycznym.m4a */; };
+		E2D9228B2B1A1CD100A9CCBB /* Trzeba dziecko sprzedać.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922352B1A1CCD00A9CCBB /* Trzeba dziecko sprzedać.m4a */; };
+		E2D9228C2B1A1CD100A9CCBB /* Ekh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922362B1A1CCD00A9CCBB /* Ekh.m4a */; };
+		E2D9228D2B1A1CD100A9CCBB /* Celem życia nie jest przeżycie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922372B1A1CCD00A9CCBB /* Celem życia nie jest przeżycie.m4a */; };
+		E2D9228E2B1A1CD100A9CCBB /* To my powinniśmy uczyć się od chin, a nie chińczycy od nas!.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922382B1A1CCD00A9CCBB /* To my powinniśmy uczyć się od chin, a nie chińczycy od nas!.m4a */; };
+		E2D9228F2B1A1CD100A9CCBB /* Dwie tony złota w piwnicy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922392B1A1CCD00A9CCBB /* Dwie tony złota w piwnicy.m4a */; };
+		E2D922902B1A1CD100A9CCBB /* To jest niedopuszczalne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9223A2B1A1CCD00A9CCBB /* To jest niedopuszczalne.m4a */; };
+		E2D922912B1A1CD100A9CCBB /* A poza tym sądzę, że unia europejska powinna być zniszczona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9223B2B1A1CCD00A9CCBB /* A poza tym sądzę, że unia europejska powinna być zniszczona.m4a */; };
+		E2D922922B1A1CD100A9CCBB /* A pan chce tylko żyć.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9223C2B1A1CCD00A9CCBB /* A pan chce tylko żyć.m4a */; };
+		E2D922932B1A1CD100A9CCBB /* Demokracją pogardzam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9223D2B1A1CCD00A9CCBB /* Demokracją pogardzam.m4a */; };
+		E2D922942B1A1CD100A9CCBB /* Nie to jest tak śmieszne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9223E2B1A1CCD00A9CCBB /* Nie to jest tak śmieszne.m4a */; };
+		E2D922952B1A1CD100A9CCBB /* Ale to jest nie do przyjęcia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9223F2B1A1CCE00A9CCBB /* Ale to jest nie do przyjęcia.m4a */; };
+		E2D922962B1A1CD100A9CCBB /* Ja nie używam tego słowa na g, bo mi się z kojarzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922402B1A1CCE00A9CCBB /* Ja nie używam tego słowa na g, bo mi się z kojarzy.m4a */; };
+		E2D922972B1A1CD100A9CCBB /* Proszem pana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922412B1A1CCE00A9CCBB /* Proszem pana.m4a */; };
+		E2D922982B1A1CD100A9CCBB /* Ale mnie uczono kto nie ryzykuje ten nie je.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922422B1A1CCE00A9CCBB /* Ale mnie uczono kto nie ryzykuje ten nie je.m4a */; };
+		E2D922992B1A1CD100A9CCBB /* Przepraszam bardzo, dosyć tego!.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922432B1A1CCE00A9CCBB /* Przepraszam bardzo, dosyć tego!.m4a */; };
+		E2D9229A2B1A1CD100A9CCBB /* Tłumienie wolności słowa, czego osobiście doświadczam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922442B1A1CCE00A9CCBB /* Tłumienie wolności słowa, czego osobiście doświadczam.m4a */; };
+		E2D9229B2B1A1CD100A9CCBB /* Jak powiedział wybitny krakowianin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922452B1A1CCE00A9CCBB /* Jak powiedział wybitny krakowianin.m4a */; };
+		E2D9229C2B1A1CD100A9CCBB /* W tej chwili.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922462B1A1CCE00A9CCBB /* W tej chwili.m4a */; };
+		E2D9229D2B1A1CD100A9CCBB /* Za komuny to było.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922472B1A1CCE00A9CCBB /* Za komuny to było.m4a */; };
+		E2D9229E2B1A1CD100A9CCBB /* Stanisław lem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922482B1A1CCE00A9CCBB /* Stanisław lem.m4a */; };
+		E2D9229F2B1A1CD100A9CCBB /* Demokracji nienawidzę.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922492B1A1CCE00A9CCBB /* Demokracji nienawidzę.m4a */; };
+		E2D922A02B1A1CD100A9CCBB /* Nie no żarty śmieszne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9224A2B1A1CCE00A9CCBB /* Nie no żarty śmieszne.m4a */; };
+		E2D922A12B1A1CD100A9CCBB /* Dobrze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9224B2B1A1CCE00A9CCBB /* Dobrze.m4a */; };
+		E2D922A22B1A1CD100A9CCBB /* Powiedzieć, że się odda rodzinie za te 25 tys.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9224C2B1A1CCE00A9CCBB /* Powiedzieć, że się odda rodzinie za te 25 tys.m4a */; };
+		E2D922A32B1A1CD100A9CCBB /* Podatek dochodowy należy zlikwidować.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9224D2B1A1CCE00A9CCBB /* Podatek dochodowy należy zlikwidować.m4a */; };
+		E2D922A42B1A1CD100A9CCBB /* One żyją sobie całkowicie bezpiecznie od milionów lat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9224E2B1A1CCE00A9CCBB /* One żyją sobie całkowicie bezpiecznie od milionów lat.m4a */; };
+		E2D922A52B1A1CD100A9CCBB /* Ja nie jeste wyprowadzony z równowagi, proszę pana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9224F2B1A1CCF00A9CCBB /* Ja nie jeste wyprowadzony z równowagi, proszę pana.m4a */; };
+		E2D922A62B1A1CD100A9CCBB /* Tylko dlatego, że.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922502B1A1CCF00A9CCBB /* Tylko dlatego, że.m4a */; };
+		E2D922A72B1A1CD100A9CCBB /* Eeee.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922512B1A1CCF00A9CCBB /* Eeee.m4a */; };
+		E2D922A82B1A1CD100A9CCBB /* Ludzie mają swoje cele, swoje ambicję, mają swoje ideały.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922522B1A1CCF00A9CCBB /* Ludzie mają swoje cele, swoje ambicję, mają swoje ideały.m4a */; };
+		E2D922A92B1A1CD100A9CCBB /* Demokracja to tyrania większości.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922532B1A1CCF00A9CCBB /* Demokracja to tyrania większości.m4a */; };
+		E2D922AA2B1A1CD100A9CCBB /* A poza tym sądzę, że unia europejska musi być zniszczona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922542B1A1CCF00A9CCBB /* A poza tym sądzę, że unia europejska musi być zniszczona.m4a */; };
+		E2D922AB2B1A1CD100A9CCBB /* Dziękuję.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922552B1A1CCF00A9CCBB /* Dziękuję.m4a */; };
+		E2D922AC2B1A1CD100A9CCBB /* Nie, no bo co to dziecko jest winne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922562B1A1CCF00A9CCBB /* Nie, no bo co to dziecko jest winne.m4a */; };
+		E2D922AD2B1A1CD100A9CCBB /* Prawda i.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922572B1A1CCF00A9CCBB /* Prawda i.m4a */; };
+		E2D922AE2B1A1CD100A9CCBB /* To jest oczywiste.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922582B1A1CCF00A9CCBB /* To jest oczywiste.m4a */; };
+		E2D922AF2B1A1CD100A9CCBB /* Dzisiejszy ustrój uniemozliwia ludziom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922592B1A1CCF00A9CCBB /* Dzisiejszy ustrój uniemozliwia ludziom.m4a */; };
+		E2D922B02B1A1CD100A9CCBB /* Celem życia nie jest dobrze sie nażreć, celem życia nie jest bezpieczeństwo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9225A2B1A1CCF00A9CCBB /* Celem życia nie jest dobrze sie nażreć, celem życia nie jest bezpieczeństwo.m4a */; };
+		E2D922B12B1A1CD100A9CCBB /* Trza dziecko urodzić.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9225B2B1A1CCF00A9CCBB /* Trza dziecko urodzić.m4a */; };
+		E2D922B22B1A1CD100A9CCBB /* Zabrano tym ludziom, okradziono z ich pieniędzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9225C2B1A1CCF00A9CCBB /* Zabrano tym ludziom, okradziono z ich pieniędzy.m4a */; };
+		E2D922B32B1A1CD100A9CCBB /* Że mnie brzydzą tego typu poglądy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9225D2B1A1CCF00A9CCBB /* Że mnie brzydzą tego typu poglądy.m4a */; };
+		E2D922B42B1A1CD100A9CCBB /* Ależ jest to nieprawda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9225E2B1A1CCF00A9CCBB /* Ależ jest to nieprawda.m4a */; };
+		E2D922B52B1A1CD100A9CCBB /* A was sie uczy przezorny zawsze ubezpieczony.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9225F2B1A1CCF00A9CCBB /* A was sie uczy przezorny zawsze ubezpieczony.m4a */; };
+		E2D922B62B1A1CD100A9CCBB /* Hy hy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922602B1A1CD000A9CCBB /* Hy hy.m4a */; };
+		E2D922B72B1A1CD100A9CCBB /* Nic nie uczy tak rozumu jak głód.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922612B1A1CD000A9CCBB /* Nic nie uczy tak rozumu jak głód.m4a */; };
+		E2D922B82B1A1CD100A9CCBB /* Ale nie więcej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922622B1A1CD000A9CCBB /* Ale nie więcej.m4a */; };
+		E2D922B92B1A1CD100A9CCBB /* Dzisiaj to jest niemozliwe, nie z powodu żadnej korporacji.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922632B1A1CD000A9CCBB /* Dzisiaj to jest niemozliwe, nie z powodu żadnej korporacji.m4a */; };
+		E2D922BA2B1A1CD100A9CCBB /* Najlepszym nauczycielem jest przykład.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922642B1A1CD000A9CCBB /* Najlepszym nauczycielem jest przykład.m4a */; };
+		E2D922BB2B1A1CD100A9CCBB /* Korupcja, złodziejstwo, pogarda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922652B1A1CD000A9CCBB /* Korupcja, złodziejstwo, pogarda.m4a */; };
+		E2D922BC2B1A1CD100A9CCBB /* I pan sobie żre i żyje dalej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922662B1A1CD000A9CCBB /* I pan sobie żre i żyje dalej.m4a */; };
+		E2D922BD2B1A1CD100A9CCBB /* Mnie uczono.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922672B1A1CD000A9CCBB /* Mnie uczono.m4a */; };
+		E2D922BE2B1A1CD100A9CCBB /* I zmusić ich po prostu do pracy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922682B1A1CD000A9CCBB /* I zmusić ich po prostu do pracy.m4a */; };
+		E2D922BF2B1A1CD100A9CCBB /* To jest takie pieszczotliwe określenie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922692B1A1CD000A9CCBB /* To jest takie pieszczotliwe określenie.m4a */; };
+		E2D922C02B1A1CD100A9CCBB /* Starszych?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9226A2B1A1CD000A9CCBB /* Starszych?.m4a */; };
+		E2D922C12B1A1CD100A9CCBB /* Nie było islandii popatrz pan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9226B2B1A1CD000A9CCBB /* Nie było islandii popatrz pan.m4a */; };
+		E2D922C22B1A1CD100A9CCBB /* Ciocia robiła paróweczki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9226C2B1A1CD000A9CCBB /* Ciocia robiła paróweczki.m4a */; };
+		E2D922C32B1A1CD100A9CCBB /* Ja obrażam ludzi starszych?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9226D2B1A1CD000A9CCBB /* Ja obrażam ludzi starszych?.m4a */; };
+		E2D922C42B1A1CD100A9CCBB /* Dzisiaj to jest niemozliwe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9226E2B1A1CD000A9CCBB /* Dzisiaj to jest niemozliwe.m4a */; };
+		E2D922C52B1A1CD100A9CCBB /* A nie było islandii przypadkiem?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D9226F2B1A1CD000A9CCBB /* A nie było islandii przypadkiem?.m4a */; };
+		E2D922C62B1A1CD100A9CCBB /* Czy można?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922702B1A1CD100A9CCBB /* Czy można?.m4a */; };
+		E2D922C72B1A1CD100A9CCBB /* Dlaczego?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922712B1A1CD100A9CCBB /* Dlaczego?.m4a */; };
+		E2D922C82B1A1CD100A9CCBB /* Dziękuję za uwagę.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922722B1A1CD100A9CCBB /* Dziękuję za uwagę.m4a */; };
+		E2D922C92B1A1CD100A9CCBB /* W tej pierwszej się bardziej boją o swoje życie, ale oni zwyciężają.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922732B1A1CD100A9CCBB /* W tej pierwszej się bardziej boją o swoje życie, ale oni zwyciężają.m4a */; };
+		E2D922CA2B1A1CD100A9CCBB /* I za to walczą i umierają.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922742B1A1CD100A9CCBB /* I za to walczą i umierają.m4a */; };
+		E2D922CB2B1A1CD100A9CCBB /* Z których jedna wygrywa wojnę, a druga siedzi w pieleszach.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922752B1A1CD100A9CCBB /* Z których jedna wygrywa wojnę, a druga siedzi w pieleszach.m4a */; };
+		E2D922CC2B1A1CD100A9CCBB /* Zabrane przez was emerytury.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922762B1A1CD100A9CCBB /* Zabrane przez was emerytury.m4a */; };
+		E2D922CD2B1A1CD100A9CCBB /* Afrykańskie szambo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922772B1A1CD100A9CCBB /* Afrykańskie szambo.m4a */; };
 		E2E8BE442B189ECE00C37F6A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E2E8BE432B189ECE00C37F6A /* Realm */; };
 		E2E8BE462B189ECE00C37F6A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E2E8BE452B189ECE00C37F6A /* RealmSwift */; };
 		E2E8BE492B18A15F00C37F6A /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
@@ -946,92 +1032,6 @@
 		E2E8C6022B1A0F9E00C37F6A /* Jedną sprawę.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C4612B1A0F9B00C37F6A /* Jedną sprawę.m4a */; };
 		E2E8C6032B1A0F9E00C37F6A /* Tak samo pracuje na gazie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C4622B1A0F9C00C37F6A /* Tak samo pracuje na gazie.m4a */; };
 		E2E8C6042B1A0F9E00C37F6A /* Wykonam wyrok tobie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C4632B1A0F9C00C37F6A /* Wykonam wyrok tobie.m4a */; };
-		E2E8C65B2B1A124500C37F6A /* Jak Powiedział Wybitny Krakowianin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6052B1A123E00C37F6A /* Jak Powiedział Wybitny Krakowianin.m4a */; };
-		E2E8C65C2B1A124500C37F6A /* Wolny Rynek Jest.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6062B1A123E00C37F6A /* Wolny Rynek Jest.m4a */; };
-		E2E8C65D2B1A124500C37F6A /* Z Których Jedna Wygrywa Wojnę, A Druga Siedzi W Pieleszach.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6072B1A123E00C37F6A /* Z Których Jedna Wygrywa Wojnę, A Druga Siedzi W Pieleszach.m4a */; };
-		E2E8C65E2B1A124500C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Powinna Być Zniszczona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6082B1A123E00C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Powinna Być Zniszczona.m4a */; };
-		E2E8C65F2B1A124500C37F6A /* Korupcja, Złodziejstwo, Pogarda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6092B1A123E00C37F6A /* Korupcja, Złodziejstwo, Pogarda.m4a */; };
-		E2E8C6602B1A124500C37F6A /* Ja Podam Przykład Drastyczny.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C60A2B1A123E00C37F6A /* Ja Podam Przykład Drastyczny.m4a */; };
-		E2E8C6612B1A124500C37F6A /* Zabrano Tym Ludziom, Okradziono Z Ich Pieniędzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C60B2B1A123F00C37F6A /* Zabrano Tym Ludziom, Okradziono Z Ich Pieniędzy.m4a */; };
-		E2E8C6622B1A124500C37F6A /* Czy Można?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C60C2B1A123F00C37F6A /* Czy Można?.m4a */; };
-		E2E8C6632B1A124500C37F6A /* Dzisiaj to Jest Niemozliwe, Nie Z Powodu Żadnej Korporacji.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C60D2B1A123F00C37F6A /* Dzisiaj to Jest Niemozliwe, Nie Z Powodu Żadnej Korporacji.m4a */; };
-		E2E8C6642B1A124500C37F6A /* Ja Się Z Tym Zgadzam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C60E2B1A123F00C37F6A /* Ja Się Z Tym Zgadzam.m4a */; };
-		E2E8C6652B1A124500C37F6A /* Otoż Ymmm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C60F2B1A123F00C37F6A /* Otoż Ymmm.m4a */; };
-		E2E8C6662B1A124500C37F6A /* Nie to Jest Tak Śmieszne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6102B1A123F00C37F6A /* Nie to Jest Tak Śmieszne.m4a */; };
-		E2E8C6672B1A124500C37F6A /* Nie No Żarty Śmieszne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6112B1A123F00C37F6A /* Nie No Żarty Śmieszne.m4a */; };
-		E2E8C6682B1A124500C37F6A /* To Jest Takie Pieszczotliwe Określenie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6122B1A123F00C37F6A /* To Jest Takie Pieszczotliwe Określenie.m4a */; };
-		E2E8C6692B1A124500C37F6A /* Ja Nie Używam Tego Słowa Na G, Bo Mi Się z Kojarzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6132B1A123F00C37F6A /* Ja Nie Używam Tego Słowa Na G, Bo Mi Się z Kojarzy.m4a */; };
-		E2E8C66A2B1A124500C37F6A /* Ale to Jest Nie Do Przyjęcia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6142B1A123F00C37F6A /* Ale to Jest Nie Do Przyjęcia.m4a */; };
-		E2E8C66B2B1A124500C37F6A /* I Za Miesiąc Miał Już Firme, Która Sprzedawała Paróweczki Na Ulicy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6152B1A123F00C37F6A /* I Za Miesiąc Miał Już Firme, Która Sprzedawała Paróweczki Na Ulicy.m4a */; };
-		E2E8C66C2B1A124500C37F6A /* Nie Mówmy O Tym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6162B1A123F00C37F6A /* Nie Mówmy O Tym.m4a */; };
-		E2E8C66D2B1A124500C37F6A /* A Nie Było Islandii Przypadkiem?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6172B1A123F00C37F6A /* A Nie Było Islandii Przypadkiem?.m4a */; };
-		E2E8C66E2B1A124500C37F6A /* Ale Nie Więcej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6182B1A124000C37F6A /* Ale Nie Więcej.m4a */; };
-		E2E8C66F2B1A124500C37F6A /* Demokracja to Tyrania Większości.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6192B1A124000C37F6A /* Demokracja to Tyrania Większości.m4a */; };
-		E2E8C6702B1A124500C37F6A /* I Pan Sobie Żre I Żyje Dalej.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C61A2B1A124000C37F6A /* I Pan Sobie Żre I Żyje Dalej.m4a */; };
-		E2E8C6712B1A124500C37F6A /* Eeee.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C61B2B1A124000C37F6A /* Eeee.m4a */; };
-		E2E8C6722B1A124500C37F6A /* Ludzie Mają Swoje Cele, Swoje Ambicję, Mają Swoje Ideały.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C61C2B1A124000C37F6A /* Ludzie Mają Swoje Cele, Swoje Ambicję, Mają Swoje Ideały.m4a */; };
-		E2E8C6732B1A124500C37F6A /* Ciocia Robiła Paróweczki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C61D2B1A124000C37F6A /* Ciocia Robiła Paróweczki.m4a */; };
-		E2E8C6742B1A124500C37F6A /* Bo Widzi Pan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C61E2B1A124000C37F6A /* Bo Widzi Pan.m4a */; };
-		E2E8C6752B1A124500C37F6A /* Dzisiaj to Jest Niemozliwe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C61F2B1A124000C37F6A /* Dzisiaj to Jest Niemozliwe.m4a */; };
-		E2E8C6762B1A124500C37F6A /* Tylko Dlatego, Że.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6202B1A124000C37F6A /* Tylko Dlatego, Że.m4a */; };
-		E2E8C6772B1A124500C37F6A /* W Tej Chwili.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6212B1A124000C37F6A /* W Tej Chwili.m4a */; };
-		E2E8C6782B1A124500C37F6A /* To Jest Niedopuszczalne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6222B1A124000C37F6A /* To Jest Niedopuszczalne.m4a */; };
-		E2E8C6792B1A124500C37F6A /* Zabrane Przez Was Emerytury.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6232B1A124000C37F6A /* Zabrane Przez Was Emerytury.m4a */; };
-		E2E8C67A2B1A124500C37F6A /* Hy Hy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6242B1A124000C37F6A /* Hy Hy.m4a */; };
-		E2E8C67B2B1A124500C37F6A /* Stanisław Lem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6252B1A124000C37F6A /* Stanisław Lem.m4a */; };
-		E2E8C67C2B1A124500C37F6A /* Na Dnie Oceanu W Rowie Mariańskim Są Rurkowce.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6262B1A124100C37F6A /* Na Dnie Oceanu W Rowie Mariańskim Są Rurkowce.m4a */; };
-		E2E8C67D2B1A124500C37F6A /* I Za to Walczą I Umierają.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6272B1A124100C37F6A /* I Za to Walczą I Umierają.m4a */; };
-		E2E8C67E2B1A124500C37F6A /* Ja Nie Jeste Wyprowadzony Z Równowagi, Proszę Pana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6282B1A124100C37F6A /* Ja Nie Jeste Wyprowadzony Z Równowagi, Proszę Pana.m4a */; };
-		E2E8C67F2B1A124500C37F6A /* Mnie Uczono.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6292B1A124100C37F6A /* Mnie Uczono.m4a */; };
-		E2E8C6802B1A124500C37F6A /* Prawda I.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C62A2B1A124100C37F6A /* Prawda I.m4a */; };
-		E2E8C6812B1A124500C37F6A /* Celem Życia Nie Jest Przeżycie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C62B2B1A124100C37F6A /* Celem Życia Nie Jest Przeżycie.m4a */; };
-		E2E8C6822B1A124500C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Musi Być Zniszczona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C62C2B1A124100C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Musi Być Zniszczona.m4a */; };
-		E2E8C6832B1A124500C37F6A /* Afrykańskie Szambo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C62D2B1A124100C37F6A /* Afrykańskie Szambo.m4a */; };
-		E2E8C6842B1A124500C37F6A /* Dziękuję Za Uwagę.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C62E2B1A124100C37F6A /* Dziękuję Za Uwagę.m4a */; };
-		E2E8C6852B1A124500C37F6A /* A Was Sie Uczy Przezorny Zawsze Ubezpieczony.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C62F2B1A124100C37F6A /* A Was Sie Uczy Przezorny Zawsze Ubezpieczony.m4a */; };
-		E2E8C6862B1A124500C37F6A /* Istnieje Urząd.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6302B1A124200C37F6A /* Istnieje Urząd.m4a */; };
-		E2E8C6872B1A124500C37F6A /* One Żyją Sobie Całkowicie Bezpiecznie Od Milionów Lat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6312B1A124200C37F6A /* One Żyją Sobie Całkowicie Bezpiecznie Od Milionów Lat.m4a */; };
-		E2E8C6882B1A124500C37F6A /* Ależ Jest to Nieprawda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6322B1A124200C37F6A /* Ależ Jest to Nieprawda.m4a */; };
-		E2E8C6892B1A124500C37F6A /* Nic Nie Uczy Tak Rozumu Jak Głód.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6332B1A124200C37F6A /* Nic Nie Uczy Tak Rozumu Jak Głód.m4a */; };
-		E2E8C68A2B1A124500C37F6A /* Dlaczego?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6342B1A124200C37F6A /* Dlaczego?.m4a */; };
-		E2E8C68B2B1A124500C37F6A /* Tfu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6352B1A124200C37F6A /* Tfu.m4a */; };
-		E2E8C68C2B1A124500C37F6A /* Tłumienie Wolności Słowa, Czego Osobiście Doświadczam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6362B1A124200C37F6A /* Tłumienie Wolności Słowa, Czego Osobiście Doświadczam.m4a */; };
-		E2E8C68D2B1A124500C37F6A /* Dobrze.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6372B1A124200C37F6A /* Dobrze.m4a */; };
-		E2E8C68E2B1A124500C37F6A /* To Jest Oczywiste.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6382B1A124200C37F6A /* To Jest Oczywiste.m4a */; };
-		E2E8C68F2B1A124500C37F6A /* Trzeba Dziecko Sprzedać.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6392B1A124200C37F6A /* Trzeba Dziecko Sprzedać.m4a */; };
-		E2E8C6902B1A124500C37F6A /* Że Mnie Brzydzą Tego Typu Poglądy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C63A2B1A124200C37F6A /* Że Mnie Brzydzą Tego Typu Poglądy.m4a */; };
-		E2E8C6912B1A124500C37F6A /* W Tej Pierwszej Się Bardziej Boją O Swoje Życie, Ale Oni Zwyciężają.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C63B2B1A124300C37F6A /* W Tej Pierwszej Się Bardziej Boją O Swoje Życie, Ale Oni Zwyciężają.m4a */; };
-		E2E8C6922B1A124500C37F6A /* Demokracji Nienawidzę.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C63C2B1A124300C37F6A /* Demokracji Nienawidzę.m4a */; };
-		E2E8C6932B1A124500C37F6A /* A Pan Chce Tylko Żyć.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C63D2B1A124300C37F6A /* A Pan Chce Tylko Żyć.m4a */; };
-		E2E8C6942B1A124500C37F6A /* Dziękuję.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C63E2B1A124300C37F6A /* Dziękuję.m4a */; };
-		E2E8C6952B1A124500C37F6A /* Dwie Tony Złota W Piwnicy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C63F2B1A124300C37F6A /* Dwie Tony Złota W Piwnicy.m4a */; };
-		E2E8C6962B1A124500C37F6A /* Podatek Dochodowy Należy Zlikwidować.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6402B1A124300C37F6A /* Podatek Dochodowy Należy Zlikwidować.m4a */; };
-		E2E8C6972B1A124500C37F6A /* Ja Mogę Powiedzieć Co by Się Działo Gdyby Polska Była Kraje Kapitalistycznym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6412B1A124300C37F6A /* Ja Mogę Powiedzieć Co by Się Działo Gdyby Polska Była Kraje Kapitalistycznym.m4a */; };
-		E2E8C6982B1A124500C37F6A /* Powiedzieć, Że Się Odda Rodzinie Za Te 25 Tys.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6422B1A124300C37F6A /* Powiedzieć, Że Się Odda Rodzinie Za Te 25 Tys.m4a */; };
-		E2E8C6992B1A124500C37F6A /* Ja Nie Jestem Demokratą.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6432B1A124300C37F6A /* Ja Nie Jestem Demokratą.m4a */; };
-		E2E8C69A2B1A124500C37F6A /* Celem Życia Nie Jest Dobrze Sie Nażreć, Celem Życia Nie Jest Bezpieczeństwo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6442B1A124300C37F6A /* Celem Życia Nie Jest Dobrze Sie Nażreć, Celem Życia Nie Jest Bezpieczeństwo.m4a */; };
-		E2E8C69B2B1A124500C37F6A /* Przepraszam Bardzo, Dosyć Tego!.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6452B1A124300C37F6A /* Przepraszam Bardzo, Dosyć Tego!.m4a */; };
-		E2E8C69C2B1A124500C37F6A /* Ekh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6462B1A124300C37F6A /* Ekh.m4a */; };
-		E2E8C69D2B1A124500C37F6A /* Trza Dziecko Urodzić.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6472B1A124300C37F6A /* Trza Dziecko Urodzić.m4a */; };
-		E2E8C69E2B1A124500C37F6A /* Usiłowałem Podkreślić Dobitnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6482B1A124300C37F6A /* Usiłowałem Podkreślić Dobitnie.m4a */; };
-		E2E8C69F2B1A124500C37F6A /* Proszem Pana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6492B1A124300C37F6A /* Proszem Pana.m4a */; };
-		E2E8C6A02B1A124500C37F6A /* Jest to Absurdalna Polityka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C64A2B1A124400C37F6A /* Jest to Absurdalna Polityka.m4a */; };
-		E2E8C6A12B1A124500C37F6A /* Dziecko Kosztuje Okolo 25 Tys Dolarów.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C64B2B1A124400C37F6A /* Dziecko Kosztuje Okolo 25 Tys Dolarów.m4a */; };
-		E2E8C6A22B1A124500C37F6A /* Ale Mnie Uczono Kto Nie Ryzykuje Ten Nie Je.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C64C2B1A124400C37F6A /* Ale Mnie Uczono Kto Nie Ryzykuje Ten Nie Je.m4a */; };
-		E2E8C6A32B1A124500C37F6A /* I Zmusić Ich Po Prostu Do Pracy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C64D2B1A124400C37F6A /* I Zmusić Ich Po Prostu Do Pracy.m4a */; };
-		E2E8C6A42B1A124500C37F6A /* Dzisiejszy Ustrój Uniemozliwia Ludziom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C64E2B1A124400C37F6A /* Dzisiejszy Ustrój Uniemozliwia Ludziom.m4a */; };
-		E2E8C6A52B1A124500C37F6A /* Po Polsku Mówie A Nie Po Angielsku.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C64F2B1A124400C37F6A /* Po Polsku Mówie A Nie Po Angielsku.m4a */; };
-		E2E8C6A62B1A124500C37F6A /* Starszych?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6502B1A124400C37F6A /* Starszych?.m4a */; };
-		E2E8C6A72B1A124500C37F6A /* Nie Było Islandii Popatrz Pan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6512B1A124400C37F6A /* Nie Było Islandii Popatrz Pan.m4a */; };
-		E2E8C6A82B1A124500C37F6A /* To My Powinniśmy Uczyć Się Od Chin, A Nie Chińczycy Od Nas!.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6522B1A124400C37F6A /* To My Powinniśmy Uczyć Się Od Chin, A Nie Chińczycy Od Nas!.m4a */; };
-		E2E8C6A92B1A124500C37F6A /* Z Pośród Dwóch Armi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6532B1A124400C37F6A /* Z Pośród Dwóch Armi.m4a */; };
-		E2E8C6AA2B1A124500C37F6A /* Nie, No Bo Co to Dziecko Jest Winne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6542B1A124400C37F6A /* Nie, No Bo Co to Dziecko Jest Winne.m4a */; };
-		E2E8C6AB2B1A124500C37F6A /* Za Komuny to Było.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6552B1A124400C37F6A /* Za Komuny to Było.m4a */; };
-		E2E8C6AC2B1A124500C37F6A /* Że Najważniejsze Jest Się Dobrze Nażreć.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6562B1A124400C37F6A /* Że Najważniejsze Jest Się Dobrze Nażreć.m4a */; };
-		E2E8C6AD2B1A124500C37F6A /* To Ja Nie Będę Zastępować Pańskich Nauczycieli.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6572B1A124500C37F6A /* To Ja Nie Będę Zastępować Pańskich Nauczycieli.m4a */; };
-		E2E8C6AE2B1A124500C37F6A /* Demokracją Pogardzam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6582B1A124500C37F6A /* Demokracją Pogardzam.m4a */; };
-		E2E8C6AF2B1A124500C37F6A /* Ja Obrażam Ludzi Starszych?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6592B1A124500C37F6A /* Ja Obrażam Ludzi Starszych?.m4a */; };
-		E2E8C6B02B1A124500C37F6A /* Najlepszym Nauczycielem Jest Przykład.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C65A2B1A124500C37F6A /* Najlepszym Nauczycielem Jest Przykład.m4a */; };
 		E2E8C78B2B1A129400C37F6A /* Aż jak mi się śniło to siurek się podnosił.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6B12B1A128300C37F6A /* Aż jak mi się śniło to siurek się podnosił.m4a */; };
 		E2E8C78C2B1A129400C37F6A /* Taką super by było.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6B22B1A128300C37F6A /* Taką super by było.m4a */; };
 		E2E8C78D2B1A129400C37F6A /* I życzę im.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C6B32B1A128300C37F6A /* I życzę im.m4a */; };
@@ -1535,6 +1535,92 @@
 		E2C6F2EF2AF6DF0E00C8B73B /* Konon Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konon Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C6F2F52AF6DF0F00C8B73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2D922222B1A1CCC00A9CCBB /* Nie mówmy o tym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie mówmy o tym.m4a"; sourceTree = "<group>"; };
+		E2D922232B1A1CCC00A9CCBB /* Otoż ymmm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Otoż ymmm.m4a"; sourceTree = "<group>"; };
+		E2D922242B1A1CCC00A9CCBB /* Z pośród dwóch armi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Z pośród dwóch armi.m4a"; sourceTree = "<group>"; };
+		E2D922252B1A1CCC00A9CCBB /* Że najważniejsze jest się dobrze nażreć.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Że najważniejsze jest się dobrze nażreć.m4a"; sourceTree = "<group>"; };
+		E2D922262B1A1CCC00A9CCBB /* Ja podam przykład drastyczny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja podam przykład drastyczny.m4a"; sourceTree = "<group>"; };
+		E2D922272B1A1CCC00A9CCBB /* To ja nie będę zastępować pańskich nauczycieli.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To ja nie będę zastępować pańskich nauczycieli.m4a"; sourceTree = "<group>"; };
+		E2D922282B1A1CCC00A9CCBB /* Jest to absurdalna polityka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jest to absurdalna polityka.m4a"; sourceTree = "<group>"; };
+		E2D922292B1A1CCC00A9CCBB /* I za miesiąc miał już firme, która sprzedawała paróweczki na ulicy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I za miesiąc miał już firme, która sprzedawała paróweczki na ulicy.m4a"; sourceTree = "<group>"; };
+		E2D9222A2B1A1CCC00A9CCBB /* Po polsku mówie a nie po angielsku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Po polsku mówie a nie po angielsku.m4a"; sourceTree = "<group>"; };
+		E2D9222B2B1A1CCC00A9CCBB /* Wolny rynek jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wolny rynek jest.m4a"; sourceTree = "<group>"; };
+		E2D9222C2B1A1CCC00A9CCBB /* Ja się z tym zgadzam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja się z tym zgadzam.m4a"; sourceTree = "<group>"; };
+		E2D9222D2B1A1CCC00A9CCBB /* Ja nie jestem demokratą.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja nie jestem demokratą.m4a"; sourceTree = "<group>"; };
+		E2D9222E2B1A1CCC00A9CCBB /* Bo widzi pan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bo widzi pan.m4a"; sourceTree = "<group>"; };
+		E2D9222F2B1A1CCD00A9CCBB /* Usiłowałem podkreślić dobitnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Usiłowałem podkreślić dobitnie.m4a"; sourceTree = "<group>"; };
+		E2D922302B1A1CCD00A9CCBB /* Dziecko kosztuje okolo 25 tys dolarów.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dziecko kosztuje okolo 25 tys dolarów.m4a"; sourceTree = "<group>"; };
+		E2D922312B1A1CCD00A9CCBB /* Istnieje urząd.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Istnieje urząd.m4a"; sourceTree = "<group>"; };
+		E2D922322B1A1CCD00A9CCBB /* Tfu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tfu.m4a; sourceTree = "<group>"; };
+		E2D922332B1A1CCD00A9CCBB /* Na dnie oceanu w rowie mariańskim są rurkowce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Na dnie oceanu w rowie mariańskim są rurkowce.m4a"; sourceTree = "<group>"; };
+		E2D922342B1A1CCD00A9CCBB /* Ja mogę powiedzieć co by się działo gdyby polska była kraje kapitalistycznym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja mogę powiedzieć co by się działo gdyby polska była kraje kapitalistycznym.m4a"; sourceTree = "<group>"; };
+		E2D922352B1A1CCD00A9CCBB /* Trzeba dziecko sprzedać.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trzeba dziecko sprzedać.m4a"; sourceTree = "<group>"; };
+		E2D922362B1A1CCD00A9CCBB /* Ekh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ekh.m4a; sourceTree = "<group>"; };
+		E2D922372B1A1CCD00A9CCBB /* Celem życia nie jest przeżycie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Celem życia nie jest przeżycie.m4a"; sourceTree = "<group>"; };
+		E2D922382B1A1CCD00A9CCBB /* To my powinniśmy uczyć się od chin, a nie chińczycy od nas!.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To my powinniśmy uczyć się od chin, a nie chińczycy od nas!.m4a"; sourceTree = "<group>"; };
+		E2D922392B1A1CCD00A9CCBB /* Dwie tony złota w piwnicy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dwie tony złota w piwnicy.m4a"; sourceTree = "<group>"; };
+		E2D9223A2B1A1CCD00A9CCBB /* To jest niedopuszczalne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To jest niedopuszczalne.m4a"; sourceTree = "<group>"; };
+		E2D9223B2B1A1CCD00A9CCBB /* A poza tym sądzę, że unia europejska powinna być zniszczona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A poza tym sądzę, że unia europejska powinna być zniszczona.m4a"; sourceTree = "<group>"; };
+		E2D9223C2B1A1CCD00A9CCBB /* A pan chce tylko żyć.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A pan chce tylko żyć.m4a"; sourceTree = "<group>"; };
+		E2D9223D2B1A1CCD00A9CCBB /* Demokracją pogardzam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demokracją pogardzam.m4a"; sourceTree = "<group>"; };
+		E2D9223E2B1A1CCD00A9CCBB /* Nie to jest tak śmieszne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie to jest tak śmieszne.m4a"; sourceTree = "<group>"; };
+		E2D9223F2B1A1CCE00A9CCBB /* Ale to jest nie do przyjęcia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ale to jest nie do przyjęcia.m4a"; sourceTree = "<group>"; };
+		E2D922402B1A1CCE00A9CCBB /* Ja nie używam tego słowa na g, bo mi się z kojarzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja nie używam tego słowa na g, bo mi się z kojarzy.m4a"; sourceTree = "<group>"; };
+		E2D922412B1A1CCE00A9CCBB /* Proszem pana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proszem pana.m4a"; sourceTree = "<group>"; };
+		E2D922422B1A1CCE00A9CCBB /* Ale mnie uczono kto nie ryzykuje ten nie je.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ale mnie uczono kto nie ryzykuje ten nie je.m4a"; sourceTree = "<group>"; };
+		E2D922432B1A1CCE00A9CCBB /* Przepraszam bardzo, dosyć tego!.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Przepraszam bardzo, dosyć tego!.m4a"; sourceTree = "<group>"; };
+		E2D922442B1A1CCE00A9CCBB /* Tłumienie wolności słowa, czego osobiście doświadczam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tłumienie wolności słowa, czego osobiście doświadczam.m4a"; sourceTree = "<group>"; };
+		E2D922452B1A1CCE00A9CCBB /* Jak powiedział wybitny krakowianin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jak powiedział wybitny krakowianin.m4a"; sourceTree = "<group>"; };
+		E2D922462B1A1CCE00A9CCBB /* W tej chwili.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "W tej chwili.m4a"; sourceTree = "<group>"; };
+		E2D922472B1A1CCE00A9CCBB /* Za komuny to było.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Za komuny to było.m4a"; sourceTree = "<group>"; };
+		E2D922482B1A1CCE00A9CCBB /* Stanisław lem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stanisław lem.m4a"; sourceTree = "<group>"; };
+		E2D922492B1A1CCE00A9CCBB /* Demokracji nienawidzę.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demokracji nienawidzę.m4a"; sourceTree = "<group>"; };
+		E2D9224A2B1A1CCE00A9CCBB /* Nie no żarty śmieszne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie no żarty śmieszne.m4a"; sourceTree = "<group>"; };
+		E2D9224B2B1A1CCE00A9CCBB /* Dobrze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dobrze.m4a; sourceTree = "<group>"; };
+		E2D9224C2B1A1CCE00A9CCBB /* Powiedzieć, że się odda rodzinie za te 25 tys.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Powiedzieć, że się odda rodzinie za te 25 tys.m4a"; sourceTree = "<group>"; };
+		E2D9224D2B1A1CCE00A9CCBB /* Podatek dochodowy należy zlikwidować.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Podatek dochodowy należy zlikwidować.m4a"; sourceTree = "<group>"; };
+		E2D9224E2B1A1CCE00A9CCBB /* One żyją sobie całkowicie bezpiecznie od milionów lat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "One żyją sobie całkowicie bezpiecznie od milionów lat.m4a"; sourceTree = "<group>"; };
+		E2D9224F2B1A1CCF00A9CCBB /* Ja nie jeste wyprowadzony z równowagi, proszę pana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja nie jeste wyprowadzony z równowagi, proszę pana.m4a"; sourceTree = "<group>"; };
+		E2D922502B1A1CCF00A9CCBB /* Tylko dlatego, że.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tylko dlatego, że.m4a"; sourceTree = "<group>"; };
+		E2D922512B1A1CCF00A9CCBB /* Eeee.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eeee.m4a; sourceTree = "<group>"; };
+		E2D922522B1A1CCF00A9CCBB /* Ludzie mają swoje cele, swoje ambicję, mają swoje ideały.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ludzie mają swoje cele, swoje ambicję, mają swoje ideały.m4a"; sourceTree = "<group>"; };
+		E2D922532B1A1CCF00A9CCBB /* Demokracja to tyrania większości.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demokracja to tyrania większości.m4a"; sourceTree = "<group>"; };
+		E2D922542B1A1CCF00A9CCBB /* A poza tym sądzę, że unia europejska musi być zniszczona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A poza tym sądzę, że unia europejska musi być zniszczona.m4a"; sourceTree = "<group>"; };
+		E2D922552B1A1CCF00A9CCBB /* Dziękuję.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dziękuję.m4a"; sourceTree = "<group>"; };
+		E2D922562B1A1CCF00A9CCBB /* Nie, no bo co to dziecko jest winne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie, no bo co to dziecko jest winne.m4a"; sourceTree = "<group>"; };
+		E2D922572B1A1CCF00A9CCBB /* Prawda i.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prawda i.m4a"; sourceTree = "<group>"; };
+		E2D922582B1A1CCF00A9CCBB /* To jest oczywiste.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To jest oczywiste.m4a"; sourceTree = "<group>"; };
+		E2D922592B1A1CCF00A9CCBB /* Dzisiejszy ustrój uniemozliwia ludziom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dzisiejszy ustrój uniemozliwia ludziom.m4a"; sourceTree = "<group>"; };
+		E2D9225A2B1A1CCF00A9CCBB /* Celem życia nie jest dobrze sie nażreć, celem życia nie jest bezpieczeństwo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Celem życia nie jest dobrze sie nażreć, celem życia nie jest bezpieczeństwo.m4a"; sourceTree = "<group>"; };
+		E2D9225B2B1A1CCF00A9CCBB /* Trza dziecko urodzić.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trza dziecko urodzić.m4a"; sourceTree = "<group>"; };
+		E2D9225C2B1A1CCF00A9CCBB /* Zabrano tym ludziom, okradziono z ich pieniędzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zabrano tym ludziom, okradziono z ich pieniędzy.m4a"; sourceTree = "<group>"; };
+		E2D9225D2B1A1CCF00A9CCBB /* Że mnie brzydzą tego typu poglądy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Że mnie brzydzą tego typu poglądy.m4a"; sourceTree = "<group>"; };
+		E2D9225E2B1A1CCF00A9CCBB /* Ależ jest to nieprawda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ależ jest to nieprawda.m4a"; sourceTree = "<group>"; };
+		E2D9225F2B1A1CCF00A9CCBB /* A was sie uczy przezorny zawsze ubezpieczony.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A was sie uczy przezorny zawsze ubezpieczony.m4a"; sourceTree = "<group>"; };
+		E2D922602B1A1CD000A9CCBB /* Hy hy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hy hy.m4a"; sourceTree = "<group>"; };
+		E2D922612B1A1CD000A9CCBB /* Nic nie uczy tak rozumu jak głód.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nic nie uczy tak rozumu jak głód.m4a"; sourceTree = "<group>"; };
+		E2D922622B1A1CD000A9CCBB /* Ale nie więcej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ale nie więcej.m4a"; sourceTree = "<group>"; };
+		E2D922632B1A1CD000A9CCBB /* Dzisiaj to jest niemozliwe, nie z powodu żadnej korporacji.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dzisiaj to jest niemozliwe, nie z powodu żadnej korporacji.m4a"; sourceTree = "<group>"; };
+		E2D922642B1A1CD000A9CCBB /* Najlepszym nauczycielem jest przykład.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Najlepszym nauczycielem jest przykład.m4a"; sourceTree = "<group>"; };
+		E2D922652B1A1CD000A9CCBB /* Korupcja, złodziejstwo, pogarda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Korupcja, złodziejstwo, pogarda.m4a"; sourceTree = "<group>"; };
+		E2D922662B1A1CD000A9CCBB /* I pan sobie żre i żyje dalej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I pan sobie żre i żyje dalej.m4a"; sourceTree = "<group>"; };
+		E2D922672B1A1CD000A9CCBB /* Mnie uczono.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mnie uczono.m4a"; sourceTree = "<group>"; };
+		E2D922682B1A1CD000A9CCBB /* I zmusić ich po prostu do pracy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I zmusić ich po prostu do pracy.m4a"; sourceTree = "<group>"; };
+		E2D922692B1A1CD000A9CCBB /* To jest takie pieszczotliwe określenie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To jest takie pieszczotliwe określenie.m4a"; sourceTree = "<group>"; };
+		E2D9226A2B1A1CD000A9CCBB /* Starszych?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starszych?.m4a"; sourceTree = "<group>"; };
+		E2D9226B2B1A1CD000A9CCBB /* Nie było islandii popatrz pan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie było islandii popatrz pan.m4a"; sourceTree = "<group>"; };
+		E2D9226C2B1A1CD000A9CCBB /* Ciocia robiła paróweczki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ciocia robiła paróweczki.m4a"; sourceTree = "<group>"; };
+		E2D9226D2B1A1CD000A9CCBB /* Ja obrażam ludzi starszych?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja obrażam ludzi starszych?.m4a"; sourceTree = "<group>"; };
+		E2D9226E2B1A1CD000A9CCBB /* Dzisiaj to jest niemozliwe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dzisiaj to jest niemozliwe.m4a"; sourceTree = "<group>"; };
+		E2D9226F2B1A1CD000A9CCBB /* A nie było islandii przypadkiem?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A nie było islandii przypadkiem?.m4a"; sourceTree = "<group>"; };
+		E2D922702B1A1CD100A9CCBB /* Czy można?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Czy można?.m4a"; sourceTree = "<group>"; };
+		E2D922712B1A1CD100A9CCBB /* Dlaczego?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dlaczego?.m4a"; sourceTree = "<group>"; };
+		E2D922722B1A1CD100A9CCBB /* Dziękuję za uwagę.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dziękuję za uwagę.m4a"; sourceTree = "<group>"; };
+		E2D922732B1A1CD100A9CCBB /* W tej pierwszej się bardziej boją o swoje życie, ale oni zwyciężają.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "W tej pierwszej się bardziej boją o swoje życie, ale oni zwyciężają.m4a"; sourceTree = "<group>"; };
+		E2D922742B1A1CD100A9CCBB /* I za to walczą i umierają.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I za to walczą i umierają.m4a"; sourceTree = "<group>"; };
+		E2D922752B1A1CD100A9CCBB /* Z których jedna wygrywa wojnę, a druga siedzi w pieleszach.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Z których jedna wygrywa wojnę, a druga siedzi w pieleszach.m4a"; sourceTree = "<group>"; };
+		E2D922762B1A1CD100A9CCBB /* Zabrane przez was emerytury.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zabrane przez was emerytury.m4a"; sourceTree = "<group>"; };
+		E2D922772B1A1CD100A9CCBB /* Afrykańskie szambo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Afrykańskie szambo.m4a"; sourceTree = "<group>"; };
 		E2E8BF042B1A0B6600C37F6A /* My jesteśmy BYDŁO nacj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "My jesteśmy BYDŁO nacj.m4a"; sourceTree = "<group>"; };
 		E2E8BF052B1A0B6600C37F6A /* Ty mi nie mów, że się boisz, tylko czy się wybierasz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ty mi nie mów, że się boisz, tylko czy się wybierasz.m4a"; sourceTree = "<group>"; };
 		E2E8BF062B1A0B6600C37F6A /* Ty padlino ty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ty padlino ty.m4a"; sourceTree = "<group>"; };
@@ -2404,92 +2490,6 @@
 		E2E8C4612B1A0F9B00C37F6A /* Jedną sprawę.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jedną sprawę.m4a"; sourceTree = "<group>"; };
 		E2E8C4622B1A0F9C00C37F6A /* Tak samo pracuje na gazie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tak samo pracuje na gazie.m4a"; sourceTree = "<group>"; };
 		E2E8C4632B1A0F9C00C37F6A /* Wykonam wyrok tobie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wykonam wyrok tobie.m4a"; sourceTree = "<group>"; };
-		E2E8C6052B1A123E00C37F6A /* Jak Powiedział Wybitny Krakowianin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jak Powiedział Wybitny Krakowianin.m4a"; sourceTree = "<group>"; };
-		E2E8C6062B1A123E00C37F6A /* Wolny Rynek Jest.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wolny Rynek Jest.m4a"; sourceTree = "<group>"; };
-		E2E8C6072B1A123E00C37F6A /* Z Których Jedna Wygrywa Wojnę, A Druga Siedzi W Pieleszach.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Z Których Jedna Wygrywa Wojnę, A Druga Siedzi W Pieleszach.m4a"; sourceTree = "<group>"; };
-		E2E8C6082B1A123E00C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Powinna Być Zniszczona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Poza Tym Sądzę, Że Unia Europejska Powinna Być Zniszczona.m4a"; sourceTree = "<group>"; };
-		E2E8C6092B1A123E00C37F6A /* Korupcja, Złodziejstwo, Pogarda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Korupcja, Złodziejstwo, Pogarda.m4a"; sourceTree = "<group>"; };
-		E2E8C60A2B1A123E00C37F6A /* Ja Podam Przykład Drastyczny.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja Podam Przykład Drastyczny.m4a"; sourceTree = "<group>"; };
-		E2E8C60B2B1A123F00C37F6A /* Zabrano Tym Ludziom, Okradziono Z Ich Pieniędzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zabrano Tym Ludziom, Okradziono Z Ich Pieniędzy.m4a"; sourceTree = "<group>"; };
-		E2E8C60C2B1A123F00C37F6A /* Czy Można?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Czy Można?.m4a"; sourceTree = "<group>"; };
-		E2E8C60D2B1A123F00C37F6A /* Dzisiaj to Jest Niemozliwe, Nie Z Powodu Żadnej Korporacji.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dzisiaj to Jest Niemozliwe, Nie Z Powodu Żadnej Korporacji.m4a"; sourceTree = "<group>"; };
-		E2E8C60E2B1A123F00C37F6A /* Ja Się Z Tym Zgadzam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja Się Z Tym Zgadzam.m4a"; sourceTree = "<group>"; };
-		E2E8C60F2B1A123F00C37F6A /* Otoż Ymmm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Otoż Ymmm.m4a"; sourceTree = "<group>"; };
-		E2E8C6102B1A123F00C37F6A /* Nie to Jest Tak Śmieszne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie to Jest Tak Śmieszne.m4a"; sourceTree = "<group>"; };
-		E2E8C6112B1A123F00C37F6A /* Nie No Żarty Śmieszne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie No Żarty Śmieszne.m4a"; sourceTree = "<group>"; };
-		E2E8C6122B1A123F00C37F6A /* To Jest Takie Pieszczotliwe Określenie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To Jest Takie Pieszczotliwe Określenie.m4a"; sourceTree = "<group>"; };
-		E2E8C6132B1A123F00C37F6A /* Ja Nie Używam Tego Słowa Na G, Bo Mi Się z Kojarzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja Nie Używam Tego Słowa Na G, Bo Mi Się z Kojarzy.m4a"; sourceTree = "<group>"; };
-		E2E8C6142B1A123F00C37F6A /* Ale to Jest Nie Do Przyjęcia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ale to Jest Nie Do Przyjęcia.m4a"; sourceTree = "<group>"; };
-		E2E8C6152B1A123F00C37F6A /* I Za Miesiąc Miał Już Firme, Która Sprzedawała Paróweczki Na Ulicy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Za Miesiąc Miał Już Firme, Która Sprzedawała Paróweczki Na Ulicy.m4a"; sourceTree = "<group>"; };
-		E2E8C6162B1A123F00C37F6A /* Nie Mówmy O Tym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie Mówmy O Tym.m4a"; sourceTree = "<group>"; };
-		E2E8C6172B1A123F00C37F6A /* A Nie Było Islandii Przypadkiem?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Nie Było Islandii Przypadkiem?.m4a"; sourceTree = "<group>"; };
-		E2E8C6182B1A124000C37F6A /* Ale Nie Więcej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ale Nie Więcej.m4a"; sourceTree = "<group>"; };
-		E2E8C6192B1A124000C37F6A /* Demokracja to Tyrania Większości.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demokracja to Tyrania Większości.m4a"; sourceTree = "<group>"; };
-		E2E8C61A2B1A124000C37F6A /* I Pan Sobie Żre I Żyje Dalej.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Pan Sobie Żre I Żyje Dalej.m4a"; sourceTree = "<group>"; };
-		E2E8C61B2B1A124000C37F6A /* Eeee.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eeee.m4a; sourceTree = "<group>"; };
-		E2E8C61C2B1A124000C37F6A /* Ludzie Mają Swoje Cele, Swoje Ambicję, Mają Swoje Ideały.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ludzie Mają Swoje Cele, Swoje Ambicję, Mają Swoje Ideały.m4a"; sourceTree = "<group>"; };
-		E2E8C61D2B1A124000C37F6A /* Ciocia Robiła Paróweczki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ciocia Robiła Paróweczki.m4a"; sourceTree = "<group>"; };
-		E2E8C61E2B1A124000C37F6A /* Bo Widzi Pan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bo Widzi Pan.m4a"; sourceTree = "<group>"; };
-		E2E8C61F2B1A124000C37F6A /* Dzisiaj to Jest Niemozliwe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dzisiaj to Jest Niemozliwe.m4a"; sourceTree = "<group>"; };
-		E2E8C6202B1A124000C37F6A /* Tylko Dlatego, Że.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tylko Dlatego, Że.m4a"; sourceTree = "<group>"; };
-		E2E8C6212B1A124000C37F6A /* W Tej Chwili.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "W Tej Chwili.m4a"; sourceTree = "<group>"; };
-		E2E8C6222B1A124000C37F6A /* To Jest Niedopuszczalne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To Jest Niedopuszczalne.m4a"; sourceTree = "<group>"; };
-		E2E8C6232B1A124000C37F6A /* Zabrane Przez Was Emerytury.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zabrane Przez Was Emerytury.m4a"; sourceTree = "<group>"; };
-		E2E8C6242B1A124000C37F6A /* Hy Hy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hy Hy.m4a"; sourceTree = "<group>"; };
-		E2E8C6252B1A124000C37F6A /* Stanisław Lem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stanisław Lem.m4a"; sourceTree = "<group>"; };
-		E2E8C6262B1A124100C37F6A /* Na Dnie Oceanu W Rowie Mariańskim Są Rurkowce.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Na Dnie Oceanu W Rowie Mariańskim Są Rurkowce.m4a"; sourceTree = "<group>"; };
-		E2E8C6272B1A124100C37F6A /* I Za to Walczą I Umierają.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Za to Walczą I Umierają.m4a"; sourceTree = "<group>"; };
-		E2E8C6282B1A124100C37F6A /* Ja Nie Jeste Wyprowadzony Z Równowagi, Proszę Pana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja Nie Jeste Wyprowadzony Z Równowagi, Proszę Pana.m4a"; sourceTree = "<group>"; };
-		E2E8C6292B1A124100C37F6A /* Mnie Uczono.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mnie Uczono.m4a"; sourceTree = "<group>"; };
-		E2E8C62A2B1A124100C37F6A /* Prawda I.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prawda I.m4a"; sourceTree = "<group>"; };
-		E2E8C62B2B1A124100C37F6A /* Celem Życia Nie Jest Przeżycie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Celem Życia Nie Jest Przeżycie.m4a"; sourceTree = "<group>"; };
-		E2E8C62C2B1A124100C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Musi Być Zniszczona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Poza Tym Sądzę, Że Unia Europejska Musi Być Zniszczona.m4a"; sourceTree = "<group>"; };
-		E2E8C62D2B1A124100C37F6A /* Afrykańskie Szambo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Afrykańskie Szambo.m4a"; sourceTree = "<group>"; };
-		E2E8C62E2B1A124100C37F6A /* Dziękuję Za Uwagę.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dziękuję Za Uwagę.m4a"; sourceTree = "<group>"; };
-		E2E8C62F2B1A124100C37F6A /* A Was Sie Uczy Przezorny Zawsze Ubezpieczony.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Was Sie Uczy Przezorny Zawsze Ubezpieczony.m4a"; sourceTree = "<group>"; };
-		E2E8C6302B1A124200C37F6A /* Istnieje Urząd.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Istnieje Urząd.m4a"; sourceTree = "<group>"; };
-		E2E8C6312B1A124200C37F6A /* One Żyją Sobie Całkowicie Bezpiecznie Od Milionów Lat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "One Żyją Sobie Całkowicie Bezpiecznie Od Milionów Lat.m4a"; sourceTree = "<group>"; };
-		E2E8C6322B1A124200C37F6A /* Ależ Jest to Nieprawda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ależ Jest to Nieprawda.m4a"; sourceTree = "<group>"; };
-		E2E8C6332B1A124200C37F6A /* Nic Nie Uczy Tak Rozumu Jak Głód.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nic Nie Uczy Tak Rozumu Jak Głód.m4a"; sourceTree = "<group>"; };
-		E2E8C6342B1A124200C37F6A /* Dlaczego?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dlaczego?.m4a"; sourceTree = "<group>"; };
-		E2E8C6352B1A124200C37F6A /* Tfu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tfu.m4a; sourceTree = "<group>"; };
-		E2E8C6362B1A124200C37F6A /* Tłumienie Wolności Słowa, Czego Osobiście Doświadczam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tłumienie Wolności Słowa, Czego Osobiście Doświadczam.m4a"; sourceTree = "<group>"; };
-		E2E8C6372B1A124200C37F6A /* Dobrze.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dobrze.m4a; sourceTree = "<group>"; };
-		E2E8C6382B1A124200C37F6A /* To Jest Oczywiste.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To Jest Oczywiste.m4a"; sourceTree = "<group>"; };
-		E2E8C6392B1A124200C37F6A /* Trzeba Dziecko Sprzedać.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trzeba Dziecko Sprzedać.m4a"; sourceTree = "<group>"; };
-		E2E8C63A2B1A124200C37F6A /* Że Mnie Brzydzą Tego Typu Poglądy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Że Mnie Brzydzą Tego Typu Poglądy.m4a"; sourceTree = "<group>"; };
-		E2E8C63B2B1A124300C37F6A /* W Tej Pierwszej Się Bardziej Boją O Swoje Życie, Ale Oni Zwyciężają.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "W Tej Pierwszej Się Bardziej Boją O Swoje Życie, Ale Oni Zwyciężają.m4a"; sourceTree = "<group>"; };
-		E2E8C63C2B1A124300C37F6A /* Demokracji Nienawidzę.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demokracji Nienawidzę.m4a"; sourceTree = "<group>"; };
-		E2E8C63D2B1A124300C37F6A /* A Pan Chce Tylko Żyć.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Pan Chce Tylko Żyć.m4a"; sourceTree = "<group>"; };
-		E2E8C63E2B1A124300C37F6A /* Dziękuję.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dziękuję.m4a"; sourceTree = "<group>"; };
-		E2E8C63F2B1A124300C37F6A /* Dwie Tony Złota W Piwnicy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dwie Tony Złota W Piwnicy.m4a"; sourceTree = "<group>"; };
-		E2E8C6402B1A124300C37F6A /* Podatek Dochodowy Należy Zlikwidować.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Podatek Dochodowy Należy Zlikwidować.m4a"; sourceTree = "<group>"; };
-		E2E8C6412B1A124300C37F6A /* Ja Mogę Powiedzieć Co by Się Działo Gdyby Polska Była Kraje Kapitalistycznym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja Mogę Powiedzieć Co by Się Działo Gdyby Polska Była Kraje Kapitalistycznym.m4a"; sourceTree = "<group>"; };
-		E2E8C6422B1A124300C37F6A /* Powiedzieć, Że Się Odda Rodzinie Za Te 25 Tys.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Powiedzieć, Że Się Odda Rodzinie Za Te 25 Tys.m4a"; sourceTree = "<group>"; };
-		E2E8C6432B1A124300C37F6A /* Ja Nie Jestem Demokratą.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja Nie Jestem Demokratą.m4a"; sourceTree = "<group>"; };
-		E2E8C6442B1A124300C37F6A /* Celem Życia Nie Jest Dobrze Sie Nażreć, Celem Życia Nie Jest Bezpieczeństwo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Celem Życia Nie Jest Dobrze Sie Nażreć, Celem Życia Nie Jest Bezpieczeństwo.m4a"; sourceTree = "<group>"; };
-		E2E8C6452B1A124300C37F6A /* Przepraszam Bardzo, Dosyć Tego!.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Przepraszam Bardzo, Dosyć Tego!.m4a"; sourceTree = "<group>"; };
-		E2E8C6462B1A124300C37F6A /* Ekh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ekh.m4a; sourceTree = "<group>"; };
-		E2E8C6472B1A124300C37F6A /* Trza Dziecko Urodzić.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trza Dziecko Urodzić.m4a"; sourceTree = "<group>"; };
-		E2E8C6482B1A124300C37F6A /* Usiłowałem Podkreślić Dobitnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Usiłowałem Podkreślić Dobitnie.m4a"; sourceTree = "<group>"; };
-		E2E8C6492B1A124300C37F6A /* Proszem Pana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proszem Pana.m4a"; sourceTree = "<group>"; };
-		E2E8C64A2B1A124400C37F6A /* Jest to Absurdalna Polityka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jest to Absurdalna Polityka.m4a"; sourceTree = "<group>"; };
-		E2E8C64B2B1A124400C37F6A /* Dziecko Kosztuje Okolo 25 Tys Dolarów.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dziecko Kosztuje Okolo 25 Tys Dolarów.m4a"; sourceTree = "<group>"; };
-		E2E8C64C2B1A124400C37F6A /* Ale Mnie Uczono Kto Nie Ryzykuje Ten Nie Je.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ale Mnie Uczono Kto Nie Ryzykuje Ten Nie Je.m4a"; sourceTree = "<group>"; };
-		E2E8C64D2B1A124400C37F6A /* I Zmusić Ich Po Prostu Do Pracy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Zmusić Ich Po Prostu Do Pracy.m4a"; sourceTree = "<group>"; };
-		E2E8C64E2B1A124400C37F6A /* Dzisiejszy Ustrój Uniemozliwia Ludziom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dzisiejszy Ustrój Uniemozliwia Ludziom.m4a"; sourceTree = "<group>"; };
-		E2E8C64F2B1A124400C37F6A /* Po Polsku Mówie A Nie Po Angielsku.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Po Polsku Mówie A Nie Po Angielsku.m4a"; sourceTree = "<group>"; };
-		E2E8C6502B1A124400C37F6A /* Starszych?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starszych?.m4a"; sourceTree = "<group>"; };
-		E2E8C6512B1A124400C37F6A /* Nie Było Islandii Popatrz Pan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie Było Islandii Popatrz Pan.m4a"; sourceTree = "<group>"; };
-		E2E8C6522B1A124400C37F6A /* To My Powinniśmy Uczyć Się Od Chin, A Nie Chińczycy Od Nas!.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To My Powinniśmy Uczyć Się Od Chin, A Nie Chińczycy Od Nas!.m4a"; sourceTree = "<group>"; };
-		E2E8C6532B1A124400C37F6A /* Z Pośród Dwóch Armi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Z Pośród Dwóch Armi.m4a"; sourceTree = "<group>"; };
-		E2E8C6542B1A124400C37F6A /* Nie, No Bo Co to Dziecko Jest Winne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie, No Bo Co to Dziecko Jest Winne.m4a"; sourceTree = "<group>"; };
-		E2E8C6552B1A124400C37F6A /* Za Komuny to Było.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Za Komuny to Było.m4a"; sourceTree = "<group>"; };
-		E2E8C6562B1A124400C37F6A /* Że Najważniejsze Jest Się Dobrze Nażreć.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Że Najważniejsze Jest Się Dobrze Nażreć.m4a"; sourceTree = "<group>"; };
-		E2E8C6572B1A124500C37F6A /* To Ja Nie Będę Zastępować Pańskich Nauczycieli.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To Ja Nie Będę Zastępować Pańskich Nauczycieli.m4a"; sourceTree = "<group>"; };
-		E2E8C6582B1A124500C37F6A /* Demokracją Pogardzam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demokracją Pogardzam.m4a"; sourceTree = "<group>"; };
-		E2E8C6592B1A124500C37F6A /* Ja Obrażam Ludzi Starszych?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja Obrażam Ludzi Starszych?.m4a"; sourceTree = "<group>"; };
-		E2E8C65A2B1A124500C37F6A /* Najlepszym Nauczycielem Jest Przykład.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Najlepszym Nauczycielem Jest Przykład.m4a"; sourceTree = "<group>"; };
 		E2E8C6B12B1A128300C37F6A /* Aż jak mi się śniło to siurek się podnosił.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Aż jak mi się śniło to siurek się podnosił.m4a"; sourceTree = "<group>"; };
 		E2E8C6B22B1A128300C37F6A /* Taką super by było.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Taką super by było.m4a"; sourceTree = "<group>"; };
 		E2E8C6B32B1A128300C37F6A /* I życzę im.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I życzę im.m4a"; sourceTree = "<group>"; };
@@ -4519,92 +4519,92 @@
 		E2FAA9D12B0CE40D00C7E393 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				E2E8C6172B1A123F00C37F6A /* A Nie Było Islandii Przypadkiem?.m4a */,
-				E2E8C63D2B1A124300C37F6A /* A Pan Chce Tylko Żyć.m4a */,
-				E2E8C62C2B1A124100C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Musi Być Zniszczona.m4a */,
-				E2E8C6082B1A123E00C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Powinna Być Zniszczona.m4a */,
-				E2E8C62F2B1A124100C37F6A /* A Was Sie Uczy Przezorny Zawsze Ubezpieczony.m4a */,
-				E2E8C62D2B1A124100C37F6A /* Afrykańskie Szambo.m4a */,
-				E2E8C64C2B1A124400C37F6A /* Ale Mnie Uczono Kto Nie Ryzykuje Ten Nie Je.m4a */,
-				E2E8C6182B1A124000C37F6A /* Ale Nie Więcej.m4a */,
-				E2E8C6142B1A123F00C37F6A /* Ale to Jest Nie Do Przyjęcia.m4a */,
-				E2E8C6322B1A124200C37F6A /* Ależ Jest to Nieprawda.m4a */,
-				E2E8C61E2B1A124000C37F6A /* Bo Widzi Pan.m4a */,
-				E2E8C6442B1A124300C37F6A /* Celem Życia Nie Jest Dobrze Sie Nażreć, Celem Życia Nie Jest Bezpieczeństwo.m4a */,
-				E2E8C62B2B1A124100C37F6A /* Celem Życia Nie Jest Przeżycie.m4a */,
-				E2E8C61D2B1A124000C37F6A /* Ciocia Robiła Paróweczki.m4a */,
-				E2E8C60C2B1A123F00C37F6A /* Czy Można?.m4a */,
-				E2E8C6582B1A124500C37F6A /* Demokracją Pogardzam.m4a */,
-				E2E8C6192B1A124000C37F6A /* Demokracja to Tyrania Większości.m4a */,
-				E2E8C63C2B1A124300C37F6A /* Demokracji Nienawidzę.m4a */,
-				E2E8C6342B1A124200C37F6A /* Dlaczego?.m4a */,
-				E2E8C6372B1A124200C37F6A /* Dobrze.m4a */,
-				E2E8C63F2B1A124300C37F6A /* Dwie Tony Złota W Piwnicy.m4a */,
-				E2E8C64B2B1A124400C37F6A /* Dziecko Kosztuje Okolo 25 Tys Dolarów.m4a */,
-				E2E8C62E2B1A124100C37F6A /* Dziękuję Za Uwagę.m4a */,
-				E2E8C63E2B1A124300C37F6A /* Dziękuję.m4a */,
-				E2E8C60D2B1A123F00C37F6A /* Dzisiaj to Jest Niemozliwe, Nie Z Powodu Żadnej Korporacji.m4a */,
-				E2E8C61F2B1A124000C37F6A /* Dzisiaj to Jest Niemozliwe.m4a */,
-				E2E8C64E2B1A124400C37F6A /* Dzisiejszy Ustrój Uniemozliwia Ludziom.m4a */,
-				E2E8C61B2B1A124000C37F6A /* Eeee.m4a */,
-				E2E8C6462B1A124300C37F6A /* Ekh.m4a */,
-				E2E8C6242B1A124000C37F6A /* Hy Hy.m4a */,
-				E2E8C61A2B1A124000C37F6A /* I Pan Sobie Żre I Żyje Dalej.m4a */,
-				E2E8C6152B1A123F00C37F6A /* I Za Miesiąc Miał Już Firme, Która Sprzedawała Paróweczki Na Ulicy.m4a */,
-				E2E8C6272B1A124100C37F6A /* I Za to Walczą I Umierają.m4a */,
-				E2E8C64D2B1A124400C37F6A /* I Zmusić Ich Po Prostu Do Pracy.m4a */,
-				E2E8C6302B1A124200C37F6A /* Istnieje Urząd.m4a */,
-				E2E8C6412B1A124300C37F6A /* Ja Mogę Powiedzieć Co by Się Działo Gdyby Polska Była Kraje Kapitalistycznym.m4a */,
-				E2E8C6282B1A124100C37F6A /* Ja Nie Jeste Wyprowadzony Z Równowagi, Proszę Pana.m4a */,
-				E2E8C6432B1A124300C37F6A /* Ja Nie Jestem Demokratą.m4a */,
-				E2E8C6132B1A123F00C37F6A /* Ja Nie Używam Tego Słowa Na G, Bo Mi Się z Kojarzy.m4a */,
-				E2E8C6592B1A124500C37F6A /* Ja Obrażam Ludzi Starszych?.m4a */,
-				E2E8C60A2B1A123E00C37F6A /* Ja Podam Przykład Drastyczny.m4a */,
-				E2E8C60E2B1A123F00C37F6A /* Ja Się Z Tym Zgadzam.m4a */,
-				E2E8C6052B1A123E00C37F6A /* Jak Powiedział Wybitny Krakowianin.m4a */,
-				E2E8C64A2B1A124400C37F6A /* Jest to Absurdalna Polityka.m4a */,
-				E2E8C6092B1A123E00C37F6A /* Korupcja, Złodziejstwo, Pogarda.m4a */,
-				E2E8C61C2B1A124000C37F6A /* Ludzie Mają Swoje Cele, Swoje Ambicję, Mają Swoje Ideały.m4a */,
-				E2E8C6292B1A124100C37F6A /* Mnie Uczono.m4a */,
-				E2E8C6262B1A124100C37F6A /* Na Dnie Oceanu W Rowie Mariańskim Są Rurkowce.m4a */,
-				E2E8C65A2B1A124500C37F6A /* Najlepszym Nauczycielem Jest Przykład.m4a */,
-				E2E8C6332B1A124200C37F6A /* Nic Nie Uczy Tak Rozumu Jak Głód.m4a */,
-				E2E8C6512B1A124400C37F6A /* Nie Było Islandii Popatrz Pan.m4a */,
-				E2E8C6162B1A123F00C37F6A /* Nie Mówmy O Tym.m4a */,
-				E2E8C6112B1A123F00C37F6A /* Nie No Żarty Śmieszne.m4a */,
-				E2E8C6102B1A123F00C37F6A /* Nie to Jest Tak Śmieszne.m4a */,
-				E2E8C6542B1A124400C37F6A /* Nie, No Bo Co to Dziecko Jest Winne.m4a */,
-				E2E8C6312B1A124200C37F6A /* One Żyją Sobie Całkowicie Bezpiecznie Od Milionów Lat.m4a */,
-				E2E8C60F2B1A123F00C37F6A /* Otoż Ymmm.m4a */,
-				E2E8C64F2B1A124400C37F6A /* Po Polsku Mówie A Nie Po Angielsku.m4a */,
-				E2E8C6402B1A124300C37F6A /* Podatek Dochodowy Należy Zlikwidować.m4a */,
-				E2E8C6422B1A124300C37F6A /* Powiedzieć, Że Się Odda Rodzinie Za Te 25 Tys.m4a */,
-				E2E8C62A2B1A124100C37F6A /* Prawda I.m4a */,
-				E2E8C6492B1A124300C37F6A /* Proszem Pana.m4a */,
-				E2E8C6452B1A124300C37F6A /* Przepraszam Bardzo, Dosyć Tego!.m4a */,
-				E2E8C6252B1A124000C37F6A /* Stanisław Lem.m4a */,
-				E2E8C6502B1A124400C37F6A /* Starszych?.m4a */,
-				E2E8C6352B1A124200C37F6A /* Tfu.m4a */,
-				E2E8C6362B1A124200C37F6A /* Tłumienie Wolności Słowa, Czego Osobiście Doświadczam.m4a */,
-				E2E8C6572B1A124500C37F6A /* To Ja Nie Będę Zastępować Pańskich Nauczycieli.m4a */,
-				E2E8C6222B1A124000C37F6A /* To Jest Niedopuszczalne.m4a */,
-				E2E8C6382B1A124200C37F6A /* To Jest Oczywiste.m4a */,
-				E2E8C6122B1A123F00C37F6A /* To Jest Takie Pieszczotliwe Określenie.m4a */,
-				E2E8C6522B1A124400C37F6A /* To My Powinniśmy Uczyć Się Od Chin, A Nie Chińczycy Od Nas!.m4a */,
-				E2E8C6472B1A124300C37F6A /* Trza Dziecko Urodzić.m4a */,
-				E2E8C6392B1A124200C37F6A /* Trzeba Dziecko Sprzedać.m4a */,
-				E2E8C6202B1A124000C37F6A /* Tylko Dlatego, Że.m4a */,
-				E2E8C6482B1A124300C37F6A /* Usiłowałem Podkreślić Dobitnie.m4a */,
-				E2E8C6212B1A124000C37F6A /* W Tej Chwili.m4a */,
-				E2E8C63B2B1A124300C37F6A /* W Tej Pierwszej Się Bardziej Boją O Swoje Życie, Ale Oni Zwyciężają.m4a */,
-				E2E8C6062B1A123E00C37F6A /* Wolny Rynek Jest.m4a */,
-				E2E8C6072B1A123E00C37F6A /* Z Których Jedna Wygrywa Wojnę, A Druga Siedzi W Pieleszach.m4a */,
-				E2E8C6532B1A124400C37F6A /* Z Pośród Dwóch Armi.m4a */,
-				E2E8C6552B1A124400C37F6A /* Za Komuny to Było.m4a */,
-				E2E8C6232B1A124000C37F6A /* Zabrane Przez Was Emerytury.m4a */,
-				E2E8C60B2B1A123F00C37F6A /* Zabrano Tym Ludziom, Okradziono Z Ich Pieniędzy.m4a */,
-				E2E8C63A2B1A124200C37F6A /* Że Mnie Brzydzą Tego Typu Poglądy.m4a */,
-				E2E8C6562B1A124400C37F6A /* Że Najważniejsze Jest Się Dobrze Nażreć.m4a */,
+				E2D9226F2B1A1CD000A9CCBB /* A nie było islandii przypadkiem?.m4a */,
+				E2D9223C2B1A1CCD00A9CCBB /* A pan chce tylko żyć.m4a */,
+				E2D922542B1A1CCF00A9CCBB /* A poza tym sądzę, że unia europejska musi być zniszczona.m4a */,
+				E2D9223B2B1A1CCD00A9CCBB /* A poza tym sądzę, że unia europejska powinna być zniszczona.m4a */,
+				E2D9225F2B1A1CCF00A9CCBB /* A was sie uczy przezorny zawsze ubezpieczony.m4a */,
+				E2D922772B1A1CD100A9CCBB /* Afrykańskie szambo.m4a */,
+				E2D922422B1A1CCE00A9CCBB /* Ale mnie uczono kto nie ryzykuje ten nie je.m4a */,
+				E2D922622B1A1CD000A9CCBB /* Ale nie więcej.m4a */,
+				E2D9223F2B1A1CCE00A9CCBB /* Ale to jest nie do przyjęcia.m4a */,
+				E2D9225E2B1A1CCF00A9CCBB /* Ależ jest to nieprawda.m4a */,
+				E2D9222E2B1A1CCC00A9CCBB /* Bo widzi pan.m4a */,
+				E2D9225A2B1A1CCF00A9CCBB /* Celem życia nie jest dobrze sie nażreć, celem życia nie jest bezpieczeństwo.m4a */,
+				E2D922372B1A1CCD00A9CCBB /* Celem życia nie jest przeżycie.m4a */,
+				E2D9226C2B1A1CD000A9CCBB /* Ciocia robiła paróweczki.m4a */,
+				E2D922702B1A1CD100A9CCBB /* Czy można?.m4a */,
+				E2D9223D2B1A1CCD00A9CCBB /* Demokracją pogardzam.m4a */,
+				E2D922532B1A1CCF00A9CCBB /* Demokracja to tyrania większości.m4a */,
+				E2D922492B1A1CCE00A9CCBB /* Demokracji nienawidzę.m4a */,
+				E2D922712B1A1CD100A9CCBB /* Dlaczego?.m4a */,
+				E2D9224B2B1A1CCE00A9CCBB /* Dobrze.m4a */,
+				E2D922392B1A1CCD00A9CCBB /* Dwie tony złota w piwnicy.m4a */,
+				E2D922302B1A1CCD00A9CCBB /* Dziecko kosztuje okolo 25 tys dolarów.m4a */,
+				E2D922722B1A1CD100A9CCBB /* Dziękuję za uwagę.m4a */,
+				E2D922552B1A1CCF00A9CCBB /* Dziękuję.m4a */,
+				E2D922632B1A1CD000A9CCBB /* Dzisiaj to jest niemozliwe, nie z powodu żadnej korporacji.m4a */,
+				E2D9226E2B1A1CD000A9CCBB /* Dzisiaj to jest niemozliwe.m4a */,
+				E2D922592B1A1CCF00A9CCBB /* Dzisiejszy ustrój uniemozliwia ludziom.m4a */,
+				E2D922512B1A1CCF00A9CCBB /* Eeee.m4a */,
+				E2D922362B1A1CCD00A9CCBB /* Ekh.m4a */,
+				E2D922602B1A1CD000A9CCBB /* Hy hy.m4a */,
+				E2D922662B1A1CD000A9CCBB /* I pan sobie żre i żyje dalej.m4a */,
+				E2D922292B1A1CCC00A9CCBB /* I za miesiąc miał już firme, która sprzedawała paróweczki na ulicy.m4a */,
+				E2D922742B1A1CD100A9CCBB /* I za to walczą i umierają.m4a */,
+				E2D922682B1A1CD000A9CCBB /* I zmusić ich po prostu do pracy.m4a */,
+				E2D922312B1A1CCD00A9CCBB /* Istnieje urząd.m4a */,
+				E2D922342B1A1CCD00A9CCBB /* Ja mogę powiedzieć co by się działo gdyby polska była kraje kapitalistycznym.m4a */,
+				E2D9224F2B1A1CCF00A9CCBB /* Ja nie jeste wyprowadzony z równowagi, proszę pana.m4a */,
+				E2D9222D2B1A1CCC00A9CCBB /* Ja nie jestem demokratą.m4a */,
+				E2D922402B1A1CCE00A9CCBB /* Ja nie używam tego słowa na g, bo mi się z kojarzy.m4a */,
+				E2D9226D2B1A1CD000A9CCBB /* Ja obrażam ludzi starszych?.m4a */,
+				E2D922262B1A1CCC00A9CCBB /* Ja podam przykład drastyczny.m4a */,
+				E2D9222C2B1A1CCC00A9CCBB /* Ja się z tym zgadzam.m4a */,
+				E2D922452B1A1CCE00A9CCBB /* Jak powiedział wybitny krakowianin.m4a */,
+				E2D922282B1A1CCC00A9CCBB /* Jest to absurdalna polityka.m4a */,
+				E2D922652B1A1CD000A9CCBB /* Korupcja, złodziejstwo, pogarda.m4a */,
+				E2D922522B1A1CCF00A9CCBB /* Ludzie mają swoje cele, swoje ambicję, mają swoje ideały.m4a */,
+				E2D922672B1A1CD000A9CCBB /* Mnie uczono.m4a */,
+				E2D922332B1A1CCD00A9CCBB /* Na dnie oceanu w rowie mariańskim są rurkowce.m4a */,
+				E2D922642B1A1CD000A9CCBB /* Najlepszym nauczycielem jest przykład.m4a */,
+				E2D922612B1A1CD000A9CCBB /* Nic nie uczy tak rozumu jak głód.m4a */,
+				E2D9226B2B1A1CD000A9CCBB /* Nie było islandii popatrz pan.m4a */,
+				E2D922222B1A1CCC00A9CCBB /* Nie mówmy o tym.m4a */,
+				E2D9224A2B1A1CCE00A9CCBB /* Nie no żarty śmieszne.m4a */,
+				E2D9223E2B1A1CCD00A9CCBB /* Nie to jest tak śmieszne.m4a */,
+				E2D922562B1A1CCF00A9CCBB /* Nie, no bo co to dziecko jest winne.m4a */,
+				E2D9224E2B1A1CCE00A9CCBB /* One żyją sobie całkowicie bezpiecznie od milionów lat.m4a */,
+				E2D922232B1A1CCC00A9CCBB /* Otoż ymmm.m4a */,
+				E2D9222A2B1A1CCC00A9CCBB /* Po polsku mówie a nie po angielsku.m4a */,
+				E2D9224D2B1A1CCE00A9CCBB /* Podatek dochodowy należy zlikwidować.m4a */,
+				E2D9224C2B1A1CCE00A9CCBB /* Powiedzieć, że się odda rodzinie za te 25 tys.m4a */,
+				E2D922572B1A1CCF00A9CCBB /* Prawda i.m4a */,
+				E2D922412B1A1CCE00A9CCBB /* Proszem pana.m4a */,
+				E2D922432B1A1CCE00A9CCBB /* Przepraszam bardzo, dosyć tego!.m4a */,
+				E2D922482B1A1CCE00A9CCBB /* Stanisław lem.m4a */,
+				E2D9226A2B1A1CD000A9CCBB /* Starszych?.m4a */,
+				E2D922322B1A1CCD00A9CCBB /* Tfu.m4a */,
+				E2D922442B1A1CCE00A9CCBB /* Tłumienie wolności słowa, czego osobiście doświadczam.m4a */,
+				E2D922272B1A1CCC00A9CCBB /* To ja nie będę zastępować pańskich nauczycieli.m4a */,
+				E2D9223A2B1A1CCD00A9CCBB /* To jest niedopuszczalne.m4a */,
+				E2D922582B1A1CCF00A9CCBB /* To jest oczywiste.m4a */,
+				E2D922692B1A1CD000A9CCBB /* To jest takie pieszczotliwe określenie.m4a */,
+				E2D922382B1A1CCD00A9CCBB /* To my powinniśmy uczyć się od chin, a nie chińczycy od nas!.m4a */,
+				E2D9225B2B1A1CCF00A9CCBB /* Trza dziecko urodzić.m4a */,
+				E2D922352B1A1CCD00A9CCBB /* Trzeba dziecko sprzedać.m4a */,
+				E2D922502B1A1CCF00A9CCBB /* Tylko dlatego, że.m4a */,
+				E2D9222F2B1A1CCD00A9CCBB /* Usiłowałem podkreślić dobitnie.m4a */,
+				E2D922462B1A1CCE00A9CCBB /* W tej chwili.m4a */,
+				E2D922732B1A1CD100A9CCBB /* W tej pierwszej się bardziej boją o swoje życie, ale oni zwyciężają.m4a */,
+				E2D9222B2B1A1CCC00A9CCBB /* Wolny rynek jest.m4a */,
+				E2D922752B1A1CD100A9CCBB /* Z których jedna wygrywa wojnę, a druga siedzi w pieleszach.m4a */,
+				E2D922242B1A1CCC00A9CCBB /* Z pośród dwóch armi.m4a */,
+				E2D922472B1A1CCE00A9CCBB /* Za komuny to było.m4a */,
+				E2D922762B1A1CD100A9CCBB /* Zabrane przez was emerytury.m4a */,
+				E2D9225C2B1A1CCF00A9CCBB /* Zabrano tym ludziom, okradziono z ich pieniędzy.m4a */,
+				E2D9225D2B1A1CCF00A9CCBB /* Że mnie brzydzą tego typu poglądy.m4a */,
+				E2D922252B1A1CCC00A9CCBB /* Że najważniejsze jest się dobrze nażreć.m4a */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -6106,94 +6106,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2E8C6682B1A124500C37F6A /* To Jest Takie Pieszczotliwe Określenie.m4a in Resources */,
-				E2E8C6922B1A124500C37F6A /* Demokracji Nienawidzę.m4a in Resources */,
-				E2E8C6612B1A124500C37F6A /* Zabrano Tym Ludziom, Okradziono Z Ich Pieniędzy.m4a in Resources */,
-				E2E8C6882B1A124500C37F6A /* Ależ Jest to Nieprawda.m4a in Resources */,
-				E2E8C68E2B1A124500C37F6A /* To Jest Oczywiste.m4a in Resources */,
-				E2E8C6782B1A124500C37F6A /* To Jest Niedopuszczalne.m4a in Resources */,
-				E2E8C6832B1A124500C37F6A /* Afrykańskie Szambo.m4a in Resources */,
-				E2E8C66A2B1A124500C37F6A /* Ale to Jest Nie Do Przyjęcia.m4a in Resources */,
-				E2E8C6802B1A124500C37F6A /* Prawda I.m4a in Resources */,
-				E2E8C6AE2B1A124500C37F6A /* Demokracją Pogardzam.m4a in Resources */,
-				E2E8C6672B1A124500C37F6A /* Nie No Żarty Śmieszne.m4a in Resources */,
-				E2E8C65F2B1A124500C37F6A /* Korupcja, Złodziejstwo, Pogarda.m4a in Resources */,
-				E2E8C6B02B1A124500C37F6A /* Najlepszym Nauczycielem Jest Przykład.m4a in Resources */,
-				E2E8C68A2B1A124500C37F6A /* Dlaczego?.m4a in Resources */,
-				E2E8C65C2B1A124500C37F6A /* Wolny Rynek Jest.m4a in Resources */,
-				E2E8C6892B1A124500C37F6A /* Nic Nie Uczy Tak Rozumu Jak Głód.m4a in Resources */,
-				E2E8C6702B1A124500C37F6A /* I Pan Sobie Żre I Żyje Dalej.m4a in Resources */,
-				E2E8C69C2B1A124500C37F6A /* Ekh.m4a in Resources */,
-				E2E8C65E2B1A124500C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Powinna Być Zniszczona.m4a in Resources */,
-				E2E8C6822B1A124500C37F6A /* A Poza Tym Sądzę, Że Unia Europejska Musi Być Zniszczona.m4a in Resources */,
-				E2E8C6852B1A124500C37F6A /* A Was Sie Uczy Przezorny Zawsze Ubezpieczony.m4a in Resources */,
-				E2E8C67C2B1A124500C37F6A /* Na Dnie Oceanu W Rowie Mariańskim Są Rurkowce.m4a in Resources */,
-				E2E8C68D2B1A124500C37F6A /* Dobrze.m4a in Resources */,
-				E2E8C6812B1A124500C37F6A /* Celem Życia Nie Jest Przeżycie.m4a in Resources */,
-				E2E8C6632B1A124500C37F6A /* Dzisiaj to Jest Niemozliwe, Nie Z Powodu Żadnej Korporacji.m4a in Resources */,
-				E2E8C6AB2B1A124500C37F6A /* Za Komuny to Było.m4a in Resources */,
-				E2E8C6A52B1A124500C37F6A /* Po Polsku Mówie A Nie Po Angielsku.m4a in Resources */,
-				E2E8C6AF2B1A124500C37F6A /* Ja Obrażam Ludzi Starszych?.m4a in Resources */,
-				E2E8C6A62B1A124500C37F6A /* Starszych?.m4a in Resources */,
-				E2E8C6712B1A124500C37F6A /* Eeee.m4a in Resources */,
-				E2E8C6982B1A124500C37F6A /* Powiedzieć, Że Się Odda Rodzinie Za Te 25 Tys.m4a in Resources */,
-				E2E8C6A42B1A124500C37F6A /* Dzisiejszy Ustrój Uniemozliwia Ludziom.m4a in Resources */,
-				E2E8C67E2B1A124500C37F6A /* Ja Nie Jeste Wyprowadzony Z Równowagi, Proszę Pana.m4a in Resources */,
-				E2E8C66F2B1A124500C37F6A /* Demokracja to Tyrania Większości.m4a in Resources */,
-				E2E8C6762B1A124500C37F6A /* Tylko Dlatego, Że.m4a in Resources */,
-				E2E8C6742B1A124500C37F6A /* Bo Widzi Pan.m4a in Resources */,
-				E2E8C6AA2B1A124500C37F6A /* Nie, No Bo Co to Dziecko Jest Winne.m4a in Resources */,
-				E2E8C6652B1A124500C37F6A /* Otoż Ymmm.m4a in Resources */,
-				E2E8C6872B1A124500C37F6A /* One Żyją Sobie Całkowicie Bezpiecznie Od Milionów Lat.m4a in Resources */,
-				E2E8C6A92B1A124500C37F6A /* Z Pośród Dwóch Armi.m4a in Resources */,
-				E2E8C6692B1A124500C37F6A /* Ja Nie Używam Tego Słowa Na G, Bo Mi Się z Kojarzy.m4a in Resources */,
-				E2E8C6A82B1A124500C37F6A /* To My Powinniśmy Uczyć Się Od Chin, A Nie Chińczycy Od Nas!.m4a in Resources */,
-				E2E8C66B2B1A124500C37F6A /* I Za Miesiąc Miał Już Firme, Która Sprzedawała Paróweczki Na Ulicy.m4a in Resources */,
-				E2E8C6AD2B1A124500C37F6A /* To Ja Nie Będę Zastępować Pańskich Nauczycieli.m4a in Resources */,
-				E2E8C6902B1A124500C37F6A /* Że Mnie Brzydzą Tego Typu Poglądy.m4a in Resources */,
-				E2E8C6862B1A124500C37F6A /* Istnieje Urząd.m4a in Resources */,
-				E2E8C6942B1A124500C37F6A /* Dziękuję.m4a in Resources */,
-				E2E8C6A72B1A124500C37F6A /* Nie Było Islandii Popatrz Pan.m4a in Resources */,
-				E2E8C6A32B1A124500C37F6A /* I Zmusić Ich Po Prostu Do Pracy.m4a in Resources */,
-				E2E8C68C2B1A124500C37F6A /* Tłumienie Wolności Słowa, Czego Osobiście Doświadczam.m4a in Resources */,
-				E2E8C6842B1A124500C37F6A /* Dziękuję Za Uwagę.m4a in Resources */,
+				E2D9229B2B1A1CD100A9CCBB /* Jak powiedział wybitny krakowianin.m4a in Resources */,
+				E2D922A32B1A1CD100A9CCBB /* Podatek dochodowy należy zlikwidować.m4a in Resources */,
+				E2D922BA2B1A1CD100A9CCBB /* Najlepszym nauczycielem jest przykład.m4a in Resources */,
+				E2D922C42B1A1CD100A9CCBB /* Dzisiaj to jest niemozliwe.m4a in Resources */,
+				E2D922B62B1A1CD100A9CCBB /* Hy hy.m4a in Resources */,
 				E2FAA9CC2B0CE3AE00C7E393 /* Preview Assets.xcassets in Resources */,
-				E2E8C6A22B1A124500C37F6A /* Ale Mnie Uczono Kto Nie Ryzykuje Ten Nie Je.m4a in Resources */,
-				E2E8C66E2B1A124500C37F6A /* Ale Nie Więcej.m4a in Resources */,
-				E2E8C6602B1A124500C37F6A /* Ja Podam Przykład Drastyczny.m4a in Resources */,
-				E2E8C68F2B1A124500C37F6A /* Trzeba Dziecko Sprzedać.m4a in Resources */,
-				E2E8C6932B1A124500C37F6A /* A Pan Chce Tylko Żyć.m4a in Resources */,
-				E2E8C6622B1A124500C37F6A /* Czy Można?.m4a in Resources */,
-				E2E8C69A2B1A124500C37F6A /* Celem Życia Nie Jest Dobrze Sie Nażreć, Celem Życia Nie Jest Bezpieczeństwo.m4a in Resources */,
-				E2E8C6772B1A124500C37F6A /* W Tej Chwili.m4a in Resources */,
-				E2E8C6662B1A124500C37F6A /* Nie to Jest Tak Śmieszne.m4a in Resources */,
-				E2E8C69B2B1A124500C37F6A /* Przepraszam Bardzo, Dosyć Tego!.m4a in Resources */,
-				E2E8C67A2B1A124500C37F6A /* Hy Hy.m4a in Resources */,
-				E2E8C65B2B1A124500C37F6A /* Jak Powiedział Wybitny Krakowianin.m4a in Resources */,
-				E2E8C6AC2B1A124500C37F6A /* Że Najważniejsze Jest Się Dobrze Nażreć.m4a in Resources */,
-				E2E8C6A02B1A124500C37F6A /* Jest to Absurdalna Polityka.m4a in Resources */,
-				E2E8C6792B1A124500C37F6A /* Zabrane Przez Was Emerytury.m4a in Resources */,
-				E2E8C67B2B1A124500C37F6A /* Stanisław Lem.m4a in Resources */,
-				E2E8C6722B1A124500C37F6A /* Ludzie Mają Swoje Cele, Swoje Ambicję, Mają Swoje Ideały.m4a in Resources */,
-				E2E8C65D2B1A124500C37F6A /* Z Których Jedna Wygrywa Wojnę, A Druga Siedzi W Pieleszach.m4a in Resources */,
+				E2D922CB2B1A1CD100A9CCBB /* Z których jedna wygrywa wojnę, a druga siedzi w pieleszach.m4a in Resources */,
+				E2D922892B1A1CD100A9CCBB /* Na dnie oceanu w rowie mariańskim są rurkowce.m4a in Resources */,
+				E2D922C22B1A1CD100A9CCBB /* Ciocia robiła paróweczki.m4a in Resources */,
+				E2D9228B2B1A1CD100A9CCBB /* Trzeba dziecko sprzedać.m4a in Resources */,
+				E2D922C52B1A1CD100A9CCBB /* A nie było islandii przypadkiem?.m4a in Resources */,
+				E2D922BC2B1A1CD100A9CCBB /* I pan sobie żre i żyje dalej.m4a in Resources */,
+				E2D922842B1A1CD100A9CCBB /* Bo widzi pan.m4a in Resources */,
+				E2D922B52B1A1CD100A9CCBB /* A was sie uczy przezorny zawsze ubezpieczony.m4a in Resources */,
+				E2D922A52B1A1CD100A9CCBB /* Ja nie jeste wyprowadzony z równowagi, proszę pana.m4a in Resources */,
+				E2D922852B1A1CD100A9CCBB /* Usiłowałem podkreślić dobitnie.m4a in Resources */,
+				E2D922B42B1A1CD100A9CCBB /* Ależ jest to nieprawda.m4a in Resources */,
+				E2D922C92B1A1CD100A9CCBB /* W tej pierwszej się bardziej boją o swoje życie, ale oni zwyciężają.m4a in Resources */,
+				E2D922932B1A1CD100A9CCBB /* Demokracją pogardzam.m4a in Resources */,
+				E2D922AB2B1A1CD100A9CCBB /* Dziękuję.m4a in Resources */,
+				E2D922792B1A1CD100A9CCBB /* Otoż ymmm.m4a in Resources */,
+				E2D922902B1A1CD100A9CCBB /* To jest niedopuszczalne.m4a in Resources */,
+				E2D922AD2B1A1CD100A9CCBB /* Prawda i.m4a in Resources */,
+				E2D922912B1A1CD100A9CCBB /* A poza tym sądzę, że unia europejska powinna być zniszczona.m4a in Resources */,
+				E2D922AA2B1A1CD100A9CCBB /* A poza tym sądzę, że unia europejska musi być zniszczona.m4a in Resources */,
+				E2D9229C2B1A1CD100A9CCBB /* W tej chwili.m4a in Resources */,
+				E2D922BB2B1A1CD100A9CCBB /* Korupcja, złodziejstwo, pogarda.m4a in Resources */,
+				E2D922AE2B1A1CD100A9CCBB /* To jest oczywiste.m4a in Resources */,
+				E2D9229F2B1A1CD100A9CCBB /* Demokracji nienawidzę.m4a in Resources */,
+				E2D922AC2B1A1CD100A9CCBB /* Nie, no bo co to dziecko jest winne.m4a in Resources */,
+				E2D922A42B1A1CD100A9CCBB /* One żyją sobie całkowicie bezpiecznie od milionów lat.m4a in Resources */,
+				E2D9227B2B1A1CD100A9CCBB /* Że najważniejsze jest się dobrze nażreć.m4a in Resources */,
+				E2D922C12B1A1CD100A9CCBB /* Nie było islandii popatrz pan.m4a in Resources */,
+				E2D9229A2B1A1CD100A9CCBB /* Tłumienie wolności słowa, czego osobiście doświadczam.m4a in Resources */,
+				E2D922AF2B1A1CD100A9CCBB /* Dzisiejszy ustrój uniemozliwia ludziom.m4a in Resources */,
+				E2D922782B1A1CD100A9CCBB /* Nie mówmy o tym.m4a in Resources */,
+				E2D922A92B1A1CD100A9CCBB /* Demokracja to tyrania większości.m4a in Resources */,
+				E2D922812B1A1CD100A9CCBB /* Wolny rynek jest.m4a in Resources */,
+				E2D922952B1A1CD100A9CCBB /* Ale to jest nie do przyjęcia.m4a in Resources */,
+				E2D9227F2B1A1CD100A9CCBB /* I za miesiąc miał już firme, która sprzedawała paróweczki na ulicy.m4a in Resources */,
+				E2D9228C2B1A1CD100A9CCBB /* Ekh.m4a in Resources */,
+				E2D9229D2B1A1CD100A9CCBB /* Za komuny to było.m4a in Resources */,
+				E2D922882B1A1CD100A9CCBB /* Tfu.m4a in Resources */,
+				E2D922992B1A1CD100A9CCBB /* Przepraszam bardzo, dosyć tego!.m4a in Resources */,
+				E2D922B32B1A1CD100A9CCBB /* Że mnie brzydzą tego typu poglądy.m4a in Resources */,
 				E2FAA9C92B0CE3AE00C7E393 /* Assets.xcassets in Resources */,
-				E2E8C6642B1A124500C37F6A /* Ja Się Z Tym Zgadzam.m4a in Resources */,
-				E2E8C6952B1A124500C37F6A /* Dwie Tony Złota W Piwnicy.m4a in Resources */,
-				E2E8C67F2B1A124500C37F6A /* Mnie Uczono.m4a in Resources */,
-				E2E8C6962B1A124500C37F6A /* Podatek Dochodowy Należy Zlikwidować.m4a in Resources */,
-				E2E8C6912B1A124500C37F6A /* W Tej Pierwszej Się Bardziej Boją O Swoje Życie, Ale Oni Zwyciężają.m4a in Resources */,
-				E2E8C6972B1A124500C37F6A /* Ja Mogę Powiedzieć Co by Się Działo Gdyby Polska Była Kraje Kapitalistycznym.m4a in Resources */,
-				E2E8C69F2B1A124500C37F6A /* Proszem Pana.m4a in Resources */,
-				E2E8C67D2B1A124500C37F6A /* I Za to Walczą I Umierają.m4a in Resources */,
-				E2E8C6752B1A124500C37F6A /* Dzisiaj to Jest Niemozliwe.m4a in Resources */,
-				E2E8C6A12B1A124500C37F6A /* Dziecko Kosztuje Okolo 25 Tys Dolarów.m4a in Resources */,
-				E2E8C6732B1A124500C37F6A /* Ciocia Robiła Paróweczki.m4a in Resources */,
-				E2E8C68B2B1A124500C37F6A /* Tfu.m4a in Resources */,
-				E2E8C66D2B1A124500C37F6A /* A Nie Było Islandii Przypadkiem?.m4a in Resources */,
-				E2E8C69E2B1A124500C37F6A /* Usiłowałem Podkreślić Dobitnie.m4a in Resources */,
-				E2E8C6992B1A124500C37F6A /* Ja Nie Jestem Demokratą.m4a in Resources */,
-				E2E8C66C2B1A124500C37F6A /* Nie Mówmy O Tym.m4a in Resources */,
-				E2E8C69D2B1A124500C37F6A /* Trza Dziecko Urodzić.m4a in Resources */,
+				E2D922C82B1A1CD100A9CCBB /* Dziękuję za uwagę.m4a in Resources */,
+				E2D922962B1A1CD100A9CCBB /* Ja nie używam tego słowa na g, bo mi się z kojarzy.m4a in Resources */,
+				E2D9228E2B1A1CD100A9CCBB /* To my powinniśmy uczyć się od chin, a nie chińczycy od nas!.m4a in Resources */,
+				E2D922A82B1A1CD100A9CCBB /* Ludzie mają swoje cele, swoje ambicję, mają swoje ideały.m4a in Resources */,
+				E2D922B12B1A1CD100A9CCBB /* Trza dziecko urodzić.m4a in Resources */,
+				E2D9228A2B1A1CD100A9CCBB /* Ja mogę powiedzieć co by się działo gdyby polska była kraje kapitalistycznym.m4a in Resources */,
+				E2D922862B1A1CD100A9CCBB /* Dziecko kosztuje okolo 25 tys dolarów.m4a in Resources */,
+				E2D922C62B1A1CD100A9CCBB /* Czy można?.m4a in Resources */,
+				E2D922BF2B1A1CD100A9CCBB /* To jest takie pieszczotliwe określenie.m4a in Resources */,
+				E2D922B82B1A1CD100A9CCBB /* Ale nie więcej.m4a in Resources */,
+				E2D9227D2B1A1CD100A9CCBB /* To ja nie będę zastępować pańskich nauczycieli.m4a in Resources */,
+				E2D922A62B1A1CD100A9CCBB /* Tylko dlatego, że.m4a in Resources */,
+				E2D922B72B1A1CD100A9CCBB /* Nic nie uczy tak rozumu jak głód.m4a in Resources */,
+				E2D9227E2B1A1CD100A9CCBB /* Jest to absurdalna polityka.m4a in Resources */,
+				E2D922C72B1A1CD100A9CCBB /* Dlaczego?.m4a in Resources */,
+				E2D922CC2B1A1CD100A9CCBB /* Zabrane przez was emerytury.m4a in Resources */,
+				E2D922CA2B1A1CD100A9CCBB /* I za to walczą i umierają.m4a in Resources */,
+				E2D922B92B1A1CD100A9CCBB /* Dzisiaj to jest niemozliwe, nie z powodu żadnej korporacji.m4a in Resources */,
+				E2D922A02B1A1CD100A9CCBB /* Nie no żarty śmieszne.m4a in Resources */,
+				E2D922BE2B1A1CD100A9CCBB /* I zmusić ich po prostu do pracy.m4a in Resources */,
+				E2D922A72B1A1CD100A9CCBB /* Eeee.m4a in Resources */,
+				E2D922C32B1A1CD100A9CCBB /* Ja obrażam ludzi starszych?.m4a in Resources */,
+				E2D922CD2B1A1CD100A9CCBB /* Afrykańskie szambo.m4a in Resources */,
+				E2D922BD2B1A1CD100A9CCBB /* Mnie uczono.m4a in Resources */,
+				E2D922942B1A1CD100A9CCBB /* Nie to jest tak śmieszne.m4a in Resources */,
+				E2D922B02B1A1CD100A9CCBB /* Celem życia nie jest dobrze sie nażreć, celem życia nie jest bezpieczeństwo.m4a in Resources */,
+				E2D9228F2B1A1CD100A9CCBB /* Dwie tony złota w piwnicy.m4a in Resources */,
+				E2D922872B1A1CD100A9CCBB /* Istnieje urząd.m4a in Resources */,
+				E2D922B22B1A1CD100A9CCBB /* Zabrano tym ludziom, okradziono z ich pieniędzy.m4a in Resources */,
+				E2D922982B1A1CD100A9CCBB /* Ale mnie uczono kto nie ryzykuje ten nie je.m4a in Resources */,
+				E2D922832B1A1CD100A9CCBB /* Ja nie jestem demokratą.m4a in Resources */,
+				E2D922A22B1A1CD100A9CCBB /* Powiedzieć, że się odda rodzinie za te 25 tys.m4a in Resources */,
+				E2D922922B1A1CD100A9CCBB /* A pan chce tylko żyć.m4a in Resources */,
+				E2D9229E2B1A1CD100A9CCBB /* Stanisław lem.m4a in Resources */,
+				E2D922972B1A1CD100A9CCBB /* Proszem pana.m4a in Resources */,
+				E2D922822B1A1CD100A9CCBB /* Ja się z tym zgadzam.m4a in Resources */,
+				E2D9227C2B1A1CD100A9CCBB /* Ja podam przykład drastyczny.m4a in Resources */,
+				E2D922A12B1A1CD100A9CCBB /* Dobrze.m4a in Resources */,
+				E2D9227A2B1A1CD100A9CCBB /* Z pośród dwóch armi.m4a in Resources */,
+				E2D922C02B1A1CD100A9CCBB /* Starszych?.m4a in Resources */,
+				E2D922802B1A1CD100A9CCBB /* Po polsku mówie a nie po angielsku.m4a in Resources */,
+				E2D9228D2B1A1CD100A9CCBB /* Celem życia nie jest przeżycie.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
