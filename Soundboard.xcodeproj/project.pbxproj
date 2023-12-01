@@ -11,6 +11,379 @@
 		E20575142B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
 		E20575152B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
 		E20575162B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
+		E22CC7512B1A24A7007C3B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7502B1A24A7007C3B30 /* Assets.xcassets */; };
+		E22CC7542B1A24A7007C3B30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7532B1A24A7007C3B30 /* Preview Assets.xcassets */; };
+		E22CC75B2B1A2708007C3B30 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E22CC75A2B1A2708007C3B30 /* Realm */; };
+		E22CC75D2B1A2708007C3B30 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E22CC75C2B1A2708007C3B30 /* RealmSwift */; };
+		E22CC75E2B1A29EC007C3B30 /* PathError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13F2AF6DD2400C8B73B /* PathError.swift */; };
+		E22CC75F2B1A29EC007C3B30 /* PathFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1402AF6DD2400C8B73B /* PathFinder.swift */; };
+		E22CC7602B1A29EC007C3B30 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
+		E22CC7612B1A29EC007C3B30 /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */; };
+		E22CC7622B1A29EC007C3B30 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
+		E22CC7632B1A29EC007C3B30 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
+		E22CC7642B1A29EC007C3B30 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
+		E22CC7652B1A29EC007C3B30 /* SoundboardSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardSearchView.swift */; };
+		E22CC7662B1A29EC007C3B30 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
+		E22CC7672B1A29EC007C3B30 /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E22CC7682B1A29EC007C3B30 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
+		E22CC7692B1A29EC007C3B30 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
+		E22CC76A2B1A29EC007C3B30 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
+		E22CC76B2B1A29EC007C3B30 /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
+		E22CC76C2B1A29EC007C3B30 /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
+		E22CC76D2B1A29EC007C3B30 /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
+		E22CC76E2B1A29EC007C3B30 /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
+		E22CC76F2B1A29EC007C3B30 /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
+		E22CC7702B1A29EC007C3B30 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
+		E22CC7712B1A29EE007C3B30 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
+		E22CC7732B1A2CF7007C3B30 /* I did not drink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7722B1A2CF7007C3B30 /* I did not drink.m4a */; };
+		E22CC8D52B1A3029007C3B30 /* Cameras in strange places.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7742B1A3013007C3B30 /* Cameras in strange places.m4a */; };
+		E22CC8D62B1A3029007C3B30 /* Country in trouble.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7752B1A3013007C3B30 /* Country in trouble.m4a */; };
+		E22CC8D72B1A3029007C3B30 /* Make america great again.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7762B1A3013007C3B30 /* Make america great again.m4a */; };
+		E22CC8D82B1A3029007C3B30 /* We re going to dream of things.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7772B1A3013007C3B30 /* We re going to dream of things.m4a */; };
+		E22CC8D92B1A3029007C3B30 /* Make usa safe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7782B1A3013007C3B30 /* Make usa safe.m4a */; };
+		E22CC8DA2B1A3029007C3B30 /* Wrong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7792B1A3014007C3B30 /* Wrong.m4a */; };
+		E22CC8DB2B1A3029007C3B30 /* Its time to remember.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC77A2B1A3014007C3B30 /* Its time to remember.m4a */; };
+		E22CC8DC2B1A3029007C3B30 /* Absolutely.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC77B2B1A3014007C3B30 /* Absolutely.m4a */; };
+		E22CC8DD2B1A3029007C3B30 /* Its a wall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC77C2B1A3014007C3B30 /* Its a wall.m4a */; };
+		E22CC8DE2B1A3029007C3B30 /* Dont beat china in trade.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC77D2B1A3014007C3B30 /* Dont beat china in trade.m4a */; };
+		E22CC8DF2B1A3029007C3B30 /* Factories closed.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC77E2B1A3014007C3B30 /* Factories closed.m4a */; };
+		E22CC8E02B1A3029007C3B30 /* They drink beer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC77F2B1A3014007C3B30 /* They drink beer.m4a */; };
+		E22CC8E12B1A3029007C3B30 /* Starting right here.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7802B1A3014007C3B30 /* Starting right here.m4a */; };
+		E22CC8E22B1A3029007C3B30 /* Our wonderful nation.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7812B1A3014007C3B30 /* Our wonderful nation.m4a */; };
+		E22CC8E32B1A3029007C3B30 /* Oh thats not good.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7822B1A3014007C3B30 /* Oh thats not good.m4a */; };
+		E22CC8E42B1A3029007C3B30 /* This was tuff.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7832B1A3014007C3B30 /* This was tuff.m4a */; };
+		E22CC8E52B1A3029007C3B30 /* We had a lot of talent.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7842B1A3014007C3B30 /* We had a lot of talent.m4a */; };
+		E22CC8E62B1A3029007C3B30 /* Were going to build a wall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7852B1A3014007C3B30 /* Were going to build a wall.m4a */; };
+		E22CC8E72B1A3029007C3B30 /* Greatest jobs producer god ever created.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7862B1A3014007C3B30 /* Greatest jobs producer god ever created.m4a */; };
+		E22CC8E82B1A3029007C3B30 /* It can happen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7872B1A3015007C3B30 /* It can happen.m4a */; };
+		E22CC8E92B1A3029007C3B30 /* Coronavirus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7882B1A3015007C3B30 /* Coronavirus.m4a */; };
+		E22CC8EA2B1A3029007C3B30 /* Hes fantastic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7892B1A3015007C3B30 /* Hes fantastic.m4a */; };
+		E22CC8EB2B1A3029007C3B30 /* It may get bigger.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC78A2B1A3015007C3B30 /* It may get bigger.m4a */; };
+		E22CC8EC2B1A3029007C3B30 /* Mexican gov.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC78B2B1A3015007C3B30 /* Mexican gov.m4a */; };
+		E22CC8ED2B1A3029007C3B30 /* The constitution.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC78C2B1A3015007C3B30 /* The constitution.m4a */; };
+		E22CC8EE2B1A3029007C3B30 /* They re too bright.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC78D2B1A3015007C3B30 /* They re too bright.m4a */; };
+		E22CC8EF2B1A3029007C3B30 /* Turn em off.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC78E2B1A3015007C3B30 /* Turn em off.m4a */; };
+		E22CC8F12B1A3029007C3B30 /* Who cares what they say.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7902B1A3015007C3B30 /* Who cares what they say.m4a */; };
+		E22CC8F22B1A3029007C3B30 /* Youre going to love winning.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7912B1A3015007C3B30 /* Youre going to love winning.m4a */; };
+		E22CC8F32B1A3029007C3B30 /* I ve never had alcohol.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7922B1A3015007C3B30 /* I ve never had alcohol.m4a */; };
+		E22CC8F42B1A3029007C3B30 /* The bible tells us.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7932B1A3015007C3B30 /* The bible tells us.m4a */; };
+		E22CC8F52B1A3029007C3B30 /* Love my life.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7942B1A3015007C3B30 /* Love my life.m4a */; };
+		E22CC8F62B1A3029007C3B30 /* The stamina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7952B1A3015007C3B30 /* The stamina.m4a */; };
+		E22CC8F72B1A3029007C3B30 /* They were in highschool.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7962B1A3015007C3B30 /* They were in highschool.m4a */; };
+		E22CC8F82B1A3029007C3B30 /* Nasty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7972B1A3015007C3B30 /* Nasty.m4a */; };
+		E22CC8F92B1A3029007C3B30 /* Classified.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7982B1A3016007C3B30 /* Classified.m4a */; };
+		E22CC8FA2B1A3029007C3B30 /* And i thank you.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7992B1A3016007C3B30 /* And i thank you.m4a */; };
+		E22CC8FB2B1A3029007C3B30 /* Kind of a megaphone.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC79A2B1A3016007C3B30 /* Kind of a megaphone.m4a */; };
+		E22CC8FC2B1A3029007C3B30 /* Get the job done.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC79B2B1A3016007C3B30 /* Get the job done.m4a */; };
+		E22CC8FD2B1A3029007C3B30 /* New vision govern land.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC79C2B1A3016007C3B30 /* New vision govern land.m4a */; };
+		E22CC8FE2B1A3029007C3B30 /* The mistories of space.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC79D2B1A3016007C3B30 /* The mistories of space.m4a */; };
+		E22CC8FF2B1A3029007C3B30 /* Great great relationships.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC79E2B1A3016007C3B30 /* Great great relationships.m4a */; };
+		E22CC9002B1A3029007C3B30 /* Bumbumbum.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC79F2B1A3016007C3B30 /* Bumbumbum.m4a */; };
+		E22CC9012B1A3029007C3B30 /* Fantastic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A02B1A3016007C3B30 /* Fantastic.m4a */; };
+		E22CC9022B1A3029007C3B30 /* This is a pendemic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A12B1A3016007C3B30 /* This is a pendemic.m4a */; };
+		E22CC9032B1A3029007C3B30 /* Totally prepared.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A22B1A3016007C3B30 /* Totally prepared.m4a */; };
+		E22CC9042B1A3029007C3B30 /* You are fake news.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A32B1A3016007C3B30 /* You are fake news.m4a */; };
+		E22CC9052B1A3029007C3B30 /* I love babies.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A42B1A3016007C3B30 /* I love babies.m4a */; };
+		E22CC9062B1A3029007C3B30 /* Mutch hacking going on.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A52B1A3016007C3B30 /* Mutch hacking going on.m4a */; };
+		E22CC9072B1A3029007C3B30 /* I had truly great parents.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A62B1A3016007C3B30 /* I had truly great parents.m4a */; };
+		E22CC9082B1A3029007C3B30 /* You need tremendous stamina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A72B1A3016007C3B30 /* You need tremendous stamina.m4a */; };
+		E22CC9092B1A3029007C3B30 /* Follow two simple rules.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A82B1A3016007C3B30 /* Follow two simple rules.m4a */; };
+		E22CC90A2B1A3029007C3B30 /* I will fight for you.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7A92B1A3017007C3B30 /* I will fight for you.m4a */; };
+		E22CC90B2B1A3029007C3B30 /* Im gonna work very hard on that.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7AA2B1A3017007C3B30 /* Im gonna work very hard on that.m4a */; };
+		E22CC90C2B1A3029007C3B30 /* Make usa great.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7AB2B1A3017007C3B30 /* Make usa great.m4a */; };
+		E22CC90D2B1A3029007C3B30 /* It will go away stay calm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7AC2B1A3017007C3B30 /* It will go away stay calm.m4a */; };
+		E22CC90E2B1A3029007C3B30 /* From this day forward.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7AD2B1A3017007C3B30 /* From this day forward.m4a */; };
+		E22CC90F2B1A3029007C3B30 /* I love our police.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7AE2B1A3017007C3B30 /* I love our police.m4a */; };
+		E22CC9102B1A3029007C3B30 /* Okay.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7AF2B1A3017007C3B30 /* Okay.m4a */; };
+		E22CC9112B1A3029007C3B30 /* In the history of stories.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B02B1A3017007C3B30 /* In the history of stories.m4a */; };
+		E22CC9122B1A3029007C3B30 /* China.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B12B1A3017007C3B30 /* China.m4a */; };
+		E22CC9132B1A3029007C3B30 /* American dream.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B22B1A3017007C3B30 /* American dream.m4a */; };
+		E22CC9142B1A3029007C3B30 /* First lady.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B32B1A3017007C3B30 /* First lady.m4a */; };
+		E22CC9152B1A3029007C3B30 /* Made lot of money.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B42B1A3017007C3B30 /* Made lot of money.m4a */; };
+		E22CC9162B1A3029007C3B30 /* I said she stamina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B52B1A3018007C3B30 /* I said she stamina.m4a */; };
+		E22CC9172B1A3029007C3B30 /* In great shape.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B62B1A3018007C3B30 /* In great shape.m4a */; };
+		E22CC9182B1A3029007C3B30 /* No victories.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B72B1A3018007C3B30 /* No victories.m4a */; };
+		E22CC9192B1A3029007C3B30 /* Ok.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B82B1A3018007C3B30 /* Ok.m4a */; };
+		E22CC91A2B1A3029007C3B30 /* Dont beat china.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7B92B1A3018007C3B30 /* Dont beat china.m4a */; };
+		E22CC91B2B1A3029007C3B30 /* Have to get going.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7BA2B1A3018007C3B30 /* Have to get going.m4a */; };
+		E22CC91C2B1A3029007C3B30 /* Great company.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7BB2B1A3018007C3B30 /* Great company.m4a */; };
+		E22CC91D2B1A3029007C3B30 /* Drug industry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7BC2B1A3018007C3B30 /* Drug industry.m4a */; };
+		E22CC91E2B1A3029007C3B30 /* One of my only good triaits.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7BD2B1A3018007C3B30 /* One of my only good triaits.m4a */; };
+		E22CC91F2B1A3029007C3B30 /* Ford.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7BE2B1A3018007C3B30 /* Ford.m4a */; };
+		E22CC9202B1A3029007C3B30 /* Thank you very much.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7BF2B1A3018007C3B30 /* Thank you very much.m4a */; };
+		E22CC9212B1A3029007C3B30 /* The hacking.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C02B1A3018007C3B30 /* The hacking.m4a */; };
+		E22CC9222B1A3029007C3B30 /* The secret service.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C12B1A3018007C3B30 /* The secret service.m4a */; };
+		E22CC9232B1A3029007C3B30 /* Very long and very hard.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C22B1A3018007C3B30 /* Very long and very hard.m4a */; };
+		E22CC9242B1A3029007C3B30 /* We will shine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C32B1A3018007C3B30 /* We will shine.m4a */; };
+		E22CC9252B1A3029007C3B30 /* Wonderful family.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C42B1A3018007C3B30 /* Wonderful family.m4a */; };
+		E22CC9262B1A3029007C3B30 /* Thank you darling.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C52B1A3018007C3B30 /* Thank you darling.m4a */; };
+		E22CC9272B1A3029007C3B30 /* Really rich.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C62B1A3018007C3B30 /* Really rich.m4a */; };
+		E22CC9282B1A3029007C3B30 /* I pay a lot of tax.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C72B1A3019007C3B30 /* I pay a lot of tax.m4a */; };
+		E22CC9292B1A3029007C3B30 /* Be very careful.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C82B1A3019007C3B30 /* Be very careful.m4a */; };
+		E22CC92A2B1A3029007C3B30 /* So help me god.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7C92B1A3019007C3B30 /* So help me god.m4a */; };
+		E22CC92B2B1A3029007C3B30 /* America is unstoppable.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7CA2B1A3019007C3B30 /* America is unstoppable.m4a */; };
+		E22CC92C2B1A3029007C3B30 /* Risk remains low.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7CB2B1A3019007C3B30 /* Risk remains low.m4a */; };
+		E22CC92D2B1A3029007C3B30 /* We have to do a great job.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7CC2B1A3019007C3B30 /* We have to do a great job.m4a */; };
+		E22CC92E2B1A3029007C3B30 /* Barak obama.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7CD2B1A3019007C3B30 /* Barak obama.m4a */; };
+		E22CC92F2B1A3029007C3B30 /* Make usa wealthy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7CE2B1A3019007C3B30 /* Make usa wealthy.m4a */; };
+		E22CC9302B1A3029007C3B30 /* Dont drink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7CF2B1A3019007C3B30 /* Dont drink.m4a */; };
+		E22CC9312B1A3029007C3B30 /* Tell stories.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D02B1A3019007C3B30 /* Tell stories.m4a */; };
+		E22CC9322B1A3029007C3B30 /* Number one tricky.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D12B1A3019007C3B30 /* Number one tricky.m4a */; };
+		E22CC9332B1A3029007C3B30 /* They tried to hack.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D22B1A3019007C3B30 /* They tried to hack.m4a */; };
+		E22CC9342B1A3029007C3B30 /* Fellow americans.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D32B1A3019007C3B30 /* Fellow americans.m4a */; };
+		E22CC9352B1A3029007C3B30 /* General.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D42B1A3019007C3B30 /* General.m4a */; };
+		E22CC9362B1A3029007C3B30 /* Open heart for patriotism.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D52B1A3019007C3B30 /* Open heart for patriotism.m4a */; };
+		E22CC9372B1A3029007C3B30 /* Built quickly.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D62B1A3019007C3B30 /* Built quickly.m4a */; };
+		E22CC9382B1A3029007C3B30 /* Saudi arabia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D72B1A3019007C3B30 /* Saudi arabia.m4a */; };
+		E22CC9392B1A3029007C3B30 /* Did you ask me a question.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D82B1A3019007C3B30 /* Did you ask me a question.m4a */; };
+		E22CC93A2B1A3029007C3B30 /* Im sorry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7D92B1A301A007C3B30 /* Im sorry.m4a */; };
+		E22CC93B2B1A3029007C3B30 /* Over the horizont.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7DA2B1A301A007C3B30 /* Over the horizont.m4a */; };
+		E22CC93C2B1A3029007C3B30 /* Drank a lot.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7DB2B1A301A007C3B30 /* Drank a lot.m4a */; };
+		E22CC93D2B1A3029007C3B30 /* Fiat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7DC2B1A301A007C3B30 /* Fiat.m4a */; };
+		E22CC93E2B1A3029007C3B30 /* We do not need.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7DD2B1A301A007C3B30 /* We do not need.m4a */; };
+		E22CC93F2B1A3029007C3B30 /* Every decision.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7DE2B1A301A007C3B30 /* Every decision.m4a */; };
+		E22CC9402B1A3029007C3B30 /* It did not happen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7DF2B1A301A007C3B30 /* It did not happen.m4a */; };
+		E22CC9412B1A3029007C3B30 /* We eat mc donalds.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E02B1A301A007C3B30 /* We eat mc donalds.m4a */; };
+		E22CC9422B1A3029007C3B30 /* Pretty good job weve done.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E12B1A301A007C3B30 /* Pretty good job weve done.m4a */; };
+		E22CC9432B1A3029007C3B30 /* What a great group.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E22B1A301A007C3B30 /* What a great group.m4a */; };
+		E22CC9442B1A3029007C3B30 /* They do not want me.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E32B1A301A007C3B30 /* They do not want me.m4a */; };
+		E22CC9452B1A3029007C3B30 /* Beat china.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E42B1A301A007C3B30 /* Beat china.m4a */; };
+		E22CC9462B1A3029007C3B30 /* Makes sense.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E52B1A301A007C3B30 /* Makes sense.m4a */; };
+		E22CC9472B1A3029007C3B30 /* Mexico.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E62B1A301A007C3B30 /* Mexico.m4a */; };
+		E22CC9482B1A3029007C3B30 /* Something else must be small.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E72B1A301A007C3B30 /* Something else must be small.m4a */; };
+		E22CC9492B1A3029007C3B30 /* Very complicated stuff.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E82B1A301A007C3B30 /* Very complicated stuff.m4a */; };
+		E22CC94A2B1A3029007C3B30 /* The forgotten men and women.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7E92B1A301A007C3B30 /* The forgotten men and women.m4a */; };
+		E22CC94B2B1A3029007C3B30 /* No coats.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7EA2B1A301B007C3B30 /* No coats.m4a */; };
+		E22CC94C2B1A3029007C3B30 /* Better.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7EB2B1A301B007C3B30 /* Better.m4a */; };
+		E22CC94D2B1A3029007C3B30 /* Running for president.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7EC2B1A301B007C3B30 /* Running for president.m4a */; };
+		E22CC94E2B1A3029007C3B30 /* Youll be fine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7ED2B1A301B007C3B30 /* Youll be fine.m4a */; };
+		E22CC94F2B1A3029007C3B30 /* Is over.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7EE2B1A301B007C3B30 /* Is over.m4a */; };
+		E22CC9502B1A3029007C3B30 /* All the time.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7EF2B1A301B007C3B30 /* All the time.m4a */; };
+		E22CC9512B1A3029007C3B30 /* Kay donnie don.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F02B1A301B007C3B30 /* Kay donnie don.m4a */; };
+		E22CC9522B1A3029007C3B30 /* Five houndred billion dollars.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F12B1A301B007C3B30 /* Five houndred billion dollars.m4a */; };
+		E22CC9532B1A3029007C3B30 /* It will disapear.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F22B1A301B007C3B30 /* It will disapear.m4a */; };
+		E22CC9542B1A3029007C3B30 /* Maybe the intelligence agencys.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F32B1A301B007C3B30 /* Maybe the intelligence agencys.m4a */; };
+		E22CC9552B1A3029007C3B30 /* Just and reasonable demands.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F42B1A301B007C3B30 /* Just and reasonable demands.m4a */; };
+		E22CC9562B1A3029007C3B30 /* Thats right.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F52B1A301B007C3B30 /* Thats right.m4a */; };
+		E22CC9572B1A3029007C3B30 /* Very little problem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F62B1A301B007C3B30 /* Very little problem.m4a */; };
+		E22CC9582B1A3029007C3B30 /* I know words.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F72B1A301B007C3B30 /* I know words.m4a */; };
+		E22CC9592B1A3029007C3B30 /* Gm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F82B1A301B007C3B30 /* Gm.m4a */; };
+		E22CC95A2B1A3029007C3B30 /* Greatest president.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7F92B1A301B007C3B30 /* Greatest president.m4a */; };
+		E22CC95B2B1A3029007C3B30 /* Does not exist.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7FA2B1A301B007C3B30 /* Does not exist.m4a */; };
+		E22CC95C2B1A3029007C3B30 /* I dont like that.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7FB2B1A301B007C3B30 /* I dont like that.m4a */; };
+		E22CC95D2B1A3029007C3B30 /* Never let you down.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7FC2B1A301B007C3B30 /* Never let you down.m4a */; };
+		E22CC95E2B1A3029007C3B30 /* No rume for predjudice.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7FD2B1A301C007C3B30 /* No rume for predjudice.m4a */; };
+		E22CC95F2B1A3029007C3B30 /* Germophob.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7FE2B1A301C007C3B30 /* Germophob.m4a */; };
+		E22CC9602B1A3029007C3B30 /* Dont know whats happening.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC7FF2B1A301C007C3B30 /* Dont know whats happening.m4a */; };
+		E22CC9612B1A3029007C3B30 /* President trump.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8002B1A301C007C3B30 /* President trump.m4a */; };
+		E22CC9622B1A3029007C3B30 /* Superstar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8012B1A301C007C3B30 /* Superstar.m4a */; };
+		E22CC9632B1A3029007C3B30 /* Left and right.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8022B1A301C007C3B30 /* Left and right.m4a */; };
+		E22CC9642B1A3029007C3B30 /* Politicians.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8032B1A301C007C3B30 /* Politicians.m4a */; };
+		E22CC9652B1A3029007C3B30 /* The biggest story.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8042B1A301C007C3B30 /* The biggest story.m4a */; };
+		E22CC9662B1A3029007C3B30 /* Very unusual.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8052B1A301C007C3B30 /* Very unusual.m4a */; };
+		E22CC9672B1A3029007C3B30 /* Its not a fence.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8062B1A301C007C3B30 /* Its not a fence.m4a */; };
+		E22CC9682B1A3029007C3B30 /* Are they small hands.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8072B1A301C007C3B30 /* Are they small hands.m4a */; };
+		E22CC9692B1A3029007C3B30 /* President putin and russia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8082B1A301C007C3B30 /* President putin and russia.m4a */; };
+		E22CC96A2B1A3029007C3B30 /* Its gonna be a beautiful thing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8092B1A301C007C3B30 /* Its gonna be a beautiful thing.m4a */; };
+		E22CC96B2B1A3029007C3B30 /* Cameras all over the place.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC80A2B1A301C007C3B30 /* Cameras all over the place.m4a */; };
+		E22CC96C2B1A3029007C3B30 /* Will not happen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC80B2B1A301C007C3B30 /* Will not happen.m4a */; };
+		E22CC96D2B1A3029007C3B30 /* It should not be done.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC80C2B1A301C007C3B30 /* It should not be done.m4a */; };
+		E22CC96E2B1A3029007C3B30 /* Melania.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC80D2B1A301C007C3B30 /* Melania.m4a */; };
+		E22CC96F2B1A3029007C3B30 /* Small loan of a million dollars.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC80E2B1A301C007C3B30 /* Small loan of a million dollars.m4a */; };
+		E22CC9702B1A3029007C3B30 /* Car factory.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC80F2B1A301D007C3B30 /* Car factory.m4a */; };
+		E22CC9712B1A3029007C3B30 /* That i will faithfully.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8102B1A301D007C3B30 /* That i will faithfully.m4a */; };
+		E22CC9722B1A3029007C3B30 /* Magnificant.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8112B1A301D007C3B30 /* Magnificant.m4a */; };
+		E22CC9732B1A3029007C3B30 /* Employ people.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8122B1A301D007C3B30 /* Employ people.m4a */; };
+		E22CC9742B1A3029007C3B30 /* Dream even bigger.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8132B1A301D007C3B30 /* Dream even bigger.m4a */; };
+		E22CC9752B1A3029007C3B30 /* Winning like never before.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8142B1A301D007C3B30 /* Winning like never before.m4a */; };
+		E22CC9762B1A3029007C3B30 /* Im a free trader.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8152B1A301D007C3B30 /* Im a free trader.m4a */; };
+		E22CC9772B1A3029007C3B30 /* Think big.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8162B1A301D007C3B30 /* Think big.m4a */; };
+		E22CC9782B1A3029007C3B30 /* And some i assume are good people.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8172B1A301D007C3B30 /* And some i assume are good people.m4a */; };
+		E22CC9792B1A3029007C3B30 /* Yes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8182B1A301D007C3B30 /* Yes.m4a */; };
+		E22CC97A2B1A3029007C3B30 /* Listen to this.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8192B1A301D007C3B30 /* Listen to this.m4a */; };
+		E22CC97B2B1A3029007C3B30 /* Chrysler.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC81A2B1A301D007C3B30 /* Chrysler.m4a */; };
+		E22CC97C2B1A3029007C3B30 /* Look at those numbers.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC81B2B1A301D007C3B30 /* Look at those numbers.m4a */; };
+		E22CC97D2B1A3029007C3B30 /* Sit down.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC81C2B1A301D007C3B30 /* Sit down.m4a */; };
+		E22CC97E2B1A3029007C3B30 /* Hacking is bad.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC81D2B1A301D007C3B30 /* Hacking is bad.m4a */; };
+		E22CC97F2B1A3029007C3B30 /* Probably china.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC81E2B1A301D007C3B30 /* Probably china.m4a */; };
+		E22CC9802B1A3029007C3B30 /* Is your country.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC81F2B1A301D007C3B30 /* Is your country.m4a */; };
+		E22CC9812B1A3029007C3B30 /* Stamina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8202B1A301D007C3B30 /* Stamina.m4a */; };
+		E22CC9822B1A3029007C3B30 /* I will be.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8212B1A301E007C3B30 /* I will be.m4a */; };
+		E22CC9832B1A3029007C3B30 /* All talk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8222B1A301E007C3B30 /* All talk.m4a */; };
+		E22CC9842B1A3029007C3B30 /* Dont take responsibility.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8232B1A301E007C3B30 /* Dont take responsibility.m4a */; };
+		E22CC9852B1A3029007C3B30 /* Nobody like me.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8242B1A301E007C3B30 /* Nobody like me.m4a */; };
+		E22CC9862B1A3029007C3B30 /* Ive always known.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8252B1A301E007C3B30 /* Ive always known.m4a */; };
+		E22CC9872B1A3029007C3B30 /* Corona virus outbreak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8262B1A301E007C3B30 /* Corona virus outbreak.m4a */; };
+		E22CC9882B1A3029007C3B30 /* We have loosers.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8272B1A301E007C3B30 /* We have loosers.m4a */; };
+		E22CC9892B1A3029007C3B30 /* I dont want that.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8282B1A301E007C3B30 /* I dont want that.m4a */; };
+		E22CC98A2B1A3029007C3B30 /* Its gonna happen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8292B1A301E007C3B30 /* Its gonna happen.m4a */; };
+		E22CC98B2B1A3029007C3B30 /* And will.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC82A2B1A301E007C3B30 /* And will.m4a */; };
+		E22CC98C2B1A3029007C3B30 /* A truly great leader.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC82B2B1A301E007C3B30 /* A truly great leader.m4a */; };
+		E22CC98D2B1A3029007C3B30 /* Dont worry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC82C2B1A301E007C3B30 /* Dont worry.m4a */; };
+		E22CC98E2B1A3029007C3B30 /* What a beautiful baby.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC82D2B1A301E007C3B30 /* What a beautiful baby.m4a */; };
+		E22CC98F2B1A3029007C3B30 /* Tremendous potential.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC82E2B1A301E007C3B30 /* Tremendous potential.m4a */; };
+		E22CC9902B1A3029007C3B30 /* For whatever reason.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC82F2B1A301E007C3B30 /* For whatever reason.m4a */; };
+		E22CC9912B1A3029007C3B30 /* Billions and billions.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8302B1A301E007C3B30 /* Billions and billions.m4a */; };
+		E22CC9922B1A3029007C3B30 /* Our country needs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8312B1A301E007C3B30 /* Our country needs.m4a */; };
+		E22CC9932B1A3029007C3B30 /* I think it was russia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8322B1A301F007C3B30 /* I think it was russia.m4a */; };
+		E22CC9942B1A3029007C3B30 /* Ready willing able.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8332B1A301F007C3B30 /* Ready willing able.m4a */; };
+		E22CC9952B1A3029007C3B30 /* We have the best people in the world.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8342B1A301F007C3B30 /* We have the best people in the world.m4a */; };
+		E22CC9962B1A3029007C3B30 /* Fake news.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8352B1A301F007C3B30 /* Fake news.m4a */; };
+		E22CC9972B1A3029007C3B30 /* Monday friday.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8362B1A301F007C3B30 /* Monday friday.m4a */; };
+		E22CC9982B1A3029007C3B30 /* Thats a problem to me.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8372B1A301F007C3B30 /* Thats a problem to me.m4a */; };
+		E22CC9992B1A3029007C3B30 /* The usa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8382B1A301F007C3B30 /* The usa.m4a */; };
+		E22CC99A2B1A3029007C3B30 /* We have to get together.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8392B1A301F007C3B30 /* We have to get together.m4a */; };
+		E22CC99B2B1A3029007C3B30 /* Everyone is listening to you now.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC83A2B1A301F007C3B30 /* Everyone is listening to you now.m4a */; };
+		E22CC99C2B1A3029007C3B30 /* Down to close to zero.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC83B2B1A301F007C3B30 /* Down to close to zero.m4a */; };
+		E22CC99D2B1A3029007C3B30 /* Go crazy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC83C2B1A301F007C3B30 /* Go crazy.m4a */; };
+		E22CC99E2B1A3029007C3B30 /* Make usa proud.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC83D2B1A301F007C3B30 /* Make usa proud.m4a */; };
+		E22CC99F2B1A3029007C3B30 /* Putin likes donald trump.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC83E2B1A301F007C3B30 /* Putin likes donald trump.m4a */; };
+		E22CC9A02B1A3029007C3B30 /* I dont believe stamina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC83F2B1A301F007C3B30 /* I dont believe stamina.m4a */; };
+		E22CC9A12B1A3029007C3B30 /* All across america.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8402B1A301F007C3B30 /* All across america.m4a */; };
+		E22CC9A22B1A3029007C3B30 /* Ivanca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8412B1A301F007C3B30 /* Ivanca.m4a */; };
+		E22CC9A32B1A3029007C3B30 /* Hmm thats strange.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8422B1A301F007C3B30 /* Hmm thats strange.m4a */; };
+		E22CC9A42B1A3029007C3B30 /* Nope.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8432B1A301F007C3B30 /* Nope.m4a */; };
+		E22CC9A52B1A3029007C3B30 /* Not so small.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8442B1A3020007C3B30 /* Not so small.m4a */; };
+		E22CC9A62B1A3029007C3B30 /* Give me a break.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8452B1A3020007C3B30 /* Give me a break.m4a */; };
+		E22CC9A72B1A3029007C3B30 /* Our drug industy has been desastorous.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8462B1A3020007C3B30 /* Our drug industy has been desastorous.m4a */; };
+		E22CC9A82B1A3029007C3B30 /* The bushe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8472B1A3020007C3B30 /* The bushe.m4a */; };
+		E22CC9A92B1A3029007C3B30 /* Transfering power.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8482B1A3020007C3B30 /* Transfering power.m4a */; };
+		E22CC9AA2B1A3029007C3B30 /* Good news.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8492B1A3020007C3B30 /* Good news.m4a */; };
+		E22CC9AB2B1A3029007C3B30 /* Us hacked by everybody.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC84A2B1A3020007C3B30 /* Us hacked by everybody.m4a */; };
+		E22CC9AC2B1A3029007C3B30 /* Donald trump.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC84B2B1A3020007C3B30 /* Donald trump.m4a */; };
+		E22CC9AD2B1A3029007C3B30 /* We must protect our borders.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC84C2B1A3020007C3B30 /* We must protect our borders.m4a */; };
+		E22CC9AE2B1A3029007C3B30 /* Its all over the world.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC84D2B1A3020007C3B30 /* Its all over the world.m4a */; };
+		E22CC9AF2B1A3029007C3B30 /* Its a very though thing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC84E2B1A3020007C3B30 /* Its a very though thing.m4a */; };
+		E22CC9B02B1A3029007C3B30 /* Mexico will pay for the wall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC84F2B1A3020007C3B30 /* Mexico will pay for the wall.m4a */; };
+		E22CC9B12B1A3029007C3B30 /* Billion dollar plant.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8502B1A3020007C3B30 /* Billion dollar plant.m4a */; };
+		E22CC9B22B1A3029007C3B30 /* China all the time.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8512B1A3021007C3B30 /* China all the time.m4a */; };
+		E22CC9B32B1A3029007C3B30 /* Off.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8522B1A3021007C3B30 /* Off.m4a */; };
+		E22CC9B42B1A3029007C3B30 /* Owe japan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8532B1A3021007C3B30 /* Owe japan.m4a */; };
+		E22CC9B52B1A3029007C3B30 /* Empty talk.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8542B1A3021007C3B30 /* Empty talk.m4a */; };
+		E22CC9B62B1A3029007C3B30 /* Its all fake news.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8552B1A3021007C3B30 /* Its all fake news.m4a */; };
+		E22CC9B72B1A3029007C3B30 /* Maybe i want something else.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8562B1A3021007C3B30 /* Maybe i want something else.m4a */; };
+		E22CC9B82B1A3029007C3B30 /* Constantly complaining.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8572B1A3021007C3B30 /* Constantly complaining.m4a */; };
+		E22CC9B92B1A3029007C3B30 /* No get those lights off.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8582B1A3021007C3B30 /* No get those lights off.m4a */; };
+		E22CC9BA2B1A3029007C3B30 /* And american families.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8592B1A3021007C3B30 /* And american families.m4a */; };
+		E22CC9BB2B1A3029007C3B30 /* Sold appartment.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC85A2B1A3021007C3B30 /* Sold appartment.m4a */; };
+		E22CC9BC2B1A3029007C3B30 /* Very poor job.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC85B2B1A3021007C3B30 /* Very poor job.m4a */; };
+		E22CC9BD2B1A3029007C3B30 /* New hoax.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC85C2B1A3021007C3B30 /* New hoax.m4a */; };
+		E22CC9BE2B1A3029007C3B30 /* We are going to build a wall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC85D2B1A3021007C3B30 /* We are going to build a wall.m4a */; };
+		E22CC9BF2B1A3029007C3B30 /* We will not fail.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC85E2B1A3022007C3B30 /* We will not fail.m4a */; };
+		E22CC9C02B1A3029007C3B30 /* You will never be ignored again.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC85F2B1A3022007C3B30 /* You will never be ignored again.m4a */; };
+		E22CC9C12B1A3029007C3B30 /* Our great country.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8602B1A3022007C3B30 /* Our great country.m4a */; };
+		E22CC9C22B1A3029007C3B30 /* This is so important to me.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8612B1A3022007C3B30 /* This is so important to me.m4a */; };
+		E22CC9C32B1A3029007C3B30 /* Tremendous talent.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8622B1A3022007C3B30 /* Tremendous talent.m4a */; };
+		E22CC9C42B1A3029007C3B30 /* The likes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8632B1A3022007C3B30 /* The likes.m4a */; };
+		E22CC9C52B1A3029007C3B30 /* Dont win any more.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8642B1A3022007C3B30 /* Dont win any more.m4a */; };
+		E22CC9C62B1A3029007C3B30 /* Buy american.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8652B1A3022007C3B30 /* Buy american.m4a */; };
+		E22CC9C72B1A3029007C3B30 /* If they are small.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8662B1A3022007C3B30 /* If they are small.m4a */; };
+		E22CC9C82B1A3029007C3B30 /* Hacking defence.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8672B1A3022007C3B30 /* Hacking defence.m4a */; };
+		E22CC9C92B1A3029007C3B30 /* I run i win.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8682B1A3022007C3B30 /* I run i win.m4a */; };
+		E22CC9CA2B1A3029007C3B30 /* Ordering elements.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8692B1A3022007C3B30 /* Ordering elements.m4a */; };
+		E22CC9CB2B1A3029007C3B30 /* Fully understand.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC86A2B1A3022007C3B30 /* Fully understand.m4a */; };
+		E22CC9CC2B1A3029007C3B30 /* People of the world.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC86B2B1A3022007C3B30 /* People of the world.m4a */; };
+		E22CC9CD2B1A3029007C3B30 /* Rosie o donnald.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC86C2B1A3022007C3B30 /* Rosie o donnald.m4a */; };
+		E22CC9CE2B1A3029007C3B30 /* Big big.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC86D2B1A3022007C3B30 /* Big big.m4a */; };
+		E22CC9CF2B1A3029007C3B30 /* Something wrong with you.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC86E2B1A3023007C3B30 /* Something wrong with you.m4a */; };
+		E22CC9D02B1A3029007C3B30 /* We owe china.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC86F2B1A3023007C3B30 /* We owe china.m4a */; };
+		E22CC9D12B1A3029007C3B30 /* Bigger.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8702B1A3023007C3B30 /* Bigger.m4a */; };
+		E22CC9D22B1A3029007C3B30 /* Low energy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8712B1A3023007C3B30 /* Low energy.m4a */; };
+		E22CC9D32B1A3029007C3B30 /* Never doing anything about it.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8722B1A3023007C3B30 /* Never doing anything about it.m4a */; };
+		E22CC9D42B1A3029007C3B30 /* Who makes these deals.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8732B1A3023007C3B30 /* Who makes these deals.m4a */; };
+		E22CC9D62B1A3029007C3B30 /* What a mess id be.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8752B1A3023007C3B30 /* What a mess id be.m4a */; };
+		E22CC9D72B1A3029007C3B30 /* The hour of action.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8762B1A3023007C3B30 /* The hour of action.m4a */; };
+		E22CC9D82B1A3029007C3B30 /* The wall 10 feet higher.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8772B1A3023007C3B30 /* The wall 10 feet higher.m4a */; };
+		E22CC9D92B1A3029007C3B30 /* You ve had enough.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8782B1A3023007C3B30 /* You ve had enough.m4a */; };
+		E22CC9DA2B1A3029007C3B30 /* America first.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8792B1A3023007C3B30 /* America first.m4a */; };
+		E22CC9DB2B1A3029007C3B30 /* I love china.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC87A2B1A3023007C3B30 /* I love china.m4a */; };
+		E22CC9DD2B1A3029007C3B30 /* We dont konw.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC87C2B1A3023007C3B30 /* We dont konw.m4a */; };
+		E22CC9DE2B1A3029007C3B30 /* We have great talent.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC87D2B1A3023007C3B30 /* We have great talent.m4a */; };
+		E22CC9DF2B1A3029007C3B30 /* Preserve protect.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC87E2B1A3024007C3B30 /* Preserve protect.m4a */; };
+		E22CC9E02B1A3029007C3B30 /* We are looking only to the future.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC87F2B1A3024007C3B30 /* We are looking only to the future.m4a */; };
+		E22CC9E12B1A3029007C3B30 /* I order 4000 tvs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8802B1A3024007C3B30 /* I order 4000 tvs.m4a */; };
+		E22CC9E22B1A3029007C3B30 /* Everybody.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8812B1A3024007C3B30 /* Everybody.m4a */; };
+		E22CC9E32B1A3029007C3B30 /* Japan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8822B1A3024007C3B30 /* Japan.m4a */; };
+		E22CC9E42B1A3029007C3B30 /* Net worth.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8832B1A3024007C3B30 /* Net worth.m4a */; };
+		E22CC9E52B1A3029007C3B30 /* Incredible people.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8842B1A3024007C3B30 /* Incredible people.m4a */; };
+		E22CC9E62B1A3029007C3B30 /* What i say is what i say.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8852B1A3024007C3B30 /* What i say is what i say.m4a */; };
+		E22CC9E72B1A3029007C3B30 /* So well under control.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8862B1A3024007C3B30 /* So well under control.m4a */; };
+		E22CC9E82B1A3029007C3B30 /* Promised land.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8872B1A3024007C3B30 /* Promised land.m4a */; };
+		E22CC9E92B1A3029007C3B30 /* The office of.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8882B1A3024007C3B30 /* The office of.m4a */; };
+		E22CC9EA2B1A3029007C3B30 /* Confidential.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8892B1A3024007C3B30 /* Confidential.m4a */; };
+		E22CC9EB2B1A3029007C3B30 /* They are totally brilliant.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC88A2B1A3024007C3B30 /* They are totally brilliant.m4a */; };
+		E22CC9EC2B1A3029007C3B30 /* Modern technology.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC88B2B1A3024007C3B30 /* Modern technology.m4a */; };
+		E22CC9ED2B1A3029007C3B30 /* And hire american.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC88C2B1A3024007C3B30 /* And hire american.m4a */; };
+		E22CC9EE2B1A3029007C3B30 /* High profil person.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC88D2B1A3024007C3B30 /* High profil person.m4a */; };
+		E22CC9EF2B1A3029007C3B30 /* I want more than a wall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC88E2B1A3024007C3B30 /* I want more than a wall.m4a */; };
+		E22CC9F12B1A3029007C3B30 /* I love you.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8902B1A3025007C3B30 /* I love you.m4a */; };
+		E22CC9F22B1A3029007C3B30 /* Is dead.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8912B1A3025007C3B30 /* Is dead.m4a */; };
+		E22CC9F32B1A3029007C3B30 /* Benefit american workers.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8922B1A3025007C3B30 /* Benefit american workers.m4a */; };
+		E22CC9F42B1A3029007C3B30 /* Obama care complete total desaster.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8932B1A3025007C3B30 /* Obama care complete total desaster.m4a */; };
+		E22CC9F52B1A3029007C3B30 /* Ph of course he is going to say that.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8942B1A3025007C3B30 /* Ph of course he is going to say that.m4a */; };
+		E22CC9F62B1A3029007C3B30 /* Going down not up.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8952B1A3025007C3B30 /* Going down not up.m4a */; };
+		E22CC9F72B1A3029007C3B30 /* Look at those hands.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8962B1A3025007C3B30 /* Look at those hands.m4a */; };
+		E22CC9F82B1A3029007C3B30 /* Confiscate their coats.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8972B1A3025007C3B30 /* Confiscate their coats.m4a */; };
+		E22CC9F92B1A3029007C3B30 /* No.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8982B1A3025007C3B30 /* No.m4a */; };
+		E22CC9FA2B1A3029007C3B30 /* That will happen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8992B1A3025007C3B30 /* That will happen.m4a */; };
+		E22CC9FB2B1A3029007C3B30 /* Small and large.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC89A2B1A3025007C3B30 /* Small and large.m4a */; };
+		E22CC9FC2B1A3029007C3B30 /* Not a nice person.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC89B2B1A3025007C3B30 /* Not a nice person.m4a */; };
+		E22CC9FD2B1A3029007C3B30 /* Build a wall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC89C2B1A3025007C3B30 /* Build a wall.m4a */; };
+		E22CC9FE2B1A3029007C3B30 /* The coronavirus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC89D2B1A3025007C3B30 /* The coronavirus.m4a */; };
+		E22CC9FF2B1A3029007C3B30 /* And stronger.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC89E2B1A3025007C3B30 /* And stronger.m4a */; };
+		E22CCA002B1A3029007C3B30 /* Beautiful things.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC89F2B1A3025007C3B30 /* Beautiful things.m4a */; };
+		E22CCA012B1A3029007C3B30 /* Make usa strong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A02B1A3026007C3B30 /* Make usa strong.m4a */; };
+		E22CCA022B1A3029007C3B30 /* I will bring it back.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A12B1A3026007C3B30 /* I will bring it back.m4a */; };
+		E22CCA032B1A3029007C3B30 /* Bigly.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A22B1A3026007C3B30 /* Bigly.m4a */; };
+		E22CCA042B1A3029007C3B30 /* I dont believe that hillary stamina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A32B1A3026007C3B30 /* I dont believe that hillary stamina.m4a */; };
+		E22CCA052B1A3029007C3B30 /* A truly great job.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A42B1A3026007C3B30 /* A truly great job.m4a */; };
+		E22CCA062B1A3029007C3B30 /* The top of the line.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A52B1A3026007C3B30 /* The top of the line.m4a */; };
+		E22CCA072B1A3029007C3B30 /* I never drank ok.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A62B1A3026007C3B30 /* I never drank ok.m4a */; };
+		E22CCA082B1A3029007C3B30 /* No action.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A72B1A3026007C3B30 /* No action.m4a */; };
+		E22CCA092B1A3029007C3B30 /* Did not drink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A82B1A3026007C3B30 /* Did not drink.m4a */; };
+		E22CCA0A2B1A3029007C3B30 /* Tremendous people.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8A92B1A3026007C3B30 /* Tremendous people.m4a */; };
+		E22CCA0B2B1A3029007C3B30 /* Can you imagein if i had.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8AA2B1A3026007C3B30 /* Can you imagein if i had.m4a */; };
+		E22CCA0C2B1A3029007C3B30 /* Congrats.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8AB2B1A3026007C3B30 /* Congrats.m4a */; };
+		E22CCA0D2B1A3029007C3B30 /* We re hacked by everybody.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8AC2B1A3026007C3B30 /* We re hacked by everybody.m4a */; };
+		E22CCA0E2B1A3029007C3B30 /* You re fired.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8AD2B1A3026007C3B30 /* You re fired.m4a */; };
+		E22CCA0F2B1A3029007C3B30 /* Get the wall started.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8AE2B1A3026007C3B30 /* Get the wall started.m4a */; };
+		E22CCA102B1A3029007C3B30 /* Its going to be only.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8AF2B1A3026007C3B30 /* Its going to be only.m4a */; };
+		E22CCA112B1A3029007C3B30 /* Transfer of power.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B02B1A3026007C3B30 /* Transfer of power.m4a */; };
+		E22CCA122B1A3029007C3B30 /* That all changes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B12B1A3026007C3B30 /* That all changes.m4a */; };
+		E22CCA132B1A3029007C3B30 /* You ve been reading about it.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B22B1A3027007C3B30 /* You ve been reading about it.m4a */; };
+		E22CCA142B1A3029007C3B30 /* Be careful.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B32B1A3027007C3B30 /* Be careful.m4a */; };
+		E22CCA152B1A3029007C3B30 /* Many many millions of dollars.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B42B1A3027007C3B30 /* Many many millions of dollars.m4a */; };
+		E22CCA162B1A3029007C3B30 /* This is a real.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B52B1A3027007C3B30 /* This is a real.m4a */; };
+		E22CCA172B1A3029007C3B30 /* You better be careful.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B62B1A3027007C3B30 /* You better be careful.m4a */; };
+		E22CCA182B1A3029007C3B30 /* Ordering supplies.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B72B1A3027007C3B30 /* Ordering supplies.m4a */; };
+		E22CCA192B1A3029007C3B30 /* Thats all right.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B82B1A3027007C3B30 /* Thats all right.m4a */; };
+		E22CCA1A2B1A3029007C3B30 /* Eieiei.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8B92B1A3027007C3B30 /* Eieiei.m4a */; };
+		E22CCA1B2B1A3029007C3B30 /* I donald john.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8BA2B1A3027007C3B30 /* I donald john.m4a */; };
+		E22CCA1D2B1A3029007C3B30 /* Little bit of luck.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8BC2B1A3027007C3B30 /* Little bit of luck.m4a */; };
+		E22CCA1E2B1A3029007C3B30 /* You have to speak english.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8BD2B1A3027007C3B30 /* You have to speak english.m4a */; };
+		E22CCA1F2B1A3029007C3B30 /* We are one nation.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8BE2B1A3027007C3B30 /* We are one nation.m4a */; };
+		E22CCA202B1A3029007C3B30 /* Saw a lot of people drinking.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8BF2B1A3027007C3B30 /* Saw a lot of people drinking.m4a */; };
+		E22CCA212B1A3029007C3B30 /* Probably trillions.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C02B1A3027007C3B30 /* Probably trillions.m4a */; };
+		E22CCA222B1A3029007C3B30 /* Tell you this.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C12B1A3027007C3B30 /* Tell you this.m4a */; };
+		E22CCA232B1A3029007C3B30 /* Cant beat mexico.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C22B1A3027007C3B30 /* Cant beat mexico.m4a */; };
+		E22CCA242B1A3029007C3B30 /* She does not have the stamina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C32B1A3028007C3B30 /* She does not have the stamina.m4a */; };
+		E22CCA252B1A3029007C3B30 /* False and fake.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C42B1A3028007C3B30 /* False and fake.m4a */; };
+		E22CCA262B1A3029007C3B30 /* Tremendous.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C52B1A3028007C3B30 /* Tremendous.m4a */; };
+		E22CCA272B1A3029007C3B30 /* Turn off the lights.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C62B1A3028007C3B30 /* Turn off the lights.m4a */; };
+		E22CCA282B1A3029007C3B30 /* I have the best words.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C72B1A3028007C3B30 /* I have the best words.m4a */; };
+		E22CCA292B1A3029007C3B30 /* Tiffany.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C82B1A3028007C3B30 /* Tiffany.m4a */; };
+		E22CCA2A2B1A3029007C3B30 /* Whatever you want.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C92B1A3028007C3B30 /* Whatever you want.m4a */; };
+		E22CCA2B2B1A3029007C3B30 /* Ll sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CA2B1A3028007C3B30 /* Ll sound.m4a */; };
+		E22CCA2C2B1A3029007C3B30 /* And right now.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CB2B1A3028007C3B30 /* And right now.m4a */; };
+		E22CCA2D2B1A3029007C3B30 /* I dont care.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CC2B1A3028007C3B30 /* I dont care.m4a */; };
+		E22CCA2E2B1A3029007C3B30 /* Will be forgotten no longer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CD2B1A3028007C3B30 /* Will be forgotten no longer.m4a */; };
+		E22CCA2F2B1A3029007C3B30 /* Graduated from highschool.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CE2B1A3028007C3B30 /* Graduated from highschool.m4a */; };
+		E22CCA302B1A3029007C3B30 /* Tremendous things.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CF2B1A3028007C3B30 /* Tremendous things.m4a */; };
+		E22CCA312B1A3029007C3B30 /* Thank you.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8D02B1A3028007C3B30 /* Thank you.m4a */; };
+		E22CCA322B1A3029007C3B30 /* Huge.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8D12B1A3028007C3B30 /* Huge.m4a */; };
+		E22CCA332B1A3029007C3B30 /* Little bit different.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8D22B1A3028007C3B30 /* Little bit different.m4a */; };
+		E22CCA342B1A3029007C3B30 /* To sb from china.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8D32B1A3029007C3B30 /* To sb from china.m4a */; };
+		E22CCA352B1A3029007C3B30 /* Putin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8D42B1A3029007C3B30 /* Putin.m4a */; };
 		E2319FE52AF7A772004D54ED /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
 		E2319FE82AF7A7D5004D54ED /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
 		E2319FE92AF7A7D5004D54ED /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
@@ -707,7 +1080,6 @@
 		E2E8C4AC2B1A0F9C00C37F6A /* Nie wiem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C30A2B1A0F8300C37F6A /* Nie wiem.m4a */; };
 		E2E8C4AD2B1A0F9C00C37F6A /* Trawkę.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C30B2B1A0F8300C37F6A /* Trawkę.m4a */; };
 		E2E8C4AE2B1A0F9C00C37F6A /* Podejmij tą rękawiczkę.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C30C2B1A0F8300C37F6A /* Podejmij tą rękawiczkę.m4a */; };
-		E2E8C4AF2B1A0F9C00C37F6A /* Tak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C30D2B1A0F8300C37F6A /* Tak.m4a */; };
 		E2E8C4B02B1A0F9C00C37F6A /* A wtedy się opamiętacie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C30E2B1A0F8300C37F6A /* A wtedy się opamiętacie.m4a */; };
 		E2E8C4B12B1A0F9C00C37F6A /* Bardzo smaczne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C30F2B1A0F8300C37F6A /* Bardzo smaczne.m4a */; };
 		E2E8C4B22B1A0F9C00C37F6A /* Ale zobaczcie łóżko Majora puste.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3102B1A0F8300C37F6A /* Ale zobaczcie łóżko Majora puste.m4a */; };
@@ -911,7 +1283,7 @@
 		E2E8C5842B1A0F9D00C37F6A /* Rozpuszczalniki.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3E22B1A0F9200C37F6A /* Rozpuszczalniki.m4a */; };
 		E2E8C5852B1A0F9D00C37F6A /* Żeby Polska była Polską.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3E32B1A0F9200C37F6A /* Żeby Polska była Polską.m4a */; };
 		E2E8C5862B1A0F9D00C37F6A /* Ma.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3E42B1A0F9200C37F6A /* Ma.m4a */; };
-		E2E8C5872B1A0F9D00C37F6A /* Tak(1).m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3E52B1A0F9200C37F6A /* Tak(1).m4a */; };
+		E2E8C5872B1A0F9D00C37F6A /* Tak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3E52B1A0F9200C37F6A /* Tak.m4a */; };
 		E2E8C5882B1A0F9D00C37F6A /* Prawdopodobnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3E62B1A0F9200C37F6A /* Prawdopodobnie.m4a */; };
 		E2E8C5892B1A0F9D00C37F6A /* Zginiesz marnie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3E72B1A0F9200C37F6A /* Zginiesz marnie.m4a */; };
 		E2E8C58A2B1A0F9D00C37F6A /* Nie róbcie tego bo to nie jest żarty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C3E82B1A0F9200C37F6A /* Nie róbcie tego bo to nie jest żarty.m4a */; };
@@ -1506,6 +1878,358 @@
 
 /* Begin PBXFileReference section */
 		E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardList.swift; sourceTree = "<group>"; };
+		E22CC74A2B1A24A6007C3B30 /* Trump Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trump Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22CC7502B1A24A7007C3B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E22CC7532B1A24A7007C3B30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E22CC7722B1A2CF7007C3B30 /* I did not drink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I did not drink.m4a"; sourceTree = "<group>"; };
+		E22CC7742B1A3013007C3B30 /* Cameras in strange places.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cameras in strange places.m4a"; sourceTree = "<group>"; };
+		E22CC7752B1A3013007C3B30 /* Country in trouble.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Country in trouble.m4a"; sourceTree = "<group>"; };
+		E22CC7762B1A3013007C3B30 /* Make america great again.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Make america great again.m4a"; sourceTree = "<group>"; };
+		E22CC7772B1A3013007C3B30 /* We re going to dream of things.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We re going to dream of things.m4a"; sourceTree = "<group>"; };
+		E22CC7782B1A3013007C3B30 /* Make usa safe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Make usa safe.m4a"; sourceTree = "<group>"; };
+		E22CC7792B1A3014007C3B30 /* Wrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wrong.m4a; sourceTree = "<group>"; };
+		E22CC77A2B1A3014007C3B30 /* Its time to remember.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its time to remember.m4a"; sourceTree = "<group>"; };
+		E22CC77B2B1A3014007C3B30 /* Absolutely.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Absolutely.m4a; sourceTree = "<group>"; };
+		E22CC77C2B1A3014007C3B30 /* Its a wall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its a wall.m4a"; sourceTree = "<group>"; };
+		E22CC77D2B1A3014007C3B30 /* Dont beat china in trade.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dont beat china in trade.m4a"; sourceTree = "<group>"; };
+		E22CC77E2B1A3014007C3B30 /* Factories closed.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Factories closed.m4a"; sourceTree = "<group>"; };
+		E22CC77F2B1A3014007C3B30 /* They drink beer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "They drink beer.m4a"; sourceTree = "<group>"; };
+		E22CC7802B1A3014007C3B30 /* Starting right here.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starting right here.m4a"; sourceTree = "<group>"; };
+		E22CC7812B1A3014007C3B30 /* Our wonderful nation.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Our wonderful nation.m4a"; sourceTree = "<group>"; };
+		E22CC7822B1A3014007C3B30 /* Oh thats not good.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oh thats not good.m4a"; sourceTree = "<group>"; };
+		E22CC7832B1A3014007C3B30 /* This was tuff.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "This was tuff.m4a"; sourceTree = "<group>"; };
+		E22CC7842B1A3014007C3B30 /* We had a lot of talent.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We had a lot of talent.m4a"; sourceTree = "<group>"; };
+		E22CC7852B1A3014007C3B30 /* Were going to build a wall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Were going to build a wall.m4a"; sourceTree = "<group>"; };
+		E22CC7862B1A3014007C3B30 /* Greatest jobs producer god ever created.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Greatest jobs producer god ever created.m4a"; sourceTree = "<group>"; };
+		E22CC7872B1A3015007C3B30 /* It can happen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "It can happen.m4a"; sourceTree = "<group>"; };
+		E22CC7882B1A3015007C3B30 /* Coronavirus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coronavirus.m4a; sourceTree = "<group>"; };
+		E22CC7892B1A3015007C3B30 /* Hes fantastic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hes fantastic.m4a"; sourceTree = "<group>"; };
+		E22CC78A2B1A3015007C3B30 /* It may get bigger.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "It may get bigger.m4a"; sourceTree = "<group>"; };
+		E22CC78B2B1A3015007C3B30 /* Mexican gov.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mexican gov.m4a"; sourceTree = "<group>"; };
+		E22CC78C2B1A3015007C3B30 /* The constitution.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The constitution.m4a"; sourceTree = "<group>"; };
+		E22CC78D2B1A3015007C3B30 /* They re too bright.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "They re too bright.m4a"; sourceTree = "<group>"; };
+		E22CC78E2B1A3015007C3B30 /* Turn em off.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Turn em off.m4a"; sourceTree = "<group>"; };
+		E22CC7902B1A3015007C3B30 /* Who cares what they say.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Who cares what they say.m4a"; sourceTree = "<group>"; };
+		E22CC7912B1A3015007C3B30 /* Youre going to love winning.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Youre going to love winning.m4a"; sourceTree = "<group>"; };
+		E22CC7922B1A3015007C3B30 /* I ve never had alcohol.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I ve never had alcohol.m4a"; sourceTree = "<group>"; };
+		E22CC7932B1A3015007C3B30 /* The bible tells us.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The bible tells us.m4a"; sourceTree = "<group>"; };
+		E22CC7942B1A3015007C3B30 /* Love my life.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Love my life.m4a"; sourceTree = "<group>"; };
+		E22CC7952B1A3015007C3B30 /* The stamina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The stamina.m4a"; sourceTree = "<group>"; };
+		E22CC7962B1A3015007C3B30 /* They were in highschool.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "They were in highschool.m4a"; sourceTree = "<group>"; };
+		E22CC7972B1A3015007C3B30 /* Nasty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nasty.m4a; sourceTree = "<group>"; };
+		E22CC7982B1A3016007C3B30 /* Classified.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Classified.m4a; sourceTree = "<group>"; };
+		E22CC7992B1A3016007C3B30 /* And i thank you.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "And i thank you.m4a"; sourceTree = "<group>"; };
+		E22CC79A2B1A3016007C3B30 /* Kind of a megaphone.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kind of a megaphone.m4a"; sourceTree = "<group>"; };
+		E22CC79B2B1A3016007C3B30 /* Get the job done.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Get the job done.m4a"; sourceTree = "<group>"; };
+		E22CC79C2B1A3016007C3B30 /* New vision govern land.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "New vision govern land.m4a"; sourceTree = "<group>"; };
+		E22CC79D2B1A3016007C3B30 /* The mistories of space.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The mistories of space.m4a"; sourceTree = "<group>"; };
+		E22CC79E2B1A3016007C3B30 /* Great great relationships.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great great relationships.m4a"; sourceTree = "<group>"; };
+		E22CC79F2B1A3016007C3B30 /* Bumbumbum.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bumbumbum.m4a; sourceTree = "<group>"; };
+		E22CC7A02B1A3016007C3B30 /* Fantastic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fantastic.m4a; sourceTree = "<group>"; };
+		E22CC7A12B1A3016007C3B30 /* This is a pendemic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "This is a pendemic.m4a"; sourceTree = "<group>"; };
+		E22CC7A22B1A3016007C3B30 /* Totally prepared.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Totally prepared.m4a"; sourceTree = "<group>"; };
+		E22CC7A32B1A3016007C3B30 /* You are fake news.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You are fake news.m4a"; sourceTree = "<group>"; };
+		E22CC7A42B1A3016007C3B30 /* I love babies.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I love babies.m4a"; sourceTree = "<group>"; };
+		E22CC7A52B1A3016007C3B30 /* Mutch hacking going on.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mutch hacking going on.m4a"; sourceTree = "<group>"; };
+		E22CC7A62B1A3016007C3B30 /* I had truly great parents.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I had truly great parents.m4a"; sourceTree = "<group>"; };
+		E22CC7A72B1A3016007C3B30 /* You need tremendous stamina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You need tremendous stamina.m4a"; sourceTree = "<group>"; };
+		E22CC7A82B1A3016007C3B30 /* Follow two simple rules.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Follow two simple rules.m4a"; sourceTree = "<group>"; };
+		E22CC7A92B1A3017007C3B30 /* I will fight for you.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I will fight for you.m4a"; sourceTree = "<group>"; };
+		E22CC7AA2B1A3017007C3B30 /* Im gonna work very hard on that.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Im gonna work very hard on that.m4a"; sourceTree = "<group>"; };
+		E22CC7AB2B1A3017007C3B30 /* Make usa great.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Make usa great.m4a"; sourceTree = "<group>"; };
+		E22CC7AC2B1A3017007C3B30 /* It will go away stay calm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "It will go away stay calm.m4a"; sourceTree = "<group>"; };
+		E22CC7AD2B1A3017007C3B30 /* From this day forward.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "From this day forward.m4a"; sourceTree = "<group>"; };
+		E22CC7AE2B1A3017007C3B30 /* I love our police.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I love our police.m4a"; sourceTree = "<group>"; };
+		E22CC7AF2B1A3017007C3B30 /* Okay.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Okay.m4a; sourceTree = "<group>"; };
+		E22CC7B02B1A3017007C3B30 /* In the history of stories.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "In the history of stories.m4a"; sourceTree = "<group>"; };
+		E22CC7B12B1A3017007C3B30 /* China.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = China.m4a; sourceTree = "<group>"; };
+		E22CC7B22B1A3017007C3B30 /* American dream.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "American dream.m4a"; sourceTree = "<group>"; };
+		E22CC7B32B1A3017007C3B30 /* First lady.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "First lady.m4a"; sourceTree = "<group>"; };
+		E22CC7B42B1A3017007C3B30 /* Made lot of money.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Made lot of money.m4a"; sourceTree = "<group>"; };
+		E22CC7B52B1A3018007C3B30 /* I said she stamina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I said she stamina.m4a"; sourceTree = "<group>"; };
+		E22CC7B62B1A3018007C3B30 /* In great shape.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "In great shape.m4a"; sourceTree = "<group>"; };
+		E22CC7B72B1A3018007C3B30 /* No victories.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "No victories.m4a"; sourceTree = "<group>"; };
+		E22CC7B82B1A3018007C3B30 /* Ok.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ok.m4a; sourceTree = "<group>"; };
+		E22CC7B92B1A3018007C3B30 /* Dont beat china.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dont beat china.m4a"; sourceTree = "<group>"; };
+		E22CC7BA2B1A3018007C3B30 /* Have to get going.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Have to get going.m4a"; sourceTree = "<group>"; };
+		E22CC7BB2B1A3018007C3B30 /* Great company.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great company.m4a"; sourceTree = "<group>"; };
+		E22CC7BC2B1A3018007C3B30 /* Drug industry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Drug industry.m4a"; sourceTree = "<group>"; };
+		E22CC7BD2B1A3018007C3B30 /* One of my only good triaits.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "One of my only good triaits.m4a"; sourceTree = "<group>"; };
+		E22CC7BE2B1A3018007C3B30 /* Ford.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ford.m4a; sourceTree = "<group>"; };
+		E22CC7BF2B1A3018007C3B30 /* Thank you very much.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thank you very much.m4a"; sourceTree = "<group>"; };
+		E22CC7C02B1A3018007C3B30 /* The hacking.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The hacking.m4a"; sourceTree = "<group>"; };
+		E22CC7C12B1A3018007C3B30 /* The secret service.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The secret service.m4a"; sourceTree = "<group>"; };
+		E22CC7C22B1A3018007C3B30 /* Very long and very hard.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Very long and very hard.m4a"; sourceTree = "<group>"; };
+		E22CC7C32B1A3018007C3B30 /* We will shine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We will shine.m4a"; sourceTree = "<group>"; };
+		E22CC7C42B1A3018007C3B30 /* Wonderful family.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wonderful family.m4a"; sourceTree = "<group>"; };
+		E22CC7C52B1A3018007C3B30 /* Thank you darling.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thank you darling.m4a"; sourceTree = "<group>"; };
+		E22CC7C62B1A3018007C3B30 /* Really rich.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Really rich.m4a"; sourceTree = "<group>"; };
+		E22CC7C72B1A3019007C3B30 /* I pay a lot of tax.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I pay a lot of tax.m4a"; sourceTree = "<group>"; };
+		E22CC7C82B1A3019007C3B30 /* Be very careful.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Be very careful.m4a"; sourceTree = "<group>"; };
+		E22CC7C92B1A3019007C3B30 /* So help me god.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "So help me god.m4a"; sourceTree = "<group>"; };
+		E22CC7CA2B1A3019007C3B30 /* America is unstoppable.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "America is unstoppable.m4a"; sourceTree = "<group>"; };
+		E22CC7CB2B1A3019007C3B30 /* Risk remains low.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Risk remains low.m4a"; sourceTree = "<group>"; };
+		E22CC7CC2B1A3019007C3B30 /* We have to do a great job.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We have to do a great job.m4a"; sourceTree = "<group>"; };
+		E22CC7CD2B1A3019007C3B30 /* Barak obama.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barak obama.m4a"; sourceTree = "<group>"; };
+		E22CC7CE2B1A3019007C3B30 /* Make usa wealthy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Make usa wealthy.m4a"; sourceTree = "<group>"; };
+		E22CC7CF2B1A3019007C3B30 /* Dont drink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dont drink.m4a"; sourceTree = "<group>"; };
+		E22CC7D02B1A3019007C3B30 /* Tell stories.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tell stories.m4a"; sourceTree = "<group>"; };
+		E22CC7D12B1A3019007C3B30 /* Number one tricky.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Number one tricky.m4a"; sourceTree = "<group>"; };
+		E22CC7D22B1A3019007C3B30 /* They tried to hack.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "They tried to hack.m4a"; sourceTree = "<group>"; };
+		E22CC7D32B1A3019007C3B30 /* Fellow americans.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fellow americans.m4a"; sourceTree = "<group>"; };
+		E22CC7D42B1A3019007C3B30 /* General.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = General.m4a; sourceTree = "<group>"; };
+		E22CC7D52B1A3019007C3B30 /* Open heart for patriotism.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Open heart for patriotism.m4a"; sourceTree = "<group>"; };
+		E22CC7D62B1A3019007C3B30 /* Built quickly.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Built quickly.m4a"; sourceTree = "<group>"; };
+		E22CC7D72B1A3019007C3B30 /* Saudi arabia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saudi arabia.m4a"; sourceTree = "<group>"; };
+		E22CC7D82B1A3019007C3B30 /* Did you ask me a question.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Did you ask me a question.m4a"; sourceTree = "<group>"; };
+		E22CC7D92B1A301A007C3B30 /* Im sorry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Im sorry.m4a"; sourceTree = "<group>"; };
+		E22CC7DA2B1A301A007C3B30 /* Over the horizont.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Over the horizont.m4a"; sourceTree = "<group>"; };
+		E22CC7DB2B1A301A007C3B30 /* Drank a lot.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Drank a lot.m4a"; sourceTree = "<group>"; };
+		E22CC7DC2B1A301A007C3B30 /* Fiat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fiat.m4a; sourceTree = "<group>"; };
+		E22CC7DD2B1A301A007C3B30 /* We do not need.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We do not need.m4a"; sourceTree = "<group>"; };
+		E22CC7DE2B1A301A007C3B30 /* Every decision.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Every decision.m4a"; sourceTree = "<group>"; };
+		E22CC7DF2B1A301A007C3B30 /* It did not happen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "It did not happen.m4a"; sourceTree = "<group>"; };
+		E22CC7E02B1A301A007C3B30 /* We eat mc donalds.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We eat mc donalds.m4a"; sourceTree = "<group>"; };
+		E22CC7E12B1A301A007C3B30 /* Pretty good job weve done.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretty good job weve done.m4a"; sourceTree = "<group>"; };
+		E22CC7E22B1A301A007C3B30 /* What a great group.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "What a great group.m4a"; sourceTree = "<group>"; };
+		E22CC7E32B1A301A007C3B30 /* They do not want me.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "They do not want me.m4a"; sourceTree = "<group>"; };
+		E22CC7E42B1A301A007C3B30 /* Beat china.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Beat china.m4a"; sourceTree = "<group>"; };
+		E22CC7E52B1A301A007C3B30 /* Makes sense.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Makes sense.m4a"; sourceTree = "<group>"; };
+		E22CC7E62B1A301A007C3B30 /* Mexico.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mexico.m4a; sourceTree = "<group>"; };
+		E22CC7E72B1A301A007C3B30 /* Something else must be small.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Something else must be small.m4a"; sourceTree = "<group>"; };
+		E22CC7E82B1A301A007C3B30 /* Very complicated stuff.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Very complicated stuff.m4a"; sourceTree = "<group>"; };
+		E22CC7E92B1A301A007C3B30 /* The forgotten men and women.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The forgotten men and women.m4a"; sourceTree = "<group>"; };
+		E22CC7EA2B1A301B007C3B30 /* No coats.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "No coats.m4a"; sourceTree = "<group>"; };
+		E22CC7EB2B1A301B007C3B30 /* Better.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Better.m4a; sourceTree = "<group>"; };
+		E22CC7EC2B1A301B007C3B30 /* Running for president.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Running for president.m4a"; sourceTree = "<group>"; };
+		E22CC7ED2B1A301B007C3B30 /* Youll be fine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Youll be fine.m4a"; sourceTree = "<group>"; };
+		E22CC7EE2B1A301B007C3B30 /* Is over.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Is over.m4a"; sourceTree = "<group>"; };
+		E22CC7EF2B1A301B007C3B30 /* All the time.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All the time.m4a"; sourceTree = "<group>"; };
+		E22CC7F02B1A301B007C3B30 /* Kay donnie don.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kay donnie don.m4a"; sourceTree = "<group>"; };
+		E22CC7F12B1A301B007C3B30 /* Five houndred billion dollars.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Five houndred billion dollars.m4a"; sourceTree = "<group>"; };
+		E22CC7F22B1A301B007C3B30 /* It will disapear.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "It will disapear.m4a"; sourceTree = "<group>"; };
+		E22CC7F32B1A301B007C3B30 /* Maybe the intelligence agencys.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maybe the intelligence agencys.m4a"; sourceTree = "<group>"; };
+		E22CC7F42B1A301B007C3B30 /* Just and reasonable demands.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Just and reasonable demands.m4a"; sourceTree = "<group>"; };
+		E22CC7F52B1A301B007C3B30 /* Thats right.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thats right.m4a"; sourceTree = "<group>"; };
+		E22CC7F62B1A301B007C3B30 /* Very little problem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Very little problem.m4a"; sourceTree = "<group>"; };
+		E22CC7F72B1A301B007C3B30 /* I know words.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I know words.m4a"; sourceTree = "<group>"; };
+		E22CC7F82B1A301B007C3B30 /* Gm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gm.m4a; sourceTree = "<group>"; };
+		E22CC7F92B1A301B007C3B30 /* Greatest president.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Greatest president.m4a"; sourceTree = "<group>"; };
+		E22CC7FA2B1A301B007C3B30 /* Does not exist.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Does not exist.m4a"; sourceTree = "<group>"; };
+		E22CC7FB2B1A301B007C3B30 /* I dont like that.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I dont like that.m4a"; sourceTree = "<group>"; };
+		E22CC7FC2B1A301B007C3B30 /* Never let you down.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Never let you down.m4a"; sourceTree = "<group>"; };
+		E22CC7FD2B1A301C007C3B30 /* No rume for predjudice.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "No rume for predjudice.m4a"; sourceTree = "<group>"; };
+		E22CC7FE2B1A301C007C3B30 /* Germophob.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Germophob.m4a; sourceTree = "<group>"; };
+		E22CC7FF2B1A301C007C3B30 /* Dont know whats happening.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dont know whats happening.m4a"; sourceTree = "<group>"; };
+		E22CC8002B1A301C007C3B30 /* President trump.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "President trump.m4a"; sourceTree = "<group>"; };
+		E22CC8012B1A301C007C3B30 /* Superstar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Superstar.m4a; sourceTree = "<group>"; };
+		E22CC8022B1A301C007C3B30 /* Left and right.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Left and right.m4a"; sourceTree = "<group>"; };
+		E22CC8032B1A301C007C3B30 /* Politicians.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Politicians.m4a; sourceTree = "<group>"; };
+		E22CC8042B1A301C007C3B30 /* The biggest story.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The biggest story.m4a"; sourceTree = "<group>"; };
+		E22CC8052B1A301C007C3B30 /* Very unusual.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Very unusual.m4a"; sourceTree = "<group>"; };
+		E22CC8062B1A301C007C3B30 /* Its not a fence.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its not a fence.m4a"; sourceTree = "<group>"; };
+		E22CC8072B1A301C007C3B30 /* Are they small hands.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Are they small hands.m4a"; sourceTree = "<group>"; };
+		E22CC8082B1A301C007C3B30 /* President putin and russia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "President putin and russia.m4a"; sourceTree = "<group>"; };
+		E22CC8092B1A301C007C3B30 /* Its gonna be a beautiful thing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its gonna be a beautiful thing.m4a"; sourceTree = "<group>"; };
+		E22CC80A2B1A301C007C3B30 /* Cameras all over the place.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cameras all over the place.m4a"; sourceTree = "<group>"; };
+		E22CC80B2B1A301C007C3B30 /* Will not happen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Will not happen.m4a"; sourceTree = "<group>"; };
+		E22CC80C2B1A301C007C3B30 /* It should not be done.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "It should not be done.m4a"; sourceTree = "<group>"; };
+		E22CC80D2B1A301C007C3B30 /* Melania.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Melania.m4a; sourceTree = "<group>"; };
+		E22CC80E2B1A301C007C3B30 /* Small loan of a million dollars.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Small loan of a million dollars.m4a"; sourceTree = "<group>"; };
+		E22CC80F2B1A301D007C3B30 /* Car factory.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Car factory.m4a"; sourceTree = "<group>"; };
+		E22CC8102B1A301D007C3B30 /* That i will faithfully.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "That i will faithfully.m4a"; sourceTree = "<group>"; };
+		E22CC8112B1A301D007C3B30 /* Magnificant.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Magnificant.m4a; sourceTree = "<group>"; };
+		E22CC8122B1A301D007C3B30 /* Employ people.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Employ people.m4a"; sourceTree = "<group>"; };
+		E22CC8132B1A301D007C3B30 /* Dream even bigger.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dream even bigger.m4a"; sourceTree = "<group>"; };
+		E22CC8142B1A301D007C3B30 /* Winning like never before.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Winning like never before.m4a"; sourceTree = "<group>"; };
+		E22CC8152B1A301D007C3B30 /* Im a free trader.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Im a free trader.m4a"; sourceTree = "<group>"; };
+		E22CC8162B1A301D007C3B30 /* Think big.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Think big.m4a"; sourceTree = "<group>"; };
+		E22CC8172B1A301D007C3B30 /* And some i assume are good people.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "And some i assume are good people.m4a"; sourceTree = "<group>"; };
+		E22CC8182B1A301D007C3B30 /* Yes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yes.m4a; sourceTree = "<group>"; };
+		E22CC8192B1A301D007C3B30 /* Listen to this.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Listen to this.m4a"; sourceTree = "<group>"; };
+		E22CC81A2B1A301D007C3B30 /* Chrysler.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chrysler.m4a; sourceTree = "<group>"; };
+		E22CC81B2B1A301D007C3B30 /* Look at those numbers.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Look at those numbers.m4a"; sourceTree = "<group>"; };
+		E22CC81C2B1A301D007C3B30 /* Sit down.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sit down.m4a"; sourceTree = "<group>"; };
+		E22CC81D2B1A301D007C3B30 /* Hacking is bad.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacking is bad.m4a"; sourceTree = "<group>"; };
+		E22CC81E2B1A301D007C3B30 /* Probably china.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Probably china.m4a"; sourceTree = "<group>"; };
+		E22CC81F2B1A301D007C3B30 /* Is your country.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Is your country.m4a"; sourceTree = "<group>"; };
+		E22CC8202B1A301D007C3B30 /* Stamina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stamina.m4a; sourceTree = "<group>"; };
+		E22CC8212B1A301E007C3B30 /* I will be.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I will be.m4a"; sourceTree = "<group>"; };
+		E22CC8222B1A301E007C3B30 /* All talk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All talk.m4a"; sourceTree = "<group>"; };
+		E22CC8232B1A301E007C3B30 /* Dont take responsibility.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dont take responsibility.m4a"; sourceTree = "<group>"; };
+		E22CC8242B1A301E007C3B30 /* Nobody like me.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nobody like me.m4a"; sourceTree = "<group>"; };
+		E22CC8252B1A301E007C3B30 /* Ive always known.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ive always known.m4a"; sourceTree = "<group>"; };
+		E22CC8262B1A301E007C3B30 /* Corona virus outbreak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Corona virus outbreak.m4a"; sourceTree = "<group>"; };
+		E22CC8272B1A301E007C3B30 /* We have loosers.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We have loosers.m4a"; sourceTree = "<group>"; };
+		E22CC8282B1A301E007C3B30 /* I dont want that.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I dont want that.m4a"; sourceTree = "<group>"; };
+		E22CC8292B1A301E007C3B30 /* Its gonna happen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its gonna happen.m4a"; sourceTree = "<group>"; };
+		E22CC82A2B1A301E007C3B30 /* And will.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "And will.m4a"; sourceTree = "<group>"; };
+		E22CC82B2B1A301E007C3B30 /* A truly great leader.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A truly great leader.m4a"; sourceTree = "<group>"; };
+		E22CC82C2B1A301E007C3B30 /* Dont worry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dont worry.m4a"; sourceTree = "<group>"; };
+		E22CC82D2B1A301E007C3B30 /* What a beautiful baby.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "What a beautiful baby.m4a"; sourceTree = "<group>"; };
+		E22CC82E2B1A301E007C3B30 /* Tremendous potential.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tremendous potential.m4a"; sourceTree = "<group>"; };
+		E22CC82F2B1A301E007C3B30 /* For whatever reason.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "For whatever reason.m4a"; sourceTree = "<group>"; };
+		E22CC8302B1A301E007C3B30 /* Billions and billions.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Billions and billions.m4a"; sourceTree = "<group>"; };
+		E22CC8312B1A301E007C3B30 /* Our country needs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Our country needs.m4a"; sourceTree = "<group>"; };
+		E22CC8322B1A301F007C3B30 /* I think it was russia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I think it was russia.m4a"; sourceTree = "<group>"; };
+		E22CC8332B1A301F007C3B30 /* Ready willing able.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ready willing able.m4a"; sourceTree = "<group>"; };
+		E22CC8342B1A301F007C3B30 /* We have the best people in the world.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We have the best people in the world.m4a"; sourceTree = "<group>"; };
+		E22CC8352B1A301F007C3B30 /* Fake news.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fake news.m4a"; sourceTree = "<group>"; };
+		E22CC8362B1A301F007C3B30 /* Monday friday.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Monday friday.m4a"; sourceTree = "<group>"; };
+		E22CC8372B1A301F007C3B30 /* Thats a problem to me.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thats a problem to me.m4a"; sourceTree = "<group>"; };
+		E22CC8382B1A301F007C3B30 /* The usa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The usa.m4a"; sourceTree = "<group>"; };
+		E22CC8392B1A301F007C3B30 /* We have to get together.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We have to get together.m4a"; sourceTree = "<group>"; };
+		E22CC83A2B1A301F007C3B30 /* Everyone is listening to you now.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Everyone is listening to you now.m4a"; sourceTree = "<group>"; };
+		E22CC83B2B1A301F007C3B30 /* Down to close to zero.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Down to close to zero.m4a"; sourceTree = "<group>"; };
+		E22CC83C2B1A301F007C3B30 /* Go crazy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Go crazy.m4a"; sourceTree = "<group>"; };
+		E22CC83D2B1A301F007C3B30 /* Make usa proud.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Make usa proud.m4a"; sourceTree = "<group>"; };
+		E22CC83E2B1A301F007C3B30 /* Putin likes donald trump.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Putin likes donald trump.m4a"; sourceTree = "<group>"; };
+		E22CC83F2B1A301F007C3B30 /* I dont believe stamina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I dont believe stamina.m4a"; sourceTree = "<group>"; };
+		E22CC8402B1A301F007C3B30 /* All across america.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All across america.m4a"; sourceTree = "<group>"; };
+		E22CC8412B1A301F007C3B30 /* Ivanca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ivanca.m4a; sourceTree = "<group>"; };
+		E22CC8422B1A301F007C3B30 /* Hmm thats strange.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hmm thats strange.m4a"; sourceTree = "<group>"; };
+		E22CC8432B1A301F007C3B30 /* Nope.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nope.m4a; sourceTree = "<group>"; };
+		E22CC8442B1A3020007C3B30 /* Not so small.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Not so small.m4a"; sourceTree = "<group>"; };
+		E22CC8452B1A3020007C3B30 /* Give me a break.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Give me a break.m4a"; sourceTree = "<group>"; };
+		E22CC8462B1A3020007C3B30 /* Our drug industy has been desastorous.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Our drug industy has been desastorous.m4a"; sourceTree = "<group>"; };
+		E22CC8472B1A3020007C3B30 /* The bushe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The bushe.m4a"; sourceTree = "<group>"; };
+		E22CC8482B1A3020007C3B30 /* Transfering power.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Transfering power.m4a"; sourceTree = "<group>"; };
+		E22CC8492B1A3020007C3B30 /* Good news.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Good news.m4a"; sourceTree = "<group>"; };
+		E22CC84A2B1A3020007C3B30 /* Us hacked by everybody.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Us hacked by everybody.m4a"; sourceTree = "<group>"; };
+		E22CC84B2B1A3020007C3B30 /* Donald trump.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Donald trump.m4a"; sourceTree = "<group>"; };
+		E22CC84C2B1A3020007C3B30 /* We must protect our borders.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We must protect our borders.m4a"; sourceTree = "<group>"; };
+		E22CC84D2B1A3020007C3B30 /* Its all over the world.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its all over the world.m4a"; sourceTree = "<group>"; };
+		E22CC84E2B1A3020007C3B30 /* Its a very though thing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its a very though thing.m4a"; sourceTree = "<group>"; };
+		E22CC84F2B1A3020007C3B30 /* Mexico will pay for the wall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mexico will pay for the wall.m4a"; sourceTree = "<group>"; };
+		E22CC8502B1A3020007C3B30 /* Billion dollar plant.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Billion dollar plant.m4a"; sourceTree = "<group>"; };
+		E22CC8512B1A3021007C3B30 /* China all the time.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "China all the time.m4a"; sourceTree = "<group>"; };
+		E22CC8522B1A3021007C3B30 /* Off.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Off.m4a; sourceTree = "<group>"; };
+		E22CC8532B1A3021007C3B30 /* Owe japan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Owe japan.m4a"; sourceTree = "<group>"; };
+		E22CC8542B1A3021007C3B30 /* Empty talk.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Empty talk.m4a"; sourceTree = "<group>"; };
+		E22CC8552B1A3021007C3B30 /* Its all fake news.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its all fake news.m4a"; sourceTree = "<group>"; };
+		E22CC8562B1A3021007C3B30 /* Maybe i want something else.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maybe i want something else.m4a"; sourceTree = "<group>"; };
+		E22CC8572B1A3021007C3B30 /* Constantly complaining.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Constantly complaining.m4a"; sourceTree = "<group>"; };
+		E22CC8582B1A3021007C3B30 /* No get those lights off.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "No get those lights off.m4a"; sourceTree = "<group>"; };
+		E22CC8592B1A3021007C3B30 /* And american families.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "And american families.m4a"; sourceTree = "<group>"; };
+		E22CC85A2B1A3021007C3B30 /* Sold appartment.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sold appartment.m4a"; sourceTree = "<group>"; };
+		E22CC85B2B1A3021007C3B30 /* Very poor job.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Very poor job.m4a"; sourceTree = "<group>"; };
+		E22CC85C2B1A3021007C3B30 /* New hoax.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "New hoax.m4a"; sourceTree = "<group>"; };
+		E22CC85D2B1A3021007C3B30 /* We are going to build a wall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We are going to build a wall.m4a"; sourceTree = "<group>"; };
+		E22CC85E2B1A3022007C3B30 /* We will not fail.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We will not fail.m4a"; sourceTree = "<group>"; };
+		E22CC85F2B1A3022007C3B30 /* You will never be ignored again.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You will never be ignored again.m4a"; sourceTree = "<group>"; };
+		E22CC8602B1A3022007C3B30 /* Our great country.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Our great country.m4a"; sourceTree = "<group>"; };
+		E22CC8612B1A3022007C3B30 /* This is so important to me.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "This is so important to me.m4a"; sourceTree = "<group>"; };
+		E22CC8622B1A3022007C3B30 /* Tremendous talent.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tremendous talent.m4a"; sourceTree = "<group>"; };
+		E22CC8632B1A3022007C3B30 /* The likes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The likes.m4a"; sourceTree = "<group>"; };
+		E22CC8642B1A3022007C3B30 /* Dont win any more.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dont win any more.m4a"; sourceTree = "<group>"; };
+		E22CC8652B1A3022007C3B30 /* Buy american.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Buy american.m4a"; sourceTree = "<group>"; };
+		E22CC8662B1A3022007C3B30 /* If they are small.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "If they are small.m4a"; sourceTree = "<group>"; };
+		E22CC8672B1A3022007C3B30 /* Hacking defence.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hacking defence.m4a"; sourceTree = "<group>"; };
+		E22CC8682B1A3022007C3B30 /* I run i win.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I run i win.m4a"; sourceTree = "<group>"; };
+		E22CC8692B1A3022007C3B30 /* Ordering elements.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ordering elements.m4a"; sourceTree = "<group>"; };
+		E22CC86A2B1A3022007C3B30 /* Fully understand.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fully understand.m4a"; sourceTree = "<group>"; };
+		E22CC86B2B1A3022007C3B30 /* People of the world.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "People of the world.m4a"; sourceTree = "<group>"; };
+		E22CC86C2B1A3022007C3B30 /* Rosie o donnald.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rosie o donnald.m4a"; sourceTree = "<group>"; };
+		E22CC86D2B1A3022007C3B30 /* Big big.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Big big.m4a"; sourceTree = "<group>"; };
+		E22CC86E2B1A3023007C3B30 /* Something wrong with you.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Something wrong with you.m4a"; sourceTree = "<group>"; };
+		E22CC86F2B1A3023007C3B30 /* We owe china.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We owe china.m4a"; sourceTree = "<group>"; };
+		E22CC8702B1A3023007C3B30 /* Bigger.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bigger.m4a; sourceTree = "<group>"; };
+		E22CC8712B1A3023007C3B30 /* Low energy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Low energy.m4a"; sourceTree = "<group>"; };
+		E22CC8722B1A3023007C3B30 /* Never doing anything about it.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Never doing anything about it.m4a"; sourceTree = "<group>"; };
+		E22CC8732B1A3023007C3B30 /* Who makes these deals.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Who makes these deals.m4a"; sourceTree = "<group>"; };
+		E22CC8752B1A3023007C3B30 /* What a mess id be.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "What a mess id be.m4a"; sourceTree = "<group>"; };
+		E22CC8762B1A3023007C3B30 /* The hour of action.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The hour of action.m4a"; sourceTree = "<group>"; };
+		E22CC8772B1A3023007C3B30 /* The wall 10 feet higher.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The wall 10 feet higher.m4a"; sourceTree = "<group>"; };
+		E22CC8782B1A3023007C3B30 /* You ve had enough.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You ve had enough.m4a"; sourceTree = "<group>"; };
+		E22CC8792B1A3023007C3B30 /* America first.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "America first.m4a"; sourceTree = "<group>"; };
+		E22CC87A2B1A3023007C3B30 /* I love china.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I love china.m4a"; sourceTree = "<group>"; };
+		E22CC87C2B1A3023007C3B30 /* We dont konw.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We dont konw.m4a"; sourceTree = "<group>"; };
+		E22CC87D2B1A3023007C3B30 /* We have great talent.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We have great talent.m4a"; sourceTree = "<group>"; };
+		E22CC87E2B1A3024007C3B30 /* Preserve protect.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Preserve protect.m4a"; sourceTree = "<group>"; };
+		E22CC87F2B1A3024007C3B30 /* We are looking only to the future.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We are looking only to the future.m4a"; sourceTree = "<group>"; };
+		E22CC8802B1A3024007C3B30 /* I order 4000 tvs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I order 4000 tvs.m4a"; sourceTree = "<group>"; };
+		E22CC8812B1A3024007C3B30 /* Everybody.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Everybody.m4a; sourceTree = "<group>"; };
+		E22CC8822B1A3024007C3B30 /* Japan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Japan.m4a; sourceTree = "<group>"; };
+		E22CC8832B1A3024007C3B30 /* Net worth.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Net worth.m4a"; sourceTree = "<group>"; };
+		E22CC8842B1A3024007C3B30 /* Incredible people.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Incredible people.m4a"; sourceTree = "<group>"; };
+		E22CC8852B1A3024007C3B30 /* What i say is what i say.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "What i say is what i say.m4a"; sourceTree = "<group>"; };
+		E22CC8862B1A3024007C3B30 /* So well under control.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "So well under control.m4a"; sourceTree = "<group>"; };
+		E22CC8872B1A3024007C3B30 /* Promised land.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Promised land.m4a"; sourceTree = "<group>"; };
+		E22CC8882B1A3024007C3B30 /* The office of.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The office of.m4a"; sourceTree = "<group>"; };
+		E22CC8892B1A3024007C3B30 /* Confidential.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Confidential.m4a; sourceTree = "<group>"; };
+		E22CC88A2B1A3024007C3B30 /* They are totally brilliant.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "They are totally brilliant.m4a"; sourceTree = "<group>"; };
+		E22CC88B2B1A3024007C3B30 /* Modern technology.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Modern technology.m4a"; sourceTree = "<group>"; };
+		E22CC88C2B1A3024007C3B30 /* And hire american.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "And hire american.m4a"; sourceTree = "<group>"; };
+		E22CC88D2B1A3024007C3B30 /* High profil person.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "High profil person.m4a"; sourceTree = "<group>"; };
+		E22CC88E2B1A3024007C3B30 /* I want more than a wall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I want more than a wall.m4a"; sourceTree = "<group>"; };
+		E22CC8902B1A3025007C3B30 /* I love you.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I love you.m4a"; sourceTree = "<group>"; };
+		E22CC8912B1A3025007C3B30 /* Is dead.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Is dead.m4a"; sourceTree = "<group>"; };
+		E22CC8922B1A3025007C3B30 /* Benefit american workers.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Benefit american workers.m4a"; sourceTree = "<group>"; };
+		E22CC8932B1A3025007C3B30 /* Obama care complete total desaster.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Obama care complete total desaster.m4a"; sourceTree = "<group>"; };
+		E22CC8942B1A3025007C3B30 /* Ph of course he is going to say that.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ph of course he is going to say that.m4a"; sourceTree = "<group>"; };
+		E22CC8952B1A3025007C3B30 /* Going down not up.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Going down not up.m4a"; sourceTree = "<group>"; };
+		E22CC8962B1A3025007C3B30 /* Look at those hands.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Look at those hands.m4a"; sourceTree = "<group>"; };
+		E22CC8972B1A3025007C3B30 /* Confiscate their coats.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Confiscate their coats.m4a"; sourceTree = "<group>"; };
+		E22CC8982B1A3025007C3B30 /* No.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = No.m4a; sourceTree = "<group>"; };
+		E22CC8992B1A3025007C3B30 /* That will happen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "That will happen.m4a"; sourceTree = "<group>"; };
+		E22CC89A2B1A3025007C3B30 /* Small and large.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Small and large.m4a"; sourceTree = "<group>"; };
+		E22CC89B2B1A3025007C3B30 /* Not a nice person.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Not a nice person.m4a"; sourceTree = "<group>"; };
+		E22CC89C2B1A3025007C3B30 /* Build a wall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Build a wall.m4a"; sourceTree = "<group>"; };
+		E22CC89D2B1A3025007C3B30 /* The coronavirus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The coronavirus.m4a"; sourceTree = "<group>"; };
+		E22CC89E2B1A3025007C3B30 /* And stronger.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "And stronger.m4a"; sourceTree = "<group>"; };
+		E22CC89F2B1A3025007C3B30 /* Beautiful things.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Beautiful things.m4a"; sourceTree = "<group>"; };
+		E22CC8A02B1A3026007C3B30 /* Make usa strong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Make usa strong.m4a"; sourceTree = "<group>"; };
+		E22CC8A12B1A3026007C3B30 /* I will bring it back.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I will bring it back.m4a"; sourceTree = "<group>"; };
+		E22CC8A22B1A3026007C3B30 /* Bigly.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bigly.m4a; sourceTree = "<group>"; };
+		E22CC8A32B1A3026007C3B30 /* I dont believe that hillary stamina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I dont believe that hillary stamina.m4a"; sourceTree = "<group>"; };
+		E22CC8A42B1A3026007C3B30 /* A truly great job.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A truly great job.m4a"; sourceTree = "<group>"; };
+		E22CC8A52B1A3026007C3B30 /* The top of the line.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The top of the line.m4a"; sourceTree = "<group>"; };
+		E22CC8A62B1A3026007C3B30 /* I never drank ok.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I never drank ok.m4a"; sourceTree = "<group>"; };
+		E22CC8A72B1A3026007C3B30 /* No action.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "No action.m4a"; sourceTree = "<group>"; };
+		E22CC8A82B1A3026007C3B30 /* Did not drink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Did not drink.m4a"; sourceTree = "<group>"; };
+		E22CC8A92B1A3026007C3B30 /* Tremendous people.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tremendous people.m4a"; sourceTree = "<group>"; };
+		E22CC8AA2B1A3026007C3B30 /* Can you imagein if i had.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Can you imagein if i had.m4a"; sourceTree = "<group>"; };
+		E22CC8AB2B1A3026007C3B30 /* Congrats.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Congrats.m4a; sourceTree = "<group>"; };
+		E22CC8AC2B1A3026007C3B30 /* We re hacked by everybody.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We re hacked by everybody.m4a"; sourceTree = "<group>"; };
+		E22CC8AD2B1A3026007C3B30 /* You re fired.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You re fired.m4a"; sourceTree = "<group>"; };
+		E22CC8AE2B1A3026007C3B30 /* Get the wall started.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Get the wall started.m4a"; sourceTree = "<group>"; };
+		E22CC8AF2B1A3026007C3B30 /* Its going to be only.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Its going to be only.m4a"; sourceTree = "<group>"; };
+		E22CC8B02B1A3026007C3B30 /* Transfer of power.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Transfer of power.m4a"; sourceTree = "<group>"; };
+		E22CC8B12B1A3026007C3B30 /* That all changes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "That all changes.m4a"; sourceTree = "<group>"; };
+		E22CC8B22B1A3027007C3B30 /* You ve been reading about it.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You ve been reading about it.m4a"; sourceTree = "<group>"; };
+		E22CC8B32B1A3027007C3B30 /* Be careful.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Be careful.m4a"; sourceTree = "<group>"; };
+		E22CC8B42B1A3027007C3B30 /* Many many millions of dollars.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Many many millions of dollars.m4a"; sourceTree = "<group>"; };
+		E22CC8B52B1A3027007C3B30 /* This is a real.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "This is a real.m4a"; sourceTree = "<group>"; };
+		E22CC8B62B1A3027007C3B30 /* You better be careful.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You better be careful.m4a"; sourceTree = "<group>"; };
+		E22CC8B72B1A3027007C3B30 /* Ordering supplies.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ordering supplies.m4a"; sourceTree = "<group>"; };
+		E22CC8B82B1A3027007C3B30 /* Thats all right.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thats all right.m4a"; sourceTree = "<group>"; };
+		E22CC8B92B1A3027007C3B30 /* Eieiei.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eieiei.m4a; sourceTree = "<group>"; };
+		E22CC8BA2B1A3027007C3B30 /* I donald john.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I donald john.m4a"; sourceTree = "<group>"; };
+		E22CC8BC2B1A3027007C3B30 /* Little bit of luck.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Little bit of luck.m4a"; sourceTree = "<group>"; };
+		E22CC8BD2B1A3027007C3B30 /* You have to speak english.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You have to speak english.m4a"; sourceTree = "<group>"; };
+		E22CC8BE2B1A3027007C3B30 /* We are one nation.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "We are one nation.m4a"; sourceTree = "<group>"; };
+		E22CC8BF2B1A3027007C3B30 /* Saw a lot of people drinking.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saw a lot of people drinking.m4a"; sourceTree = "<group>"; };
+		E22CC8C02B1A3027007C3B30 /* Probably trillions.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Probably trillions.m4a"; sourceTree = "<group>"; };
+		E22CC8C12B1A3027007C3B30 /* Tell you this.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tell you this.m4a"; sourceTree = "<group>"; };
+		E22CC8C22B1A3027007C3B30 /* Cant beat mexico.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cant beat mexico.m4a"; sourceTree = "<group>"; };
+		E22CC8C32B1A3028007C3B30 /* She does not have the stamina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "She does not have the stamina.m4a"; sourceTree = "<group>"; };
+		E22CC8C42B1A3028007C3B30 /* False and fake.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "False and fake.m4a"; sourceTree = "<group>"; };
+		E22CC8C52B1A3028007C3B30 /* Tremendous.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tremendous.m4a; sourceTree = "<group>"; };
+		E22CC8C62B1A3028007C3B30 /* Turn off the lights.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Turn off the lights.m4a"; sourceTree = "<group>"; };
+		E22CC8C72B1A3028007C3B30 /* I have the best words.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I have the best words.m4a"; sourceTree = "<group>"; };
+		E22CC8C82B1A3028007C3B30 /* Tiffany.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tiffany.m4a; sourceTree = "<group>"; };
+		E22CC8C92B1A3028007C3B30 /* Whatever you want.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Whatever you want.m4a"; sourceTree = "<group>"; };
+		E22CC8CA2B1A3028007C3B30 /* Ll sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ll sound.m4a"; sourceTree = "<group>"; };
+		E22CC8CB2B1A3028007C3B30 /* And right now.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "And right now.m4a"; sourceTree = "<group>"; };
+		E22CC8CC2B1A3028007C3B30 /* I dont care.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I dont care.m4a"; sourceTree = "<group>"; };
+		E22CC8CD2B1A3028007C3B30 /* Will be forgotten no longer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Will be forgotten no longer.m4a"; sourceTree = "<group>"; };
+		E22CC8CE2B1A3028007C3B30 /* Graduated from highschool.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Graduated from highschool.m4a"; sourceTree = "<group>"; };
+		E22CC8CF2B1A3028007C3B30 /* Tremendous things.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tremendous things.m4a"; sourceTree = "<group>"; };
+		E22CC8D02B1A3028007C3B30 /* Thank you.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thank you.m4a"; sourceTree = "<group>"; };
+		E22CC8D12B1A3028007C3B30 /* Huge.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Huge.m4a; sourceTree = "<group>"; };
+		E22CC8D22B1A3028007C3B30 /* Little bit different.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Little bit different.m4a"; sourceTree = "<group>"; };
+		E22CC8D32B1A3029007C3B30 /* To sb from china.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To sb from china.m4a"; sourceTree = "<group>"; };
+		E22CC8D42B1A3029007C3B30 /* Putin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Putin.m4a; sourceTree = "<group>"; };
 		E29319C12B189E4200D3C461 /* Kamraci Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kamraci Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29319C72B189E4400D3C461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E29319CA2B189E4400D3C461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -2164,7 +2888,6 @@
 		E2E8C30A2B1A0F8300C37F6A /* Nie wiem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie wiem.m4a"; sourceTree = "<group>"; };
 		E2E8C30B2B1A0F8300C37F6A /* Trawkę.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Trawkę.m4a"; sourceTree = "<group>"; };
 		E2E8C30C2B1A0F8300C37F6A /* Podejmij tą rękawiczkę.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Podejmij tą rękawiczkę.m4a"; sourceTree = "<group>"; };
-		E2E8C30D2B1A0F8300C37F6A /* Tak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tak.m4a; sourceTree = "<group>"; };
 		E2E8C30E2B1A0F8300C37F6A /* A wtedy się opamiętacie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A wtedy się opamiętacie.m4a"; sourceTree = "<group>"; };
 		E2E8C30F2B1A0F8300C37F6A /* Bardzo smaczne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bardzo smaczne.m4a"; sourceTree = "<group>"; };
 		E2E8C3102B1A0F8300C37F6A /* Ale zobaczcie łóżko Majora puste.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ale zobaczcie łóżko Majora puste.m4a"; sourceTree = "<group>"; };
@@ -2368,7 +3091,7 @@
 		E2E8C3E22B1A0F9200C37F6A /* Rozpuszczalniki.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rozpuszczalniki.m4a; sourceTree = "<group>"; };
 		E2E8C3E32B1A0F9200C37F6A /* Żeby Polska była Polską.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Żeby Polska była Polską.m4a"; sourceTree = "<group>"; };
 		E2E8C3E42B1A0F9200C37F6A /* Ma.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ma.m4a; sourceTree = "<group>"; };
-		E2E8C3E52B1A0F9200C37F6A /* Tak(1).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tak(1).m4a"; sourceTree = "<group>"; };
+		E2E8C3E52B1A0F9200C37F6A /* Tak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tak.m4a; sourceTree = "<group>"; };
 		E2E8C3E62B1A0F9200C37F6A /* Prawdopodobnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prawdopodobnie.m4a; sourceTree = "<group>"; };
 		E2E8C3E72B1A0F9200C37F6A /* Zginiesz marnie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zginiesz marnie.m4a"; sourceTree = "<group>"; };
 		E2E8C3E82B1A0F9200C37F6A /* Nie róbcie tego bo to nie jest żarty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie róbcie tego bo to nie jest żarty.m4a"; sourceTree = "<group>"; };
@@ -2918,6 +3641,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E22CC7472B1A24A6007C3B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22CC75D2B1A2708007C3B30 /* RealmSwift in Frameworks */,
+				E22CC75B2B1A2708007C3B30 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E29319BE2B189E4200D3C461 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -2966,6 +3698,388 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E22CC74B2B1A24A6007C3B30 /* TrumpBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E22CC7582B1A24FF007C3B30 /* Resources */,
+				E22CC7522B1A24A7007C3B30 /* Preview Content */,
+			);
+			path = TrumpBoard;
+			sourceTree = "<group>";
+		};
+		E22CC7522B1A24A7007C3B30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E22CC7532B1A24A7007C3B30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E22CC7582B1A24FF007C3B30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E22CC7502B1A24A7007C3B30 /* Assets.xcassets */,
+				E22CC7592B1A2506007C3B30 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E22CC7592B1A2506007C3B30 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E22CC8A42B1A3026007C3B30 /* A truly great job.m4a */,
+				E22CC82B2B1A301E007C3B30 /* A truly great leader.m4a */,
+				E22CC77B2B1A3014007C3B30 /* Absolutely.m4a */,
+				E22CC8402B1A301F007C3B30 /* All across america.m4a */,
+				E22CC8222B1A301E007C3B30 /* All talk.m4a */,
+				E22CC7EF2B1A301B007C3B30 /* All the time.m4a */,
+				E22CC8792B1A3023007C3B30 /* America first.m4a */,
+				E22CC7CA2B1A3019007C3B30 /* America is unstoppable.m4a */,
+				E22CC7B22B1A3017007C3B30 /* American dream.m4a */,
+				E22CC8592B1A3021007C3B30 /* And american families.m4a */,
+				E22CC88C2B1A3024007C3B30 /* And hire american.m4a */,
+				E22CC7992B1A3016007C3B30 /* And i thank you.m4a */,
+				E22CC8CB2B1A3028007C3B30 /* And right now.m4a */,
+				E22CC8172B1A301D007C3B30 /* And some i assume are good people.m4a */,
+				E22CC89E2B1A3025007C3B30 /* And stronger.m4a */,
+				E22CC82A2B1A301E007C3B30 /* And will.m4a */,
+				E22CC8072B1A301C007C3B30 /* Are they small hands.m4a */,
+				E22CC7CD2B1A3019007C3B30 /* Barak obama.m4a */,
+				E22CC8B32B1A3027007C3B30 /* Be careful.m4a */,
+				E22CC7C82B1A3019007C3B30 /* Be very careful.m4a */,
+				E22CC7E42B1A301A007C3B30 /* Beat china.m4a */,
+				E22CC89F2B1A3025007C3B30 /* Beautiful things.m4a */,
+				E22CC8922B1A3025007C3B30 /* Benefit american workers.m4a */,
+				E22CC7EB2B1A301B007C3B30 /* Better.m4a */,
+				E22CC86D2B1A3022007C3B30 /* Big big.m4a */,
+				E22CC8702B1A3023007C3B30 /* Bigger.m4a */,
+				E22CC8A22B1A3026007C3B30 /* Bigly.m4a */,
+				E22CC8502B1A3020007C3B30 /* Billion dollar plant.m4a */,
+				E22CC8302B1A301E007C3B30 /* Billions and billions.m4a */,
+				E22CC89C2B1A3025007C3B30 /* Build a wall.m4a */,
+				E22CC7D62B1A3019007C3B30 /* Built quickly.m4a */,
+				E22CC79F2B1A3016007C3B30 /* Bumbumbum.m4a */,
+				E22CC8652B1A3022007C3B30 /* Buy american.m4a */,
+				E22CC80A2B1A301C007C3B30 /* Cameras all over the place.m4a */,
+				E22CC7742B1A3013007C3B30 /* Cameras in strange places.m4a */,
+				E22CC8AA2B1A3026007C3B30 /* Can you imagein if i had.m4a */,
+				E22CC8C22B1A3027007C3B30 /* Cant beat mexico.m4a */,
+				E22CC80F2B1A301D007C3B30 /* Car factory.m4a */,
+				E22CC8512B1A3021007C3B30 /* China all the time.m4a */,
+				E22CC7B12B1A3017007C3B30 /* China.m4a */,
+				E22CC81A2B1A301D007C3B30 /* Chrysler.m4a */,
+				E22CC7982B1A3016007C3B30 /* Classified.m4a */,
+				E22CC8892B1A3024007C3B30 /* Confidential.m4a */,
+				E22CC8972B1A3025007C3B30 /* Confiscate their coats.m4a */,
+				E22CC8AB2B1A3026007C3B30 /* Congrats.m4a */,
+				E22CC8572B1A3021007C3B30 /* Constantly complaining.m4a */,
+				E22CC8262B1A301E007C3B30 /* Corona virus outbreak.m4a */,
+				E22CC7882B1A3015007C3B30 /* Coronavirus.m4a */,
+				E22CC7752B1A3013007C3B30 /* Country in trouble.m4a */,
+				E22CC8A82B1A3026007C3B30 /* Did not drink.m4a */,
+				E22CC7D82B1A3019007C3B30 /* Did you ask me a question.m4a */,
+				E22CC7FA2B1A301B007C3B30 /* Does not exist.m4a */,
+				E22CC84B2B1A3020007C3B30 /* Donald trump.m4a */,
+				E22CC77D2B1A3014007C3B30 /* Dont beat china in trade.m4a */,
+				E22CC7B92B1A3018007C3B30 /* Dont beat china.m4a */,
+				E22CC7CF2B1A3019007C3B30 /* Dont drink.m4a */,
+				E22CC7FF2B1A301C007C3B30 /* Dont know whats happening.m4a */,
+				E22CC8232B1A301E007C3B30 /* Dont take responsibility.m4a */,
+				E22CC8642B1A3022007C3B30 /* Dont win any more.m4a */,
+				E22CC82C2B1A301E007C3B30 /* Dont worry.m4a */,
+				E22CC83B2B1A301F007C3B30 /* Down to close to zero.m4a */,
+				E22CC7DB2B1A301A007C3B30 /* Drank a lot.m4a */,
+				E22CC8132B1A301D007C3B30 /* Dream even bigger.m4a */,
+				E22CC7BC2B1A3018007C3B30 /* Drug industry.m4a */,
+				E22CC8B92B1A3027007C3B30 /* Eieiei.m4a */,
+				E22CC8122B1A301D007C3B30 /* Employ people.m4a */,
+				E22CC8542B1A3021007C3B30 /* Empty talk.m4a */,
+				E22CC7DE2B1A301A007C3B30 /* Every decision.m4a */,
+				E22CC8812B1A3024007C3B30 /* Everybody.m4a */,
+				E22CC83A2B1A301F007C3B30 /* Everyone is listening to you now.m4a */,
+				E22CC77E2B1A3014007C3B30 /* Factories closed.m4a */,
+				E22CC8352B1A301F007C3B30 /* Fake news.m4a */,
+				E22CC8C42B1A3028007C3B30 /* False and fake.m4a */,
+				E22CC7A02B1A3016007C3B30 /* Fantastic.m4a */,
+				E22CC7D32B1A3019007C3B30 /* Fellow americans.m4a */,
+				E22CC7DC2B1A301A007C3B30 /* Fiat.m4a */,
+				E22CC7B32B1A3017007C3B30 /* First lady.m4a */,
+				E22CC7F12B1A301B007C3B30 /* Five houndred billion dollars.m4a */,
+				E22CC7A82B1A3016007C3B30 /* Follow two simple rules.m4a */,
+				E22CC82F2B1A301E007C3B30 /* For whatever reason.m4a */,
+				E22CC7BE2B1A3018007C3B30 /* Ford.m4a */,
+				E22CC7AD2B1A3017007C3B30 /* From this day forward.m4a */,
+				E22CC86A2B1A3022007C3B30 /* Fully understand.m4a */,
+				E22CC7D42B1A3019007C3B30 /* General.m4a */,
+				E22CC7FE2B1A301C007C3B30 /* Germophob.m4a */,
+				E22CC79B2B1A3016007C3B30 /* Get the job done.m4a */,
+				E22CC8AE2B1A3026007C3B30 /* Get the wall started.m4a */,
+				E22CC8452B1A3020007C3B30 /* Give me a break.m4a */,
+				E22CC7F82B1A301B007C3B30 /* Gm.m4a */,
+				E22CC83C2B1A301F007C3B30 /* Go crazy.m4a */,
+				E22CC8952B1A3025007C3B30 /* Going down not up.m4a */,
+				E22CC8492B1A3020007C3B30 /* Good news.m4a */,
+				E22CC8CE2B1A3028007C3B30 /* Graduated from highschool.m4a */,
+				E22CC7BB2B1A3018007C3B30 /* Great company.m4a */,
+				E22CC79E2B1A3016007C3B30 /* Great great relationships.m4a */,
+				E22CC7862B1A3014007C3B30 /* Greatest jobs producer god ever created.m4a */,
+				E22CC7F92B1A301B007C3B30 /* Greatest president.m4a */,
+				E22CC8672B1A3022007C3B30 /* Hacking defence.m4a */,
+				E22CC81D2B1A301D007C3B30 /* Hacking is bad.m4a */,
+				E22CC7BA2B1A3018007C3B30 /* Have to get going.m4a */,
+				E22CC7892B1A3015007C3B30 /* Hes fantastic.m4a */,
+				E22CC88D2B1A3024007C3B30 /* High profil person.m4a */,
+				E22CC8422B1A301F007C3B30 /* Hmm thats strange.m4a */,
+				E22CC8D12B1A3028007C3B30 /* Huge.m4a */,
+				E22CC7722B1A2CF7007C3B30 /* I did not drink.m4a */,
+				E22CC8BA2B1A3027007C3B30 /* I donald john.m4a */,
+				E22CC83F2B1A301F007C3B30 /* I dont believe stamina.m4a */,
+				E22CC8A32B1A3026007C3B30 /* I dont believe that hillary stamina.m4a */,
+				E22CC8CC2B1A3028007C3B30 /* I dont care.m4a */,
+				E22CC7FB2B1A301B007C3B30 /* I dont like that.m4a */,
+				E22CC8282B1A301E007C3B30 /* I dont want that.m4a */,
+				E22CC7A62B1A3016007C3B30 /* I had truly great parents.m4a */,
+				E22CC8C72B1A3028007C3B30 /* I have the best words.m4a */,
+				E22CC7F72B1A301B007C3B30 /* I know words.m4a */,
+				E22CC7A42B1A3016007C3B30 /* I love babies.m4a */,
+				E22CC87A2B1A3023007C3B30 /* I love china.m4a */,
+				E22CC7AE2B1A3017007C3B30 /* I love our police.m4a */,
+				E22CC8902B1A3025007C3B30 /* I love you.m4a */,
+				E22CC8A62B1A3026007C3B30 /* I never drank ok.m4a */,
+				E22CC8802B1A3024007C3B30 /* I order 4000 tvs.m4a */,
+				E22CC7C72B1A3019007C3B30 /* I pay a lot of tax.m4a */,
+				E22CC8682B1A3022007C3B30 /* I run i win.m4a */,
+				E22CC7B52B1A3018007C3B30 /* I said she stamina.m4a */,
+				E22CC8322B1A301F007C3B30 /* I think it was russia.m4a */,
+				E22CC7922B1A3015007C3B30 /* I ve never had alcohol.m4a */,
+				E22CC88E2B1A3024007C3B30 /* I want more than a wall.m4a */,
+				E22CC8212B1A301E007C3B30 /* I will be.m4a */,
+				E22CC8A12B1A3026007C3B30 /* I will bring it back.m4a */,
+				E22CC7A92B1A3017007C3B30 /* I will fight for you.m4a */,
+				E22CC8662B1A3022007C3B30 /* If they are small.m4a */,
+				E22CC8152B1A301D007C3B30 /* Im a free trader.m4a */,
+				E22CC7AA2B1A3017007C3B30 /* Im gonna work very hard on that.m4a */,
+				E22CC7D92B1A301A007C3B30 /* Im sorry.m4a */,
+				E22CC7B62B1A3018007C3B30 /* In great shape.m4a */,
+				E22CC7B02B1A3017007C3B30 /* In the history of stories.m4a */,
+				E22CC8842B1A3024007C3B30 /* Incredible people.m4a */,
+				E22CC8912B1A3025007C3B30 /* Is dead.m4a */,
+				E22CC7EE2B1A301B007C3B30 /* Is over.m4a */,
+				E22CC81F2B1A301D007C3B30 /* Is your country.m4a */,
+				E22CC7872B1A3015007C3B30 /* It can happen.m4a */,
+				E22CC7DF2B1A301A007C3B30 /* It did not happen.m4a */,
+				E22CC78A2B1A3015007C3B30 /* It may get bigger.m4a */,
+				E22CC80C2B1A301C007C3B30 /* It should not be done.m4a */,
+				E22CC7F22B1A301B007C3B30 /* It will disapear.m4a */,
+				E22CC7AC2B1A3017007C3B30 /* It will go away stay calm.m4a */,
+				E22CC84E2B1A3020007C3B30 /* Its a very though thing.m4a */,
+				E22CC77C2B1A3014007C3B30 /* Its a wall.m4a */,
+				E22CC8552B1A3021007C3B30 /* Its all fake news.m4a */,
+				E22CC84D2B1A3020007C3B30 /* Its all over the world.m4a */,
+				E22CC8AF2B1A3026007C3B30 /* Its going to be only.m4a */,
+				E22CC8092B1A301C007C3B30 /* Its gonna be a beautiful thing.m4a */,
+				E22CC8292B1A301E007C3B30 /* Its gonna happen.m4a */,
+				E22CC8062B1A301C007C3B30 /* Its not a fence.m4a */,
+				E22CC77A2B1A3014007C3B30 /* Its time to remember.m4a */,
+				E22CC8412B1A301F007C3B30 /* Ivanca.m4a */,
+				E22CC8252B1A301E007C3B30 /* Ive always known.m4a */,
+				E22CC8822B1A3024007C3B30 /* Japan.m4a */,
+				E22CC7F42B1A301B007C3B30 /* Just and reasonable demands.m4a */,
+				E22CC7F02B1A301B007C3B30 /* Kay donnie don.m4a */,
+				E22CC79A2B1A3016007C3B30 /* Kind of a megaphone.m4a */,
+				E22CC8022B1A301C007C3B30 /* Left and right.m4a */,
+				E22CC8192B1A301D007C3B30 /* Listen to this.m4a */,
+				E22CC8D22B1A3028007C3B30 /* Little bit different.m4a */,
+				E22CC8BC2B1A3027007C3B30 /* Little bit of luck.m4a */,
+				E22CC8CA2B1A3028007C3B30 /* Ll sound.m4a */,
+				E22CC8962B1A3025007C3B30 /* Look at those hands.m4a */,
+				E22CC81B2B1A301D007C3B30 /* Look at those numbers.m4a */,
+				E22CC7942B1A3015007C3B30 /* Love my life.m4a */,
+				E22CC8712B1A3023007C3B30 /* Low energy.m4a */,
+				E22CC7B42B1A3017007C3B30 /* Made lot of money.m4a */,
+				E22CC8112B1A301D007C3B30 /* Magnificant.m4a */,
+				E22CC7762B1A3013007C3B30 /* Make america great again.m4a */,
+				E22CC7AB2B1A3017007C3B30 /* Make usa great.m4a */,
+				E22CC83D2B1A301F007C3B30 /* Make usa proud.m4a */,
+				E22CC7782B1A3013007C3B30 /* Make usa safe.m4a */,
+				E22CC8A02B1A3026007C3B30 /* Make usa strong.m4a */,
+				E22CC7CE2B1A3019007C3B30 /* Make usa wealthy.m4a */,
+				E22CC7E52B1A301A007C3B30 /* Makes sense.m4a */,
+				E22CC8B42B1A3027007C3B30 /* Many many millions of dollars.m4a */,
+				E22CC8562B1A3021007C3B30 /* Maybe i want something else.m4a */,
+				E22CC7F32B1A301B007C3B30 /* Maybe the intelligence agencys.m4a */,
+				E22CC80D2B1A301C007C3B30 /* Melania.m4a */,
+				E22CC78B2B1A3015007C3B30 /* Mexican gov.m4a */,
+				E22CC84F2B1A3020007C3B30 /* Mexico will pay for the wall.m4a */,
+				E22CC7E62B1A301A007C3B30 /* Mexico.m4a */,
+				E22CC88B2B1A3024007C3B30 /* Modern technology.m4a */,
+				E22CC8362B1A301F007C3B30 /* Monday friday.m4a */,
+				E22CC7A52B1A3016007C3B30 /* Mutch hacking going on.m4a */,
+				E22CC7972B1A3015007C3B30 /* Nasty.m4a */,
+				E22CC8832B1A3024007C3B30 /* Net worth.m4a */,
+				E22CC8722B1A3023007C3B30 /* Never doing anything about it.m4a */,
+				E22CC7FC2B1A301B007C3B30 /* Never let you down.m4a */,
+				E22CC85C2B1A3021007C3B30 /* New hoax.m4a */,
+				E22CC79C2B1A3016007C3B30 /* New vision govern land.m4a */,
+				E22CC8A72B1A3026007C3B30 /* No action.m4a */,
+				E22CC7EA2B1A301B007C3B30 /* No coats.m4a */,
+				E22CC8582B1A3021007C3B30 /* No get those lights off.m4a */,
+				E22CC7FD2B1A301C007C3B30 /* No rume for predjudice.m4a */,
+				E22CC7B72B1A3018007C3B30 /* No victories.m4a */,
+				E22CC8982B1A3025007C3B30 /* No.m4a */,
+				E22CC8242B1A301E007C3B30 /* Nobody like me.m4a */,
+				E22CC8432B1A301F007C3B30 /* Nope.m4a */,
+				E22CC89B2B1A3025007C3B30 /* Not a nice person.m4a */,
+				E22CC8442B1A3020007C3B30 /* Not so small.m4a */,
+				E22CC7D12B1A3019007C3B30 /* Number one tricky.m4a */,
+				E22CC8932B1A3025007C3B30 /* Obama care complete total desaster.m4a */,
+				E22CC8522B1A3021007C3B30 /* Off.m4a */,
+				E22CC7822B1A3014007C3B30 /* Oh thats not good.m4a */,
+				E22CC7B82B1A3018007C3B30 /* Ok.m4a */,
+				E22CC7AF2B1A3017007C3B30 /* Okay.m4a */,
+				E22CC7BD2B1A3018007C3B30 /* One of my only good triaits.m4a */,
+				E22CC7D52B1A3019007C3B30 /* Open heart for patriotism.m4a */,
+				E22CC8692B1A3022007C3B30 /* Ordering elements.m4a */,
+				E22CC8B72B1A3027007C3B30 /* Ordering supplies.m4a */,
+				E22CC8312B1A301E007C3B30 /* Our country needs.m4a */,
+				E22CC8462B1A3020007C3B30 /* Our drug industy has been desastorous.m4a */,
+				E22CC8602B1A3022007C3B30 /* Our great country.m4a */,
+				E22CC7812B1A3014007C3B30 /* Our wonderful nation.m4a */,
+				E22CC7DA2B1A301A007C3B30 /* Over the horizont.m4a */,
+				E22CC8532B1A3021007C3B30 /* Owe japan.m4a */,
+				E22CC86B2B1A3022007C3B30 /* People of the world.m4a */,
+				E22CC8942B1A3025007C3B30 /* Ph of course he is going to say that.m4a */,
+				E22CC8032B1A301C007C3B30 /* Politicians.m4a */,
+				E22CC87E2B1A3024007C3B30 /* Preserve protect.m4a */,
+				E22CC8082B1A301C007C3B30 /* President putin and russia.m4a */,
+				E22CC8002B1A301C007C3B30 /* President trump.m4a */,
+				E22CC7E12B1A301A007C3B30 /* Pretty good job weve done.m4a */,
+				E22CC81E2B1A301D007C3B30 /* Probably china.m4a */,
+				E22CC8C02B1A3027007C3B30 /* Probably trillions.m4a */,
+				E22CC8872B1A3024007C3B30 /* Promised land.m4a */,
+				E22CC83E2B1A301F007C3B30 /* Putin likes donald trump.m4a */,
+				E22CC8D42B1A3029007C3B30 /* Putin.m4a */,
+				E22CC8332B1A301F007C3B30 /* Ready willing able.m4a */,
+				E22CC7C62B1A3018007C3B30 /* Really rich.m4a */,
+				E22CC7CB2B1A3019007C3B30 /* Risk remains low.m4a */,
+				E22CC86C2B1A3022007C3B30 /* Rosie o donnald.m4a */,
+				E22CC7EC2B1A301B007C3B30 /* Running for president.m4a */,
+				E22CC7D72B1A3019007C3B30 /* Saudi arabia.m4a */,
+				E22CC8BF2B1A3027007C3B30 /* Saw a lot of people drinking.m4a */,
+				E22CC8C32B1A3028007C3B30 /* She does not have the stamina.m4a */,
+				E22CC81C2B1A301D007C3B30 /* Sit down.m4a */,
+				E22CC89A2B1A3025007C3B30 /* Small and large.m4a */,
+				E22CC80E2B1A301C007C3B30 /* Small loan of a million dollars.m4a */,
+				E22CC7C92B1A3019007C3B30 /* So help me god.m4a */,
+				E22CC8862B1A3024007C3B30 /* So well under control.m4a */,
+				E22CC85A2B1A3021007C3B30 /* Sold appartment.m4a */,
+				E22CC7E72B1A301A007C3B30 /* Something else must be small.m4a */,
+				E22CC86E2B1A3023007C3B30 /* Something wrong with you.m4a */,
+				E22CC8202B1A301D007C3B30 /* Stamina.m4a */,
+				E22CC7802B1A3014007C3B30 /* Starting right here.m4a */,
+				E22CC8012B1A301C007C3B30 /* Superstar.m4a */,
+				E22CC7D02B1A3019007C3B30 /* Tell stories.m4a */,
+				E22CC8C12B1A3027007C3B30 /* Tell you this.m4a */,
+				E22CC8D02B1A3028007C3B30 /* Thank you.m4a */,
+				E22CC7C52B1A3018007C3B30 /* Thank you darling.m4a */,
+				E22CC7BF2B1A3018007C3B30 /* Thank you very much.m4a */,
+				E22CC8B12B1A3026007C3B30 /* That all changes.m4a */,
+				E22CC8102B1A301D007C3B30 /* That i will faithfully.m4a */,
+				E22CC8992B1A3025007C3B30 /* That will happen.m4a */,
+				E22CC8372B1A301F007C3B30 /* Thats a problem to me.m4a */,
+				E22CC8B82B1A3027007C3B30 /* Thats all right.m4a */,
+				E22CC7F52B1A301B007C3B30 /* Thats right.m4a */,
+				E22CC7932B1A3015007C3B30 /* The bible tells us.m4a */,
+				E22CC8042B1A301C007C3B30 /* The biggest story.m4a */,
+				E22CC8472B1A3020007C3B30 /* The bushe.m4a */,
+				E22CC78C2B1A3015007C3B30 /* The constitution.m4a */,
+				E22CC89D2B1A3025007C3B30 /* The coronavirus.m4a */,
+				E22CC7E92B1A301A007C3B30 /* The forgotten men and women.m4a */,
+				E22CC7C02B1A3018007C3B30 /* The hacking.m4a */,
+				E22CC8762B1A3023007C3B30 /* The hour of action.m4a */,
+				E22CC8632B1A3022007C3B30 /* The likes.m4a */,
+				E22CC79D2B1A3016007C3B30 /* The mistories of space.m4a */,
+				E22CC8882B1A3024007C3B30 /* The office of.m4a */,
+				E22CC7C12B1A3018007C3B30 /* The secret service.m4a */,
+				E22CC7952B1A3015007C3B30 /* The stamina.m4a */,
+				E22CC8A52B1A3026007C3B30 /* The top of the line.m4a */,
+				E22CC8382B1A301F007C3B30 /* The usa.m4a */,
+				E22CC8772B1A3023007C3B30 /* The wall 10 feet higher.m4a */,
+				E22CC88A2B1A3024007C3B30 /* They are totally brilliant.m4a */,
+				E22CC7E32B1A301A007C3B30 /* They do not want me.m4a */,
+				E22CC77F2B1A3014007C3B30 /* They drink beer.m4a */,
+				E22CC78D2B1A3015007C3B30 /* They re too bright.m4a */,
+				E22CC7D22B1A3019007C3B30 /* They tried to hack.m4a */,
+				E22CC7962B1A3015007C3B30 /* They were in highschool.m4a */,
+				E22CC8162B1A301D007C3B30 /* Think big.m4a */,
+				E22CC7A12B1A3016007C3B30 /* This is a pendemic.m4a */,
+				E22CC8B52B1A3027007C3B30 /* This is a real.m4a */,
+				E22CC8612B1A3022007C3B30 /* This is so important to me.m4a */,
+				E22CC7832B1A3014007C3B30 /* This was tuff.m4a */,
+				E22CC8C82B1A3028007C3B30 /* Tiffany.m4a */,
+				E22CC8D32B1A3029007C3B30 /* To sb from china.m4a */,
+				E22CC7A22B1A3016007C3B30 /* Totally prepared.m4a */,
+				E22CC8B02B1A3026007C3B30 /* Transfer of power.m4a */,
+				E22CC8482B1A3020007C3B30 /* Transfering power.m4a */,
+				E22CC8A92B1A3026007C3B30 /* Tremendous people.m4a */,
+				E22CC82E2B1A301E007C3B30 /* Tremendous potential.m4a */,
+				E22CC8622B1A3022007C3B30 /* Tremendous talent.m4a */,
+				E22CC8CF2B1A3028007C3B30 /* Tremendous things.m4a */,
+				E22CC8C52B1A3028007C3B30 /* Tremendous.m4a */,
+				E22CC78E2B1A3015007C3B30 /* Turn em off.m4a */,
+				E22CC8C62B1A3028007C3B30 /* Turn off the lights.m4a */,
+				E22CC84A2B1A3020007C3B30 /* Us hacked by everybody.m4a */,
+				E22CC7E82B1A301A007C3B30 /* Very complicated stuff.m4a */,
+				E22CC7F62B1A301B007C3B30 /* Very little problem.m4a */,
+				E22CC7C22B1A3018007C3B30 /* Very long and very hard.m4a */,
+				E22CC85B2B1A3021007C3B30 /* Very poor job.m4a */,
+				E22CC8052B1A301C007C3B30 /* Very unusual.m4a */,
+				E22CC85D2B1A3021007C3B30 /* We are going to build a wall.m4a */,
+				E22CC87F2B1A3024007C3B30 /* We are looking only to the future.m4a */,
+				E22CC8BE2B1A3027007C3B30 /* We are one nation.m4a */,
+				E22CC7DD2B1A301A007C3B30 /* We do not need.m4a */,
+				E22CC87C2B1A3023007C3B30 /* We dont konw.m4a */,
+				E22CC7E02B1A301A007C3B30 /* We eat mc donalds.m4a */,
+				E22CC7842B1A3014007C3B30 /* We had a lot of talent.m4a */,
+				E22CC87D2B1A3023007C3B30 /* We have great talent.m4a */,
+				E22CC8272B1A301E007C3B30 /* We have loosers.m4a */,
+				E22CC8342B1A301F007C3B30 /* We have the best people in the world.m4a */,
+				E22CC7CC2B1A3019007C3B30 /* We have to do a great job.m4a */,
+				E22CC8392B1A301F007C3B30 /* We have to get together.m4a */,
+				E22CC84C2B1A3020007C3B30 /* We must protect our borders.m4a */,
+				E22CC86F2B1A3023007C3B30 /* We owe china.m4a */,
+				E22CC7772B1A3013007C3B30 /* We re going to dream of things.m4a */,
+				E22CC8AC2B1A3026007C3B30 /* We re hacked by everybody.m4a */,
+				E22CC85E2B1A3022007C3B30 /* We will not fail.m4a */,
+				E22CC7C32B1A3018007C3B30 /* We will shine.m4a */,
+				E22CC7852B1A3014007C3B30 /* Were going to build a wall.m4a */,
+				E22CC82D2B1A301E007C3B30 /* What a beautiful baby.m4a */,
+				E22CC7E22B1A301A007C3B30 /* What a great group.m4a */,
+				E22CC8752B1A3023007C3B30 /* What a mess id be.m4a */,
+				E22CC8852B1A3024007C3B30 /* What i say is what i say.m4a */,
+				E22CC8C92B1A3028007C3B30 /* Whatever you want.m4a */,
+				E22CC7902B1A3015007C3B30 /* Who cares what they say.m4a */,
+				E22CC8732B1A3023007C3B30 /* Who makes these deals.m4a */,
+				E22CC8CD2B1A3028007C3B30 /* Will be forgotten no longer.m4a */,
+				E22CC80B2B1A301C007C3B30 /* Will not happen.m4a */,
+				E22CC8142B1A301D007C3B30 /* Winning like never before.m4a */,
+				E22CC7C42B1A3018007C3B30 /* Wonderful family.m4a */,
+				E22CC7792B1A3014007C3B30 /* Wrong.m4a */,
+				E22CC8182B1A301D007C3B30 /* Yes.m4a */,
+				E22CC7A32B1A3016007C3B30 /* You are fake news.m4a */,
+				E22CC8B62B1A3027007C3B30 /* You better be careful.m4a */,
+				E22CC8BD2B1A3027007C3B30 /* You have to speak english.m4a */,
+				E22CC7A72B1A3016007C3B30 /* You need tremendous stamina.m4a */,
+				E22CC8AD2B1A3026007C3B30 /* You re fired.m4a */,
+				E22CC8B22B1A3027007C3B30 /* You ve been reading about it.m4a */,
+				E22CC8782B1A3023007C3B30 /* You ve had enough.m4a */,
+				E22CC85F2B1A3022007C3B30 /* You will never be ignored again.m4a */,
+				E22CC7ED2B1A301B007C3B30 /* Youll be fine.m4a */,
+				E22CC7912B1A3015007C3B30 /* Youre going to love winning.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		E2319CE02AF7A61B004D54ED /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -3296,8 +4410,7 @@
 				E2E8C2D92B1A0F7F00C37F6A /* Tak jak ty.m4a */,
 				E2E8C4622B1A0F9C00C37F6A /* Tak samo pracuje na gazie.m4a */,
 				E2E8C3542B1A0F8800C37F6A /* Tak, bardzo dobrze robicie to, brawo dla was.m4a */,
-				E2E8C30D2B1A0F8300C37F6A /* Tak.m4a */,
-				E2E8C3E52B1A0F9200C37F6A /* Tak(1).m4a */,
+				E2E8C3E52B1A0F9200C37F6A /* Tak.m4a */,
 				E2E8C3152B1A0F8300C37F6A /* Taki departament x3.m4a */,
 				E2E8C2DB2B1A0F7F00C37F6A /* Takie pyszne jedzonko i tak dalej.m4a */,
 				E2E8C45C2B1A0F9B00C37F6A /* Tam dalej jest jeszcze inna sprawa.m4a */,
@@ -3419,6 +4532,7 @@
 				E2FAA7E22B0CC20500C7E393 /* Major Board.app */,
 				E2FAA9C22B0CE3AD00C7E393 /* Korwin Board.app */,
 				E29319C12B189E4200D3C461 /* Kamraci Board.app */,
+				E22CC74A2B1A24A6007C3B30 /* Trump Board.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -3432,6 +4546,7 @@
 				E2FAA9C32B0CE3AD00C7E393 /* KorwinBoard */,
 				E2FAA7E32B0CC20500C7E393 /* MajorBoard */,
 				E2C6F2E92AF6DE5000C8B73B /* StonogaBoard */,
+				E22CC74B2B1A24A6007C3B30 /* TrumpBoard */,
 				E2319CE02AF7A61B004D54ED /* Shared */,
 			);
 			path = Soundboard;
@@ -4609,6 +5724,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E22CC7492B1A24A6007C3B30 /* Trump Board */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22CC7572B1A24A7007C3B30 /* Build configuration list for PBXNativeTarget "Trump Board" */;
+			buildPhases = (
+				E22CC7462B1A24A6007C3B30 /* Sources */,
+				E22CC7472B1A24A6007C3B30 /* Frameworks */,
+				E22CC7482B1A24A6007C3B30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trump Board";
+			packageProductDependencies = (
+				E22CC75A2B1A2708007C3B30 /* Realm */,
+				E22CC75C2B1A2708007C3B30 /* RealmSwift */,
+			);
+			productName = "Trump Board";
+			productReference = E22CC74A2B1A24A6007C3B30 /* Trump Board.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E29319C02B189E4200D3C461 /* Kamraci Board */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E29319CC2B189E4400D3C461 /* Build configuration list for PBXNativeTarget "Kamraci Board" */;
@@ -4729,6 +5865,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					E22CC7492B1A24A6007C3B30 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
 					E29319C02B189E4200D3C461 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -4768,11 +5907,370 @@
 				E2FAA9C12B0CE3AD00C7E393 /* Korwin Board */,
 				E2FAA7E12B0CC20500C7E393 /* Major Board */,
 				E2BDF3F92AF5423700D136C9 /* Stonoga Board */,
+				E22CC7492B1A24A6007C3B30 /* Trump Board */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E22CC7482B1A24A6007C3B30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22CC9152B1A3029007C3B30 /* Made lot of money.m4a in Resources */,
+				E22CC9622B1A3029007C3B30 /* Superstar.m4a in Resources */,
+				E22CC9432B1A3029007C3B30 /* What a great group.m4a in Resources */,
+				E22CCA0A2B1A3029007C3B30 /* Tremendous people.m4a in Resources */,
+				E22CC90D2B1A3029007C3B30 /* It will go away stay calm.m4a in Resources */,
+				E22CC8F52B1A3029007C3B30 /* Love my life.m4a in Resources */,
+				E22CC98A2B1A3029007C3B30 /* Its gonna happen.m4a in Resources */,
+				E22CC92F2B1A3029007C3B30 /* Make usa wealthy.m4a in Resources */,
+				E22CC9942B1A3029007C3B30 /* Ready willing able.m4a in Resources */,
+				E22CC9D92B1A3029007C3B30 /* You ve had enough.m4a in Resources */,
+				E22CC8EC2B1A3029007C3B30 /* Mexican gov.m4a in Resources */,
+				E22CCA342B1A3029007C3B30 /* To sb from china.m4a in Resources */,
+				E22CC97A2B1A3029007C3B30 /* Listen to this.m4a in Resources */,
+				E22CC95F2B1A3029007C3B30 /* Germophob.m4a in Resources */,
+				E22CC9E62B1A3029007C3B30 /* What i say is what i say.m4a in Resources */,
+				E22CCA132B1A3029007C3B30 /* You ve been reading about it.m4a in Resources */,
+				E22CC91B2B1A3029007C3B30 /* Have to get going.m4a in Resources */,
+				E22CC95E2B1A3029007C3B30 /* No rume for predjudice.m4a in Resources */,
+				E22CC9A72B1A3029007C3B30 /* Our drug industy has been desastorous.m4a in Resources */,
+				E22CC9502B1A3029007C3B30 /* All the time.m4a in Resources */,
+				E22CCA232B1A3029007C3B30 /* Cant beat mexico.m4a in Resources */,
+				E22CC9242B1A3029007C3B30 /* We will shine.m4a in Resources */,
+				E22CC91F2B1A3029007C3B30 /* Ford.m4a in Resources */,
+				E22CC9702B1A3029007C3B30 /* Car factory.m4a in Resources */,
+				E22CC8DF2B1A3029007C3B30 /* Factories closed.m4a in Resources */,
+				E22CC8F12B1A3029007C3B30 /* Who cares what they say.m4a in Resources */,
+				E22CC9B42B1A3029007C3B30 /* Owe japan.m4a in Resources */,
+				E22CC9342B1A3029007C3B30 /* Fellow americans.m4a in Resources */,
+				E22CC92A2B1A3029007C3B30 /* So help me god.m4a in Resources */,
+				E22CC9912B1A3029007C3B30 /* Billions and billions.m4a in Resources */,
+				E22CC9B82B1A3029007C3B30 /* Constantly complaining.m4a in Resources */,
+				E22CC9E12B1A3029007C3B30 /* I order 4000 tvs.m4a in Resources */,
+				E22CC9932B1A3029007C3B30 /* I think it was russia.m4a in Resources */,
+				E22CC90C2B1A3029007C3B30 /* Make usa great.m4a in Resources */,
+				E22CC9902B1A3029007C3B30 /* For whatever reason.m4a in Resources */,
+				E22CC9C82B1A3029007C3B30 /* Hacking defence.m4a in Resources */,
+				E22CC9BC2B1A3029007C3B30 /* Very poor job.m4a in Resources */,
+				E22CC9DF2B1A3029007C3B30 /* Preserve protect.m4a in Resources */,
+				E22CC9BE2B1A3029007C3B30 /* We are going to build a wall.m4a in Resources */,
+				E22CC9322B1A3029007C3B30 /* Number one tricky.m4a in Resources */,
+				E22CC9AF2B1A3029007C3B30 /* Its a very though thing.m4a in Resources */,
+				E22CC90B2B1A3029007C3B30 /* Im gonna work very hard on that.m4a in Resources */,
+				E22CC9EB2B1A3029007C3B30 /* They are totally brilliant.m4a in Resources */,
+				E22CC9192B1A3029007C3B30 /* Ok.m4a in Resources */,
+				E22CC90A2B1A3029007C3B30 /* I will fight for you.m4a in Resources */,
+				E22CC9022B1A3029007C3B30 /* This is a pendemic.m4a in Resources */,
+				E22CC9832B1A3029007C3B30 /* All talk.m4a in Resources */,
+				E22CCA0D2B1A3029007C3B30 /* We re hacked by everybody.m4a in Resources */,
+				E22CC8D82B1A3029007C3B30 /* We re going to dream of things.m4a in Resources */,
+				E22CC9052B1A3029007C3B30 /* I love babies.m4a in Resources */,
+				E22CC91C2B1A3029007C3B30 /* Great company.m4a in Resources */,
+				E22CC9352B1A3029007C3B30 /* General.m4a in Resources */,
+				E22CC9572B1A3029007C3B30 /* Very little problem.m4a in Resources */,
+				E22CC8F72B1A3029007C3B30 /* They were in highschool.m4a in Resources */,
+				E22CCA0C2B1A3029007C3B30 /* Congrats.m4a in Resources */,
+				E22CCA1B2B1A3029007C3B30 /* I donald john.m4a in Resources */,
+				E22CC9262B1A3029007C3B30 /* Thank you darling.m4a in Resources */,
+				E22CCA332B1A3029007C3B30 /* Little bit different.m4a in Resources */,
+				E22CC99B2B1A3029007C3B30 /* Everyone is listening to you now.m4a in Resources */,
+				E22CC9202B1A3029007C3B30 /* Thank you very much.m4a in Resources */,
+				E22CC9272B1A3029007C3B30 /* Really rich.m4a in Resources */,
+				E22CC9FE2B1A3029007C3B30 /* The coronavirus.m4a in Resources */,
+				E22CC9062B1A3029007C3B30 /* Mutch hacking going on.m4a in Resources */,
+				E22CC9E02B1A3029007C3B30 /* We are looking only to the future.m4a in Resources */,
+				E22CC9E32B1A3029007C3B30 /* Japan.m4a in Resources */,
+				E22CC9922B1A3029007C3B30 /* Our country needs.m4a in Resources */,
+				E22CC9372B1A3029007C3B30 /* Built quickly.m4a in Resources */,
+				E22CC9F12B1A3029007C3B30 /* I love you.m4a in Resources */,
+				E22CC9A12B1A3029007C3B30 /* All across america.m4a in Resources */,
+				E22CC9532B1A3029007C3B30 /* It will disapear.m4a in Resources */,
+				E22CC9DE2B1A3029007C3B30 /* We have great talent.m4a in Resources */,
+				E22CC9C02B1A3029007C3B30 /* You will never be ignored again.m4a in Resources */,
+				E22CC9B22B1A3029007C3B30 /* China all the time.m4a in Resources */,
+				E22CC8D52B1A3029007C3B30 /* Cameras in strange places.m4a in Resources */,
+				E22CC9822B1A3029007C3B30 /* I will be.m4a in Resources */,
+				E22CC93B2B1A3029007C3B30 /* Over the horizont.m4a in Resources */,
+				E22CCA322B1A3029007C3B30 /* Huge.m4a in Resources */,
+				E22CC9D32B1A3029007C3B30 /* Never doing anything about it.m4a in Resources */,
+				E22CC9472B1A3029007C3B30 /* Mexico.m4a in Resources */,
+				E22CC99A2B1A3029007C3B30 /* We have to get together.m4a in Resources */,
+				E22CC9C62B1A3029007C3B30 /* Buy american.m4a in Resources */,
+				E22CC97D2B1A3029007C3B30 /* Sit down.m4a in Resources */,
+				E22CC9E22B1A3029007C3B30 /* Everybody.m4a in Resources */,
+				E22CCA2F2B1A3029007C3B30 /* Graduated from highschool.m4a in Resources */,
+				E22CC93A2B1A3029007C3B30 /* Im sorry.m4a in Resources */,
+				E22CCA082B1A3029007C3B30 /* No action.m4a in Resources */,
+				E22CC98B2B1A3029007C3B30 /* And will.m4a in Resources */,
+				E22CC9032B1A3029007C3B30 /* Totally prepared.m4a in Resources */,
+				E22CC97E2B1A3029007C3B30 /* Hacking is bad.m4a in Resources */,
+				E22CCA062B1A3029007C3B30 /* The top of the line.m4a in Resources */,
+				E22CC9F72B1A3029007C3B30 /* Look at those hands.m4a in Resources */,
+				E22CC9442B1A3029007C3B30 /* They do not want me.m4a in Resources */,
+				E22CC97F2B1A3029007C3B30 /* Probably china.m4a in Resources */,
+				E22CCA152B1A3029007C3B30 /* Many many millions of dollars.m4a in Resources */,
+				E22CC9E72B1A3029007C3B30 /* So well under control.m4a in Resources */,
+				E22CCA302B1A3029007C3B30 /* Tremendous things.m4a in Resources */,
+				E22CC95A2B1A3029007C3B30 /* Greatest president.m4a in Resources */,
+				E22CC9522B1A3029007C3B30 /* Five houndred billion dollars.m4a in Resources */,
+				E22CC9332B1A3029007C3B30 /* They tried to hack.m4a in Resources */,
+				E22CC9CF2B1A3029007C3B30 /* Something wrong with you.m4a in Resources */,
+				E22CC9AC2B1A3029007C3B30 /* Donald trump.m4a in Resources */,
+				E22CC9582B1A3029007C3B30 /* I know words.m4a in Resources */,
+				E22CCA212B1A3029007C3B30 /* Probably trillions.m4a in Resources */,
+				E22CC9FF2B1A3029007C3B30 /* And stronger.m4a in Resources */,
+				E22CC8DA2B1A3029007C3B30 /* Wrong.m4a in Resources */,
+				E22CC9802B1A3029007C3B30 /* Is your country.m4a in Resources */,
+				E22CC8F22B1A3029007C3B30 /* Youre going to love winning.m4a in Resources */,
+				E22CC8DE2B1A3029007C3B30 /* Dont beat china in trade.m4a in Resources */,
+				E22CC95C2B1A3029007C3B30 /* I dont like that.m4a in Resources */,
+				E22CCA202B1A3029007C3B30 /* Saw a lot of people drinking.m4a in Resources */,
+				E22CC9812B1A3029007C3B30 /* Stamina.m4a in Resources */,
+				E22CC9BF2B1A3029007C3B30 /* We will not fail.m4a in Resources */,
+				E22CCA2C2B1A3029007C3B30 /* And right now.m4a in Resources */,
+				E22CC9232B1A3029007C3B30 /* Very long and very hard.m4a in Resources */,
+				E22CC9AD2B1A3029007C3B30 /* We must protect our borders.m4a in Resources */,
+				E22CC9402B1A3029007C3B30 /* It did not happen.m4a in Resources */,
+				E22CC9C12B1A3029007C3B30 /* Our great country.m4a in Resources */,
+				E22CC9632B1A3029007C3B30 /* Left and right.m4a in Resources */,
+				E22CCA012B1A3029007C3B30 /* Make usa strong.m4a in Resources */,
+				E22CC8FB2B1A3029007C3B30 /* Kind of a megaphone.m4a in Resources */,
+				E22CC9642B1A3029007C3B30 /* Politicians.m4a in Resources */,
+				E22CC9DD2B1A3029007C3B30 /* We dont konw.m4a in Resources */,
+				E22CC9E82B1A3029007C3B30 /* Promised land.m4a in Resources */,
+				E22CC94E2B1A3029007C3B30 /* Youll be fine.m4a in Resources */,
+				E22CC9C52B1A3029007C3B30 /* Dont win any more.m4a in Resources */,
+				E22CC9DA2B1A3029007C3B30 /* America first.m4a in Resources */,
+				E22CC8F82B1A3029007C3B30 /* Nasty.m4a in Resources */,
+				E22CC9072B1A3029007C3B30 /* I had truly great parents.m4a in Resources */,
+				E22CC9082B1A3029007C3B30 /* You need tremendous stamina.m4a in Resources */,
+				E22CC8EE2B1A3029007C3B30 /* They re too bright.m4a in Resources */,
+				E22CC9C32B1A3029007C3B30 /* Tremendous talent.m4a in Resources */,
+				E22CC9F32B1A3029007C3B30 /* Benefit american workers.m4a in Resources */,
+				E22CCA312B1A3029007C3B30 /* Thank you.m4a in Resources */,
+				E22CC8FE2B1A3029007C3B30 /* The mistories of space.m4a in Resources */,
+				E22CCA2E2B1A3029007C3B30 /* Will be forgotten no longer.m4a in Resources */,
+				E22CCA182B1A3029007C3B30 /* Ordering supplies.m4a in Resources */,
+				E22CC8E42B1A3029007C3B30 /* This was tuff.m4a in Resources */,
+				E22CC8E12B1A3029007C3B30 /* Starting right here.m4a in Resources */,
+				E22CC98F2B1A3029007C3B30 /* Tremendous potential.m4a in Resources */,
+				E22CC8E32B1A3029007C3B30 /* Oh thats not good.m4a in Resources */,
+				E22CCA272B1A3029007C3B30 /* Turn off the lights.m4a in Resources */,
+				E22CC9542B1A3029007C3B30 /* Maybe the intelligence agencys.m4a in Resources */,
+				E22CC97C2B1A3029007C3B30 /* Look at those numbers.m4a in Resources */,
+				E22CCA052B1A3029007C3B30 /* A truly great job.m4a in Resources */,
+				E22CC9872B1A3029007C3B30 /* Corona virus outbreak.m4a in Resources */,
+				E22CC9592B1A3029007C3B30 /* Gm.m4a in Resources */,
+				E22CC9CD2B1A3029007C3B30 /* Rosie o donnald.m4a in Resources */,
+				E22CC9412B1A3029007C3B30 /* We eat mc donalds.m4a in Resources */,
+				E22CC8DD2B1A3029007C3B30 /* Its a wall.m4a in Resources */,
+				E22CC9BD2B1A3029007C3B30 /* New hoax.m4a in Resources */,
+				E22CC91A2B1A3029007C3B30 /* Dont beat china.m4a in Resources */,
+				E22CC99F2B1A3029007C3B30 /* Putin likes donald trump.m4a in Resources */,
+				E22CCA1D2B1A3029007C3B30 /* Little bit of luck.m4a in Resources */,
+				E22CC95D2B1A3029007C3B30 /* Never let you down.m4a in Resources */,
+				E22CC99D2B1A3029007C3B30 /* Go crazy.m4a in Resources */,
+				E22CC8EA2B1A3029007C3B30 /* Hes fantastic.m4a in Resources */,
+				E22CC9462B1A3029007C3B30 /* Makes sense.m4a in Resources */,
+				E22CCA262B1A3029007C3B30 /* Tremendous.m4a in Resources */,
+				E22CC9A52B1A3029007C3B30 /* Not so small.m4a in Resources */,
+				E22CC92C2B1A3029007C3B30 /* Risk remains low.m4a in Resources */,
+				E22CC9BB2B1A3029007C3B30 /* Sold appartment.m4a in Resources */,
+				E22CC8D72B1A3029007C3B30 /* Make america great again.m4a in Resources */,
+				E22CC94F2B1A3029007C3B30 /* Is over.m4a in Resources */,
+				E22CCA102B1A3029007C3B30 /* Its going to be only.m4a in Resources */,
+				E22CC8F62B1A3029007C3B30 /* The stamina.m4a in Resources */,
+				E22CC9F92B1A3029007C3B30 /* No.m4a in Resources */,
+				E22CC9612B1A3029007C3B30 /* President trump.m4a in Resources */,
+				E22CC9562B1A3029007C3B30 /* Thats right.m4a in Resources */,
+				E22CCA2D2B1A3029007C3B30 /* I dont care.m4a in Resources */,
+				E22CCA222B1A3029007C3B30 /* Tell you this.m4a in Resources */,
+				E22CC94D2B1A3029007C3B30 /* Running for president.m4a in Resources */,
+				E22CCA042B1A3029007C3B30 /* I dont believe that hillary stamina.m4a in Resources */,
+				E22CC8E92B1A3029007C3B30 /* Coronavirus.m4a in Resources */,
+				E22CC9D82B1A3029007C3B30 /* The wall 10 feet higher.m4a in Resources */,
+				E22CC8F92B1A3029007C3B30 /* Classified.m4a in Resources */,
+				E22CC9A02B1A3029007C3B30 /* I dont believe stamina.m4a in Resources */,
+				E22CC9AB2B1A3029007C3B30 /* Us hacked by everybody.m4a in Resources */,
+				E22CC9172B1A3029007C3B30 /* In great shape.m4a in Resources */,
+				E22CC9A92B1A3029007C3B30 /* Transfering power.m4a in Resources */,
+				E22CC9672B1A3029007C3B30 /* Its not a fence.m4a in Resources */,
+				E22CC9712B1A3029007C3B30 /* That i will faithfully.m4a in Resources */,
+				E22CC9842B1A3029007C3B30 /* Dont take responsibility.m4a in Resources */,
+				E22CC9D72B1A3029007C3B30 /* The hour of action.m4a in Resources */,
+				E22CC9662B1A3029007C3B30 /* Very unusual.m4a in Resources */,
+				E22CC9AE2B1A3029007C3B30 /* Its all over the world.m4a in Resources */,
+				E22CC93E2B1A3029007C3B30 /* We do not need.m4a in Resources */,
+				E22CC9482B1A3029007C3B30 /* Something else must be small.m4a in Resources */,
+				E22CC93C2B1A3029007C3B30 /* Drank a lot.m4a in Resources */,
+				E22CC9D12B1A3029007C3B30 /* Bigger.m4a in Resources */,
+				E22CC9ED2B1A3029007C3B30 /* And hire american.m4a in Resources */,
+				E22CC9C72B1A3029007C3B30 /* If they are small.m4a in Resources */,
+				E22CC96C2B1A3029007C3B30 /* Will not happen.m4a in Resources */,
+				E22CC7732B1A2CF7007C3B30 /* I did not drink.m4a in Resources */,
+				E22CC9C22B1A3029007C3B30 /* This is so important to me.m4a in Resources */,
+				E22CC9B62B1A3029007C3B30 /* Its all fake news.m4a in Resources */,
+				E22CC9A42B1A3029007C3B30 /* Nope.m4a in Resources */,
+				E22CC9752B1A3029007C3B30 /* Winning like never before.m4a in Resources */,
+				E22CC9A82B1A3029007C3B30 /* The bushe.m4a in Resources */,
+				E22CC9042B1A3029007C3B30 /* You are fake news.m4a in Resources */,
+				E22CC9CE2B1A3029007C3B30 /* Big big.m4a in Resources */,
+				E22CC8DB2B1A3029007C3B30 /* Its time to remember.m4a in Resources */,
+				E22CC92E2B1A3029007C3B30 /* Barak obama.m4a in Resources */,
+				E22CC91E2B1A3029007C3B30 /* One of my only good triaits.m4a in Resources */,
+				E22CC9792B1A3029007C3B30 /* Yes.m4a in Resources */,
+				E22CC9292B1A3029007C3B30 /* Be very careful.m4a in Resources */,
+				E22CC9A62B1A3029007C3B30 /* Give me a break.m4a in Resources */,
+				E22CC98E2B1A3029007C3B30 /* What a beautiful baby.m4a in Resources */,
+				E22CC9252B1A3029007C3B30 /* Wonderful family.m4a in Resources */,
+				E22CCA172B1A3029007C3B30 /* You better be careful.m4a in Resources */,
+				E22CCA292B1A3029007C3B30 /* Tiffany.m4a in Resources */,
+				E22CC9B72B1A3029007C3B30 /* Maybe i want something else.m4a in Resources */,
+				E22CC9452B1A3029007C3B30 /* Beat china.m4a in Resources */,
+				E22CC92D2B1A3029007C3B30 /* We have to do a great job.m4a in Resources */,
+				E22CCA072B1A3029007C3B30 /* I never drank ok.m4a in Resources */,
+				E22CC99C2B1A3029007C3B30 /* Down to close to zero.m4a in Resources */,
+				E22CC8E52B1A3029007C3B30 /* We had a lot of talent.m4a in Resources */,
+				E22CC9FC2B1A3029007C3B30 /* Not a nice person.m4a in Resources */,
+				E22CC9D42B1A3029007C3B30 /* Who makes these deals.m4a in Resources */,
+				E22CC9A22B1A3029007C3B30 /* Ivanca.m4a in Resources */,
+				E22CC8EF2B1A3029007C3B30 /* Turn em off.m4a in Resources */,
+				E22CC9B12B1A3029007C3B30 /* Billion dollar plant.m4a in Resources */,
+				E22CCA192B1A3029007C3B30 /* Thats all right.m4a in Resources */,
+				E22CC92B2B1A3029007C3B30 /* America is unstoppable.m4a in Resources */,
+				E22CC8F32B1A3029007C3B30 /* I ve never had alcohol.m4a in Resources */,
+				E22CCA282B1A3029007C3B30 /* I have the best words.m4a in Resources */,
+				E22CCA112B1A3029007C3B30 /* Transfer of power.m4a in Resources */,
+				E22CCA162B1A3029007C3B30 /* This is a real.m4a in Resources */,
+				E22CCA022B1A3029007C3B30 /* I will bring it back.m4a in Resources */,
+				E22CC9EC2B1A3029007C3B30 /* Modern technology.m4a in Resources */,
+				E22CCA1F2B1A3029007C3B30 /* We are one nation.m4a in Resources */,
+				E22CC9FD2B1A3029007C3B30 /* Build a wall.m4a in Resources */,
+				E22CC90F2B1A3029007C3B30 /* I love our police.m4a in Resources */,
+				E22CC8E62B1A3029007C3B30 /* Were going to build a wall.m4a in Resources */,
+				E22CC9092B1A3029007C3B30 /* Follow two simple rules.m4a in Resources */,
+				E22CC91D2B1A3029007C3B30 /* Drug industry.m4a in Resources */,
+				E22CC9212B1A3029007C3B30 /* The hacking.m4a in Resources */,
+				E22CC7542B1A24A7007C3B30 /* Preview Assets.xcassets in Resources */,
+				E22CC7512B1A24A7007C3B30 /* Assets.xcassets in Resources */,
+				E22CC95B2B1A3029007C3B30 /* Does not exist.m4a in Resources */,
+				E22CC9B02B1A3029007C3B30 /* Mexico will pay for the wall.m4a in Resources */,
+				E22CC9C92B1A3029007C3B30 /* I run i win.m4a in Resources */,
+				E22CC8E02B1A3029007C3B30 /* They drink beer.m4a in Resources */,
+				E22CC9CB2B1A3029007C3B30 /* Fully understand.m4a in Resources */,
+				E22CC99E2B1A3029007C3B30 /* Make usa proud.m4a in Resources */,
+				E22CC9E52B1A3029007C3B30 /* Incredible people.m4a in Resources */,
+				E22CC8FD2B1A3029007C3B30 /* New vision govern land.m4a in Resources */,
+				E22CC8ED2B1A3029007C3B30 /* The constitution.m4a in Resources */,
+				E22CC9602B1A3029007C3B30 /* Dont know whats happening.m4a in Resources */,
+				E22CCA122B1A3029007C3B30 /* That all changes.m4a in Resources */,
+				E22CC90E2B1A3029007C3B30 /* From this day forward.m4a in Resources */,
+				E22CC98C2B1A3029007C3B30 /* A truly great leader.m4a in Resources */,
+				E22CC9732B1A3029007C3B30 /* Employ people.m4a in Resources */,
+				E22CC93D2B1A3029007C3B30 /* Fiat.m4a in Resources */,
+				E22CCA1E2B1A3029007C3B30 /* You have to speak english.m4a in Resources */,
+				E22CC8D62B1A3029007C3B30 /* Country in trouble.m4a in Resources */,
+				E22CC9002B1A3029007C3B30 /* Bumbumbum.m4a in Resources */,
+				E22CC9382B1A3029007C3B30 /* Saudi arabia.m4a in Resources */,
+				E22CC9972B1A3029007C3B30 /* Monday friday.m4a in Resources */,
+				E22CC9492B1A3029007C3B30 /* Very complicated stuff.m4a in Resources */,
+				E22CC9782B1A3029007C3B30 /* And some i assume are good people.m4a in Resources */,
+				E22CC96F2B1A3029007C3B30 /* Small loan of a million dollars.m4a in Resources */,
+				E22CCA1A2B1A3029007C3B30 /* Eieiei.m4a in Resources */,
+				E22CC9852B1A3029007C3B30 /* Nobody like me.m4a in Resources */,
+				E22CC8D92B1A3029007C3B30 /* Make usa safe.m4a in Resources */,
+				E22CC8E82B1A3029007C3B30 /* It can happen.m4a in Resources */,
+				E22CC93F2B1A3029007C3B30 /* Every decision.m4a in Resources */,
+				E22CC9512B1A3029007C3B30 /* Kay donnie don.m4a in Resources */,
+				E22CC9F52B1A3029007C3B30 /* Ph of course he is going to say that.m4a in Resources */,
+				E22CC96E2B1A3029007C3B30 /* Melania.m4a in Resources */,
+				E22CC9222B1A3029007C3B30 /* The secret service.m4a in Resources */,
+				E22CC9CA2B1A3029007C3B30 /* Ordering elements.m4a in Resources */,
+				E22CC9F22B1A3029007C3B30 /* Is dead.m4a in Resources */,
+				E22CC9112B1A3029007C3B30 /* In the history of stories.m4a in Resources */,
+				E22CC8FF2B1A3029007C3B30 /* Great great relationships.m4a in Resources */,
+				E22CC9F42B1A3029007C3B30 /* Obama care complete total desaster.m4a in Resources */,
+				E22CC9392B1A3029007C3B30 /* Did you ask me a question.m4a in Resources */,
+				E22CC9BA2B1A3029007C3B30 /* And american families.m4a in Resources */,
+				E22CC9692B1A3029007C3B30 /* President putin and russia.m4a in Resources */,
+				E22CC9962B1A3029007C3B30 /* Fake news.m4a in Resources */,
+				E22CCA2A2B1A3029007C3B30 /* Whatever you want.m4a in Resources */,
+				E22CC9882B1A3029007C3B30 /* We have loosers.m4a in Resources */,
+				E22CC9B52B1A3029007C3B30 /* Empty talk.m4a in Resources */,
+				E22CC9B32B1A3029007C3B30 /* Off.m4a in Resources */,
+				E22CC9132B1A3029007C3B30 /* American dream.m4a in Resources */,
+				E22CC9762B1A3029007C3B30 /* Im a free trader.m4a in Resources */,
+				E22CC9862B1A3029007C3B30 /* Ive always known.m4a in Resources */,
+				E22CCA032B1A3029007C3B30 /* Bigly.m4a in Resources */,
+				E22CCA002B1A3029007C3B30 /* Beautiful things.m4a in Resources */,
+				E22CC9CC2B1A3029007C3B30 /* People of the world.m4a in Resources */,
+				E22CC94A2B1A3029007C3B30 /* The forgotten men and women.m4a in Resources */,
+				E22CC9992B1A3029007C3B30 /* The usa.m4a in Resources */,
+				E22CC8DC2B1A3029007C3B30 /* Absolutely.m4a in Resources */,
+				E22CC9182B1A3029007C3B30 /* No victories.m4a in Resources */,
+				E22CC9122B1A3029007C3B30 /* China.m4a in Resources */,
+				E22CC9282B1A3029007C3B30 /* I pay a lot of tax.m4a in Resources */,
+				E22CC9772B1A3029007C3B30 /* Think big.m4a in Resources */,
+				E22CC9162B1A3029007C3B30 /* I said she stamina.m4a in Resources */,
+				E22CC97B2B1A3029007C3B30 /* Chrysler.m4a in Resources */,
+				E22CC8EB2B1A3029007C3B30 /* It may get bigger.m4a in Resources */,
+				E22CC9722B1A3029007C3B30 /* Magnificant.m4a in Resources */,
+				E22CC9F82B1A3029007C3B30 /* Confiscate their coats.m4a in Resources */,
+				E22CC9952B1A3029007C3B30 /* We have the best people in the world.m4a in Resources */,
+				E22CC9EE2B1A3029007C3B30 /* High profil person.m4a in Resources */,
+				E22CC9652B1A3029007C3B30 /* The biggest story.m4a in Resources */,
+				E22CCA142B1A3029007C3B30 /* Be careful.m4a in Resources */,
+				E22CC9AA2B1A3029007C3B30 /* Good news.m4a in Resources */,
+				E22CC9012B1A3029007C3B30 /* Fantastic.m4a in Resources */,
+				E22CC8E72B1A3029007C3B30 /* Greatest jobs producer god ever created.m4a in Resources */,
+				E22CC9B92B1A3029007C3B30 /* No get those lights off.m4a in Resources */,
+				E22CC9C42B1A3029007C3B30 /* The likes.m4a in Resources */,
+				E22CC94B2B1A3029007C3B30 /* No coats.m4a in Resources */,
+				E22CC96B2B1A3029007C3B30 /* Cameras all over the place.m4a in Resources */,
+				E22CCA252B1A3029007C3B30 /* False and fake.m4a in Resources */,
+				E22CC9D62B1A3029007C3B30 /* What a mess id be.m4a in Resources */,
+				E22CC9742B1A3029007C3B30 /* Dream even bigger.m4a in Resources */,
+				E22CC9362B1A3029007C3B30 /* Open heart for patriotism.m4a in Resources */,
+				E22CC8FA2B1A3029007C3B30 /* And i thank you.m4a in Resources */,
+				E22CC9FA2B1A3029007C3B30 /* That will happen.m4a in Resources */,
+				E22CC9EA2B1A3029007C3B30 /* Confidential.m4a in Resources */,
+				E22CC9422B1A3029007C3B30 /* Pretty good job weve done.m4a in Resources */,
+				E22CCA352B1A3029007C3B30 /* Putin.m4a in Resources */,
+				E22CCA0F2B1A3029007C3B30 /* Get the wall started.m4a in Resources */,
+				E22CC9E92B1A3029007C3B30 /* The office of.m4a in Resources */,
+				E22CC9982B1A3029007C3B30 /* Thats a problem to me.m4a in Resources */,
+				E22CC9682B1A3029007C3B30 /* Are they small hands.m4a in Resources */,
+				E22CC9F62B1A3029007C3B30 /* Going down not up.m4a in Resources */,
+				E22CCA092B1A3029007C3B30 /* Did not drink.m4a in Resources */,
+				E22CC8F42B1A3029007C3B30 /* The bible tells us.m4a in Resources */,
+				E22CCA0B2B1A3029007C3B30 /* Can you imagein if i had.m4a in Resources */,
+				E22CC9892B1A3029007C3B30 /* I dont want that.m4a in Resources */,
+				E22CC96A2B1A3029007C3B30 /* Its gonna be a beautiful thing.m4a in Resources */,
+				E22CC9A32B1A3029007C3B30 /* Hmm thats strange.m4a in Resources */,
+				E22CC9552B1A3029007C3B30 /* Just and reasonable demands.m4a in Resources */,
+				E22CC9312B1A3029007C3B30 /* Tell stories.m4a in Resources */,
+				E22CC9142B1A3029007C3B30 /* First lady.m4a in Resources */,
+				E22CC9D02B1A3029007C3B30 /* We owe china.m4a in Resources */,
+				E22CC9FB2B1A3029007C3B30 /* Small and large.m4a in Resources */,
+				E22CC9302B1A3029007C3B30 /* Dont drink.m4a in Resources */,
+				E22CCA0E2B1A3029007C3B30 /* You re fired.m4a in Resources */,
+				E22CC98D2B1A3029007C3B30 /* Dont worry.m4a in Resources */,
+				E22CC96D2B1A3029007C3B30 /* It should not be done.m4a in Resources */,
+				E22CCA242B1A3029007C3B30 /* She does not have the stamina.m4a in Resources */,
+				E22CCA2B2B1A3029007C3B30 /* Ll sound.m4a in Resources */,
+				E22CC9D22B1A3029007C3B30 /* Low energy.m4a in Resources */,
+				E22CC94C2B1A3029007C3B30 /* Better.m4a in Resources */,
+				E22CC9DB2B1A3029007C3B30 /* I love china.m4a in Resources */,
+				E22CC8FC2B1A3029007C3B30 /* Get the job done.m4a in Resources */,
+				E22CC9E42B1A3029007C3B30 /* Net worth.m4a in Resources */,
+				E22CC9EF2B1A3029007C3B30 /* I want more than a wall.m4a in Resources */,
+				E22CC8E22B1A3029007C3B30 /* Our wonderful nation.m4a in Resources */,
+				E22CC9102B1A3029007C3B30 /* Okay.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E29319BF2B189E4200D3C461 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -5731,13 +7229,12 @@
 				E2E8C5B92B1A0F9E00C37F6A /* Sobie do sklepu.m4a in Resources */,
 				E2E8C57B2B1A0F9D00C37F6A /* Możesz wzywać wojsko.m4a in Resources */,
 				E2E8C5A02B1A0F9D00C37F6A /* Durnego.m4a in Resources */,
-				E2E8C4AF2B1A0F9C00C37F6A /* Tak.m4a in Resources */,
 				E2E8C59A2B1A0F9D00C37F6A /* Ale do tego ty mnie zmusiłeś.m4a in Resources */,
 				E2E8C51F2B1A0F9D00C37F6A /* Ja to poślę do urzędu.m4a in Resources */,
 				E2E8C5FB2B1A0F9E00C37F6A /* On nie umie zrobić nawet bigosu.m4a in Resources */,
 				E2E8C5582B1A0F9D00C37F6A /* Ile łapówek wziąłeś.m4a in Resources */,
 				E2E8C50E2B1A0F9D00C37F6A /* I przysięgam Bogu Wszechmogącemu.m4a in Resources */,
-				E2E8C5872B1A0F9D00C37F6A /* Tak(1).m4a in Resources */,
+				E2E8C5872B1A0F9D00C37F6A /* Tak.m4a in Resources */,
 				E2E8C5C92B1A0F9E00C37F6A /* Dlaczego wy tak wyrabiacie.m4a in Resources */,
 				E2E8C5832B1A0F9D00C37F6A /* A ja wezmę z Podlasia ludzi.m4a in Resources */,
 				E2E8C5DA2B1A0F9E00C37F6A /* Że mnie tak nęka.m4a in Resources */,
@@ -6294,6 +7791,33 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E22CC7462B1A24A6007C3B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22CC7602B1A29EC007C3B30 /* ShareContentProvider.swift in Sources */,
+				E22CC7612B1A29EC007C3B30 /* SoundFileManager.swift in Sources */,
+				E22CC76C2B1A29EC007C3B30 /* SoundboardRow.swift in Sources */,
+				E22CC7662B1A29EC007C3B30 /* SoundPlayer.swift in Sources */,
+				E22CC7712B1A29EE007C3B30 /* SoundboardApp.swift in Sources */,
+				E22CC7642B1A29EC007C3B30 /* PlayButton.swift in Sources */,
+				E22CC7702B1A29EC007C3B30 /* RealmManager.swift in Sources */,
+				E22CC7682B1A29EC007C3B30 /* TitleModifier.swift in Sources */,
+				E22CC7652B1A29EC007C3B30 /* SoundboardSearchView.swift in Sources */,
+				E22CC75F2B1A29EC007C3B30 /* PathFinder.swift in Sources */,
+				E22CC76E2B1A29EC007C3B30 /* PortraitView.swift in Sources */,
+				E22CC7632B1A29EC007C3B30 /* FavoriteButton.swift in Sources */,
+				E22CC76D2B1A29EC007C3B30 /* RoundCountView.swift in Sources */,
+				E22CC76A2B1A29EC007C3B30 /* ShareButton.swift in Sources */,
+				E22CC7672B1A29EC007C3B30 /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E22CC76B2B1A29EC007C3B30 /* ShareContent.swift in Sources */,
+				E22CC76F2B1A29EC007C3B30 /* FavoritesSoundTip.swift in Sources */,
+				E22CC7692B1A29EC007C3B30 /* SoundModel.swift in Sources */,
+				E22CC7622B1A29EC007C3B30 /* SoundboardList.swift in Sources */,
+				E22CC75E2B1A29EC007C3B30 /* PathError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E29319BD2B189E4200D3C461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -6432,15 +7956,85 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		E22CC7552B1A24A7007C3B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.trump.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Trump Soundboard Development";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E22CC7562B1A24A7007C3B30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.trump.soundboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Trump Soundboard App Store";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		E29319CD2B189E4400D3C461 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
-				DEVELOPMENT_TEAM = N3HG6C68EY;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -6458,6 +8052,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.kamraci.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Kamraci Soundboard Development";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6469,10 +8065,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
-				DEVELOPMENT_TEAM = N3HG6C68EY;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -6490,6 +8088,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.kamraci.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Kamraci Soundboard App Store";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6906,6 +8506,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E22CC7572B1A24A7007C3B30 /* Build configuration list for PBXNativeTarget "Trump Board" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22CC7552B1A24A7007C3B30 /* Debug */,
+				E22CC7562B1A24A7007C3B30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E29319CC2B189E4400D3C461 /* Build configuration list for PBXNativeTarget "Kamraci Board" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -6982,6 +8591,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E22CC75A2B1A2708007C3B30 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E22CC75C2B1A2708007C3B30 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
 		E2E8BE432B189ECE00C37F6A /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E2FAA8072B0CC92B00C7E393 /* XCRemoteSwiftPackageReference "realm-swift" */;
