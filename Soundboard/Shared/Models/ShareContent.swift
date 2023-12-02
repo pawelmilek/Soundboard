@@ -26,7 +26,8 @@ public struct ShareContent {
 extension ShareContent: Transferable {
     public static var transferRepresentation: some TransferRepresentation {
         FileRepresentation(exportedContentType: .mpeg4Audio) { content in
-            SentTransferredFile(content.url)
+            debugPrint("Transferable: \(content.url)")
+            return SentTransferredFile(content.url)
         }
     }
 }

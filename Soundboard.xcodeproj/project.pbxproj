@@ -620,8 +620,6 @@
 		E2E8C1342B1A0B8A00C37F6A /* Czym tam miałem pod ręką.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BF552B1A0B6A00C37F6A /* Czym tam miałem pod ręką.m4a */; };
 		E2E8C1352B1A0B8A00C37F6A /* Ja nie mam z tym problemów.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BF562B1A0B6B00C37F6A /* Ja nie mam z tym problemów.m4a */; };
 		E2E8C1362B1A0B8A00C37F6A /* Ona nie wie co ma robić.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BF572B1A0B6B00C37F6A /* Ona nie wie co ma robić.m4a */; };
-		E2E8C1372B1A0B8A00C37F6A /* Dobry Polak to poległy Polak.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BF582B1A0B6B00C37F6A /* Dobry Polak to poległy Polak.m4a */; };
-		E2E8C1382B1A0B8A00C37F6A /* Patlewicz(1).m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BF592B1A0B6B00C37F6A /* Patlewicz(1).m4a */; };
 		E2E8C1392B1A0B8A00C37F6A /* Wisi mi koło du ona.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BF5A2B1A0B6B00C37F6A /* Wisi mi koło du ona.m4a */; };
 		E2E8C13A2B1A0B8A00C37F6A /* Ożesz ty.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BF5B2B1A0B6B00C37F6A /* Ożesz ty.m4a */; };
 		E2E8C13B2B1A0B8A00C37F6A /* I z nią spłodzić potomstwo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BF5C2B1A0B6B00C37F6A /* I z nią spłodzić potomstwo.m4a */; };
@@ -762,11 +760,10 @@
 		E2E8C1C22B1A0B8A00C37F6A /* Ja pierd kur.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFE32B1A0B7400C37F6A /* Ja pierd kur.m4a */; };
 		E2E8C1C32B1A0B8A00C37F6A /* Kołtuny polskie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFE42B1A0B7400C37F6A /* Kołtuny polskie.m4a */; };
 		E2E8C1C42B1A0B8A00C37F6A /* A on jej nie pomaga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFE52B1A0B7400C37F6A /* A on jej nie pomaga.m4a */; };
-		E2E8C1C52B1A0B8A00C37F6A /* I Jan Paweł 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFE62B1A0B7400C37F6A /* I Jan Paweł 2.m4a */; };
+		E2E8C1C52B1A0B8A00C37F6A /* I Jan Paweł II.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFE62B1A0B7400C37F6A /* I Jan Paweł II.m4a */; };
 		E2E8C1C62B1A0B8A00C37F6A /* WROGOOOOM.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFE72B1A0B7400C37F6A /* WROGOOOOM.m4a */; };
 		E2E8C1C72B1A0B8A00C37F6A /* Płynącej krwią i sper.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFE82B1A0B7400C37F6A /* Płynącej krwią i sper.m4a */; };
 		E2E8C1C82B1A0B8A00C37F6A /* Do ku nędzy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFE92B1A0B7400C37F6A /* Do ku nędzy.m4a */; };
-		E2E8C1C92B1A0B8A00C37F6A /* Patlewicz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFEA2B1A0B7400C37F6A /* Patlewicz.m4a */; };
 		E2E8C1CA2B1A0B8A00C37F6A /* Wierzę w Jezusa Chrystusa zbawiciela naszego.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFEB2B1A0B7400C37F6A /* Wierzę w Jezusa Chrystusa zbawiciela naszego.m4a */; };
 		E2E8C1CB2B1A0B8A00C37F6A /* Obudźta się polacy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFEC2B1A0B7400C37F6A /* Obudźta się polacy.m4a */; };
 		E2E8C1CC2B1A0B8A00C37F6A /* Zdycha i tak być powinno.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFED2B1A0B7400C37F6A /* Zdycha i tak być powinno.m4a */; };
@@ -786,7 +783,7 @@
 		E2E8C1DA2B1A0B8A00C37F6A /* Zastrzeliłbym cię jak wściekłego psa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFFB2B1A0B7600C37F6A /* Zastrzeliłbym cię jak wściekłego psa.m4a */; };
 		E2E8C1DB2B1A0B8A00C37F6A /* Panu Bogu wszechmogącemu w Trójcy przenajświętszej jedynemu.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFFC2B1A0B7600C37F6A /* Panu Bogu wszechmogącemu w Trójcy przenajświętszej jedynemu.m4a */; };
 		E2E8C1DC2B1A0B8A00C37F6A /* W piź go kur pogonić.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFFD2B1A0B7600C37F6A /* W piź go kur pogonić.m4a */; };
-		E2E8C1DD2B1A0B8A00C37F6A /* A ja bym chętnie się z kimś ponapi bo się nakręciłem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFFE2B1A0B7600C37F6A /* A ja bym chętnie się z kimś ponapi bo się nakręciłem.m4a */; };
+		E2E8C1DD2B1A0B8A00C37F6A /* A ja bym chętnie się z kimś ponapierdł bo się nakręciłem.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFFE2B1A0B7600C37F6A /* A ja bym chętnie się z kimś ponapierdł bo się nakręciłem.m4a */; };
 		E2E8C1DE2B1A0B8A00C37F6A /* Wiesz, że ci zaje kur z baniaka, wiesz że to zrobię.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8BFFF2B1A0B7600C37F6A /* Wiesz, że ci zaje kur z baniaka, wiesz że to zrobię.m4a */; };
 		E2E8C1DF2B1A0B8A00C37F6A /* I my do kina chodzimy po to, żeby oglądać du i cy aktorek.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0002B1A0B7600C37F6A /* I my do kina chodzimy po to, żeby oglądać du i cy aktorek.m4a */; };
 		E2E8C1E02B1A0B8A00C37F6A /* A słabego czaszka człeka czyli nas to jest ich powszedni chleb.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0012B1A0B7600C37F6A /* A słabego czaszka człeka czyli nas to jest ich powszedni chleb.m4a */; };
@@ -865,7 +862,6 @@
 		E2E8C22B2B1A0B8B00C37F6A /* A nie du nadstawiacie i laski robicie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C04C2B1A0B7C00C37F6A /* A nie du nadstawiacie i laski robicie.m4a */; };
 		E2E8C22C2B1A0B8B00C37F6A /* I Arabowie się ubiorą w parzenice.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C04D2B1A0B7C00C37F6A /* I Arabowie się ubiorą w parzenice.m4a */; };
 		E2E8C22D2B1A0B8B00C37F6A /* To cię k znajdę i ci łeb od bagnetem moim francuskim.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C04E2B1A0B7C00C37F6A /* To cię k znajdę i ci łeb od bagnetem moim francuskim.m4a */; };
-		E2E8C22E2B1A0B8B00C37F6A /* Patlewicz(2).m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C04F2B1A0B7C00C37F6A /* Patlewicz(2).m4a */; };
 		E2E8C22F2B1A0B8B00C37F6A /* Odwagi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0502B1A0B7D00C37F6A /* Odwagi.m4a */; };
 		E2E8C2302B1A0B8B00C37F6A /* Chcesz mnie przekonać?.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0512B1A0B7D00C37F6A /* Chcesz mnie przekonać?.m4a */; };
 		E2E8C2312B1A0B8B00C37F6A /* Za to panie Patlewicz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0522B1A0B7D00C37F6A /* Za to panie Patlewicz.m4a */; };
@@ -972,7 +968,6 @@
 		E2E8C2972B1A0B8B00C37F6A /* Obudźta się.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0B82B1A0B8600C37F6A /* Obudźta się.m4a */; };
 		E2E8C2982B1A0B8B00C37F6A /* Puść go.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0B92B1A0B8600C37F6A /* Puść go.m4a */; };
 		E2E8C2992B1A0B8B00C37F6A /* Ma karabin, ma lunete i on strzela do wilka.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0BA2B1A0B8700C37F6A /* Ma karabin, ma lunete i on strzela do wilka.m4a */; };
-		E2E8C29A2B1A0B8B00C37F6A /* POLACY UHYHYHYYYHY.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0BB2B1A0B8700C37F6A /* POLACY UHYHYHYYYHY.m4a */; };
 		E2E8C29B2B1A0B8B00C37F6A /* Tylko pokażcie, że chcecie walczyć.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0BC2B1A0B8700C37F6A /* Tylko pokażcie, że chcecie walczyć.m4a */; };
 		E2E8C29C2B1A0B8B00C37F6A /* Ja sobie znajdę kontakt z kamratami.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0BD2B1A0B8700C37F6A /* Ja sobie znajdę kontakt z kamratami.m4a */; };
 		E2E8C29D2B1A0B8B00C37F6A /* I duch w was.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8C0BE2B1A0B8700C37F6A /* I duch w was.m4a */; };
@@ -2428,8 +2423,6 @@
 		E2E8BF552B1A0B6A00C37F6A /* Czym tam miałem pod ręką.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Czym tam miałem pod ręką.m4a"; sourceTree = "<group>"; };
 		E2E8BF562B1A0B6B00C37F6A /* Ja nie mam z tym problemów.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja nie mam z tym problemów.m4a"; sourceTree = "<group>"; };
 		E2E8BF572B1A0B6B00C37F6A /* Ona nie wie co ma robić.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ona nie wie co ma robić.m4a"; sourceTree = "<group>"; };
-		E2E8BF582B1A0B6B00C37F6A /* Dobry Polak to poległy Polak.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dobry Polak to poległy Polak.m4a"; sourceTree = "<group>"; };
-		E2E8BF592B1A0B6B00C37F6A /* Patlewicz(1).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patlewicz(1).m4a"; sourceTree = "<group>"; };
 		E2E8BF5A2B1A0B6B00C37F6A /* Wisi mi koło du ona.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wisi mi koło du ona.m4a"; sourceTree = "<group>"; };
 		E2E8BF5B2B1A0B6B00C37F6A /* Ożesz ty.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ożesz ty.m4a"; sourceTree = "<group>"; };
 		E2E8BF5C2B1A0B6B00C37F6A /* I z nią spłodzić potomstwo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I z nią spłodzić potomstwo.m4a"; sourceTree = "<group>"; };
@@ -2570,11 +2563,10 @@
 		E2E8BFE32B1A0B7400C37F6A /* Ja pierd kur.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja pierd kur.m4a"; sourceTree = "<group>"; };
 		E2E8BFE42B1A0B7400C37F6A /* Kołtuny polskie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kołtuny polskie.m4a"; sourceTree = "<group>"; };
 		E2E8BFE52B1A0B7400C37F6A /* A on jej nie pomaga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A on jej nie pomaga.m4a"; sourceTree = "<group>"; };
-		E2E8BFE62B1A0B7400C37F6A /* I Jan Paweł 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Jan Paweł 2.m4a"; sourceTree = "<group>"; };
+		E2E8BFE62B1A0B7400C37F6A /* I Jan Paweł II.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Jan Paweł II.m4a"; sourceTree = "<group>"; };
 		E2E8BFE72B1A0B7400C37F6A /* WROGOOOOM.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = WROGOOOOM.m4a; sourceTree = "<group>"; };
 		E2E8BFE82B1A0B7400C37F6A /* Płynącej krwią i sper.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Płynącej krwią i sper.m4a"; sourceTree = "<group>"; };
 		E2E8BFE92B1A0B7400C37F6A /* Do ku nędzy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Do ku nędzy.m4a"; sourceTree = "<group>"; };
-		E2E8BFEA2B1A0B7400C37F6A /* Patlewicz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Patlewicz.m4a; sourceTree = "<group>"; };
 		E2E8BFEB2B1A0B7400C37F6A /* Wierzę w Jezusa Chrystusa zbawiciela naszego.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wierzę w Jezusa Chrystusa zbawiciela naszego.m4a"; sourceTree = "<group>"; };
 		E2E8BFEC2B1A0B7400C37F6A /* Obudźta się polacy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Obudźta się polacy.m4a"; sourceTree = "<group>"; };
 		E2E8BFED2B1A0B7400C37F6A /* Zdycha i tak być powinno.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zdycha i tak być powinno.m4a"; sourceTree = "<group>"; };
@@ -2594,7 +2586,7 @@
 		E2E8BFFB2B1A0B7600C37F6A /* Zastrzeliłbym cię jak wściekłego psa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Zastrzeliłbym cię jak wściekłego psa.m4a"; sourceTree = "<group>"; };
 		E2E8BFFC2B1A0B7600C37F6A /* Panu Bogu wszechmogącemu w Trójcy przenajświętszej jedynemu.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Panu Bogu wszechmogącemu w Trójcy przenajświętszej jedynemu.m4a"; sourceTree = "<group>"; };
 		E2E8BFFD2B1A0B7600C37F6A /* W piź go kur pogonić.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "W piź go kur pogonić.m4a"; sourceTree = "<group>"; };
-		E2E8BFFE2B1A0B7600C37F6A /* A ja bym chętnie się z kimś ponapi bo się nakręciłem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A ja bym chętnie się z kimś ponapi bo się nakręciłem.m4a"; sourceTree = "<group>"; };
+		E2E8BFFE2B1A0B7600C37F6A /* A ja bym chętnie się z kimś ponapierdł bo się nakręciłem.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A ja bym chętnie się z kimś ponapierdł bo się nakręciłem.m4a"; sourceTree = "<group>"; };
 		E2E8BFFF2B1A0B7600C37F6A /* Wiesz, że ci zaje kur z baniaka, wiesz że to zrobię.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wiesz, że ci zaje kur z baniaka, wiesz że to zrobię.m4a"; sourceTree = "<group>"; };
 		E2E8C0002B1A0B7600C37F6A /* I my do kina chodzimy po to, żeby oglądać du i cy aktorek.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I my do kina chodzimy po to, żeby oglądać du i cy aktorek.m4a"; sourceTree = "<group>"; };
 		E2E8C0012B1A0B7600C37F6A /* A słabego czaszka człeka czyli nas to jest ich powszedni chleb.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A słabego czaszka człeka czyli nas to jest ich powszedni chleb.m4a"; sourceTree = "<group>"; };
@@ -2673,7 +2665,6 @@
 		E2E8C04C2B1A0B7C00C37F6A /* A nie du nadstawiacie i laski robicie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A nie du nadstawiacie i laski robicie.m4a"; sourceTree = "<group>"; };
 		E2E8C04D2B1A0B7C00C37F6A /* I Arabowie się ubiorą w parzenice.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I Arabowie się ubiorą w parzenice.m4a"; sourceTree = "<group>"; };
 		E2E8C04E2B1A0B7C00C37F6A /* To cię k znajdę i ci łeb od bagnetem moim francuskim.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To cię k znajdę i ci łeb od bagnetem moim francuskim.m4a"; sourceTree = "<group>"; };
-		E2E8C04F2B1A0B7C00C37F6A /* Patlewicz(2).m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Patlewicz(2).m4a"; sourceTree = "<group>"; };
 		E2E8C0502B1A0B7D00C37F6A /* Odwagi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Odwagi.m4a; sourceTree = "<group>"; };
 		E2E8C0512B1A0B7D00C37F6A /* Chcesz mnie przekonać?.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chcesz mnie przekonać?.m4a"; sourceTree = "<group>"; };
 		E2E8C0522B1A0B7D00C37F6A /* Za to panie Patlewicz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Za to panie Patlewicz.m4a"; sourceTree = "<group>"; };
@@ -2780,7 +2771,6 @@
 		E2E8C0B82B1A0B8600C37F6A /* Obudźta się.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Obudźta się.m4a"; sourceTree = "<group>"; };
 		E2E8C0B92B1A0B8600C37F6A /* Puść go.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Puść go.m4a"; sourceTree = "<group>"; };
 		E2E8C0BA2B1A0B8700C37F6A /* Ma karabin, ma lunete i on strzela do wilka.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ma karabin, ma lunete i on strzela do wilka.m4a"; sourceTree = "<group>"; };
-		E2E8C0BB2B1A0B8700C37F6A /* POLACY UHYHYHYYYHY.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "POLACY UHYHYHYYYHY.m4a"; sourceTree = "<group>"; };
 		E2E8C0BC2B1A0B8700C37F6A /* Tylko pokażcie, że chcecie walczyć.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tylko pokażcie, że chcecie walczyć.m4a"; sourceTree = "<group>"; };
 		E2E8C0BD2B1A0B8700C37F6A /* Ja sobie znajdę kontakt z kamratami.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ja sobie znajdę kontakt z kamratami.m4a"; sourceTree = "<group>"; };
 		E2E8C0BE2B1A0B8700C37F6A /* I duch w was.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I duch w was.m4a"; sourceTree = "<group>"; };
@@ -4873,7 +4863,7 @@
 			isa = PBXGroup;
 			children = (
 				E2E8BF162B1A0B6700C37F6A /* A co to? nie możemy być homofobami?.m4a */,
-				E2E8BFFE2B1A0B7600C37F6A /* A ja bym chętnie się z kimś ponapi bo się nakręciłem.m4a */,
+				E2E8BFFE2B1A0B7600C37F6A /* A ja bym chętnie się z kimś ponapierdł bo się nakręciłem.m4a */,
 				E2E8C0562B1A0B7D00C37F6A /* A ja pier twoje szczerze.m4a */,
 				E2E8C0692B1A0B7F00C37F6A /* A kto ty kur jesteś.m4a */,
 				E2E8C0AC2B1A0B8500C37F6A /* A mnie nie miło nie pier.m4a */,
@@ -4950,7 +4940,6 @@
 				E2E8C0452B1A0B7C00C37F6A /* Do czego to dojdzie.m4a */,
 				E2E8BFE92B1A0B7400C37F6A /* Do ku nędzy.m4a */,
 				E2E8BFBB2B1A0B7100C37F6A /* Dobranoc panowie, dziękujemy, czołem.m4a */,
-				E2E8BF582B1A0B6B00C37F6A /* Dobry Polak to poległy Polak.m4a */,
 				E2E8BFB52B1A0B7000C37F6A /* Dodzwoniłeś się do nacjonalistycznego bydła.m4a */,
 				E2E8BFF72B1A0B7500C37F6A /* Doprowadzać do rozdrażnienia umysłowego.m4a */,
 				E2E8BF542B1A0B6A00C37F6A /* Doprowadziłeś mnie synku do białej gorączki.m4a */,
@@ -4976,7 +4965,7 @@
 				E2E8BF1C2B1A0B6700C37F6A /* I do dzisiaj gn tych dowodów nie przedstawił.m4a */,
 				E2E8C0BE2B1A0B8700C37F6A /* I duch w was.m4a */,
 				E2E8C04B2B1A0B7C00C37F6A /* I górnictwo coś tam cośtam to.m4a */,
-				E2E8BFE62B1A0B7400C37F6A /* I Jan Paweł 2.m4a */,
+				E2E8BFE62B1A0B7400C37F6A /* I Jan Paweł II.m4a */,
 				E2E8BF3C2B1A0B6900C37F6A /* I jeszcze jedno szabes goju.m4a */,
 				E2E8C0222B1A0B7900C37F6A /* I kiwają główkami.m4a */,
 				E2E8BF442B1A0B6A00C37F6A /* I koniec na tym koniec.m4a */,
@@ -5172,9 +5161,6 @@
 				E2E8C0A12B1A0B8400C37F6A /* Panie aspirancie, dziękujemy.m4a */,
 				E2E8C03E2B1A0B7B00C37F6A /* Panie to jest jabłonowski!.m4a */,
 				E2E8BFFC2B1A0B7600C37F6A /* Panu Bogu wszechmogącemu w Trójcy przenajświętszej jedynemu.m4a */,
-				E2E8BFEA2B1A0B7400C37F6A /* Patlewicz.m4a */,
-				E2E8BF592B1A0B6B00C37F6A /* Patlewicz(1).m4a */,
-				E2E8C04F2B1A0B7C00C37F6A /* Patlewicz(2).m4a */,
 				E2E8C0192B1A0B7800C37F6A /* Pejsiki ci wiszą syneczku.m4a */,
 				E2E8C0B72B1A0B8600C37F6A /* Pier cie kur.m4a */,
 				E2E8BFB92B1A0B7100C37F6A /* Pierd twoją odwagę.m4a */,
@@ -5192,7 +5178,6 @@
 				E2E8C00C2B1A0B7700C37F6A /* Pokazuje się przedsiębiorca i mówi yyy uuuu gugu wśśś.m4a */,
 				E2E8BFCD2B1A0B7200C37F6A /* Pokazywanie du i cy.m4a */,
 				E2E8C0B22B1A0B8600C37F6A /* POLACY UHYHYHUHYHY.m4a */,
-				E2E8C0BB2B1A0B8700C37F6A /* POLACY UHYHYHYYYHY.m4a */,
 				E2E8C05C2B1A0B7E00C37F6A /* Polskę trzeba odbijać od dołu watahami, które żyją na danym terenie.m4a */,
 				E2E8C0102B1A0B7700C37F6A /* Ponieważ jak to powiedział jeden mój kolega, łajdus.m4a */,
 				E2E8C01B2B1A0B7800C37F6A /* Ponieważ jak to powiedział jeden mój kolega.m4a */,
@@ -6314,7 +6299,6 @@
 				E2E8C12D2B1A0B8A00C37F6A /* Wierzę w tradycje słowiańską.m4a in Resources */,
 				E2E8C1492B1A0B8A00C37F6A /* Oni was zabijają.m4a in Resources */,
 				E2E8C14C2B1A0B8A00C37F6A /* Nie musi się ze mną utożsamiać.m4a in Resources */,
-				E2E8C1382B1A0B8A00C37F6A /* Patlewicz(1).m4a in Resources */,
 				E2E8C18B2B1A0B8A00C37F6A /* O to ci chodziło? Masz.m4a in Resources */,
 				E2E8C2922B1A0B8B00C37F6A /* Uwaga będzie puenta.m4a in Resources */,
 				E2E8C22C2B1A0B8B00C37F6A /* I Arabowie się ubiorą w parzenice.m4a in Resources */,
@@ -6363,7 +6347,6 @@
 				E2E8C26D2B1A0B8B00C37F6A /* Dzisiaj szanowni państwo my musimy udowadniać.m4a in Resources */,
 				E2E8C2BD2B1A0B8B00C37F6A /* Obudźcie się ku.m4a in Resources */,
 				E2E8C1092B1A0B8A00C37F6A /* Żebyś z rozpaczy popełnił samwo, że dla mnie już nie ma ratunku.m4a in Resources */,
-				E2E8C1372B1A0B8A00C37F6A /* Dobry Polak to poległy Polak.m4a in Resources */,
 				E2E8C28F2B1A0B8B00C37F6A /* Ja rozmawiam z policjantami.m4a in Resources */,
 				E2E8C0EF2B1A0B8A00C37F6A /* Tobie lotnik loty nad przestrzenią.m4a in Resources */,
 				E2E8C1B52B1A0B8A00C37F6A /* Oddaj władzę chu.m4a in Resources */,
@@ -6378,7 +6361,6 @@
 				E2E8C1F32B1A0B8A00C37F6A /* Jabłon znowu coś tam gawroży i udaje psa i pierdzi.m4a in Resources */,
 				E2E8C2212B1A0B8B00C37F6A /* Czujecie?.m4a in Resources */,
 				E2E8C0E32B1A0B8A00C37F6A /* My jesteśmy BYDŁO nacj.m4a in Resources */,
-				E2E8C29A2B1A0B8B00C37F6A /* POLACY UHYHYHYYYHY.m4a in Resources */,
 				E2E8C22D2B1A0B8B00C37F6A /* To cię k znajdę i ci łeb od bagnetem moim francuskim.m4a in Resources */,
 				E2E8C2932B1A0B8B00C37F6A /* Jesteś dla mnie kawałkiem wyschniętego gów.m4a in Resources */,
 				E2E8C1012B1A0B8A00C37F6A /* Jestem rasistą.m4a in Resources */,
@@ -6585,7 +6567,7 @@
 				E2E8C2772B1A0B8B00C37F6A /* On ma rację.m4a in Resources */,
 				E2E8C1762B1A0B8A00C37F6A /* Jaszczurczy śmiech.m4a in Resources */,
 				E2E8C1512B1A0B8A00C37F6A /* Ty mendo ludzka.m4a in Resources */,
-				E2E8C1C52B1A0B8A00C37F6A /* I Jan Paweł 2.m4a in Resources */,
+				E2E8C1C52B1A0B8A00C37F6A /* I Jan Paweł II.m4a in Resources */,
 				E2E8C19C2B1A0B8A00C37F6A /* Jeszcze może doniesiesz na kogoś kto się nie zaszczepił co.m4a in Resources */,
 				E2E8C2B82B1A0B8B00C37F6A /* Żeby mi takie teksty sprzedawać.m4a in Resources */,
 				E2E8C28C2B1A0B8B00C37F6A /* Od 56 do 89 polak w polsce był gospodarzem.m4a in Resources */,
@@ -6616,7 +6598,6 @@
 				E2E8C1162B1A0B8A00C37F6A /* Albo mój przyjaciel Osadowski.m4a in Resources */,
 				E2E8C1B62B1A0B8A00C37F6A /* Straszysz mnie?.m4a in Resources */,
 				E29319C82B189E4400D3C461 /* Assets.xcassets in Resources */,
-				E2E8C1C92B1A0B8A00C37F6A /* Patlewicz.m4a in Resources */,
 				E2E8C17E2B1A0B8A00C37F6A /* Że nie jesteśmy homofobami.m4a in Resources */,
 				E2E8C26F2B1A0B8B00C37F6A /* I na prawdę musisz bardzo uważać.m4a in Resources */,
 				E2E8C1452B1A0B8A00C37F6A /* My ZOMOwcy nosiliśmy takie buty, napier was jak trzeba.m4a in Resources */,
@@ -6627,7 +6608,7 @@
 				E2E8C1822B1A0B8A00C37F6A /* Wybierasz się na wojenkę? Tak?.m4a in Resources */,
 				E2E8C1C82B1A0B8A00C37F6A /* Do ku nędzy.m4a in Resources */,
 				E2E8C1B72B1A0B8A00C37F6A /* A szkoda, ze pan nie umie, a pana rosyjscy mocodawcy co na to.m4a in Resources */,
-				E2E8C1DD2B1A0B8A00C37F6A /* A ja bym chętnie się z kimś ponapi bo się nakręciłem.m4a in Resources */,
+				E2E8C1DD2B1A0B8A00C37F6A /* A ja bym chętnie się z kimś ponapierdł bo się nakręciłem.m4a in Resources */,
 				E2E8C1C32B1A0B8A00C37F6A /* Kołtuny polskie.m4a in Resources */,
 				E2E8C2442B1A0B8B00C37F6A /* Ty sku robiony przez sku syna.m4a in Resources */,
 				E2E8C19D2B1A0B8A00C37F6A /* Jaka homofobia?.m4a in Resources */,
@@ -6721,7 +6702,6 @@
 				E2E8C2592B1A0B8B00C37F6A /* To po ch tu dzwonisz.m4a in Resources */,
 				E2E8C1342B1A0B8A00C37F6A /* Czym tam miałem pod ręką.m4a in Resources */,
 				E2E8C2852B1A0B8B00C37F6A /* Ale racja będzie wasza.m4a in Resources */,
-				E2E8C22E2B1A0B8B00C37F6A /* Patlewicz(2).m4a in Resources */,
 				E2E8C1BC2B1A0B8A00C37F6A /* Juhuuu.m4a in Resources */,
 				E2E8C1332B1A0B8A00C37F6A /* Doprowadziłeś mnie synku do białej gorączki.m4a in Resources */,
 				E2E8C2B52B1A0B8B00C37F6A /* Teraz go wyłącz.m4a in Resources */,
