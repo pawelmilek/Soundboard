@@ -49,7 +49,7 @@ struct SoundboardRow: View {
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardSearchView.ViewModel())
+    .environmentObject(SoundboardView.ViewModel())
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
@@ -59,5 +59,5 @@ struct SoundboardRow: View {
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardSearchView.ViewModel())
+    .environmentObject(SoundboardView.ViewModel())
 }

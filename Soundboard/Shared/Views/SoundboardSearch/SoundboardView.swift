@@ -1,5 +1,5 @@
 //
-//  SoundboardSearchView.swift
+//  SoundboardView.swift
 //  Soundboard
 //
 //  Created by Pawel Milek on 10/25/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SoundboardSearchView: View {
+struct SoundboardView: View {
     @EnvironmentObject var realmManager: RealmManager
     @ObservedObject var viewModel: ViewModel
 
@@ -38,7 +38,7 @@ struct SoundboardSearchView: View {
     }
 }
 
-private extension SoundboardSearchView {
+private extension SoundboardView {
 
     var favoritesToolbarButton: some View {
         Button {
@@ -53,6 +53,6 @@ private extension SoundboardSearchView {
 }
 
 #Preview {
-    SoundboardSearchView(viewModel: SoundboardSearchView.ViewModel())
+    SoundboardView(viewModel: SoundboardView.ViewModel())
         .environmentObject(RealmManager(name: "stonoga.soundboard"))
 }

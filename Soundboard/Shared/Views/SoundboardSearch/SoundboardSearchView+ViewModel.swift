@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import RealmSwift
 
-extension SoundboardSearchView {
+extension SoundboardView {
     @MainActor
     final class ViewModel: NSObject, ObservableObject {
         @Published var items: Results<SoundModel>?
