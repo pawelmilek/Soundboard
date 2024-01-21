@@ -40,9 +40,13 @@ public final class RealmManager: ObservableObject {
 
     private func setupScheme(with name: String) {
         do {
-            let fileURL = try PathFinder.documentDirectory().appendingPathComponent("\(name).realm")
+            var config = Realm.Configuration.defaultConfiguration
+            config.fileURL?.deleteLastPathComponent()
+            config.fileURL?.appendPathComponent(name)
+            config.fileURL?.appendPathExtension("realm")
+
             let configuration = Realm.Configuration(
-                fileURL: fileURL,
+                fileURL: config.fileURL,
                 schemaVersion: 1,
                 deleteRealmIfMigrationNeeded: false
             )
