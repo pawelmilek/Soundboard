@@ -6,6 +6,42 @@
 //
 
 import SwiftUI
+import RealmSwift
+
+enum SoundboardSortOrder: String, Identifiable, CaseIterable, CustomStringConvertible {
+    case title
+    case playback
+
+    var id: Self { self }
+    var description: String {
+        switch self {
+        case .title:
+            "Title"
+        case .playback:
+            "Playback"
+        }
+    }
+
+    var keyPath: String  {
+        switch self {
+        case .title:
+            "title"
+
+        case .playback:
+            "playbackCount"
+        }
+    }
+
+    var ascending: Bool {
+        switch self {
+        case .title:
+            true
+
+        case .playback:
+            false
+        }
+    }
+}
 
 struct SoundboardView: View {
     @EnvironmentObject var realmManager: RealmManager
@@ -17,7 +53,19 @@ struct SoundboardView: View {
                 .environmentObject(viewModel)
                 .navigationTitle("Soundboard")
                 .toolbar {
-                    favoritesToolbarButton
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        HStack {
+                            Menu("Sort By", systemImage: viewModel.sortToolbarSymbol) {
+                                Picker("Select sort order", selection: $viewModel.selectedSortOrder) {
+                                    ForEach(SoundboardSortOrder.allCases) { item in
+                                        Text(item.description)
+                                            .tag(item)
+                                    }
+                                }
+                            }
+                            favoritesToolbarButton
+                        }
+                    }
                 }
         }
         .searchable(
@@ -33,7 +81,7 @@ struct SoundboardView: View {
         }
         .textInputAutocapitalization(.never)
         .onAppear {
-            viewModel.setupObserver(realmManager.realm)
+            viewModel.onViewDidAppear(realmManager)
         }
     }
 }

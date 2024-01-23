@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import RealmSwift
+import Combine
 
 extension SoundboardView {
     @MainActor
@@ -15,6 +16,7 @@ extension SoundboardView {
         @Published var items: Results<SoundModel>?
         @Published var showFavoritesOnly = false
         @Published var searchText = ""
+        @Published var selectedSortOrder = SoundboardSortOrder.title
 
         var showContentUnavailableView: Bool {
             searchResult.isEmpty
@@ -23,11 +25,9 @@ extension SoundboardView {
         var searchResult: [SoundModel] {
             return if searchText.isEmpty {
                 itemsArray
-                    .sorted { $0.title < $1.title }
             } else {
                 itemsArray
                     .filter { $0.title.lowercased().contains(searchText.lowercased()) }
-                    .sorted { $0.title < $1.title }
             }
         }
 
@@ -59,6 +59,10 @@ extension SoundboardView {
             }
         }
 
+        var sortToolbarSymbol: String {
+            "arrow.up.arrow.down"
+        }
+        
         var favoriteToolbarSymbol: String {
             showFavoritesOnly ? "heart.fill" : "heart"
         }
@@ -68,21 +72,48 @@ extension SoundboardView {
         }
 
         let favoritesTip = FavoritesSoundTip()
+        private var realmManager: RealmManager?
+        private var cancallables = Set<AnyCancellable>()
         private var itemsToken: NotificationToken?
         private let player: PlayerProtocol
         private let shareContentProvider: ShareContentProvider
 
-        init(player: PlayerProtocol = SoundPlayer(),
-             shareContentProvider: ShareContentProvider = ShareContentProvider()) {
+        init(
+            player: PlayerProtocol = SoundPlayer(),
+            shareContentProvider: ShareContentProvider = ShareContentProvider()
+        ) {
             self.player = player
             self.shareContentProvider = shareContentProvider
+            super.init()
+
+            $selectedSortOrder
+                .sink { [weak self] selectedSortOrder in
+                    self?.updateSortOrder(selectedSortOrder)
+                }
+                .store(in: &cancallables)
         }
 
-        func setupObserver(_ realm: Realm?) {
-            let observedItems = realm?.objects(SoundModel.self)
+        func onViewDidAppear(_ realmManager: RealmManager) {
+            self.realmManager = realmManager
+            setupObserver()
+        }
+
+        private func setupObserver() {
+            let observedItems = realmManager?.realm?.objects(SoundModel.self)
             itemsToken = observedItems?.observe { [weak self] _ in
-                self?.items = observedItems
+                guard let self else { return }
+                items = observedItems?.sorted(
+                    byKeyPath: selectedSortOrder.keyPath,
+                    ascending: selectedSortOrder.ascending
+                )
             }
+        }
+
+        private func updateSortOrder(_ selectedSortOrder: SoundboardSortOrder) {
+            items = realmManager?.realm?.objects(SoundModel.self).sorted(
+                byKeyPath: selectedSortOrder.keyPath,
+                ascending: selectedSortOrder.ascending
+            )
         }
 
         func toggleFavorites() {
