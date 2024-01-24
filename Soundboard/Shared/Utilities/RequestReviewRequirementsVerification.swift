@@ -9,7 +9,7 @@ import Foundation
 
 struct RequestReviewRequirementsVerification {
     static let appVersion = Bundle.versionNumber
-    static private let minFavoriteSoundsBeforeRequestReview = 2
+    static private let minFavoriteSoundsBeforeRequestReview = 6
 
     static func isRequestValid(favoriteCount: Int, lastVersionPromptedForReview: String) -> Bool {
         let hasMetMinFavoriteNumber = favoriteCount >= minFavoriteSoundsBeforeRequestReview

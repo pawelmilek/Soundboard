@@ -19,8 +19,6 @@ struct SoundboardTipConfigurationViewModifier: ViewModifier {
 
 
     private func configureTip() {
-        try? Tips.resetDatastore()
-
         try? Tips.configure([
             .datastoreLocation(.applicationDefault),
             .displayFrequency(.immediate)

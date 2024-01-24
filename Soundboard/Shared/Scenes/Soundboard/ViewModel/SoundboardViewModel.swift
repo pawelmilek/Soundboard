@@ -11,10 +11,12 @@ import Combine
 
 @MainActor
 final class SoundboardViewModel: NSObject, ObservableObject {
+    @AppStorage("lastVersionPromptedForReview") private var lastVersionPromptedForReview = ""
     @Published var items: Results<SoundModel>?
     @Published var showFavoritesOnly = false
     @Published var searchText = ""
     @Published var selectedSortOrder = SoundboardSortOrder.title
+    @Published var shouldRequestReview = false
 
     var showContentUnavailableView: Bool {
         searchResult.isEmpty
@@ -81,10 +83,12 @@ final class SoundboardViewModel: NSObject, ObservableObject {
         .accentColor
     }
 
-    let favoritesTip = FavoritesSoundTip()
+    let informationTip = InformationTip()
+
     private var realmManager: RealmManager?
     private var cancallables = Set<AnyCancellable>()
     private var itemsToken: NotificationToken?
+    private var favoritesToken: NotificationToken?
     private let player: PlayerProtocol
     private let shareContentProvider: ShareContentProvider
 
@@ -116,6 +120,37 @@ final class SoundboardViewModel: NSObject, ObservableObject {
                 byKeyPath: selectedSortOrder.keyPath,
                 ascending: selectedSortOrder.ascending
             )
+        }
+
+        favoritesToken = observedItems?.observe(keyPaths: [\SoundModel.isFavorite]) { [weak self] changes in
+            guard let self else { return }
+            switch changes {
+            case .update(_, _, _, modifications: let modifications):
+                if !modifications.isEmpty {
+                    checkIfValidForReview()
+                }
+            default:
+                break
+            }
+
+        }
+    }
+
+    private func checkIfValidForReview() {
+        let favoriteSoundsCount = items?.filter(\.isFavorite).count ?? 0
+        if RequestReviewRequirementsVerification.isRequestValid(
+            favoriteCount: favoriteSoundsCount,
+            lastVersionPromptedForReview: lastVersionPromptedForReview
+        ) {
+            lastVersionPromptedForReview = RequestReviewRequirementsVerification.appVersion
+            presentReview()
+        }
+    }
+
+    private func presentReview() {
+        Task {
+            try await Task.sleep(for: .seconds(0.5))
+            shouldRequestReview = true
         }
     }
 

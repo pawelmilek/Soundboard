@@ -7,8 +7,10 @@
 
 import SwiftUI
 import RealmSwift
+import TipKit
 
 struct SoundboardView: View {
+    @Environment(\.requestReview) private var requestReview
     @EnvironmentObject private var router: Router
     @EnvironmentObject private var realmManager: RealmManager
     @EnvironmentObject private var viewModel: SoundboardViewModel
@@ -19,21 +21,12 @@ struct SoundboardView: View {
             .navigationTitle(viewModel.navigationTitle)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    Button(action: navigateToInfo) {
-                        Image(systemName: viewModel.infoToolbarSymbol)
-                    }
+                    informationToolbarItem
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     HStack {
-                        Menu("Sort By", systemImage: viewModel.sortToolbarSymbol) {
-                            Picker("Select sort order", selection: $viewModel.selectedSortOrder) {
-                                ForEach(SoundboardSortOrder.allCases) { item in
-                                    Text(item.description)
-                                        .tag(item)
-                                }
-                            }
-                        }
-                        favoritesToolbarButton
+                        sortToolbarMenu
+                        favoritesToolbarItem
                     }
                 }
             }
@@ -49,10 +42,14 @@ struct SoundboardView: View {
                 }
             }
             .textInputAutocapitalization(.never)
+            .onReceive(viewModel.$shouldRequestReview) { shouldRequestReview in
+                if shouldRequestReview {
+                    requestReview()
+                }
+            }
             .onAppear {
                 viewModel.onViewDidAppear(realmManager)
             }
-            .soundboardRequestReview()
     }
 
     private func navigateToInfo() {
@@ -62,14 +59,31 @@ struct SoundboardView: View {
 
 private extension SoundboardView {
 
-    var favoritesToolbarButton: some View {
+    var informationToolbarItem: some View {
+        Button(action: navigateToInfo) {
+            Image(systemName: viewModel.infoToolbarSymbol)
+        }
+        .popoverTip(viewModel.informationTip, arrowEdge: .top)
+    }
+
+    var sortToolbarMenu: some View {
+        Menu("Sort By", systemImage: viewModel.sortToolbarSymbol) {
+            Picker("Select sort order", selection: $viewModel.selectedSortOrder) {
+                ForEach(SoundboardSortOrder.allCases) { item in
+                    Text(item.description)
+                        .tag(item)
+                }
+            }
+        }
+    }
+
+    var favoritesToolbarItem: some View {
         Button {
             viewModel.toggleFavorites()
         } label: {
             Image(systemName: viewModel.favoriteToolbarSymbol)
                 .foregroundColor(viewModel.toolbarItemFavoritesColor)
         }
-        .popoverTip(viewModel.favoritesTip, arrowEdge: .top)
     }
 
 }
