@@ -5,7 +5,6 @@
 //  Created by Pawel Milek on 10/25/23.
 //
 
-import Foundation
 import SwiftUI
 import RealmSwift
 import Combine
@@ -38,6 +37,10 @@ final class SoundboardViewModel: NSObject, ObservableObject {
         }
     }
 
+    var navigationTitle: String {
+        "Soundboard"
+    }
+
     var contentUnavailableTitle: String {
         return if searchText.isEmpty {
             "No Favorites available"
@@ -58,6 +61,14 @@ final class SoundboardViewModel: NSObject, ObservableObject {
         }
     }
 
+    var searchPrompt: String {
+        "Search for a sound"
+    }
+
+    var infoToolbarSymbol: String {
+        "info.circle"
+    }
+
     var sortToolbarSymbol: String {
         "arrow.up.arrow.down"
     }
@@ -67,7 +78,7 @@ final class SoundboardViewModel: NSObject, ObservableObject {
     }
 
     var toolbarItemFavoritesColor: Color {
-        showFavoritesOnly ? .accentColor : .gray
+        .accentColor
     }
 
     let favoritesTip = FavoritesSoundTip()

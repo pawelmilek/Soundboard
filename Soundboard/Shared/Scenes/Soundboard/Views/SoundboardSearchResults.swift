@@ -1,5 +1,5 @@
 //
-//  SoundboardList.swift
+//  SoundboardSearchResults.swift
 //  Soundboard
 //
 //  Created by Pawel Milek on 11/22/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SoundboardList: View {
+struct SoundboardSearchResults: View {
     @EnvironmentObject private var viewModel: SoundboardViewModel
     @Environment(\.isSearching) private var isSearching: Bool
 
@@ -36,6 +36,6 @@ struct SoundboardList: View {
 }
 
 #Preview {
-    SoundboardList()
+    SoundboardSearchResults()
         .environmentObject(SoundboardViewModel())
 }

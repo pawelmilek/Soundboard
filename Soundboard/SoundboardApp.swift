@@ -10,30 +10,21 @@ import TipKit
 
 @main
 struct SoundboardApp: App {
+    @StateObject private var router = Router()
     @StateObject private var realmManager = RealmManager(name: "soundboard")
     @StateObject private var viewModel = SoundboardViewModel()
 
     var body: some Scene {
         WindowGroup {
-            SoundboardView(viewModel: viewModel)
+            SoundboardNavigationStack()
+                .environment(\.realmConfiguration, realmManager.realm!.configuration)
                 .environmentObject(viewModel)
                 .environmentObject(realmManager)
-                .environment(\.realmConfiguration, realmManager.realm!.configuration)
+                .environmentObject(router)
+                .soundboardTipConfiguration()
                 .task {
-                    configureTip()
-                    debugPrintRealmFileURL()
+                    realmManager.debugPrintRealmFileURL()
                 }
         }
-    }
-
-    private func configureTip() {
-        try? Tips.configure([
-            .datastoreLocation(.applicationDefault),
-            .displayFrequency(.immediate)
-        ])
-    }
-
-    private func debugPrintRealmFileURL() {
-        realmManager.debugPrintRealmFileURL()
     }
 }
