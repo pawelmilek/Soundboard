@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SoundboardList: View {
-    @EnvironmentObject private var viewModel: SoundboardView.ViewModel
+    @EnvironmentObject private var viewModel: SoundboardViewModel
     @Environment(\.isSearching) private var isSearching: Bool
 
     var body: some View {
@@ -37,5 +37,5 @@ struct SoundboardList: View {
 
 #Preview {
     SoundboardList()
-        .environmentObject(SoundboardView.ViewModel())
+        .environmentObject(SoundboardViewModel())
 }

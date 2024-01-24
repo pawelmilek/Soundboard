@@ -22,7 +22,7 @@
 		E22CC7642B1A29EC007C3B30 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
 		E22CC7652B1A29EC007C3B30 /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardView.swift */; };
 		E22CC7662B1A29EC007C3B30 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */; };
-		E22CC7672B1A29EC007C3B30 /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E22CC7672B1A29EC007C3B30 /* SoundboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */; };
 		E22CC7682B1A29EC007C3B30 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
 		E22CC7692B1A29EC007C3B30 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
 		E22CC76A2B1A29EC007C3B30 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
@@ -371,7 +371,6 @@
 		E22CCA282B1A3029007C3B30 /* I have the best words.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C72B1A3028007C3B30 /* I have the best words.m4a */; };
 		E22CCA292B1A3029007C3B30 /* Tiffany.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C82B1A3028007C3B30 /* Tiffany.m4a */; };
 		E22CCA2A2B1A3029007C3B30 /* Whatever you want.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8C92B1A3028007C3B30 /* Whatever you want.m4a */; };
-		E22CCA2B2B1A3029007C3B30 /* Ll sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CA2B1A3028007C3B30 /* Ll sound.m4a */; };
 		E22CCA2C2B1A3029007C3B30 /* And right now.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CB2B1A3028007C3B30 /* And right now.m4a */; };
 		E22CCA2D2B1A3029007C3B30 /* I dont care.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CC2B1A3028007C3B30 /* I dont care.m4a */; };
 		E22CCA2E2B1A3029007C3B30 /* Will be forgotten no longer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E22CC8CD2B1A3028007C3B30 /* Will be forgotten no longer.m4a */; };
@@ -396,7 +395,7 @@
 		E2319FF32AF7A804004D54ED /* SoundFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */; };
 		E2319FF52AF7A806004D54ED /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
 		E2319FF62AF7A80A004D54ED /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardView.swift */; };
-		E2319FF72AF7A80A004D54ED /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2319FF72AF7A80A004D54ED /* SoundboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */; };
 		E2319FFD2AF7A8C8004D54ED /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
 		E29319C82B189E4400D3C461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29319C72B189E4400D3C461 /* Assets.xcassets */; };
 		E29319CB2B189E4400D3C461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29319CA2B189E4400D3C461 /* Preview Assets.xcassets */; };
@@ -407,7 +406,7 @@
 		E2C6F20D2AF6DD2400C8B73B /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
 		E2C6F20E2AF6DD2400C8B73B /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
 		E2C6F20F2AF6DD2400C8B73B /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardView.swift */; };
-		E2C6F2102AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2C6F2102AF6DD2400C8B73B /* SoundboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */; };
 		E2C6F2112AF6DD2400C8B73B /* FavoritesSoundTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */; };
 		E2C6F2122AF6DD2400C8B73B /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
 		E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
@@ -422,6 +421,36 @@
 		E2C6F2E82AF6DDB600C8B73B /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F2E72AF6DDB600C8B73B /* RealmManager.swift */; };
 		E2C6F2F62AF6DF0F00C8B73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2F52AF6DF0F00C8B73B /* Assets.xcassets */; };
 		E2C6F2F92AF6DF0F00C8B73B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */; };
+		E2CC993B2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993A2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift */; };
+		E2CC993F2B610BD90044634E /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993E2B610BD90044634E /* InformationTip.swift */; };
+		E2CC99412B610C520044634E /* Bundle+ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */; };
+		E2CC99422B610D580044634E /* SoundboardRequestReviewViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993A2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift */; };
+		E2CC99432B610D590044634E /* SoundboardRequestReviewViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993A2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift */; };
+		E2CC99442B610D590044634E /* SoundboardRequestReviewViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993A2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift */; };
+		E2CC99452B610D5A0044634E /* SoundboardRequestReviewViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993A2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift */; };
+		E2CC99462B610D5A0044634E /* SoundboardRequestReviewViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993A2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift */; };
+		E2CC99472B610D5D0044634E /* Bundle+ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */; };
+		E2CC99482B610D5E0044634E /* Bundle+ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */; };
+		E2CC99492B610D5E0044634E /* Bundle+ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */; };
+		E2CC994A2B610D5F0044634E /* Bundle+ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */; };
+		E2CC994B2B610D600044634E /* Bundle+ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */; };
+		E2CC994C2B610D6E0044634E /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993E2B610BD90044634E /* InformationTip.swift */; };
+		E2CC994D2B610D6E0044634E /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993E2B610BD90044634E /* InformationTip.swift */; };
+		E2CC994E2B610D6F0044634E /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993E2B610BD90044634E /* InformationTip.swift */; };
+		E2CC994F2B610D6F0044634E /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993E2B610BD90044634E /* InformationTip.swift */; };
+		E2CC99502B610D700044634E /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993E2B610BD90044634E /* InformationTip.swift */; };
+		E2CC99522B6111570044634E /* SoundboardSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99512B6111570044634E /* SoundboardSortOrder.swift */; };
+		E2CC99532B61115A0044634E /* SoundboardSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99512B6111570044634E /* SoundboardSortOrder.swift */; };
+		E2CC99542B61115B0044634E /* SoundboardSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99512B6111570044634E /* SoundboardSortOrder.swift */; };
+		E2CC99552B61115B0044634E /* SoundboardSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99512B6111570044634E /* SoundboardSortOrder.swift */; };
+		E2CC99562B61115C0044634E /* SoundboardSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99512B6111570044634E /* SoundboardSortOrder.swift */; };
+		E2CC99572B61115C0044634E /* SoundboardSortOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99512B6111570044634E /* SoundboardSortOrder.swift */; };
+		E2CC99592B6119830044634E /* RequestReviewRequirementsVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */; };
+		E2CC995A2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */; };
+		E2CC995B2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */; };
+		E2CC995C2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */; };
+		E2CC995D2B6119B20044634E /* RequestReviewRequirementsVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */; };
+		E2CC995E2B6119B20044634E /* RequestReviewRequirementsVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */; };
 		E2D922782B1A1CD100A9CCBB /* Nie mówmy o tym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922222B1A1CCC00A9CCBB /* Nie mówmy o tym.m4a */; };
 		E2D922792B1A1CD100A9CCBB /* Otoż ymmm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922232B1A1CCC00A9CCBB /* Otoż ymmm.m4a */; };
 		E2D9227A2B1A1CD100A9CCBB /* Z pośród dwóch armi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922242B1A1CCC00A9CCBB /* Z pośród dwóch armi.m4a */; };
@@ -513,7 +542,7 @@
 		E2E8BE492B18A15F00C37F6A /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
 		E2E8BE4A2B18A15F00C37F6A /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
 		E2E8BE4B2B18A16600C37F6A /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
-		E2E8BE4C2B18A16600C37F6A /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2E8BE4C2B18A16600C37F6A /* SoundboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */; };
 		E2E8BE4D2B18A16600C37F6A /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
 		E2E8BE4E2B18A16600C37F6A /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardView.swift */; };
 		E2E8BE4F2B18A16600C37F6A /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20575122B0E2AEF00C1DA6D /* SoundboardList.swift */; };
@@ -1821,7 +1850,7 @@
 		E2FAA7F72B0CC85A00C7E393 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
 		E2FAA7F82B0CC85A00C7E393 /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
 		E2FAA7F92B0CC85A00C7E393 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
-		E2FAA7FA2B0CC85E00C7E393 /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2FAA7FA2B0CC85E00C7E393 /* SoundboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */; };
 		E2FAA7FB2B0CC85E00C7E393 /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardView.swift */; };
 		E2FAA7FC2B0CC86200C7E393 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */; };
 		E2FAA7FD2B0CC86200C7E393 /* ShareContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */; };
@@ -1841,7 +1870,7 @@
 		E2FAA9DC2B0CE42400C7E393 /* PortraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */; };
 		E2FAA9DD2B0CE42400C7E393 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
 		E2FAA9DE2B0CE42400C7E393 /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
-		E2FAA9DF2B0CE42400C7E393 /* SoundboardSearchView+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */; };
+		E2FAA9DF2B0CE42400C7E393 /* SoundboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */; };
 		E2FAA9E02B0CE42400C7E393 /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */; };
 		E2FAA9E12B0CE42400C7E393 /* RoundCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */; };
 		E2FAA9E22B0CE42400C7E393 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
@@ -2202,7 +2231,6 @@
 		E22CC8C72B1A3028007C3B30 /* I have the best words.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I have the best words.m4a"; sourceTree = "<group>"; };
 		E22CC8C82B1A3028007C3B30 /* Tiffany.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tiffany.m4a; sourceTree = "<group>"; };
 		E22CC8C92B1A3028007C3B30 /* Whatever you want.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Whatever you want.m4a"; sourceTree = "<group>"; };
-		E22CC8CA2B1A3028007C3B30 /* Ll sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ll sound.m4a"; sourceTree = "<group>"; };
 		E22CC8CB2B1A3028007C3B30 /* And right now.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "And right now.m4a"; sourceTree = "<group>"; };
 		E22CC8CC2B1A3028007C3B30 /* I dont care.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "I dont care.m4a"; sourceTree = "<group>"; };
 		E22CC8CD2B1A3028007C3B30 /* Will be forgotten no longer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Will be forgotten no longer.m4a"; sourceTree = "<group>"; };
@@ -2223,7 +2251,7 @@
 		E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareContent.swift; sourceTree = "<group>"; };
 		E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
 		E2C6F12E2AF6DD2400C8B73B /* SoundboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardView.swift; sourceTree = "<group>"; };
-		E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SoundboardSearchView+ViewModel.swift"; sourceTree = "<group>"; };
+		E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundboardViewModel.swift; sourceTree = "<group>"; };
 		E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesSoundTip.swift; sourceTree = "<group>"; };
 		E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortraitView.swift; sourceTree = "<group>"; };
@@ -2239,6 +2267,11 @@
 		E2C6F2EF2AF6DF0E00C8B73B /* Konon Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Konon Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C6F2F52AF6DF0F00C8B73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2CC993A2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardRequestReviewViewModifier.swift; sourceTree = "<group>"; };
+		E2CC993E2B610BD90044634E /* InformationTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTip.swift; sourceTree = "<group>"; };
+		E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ApplicationInfo.swift"; sourceTree = "<group>"; };
+		E2CC99512B6111570044634E /* SoundboardSortOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardSortOrder.swift; sourceTree = "<group>"; };
+		E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewRequirementsVerification.swift; sourceTree = "<group>"; };
 		E2D922222B1A1CCC00A9CCBB /* Nie mówmy o tym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie mówmy o tym.m4a"; sourceTree = "<group>"; };
 		E2D922232B1A1CCC00A9CCBB /* Otoż ymmm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Otoż ymmm.m4a"; sourceTree = "<group>"; };
 		E2D922242B1A1CCC00A9CCBB /* Z pośród dwóch armi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Z pośród dwóch armi.m4a"; sourceTree = "<group>"; };
@@ -3867,7 +3900,6 @@
 				E22CC8192B1A301D007C3B30 /* Listen to this.m4a */,
 				E22CC8D22B1A3028007C3B30 /* Little bit different.m4a */,
 				E22CC8BC2B1A3027007C3B30 /* Little bit of luck.m4a */,
-				E22CC8CA2B1A3028007C3B30 /* Ll sound.m4a */,
 				E22CC8962B1A3025007C3B30 /* Look at those hands.m4a */,
 				E22CC81B2B1A301D007C3B30 /* Look at those numbers.m4a */,
 				E22CC7942B1A3015007C3B30 /* Love my life.m4a */,
@@ -4059,6 +4091,7 @@
 		E2319CE02AF7A61B004D54ED /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E2CC99392B610B2C0044634E /* ViewModifiers */,
 				E2C6F12B2AF6DD2400C8B73B /* Models */,
 				E2C6F1342AF6DD2400C8B73B /* Views */,
 				E2C6F1302AF6DD2400C8B73B /* Tips */,
@@ -4541,6 +4574,7 @@
 			children = (
 				E2C6F12A2AF6DD2400C8B73B /* ShareContent.swift */,
 				E2C6F12C2AF6DD2400C8B73B /* SoundModel.swift */,
+				E2CC99512B6111570044634E /* SoundboardSortOrder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -4549,7 +4583,7 @@
 			isa = PBXGroup;
 			children = (
 				E2C6F12E2AF6DD2400C8B73B /* SoundboardView.swift */,
-				E2C6F12F2AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift */,
+				E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */,
 			);
 			path = SoundboardSearch;
 			sourceTree = "<group>";
@@ -4558,6 +4592,7 @@
 			isa = PBXGroup;
 			children = (
 				E2C6F1312AF6DD2400C8B73B /* FavoritesSoundTip.swift */,
+				E2CC993E2B610BD90044634E /* InformationTip.swift */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -4585,6 +4620,8 @@
 				E2C6F13E2AF6DD2400C8B73B /* SoundPlayer.swift */,
 				E2C6F1412AF6DD2400C8B73B /* SoundFileManager.swift */,
 				E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */,
+				E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */,
+				E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -4832,6 +4869,14 @@
 				E2C6F2F82AF6DF0F00C8B73B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2CC99392B610B2C0044634E /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E2CC993A2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 		E2E8BE472B189F7B00C37F6A /* Resources */ = {
@@ -6228,7 +6273,6 @@
 				E22CC98D2B1A3029007C3B30 /* Dont worry.m4a in Resources */,
 				E22CC96D2B1A3029007C3B30 /* It should not be done.m4a in Resources */,
 				E22CCA242B1A3029007C3B30 /* She does not have the stamina.m4a in Resources */,
-				E22CCA2B2B1A3029007C3B30 /* Ll sound.m4a in Resources */,
 				E22CC9D22B1A3029007C3B30 /* Low energy.m4a in Resources */,
 				E22CC94C2B1A3029007C3B30 /* Better.m4a in Resources */,
 				E22CC9DB2B1A3029007C3B30 /* I love china.m4a in Resources */,
@@ -7761,6 +7805,7 @@
 			files = (
 				E22CC7602B1A29EC007C3B30 /* ShareContentProvider.swift in Sources */,
 				E22CC7612B1A29EC007C3B30 /* SoundFileManager.swift in Sources */,
+				E2CC99502B610D700044634E /* InformationTip.swift in Sources */,
 				E22CC76C2B1A29EC007C3B30 /* SoundboardRow.swift in Sources */,
 				E22CC7662B1A29EC007C3B30 /* SoundPlayer.swift in Sources */,
 				E22CC7712B1A29EE007C3B30 /* SoundboardApp.swift in Sources */,
@@ -7769,11 +7814,15 @@
 				E22CC7682B1A29EC007C3B30 /* TitleModifier.swift in Sources */,
 				E22CC7652B1A29EC007C3B30 /* SoundboardView.swift in Sources */,
 				E22CC76E2B1A29EC007C3B30 /* PortraitView.swift in Sources */,
+				E2CC99572B61115C0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2CC99462B610D5A0044634E /* SoundboardRequestReviewViewModifier.swift in Sources */,
 				E22CC7632B1A29EC007C3B30 /* FavoriteButton.swift in Sources */,
+				E2CC994B2B610D600044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E22CC76D2B1A29EC007C3B30 /* RoundCountView.swift in Sources */,
 				E22CC76A2B1A29EC007C3B30 /* ShareButton.swift in Sources */,
-				E22CC7672B1A29EC007C3B30 /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E22CC7672B1A29EC007C3B30 /* SoundboardViewModel.swift in Sources */,
 				E22CC76B2B1A29EC007C3B30 /* ShareContent.swift in Sources */,
+				E2CC995E2B6119B20044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E22CC76F2B1A29EC007C3B30 /* FavoritesSoundTip.swift in Sources */,
 				E22CC7692B1A29EC007C3B30 /* SoundModel.swift in Sources */,
 				E22CC7622B1A29EC007C3B30 /* SoundboardList.swift in Sources */,
@@ -7786,19 +7835,24 @@
 			files = (
 				E2E8BE552B18A16A00C37F6A /* FavoritesSoundTip.swift in Sources */,
 				E2E8BE492B18A15F00C37F6A /* SoundModel.swift in Sources */,
+				E2CC993F2B610BD90044634E /* InformationTip.swift in Sources */,
 				E2E8BE4F2B18A16600C37F6A /* SoundboardList.swift in Sources */,
 				E2E8BE4D2B18A16600C37F6A /* PlayButton.swift in Sources */,
 				E2E8BE5C2B18A17700C37F6A /* SoundboardApp.swift in Sources */,
 				E2E8BE592B18A16F00C37F6A /* ShareContentProvider.swift in Sources */,
 				E2E8BE522B18A16600C37F6A /* RoundCountView.swift in Sources */,
 				E2E8BE532B18A16600C37F6A /* TitleModifier.swift in Sources */,
-				E2E8BE4C2B18A16600C37F6A /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E2E8BE4C2B18A16600C37F6A /* SoundboardViewModel.swift in Sources */,
 				E2E8BE562B18A16F00C37F6A /* RealmManager.swift in Sources */,
+				E2CC99522B6111570044634E /* SoundboardSortOrder.swift in Sources */,
+				E2CC993B2B610B4F0044634E /* SoundboardRequestReviewViewModifier.swift in Sources */,
 				E2E8BE4A2B18A15F00C37F6A /* ShareContent.swift in Sources */,
 				E2E8BE4B2B18A16600C37F6A /* ShareButton.swift in Sources */,
 				E2E8BE4E2B18A16600C37F6A /* SoundboardView.swift in Sources */,
 				E2E8BE582B18A16F00C37F6A /* SoundFileManager.swift in Sources */,
+				E2CC99412B610C520044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2E8BE542B18A16600C37F6A /* FavoriteButton.swift in Sources */,
+				E2CC99592B6119830044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2E8BE512B18A16600C37F6A /* PortraitView.swift in Sources */,
 				E2E8BE572B18A16F00C37F6A /* SoundPlayer.swift in Sources */,
 				E2E8BE502B18A16600C37F6A /* SoundboardRow.swift in Sources */,
@@ -7810,7 +7864,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C6F2162AF6DD2400C8B73B /* RoundCountView.swift in Sources */,
-				E2C6F2102AF6DD2400C8B73B /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E2C6F2102AF6DD2400C8B73B /* SoundboardViewModel.swift in Sources */,
+				E2CC994F2B610D6F0044634E /* InformationTip.swift in Sources */,
 				E2C6F20E2AF6DD2400C8B73B /* SoundModel.swift in Sources */,
 				E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */,
 				E2C6F2172AF6DD2400C8B73B /* FavoriteButton.swift in Sources */,
@@ -7819,11 +7874,15 @@
 				E20575132B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */,
 				E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */,
 				E2C6F2112AF6DD2400C8B73B /* FavoritesSoundTip.swift in Sources */,
+				E2CC99562B61115C0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2CC99452B610D5A0044634E /* SoundboardRequestReviewViewModifier.swift in Sources */,
 				E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */,
+				E2CC994A2B610D5F0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2C6F2E82AF6DDB600C8B73B /* RealmManager.swift in Sources */,
 				E2C6F21A2AF6DD2400C8B73B /* SoundPlayer.swift in Sources */,
 				E2C6F20D2AF6DD2400C8B73B /* ShareContent.swift in Sources */,
 				E2C6F21D2AF6DD2400C8B73B /* SoundFileManager.swift in Sources */,
+				E2CC995D2B6119B20044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2C6F20F2AF6DD2400C8B73B /* SoundboardView.swift in Sources */,
 				E2C6F2152AF6DD2400C8B73B /* ShareButton.swift in Sources */,
 				E2C6F2192AF6DD2400C8B73B /* SoundboardRow.swift in Sources */,
@@ -7836,6 +7895,7 @@
 			files = (
 				E2319FF52AF7A806004D54ED /* FavoritesSoundTip.swift in Sources */,
 				E2319FF02AF7A804004D54ED /* SoundPlayer.swift in Sources */,
+				E2CC994C2B610D6E0044634E /* InformationTip.swift in Sources */,
 				E2319FE52AF7A772004D54ED /* SoundboardApp.swift in Sources */,
 				E2B85DCC2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */,
 				E2319FF12AF7A804004D54ED /* RealmManager.swift in Sources */,
@@ -7844,14 +7904,18 @@
 				E20575142B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */,
 				E2319FF32AF7A804004D54ED /* SoundFileManager.swift in Sources */,
 				E2319FE82AF7A7D5004D54ED /* SoundModel.swift in Sources */,
+				E2CC99532B61115A0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2CC99422B610D580044634E /* SoundboardRequestReviewViewModifier.swift in Sources */,
 				E2319FEA2AF7A7FD004D54ED /* ShareButton.swift in Sources */,
+				E2CC99472B610D5D0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2319FFD2AF7A8C8004D54ED /* SoundboardRow.swift in Sources */,
 				E2319FF62AF7A80A004D54ED /* SoundboardView.swift in Sources */,
 				E2319FED2AF7A7FD004D54ED /* FavoriteButton.swift in Sources */,
 				E2319FEE2AF7A7FD004D54ED /* PortraitView.swift in Sources */,
+				E2CC995A2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2319FEB2AF7A7FD004D54ED /* RoundCountView.swift in Sources */,
 				E2319FEC2AF7A7FD004D54ED /* PlayButton.swift in Sources */,
-				E2319FF72AF7A80A004D54ED /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E2319FF72AF7A80A004D54ED /* SoundboardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -7861,19 +7925,24 @@
 			files = (
 				E2FAA7F22B0CC84500C7E393 /* SoundboardApp.swift in Sources */,
 				E2FAA7F82B0CC85A00C7E393 /* RoundCountView.swift in Sources */,
+				E2CC994E2B610D6F0044634E /* InformationTip.swift in Sources */,
 				E2FAA8032B0CC86C00C7E393 /* ShareContentProvider.swift in Sources */,
 				E2FAA7FE2B0CC86700C7E393 /* FavoritesSoundTip.swift in Sources */,
-				E2FAA7FA2B0CC85E00C7E393 /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E2FAA7FA2B0CC85E00C7E393 /* SoundboardViewModel.swift in Sources */,
 				E2FAA7F62B0CC85A00C7E393 /* SoundboardRow.swift in Sources */,
 				E20575152B0E2AEF00C1DA6D /* SoundboardList.swift in Sources */,
 				E2FAA7F32B0CC85A00C7E393 /* PortraitView.swift in Sources */,
 				E2FAA7F72B0CC85A00C7E393 /* ShareButton.swift in Sources */,
 				E2FAA7FF2B0CC86C00C7E393 /* SoundFileManager.swift in Sources */,
+				E2CC99552B61115B0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2CC99442B610D590044634E /* SoundboardRequestReviewViewModifier.swift in Sources */,
 				E2FAA8042B0CC86C00C7E393 /* RealmManager.swift in Sources */,
+				E2CC99492B610D5E0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2FAA7F42B0CC85A00C7E393 /* PlayButton.swift in Sources */,
 				E2FAA7FD2B0CC86200C7E393 /* ShareContent.swift in Sources */,
 				E2FAA7FC2B0CC86200C7E393 /* SoundModel.swift in Sources */,
 				E2FAA7F52B0CC85A00C7E393 /* FavoriteButton.swift in Sources */,
+				E2CC995C2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2FAA7FB2B0CC85E00C7E393 /* SoundboardView.swift in Sources */,
 				E2FAA8022B0CC86C00C7E393 /* SoundPlayer.swift in Sources */,
 				E2FAA7F92B0CC85A00C7E393 /* TitleModifier.swift in Sources */,
@@ -7886,6 +7955,7 @@
 			files = (
 				E2FAA9E62B0CE42F00C7E393 /* RealmManager.swift in Sources */,
 				E2FAA9E02B0CE42400C7E393 /* ShareButton.swift in Sources */,
+				E2CC994D2B610D6E0044634E /* InformationTip.swift in Sources */,
 				E2FAA9DC2B0CE42400C7E393 /* PortraitView.swift in Sources */,
 				E2FAA9E22B0CE42400C7E393 /* PlayButton.swift in Sources */,
 				E2FAA9E52B0CE42A00C7E393 /* FavoritesSoundTip.swift in Sources */,
@@ -7894,11 +7964,15 @@
 				E2FAA9DE2B0CE42400C7E393 /* SoundboardRow.swift in Sources */,
 				E2FAA9E12B0CE42400C7E393 /* RoundCountView.swift in Sources */,
 				E2FAA9EC2B0CE43300C7E393 /* SoundModel.swift in Sources */,
+				E2CC99542B61115B0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2CC99432B610D590044634E /* SoundboardRequestReviewViewModifier.swift in Sources */,
 				E2FAA9DD2B0CE42400C7E393 /* FavoriteButton.swift in Sources */,
+				E2CC99482B610D5E0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2FAA9EB2B0CE42F00C7E393 /* SoundFileManager.swift in Sources */,
 				E2FAA9ED2B0CE43300C7E393 /* ShareContent.swift in Sources */,
-				E2FAA9DF2B0CE42400C7E393 /* SoundboardSearchView+ViewModel.swift in Sources */,
+				E2FAA9DF2B0CE42400C7E393 /* SoundboardViewModel.swift in Sources */,
 				E2FAA9F22B0CE45800C7E393 /* SoundboardApp.swift in Sources */,
+				E2CC995B2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2FAA9E92B0CE42F00C7E393 /* ShareContentProvider.swift in Sources */,
 				E2FAA9EA2B0CE42F00C7E393 /* SoundPlayer.swift in Sources */,
 				E2FAA9E42B0CE42400C7E393 /* SoundboardView.swift in Sources */,
@@ -7915,7 +7989,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -7933,7 +8007,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.trump.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -7955,7 +8029,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -7973,7 +8047,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.trump.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -8,44 +8,9 @@
 import SwiftUI
 import RealmSwift
 
-enum SoundboardSortOrder: String, Identifiable, CaseIterable, CustomStringConvertible {
-    case title
-    case playback
-
-    var id: Self { self }
-    var description: String {
-        switch self {
-        case .title:
-            "Title"
-        case .playback:
-            "Playback"
-        }
-    }
-
-    var keyPath: String  {
-        switch self {
-        case .title:
-            "title"
-
-        case .playback:
-            "playbackCount"
-        }
-    }
-
-    var ascending: Bool {
-        switch self {
-        case .title:
-            true
-
-        case .playback:
-            false
-        }
-    }
-}
-
 struct SoundboardView: View {
     @EnvironmentObject var realmManager: RealmManager
-    @ObservedObject var viewModel: ViewModel
+    @ObservedObject var viewModel: SoundboardViewModel
 
     var body: some View {
         NavigationStack {
@@ -83,6 +48,7 @@ struct SoundboardView: View {
         .onAppear {
             viewModel.onViewDidAppear(realmManager)
         }
+        .soundboardRequestReview()
     }
 }
 
@@ -101,6 +67,6 @@ private extension SoundboardView {
 }
 
 #Preview {
-    SoundboardView(viewModel: SoundboardView.ViewModel())
+    SoundboardView(viewModel: SoundboardViewModel())
         .environmentObject(RealmManager(name: "stonoga.soundboard"))
 }

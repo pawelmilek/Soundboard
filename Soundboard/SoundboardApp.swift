@@ -11,7 +11,7 @@ import TipKit
 @main
 struct SoundboardApp: App {
     @StateObject private var realmManager = RealmManager(name: "soundboard")
-    @StateObject private var viewModel = SoundboardView.ViewModel()
+    @StateObject private var viewModel = SoundboardViewModel()
 
     var body: some Scene {
         WindowGroup {
