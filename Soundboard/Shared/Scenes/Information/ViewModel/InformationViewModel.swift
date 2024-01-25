@@ -11,13 +11,6 @@ import Combine
 
 @MainActor
 final class InformationViewModel: ObservableObject {
-    private enum Constant {
-        static let recipient = "pawel.milek0626@gmail.com"
-        static let appURLString = "https://sites.google.com/view/pmilek/trump-board"
-        static let privacyPolicyURLString = "https://sites.google.com/view/pmilek/privacy-policy"
-        static let writeReviewURLString = "https://apps.apple.com/app/id6473635641?action=write-review"
-    }
-
     @Published private(set) var appName = ""
     @Published private(set) var appVersion = ""
     @Published private(set) var appCompatibility = ""
@@ -25,24 +18,38 @@ final class InformationViewModel: ObservableObject {
     @Published private(set) var copyright = ""
     @Published private(set) var frameworks = [String]()
 
-    private let recipient: String
-    private let privacyPolicyURL: URL
-    private let writeReviewURL: URL
+    private var recipient: String?
+    private var privacyPolicyURL: URL?
+    private var writeReviewURL: URL?
 
     init() {
         appName = Bundle.applicationName
         appVersion = "\(Bundle.versionNumber) (\(Bundle.buildNumber))"
         appCompatibility = "iOS \(Bundle.minimumOSVersion)"
-        appURLString = Constant.appURLString
-        recipient = Constant.recipient
-        privacyPolicyURL = URL(string: Constant.privacyPolicyURLString)!
-        writeReviewURL = URL(string: Constant.writeReviewURLString)!
-
         copyright = "Copyright © All right reserved."
         frameworks = ["SwiftUI", "Combine", "StoreKit", "WebKit", "TipKit"]
+
+        setupConfigurationValues()
+    }
+
+    private func setupConfigurationValues() {
+        do {
+            appURLString = try CustomConfigurationAccessor.value(for: .appURL)
+            recipient = try CustomConfigurationAccessor.value(for: .supportEmail)
+
+            let privacyPolicyURLString = try CustomConfigurationAccessor.value(for: .appPrivacyPolicyURL)
+            privacyPolicyURL = URL(string: privacyPolicyURLString)
+
+            let appID = try CustomConfigurationAccessor.value(for: .appID)
+            let writeReviewURLString = "https://apps.apple.com/app/id\(appID)?action=write-review"
+            writeReviewURL = URL(string: writeReviewURLString)
+        } catch {
+            debugPrint(error.localizedDescription)
+        }
     }
 
     func reportFeedback(_ openURL: OpenURLAction) {
+        guard let recipient else { return }
         let feedbackEmail = SupportEmail(
             recipient: recipient,
             subject: "[Feedback] Swifty Forecast"
@@ -52,6 +59,7 @@ final class InformationViewModel: ObservableObject {
     }
 
     func reportIssue(_ openURL: OpenURLAction) {
+        guard let recipient else { return }
         let bugEmail = SupportEmail(
             recipient: recipient,
             subject: "[Bug] Swifty Forecast"
@@ -60,10 +68,12 @@ final class InformationViewModel: ObservableObject {
     }
 
     func openDataPrivacyPolicy(_ openURL: OpenURLAction) {
+        guard let privacyPolicyURL else { return }
         openURL(privacyPolicyURL)
     }
 
     func openWriteReview(_ openURL: OpenURLAction) {
+        guard let writeReviewURL else { return }
         openURL(writeReviewURL)
     }
 }

@@ -1,0 +1,16 @@
+//
+//  Config.xcconfig
+//  Stonoga Board
+//
+//  Created by Pawel Milek on 1/25/24.
+//  Copyright © 2024 Pawel Milek. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+PROTOCOL = https:/
+APP_ID=0
+APP_URL=$(PROTOCOL)/sites.google.com/view/pmilek
+APP_PRIVACY_POLICY_URL=$(PROTOCOL)/sites.google.com/view/pmilek/privacy-policy
+SUPPORT_EMAIL=pawel.milek0626@gmail.com
+

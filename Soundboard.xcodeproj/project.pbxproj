@@ -754,6 +754,20 @@
 		E2C7B8A12B625DC80050B388 /* You won't be needing any clothes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8722B625DC80050B388 /* You won't be needing any clothes.m4a */; };
 		E2C7B8A22B625DC80050B388 /* You're losing weight.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8732B625DC80050B388 /* You're losing weight.m4a */; };
 		E2C7B8A32B625DC80050B388 /* Uplinks underground, uplinks underground - you guys don't shut up, I'm going to uplink your ass, you'll be on the ground.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8742B625DC80050B388 /* Uplinks underground, uplinks underground - you guys don't shut up, I'm going to uplink your ass, you'll be on the ground.m4a */; };
+		E2C7B8A52B6265D50050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8A42B6265D50050B388 /* Config.xcconfig */; };
+		E2C7B8A72B6267490050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8A62B6267490050B388 /* Config.xcconfig */; };
+		E2C7B8A92B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
+		E2C7B8AA2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
+		E2C7B8AB2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
+		E2C7B8AC2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
+		E2C7B8AD2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
+		E2C7B8AE2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
+		E2C7B8AF2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
+		E2C7B8B82B626B190050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8B72B626B190050B388 /* Config.xcconfig */; };
+		E2C7B8BA2B626B4A0050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8B92B626B4A0050B388 /* Config.xcconfig */; };
+		E2C7B8BC2B626B5F0050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8BB2B626B5F0050B388 /* Config.xcconfig */; };
+		E2C7B8BE2B626B750050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8BD2B626B6E0050B388 /* Config.xcconfig */; };
+		E2C7B8C02B626B8D0050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8BF2B626B8D0050B388 /* Config.xcconfig */; };
 		E2CC993F2B610BD90044634E /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993E2B610BD90044634E /* InformationTip.swift */; };
 		E2CC99412B610C520044634E /* Bundle+ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */; };
 		E2CC99472B610D5D0044634E /* Bundle+ApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */; };
@@ -2994,6 +3008,21 @@
 		E2C7B8722B625DC80050B388 /* You won't be needing any clothes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You won't be needing any clothes.m4a"; sourceTree = "<group>"; };
 		E2C7B8732B625DC80050B388 /* You're losing weight.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "You're losing weight.m4a"; sourceTree = "<group>"; };
 		E2C7B8742B625DC80050B388 /* Uplinks underground, uplinks underground - you guys don't shut up, I'm going to uplink your ass, you'll be on the ground.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uplinks underground, uplinks underground - you guys don't shut up, I'm going to uplink your ass, you'll be on the ground.m4a"; sourceTree = "<group>"; };
+		E2C7B8A42B6265D50050B388 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Config.xcconfig; path = Soundboard/ArnoldBoard/Config.xcconfig; sourceTree = SOURCE_ROOT; };
+		E2C7B8A62B6267490050B388 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConfigurationAccessor.swift; sourceTree = "<group>"; };
+		E2C7B8B02B6267D20050B388 /* Arnold-Board-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Arnold-Board-Info.plist"; sourceTree = "<group>"; };
+		E2C7B8B12B62696B0050B388 /* Trump-Board-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trump-Board-Info.plist"; sourceTree = "<group>"; };
+		E2C7B8B22B6269EC0050B388 /* Kamraci-Board-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kamraci-Board-Info.plist"; sourceTree = "<group>"; };
+		E2C7B8B32B6269EF0050B388 /* Konon-Board-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Konon-Board-Info.plist"; sourceTree = "<group>"; };
+		E2C7B8B42B6269F20050B388 /* Korwin-Board-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Korwin-Board-Info.plist"; sourceTree = "<group>"; };
+		E2C7B8B52B6269F40050B388 /* Major-Board-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Major-Board-Info.plist"; sourceTree = "<group>"; };
+		E2C7B8B62B6269F90050B388 /* Stonoga-Board-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stonoga-Board-Info.plist"; sourceTree = "<group>"; };
+		E2C7B8B72B626B190050B388 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E2C7B8B92B626B4A0050B388 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E2C7B8BB2B626B5F0050B388 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E2C7B8BD2B626B6E0050B388 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		E2C7B8BF2B626B8D0050B388 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		E2CC993E2B610BD90044634E /* InformationTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTip.swift; sourceTree = "<group>"; };
 		E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ApplicationInfo.swift"; sourceTree = "<group>"; };
 		E2CC99512B6111570044634E /* SoundboardSortOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardSortOrder.swift; sourceTree = "<group>"; };
@@ -4463,6 +4492,8 @@
 		E22CC74B2B1A24A6007C3B30 /* TrumpBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7B8B12B62696B0050B388 /* Trump-Board-Info.plist */,
+				E2C7B8A62B6267490050B388 /* Config.xcconfig */,
 				E22CC7582B1A24FF007C3B30 /* Resources */,
 				E22CC7522B1A24A7007C3B30 /* Preview Content */,
 			);
@@ -4844,7 +4875,6 @@
 		E2319CE02AF7A61B004D54ED /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				E2CC99D52B612A380044634E /* NavigationStack */,
 				E2CC99F22B613D080044634E /* Scenes */,
 				E2CC99392B610B2C0044634E /* ViewModifiers */,
 				E2C6F1302AF6DD2400C8B73B /* Tips */,
@@ -5265,6 +5295,8 @@
 		E29319C22B189E4200D3C461 /* KamraciBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7B8B22B6269EC0050B388 /* Kamraci-Board-Info.plist */,
+				E2C7B8B72B626B190050B388 /* Config.xcconfig */,
 				E2E8BE472B189F7B00C37F6A /* Resources */,
 				E29319C92B189E4400D3C461 /* Preview Content */,
 			);
@@ -5369,6 +5401,7 @@
 				E2CC99402B610C520044634E /* Bundle+ApplicationInfo.swift */,
 				E2CC99582B6119830044634E /* RequestReviewRequirementsVerification.swift */,
 				E2CC99A82B611CE30044634E /* UIDevice+ModelName.swift */,
+				E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -5595,6 +5628,8 @@
 		E2C6F2E92AF6DE5000C8B73B /* StonogaBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7B8B62B6269F90050B388 /* Stonoga-Board-Info.plist */,
+				E2C7B8BF2B626B8D0050B388 /* Config.xcconfig */,
 				E2C6F1422AF6DD2400C8B73B /* Resources */,
 				E2BDF4032AF5423800D136C9 /* Preview Content */,
 			);
@@ -5604,6 +5639,8 @@
 		E2C6F2F02AF6DF0E00C8B73B /* KononBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7B8B32B6269EF0050B388 /* Konon-Board-Info.plist */,
+				E2C7B8B92B626B4A0050B388 /* Config.xcconfig */,
 				E2319CE12AF7A681004D54ED /* Resources */,
 				E2C6F2F72AF6DF0F00C8B73B /* Preview Content */,
 			);
@@ -5621,6 +5658,8 @@
 		E2C7B5FA2B61846E0050B388 /* ArnoldBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7B8B02B6267D20050B388 /* Arnold-Board-Info.plist */,
+				E2C7B8A42B6265D50050B388 /* Config.xcconfig */,
 				E2C7B6072B6184D60050B388 /* Resources */,
 				E2C7B6012B6184700050B388 /* Preview Content */,
 			);
@@ -5985,6 +6024,7 @@
 		E2CC99F22B613D080044634E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				E2CC99D52B612A380044634E /* NavigationStack */,
 				E2CC99F32B613D2B0044634E /* Information */,
 				E2C6F12D2AF6DD2400C8B73B /* Soundboard */,
 			);
@@ -6537,6 +6577,8 @@
 		E2FAA7E32B0CC20500C7E393 /* MajorBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7B8B52B6269F40050B388 /* Major-Board-Info.plist */,
+				E2C7B8BD2B626B6E0050B388 /* Config.xcconfig */,
 				E2FAA7F02B0CC22100C7E393 /* Resources */,
 				E2FAA7EA2B0CC20600C7E393 /* Preview Content */,
 			);
@@ -6788,6 +6830,8 @@
 		E2FAA9C32B0CE3AD00C7E393 /* KorwinBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7B8B42B6269F20050B388 /* Korwin-Board-Info.plist */,
+				E2C7B8BB2B626B5F0050B388 /* Config.xcconfig */,
 				E2FAA9D02B0CE40000C7E393 /* Resources */,
 				E2FAA9CA2B0CE3AE00C7E393 /* Preview Content */,
 			);
@@ -7250,6 +7294,7 @@
 				E22CC9DD2B1A3029007C3B30 /* We dont konw.m4a in Resources */,
 				E22CC9E82B1A3029007C3B30 /* Promised land.m4a in Resources */,
 				E22CC94E2B1A3029007C3B30 /* Youll be fine.m4a in Resources */,
+				E2C7B8A72B6267490050B388 /* Config.xcconfig in Resources */,
 				E22CC9C52B1A3029007C3B30 /* Dont win any more.m4a in Resources */,
 				E22CC9DA2B1A3029007C3B30 /* America first.m4a in Resources */,
 				E22CC8F82B1A3029007C3B30 /* Nasty.m4a in Resources */,
@@ -7610,6 +7655,7 @@
 				E2E8C2572B1A0B8B00C37F6A /* Wszystko tobie ukochana ziemio.m4a in Resources */,
 				E2E8C1652B1A0B8A00C37F6A /* Uje kraj.m4a in Resources */,
 				E2E8C1EA2B1A0B8A00C37F6A /* Dzisiaj będą płonąć pochodnie w kształcie litery V.m4a in Resources */,
+				E2C7B8B82B626B190050B388 /* Config.xcconfig in Resources */,
 				E2E8C16E2B1A0B8A00C37F6A /* Czy mówisz szczerze, czy mówisz nieszczerze.m4a in Resources */,
 				E2E8C1692B1A0B8A00C37F6A /* Ulżyj sobie chłopcze.m4a in Resources */,
 				E2E8C1292B1A0B8A00C37F6A /* Śmiało dalej.m4a in Resources */,
@@ -7982,6 +8028,7 @@
 				E2E8CB8C2B1A160E00C37F6A /* A teraz dzwonię do oficera dyżurnego kraju!.m4a in Resources */,
 				E2E8CB102B1A160D00C37F6A /* To was powinno się jeć kua.m4a in Resources */,
 				E2E8CADC2B1A160D00C37F6A /* To wy polacy.m4a in Resources */,
+				E2C7B8C02B626B8D0050B388 /* Config.xcconfig in Resources */,
 				E2E8CB0B2B1A160D00C37F6A /* I dla was znaczyło tylko to 70 czy 80 tysięcy głosów.m4a in Resources */,
 				E2E8CB022B1A160D00C37F6A /* Żeście takie głupie są.m4a in Resources */,
 				E2E8CB682B1A160E00C37F6A /* Nic się w tym kraju nie zmieni.m4a in Resources */,
@@ -8187,6 +8234,7 @@
 				E2E8C4A12B1A0F9C00C37F6A /* Ewka.m4a in Resources */,
 				E2E8C5542B1A0F9D00C37F6A /* Dlaczego ty Wojtku tak robisz.m4a in Resources */,
 				E2E8C4BD2B1A0F9C00C37F6A /* Mogę przeczytać.m4a in Resources */,
+				E2C7B8BA2B626B4A0050B388 /* Config.xcconfig in Resources */,
 				E2E8C5BD2B1A0F9E00C37F6A /* Zapalniku.m4a in Resources */,
 				E2E8C5992B1A0F9D00C37F6A /* Meksykano(1).m4a in Resources */,
 				E2E8C4AD2B1A0F9C00C37F6A /* Trawkę.m4a in Resources */,
@@ -8761,6 +8809,7 @@
 				E2C7B83F2B625DA80050B388 /* My name is not Quaid.m4a in Resources */,
 				E2C7B7F52B625D680050B388 /* Nice night for a walk.m4a in Resources */,
 				E2C7B88F2B625DC80050B388 /* Old, but not obsolete, not yet.m4a in Resources */,
+				E2C7B8A52B6265D50050B388 /* Config.xcconfig in Resources */,
 				E2C7B7F12B625D680050B388 /* Try to stay dead this time.m4a in Resources */,
 				E2C7B7552B625D680050B388 /* Of course.m4a in Resources */,
 				E2C7B7A92B625D680050B388 /* Chill out.m4a in Resources */,
@@ -8960,6 +9009,7 @@
 				E2E8C7952B1A129400C37F6A /* To uciekaj do Moskwy.m4a in Resources */,
 				E2E8C7F52B1A129500C37F6A /* I wszyscy będą kebaby jeść.m4a in Resources */,
 				E2E8C8232B1A129500C37F6A /* 800zł zapłaciłem.m4a in Resources */,
+				E2C7B8BE2B626B750050B388 /* Config.xcconfig in Resources */,
 				E2E8C7E82B1A129500C37F6A /* Co ty myślisz nigdy nie jeździłem samochodem?.m4a in Resources */,
 				E2E8C7942B1A129400C37F6A /* Jesteś zadowolona?.m4a in Resources */,
 				E2E8C7A52B1A129400C37F6A /* Ale już pół zjadłem.m4a in Resources */,
@@ -9158,6 +9208,7 @@
 				E2D922A42B1A1CD100A9CCBB /* One żyją sobie całkowicie bezpiecznie od milionów lat.m4a in Resources */,
 				E2D9227B2B1A1CD100A9CCBB /* Że najważniejsze jest się dobrze nażreć.m4a in Resources */,
 				E2D922C12B1A1CD100A9CCBB /* Nie było islandii popatrz pan.m4a in Resources */,
+				E2C7B8BC2B626B5F0050B388 /* Config.xcconfig in Resources */,
 				E2D9229A2B1A1CD100A9CCBB /* Tłumienie wolności słowa, czego osobiście doświadczam.m4a in Resources */,
 				E2D922AF2B1A1CD100A9CCBB /* Dzisiejszy ustrój uniemozliwia ludziom.m4a in Resources */,
 				E2D922782B1A1CD100A9CCBB /* Nie mówmy o tym.m4a in Resources */,
@@ -9339,6 +9390,7 @@
 				E2CC997A2B611B360044634E /* LicenseView.swift in Sources */,
 				E2CC99CB2B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC99922B611B360044634E /* InformationView.swift in Sources */,
+				E2C7B8AF2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
 				E22CC7632B1A29EC007C3B30 /* FavoriteButton.swift in Sources */,
 				E2CC999F2B611BA30044634E /* FileLoaderError.swift in Sources */,
 				E2CC994B2B610D600044634E /* Bundle+ApplicationInfo.swift in Sources */,
@@ -9382,6 +9434,7 @@
 				E2CC99C62B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC998D2B611B360044634E /* InformationView.swift in Sources */,
 				E2E8BE4A2B18A15F00C37F6A /* ShareContent.swift in Sources */,
+				E2C7B8AA2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
 				E2CC999A2B611BA30044634E /* FileLoaderError.swift in Sources */,
 				E2E8BE4B2B18A16600C37F6A /* ShareButton.swift in Sources */,
 				E2E8BE4E2B18A16600C37F6A /* SoundboardView.swift in Sources */,
@@ -9425,6 +9478,7 @@
 				E2CC99CA2B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC99912B611B360044634E /* InformationView.swift in Sources */,
 				E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */,
+				E2C7B8AE2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
 				E2CC999E2B611BA30044634E /* FileLoaderError.swift in Sources */,
 				E2CC994A2B610D5F0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2C6F2E82AF6DDB600C8B73B /* RealmManager.swift in Sources */,
@@ -9468,6 +9522,7 @@
 				E2CC99C72B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC998E2B611B360044634E /* InformationView.swift in Sources */,
 				E2319FEA2AF7A7FD004D54ED /* ShareButton.swift in Sources */,
+				E2C7B8AB2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
 				E2CC999B2B611BA30044634E /* FileLoaderError.swift in Sources */,
 				E2CC99472B610D5D0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2319FFD2AF7A8C8004D54ED /* SoundboardRow.swift in Sources */,
@@ -9511,6 +9566,7 @@
 				E2C7B61B2B61852A0050B388 /* PortraitView.swift in Sources */,
 				E2C7B60B2B6185130050B388 /* SoundPlayer.swift in Sources */,
 				E2C7B6262B6185390050B388 /* InformationViewModel.swift in Sources */,
+				E2C7B8A92B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
 				E2C7B6162B6185220050B388 /* TitleModifier.swift in Sources */,
 				E2C7B61F2B61852A0050B388 /* SoundboardView.swift in Sources */,
 				E2C7B6272B6185390050B388 /* InfoRow.swift in Sources */,
@@ -9554,6 +9610,7 @@
 				E2CC99C92B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC99902B611B360044634E /* InformationView.swift in Sources */,
 				E2FAA8042B0CC86C00C7E393 /* RealmManager.swift in Sources */,
+				E2C7B8AD2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
 				E2CC999D2B611BA30044634E /* FileLoaderError.swift in Sources */,
 				E2CC99492B610D5E0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2FAA7F42B0CC85A00C7E393 /* PlayButton.swift in Sources */,
@@ -9597,6 +9654,7 @@
 				E2CC99C82B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC998F2B611B360044634E /* InformationView.swift in Sources */,
 				E2FAA9DD2B0CE42400C7E393 /* FavoriteButton.swift in Sources */,
+				E2C7B8AC2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
 				E2CC999C2B611BA30044634E /* FileLoaderError.swift in Sources */,
 				E2CC99482B610D5E0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2FAA9EB2B0CE42F00C7E393 /* SoundFileManager.swift in Sources */,
@@ -9623,18 +9681,20 @@
 /* Begin XCBuildConfiguration section */
 		E22CC7552B1A24A7007C3B30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8A62B6267490050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/TrumpBoard/Trump-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Trump Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -9646,7 +9706,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.trump.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -9663,18 +9723,20 @@
 		};
 		E22CC7562B1A24A7007C3B30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8A62B6267490050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/TrumpBoard/Trump-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Trump Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -9686,7 +9748,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.trump.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -9703,18 +9765,20 @@
 		};
 		E29319CD2B189E4400D3C461 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8B72B626B190050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/KamraciBoard/Kamraci-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Kamraci Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -9726,7 +9790,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.kamraci.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -9743,18 +9807,20 @@
 		};
 		E29319CE2B189E4400D3C461 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8B72B626B190050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/KamraciBoard/Kamraci-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Kamraci Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -9766,7 +9832,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.kamraci.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -9902,18 +9968,20 @@
 		};
 		E2BDF4092AF5423800D136C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8BF2B626B8D0050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/StonogaBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/StonogaBoard/Stonoga-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Stonoga Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -9925,7 +9993,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.stonoga.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -9942,18 +10010,20 @@
 		};
 		E2BDF40A2AF5423800D136C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8BF2B626B8D0050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/StonogaBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/StonogaBoard/Stonoga-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Stonoga Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -9965,7 +10035,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.stonoga.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -9982,18 +10052,20 @@
 		};
 		E2C6F2FB2AF6DF0F00C8B73B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8B92B626B4A0050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KononBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/KononBoard/Konon-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Konon Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -10005,7 +10077,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.konon.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -10022,18 +10094,20 @@
 		};
 		E2C6F2FC2AF6DF0F00C8B73B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8B92B626B4A0050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KononBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/KononBoard/Konon-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Konon Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -10045,7 +10119,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.konon.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -10062,6 +10136,7 @@
 		};
 		E2C7B6042B6184700050B388 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8A42B6265D50050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -10073,6 +10148,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/ArnoldBoard/Arnold-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Arnold Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -10102,6 +10178,7 @@
 		};
 		E2C7B6052B6184700050B388 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8A42B6265D50050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -10113,6 +10190,7 @@
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/ArnoldBoard/Arnold-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Arnold Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -10142,18 +10220,20 @@
 		};
 		E2FAA7EE2B0CC20600C7E393 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8BD2B626B6E0050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/MajorBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/MajorBoard/Major-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Major Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -10165,7 +10245,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.major.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -10182,18 +10262,20 @@
 		};
 		E2FAA7EF2B0CC20600C7E393 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8BD2B626B6E0050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/MajorBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/MajorBoard/Major-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Major Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -10205,7 +10287,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.major.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -10222,18 +10304,20 @@
 		};
 		E2FAA9CE2B0CE3AE00C7E393 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8BB2B626B5F0050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KorwinBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/KorwinBoard/Korwin-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Korwin Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -10245,7 +10329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.korwin.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -10262,18 +10346,20 @@
 		};
 		E2FAA9CF2B0CE3AE00C7E393 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C7B8BB2B626B5F0050B388 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KorwinBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Soundboard/KorwinBoard/Korwin-Board-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Korwin Board";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -10285,7 +10371,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.korwin.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
