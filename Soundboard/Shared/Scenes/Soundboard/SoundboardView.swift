@@ -91,6 +91,7 @@ private extension SoundboardView {
 #Preview {
     NavigationStack {
         SoundboardView()
+            .environmentObject(Router())
             .environmentObject(RealmManager(name: "stonoga.soundboard"))
             .environmentObject(SoundboardViewModel())
     }
