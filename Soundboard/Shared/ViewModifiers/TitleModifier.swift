@@ -9,11 +9,35 @@ import Foundation
 import SwiftUI
 
 struct TitleModifier: ViewModifier {
+    enum InterfaceIdiom {
+        case phone
+        case pad
+
+        var font: Font { .subheadline }
+        var fontWeight:  Font.Weight { .semibold }
+
+        var lineLimit: (limit: Int, reservesSpace: Bool) {
+            switch self {
+            case .phone: (2, true)
+            case .pad: (3, false)
+            }
+        }
+    }
+
+    private let interface: InterfaceIdiom
+
+    init(interface: InterfaceIdiom) {
+        self.interface = interface
+    }
+
     func body(content: Content) -> some View {
         content
-            .font(.subheadline)
-            .fontWeight(.semibold)
-            .lineLimit(2, reservesSpace: true)
+            .font(interface.font)
+            .fontWeight(interface.fontWeight)
+            .lineLimit(
+                interface.lineLimit.limit,
+                reservesSpace: interface.lineLimit.reservesSpace
+            )
             .foregroundStyle(.primary)
     }
 }
@@ -27,9 +51,9 @@ struct SearchResult: ViewModifier {
     }
 }
 
-public extension View {
-    func titleStyle() -> some View {
-        modifier(TitleModifier())
+extension View {
+    func titleStyle(_ interfaceIdiom: TitleModifier.InterfaceIdiom) -> some View {
+        modifier(TitleModifier(interface: interfaceIdiom))
     }
 
     func searchResultStyle() -> some View {

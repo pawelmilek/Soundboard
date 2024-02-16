@@ -14,6 +14,7 @@ struct SoundboardRow: View {
     var onPlayButton: () -> Void
 
     var body: some View {
+        let _ = print(Self._printChanges())
         HStack(alignment: .center, spacing: 0) {
             PortraitView(
                 image: "portrait",
@@ -21,7 +22,7 @@ struct SoundboardRow: View {
             )
             VStack(alignment: .leading, spacing: 5) {
                 Text(item.title)
-                    .titleStyle()
+                    .titleStyle(.phone)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 HStack(spacing: 5) {
                     FavoriteButton(isOn: $item.isFavorite)

@@ -10,16 +10,23 @@ import SwiftUI
 struct SoundboardSearchResults: View {
     @EnvironmentObject private var viewModel: SoundboardViewModel
     @Environment(\.isSearching) private var isSearching: Bool
+    @State private var selectedSoundId: String?
 
     var body: some View {
-        List(viewModel.searchResult) { sound in
-            SoundboardRow(
-                item: sound,
-                shareContent: viewModel.shareSound(sound.fileName),
-                onPlayButton: {
-                    viewModel.play(sound.fileName)
-                }
-            )
+        NavigationSplitView {
+            if UIDevice.current.userInterfaceIdiom == .phone {
+                SoundboardPhoneList()
+            } else {
+                SoundboardPadList(selectedSoundId: $selectedSoundId)
+            }
+
+        } detail: {
+            if let selectedSoundId {
+                Text("Selected sound bit \(selectedSoundId)")
+            } else {
+                ContentUnavailableView("Use sidebar navigation", systemImage: "sidebar.left")
+            }
+
         }
         .animation(.default, value: viewModel.searchResult)
         .listStyle(.plain)
