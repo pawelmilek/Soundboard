@@ -1,5 +1,5 @@
 //
-//  SoundboardPhoneList.swift
+//  SoundboardList.swift
 //  Soundboard
 //
 //  Created by Pawel Milek on 2/16/24.
@@ -8,9 +8,9 @@
 
 import SwiftUI
 
-struct SoundboardPhoneList: View {
+struct SoundboardList: View {
     @EnvironmentObject private var viewModel: SoundboardViewModel
-    
+
     var body: some View {
         List(viewModel.searchResult) { sound in
             SoundboardRow(
@@ -25,5 +25,5 @@ struct SoundboardPhoneList: View {
 }
 
 #Preview {
-    SoundboardPhoneList()
+    SoundboardList()
 }

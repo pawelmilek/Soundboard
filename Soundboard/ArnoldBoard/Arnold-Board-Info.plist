@@ -6,12 +6,19 @@
 	<dict>
 		<key>AppID</key>
 		<string>$(APP_ID)</string>
-		<key>AppURL</key>
-		<string>$(APP_URL)</string>
 		<key>AppPrivacyPolicyURL</key>
 		<string>$(APP_PRIVACY_POLICY_URL)</string>
+		<key>AppURL</key>
+		<string>$(APP_URL)</string>
 		<key>SupportEmail</key>
 		<string>$(SUPPORT_EMAIL)</string>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIImageName</key>
+		<string>backgorund</string>
+		<key>UIImageRespectsSafeAreaInsets</key>
+		<true/>
 	</dict>
 </dict>
 </plist>

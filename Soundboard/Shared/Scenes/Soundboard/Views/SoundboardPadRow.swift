@@ -43,4 +43,3 @@ struct SoundboardPadRow: View {
     .padding()
     .environmentObject(SoundboardViewModel())
 }
-

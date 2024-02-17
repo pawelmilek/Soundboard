@@ -127,7 +127,7 @@ struct InformationView: View {
             }
             .padding(.top, 1)
             .navigationTitle("Info")
-            .navigationBarTitleDisplayMode(.large)
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 

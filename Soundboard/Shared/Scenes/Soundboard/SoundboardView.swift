@@ -17,28 +17,14 @@ struct SoundboardView: View {
 
     var body: some View {
         SoundboardSearchResults()
-            .environmentObject(viewModel)
-            .navigationTitle(viewModel.navigationTitle)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading) {
-                    informationToolbarItem
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    HStack {
-                        sortToolbarMenu
-                        favoritesToolbarItem
-                    }
-                }
-            }
             .searchable(
                 text: $viewModel.searchText,
                 placement: .navigationBarDrawer(displayMode: .always),
                 prompt: viewModel.searchPrompt
-            ) {
-                ForEach(viewModel.searchResult) { item in
-                    Text(item.title)
-                        .searchResultStyle()
-                        .searchCompletion(item.title)
+            )
+            .searchSuggestions {
+                if viewModel.searchText.isEmpty {
+                    SoundSearchSuggestions()
                 }
             }
             .textInputAutocapitalization(.never)
@@ -51,48 +37,11 @@ struct SoundboardView: View {
                 viewModel.onViewDidAppear(realmManager)
             }
     }
-
-    private func navigateToInfo() {
-        router.navigate(to: .info)
-    }
-}
-
-private extension SoundboardView {
-
-    var informationToolbarItem: some View {
-        Button(action: navigateToInfo) {
-            Image(systemName: viewModel.infoToolbarSymbol)
-        }
-        .popoverTip(viewModel.informationTip, arrowEdge: .top)
-    }
-
-    var sortToolbarMenu: some View {
-        Menu("Sort By", systemImage: viewModel.sortToolbarSymbol) {
-            Picker("Select sort order", selection: $viewModel.selectedSortOrder) {
-                ForEach(SoundboardSortOrder.allCases) { item in
-                    Text(item.description)
-                        .tag(item)
-                }
-            }
-        }
-    }
-
-    var favoritesToolbarItem: some View {
-        Button {
-            viewModel.toggleFavorites()
-        } label: {
-            Image(systemName: viewModel.favoriteToolbarSymbol)
-                .foregroundColor(viewModel.toolbarItemFavoritesColor)
-        }
-    }
-
 }
 
 #Preview {
     NavigationStack {
         SoundboardView()
-            .environmentObject(Router())
-            .environmentObject(RealmManager(name: "stonoga.soundboard"))
-            .environmentObject(SoundboardViewModel())
+            .injectDependencies()
     }
 }

@@ -14,7 +14,6 @@ struct SoundboardRow: View {
     var onPlayButton: () -> Void
 
     var body: some View {
-        let _ = print(Self._printChanges())
         HStack(alignment: .center, spacing: 0) {
             PortraitView(
                 image: "portrait",
