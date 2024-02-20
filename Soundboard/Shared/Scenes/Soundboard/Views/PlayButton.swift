@@ -7,25 +7,33 @@
 
 import SwiftUI
 
-public struct PlayButton: View {
+struct PlayButton: View {
     @Binding var count: Int
     @State private var isOn = false
 
     var onAction: @MainActor () -> Void
-    private let symbol = "play.circle.fill"
+    private var symbol: String {
+        "play.circle.fill"
+    }
 
-    public init(count: Binding<Int>, onAction: @escaping () -> Void) {
+    private var font: Font {
+        UIDevice.current.userInterfaceIdiom == .phone
+        ? .system(size: 40)
+        : .system(size: 120)
+    }
+
+    init(count: Binding<Int>, onAction: @escaping () -> Void) {
         self._count = count
         self.onAction = onAction
     }
 
-    public var body: some View {
+    var body: some View {
         Image(systemName: symbol)
             .symbolEffect(
                 .bounce.down.byLayer,
                 value: isOn
             )
-            .font(.system(size: 40))
+            .font(font)
             .fontWeight(.thin)
             .foregroundColor(.accentColor)
             .onTapGesture {

@@ -18,7 +18,7 @@ struct FrameworkList: View {
                     Text(item)
                         .fontDesign(.monospaced)
                         .foregroundStyle(.accent)
-                    Spacer()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     Image(systemName: "books.vertical.fill")
                         .foregroundStyle(.orange)
 
@@ -49,6 +49,9 @@ struct FrameworkList: View {
         "TipKit"
     ]
 
-    return FrameworkList(title: "Frameworks", content: frameworks)
-        .padding()
+    return FrameworkList(
+        title: "Frameworks",
+        content: frameworks
+    )
+    .padding()
 }
