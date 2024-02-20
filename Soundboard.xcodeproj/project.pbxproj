@@ -395,8 +395,43 @@
 		E2319FF62AF7A80A004D54ED /* SoundboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12E2AF6DD2400C8B73B /* SoundboardView.swift */; };
 		E2319FF72AF7A80A004D54ED /* SoundboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F12F2AF6DD2400C8B73B /* SoundboardViewModel.swift */; };
 		E2319FFD2AF7A8C8004D54ED /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
+		E26ABEAC2B7F751E002EEC50 /* SoundboardPadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */; };
+		E26ABEAD2B7F751E002EEC50 /* SoundboardPadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */; };
+		E26ABEAE2B7F751F002EEC50 /* SoundboardPadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */; };
+		E26ABEAF2B7F751F002EEC50 /* SoundboardPadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */; };
+		E26ABEB02B7F751F002EEC50 /* SoundboardPadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */; };
+		E26ABEB12B7F7520002EEC50 /* SoundboardPadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */; };
+		E26ABEB22B7F7520002EEC50 /* SoundboardPadRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */; };
+		E26ABEB42B7FAFB5002EEC50 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */; };
+		E26ABEB52B7FAFB5002EEC50 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */; };
+		E26ABEB62B7FAFB5002EEC50 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */; };
+		E26ABEB72B7FAFB5002EEC50 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */; };
+		E26ABEB82B7FAFB5002EEC50 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */; };
+		E26ABEB92B7FAFB5002EEC50 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */; };
+		E26ABEBA2B7FAFB5002EEC50 /* SoundboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */; };
+		E26ABEBC2B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */; };
+		E26ABEBD2B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */; };
+		E26ABEBE2B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */; };
+		E26ABEBF2B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */; };
+		E26ABEC02B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */; };
+		E26ABEC12B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */; };
+		E26ABEC22B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */; };
 		E29319C82B189E4400D3C461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29319C72B189E4400D3C461 /* Assets.xcassets */; };
 		E29319CB2B189E4400D3C461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29319CA2B189E4400D3C461 /* Preview Assets.xcassets */; };
+		E2A19D812B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */; };
+		E2A19D822B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */; };
+		E2A19D832B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */; };
+		E2A19D842B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */; };
+		E2A19D852B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */; };
+		E2A19D862B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */; };
+		E2A19D872B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */; };
+		E2A19D892B83D9170057A1F0 /* SoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */; };
+		E2A19D8A2B83D9170057A1F0 /* SoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */; };
+		E2A19D8B2B83D9170057A1F0 /* SoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */; };
+		E2A19D8C2B83D9170057A1F0 /* SoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */; };
+		E2A19D8D2B83D9170057A1F0 /* SoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */; };
+		E2A19D8E2B83D9170057A1F0 /* SoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */; };
+		E2A19D8F2B83D9170057A1F0 /* SoundDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */; };
 		E2B85DCB2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2B85DCC2AF8FE13005112B3 /* ShareContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */; };
 		E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
@@ -435,7 +470,7 @@
 		E2C7B6142B6185180050B388 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99C52B611D780044634E /* JSONParser.swift */; };
 		E2C7B6152B61851C0050B388 /* InformationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC993E2B610BD90044634E /* InformationTip.swift */; };
 		E2C7B6162B6185220050B388 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */; };
-		E2C7B6172B6185220050B388 /* SoundboardTipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */; };
+		E2C7B6172B6185220050B388 /* TipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */; };
 		E2C7B6182B61852A0050B388 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */; };
 		E2C7B6192B61852A0050B388 /* SoundboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */; };
 		E2C7B61A2B61852A0050B388 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */; };
@@ -743,8 +778,6 @@
 		E2C7B8A12B625DC80050B388 /* You won't be needing any clothes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8722B625DC80050B388 /* You won't be needing any clothes.m4a */; };
 		E2C7B8A22B625DC80050B388 /* You're losing weight.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8732B625DC80050B388 /* You're losing weight.m4a */; };
 		E2C7B8A32B625DC80050B388 /* Uplinks underground, uplinks underground - you guys don't shut up, I'm going to uplink your ass, you'll be on the ground.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8742B625DC80050B388 /* Uplinks underground, uplinks underground - you guys don't shut up, I'm going to uplink your ass, you'll be on the ground.m4a */; };
-		E2C7B8A52B6265D50050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8A42B6265D50050B388 /* Config.xcconfig */; };
-		E2C7B8A72B6267490050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8A62B6267490050B388 /* Config.xcconfig */; };
 		E2C7B8A92B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
 		E2C7B8AA2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
 		E2C7B8AB2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
@@ -752,11 +785,6 @@
 		E2C7B8AD2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
 		E2C7B8AE2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
 		E2C7B8AF2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7B8A82B62678F0050B388 /* CustomConfigurationAccessor.swift */; };
-		E2C7B8B82B626B190050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8B72B626B190050B388 /* Config.xcconfig */; };
-		E2C7B8BA2B626B4A0050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8B92B626B4A0050B388 /* Config.xcconfig */; };
-		E2C7B8BC2B626B5F0050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8BB2B626B5F0050B388 /* Config.xcconfig */; };
-		E2C7B8BE2B626B750050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8BD2B626B6E0050B388 /* Config.xcconfig */; };
-		E2C7B8C02B626B8D0050B388 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8BF2B626B8D0050B388 /* Config.xcconfig */; };
 		E2C7B90E2B63B5510050B388 /* You're the arsehole on tv.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8DD2B63B54C0050B388 /* You're the arsehole on tv.m4a */; };
 		E2C7B90F2B63B5510050B388 /* Eat and drink and have a good time.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8DE2B63B54D0050B388 /* Eat and drink and have a good time.m4a */; };
 		E2C7B9102B63B5510050B388 /* I cannot watch it.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2C7B8DF2B63B54D0050B388 /* I cannot watch it.m4a */; };
@@ -916,12 +944,12 @@
 		E2CC99DA2B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99D62B612A4E0044634E /* SoundboardNavigationStack.swift */; };
 		E2CC99DB2B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99D62B612A4E0044634E /* SoundboardNavigationStack.swift */; };
 		E2CC99DC2B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99D62B612A4E0044634E /* SoundboardNavigationStack.swift */; };
-		E2CC99DE2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */; };
-		E2CC99DF2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */; };
-		E2CC99E02B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */; };
-		E2CC99E12B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */; };
-		E2CC99E22B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */; };
-		E2CC99E32B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */; };
+		E2CC99DE2B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */; };
+		E2CC99DF2B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */; };
+		E2CC99E02B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */; };
+		E2CC99E12B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */; };
+		E2CC99E22B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */; };
+		E2CC99E32B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */; };
 		E2CC99E52B612CC10044634E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99E42B612CC10044634E /* Router.swift */; };
 		E2CC99E62B612CC10044634E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99E42B612CC10044634E /* Router.swift */; };
 		E2CC99E72B612CC10044634E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99E42B612CC10044634E /* Router.swift */; };
@@ -940,6 +968,13 @@
 		E2CC99FB2B6141680044634E /* InformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99F72B6141680044634E /* InformationViewModel.swift */; };
 		E2CC99FC2B6141680044634E /* InformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99F72B6141680044634E /* InformationViewModel.swift */; };
 		E2CC99FD2B6141680044634E /* InformationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CC99F72B6141680044634E /* InformationViewModel.swift */; };
+		E2CCA8AD2B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */; };
+		E2CCA8AE2B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */; };
+		E2CCA8AF2B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */; };
+		E2CCA8B02B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */; };
+		E2CCA8B12B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */; };
+		E2CCA8B22B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */; };
+		E2CCA8B32B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */; };
 		E2D922782B1A1CD100A9CCBB /* Nie mówmy o tym.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922222B1A1CCC00A9CCBB /* Nie mówmy o tym.m4a */; };
 		E2D922792B1A1CD100A9CCBB /* Otoż ymmm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922232B1A1CCC00A9CCBB /* Otoż ymmm.m4a */; };
 		E2D9227A2B1A1CD100A9CCBB /* Z pośród dwóch armi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2D922242B1A1CCC00A9CCBB /* Z pośród dwóch armi.m4a */; };
@@ -2328,6 +2363,20 @@
 		E2E8CB942B1A160E00C37F6A /* Że jesteście prymitywami.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8CAC92B1A160D00C37F6A /* Że jesteście prymitywami.m4a */; };
 		E2E8CB952B1A160E00C37F6A /* Co by się.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8CACA2B1A160D00C37F6A /* Co by się.m4a */; };
 		E2E8CB962B1A160E00C37F6A /* Wasze karty kredytowe.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E2E8CACB2B1A160D00C37F6A /* Wasze karty kredytowe.m4a */; };
+		E2EE165D2B84A872007460FB /* FavoritePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE165C2B84A872007460FB /* FavoritePadButton.swift */; };
+		E2EE165E2B84A872007460FB /* FavoritePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE165C2B84A872007460FB /* FavoritePadButton.swift */; };
+		E2EE165F2B84A872007460FB /* FavoritePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE165C2B84A872007460FB /* FavoritePadButton.swift */; };
+		E2EE16602B84A872007460FB /* FavoritePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE165C2B84A872007460FB /* FavoritePadButton.swift */; };
+		E2EE16612B84A872007460FB /* FavoritePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE165C2B84A872007460FB /* FavoritePadButton.swift */; };
+		E2EE16622B84A872007460FB /* FavoritePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE165C2B84A872007460FB /* FavoritePadButton.swift */; };
+		E2EE16632B84A872007460FB /* FavoritePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE165C2B84A872007460FB /* FavoritePadButton.swift */; };
+		E2EE16652B84A94F007460FB /* SharePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE16642B84A94F007460FB /* SharePadButton.swift */; };
+		E2EE16662B84A94F007460FB /* SharePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE16642B84A94F007460FB /* SharePadButton.swift */; };
+		E2EE16672B84A94F007460FB /* SharePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE16642B84A94F007460FB /* SharePadButton.swift */; };
+		E2EE16682B84A94F007460FB /* SharePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE16642B84A94F007460FB /* SharePadButton.swift */; };
+		E2EE16692B84A94F007460FB /* SharePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE16642B84A94F007460FB /* SharePadButton.swift */; };
+		E2EE166A2B84A94F007460FB /* SharePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE16642B84A94F007460FB /* SharePadButton.swift */; };
+		E2EE166B2B84A94F007460FB /* SharePadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EE16642B84A94F007460FB /* SharePadButton.swift */; };
 		E2FAA7E92B0CC20600C7E393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */; };
 		E2FAA7EC2B0CC20600C7E393 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */; };
 		E2FAA7F22B0CC84500C7E393 /* SoundboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */; };
@@ -2727,9 +2776,15 @@
 		E22CC8D22B1A3028007C3B30 /* Little bit different.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Little bit different.m4a"; sourceTree = "<group>"; };
 		E22CC8D32B1A3029007C3B30 /* To sb from china.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "To sb from china.m4a"; sourceTree = "<group>"; };
 		E22CC8D42B1A3029007C3B30 /* Putin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Putin.m4a; sourceTree = "<group>"; };
+		E26ABEAA2B7F4C81002EEC50 /* Arnold Board.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Arnold Board.entitlements"; sourceTree = "<group>"; };
+		E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardPadRow.swift; sourceTree = "<group>"; };
+		E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardList.swift; sourceTree = "<group>"; };
+		E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardSidebarView.swift; sourceTree = "<group>"; };
 		E29319C12B189E4200D3C461 /* Kamraci Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kamraci Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29319C72B189E4400D3C461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E29319CA2B189E4400D3C461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectDependenciesViewModifier.swift; sourceTree = "<group>"; };
+		E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundDetailView.swift; sourceTree = "<group>"; };
 		E2B85DCA2AF8FE12005112B3 /* ShareContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContentProvider.swift; sourceTree = "<group>"; };
 		E2BDF3FA2AF5423700D136C9 /* Stonoga Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stonoga Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardApp.swift; sourceTree = "<group>"; };
@@ -3121,10 +3176,11 @@
 		E2CC99B82B611D380044634E /* JSONFileLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFileLoader.swift; sourceTree = "<group>"; };
 		E2CC99C52B611D780044634E /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		E2CC99D62B612A4E0044634E /* SoundboardNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardNavigationStack.swift; sourceTree = "<group>"; };
-		E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardTipConfigurationViewModifier.swift; sourceTree = "<group>"; };
+		E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipConfigurationViewModifier.swift; sourceTree = "<group>"; };
 		E2CC99E42B612CC10044634E /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		E2CC99EB2B61330C0044634E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2CC99F72B6141680044634E /* InformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewModel.swift; sourceTree = "<group>"; };
+		E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundSearchSuggestions.swift; sourceTree = "<group>"; };
 		E2D922222B1A1CCC00A9CCBB /* Nie mówmy o tym.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nie mówmy o tym.m4a"; sourceTree = "<group>"; };
 		E2D922232B1A1CCC00A9CCBB /* Otoż ymmm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Otoż ymmm.m4a"; sourceTree = "<group>"; };
 		E2D922242B1A1CCC00A9CCBB /* Z pośród dwóch armi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Z pośród dwóch armi.m4a"; sourceTree = "<group>"; };
@@ -4494,6 +4550,8 @@
 		E2E8CAC92B1A160D00C37F6A /* Że jesteście prymitywami.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Że jesteście prymitywami.m4a"; sourceTree = "<group>"; };
 		E2E8CACA2B1A160D00C37F6A /* Co by się.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Co by się.m4a"; sourceTree = "<group>"; };
 		E2E8CACB2B1A160D00C37F6A /* Wasze karty kredytowe.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wasze karty kredytowe.m4a"; sourceTree = "<group>"; };
+		E2EE165C2B84A872007460FB /* FavoritePadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePadButton.swift; sourceTree = "<group>"; };
+		E2EE16642B84A94F007460FB /* SharePadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePadButton.swift; sourceTree = "<group>"; };
 		E2FAA7E22B0CC20500C7E393 /* Major Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Major Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FAA7E82B0CC20600C7E393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FAA7EB2B0CC20600C7E393 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -5391,9 +5449,18 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E2A19D7F2B83CA090057A1F0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		E2BDF3F12AF5423700D136C9 = {
 			isa = PBXGroup;
 			children = (
+				E26ABEAA2B7F4C81002EEC50 /* Arnold Board.entitlements */,
 				E2BDF3FC2AF5423700D136C9 /* Soundboard */,
 				E2BDF3FB2AF5423700D136C9 /* Products */,
 			);
@@ -5416,7 +5483,7 @@
 		E2BDF3FC2AF5423700D136C9 /* Soundboard */ = {
 			isa = PBXGroup;
 			children = (
-				E2BDF3FD2AF5423700D136C9 /* SoundboardApp.swift */,
+				E2A19D7F2B83CA090057A1F0 /* App */,
 				E2C7B5FA2B61846E0050B388 /* ArnoldBoard */,
 				E29319C22B189E4200D3C461 /* KamraciBoard */,
 				E2C6F2F02AF6DF0E00C8B73B /* KononBoard */,
@@ -5459,13 +5526,20 @@
 		E2C6F1342AF6DD2400C8B73B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E20575122B0E2AEF00C1DA6D /* SoundboardSearchResults.swift */,
-				E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */,
 				E2C6F1392AF6DD2400C8B73B /* FavoriteButton.swift */,
+				E2EE165C2B84A872007460FB /* FavoritePadButton.swift */,
 				E2C6F1362AF6DD2400C8B73B /* PlayButton.swift */,
 				E2C6F1352AF6DD2400C8B73B /* PortraitView.swift */,
 				E2C6F1382AF6DD2400C8B73B /* RoundCountView.swift */,
 				E2C6F1372AF6DD2400C8B73B /* ShareButton.swift */,
+				E2EE16642B84A94F007460FB /* SharePadButton.swift */,
+				E26ABEB32B7FAFB5002EEC50 /* SoundboardList.swift */,
+				E26ABEAB2B7F7519002EEC50 /* SoundboardPadRow.swift */,
+				E2C6F13C2AF6DD2400C8B73B /* SoundboardRow.swift */,
+				E20575122B0E2AEF00C1DA6D /* SoundboardSearchResults.swift */,
+				E26ABEBB2B7FB00B002EEC50 /* SoundboardSidebarView.swift */,
+				E2A19D882B83D9170057A1F0 /* SoundDetailView.swift */,
+				E2CCA8AC2B8134DF00DAC91A /* SoundSearchSuggestions.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -6107,7 +6181,8 @@
 			isa = PBXGroup;
 			children = (
 				E2C6F1332AF6DD2400C8B73B /* TitleModifier.swift */,
-				E2CC99DD2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift */,
+				E2CC99DD2B612B4A0044634E /* TipConfigurationViewModifier.swift */,
+				E2A19D802B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -7231,7 +7306,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = "Pawel Milek";
 				TargetAttributes = {
 					E22CC7492B1A24A6007C3B30 = {
@@ -7414,7 +7489,6 @@
 				E22CC9DD2B1A3029007C3B30 /* We dont konw.m4a in Resources */,
 				E22CC9E82B1A3029007C3B30 /* Promised land.m4a in Resources */,
 				E22CC94E2B1A3029007C3B30 /* Youll be fine.m4a in Resources */,
-				E2C7B8A72B6267490050B388 /* Config.xcconfig in Resources */,
 				E22CC9C52B1A3029007C3B30 /* Dont win any more.m4a in Resources */,
 				E22CC9DA2B1A3029007C3B30 /* America first.m4a in Resources */,
 				E22CC8F82B1A3029007C3B30 /* Nasty.m4a in Resources */,
@@ -7775,7 +7849,6 @@
 				E2E8C2572B1A0B8B00C37F6A /* Wszystko tobie ukochana ziemio.m4a in Resources */,
 				E2E8C1652B1A0B8A00C37F6A /* Uje kraj.m4a in Resources */,
 				E2E8C1EA2B1A0B8A00C37F6A /* Dzisiaj będą płonąć pochodnie w kształcie litery V.m4a in Resources */,
-				E2C7B8B82B626B190050B388 /* Config.xcconfig in Resources */,
 				E2E8C16E2B1A0B8A00C37F6A /* Czy mówisz szczerze, czy mówisz nieszczerze.m4a in Resources */,
 				E2E8C1692B1A0B8A00C37F6A /* Ulżyj sobie chłopcze.m4a in Resources */,
 				E2E8C1292B1A0B8A00C37F6A /* Śmiało dalej.m4a in Resources */,
@@ -8148,7 +8221,6 @@
 				E2E8CB8C2B1A160E00C37F6A /* A teraz dzwonię do oficera dyżurnego kraju!.m4a in Resources */,
 				E2E8CB102B1A160D00C37F6A /* To was powinno się jeć kua.m4a in Resources */,
 				E2E8CADC2B1A160D00C37F6A /* To wy polacy.m4a in Resources */,
-				E2C7B8C02B626B8D0050B388 /* Config.xcconfig in Resources */,
 				E2E8CB0B2B1A160D00C37F6A /* I dla was znaczyło tylko to 70 czy 80 tysięcy głosów.m4a in Resources */,
 				E2E8CB022B1A160D00C37F6A /* Żeście takie głupie są.m4a in Resources */,
 				E2E8CB682B1A160E00C37F6A /* Nic się w tym kraju nie zmieni.m4a in Resources */,
@@ -8354,7 +8426,6 @@
 				E2E8C4A12B1A0F9C00C37F6A /* Ewka.m4a in Resources */,
 				E2E8C5542B1A0F9D00C37F6A /* Dlaczego ty Wojtku tak robisz.m4a in Resources */,
 				E2E8C4BD2B1A0F9C00C37F6A /* Mogę przeczytać.m4a in Resources */,
-				E2C7B8BA2B626B4A0050B388 /* Config.xcconfig in Resources */,
 				E2E8C5BD2B1A0F9E00C37F6A /* Zapalniku.m4a in Resources */,
 				E2E8C5992B1A0F9D00C37F6A /* Meksykano(1).m4a in Resources */,
 				E2E8C4AD2B1A0F9C00C37F6A /* Trawkę.m4a in Resources */,
@@ -8942,7 +9013,6 @@
 				E2C7B83F2B625DA80050B388 /* My name is not Quaid.m4a in Resources */,
 				E2C7B7F52B625D680050B388 /* Nice night for a walk.m4a in Resources */,
 				E2C7B88F2B625DC80050B388 /* Old, but not obsolete, not yet.m4a in Resources */,
-				E2C7B8A52B6265D50050B388 /* Config.xcconfig in Resources */,
 				E2C7B9352B63B5510050B388 /* I want to make him talk.m4a in Resources */,
 				E2C7B92E2B63B5510050B388 /* We're going to play a wonderful game called who is your daddy, and what does he do.m4a in Resources */,
 				E2C7B7F12B625D680050B388 /* Try to stay dead this time.m4a in Resources */,
@@ -9169,7 +9239,6 @@
 				E2E8C7952B1A129400C37F6A /* To uciekaj do Moskwy.m4a in Resources */,
 				E2E8C7F52B1A129500C37F6A /* I wszyscy będą kebaby jeść.m4a in Resources */,
 				E2E8C8232B1A129500C37F6A /* 800zł zapłaciłem.m4a in Resources */,
-				E2C7B8BE2B626B750050B388 /* Config.xcconfig in Resources */,
 				E2E8C7E82B1A129500C37F6A /* Co ty myślisz nigdy nie jeździłem samochodem?.m4a in Resources */,
 				E2E8C7942B1A129400C37F6A /* Jesteś zadowolona?.m4a in Resources */,
 				E2E8C7A52B1A129400C37F6A /* Ale już pół zjadłem.m4a in Resources */,
@@ -9368,7 +9437,6 @@
 				E2D922A42B1A1CD100A9CCBB /* One żyją sobie całkowicie bezpiecznie od milionów lat.m4a in Resources */,
 				E2D9227B2B1A1CD100A9CCBB /* Że najważniejsze jest się dobrze nażreć.m4a in Resources */,
 				E2D922C12B1A1CD100A9CCBB /* Nie było islandii popatrz pan.m4a in Resources */,
-				E2C7B8BC2B626B5F0050B388 /* Config.xcconfig in Resources */,
 				E2D9229A2B1A1CD100A9CCBB /* Tłumienie wolności słowa, czego osobiście doświadczam.m4a in Resources */,
 				E2D922AF2B1A1CD100A9CCBB /* Dzisiejszy ustrój uniemozliwia ludziom.m4a in Resources */,
 				E2D922782B1A1CD100A9CCBB /* Nie mówmy o tym.m4a in Resources */,
@@ -9545,13 +9613,20 @@
 				E22CC7652B1A29EC007C3B30 /* SoundboardView.swift in Sources */,
 				E2CC99AE2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E22CC76E2B1A29EC007C3B30 /* PortraitView.swift in Sources */,
+				E2EE166B2B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC99572B61115C0044634E /* SoundboardSortOrder.swift in Sources */,
 				E2CC998C2B611B360044634E /* InfoRow.swift in Sources */,
+				E2EE16632B84A872007460FB /* FavoritePadButton.swift in Sources */,
 				E2CC997A2B611B360044634E /* LicenseView.swift in Sources */,
 				E2CC99CB2B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC99922B611B360044634E /* InformationView.swift in Sources */,
+				E2A19D8F2B83D9170057A1F0 /* SoundDetailView.swift in Sources */,
 				E2C7B8AF2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
+				E26ABEBA2B7FAFB5002EEC50 /* SoundboardList.swift in Sources */,
+				E26ABEC22B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */,
+				E2CCA8B32B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */,
 				E22CC7632B1A29EC007C3B30 /* FavoriteButton.swift in Sources */,
+				E2A19D872B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */,
 				E2CC999F2B611BA30044634E /* FileLoaderError.swift in Sources */,
 				E2CC994B2B610D600044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E22CC76D2B1A29EC007C3B30 /* RoundCountView.swift in Sources */,
@@ -9561,10 +9636,11 @@
 				E22CC7672B1A29EC007C3B30 /* SoundboardViewModel.swift in Sources */,
 				E2CC99DC2B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */,
 				E22CC76B2B1A29EC007C3B30 /* ShareContent.swift in Sources */,
-				E2CC99E32B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */,
+				E2CC99E32B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */,
 				E2CC995E2B6119B20044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2CC99742B611B360044634E /* HTMLView.swift in Sources */,
 				E2CC99982B611B360044634E /* SupportEmail.swift in Sources */,
+				E26ABEAC2B7F751E002EEC50 /* SoundboardPadRow.swift in Sources */,
 				E2CC99C42B611D380044634E /* JSONFileLoader.swift in Sources */,
 				E2CC996E2B611B360044634E /* LicenseReader.swift in Sources */,
 				E22CC7692B1A29EC007C3B30 /* SoundModel.swift in Sources */,
@@ -9589,13 +9665,20 @@
 				E2CC99A92B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2E8BE562B18A16F00C37F6A /* RealmManager.swift in Sources */,
 				E2CC99522B6111570044634E /* SoundboardSortOrder.swift in Sources */,
+				E2EE16662B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC99872B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99752B611B360044634E /* LicenseView.swift in Sources */,
+				E2EE165E2B84A872007460FB /* FavoritePadButton.swift in Sources */,
 				E2CC99C62B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC998D2B611B360044634E /* InformationView.swift in Sources */,
 				E2E8BE4A2B18A15F00C37F6A /* ShareContent.swift in Sources */,
+				E2A19D8A2B83D9170057A1F0 /* SoundDetailView.swift in Sources */,
 				E2C7B8AA2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
+				E26ABEB52B7FAFB5002EEC50 /* SoundboardList.swift in Sources */,
+				E26ABEBD2B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */,
+				E2CCA8AE2B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */,
 				E2CC999A2B611BA30044634E /* FileLoaderError.swift in Sources */,
+				E2A19D822B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */,
 				E2E8BE4B2B18A16600C37F6A /* ShareButton.swift in Sources */,
 				E2E8BE4E2B18A16600C37F6A /* SoundboardView.swift in Sources */,
 				E2CC997B2B611B360044634E /* FrameworkList.swift in Sources */,
@@ -9604,11 +9687,12 @@
 				E2CC99412B610C520044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2CC99D72B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */,
 				E2E8BE542B18A16600C37F6A /* FavoriteButton.swift in Sources */,
-				E2CC99DE2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */,
+				E2CC99DE2B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */,
 				E2CC99592B6119830044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2CC996F2B611B360044634E /* HTMLView.swift in Sources */,
 				E2CC99932B611B360044634E /* SupportEmail.swift in Sources */,
 				E2CC99BF2B611D380044634E /* JSONFileLoader.swift in Sources */,
+				E26ABEB12B7F7520002EEC50 /* SoundboardPadRow.swift in Sources */,
 				E2CC99692B611B360044634E /* LicenseReader.swift in Sources */,
 				E2E8BE512B18A16600C37F6A /* PortraitView.swift in Sources */,
 				E2E8BE572B18A16F00C37F6A /* SoundPlayer.swift in Sources */,
@@ -9633,13 +9717,20 @@
 				E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */,
 				E2CC99AD2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2CC99562B61115C0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2EE166A2B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC998B2B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99792B611B360044634E /* LicenseView.swift in Sources */,
+				E2EE16622B84A872007460FB /* FavoritePadButton.swift in Sources */,
 				E2CC99CA2B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC99912B611B360044634E /* InformationView.swift in Sources */,
 				E2C6F2132AF6DD2400C8B73B /* PortraitView.swift in Sources */,
+				E2A19D8E2B83D9170057A1F0 /* SoundDetailView.swift in Sources */,
 				E2C7B8AE2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
+				E26ABEB92B7FAFB5002EEC50 /* SoundboardList.swift in Sources */,
+				E26ABEC12B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */,
+				E2CCA8B22B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */,
 				E2CC999E2B611BA30044634E /* FileLoaderError.swift in Sources */,
+				E2A19D862B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */,
 				E2CC994A2B610D5F0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2C6F2E82AF6DDB600C8B73B /* RealmManager.swift in Sources */,
 				E2CC997F2B611B360044634E /* FrameworkList.swift in Sources */,
@@ -9648,11 +9739,12 @@
 				E2C6F20D2AF6DD2400C8B73B /* ShareContent.swift in Sources */,
 				E2CC99DB2B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */,
 				E2C6F21D2AF6DD2400C8B73B /* SoundFileManager.swift in Sources */,
-				E2CC99E22B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */,
+				E2CC99E22B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */,
 				E2CC995D2B6119B20044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2CC99732B611B360044634E /* HTMLView.swift in Sources */,
 				E2CC99972B611B360044634E /* SupportEmail.swift in Sources */,
 				E2CC99C32B611D380044634E /* JSONFileLoader.swift in Sources */,
+				E26ABEAD2B7F751E002EEC50 /* SoundboardPadRow.swift in Sources */,
 				E2CC996D2B611B360044634E /* LicenseReader.swift in Sources */,
 				E2C6F20F2AF6DD2400C8B73B /* SoundboardView.swift in Sources */,
 				E2C6F2152AF6DD2400C8B73B /* ShareButton.swift in Sources */,
@@ -9677,13 +9769,20 @@
 				E2CC99AA2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2319FE82AF7A7D5004D54ED /* SoundModel.swift in Sources */,
 				E2CC99532B61115A0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2EE16672B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC99882B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99762B611B360044634E /* LicenseView.swift in Sources */,
+				E2EE165F2B84A872007460FB /* FavoritePadButton.swift in Sources */,
 				E2CC99C72B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC998E2B611B360044634E /* InformationView.swift in Sources */,
 				E2319FEA2AF7A7FD004D54ED /* ShareButton.swift in Sources */,
+				E2A19D8B2B83D9170057A1F0 /* SoundDetailView.swift in Sources */,
 				E2C7B8AB2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
+				E26ABEB62B7FAFB5002EEC50 /* SoundboardList.swift in Sources */,
+				E26ABEBE2B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */,
+				E2CCA8AF2B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */,
 				E2CC999B2B611BA30044634E /* FileLoaderError.swift in Sources */,
+				E2A19D832B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */,
 				E2CC99472B610D5D0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2319FFD2AF7A8C8004D54ED /* SoundboardRow.swift in Sources */,
 				E2CC997C2B611B360044634E /* FrameworkList.swift in Sources */,
@@ -9692,11 +9791,12 @@
 				E2319FED2AF7A7FD004D54ED /* FavoriteButton.swift in Sources */,
 				E2CC99D82B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */,
 				E2319FEE2AF7A7FD004D54ED /* PortraitView.swift in Sources */,
-				E2CC99DF2B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */,
+				E2CC99DF2B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */,
 				E2CC995A2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2CC99702B611B360044634E /* HTMLView.swift in Sources */,
 				E2CC99942B611B360044634E /* SupportEmail.swift in Sources */,
 				E2CC99C02B611D380044634E /* JSONFileLoader.swift in Sources */,
+				E26ABEB02B7F751F002EEC50 /* SoundboardPadRow.swift in Sources */,
 				E2CC996A2B611B360044634E /* LicenseReader.swift in Sources */,
 				E2319FEB2AF7A7FD004D54ED /* RoundCountView.swift in Sources */,
 				E2319FEC2AF7A7FD004D54ED /* PlayButton.swift in Sources */,
@@ -9719,15 +9819,22 @@
 				E2C7B6202B61852A0050B388 /* ShareButton.swift in Sources */,
 				E2C7B6192B61852A0050B388 /* SoundboardRow.swift in Sources */,
 				E2C7B6122B6185180050B388 /* FileLoaderError.swift in Sources */,
-				E2C7B6172B6185220050B388 /* SoundboardTipConfigurationViewModifier.swift in Sources */,
+				E2C7B6172B6185220050B388 /* TipConfigurationViewModifier.swift in Sources */,
 				E2C7B62B2B6185390050B388 /* HTMLView.swift in Sources */,
+				E2EE16652B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2C7B6142B6185180050B388 /* JSONParser.swift in Sources */,
 				E2C7B60D2B6185130050B388 /* RealmManager.swift in Sources */,
+				E2EE165D2B84A872007460FB /* FavoritePadButton.swift in Sources */,
 				E2C7B61B2B61852A0050B388 /* PortraitView.swift in Sources */,
 				E2C7B60B2B6185130050B388 /* SoundPlayer.swift in Sources */,
 				E2C7B6262B6185390050B388 /* InformationViewModel.swift in Sources */,
+				E2A19D892B83D9170057A1F0 /* SoundDetailView.swift in Sources */,
 				E2C7B8A92B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
+				E26ABEB42B7FAFB5002EEC50 /* SoundboardList.swift in Sources */,
+				E26ABEBC2B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */,
+				E2CCA8AD2B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */,
 				E2C7B6162B6185220050B388 /* TitleModifier.swift in Sources */,
+				E2A19D812B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */,
 				E2C7B61F2B61852A0050B388 /* SoundboardView.swift in Sources */,
 				E2C7B6272B6185390050B388 /* InfoRow.swift in Sources */,
 				E2C7B6132B6185180050B388 /* JSONFileLoader.swift in Sources */,
@@ -9741,6 +9848,7 @@
 				E2C7B6242B6185320050B388 /* InformationView.swift in Sources */,
 				E2C7B6102B6185130050B388 /* SoundFileManager.swift in Sources */,
 				E2C7B62A2B6185390050B388 /* SupportEmail.swift in Sources */,
+				E26ABEB22B7F7520002EEC50 /* SoundboardPadRow.swift in Sources */,
 				E2C7B6212B61852E0050B388 /* SoundboardSortOrder.swift in Sources */,
 				E2C7B60F2B6185130050B388 /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2C7B61E2B61852A0050B388 /* SoundboardViewModel.swift in Sources */,
@@ -9765,13 +9873,20 @@
 				E2CC99AC2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2FAA7FF2B0CC86C00C7E393 /* SoundFileManager.swift in Sources */,
 				E2CC99552B61115B0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2EE16692B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC998A2B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99782B611B360044634E /* LicenseView.swift in Sources */,
+				E2EE16612B84A872007460FB /* FavoritePadButton.swift in Sources */,
 				E2CC99C92B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC99902B611B360044634E /* InformationView.swift in Sources */,
 				E2FAA8042B0CC86C00C7E393 /* RealmManager.swift in Sources */,
+				E2A19D8D2B83D9170057A1F0 /* SoundDetailView.swift in Sources */,
 				E2C7B8AD2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
+				E26ABEB82B7FAFB5002EEC50 /* SoundboardList.swift in Sources */,
+				E26ABEC02B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */,
+				E2CCA8B12B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */,
 				E2CC999D2B611BA30044634E /* FileLoaderError.swift in Sources */,
+				E2A19D852B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */,
 				E2CC99492B610D5E0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2FAA7F42B0CC85A00C7E393 /* PlayButton.swift in Sources */,
 				E2CC997E2B611B360044634E /* FrameworkList.swift in Sources */,
@@ -9780,11 +9895,12 @@
 				E2FAA7FC2B0CC86200C7E393 /* SoundModel.swift in Sources */,
 				E2CC99DA2B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */,
 				E2FAA7F52B0CC85A00C7E393 /* FavoriteButton.swift in Sources */,
-				E2CC99E12B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */,
+				E2CC99E12B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */,
 				E2CC995C2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2CC99722B611B360044634E /* HTMLView.swift in Sources */,
 				E2CC99962B611B360044634E /* SupportEmail.swift in Sources */,
 				E2CC99C22B611D380044634E /* JSONFileLoader.swift in Sources */,
+				E26ABEAE2B7F751F002EEC50 /* SoundboardPadRow.swift in Sources */,
 				E2CC996C2B611B360044634E /* LicenseReader.swift in Sources */,
 				E2FAA7FB2B0CC85E00C7E393 /* SoundboardView.swift in Sources */,
 				E2FAA8022B0CC86C00C7E393 /* SoundPlayer.swift in Sources */,
@@ -9809,13 +9925,20 @@
 				E2CC99AB2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2FAA9EC2B0CE43300C7E393 /* SoundModel.swift in Sources */,
 				E2CC99542B61115B0044634E /* SoundboardSortOrder.swift in Sources */,
+				E2EE16682B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC99892B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99772B611B360044634E /* LicenseView.swift in Sources */,
+				E2EE16602B84A872007460FB /* FavoritePadButton.swift in Sources */,
 				E2CC99C82B611D780044634E /* JSONParser.swift in Sources */,
 				E2CC998F2B611B360044634E /* InformationView.swift in Sources */,
 				E2FAA9DD2B0CE42400C7E393 /* FavoriteButton.swift in Sources */,
+				E2A19D8C2B83D9170057A1F0 /* SoundDetailView.swift in Sources */,
 				E2C7B8AC2B62678F0050B388 /* CustomConfigurationAccessor.swift in Sources */,
+				E26ABEB72B7FAFB5002EEC50 /* SoundboardList.swift in Sources */,
+				E26ABEBF2B7FB00B002EEC50 /* SoundboardSidebarView.swift in Sources */,
+				E2CCA8B02B8134DF00DAC91A /* SoundSearchSuggestions.swift in Sources */,
 				E2CC999C2B611BA30044634E /* FileLoaderError.swift in Sources */,
+				E2A19D842B83CA3F0057A1F0 /* InjectDependenciesViewModifier.swift in Sources */,
 				E2CC99482B610D5E0044634E /* Bundle+ApplicationInfo.swift in Sources */,
 				E2FAA9EB2B0CE42F00C7E393 /* SoundFileManager.swift in Sources */,
 				E2CC997D2B611B360044634E /* FrameworkList.swift in Sources */,
@@ -9824,11 +9947,12 @@
 				E2FAA9DF2B0CE42400C7E393 /* SoundboardViewModel.swift in Sources */,
 				E2CC99D92B612A4E0044634E /* SoundboardNavigationStack.swift in Sources */,
 				E2FAA9F22B0CE45800C7E393 /* SoundboardApp.swift in Sources */,
-				E2CC99E02B612B4A0044634E /* SoundboardTipConfigurationViewModifier.swift in Sources */,
+				E2CC99E02B612B4A0044634E /* TipConfigurationViewModifier.swift in Sources */,
 				E2CC995B2B6119B10044634E /* RequestReviewRequirementsVerification.swift in Sources */,
 				E2CC99712B611B360044634E /* HTMLView.swift in Sources */,
 				E2CC99952B611B360044634E /* SupportEmail.swift in Sources */,
 				E2CC99C12B611D380044634E /* JSONFileLoader.swift in Sources */,
+				E26ABEAF2B7F751F002EEC50 /* SoundboardPadRow.swift in Sources */,
 				E2CC996B2B611B360044634E /* LicenseReader.swift in Sources */,
 				E2FAA9E92B0CE42F00C7E393 /* ShareContentProvider.swift in Sources */,
 				E2FAA9EA2B0CE42F00C7E393 /* SoundPlayer.swift in Sources */,
@@ -9847,7 +9971,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -9859,25 +9983,24 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.trump.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Trump Soundboard Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -9889,7 +10012,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -9901,25 +10024,24 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.trump.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Trump Soundboard App Store";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -9931,7 +10053,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -9943,7 +10065,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -9957,11 +10078,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Kamraci Soundboard Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -9973,7 +10094,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -9985,7 +10106,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -9999,11 +10119,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Kamraci Soundboard App Store";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -10134,7 +10254,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/StonogaBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10146,7 +10266,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -10160,11 +10279,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Stonoga Soundboard Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -10176,7 +10295,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/StonogaBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10188,7 +10307,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -10202,11 +10320,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Stonoga Soundboard App Store";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -10218,7 +10336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KononBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10230,7 +10348,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -10244,11 +10361,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Konon Soundboard Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -10260,7 +10377,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KononBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10272,7 +10389,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -10286,11 +10402,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Konon Soundboard App Store";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -10300,6 +10416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Arnold Board.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -10313,7 +10430,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -10321,18 +10437,18 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.arnold.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Arnold Soundboard Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -10342,6 +10458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Arnold Board.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -10355,7 +10472,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -10363,18 +10479,18 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = milek.pawel.arnold.soundboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Arnold Soundboard App Store";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -10386,7 +10502,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/MajorBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10398,7 +10514,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -10412,11 +10527,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Major Soundboard Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -10428,7 +10543,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/MajorBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10440,7 +10555,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -10454,11 +10568,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Major Soundboard App Store";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -10470,7 +10584,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KorwinBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10482,7 +10596,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -10496,11 +10609,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Korwin Soundboard Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -10512,7 +10625,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KorwinBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10524,7 +10637,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -10538,11 +10650,11 @@
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Korwin Soundboard App Store";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

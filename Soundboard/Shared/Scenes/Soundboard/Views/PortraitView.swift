@@ -7,21 +7,26 @@
 
 import SwiftUI
 
-public struct PortraitView: View {
+struct PortraitView: View {
     let image: String
     let count: Int
 
-    public init(image: String, count: Int) {
-        self.image = image
-        self.count = count
+    private var imageHeight: CGFloat {
+        UIDevice.current.userInterfaceIdiom == .phone ? 65 : 55
     }
 
-    public var body: some View {
+    private var cornerRadius: CGFloat {
+        UIDevice.current.userInterfaceIdiom == .phone ? 12 : 5
+    }
+
+    var body: some View {
+        let _ = print(Self._printChanges())
+
         Image(image)
             .resizable()
             .scaledToFit()
-            .frame(maxHeight: 65)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .frame(maxHeight: imageHeight)
+            .clipShape(RoundedRectangle(cornerRadius: cornerRadius))
             .overlay(alignment: .topLeading) {
                 RoundCountView(value: count)
                     .offset(x: -7, y: -8)
@@ -31,5 +36,5 @@ public struct PortraitView: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    PortraitView(image: "stonoga", count: 13)
+    PortraitView(image: "portrait", count: 13)
 }

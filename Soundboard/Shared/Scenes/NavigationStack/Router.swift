@@ -9,22 +9,38 @@
 import SwiftUI
 
 final class Router: ObservableObject {
-    enum Route: Hashable {
+    enum Route: Hashable, Identifiable {
         case info
+
+        var id: Self { self }
     }
 
     @Published var routes = [Route]()
+    @Published var selectRoute: Route?
+    @Published var selectedSound: SoundModel?
 
     func navigate(to route: Route) {
-        routes.append(route)
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            routes.append(route)
+        } else {
+            selectRoute = route
+        }
     }
 
     func navigateBack() {
-        routes.removeLast()
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            routes.removeLast()
+        } else {
+            selectRoute = nil
+        }
     }
 
     func popToRoot() {
-        routes.removeAll()
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            routes.removeAll()
+        } else {
+            selectRoute = nil
+        }
     }
 
     @ViewBuilder

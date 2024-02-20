@@ -9,18 +9,21 @@ import SwiftUI
 
 public struct RoundCountView: View {
     let value: Int
-    @State private var animateValue = 0
+    @State private var animatedValue = 0
+    private let height = CGFloat(13)
+    private let font = Font.caption2
 
     public var body: some View {
+        let _ = print(Self._printChanges())
         VStack {
-            Text("\(animateValue)")
-                .contentTransition(.numericText(value: Double(animateValue)))
-                .font(.caption2)
+            Text("\(animatedValue)")
+                .contentTransition(.numericText(value: Double(animatedValue)))
+                .font(font)
                 .fontWeight(.semibold)
                 .fontDesign(.rounded)
                 .lineLimit(1)
                 .minimumScaleFactor(0.5)
-                .frame(maxWidth: 13, maxHeight: 13)
+                .frame(maxWidth: height, maxHeight: height)
                 .padding(3)
                 .background(.accent)
                 .foregroundStyle(.white)
@@ -28,11 +31,12 @@ public struct RoundCountView: View {
                 .padding(2.5)
                 .background(Color(UIColor.systemGray6))
                 .clipShape(Circle())
-                .onAppear {
-                    withAnimation {
-                        animateValue = value
-                    }
-                }
+                .animation(.default, value: animatedValue)
+        }
+        .onAppear {
+            withAnimation {
+                animatedValue = value
+            }
         }
         .id("contentTransitionId \(value)")
     }

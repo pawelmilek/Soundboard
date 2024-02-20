@@ -21,7 +21,7 @@ struct SoundboardRow: View {
             )
             VStack(alignment: .leading, spacing: 5) {
                 Text(item.title)
-                    .titleStyle()
+                    .titleStyle(.phone)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 HStack(spacing: 5) {
                     FavoriteButton(isOn: $item.isFavorite)

@@ -1,5 +1,5 @@
 //
-//  SoundboardTipConfigurationViewModifier.swift
+//  TipConfigurationViewModifier.swift
 //  Soundboard
 //
 //  Created by Pawel Milek on 1/24/24.
@@ -9,14 +9,13 @@
 import SwiftUI
 import TipKit
 
-struct SoundboardTipConfigurationViewModifier: ViewModifier {
+struct TipConfigurationViewModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .task {
                 configureTip()
             }
     }
-
 
     private func configureTip() {
         try? Tips.configure([
@@ -28,6 +27,6 @@ struct SoundboardTipConfigurationViewModifier: ViewModifier {
 
 extension View {
     func soundboardTipConfiguration() -> some View {
-        modifier(SoundboardTipConfigurationViewModifier())
+        modifier(TipConfigurationViewModifier())
     }
 }
