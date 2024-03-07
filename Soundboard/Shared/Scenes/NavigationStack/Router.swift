@@ -5,12 +5,14 @@
 //  Created by Pawel Milek on 1/24/24.
 //  Copyright © 2024 Pawel Milek. All rights reserved.
 //
+// swiftlint:disable identifier_name
 
 import SwiftUI
 
 final class Router: ObservableObject {
     enum Route: Hashable, Identifiable {
         case info
+        case composer
 
         var id: Self { self }
     }
@@ -19,8 +21,12 @@ final class Router: ObservableObject {
     @Published var selectRoute: Route?
     @Published var selectedSound: SoundModel?
 
+    private var isPhone: Bool {
+        UIDevice.current.userInterfaceIdiom == .phone
+    }
+
     func navigate(to route: Route) {
-        if UIDevice.current.userInterfaceIdiom == .phone {
+        if isPhone {
             routes.append(route)
         } else {
             selectRoute = route
@@ -28,7 +34,7 @@ final class Router: ObservableObject {
     }
 
     func navigateBack() {
-        if UIDevice.current.userInterfaceIdiom == .phone {
+        if isPhone {
             routes.removeLast()
         } else {
             selectRoute = nil
@@ -36,7 +42,7 @@ final class Router: ObservableObject {
     }
 
     func popToRoot() {
-        if UIDevice.current.userInterfaceIdiom == .phone {
+        if isPhone {
             routes.removeAll()
         } else {
             selectRoute = nil
@@ -48,6 +54,9 @@ final class Router: ObservableObject {
         switch route {
         case .info:
             InformationView()
+
+        case .composer:
+            ComposerView()
         }
     }
 }

@@ -30,10 +30,13 @@ struct SoundboardSearchResults: View {
             .navigationTitle(viewModel.navigationTitle)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
-                    informationToolbarItem
+                    HStack(spacing: 5) {
+                        informationToolbarItem
+                        composerToolbarItem
+                    }
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    HStack {
+                    HStack(spacing: 5) {
                         sortToolbarMenu
                         favoritesToolbarItem
                     }
@@ -49,9 +52,9 @@ struct SoundboardSearchResults: View {
                 }
             } else if isSearching && viewModel.showContentUnavailableView {
                 ContentUnavailableView(
-                    viewModel.contentUnavailableTitle,
+                    viewModel.contentUnavailable.title,
                     systemImage: viewModel.contentUnavailableSymbol,
-                    description: Text(viewModel.contentUnavailableDescription)
+                    description: Text(viewModel.contentUnavailable.description)
                 )
             } else {
                 ContentUnavailableView(
@@ -65,21 +68,25 @@ struct SoundboardSearchResults: View {
         .listStyle(.plain)
         .overlay {
             ContentUnavailableView(
-                viewModel.contentUnavailableTitle,
+                viewModel.contentUnavailable.title,
                 systemImage: viewModel.contentUnavailableSymbol,
-                description: Text(viewModel.contentUnavailableDescription)
+                description: Text(viewModel.contentUnavailable.description)
             )
-            .opacity(isPhone && isSearching && viewModel.showContentUnavailableView ? 1 : 0)
+            .opacity(isPhone && viewModel.showContentUnavailableView ? 1 : 0)
         }
-        .sheet(item: $router.selectRoute) { _ in
+        .sheet(item: $router.selectRoute) { route in
             NavigationStack {
-                InformationView()
+                router.view(for: route)
             }
         }
     }
 
     private func navigateToInfo() {
         router.navigate(to: .info)
+    }
+
+    private func navigateToComposer() {
+        router.navigate(to: .composer)
     }
 }
 
@@ -90,6 +97,13 @@ private extension SoundboardSearchResults {
             Image(systemName: viewModel.infoToolbarSymbol)
         }
         .popoverTip(viewModel.informationTip, arrowEdge: .top)
+    }
+
+    var composerToolbarItem: some View {
+        Button(action: navigateToComposer) {
+            Image(systemName: viewModel.composerToolbarSymbol)
+        }
+        .popoverTip(ComposerTip(), arrowEdge: .top)
     }
 
     var sortToolbarMenu: some View {

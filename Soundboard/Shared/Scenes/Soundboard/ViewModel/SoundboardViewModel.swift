@@ -4,6 +4,7 @@
 //
 //  Created by Pawel Milek on 10/25/23.
 //
+// swiftlint:disable switch_case_alignment
 
 import SwiftUI
 import RealmSwift
@@ -12,108 +13,85 @@ import Combine
 @MainActor
 final class SoundboardViewModel: NSObject, ObservableObject {
     @AppStorage("lastVersionPromptedForReview") private var lastVersionPromptedForReview = ""
+    @AppStorage("soundboardSortOrder") private var soundboardSortOrder: SoundboardSortOrder = .title
+
     @Published var items: Results<SoundModel>?
-    @Published var showFavoritesOnly = false
     @Published var searchText = ""
+    @Published var searchResult = [SoundModel]()
     @Published var selectedSortOrder = SoundboardSortOrder.title
+    @Published var showFavoritesOnly = false
     @Published var shouldRequestReview = false
+    @Published var showContentUnavailableView = false
+    @Published var contentUnavailable: (title: String, description: String) = ("", "")
+    @Published var favoriteToolbarSymbol = "heart"
 
-    var showContentUnavailableView: Bool {
-        searchResult.isEmpty
-    }
-
-    var searchResult: [SoundModel] {
-        return if searchText.isEmpty {
-            itemsArray
-        } else {
-            itemsArray
-                .filter { $0.title.lowercased().contains(searchText.lowercased()) }
-        }
-    }
-
-    private var itemsArray: [SoundModel] {
-        if let items, !items.isEmpty {
-            return Array(items).filter { !showFavoritesOnly || $0.isFavorite }
-        } else {
-            return []
-        }
-    }
-
-    var navigationTitle: String {
-        "Soundboard"
-    }
-
-    var contentUnavailableTitle: String {
-        return if searchText.isEmpty {
-            "No Favorites available"
-        } else {
-            "No sounds found for \(searchText)"
-        }
-    }
-
-    var contentUnavailableSymbol: String {
-        "music.note.list"
-    }
-
-    var contentUnavailableDescription: String {
-        return if searchText.isEmpty {
-            "Add sounds to favorite"
-        } else {
-            "Try to search for a different phrase"
-        }
-    }
-
-    var searchPrompt: String {
-        "Search for a sound"
-    }
-
-    var infoToolbarSymbol: String {
-        "info.circle"
-    }
-
-    var sortToolbarSymbol: String {
-        "arrow.up.arrow.down"
-    }
-
-    var favoriteToolbarSymbol: String {
-        showFavoritesOnly ? "heart.fill" : "heart"
-    }
-
-    var toolbarItemFavoritesColor: Color {
-        .accentColor
-    }
-
+    let navigationTitle = "Soundboard"
+    let contentUnavailableSymbol = "music.note.list"
+    let toolbarItemFavoritesColor = Color.accentColor
+    let searchPrompt = "Search for a sound"
+    let infoToolbarSymbol = "info.circle"
+    let composerToolbarSymbol = "music.quarternote.3"
+    let sortToolbarSymbol = "arrow.up.arrow.down"
     let informationTip = InformationTip()
 
-    private var realmManager: RealmManager?
     private var cancallables = Set<AnyCancellable>()
     private var itemsToken: NotificationToken?
     private var favoritesToken: NotificationToken?
     private let player: PlayerProtocol
     private let shareContentProvider: ShareContentProvider
+    private let realm: Realm?
 
     init(
-        player: PlayerProtocol = SoundPlayer(),
-        shareContentProvider: ShareContentProvider = ShareContentProvider()
+        player: PlayerProtocol,
+        shareContentProvider: ShareContentProvider,
+        realm: Realm?
     ) {
         self.player = player
         self.shareContentProvider = shareContentProvider
+        self.realm = realm
         super.init()
+        selectedSortOrder = soundboardSortOrder
+        setupSubscribers()
+        setupNotificationTokenObserver()
+    }
 
-        $selectedSortOrder
-            .sink { [weak self] selectedSortOrder in
-                self?.updateSortOrder(selectedSortOrder)
+    private func setupSubscribers() {
+        Publishers.CombineLatest4($items, $searchText, $selectedSortOrder, $showFavoritesOnly)
+            .sink { [weak self] items, searchText, selectedSortOrder, showFavoritesOnly in
+                guard let self, let items else { return }
+
+                let sounds = Array(items)
+                    .filter { !showFavoritesOnly || $0.isFavorite }
+                    .sorted { lhs, rhs in
+                        return  switch selectedSortOrder {
+                        case .title: lhs.title < rhs.title
+                        case .playback: lhs.playbackCount > rhs.playbackCount
+                        }
+                    }
+
+                if searchText.isEmpty {
+                    searchResult = sounds
+                } else {
+                    searchResult = sounds.filter {
+                        $0.title.lowercased().contains(searchText.lowercased())
+                    }
+                }
+
+                soundboardSortOrder = selectedSortOrder
+                favoriteToolbarSymbol = showFavoritesOnly ? "heart.fill" : "heart"
+                setContentUnavailableViewText(isSearchTextEmpty: searchText.isEmpty)
+            }
+            .store(in: &cancallables)
+
+        $searchResult
+            .sink { [weak self] searchResult in
+                self?.showContentUnavailableView = searchResult.isEmpty
             }
             .store(in: &cancallables)
     }
 
-    func onViewDidAppear(_ realmManager: RealmManager) {
-        self.realmManager = realmManager
-        setupObserver()
-    }
-
-    private func setupObserver() {
-        let observedItems = realmManager?.realm?.objects(SoundModel.self)
+    private func setupNotificationTokenObserver() {
+        let observedItems = realm?.objects(SoundModel.self)
         itemsToken = observedItems?.observe { [weak self] _ in
             guard let self else { return }
             items = observedItems?.sorted(
@@ -132,7 +110,6 @@ final class SoundboardViewModel: NSObject, ObservableObject {
             default:
                 break
             }
-
         }
     }
 
@@ -149,16 +126,19 @@ final class SoundboardViewModel: NSObject, ObservableObject {
 
     private func presentReview() {
         Task {
-            try await Task.sleep(for: .seconds(0.5))
+            try await Task.sleep(for: .seconds(0.3))
             shouldRequestReview = true
         }
     }
 
-    private func updateSortOrder(_ selectedSortOrder: SoundboardSortOrder) {
-        items = realmManager?.realm?.objects(SoundModel.self).sorted(
-            byKeyPath: selectedSortOrder.keyPath,
-            ascending: selectedSortOrder.ascending
-        )
+    private func setContentUnavailableViewText(isSearchTextEmpty: Bool) {
+        if isSearchTextEmpty {
+            contentUnavailable.title = "No Favorites available"
+            contentUnavailable.description = "Add sounds to favorite"
+        } else {
+            contentUnavailable.title = "No sounds found for \(searchText)"
+            contentUnavailable.description = "Try to search for a different phrase"
+        }
     }
 
     func toggleFavorites() {

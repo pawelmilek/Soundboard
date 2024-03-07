@@ -53,5 +53,11 @@ struct SoundDetailView: View {
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardViewModel())
+    .environmentObject(
+        SoundboardViewModel(
+            player: SoundPlayer(),
+            shareContentProvider: ShareContentProvider(),
+            realm: RealmManager.previewRealm
+        )
+    )
 }

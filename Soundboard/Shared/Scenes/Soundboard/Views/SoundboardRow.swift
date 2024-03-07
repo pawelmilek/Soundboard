@@ -23,10 +23,11 @@ struct SoundboardRow: View {
                 Text(item.title)
                     .titleStyle(.phone)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                HStack(spacing: 5) {
+                HStack(spacing: 10) {
                     FavoriteButton(isOn: $item.isFavorite)
                     ShareButton(content: shareContent)
                 }
+
             }
             .fixedSize(horizontal: false, vertical: true)
             PlayButton(
@@ -49,7 +50,13 @@ struct SoundboardRow: View {
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardViewModel())
+    .environmentObject(
+        SoundboardViewModel(
+            player: SoundPlayer(),
+            shareContentProvider: ShareContentProvider(),
+            realm: RealmManager.previewRealm
+        )
+    )
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
@@ -59,5 +66,11 @@ struct SoundboardRow: View {
         onPlayButton: { }
     )
     .padding()
-    .environmentObject(SoundboardViewModel())
+    .environmentObject(
+        SoundboardViewModel(
+            player: SoundPlayer(),
+            shareContentProvider: ShareContentProvider(),
+            realm: RealmManager.previewRealm
+        )
+    )
 }

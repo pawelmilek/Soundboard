@@ -26,7 +26,7 @@ final class InformationViewModel: ObservableObject {
         appName = Bundle.applicationName
         appVersion = "\(Bundle.versionNumber) (\(Bundle.buildNumber))"
         appCompatibility = "iOS \(Bundle.minimumOSVersion)"
-        copyright = "Copyright © All right reserved."
+        copyright = "Copyright © Pawel Milek. All rights reserved."
         frameworks = ["SwiftUI", "Combine", "StoreKit", "WebKit", "TipKit"]
 
         setupConfigurationValues()

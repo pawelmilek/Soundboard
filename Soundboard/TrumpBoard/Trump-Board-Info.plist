@@ -13,12 +13,5 @@
 		<key>SupportEmail</key>
 		<string>$(SUPPORT_EMAIL)</string>
 	</dict>
-	<key>UILaunchScreen</key>
-	<dict>
-		<key>UIImageName</key>
-		<string>background</string>
-		<key>UIImageRespectsSafeAreaInsets</key>
-		<true/>
-	</dict>
 </dict>
 </plist>

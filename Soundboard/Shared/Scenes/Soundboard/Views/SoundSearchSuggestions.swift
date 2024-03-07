@@ -12,12 +12,8 @@ import RealmSwift
 struct SoundSearchSuggestions: View {
     @EnvironmentObject private var viewModel: SoundboardViewModel
 
-    private var sortedSounds: Results<SoundModel> {
-        viewModel.items!.sorted(by: \.title, ascending: true)
-    }
-
     var body: some View {
-        ForEach(sortedSounds) { sound in
+        ForEach(viewModel.searchResult) { sound in
             Text(sound.title)
                 .searchResultStyle()
                 .searchCompletion(sound.title)

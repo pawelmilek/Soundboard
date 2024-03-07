@@ -9,16 +9,18 @@
 import SwiftUI
 
 struct InjectDependenciesViewModifier: ViewModifier {
-    @StateObject private var router = Router()
     @StateObject private var realmManager = RealmManager(name: "soundboard")
-    @StateObject private var viewModel = SoundboardViewModel()
 
     func body(content: Content) -> some View {
         content
             .environment(\.realmConfiguration, realmManager.realm!.configuration)
-            .environmentObject(viewModel)
             .environmentObject(realmManager)
-            .environmentObject(router)
+            .environmentObject(SoundboardViewModel(
+                player: SoundPlayer(),
+                shareContentProvider: ShareContentProvider(),
+                realm: realmManager.realm
+            ))
+            .environmentObject(Router())
             .task {
                 realmManager.debugPrintRealmFileURL()
             }

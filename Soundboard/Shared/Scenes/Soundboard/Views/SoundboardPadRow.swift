@@ -33,7 +33,13 @@ struct SoundboardPadRow: View {
         item: RealmManager(name: "stonoga.soundboard").realm!.objects(SoundModel.self)[3]
     )
     .padding()
-    .environmentObject(SoundboardViewModel())
+    .environmentObject(
+        SoundboardViewModel(
+            player: SoundPlayer(),
+            shareContentProvider: ShareContentProvider(),
+            realm: RealmManager.previewRealm
+        )
+    )
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
@@ -41,5 +47,11 @@ struct SoundboardPadRow: View {
         item: RealmManager(name: "stonoga.soundboard").realm!.objects(SoundModel.self).last!
     )
     .padding()
-    .environmentObject(SoundboardViewModel())
+    .environmentObject(
+        SoundboardViewModel(
+            player: SoundPlayer(),
+            shareContentProvider: ShareContentProvider(),
+            realm: RealmManager.previewRealm
+        )
+    )
 }

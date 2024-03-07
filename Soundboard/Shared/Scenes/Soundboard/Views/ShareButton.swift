@@ -27,13 +27,17 @@ public struct ShareButton: View {
                 Text("Share")
             }
             .font(.caption2)
-            .fontWeight(.regular)
-            .padding(.horizontal, 5)
-            .padding(.trailing, 5)
+            .fontWeight(.semibold)
+            .foregroundStyle(.white)
+            .padding(.horizontal, 15)
+            .padding(.vertical, 5)
         })
-        .buttonStyle(.borderedProminent)
-        .buttonBorderShape(.capsule)
-        .controlSize(.small)
+        .buttonStyle(.borderless)
+        .background {
+            Capsule()
+                .foregroundStyle(.accent)
+                .shadow(color: .primary.opacity(0.25), radius: 2, x: 0, y: 0)
+        }
     }
 }
 

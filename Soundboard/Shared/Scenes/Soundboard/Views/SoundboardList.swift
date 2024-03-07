@@ -16,14 +16,16 @@ struct SoundboardList: View {
             SoundboardRow(
                 item: sound,
                 shareContent: viewModel.shareSound(sound.fileName),
-                onPlayButton: {
-                    viewModel.play(sound.fileName)
-                }
+                onPlayButton: { viewModel.play(sound.fileName) }
             )
+            .listRowInsets(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
         }
+        .listStyle(.plain)
+        .scrollIndicators(.hidden)
     }
 }
 
 #Preview {
     SoundboardList()
+        .injectDependencies()
 }

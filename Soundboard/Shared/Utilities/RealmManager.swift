@@ -8,8 +8,8 @@
 import Foundation
 import RealmSwift
 
-public final class RealmManager: ObservableObject {
-    var previewRealm: Realm {
+final class RealmManager: ObservableObject {
+    static var previewRealm: Realm {
         var realm: Realm
         let identifier = "preview.realm"
         let config = Realm.Configuration(inMemoryIdentifier: identifier)
@@ -30,9 +30,9 @@ public final class RealmManager: ObservableObject {
     }
 
     private(set) var realm: Realm?
-    private let soundFileManager: FileManagerProtocol
+    private let soundFileManager: SoundResourcesManagerProtocol
 
-    public init(name: String, soundFileManager: FileManagerProtocol = SoundFileManager()) {
+    init(name: String, soundFileManager: SoundResourcesManagerProtocol = SoundResourcesManager()) {
         self.soundFileManager = soundFileManager
         setupScheme(with: name)
         populateRealm()
@@ -134,7 +134,7 @@ public final class RealmManager: ObservableObject {
         return Set(models.compactMap { $0.fileName })
     }
 
-    private func insert(_ files: Set<String>) {
+    func insert(_ files: Set<String>) {
         do {
             try realm?.write {
                 let newModels = createSoundModels(from: files)

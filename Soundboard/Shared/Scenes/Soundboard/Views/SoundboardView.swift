@@ -7,12 +7,9 @@
 
 import SwiftUI
 import RealmSwift
-import TipKit
 
 struct SoundboardView: View {
     @Environment(\.requestReview) private var requestReview
-    @EnvironmentObject private var router: Router
-    @EnvironmentObject private var realmManager: RealmManager
     @EnvironmentObject private var viewModel: SoundboardViewModel
 
     var body: some View {
@@ -32,9 +29,6 @@ struct SoundboardView: View {
                 if shouldRequestReview {
                     requestReview()
                 }
-            }
-            .onAppear {
-                viewModel.onViewDidAppear(realmManager)
             }
     }
 }

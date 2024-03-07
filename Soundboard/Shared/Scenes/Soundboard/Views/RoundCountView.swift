@@ -14,7 +14,6 @@ public struct RoundCountView: View {
     private let font = Font.caption2
 
     public var body: some View {
-        let _ = print(Self._printChanges())
         VStack {
             Text("\(animatedValue)")
                 .contentTransition(.numericText(value: Double(animatedValue)))

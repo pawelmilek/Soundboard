@@ -4,6 +4,7 @@
 //
 //  Created by Pawel Milek on 1/24/24.
 //
+// swiftlint:disable identifier_name
 
 import Foundation
 
@@ -14,30 +15,22 @@ enum SoundboardSortOrder: String, Identifiable, CaseIterable, CustomStringConver
     var id: Self { self }
     var description: String {
         switch self {
-        case .title:
-            "Title"
-        case .playback:
-            "Playback"
+        case .title: "Title"
+        case .playback: "Playback"
         }
     }
 
-    var keyPath: String  {
+    var keyPath: String {
         switch self {
-        case .title:
-            "title"
-
-        case .playback:
-            "playbackCount"
+        case .title: "title"
+        case .playback: "playbackCount"
         }
     }
 
     var ascending: Bool {
         switch self {
-        case .title:
-            true
-
-        case .playback:
-            false
+        case .title: true
+        case .playback: false
         }
     }
 }

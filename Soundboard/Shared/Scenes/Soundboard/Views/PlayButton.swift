@@ -12,9 +12,7 @@ struct PlayButton: View {
     @State private var isOn = false
 
     var onAction: @MainActor () -> Void
-    private var symbol: String {
-        "play.circle.fill"
-    }
+    private let symbol = "play.circle.fill"
 
     private var font: Font {
         UIDevice.current.userInterfaceIdiom == .phone
@@ -34,8 +32,9 @@ struct PlayButton: View {
                 value: isOn
             )
             .font(font)
-            .fontWeight(.thin)
+            .fontWeight(.semibold)
             .foregroundColor(.accentColor)
+            .shadow(color: .primary.opacity(0.25), radius: 2, x: 0, y: 0)
             .onTapGesture {
                 onAction()
                 isOn.toggle()

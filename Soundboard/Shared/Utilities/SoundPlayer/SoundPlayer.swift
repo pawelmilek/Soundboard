@@ -8,26 +8,26 @@
 import Foundation
 import AVFoundation
 
-public protocol PlayerProtocol {
+protocol PlayerProtocol {
     var delegate: AVAudioPlayerDelegate? { get set }
 
     func playSound(_ name: String)
     func stopSound()
 }
 
-public final class SoundPlayer: PlayerProtocol {
+final class SoundPlayer: PlayerProtocol {
     public weak var delegate: AVAudioPlayerDelegate?
     private var player: AVAudioPlayer?
-    private let soundFileManager: FileManagerProtocol
+    private let soundFileManager: SoundResourcesManagerProtocol
 
-    public init(soundFileManager: FileManagerProtocol = SoundFileManager()) {
+    init(soundFileManager: SoundResourcesManagerProtocol = SoundResourcesManager()) {
         self.soundFileManager = soundFileManager
     }
 
-    public func playSound(_ name: String) {
+    func playSound(_ name: String) {
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback)
-            let url = try soundFileManager.audioURL(for: name)
+            let url = try soundFileManager.audioFileURL(with: name)
             player = try AVAudioPlayer(contentsOf: url)
             player?.volume = 1.0
             player?.delegate = delegate
@@ -38,7 +38,7 @@ public final class SoundPlayer: PlayerProtocol {
         }
     }
 
-    public func stopSound() {
+    func stopSound() {
         player?.stop()
     }
 }

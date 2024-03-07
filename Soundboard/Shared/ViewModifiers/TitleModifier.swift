@@ -14,7 +14,7 @@ struct TitleModifier: ViewModifier {
         case pad
 
         var font: Font { .subheadline }
-        var fontWeight:  Font.Weight { .semibold }
+        var fontWeight: Font.Weight { .semibold }
 
         var lineLimit: (limit: Int, reservesSpace: Bool) {
             switch self {

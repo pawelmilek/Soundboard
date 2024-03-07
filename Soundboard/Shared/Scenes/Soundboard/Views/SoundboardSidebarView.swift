@@ -15,7 +15,6 @@ struct SoundboardSidebarView: View {
     var body: some View {
         List(viewModel.searchResult, selection: $selectedSound) { sound in
             SoundboardPadRow(item: sound)
-//                .listRowBackground(Color.clear)
                 .tag(sound)
         }
     }
@@ -23,5 +22,11 @@ struct SoundboardSidebarView: View {
 
 #Preview {
     SoundboardSidebarView(selectedSound: .constant(SoundModel.example.first!))
-        .environmentObject(SoundboardViewModel())
+        .environmentObject(
+            SoundboardViewModel(
+                player: SoundPlayer(),
+                shareContentProvider: ShareContentProvider(),
+                realm: RealmManager.previewRealm
+            )
+        )
 }

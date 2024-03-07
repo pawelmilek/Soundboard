@@ -6,7 +6,6 @@
 //  Copyright © 2024 Pawel Milek. All rights reserved.
 //
 
-
 import Foundation
 
 enum JSONFileLoader {
