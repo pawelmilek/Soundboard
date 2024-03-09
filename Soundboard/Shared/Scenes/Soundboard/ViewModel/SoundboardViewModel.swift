@@ -32,7 +32,7 @@ final class SoundboardViewModel: NSObject, ObservableObject {
     let infoToolbarSymbol = "info.circle"
     let composerToolbarSymbol = "music.quarternote.3"
     let sortToolbarSymbol = "arrow.up.arrow.down"
-    let informationTip = InformationTip()
+    let composerTip = ComposerTip()
 
     private var cancallables = Set<AnyCancellable>()
     private var itemsToken: NotificationToken?

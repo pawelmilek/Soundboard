@@ -96,14 +96,13 @@ private extension SoundboardSearchResults {
         Button(action: navigateToInfo) {
             Image(systemName: viewModel.infoToolbarSymbol)
         }
-        .popoverTip(viewModel.informationTip, arrowEdge: .top)
     }
 
     var composerToolbarItem: some View {
         Button(action: navigateToComposer) {
             Image(systemName: viewModel.composerToolbarSymbol)
         }
-        .popoverTip(ComposerTip(), arrowEdge: .top)
+        .popoverTip(viewModel.composerTip, arrowEdge: .top)
     }
 
     var sortToolbarMenu: some View {
