@@ -8,6 +8,7 @@
 
 import SwiftUI
 import RealmSwift
+import TipKit
 
 struct ComposerView: View {
     @ObservedResults(SoundModel.self) private var sounds
@@ -40,7 +41,7 @@ struct ComposerView: View {
                 }
                 .padding(.horizontal, 10)
             }
-            GroupBox("Sound") {
+            GroupBox {
                 ScrollView(.vertical) {
                     WrappedHStack(composeSounds) { item in
                         Button {
@@ -57,7 +58,7 @@ struct ComposerView: View {
                 .animation(.bouncy, value: composeSounds)
                 .overlay {
                     ContentUnavailableView(
-                        "Compose a sound bit",
+                        "No sounds selected",
                         systemImage: "music.note.list"
                     )
                     .opacity(composeSounds.isEmpty ? 1 : 0)
@@ -68,6 +69,17 @@ struct ComposerView: View {
                     .disabled(isButtonDisabled)
                     .animation(.easeOut, value: composeSounds)
                     .environmentObject(composer)
+            } label: {
+                HStack {
+                    Text("Compose a sound bit")
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    Button(action: presentNewSoundForm) {
+                        Image(systemName: "externaldrive.badge.plus")
+                    }
+                    .buttonStyle(.bordered)
+                    .disabled(isButtonDisabled)
+                    .popoverTip(StoreComposerTip(), arrowEdge: .top)
+                }
             }
             .ignoresSafeArea(edges: .bottom)
             .frame(height: 290)
@@ -75,14 +87,15 @@ struct ComposerView: View {
         .scrollBounceBehavior(.basedOnSize)
         .navigationTitle("Composer")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                Button(action: presentNewSoundForm) {
-                    Image(systemName: "plus.circle")
-                }
-                .disabled(isButtonDisabled)
-            }
-        }
+//        .toolbar {
+//            ToolbarItem(placement: .topBarTrailing) {
+//                Button(action: presentNewSoundForm) {
+//                    Image(systemName: "externaldrive.badge.plus")
+//                }
+//                .disabled(isButtonDisabled)
+//                .popoverTip(StoreComposerTip(), arrowEdge: .top)
+//            }
+//        }
         .alert("Sound", isPresented: $presentFormAlert) {
             TextField("Name", text: $newSoundName)
                 .autocorrectionDisabled()

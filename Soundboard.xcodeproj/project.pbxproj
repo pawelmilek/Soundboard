@@ -18,6 +18,20 @@
 		E213EFCD2B9C8C8D0076E3D0 /* ComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFC82B9C8C8D0076E3D0 /* ComposerTip.swift */; };
 		E213EFCE2B9C8C8D0076E3D0 /* ComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFC82B9C8C8D0076E3D0 /* ComposerTip.swift */; };
 		E213EFCF2B9C8C8D0076E3D0 /* ComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFC82B9C8C8D0076E3D0 /* ComposerTip.swift */; };
+		E213EFD12B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */; };
+		E213EFD22B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */; };
+		E213EFD32B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */; };
+		E213EFD42B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */; };
+		E213EFD52B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */; };
+		E213EFD62B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */; };
+		E213EFD72B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */; };
+		E213EFD92B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */; };
+		E213EFDA2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */; };
+		E213EFDB2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */; };
+		E213EFDC2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */; };
+		E213EFDD2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */; };
+		E213EFDE2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */; };
+		E213EFDF2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */; };
 		E2206DD72B99A955008F6DFA /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2206DD62B99A955008F6DFA /* ComposerView.swift */; };
 		E2206DD82B99A955008F6DFA /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2206DD62B99A955008F6DFA /* ComposerView.swift */; };
 		E2206DD92B99A955008F6DFA /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2206DD62B99A955008F6DFA /* ComposerView.swift */; };
@@ -2482,6 +2496,8 @@
 /* Begin PBXFileReference section */
 		E20575122B0E2AEF00C1DA6D /* SoundboardSearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundboardSearchResults.swift; sourceTree = "<group>"; };
 		E213EFC82B9C8C8D0076E3D0 /* ComposerTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerTip.swift; sourceTree = "<group>"; };
+		E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreComposerTip.swift; sourceTree = "<group>"; };
+		E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorePreviewTip.swift; sourceTree = "<group>"; };
 		E2206DD62B99A955008F6DFA /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
 		E2206DDE2B99AE4E008F6DFA /* ComposerGridItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerGridItem.swift; sourceTree = "<group>"; };
 		E22CC74A2B1A24A6007C3B30 /* Trump Board.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trump Board.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -5609,6 +5625,8 @@
 			children = (
 				E2CC993E2B610BD90044634E /* InformationTip.swift */,
 				E213EFC82B9C8C8D0076E3D0 /* ComposerTip.swift */,
+				E213EFD02B9EEBB30076E3D0 /* StoreComposerTip.swift */,
+				E213EFD82B9F19BB0076E3D0 /* AppStorePreviewTip.swift */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -7438,12 +7456,12 @@
 			projectRoot = "";
 			targets = (
 				E2C7B5F82B61846E0050B388 /* Arnold Board */,
+				E22CC7492B1A24A6007C3B30 /* Trump Board */,
 				E29319C02B189E4200D3C461 /* Kamraci Board */,
 				E2C6F2EE2AF6DF0E00C8B73B /* Konon Board */,
 				E2FAA9C12B0CE3AD00C7E393 /* Korwin Board */,
 				E2FAA7E12B0CC20500C7E393 /* Major Board */,
 				E2BDF3F92AF5423700D136C9 /* Stonoga Board */,
-				E22CC7492B1A24A6007C3B30 /* Trump Board */,
 			);
 		};
 /* End PBXProject section */
@@ -9705,9 +9723,11 @@
 				E22CC7642B1A29EC007C3B30 /* PlayButton.swift in Sources */,
 				E22CC7702B1A29EC007C3B30 /* RealmManager.swift in Sources */,
 				E22CC7682B1A29EC007C3B30 /* TitleModifier.swift in Sources */,
+				E213EFDA2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */,
 				E22CC7652B1A29EC007C3B30 /* SoundboardView.swift in Sources */,
 				E2CC99AE2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E22CC76E2B1A29EC007C3B30 /* PortraitView.swift in Sources */,
+				E213EFD72B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */,
 				E2EE166B2B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC99572B61115C0044634E /* SoundboardSortOrder.swift in Sources */,
 				E2CC998C2B611B360044634E /* InfoRow.swift in Sources */,
@@ -9764,9 +9784,11 @@
 				E2E8BE522B18A16600C37F6A /* RoundCountView.swift in Sources */,
 				E2E8BE532B18A16600C37F6A /* TitleModifier.swift in Sources */,
 				E2E8BE4C2B18A16600C37F6A /* SoundboardViewModel.swift in Sources */,
+				E213EFDB2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */,
 				E2CC99A92B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2E8BE562B18A16F00C37F6A /* RealmManager.swift in Sources */,
 				E2CC99522B6111570044634E /* SoundboardSortOrder.swift in Sources */,
+				E213EFD22B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */,
 				E2EE16662B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC99872B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99752B611B360044634E /* LicenseView.swift in Sources */,
@@ -9823,9 +9845,11 @@
 				E2C6F2142AF6DD2400C8B73B /* PlayButton.swift in Sources */,
 				E2C6F2122AF6DD2400C8B73B /* TitleModifier.swift in Sources */,
 				E20575132B0E2AEF00C1DA6D /* SoundboardSearchResults.swift in Sources */,
+				E213EFDF2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */,
 				E2BDF3FE2AF5423700D136C9 /* SoundboardApp.swift in Sources */,
 				E2CC99AD2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2CC99562B61115C0044634E /* SoundboardSortOrder.swift in Sources */,
+				E213EFD62B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */,
 				E2EE166A2B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC998B2B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99792B611B360044634E /* LicenseView.swift in Sources */,
@@ -9882,9 +9906,11 @@
 				E2319FE92AF7A7D5004D54ED /* ShareContent.swift in Sources */,
 				E20575142B0E2AEF00C1DA6D /* SoundboardSearchResults.swift in Sources */,
 				E2319FF32AF7A804004D54ED /* SoundResourcesManager.swift in Sources */,
+				E213EFDC2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */,
 				E2CC99AA2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2319FE82AF7A7D5004D54ED /* SoundModel.swift in Sources */,
 				E2CC99532B61115A0044634E /* SoundboardSortOrder.swift in Sources */,
+				E213EFD32B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */,
 				E2EE16672B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC99882B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99762B611B360044634E /* LicenseView.swift in Sources */,
@@ -9941,9 +9967,11 @@
 				E2C7B6292B6185390050B388 /* FrameworkList.swift in Sources */,
 				E2C7B6202B61852A0050B388 /* ShareButton.swift in Sources */,
 				E2C7B6192B61852A0050B388 /* SoundboardRow.swift in Sources */,
+				E213EFD92B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */,
 				E2C7B6122B6185180050B388 /* FileLoaderError.swift in Sources */,
 				E2C7B6172B6185220050B388 /* TipConfigurationViewModifier.swift in Sources */,
 				E2C7B62B2B6185390050B388 /* HTMLView.swift in Sources */,
+				E213EFD12B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */,
 				E2EE16652B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2C7B6142B6185180050B388 /* JSONParser.swift in Sources */,
 				E2C7B60D2B6185130050B388 /* RealmManager.swift in Sources */,
@@ -10000,9 +10028,11 @@
 				E20575152B0E2AEF00C1DA6D /* SoundboardSearchResults.swift in Sources */,
 				E2FAA7F32B0CC85A00C7E393 /* PortraitView.swift in Sources */,
 				E2FAA7F72B0CC85A00C7E393 /* ShareButton.swift in Sources */,
+				E213EFDE2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */,
 				E2CC99AC2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2FAA7FF2B0CC86C00C7E393 /* SoundResourcesManager.swift in Sources */,
 				E2CC99552B61115B0044634E /* SoundboardSortOrder.swift in Sources */,
+				E213EFD52B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */,
 				E2EE16692B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC998A2B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99782B611B360044634E /* LicenseView.swift in Sources */,
@@ -10059,9 +10089,11 @@
 				E20575162B0E2AEF00C1DA6D /* SoundboardSearchResults.swift in Sources */,
 				E2FAA9DE2B0CE42400C7E393 /* SoundboardRow.swift in Sources */,
 				E2FAA9E12B0CE42400C7E393 /* RoundCountView.swift in Sources */,
+				E213EFDD2B9F19BB0076E3D0 /* AppStorePreviewTip.swift in Sources */,
 				E2CC99AB2B611CE30044634E /* UIDevice+ModelName.swift in Sources */,
 				E2FAA9EC2B0CE43300C7E393 /* SoundModel.swift in Sources */,
 				E2CC99542B61115B0044634E /* SoundboardSortOrder.swift in Sources */,
+				E213EFD42B9EEBB30076E3D0 /* StoreComposerTip.swift in Sources */,
 				E2EE16682B84A94F007460FB /* SharePadButton.swift in Sources */,
 				E2CC99892B611B360044634E /* InfoRow.swift in Sources */,
 				E2CC99772B611B360044634E /* LicenseView.swift in Sources */,
@@ -10115,7 +10147,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10157,7 +10189,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/TrumpBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10199,7 +10231,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10241,7 +10273,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KamraciBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10402,7 +10434,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/StonogaBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10444,7 +10476,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/StonogaBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10486,7 +10518,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KononBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10528,7 +10560,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KononBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10571,7 +10603,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Arnold Board.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/ArnoldBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10614,7 +10646,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Arnold Board.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/ArnoldBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10656,7 +10688,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/MajorBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10698,7 +10730,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/MajorBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10740,7 +10772,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KorwinBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;
@@ -10782,7 +10814,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_ASSET_PATHS = "\"Soundboard/KorwinBoard/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = N3HG6C68EY;

@@ -7,6 +7,7 @@
 
 import SwiftUI
 import StoreKit
+import TipKit
 
 struct InformationView: View {
     @StateObject private var viewModel = InformationViewModel()
@@ -44,7 +45,7 @@ struct InformationView: View {
                     content: viewModel.frameworks
                 )
                 InfoRow(
-                    tintColor: .green,
+                    tintColor: .blue,
                     symbol: "ellipsis.curlybraces",
                     title: "Developer",
                     content: "Pawel Milek",
@@ -65,7 +66,22 @@ struct InformationView: View {
             } header: {
                 Text("About the app")
             }
-
+            Section {
+                InfoRow(
+                    tintColor: .blue,
+                    symbol: "apps.iphone",
+                    title: "Apps Preview",
+                    content: nil,
+                    link: (
+                        destination: viewModel.appStorePreviewURL,
+                        label: ""
+                    ),
+                    action: nil
+                )
+                .popoverTip(viewModel.previewTip, arrowEdge: .bottom)
+            } header: {
+                Text("App Store")
+            }
             Section {
                 InfoRow(
                     tintColor: .blue,
@@ -121,8 +137,11 @@ struct InformationView: View {
             } footer: {
                 HStack {
                     Text(viewModel.copyright)
+                        .font(.footnote)
+                        .multilineTextAlignment(.center)
                         .frame(maxWidth: .infinity, alignment: .center)
                 }
+                .padding(.top, 20)
                 .padding(.vertical, 8)
             }
             .padding(.top, 1)

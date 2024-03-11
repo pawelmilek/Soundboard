@@ -15,9 +15,10 @@ final class InformationViewModel: ObservableObject {
     @Published private(set) var appVersion = ""
     @Published private(set) var appCompatibility = ""
     @Published private(set) var appURLString = ""
+    @Published private(set) var appStorePreviewURL = ""
     @Published private(set) var copyright = ""
     @Published private(set) var frameworks = [String]()
-
+    @Published private(set) var previewTip = AppStorePreviewTip()
     private var recipient: String?
     private var privacyPolicyURL: URL?
     private var writeReviewURL: URL?
@@ -26,9 +27,11 @@ final class InformationViewModel: ObservableObject {
         appName = Bundle.applicationName
         appVersion = "\(Bundle.versionNumber) (\(Bundle.buildNumber))"
         appCompatibility = "iOS \(Bundle.minimumOSVersion)"
-        copyright = "Copyright © Pawel Milek. All rights reserved."
-        frameworks = ["SwiftUI", "Combine", "StoreKit", "WebKit", "TipKit"]
 
+        let currentYear = String(Calendar.current.component(.year, from: .now))
+        copyright = "Copyright © \(currentYear) Pawel Milek.\nAll rights reserved."
+        frameworks = ["SwiftUI", "Combine", "StoreKit", "WebKit", "TipKit"]
+        appStorePreviewURL = "https://apps.apple.com/us/developer/pawel-milek/id1139599148"
         setupConfigurationValues()
     }
 
