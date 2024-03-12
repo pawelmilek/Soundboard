@@ -13,7 +13,6 @@ import TipKit
 struct ComposerView: View {
     @ObservedResults(SoundModel.self) private var sounds
     @EnvironmentObject private var realmManager: RealmManager
-
     @State private var composeSounds = [SoundModel]()
     @State private var newSound: SoundModel?
     @State private var newSoundName = ""
@@ -87,15 +86,6 @@ struct ComposerView: View {
         .scrollBounceBehavior(.basedOnSize)
         .navigationTitle("Composer")
         .navigationBarTitleDisplayMode(.inline)
-//        .toolbar {
-//            ToolbarItem(placement: .topBarTrailing) {
-//                Button(action: presentNewSoundForm) {
-//                    Image(systemName: "externaldrive.badge.plus")
-//                }
-//                .disabled(isButtonDisabled)
-//                .popoverTip(StoreComposerTip(), arrowEdge: .top)
-//            }
-//        }
         .alert("Sound", isPresented: $presentFormAlert) {
             TextField("Name", text: $newSoundName)
                 .autocorrectionDisabled()
